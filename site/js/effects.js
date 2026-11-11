@@ -54,5 +54,8 @@ window.EFFECTS = {
       "images/managers/winch/1.webp",
       "images/managers/winch/2.webp",
     ],
+    shueiro: [
+      "images/managers/shueiro/1.webp",
+    ],
   },
 };
