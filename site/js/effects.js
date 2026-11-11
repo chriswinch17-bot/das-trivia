@@ -49,6 +49,7 @@ window.EFFECTS = {
     libguel: [
       "images/managers/libguel/1.webp",
       "images/managers/libguel/2.png",
+      "images/managers/libguel/3.webp",
     ],
     winch: [
       "images/managers/winch/1.webp",
