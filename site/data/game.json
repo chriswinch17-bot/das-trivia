@@ -20,7 +20,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Blandon went 13-4 in the 2024-2025 regular season (3rd of 12) with 8,434 points, then lost in the final."
      }
     ],
     "note": null,
@@ -40,10 +41,11 @@
        "Jokić",
        "Nikola",
        "Nikola Jokić"
-      ]
+      ],
+      "detail": "Taken 1st overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
      }
     ],
-    "note": "Taken by I Love Dragić (Victor).",
+    "note": null,
     "about": [
      "victor"
     ],
@@ -67,7 +69,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 5-12 in the 2024-2025 regular season (10th of 12) with 6,352 points and missed the playoffs."
      }
     ],
     "note": "Just 140 points in week 8.",
@@ -85,7 +88,8 @@
       "display": "18",
       "accept": [
        "18"
-      ]
+      ],
+      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
      }
     ],
     "note": null,
@@ -112,7 +116,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 5-12 in the 2024-2025 regular season (10th of 12) with 6,352 points and missed the playoffs."
      }
     ],
     "note": "52 trades.",
@@ -132,10 +137,11 @@
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
-      ]
+      ],
+      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 6 times in Das League."
      }
     ],
-    "note": "Round 1, pick 4 overall.",
+    "note": null,
     "about": [
      "joey"
     ],
@@ -158,7 +164,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Libguel went 7-10 in the 2024-2025 regular season (7th of 12) with 8,019 points and missed the playoffs."
      },
      {
       "display": "2057 Champs (Shueiro)",
@@ -171,7 +178,8 @@
        "Sway",
        "msway21"
       ],
-      "manager": "shueiro"
+      "manager": "shueiro",
+      "detail": "Shueiro went 7-10 in the 2024-2025 regular season (8th of 12) with 7,902 points and missed the playoffs."
      },
      {
       "display": "Saboners (Verdeja)",
@@ -185,7 +193,8 @@
        "Verdy",
        "Verdy11"
       ],
-      "manager": "verdeja"
+      "manager": "verdeja",
+      "detail": "Verdeja went 6-11 in the 2024-2025 regular season (9th of 12) with 7,277 points and missed the playoffs."
      },
      {
       "display": "The Edey and Matas Show (Papo)",
@@ -198,7 +207,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 5-12 in the 2024-2025 regular season (10th of 12) with 6,352 points and missed the playoffs."
      },
      {
       "display": "MoonUnit (Ricky)",
@@ -210,7 +220,8 @@
        "Rick",
        "Ricky"
       ],
-      "manager": "ricky"
+      "manager": "ricky",
+      "detail": "Ricky went 4-13 in the 2024-2025 regular season (11th of 12) with 6,807 points and missed the playoffs."
      },
      {
       "display": "hotrelish (Jacobo)",
@@ -220,7 +231,8 @@
        "Jake",
        "hotrelish"
       ],
-      "manager": "jacobo"
+      "manager": "jacobo",
+      "detail": "Jacobo went 3-14 in the 2024-2025 regular season (12th of 12) with 6,789 points and missed the playoffs."
      }
     ],
     "note": null,
@@ -242,7 +254,8 @@
        "Alperen",
        "Alperen Şengün",
        "Şengün"
-      ]
+      ],
+      "detail": "Taken 23rd overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 3 times in Das League."
      },
      {
       "display": "Cade Cunningham",
@@ -250,7 +263,8 @@
        "Cade",
        "Cade Cunningham",
        "Cunningham"
-      ]
+      ],
+      "detail": "Taken 14th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Devin Booker",
@@ -258,7 +272,8 @@
        "Booker",
        "Devin",
        "Devin Booker"
-      ]
+      ],
+      "detail": "Taken 15th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Donovan Mitchell",
@@ -266,7 +281,8 @@
        "Donovan",
        "Donovan Mitchell",
        "Mitchell"
-      ]
+      ],
+      "detail": "Taken 18th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Evan Mobley",
@@ -274,7 +290,8 @@
        "Evan",
        "Evan Mobley",
        "Mobley"
-      ]
+      ],
+      "detail": "Taken 21st overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Ja Morant",
@@ -282,7 +299,8 @@
        "Ja",
        "Ja Morant",
        "Morant"
-      ]
+      ],
+      "detail": "Taken 17th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 3 times in Das League."
      },
      {
       "display": "Jaren Jackson Jr.",
@@ -291,7 +309,8 @@
        "Jaren",
        "Jaren Jackson",
        "Jaren Jackson Jr."
-      ]
+      ],
+      "detail": "Taken 24th overall by I Love Dragić (Victor) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Jaylen Brown",
@@ -299,7 +318,8 @@
        "Brown",
        "Jaylen",
        "Jaylen Brown"
-      ]
+      ],
+      "detail": "Taken 22nd overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Karl-Anthony Towns",
@@ -307,7 +327,8 @@
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
-      ]
+      ],
+      "detail": "Taken 19th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 3 times in Das League."
      },
      {
       "display": "Paolo Banchero",
@@ -315,7 +336,8 @@
        "Banchero",
        "Paolo",
        "Paolo Banchero"
-      ]
+      ],
+      "detail": "Taken 13th overall by Saboners (Verdeja) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Scoot Henderson",
@@ -323,7 +345,8 @@
        "Henderson",
        "Scoot",
        "Scoot Henderson"
-      ]
+      ],
+      "detail": "Taken 20th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Trae Young",
@@ -331,7 +354,8 @@
        "Trae",
        "Trae Young",
        "Young"
-      ]
+      ],
+      "detail": "Taken 16th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
      }
     ],
     "note": null,
@@ -356,7 +380,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
      }
     ],
     "note": "That was the name in 2024-2025.",
@@ -381,7 +406,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 15-3 in the 2023-2024 regular season (1st of 12) with 9,197 points, then finished third."
      },
      {
       "display": "Kareem Abdul-Jabong (Melo)",
@@ -395,7 +421,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 12-6 in the 2023-2024 regular season (2nd of 12) with 9,139 points, then finished fourth."
      },
      {
       "display": "Rabbi BT69 (Blandon)",
@@ -409,7 +436,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Blandon went 12-6 in the 2023-2024 regular season (3rd of 12) with 8,596 points, then won the championship."
      },
      {
       "display": "Fidel’s Accumulators (Joey)",
@@ -421,7 +449,8 @@
        "Joseph",
        "hughjasnuts"
       ],
-      "manager": "joey"
+      "manager": "joey",
+      "detail": "Joey went 11-6-1 in the 2023-2024 regular season (4th of 12) with 8,695 points, then lost in the first round of the playoffs."
      },
      {
       "display": "Luka Deez Nuts (Papo)",
@@ -434,7 +463,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 11-7 in the 2023-2024 regular season (5th of 12) with 9,052 points, then lost in the final."
      }
     ],
     "note": null,
@@ -454,11 +484,14 @@
        "Derrick",
        "Derrick White",
        "White"
-      ]
+      ],
+      "detail": "Taken 131st overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 11 times in Das League."
      }
     ],
-    "note": "Traded 11 times.",
-    "about": [],
+    "note": null,
+    "about": [
+     "papo"
+    ],
     "sources": [
      "trades.json"
     ]
@@ -475,7 +508,8 @@
        "Jaren",
        "Jaren Jackson",
        "Jaren Jackson Jr."
-      ]
+      ],
+      "detail": "Taken 24th overall by I Love Dragić (Victor) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Josh Giddey",
@@ -483,7 +517,8 @@
        "Giddey",
        "Josh",
        "Josh Giddey"
-      ]
+      ],
+      "detail": "Taken 25th overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Kyrie Irving",
@@ -491,7 +526,8 @@
        "Irving",
        "Kyrie",
        "Kyrie Irving"
-      ]
+      ],
+      "detail": "Taken 48th overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Nikola Jokić",
@@ -499,7 +535,8 @@
        "Jokić",
        "Nikola",
        "Nikola Jokić"
-      ]
+      ],
+      "detail": "Taken 1st overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Walker Kessler",
@@ -507,7 +544,8 @@
        "Kessler",
        "Walker",
        "Walker Kessler"
-      ]
+      ],
+      "detail": "Taken 49th overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
      }
     ],
     "note": null,
@@ -533,7 +571,8 @@
        "Equipito PapoChullo",
        "Lochte & Associates"
       ],
-      "manager": "chalela"
+      "manager": "chalela",
+      "detail": "Chalela went 12-8 in the 2025-2026 regular season (5th of 12) with 9,010 points, then finished fourth."
      },
      {
       "display": "Equipo Winchenzo (Winch)",
@@ -546,7 +585,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 10-10 in the 2025-2026 regular season (6th of 12) with 9,276 points, then finished third."
      }
     ],
     "note": null,
@@ -566,7 +606,8 @@
        "AJ",
        "AJ Dybantsa",
        "Dybantsa"
-      ]
+      ],
+      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Aday Mara",
@@ -574,7 +615,8 @@
        "Aday",
        "Aday Mara",
        "Mara"
-      ]
+      ],
+      "detail": "Taken 8th overall by Fidel’s Accumulators (Joey) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Brayden Burries",
@@ -582,7 +624,8 @@
        "Brayden",
        "Brayden Burries",
        "Burries"
-      ]
+      ],
+      "detail": "Taken 12th overall by Los Chigüires (Libguel) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Caleb Wilson",
@@ -590,7 +633,8 @@
        "Caleb",
        "Caleb Wilson",
        "Wilson"
-      ]
+      ],
+      "detail": "Taken 3rd overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Cameron Boozer",
@@ -598,7 +642,8 @@
        "Boozer",
        "Cameron",
        "Cameron Boozer"
-      ]
+      ],
+      "detail": "Taken 1st overall by Rabbi BT69 (Blandon) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Darius Acuff Jr.",
@@ -607,7 +652,8 @@
        "Darius",
        "Darius Acuff",
        "Darius Acuff Jr."
-      ]
+      ],
+      "detail": "Taken 2nd overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Darryn Peterson",
@@ -615,7 +661,8 @@
        "Darryn",
        "Darryn Peterson",
        "Peterson"
-      ]
+      ],
+      "detail": "Taken 4th overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Keaton Wagler",
@@ -623,7 +670,8 @@
        "Keaton",
        "Keaton Wagler",
        "Wagler"
-      ]
+      ],
+      "detail": "Taken 6th overall by I Love Dragić (Victor) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Kingston Flemings",
@@ -631,7 +679,8 @@
        "Flemings",
        "Kingston",
        "Kingston Flemings"
-      ]
+      ],
+      "detail": "Taken 7th overall by Fidel’s Accumulators (Joey) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Mikel Brown Jr.",
@@ -640,7 +689,8 @@
        "Mikel",
        "Mikel Brown",
        "Mikel Brown Jr."
-      ]
+      ],
+      "detail": "Taken 9th overall by Los Chigüires (Libguel) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Nate Ament",
@@ -648,7 +698,8 @@
        "Ament",
        "Nate",
        "Nate Ament"
-      ]
+      ],
+      "detail": "Taken 11th overall by LeBong James (Melo) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Yaxel Lendeborg",
@@ -656,7 +707,8 @@
        "Lendeborg",
        "Yaxel",
        "Yaxel Lendeborg"
-      ]
+      ],
+      "detail": "Taken 10th overall by Fidel’s Accumulators (Joey) in the 2026 rookie draft. Never traded in Das League."
      }
     ],
     "note": null,
@@ -683,7 +735,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
      }
     ],
     "note": "That was the name in 2023-2024.",
@@ -707,10 +760,11 @@
        "Rick",
        "Ricky"
       ],
-      "manager": "ricky"
+      "manager": "ricky",
+      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
      }
     ],
-    "note": "3-15",
+    "note": null,
     "about": [],
     "sources": [
      "seasons.json"
@@ -727,7 +781,8 @@
        "Andrew",
        "Andrew Nembhard",
        "Nembhard"
-      ]
+      ],
+      "detail": "Joey got Andrew Nembhard in a trade with Papo on January 6, 2026."
      },
      {
       "display": "Andrew Wiggins",
@@ -735,7 +790,8 @@
        "Andrew",
        "Andrew Wiggins",
        "Wiggins"
-      ]
+      ],
+      "detail": "Joey got Andrew Wiggins in a trade with Papo on July 1, 2025."
      },
      {
       "display": "Brandon Ingram",
@@ -743,7 +799,8 @@
        "Brandon",
        "Brandon Ingram",
        "Ingram"
-      ]
+      ],
+      "detail": "Joey got Brandon Ingram in a trade with Jacobo on June 21, 2025."
      },
      {
       "display": "CJ McCollum",
@@ -751,7 +808,8 @@
        "CJ",
        "CJ McCollum",
        "McCollum"
-      ]
+      ],
+      "detail": "Joey got CJ McCollum in a trade with Winch on November 29, 2023."
      },
      {
       "display": "Cody Williams",
@@ -759,7 +817,8 @@
        "Cody",
        "Cody Williams",
        "Williams"
-      ]
+      ],
+      "detail": "Joey got Cody Williams in a trade with Papo on October 8, 2025."
      },
      {
       "display": "Collin Sexton",
@@ -767,7 +826,8 @@
        "Collin",
        "Collin Sexton",
        "Sexton"
-      ]
+      ],
+      "detail": "Joey got Collin Sexton in a trade with Jacobo on January 6, 2024."
      },
      {
       "display": "Dalton Knecht",
@@ -775,7 +835,8 @@
        "Dalton",
        "Dalton Knecht",
        "Knecht"
-      ]
+      ],
+      "detail": "Joey got Dalton Knecht in a trade with Libguel on February 10, 2025."
      },
      {
       "display": "Deandre Ayton",
@@ -783,7 +844,8 @@
        "Ayton",
        "Deandre",
        "Deandre Ayton"
-      ]
+      ],
+      "detail": "Joey got Deandre Ayton in a trade with Papo on February 10, 2025."
      },
      {
       "display": "Dennis Schröder",
@@ -791,7 +853,8 @@
        "Dennis",
        "Dennis Schröder",
        "Schröder"
-      ]
+      ],
+      "detail": "Joey got Dennis Schröder in a trade with Libguel on December 30, 2023."
      },
      {
       "display": "Derrick White",
@@ -799,7 +862,8 @@
        "Derrick",
        "Derrick White",
        "White"
-      ]
+      ],
+      "detail": "Joey got Derrick White in a trade with Papo on April 20, 2025."
      },
      {
       "display": "Donte DiVincenzo",
@@ -807,7 +871,8 @@
        "DiVincenzo",
        "Donte",
        "Donte DiVincenzo"
-      ]
+      ],
+      "detail": "Joey got Donte DiVincenzo in a trade with Jacobo on February 11, 2024."
      },
      {
       "display": "Isaiah Hartenstein",
@@ -815,7 +880,8 @@
        "Hartenstein",
        "Isaiah",
        "Isaiah Hartenstein"
-      ]
+      ],
+      "detail": "Joey got Isaiah Hartenstein in a trade with Papo on April 5, 2025."
      },
      {
       "display": "Ja Morant",
@@ -823,7 +889,8 @@
        "Ja",
        "Ja Morant",
        "Morant"
-      ]
+      ],
+      "detail": "Joey got Ja Morant in a trade with Papo on October 8, 2025."
      },
      {
       "display": "Jabari Smith Jr.",
@@ -832,7 +899,8 @@
        "Jabari Smith",
        "Jabari Smith Jr.",
        "Smith"
-      ]
+      ],
+      "detail": "Joey got Jabari Smith Jr. in a trade with Papo on September 10, 2025."
      },
      {
       "display": "Jaden McDaniels",
@@ -840,7 +908,8 @@
        "Jaden",
        "Jaden McDaniels",
        "McDaniels"
-      ]
+      ],
+      "detail": "Joey got Jaden McDaniels in a trade with Papo on June 20, 2026."
      },
      {
       "display": "Jalen Suggs",
@@ -848,7 +917,8 @@
        "Jalen",
        "Jalen Suggs",
        "Suggs"
-      ]
+      ],
+      "detail": "Joey got Jalen Suggs in a trade with Papo on June 27, 2026."
      },
      {
       "display": "James Harden",
@@ -856,7 +926,8 @@
        "Harden",
        "James",
        "James Harden"
-      ]
+      ],
+      "detail": "Joey got James Harden in a trade with Papo on November 23, 2024."
      },
      {
       "display": "Jared McCain",
@@ -864,7 +935,8 @@
        "Jared",
        "Jared McCain",
        "McCain"
-      ]
+      ],
+      "detail": "Joey got Jared McCain in a trade with Papo on February 10, 2025."
      },
      {
       "display": "Jerami Grant",
@@ -872,7 +944,8 @@
        "Grant",
        "Jerami",
        "Jerami Grant"
-      ]
+      ],
+      "detail": "Joey got Jerami Grant in a trade with Jacobo on January 6, 2024."
      },
      {
       "display": "Jeremiah Fears",
@@ -880,7 +953,8 @@
        "Fears",
        "Jeremiah",
        "Jeremiah Fears"
-      ]
+      ],
+      "detail": "Joey got Jeremiah Fears in a trade with Papo on January 6, 2026."
      },
      {
       "display": "Jimmy Butler III",
@@ -889,7 +963,8 @@
        "Jimmy",
        "Jimmy Butler",
        "Jimmy Butler III"
-      ]
+      ],
+      "detail": "Joey got Jimmy Butler III in a trade with Papo on November 23, 2024."
      },
      {
       "display": "Jrue Holiday",
@@ -897,7 +972,8 @@
        "Holiday",
        "Jrue",
        "Jrue Holiday"
-      ]
+      ],
+      "detail": "Joey got Jrue Holiday in a trade with Libguel on January 13, 2024."
      },
      {
       "display": "Julius Randle",
@@ -905,7 +981,8 @@
        "Julius",
        "Julius Randle",
        "Randle"
-      ]
+      ],
+      "detail": "Joey got Julius Randle in a trade with Papo on April 20, 2025."
      },
      {
       "display": "Jusuf Nurkić",
@@ -913,7 +990,8 @@
        "Jusuf",
        "Jusuf Nurkić",
        "Nurkić"
-      ]
+      ],
+      "detail": "Joey got Jusuf Nurkić in a trade with Jacobo on June 21, 2025. Joey has traded for Jusuf Nurkić 2 times in all."
      },
      {
       "display": "Karl-Anthony Towns",
@@ -921,7 +999,8 @@
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
-      ]
+      ],
+      "detail": "Joey got Karl-Anthony Towns in a trade with Blandon on January 6, 2024."
      },
      {
       "display": "Kel'el Ware",
@@ -929,7 +1008,8 @@
        "Kel'el",
        "Kel'el Ware",
        "Ware"
-      ]
+      ],
+      "detail": "Joey got Kel'el Ware in a trade with Papo on February 10, 2025."
      },
      {
       "display": "Khris Middleton",
@@ -937,7 +1017,8 @@
        "Khris",
        "Khris Middleton",
        "Middleton"
-      ]
+      ],
+      "detail": "Joey got Khris Middleton in a trade with Papo on February 8, 2024."
      },
      {
       "display": "Klay Thompson",
@@ -945,7 +1026,8 @@
        "Klay",
        "Klay Thompson",
        "Thompson"
-      ]
+      ],
+      "detail": "Joey got Klay Thompson in a trade with Libguel on January 13, 2024."
      },
      {
       "display": "Kristaps Porziņģis",
@@ -953,7 +1035,8 @@
        "Kristaps",
        "Kristaps Porziņģis",
        "Porziņģis"
-      ]
+      ],
+      "detail": "Joey got Kristaps Porziņģis in a trade with Papo on June 13, 2024."
      },
      {
       "display": "Labaron Philon Jr.",
@@ -962,7 +1045,8 @@
        "Labaron Philon",
        "Labaron Philon Jr.",
        "Philon"
-      ]
+      ],
+      "detail": "Joey got Labaron Philon Jr. in a trade with Papo on July 14, 2026."
      },
      {
       "display": "Lauri Markkanen",
@@ -970,7 +1054,8 @@
        "Lauri",
        "Lauri Markkanen",
        "Markkanen"
-      ]
+      ],
+      "detail": "Joey got Lauri Markkanen in a trade with Libguel on December 30, 2023. Joey has traded for Lauri Markkanen 2 times in all."
      },
      {
       "display": "LeBron James",
@@ -978,7 +1063,8 @@
        "James",
        "LeBron",
        "LeBron James"
-      ]
+      ],
+      "detail": "Joey got LeBron James in a trade with Jacobo on January 6, 2024."
      },
      {
       "display": "Lonzo Ball",
@@ -986,7 +1072,8 @@
        "Ball",
        "Lonzo",
        "Lonzo Ball"
-      ]
+      ],
+      "detail": "Joey got Lonzo Ball in a trade with Papo on October 17, 2023."
      },
      {
       "display": "Luka Dončić",
@@ -994,7 +1081,8 @@
        "Dončić",
        "Luka",
        "Luka Dončić"
-      ]
+      ],
+      "detail": "Joey got Luka Dončić in a trade with Papo on July 22, 2024."
      },
      {
       "display": "Michael Porter Jr.",
@@ -1003,7 +1091,8 @@
        "Michael Porter",
        "Michael Porter Jr.",
        "Porter"
-      ]
+      ],
+      "detail": "Joey got Michael Porter Jr. in a trade with Papo on November 21, 2025."
      },
      {
       "display": "Mikal Bridges",
@@ -1011,7 +1100,8 @@
        "Bridges",
        "Mikal",
        "Mikal Bridges"
-      ]
+      ],
+      "detail": "Joey got Mikal Bridges in a trade with Papo on February 10, 2025."
      },
      {
       "display": "Mitchell Robinson",
@@ -1019,7 +1109,8 @@
        "Mitchell",
        "Mitchell Robinson",
        "Robinson"
-      ]
+      ],
+      "detail": "Joey got Mitchell Robinson in a trade with Papo and Jacobo on August 17, 2024."
      },
      {
       "display": "Russell Westbrook",
@@ -1027,7 +1118,8 @@
        "Russell",
        "Russell Westbrook",
        "Westbrook"
-      ]
+      ],
+      "detail": "Joey got Russell Westbrook in a trade with Papo on July 22, 2024."
      },
      {
       "display": "Ryan Conwell",
@@ -1035,7 +1127,8 @@
        "Conwell",
        "Ryan",
        "Ryan Conwell"
-      ]
+      ],
+      "detail": "Joey got Ryan Conwell in a trade with Papo on July 14, 2026."
      },
      {
       "display": "Shaedon Sharpe",
@@ -1043,7 +1136,8 @@
        "Shaedon",
        "Shaedon Sharpe",
        "Sharpe"
-      ]
+      ],
+      "detail": "Joey got Shaedon Sharpe in a trade with Papo on July 14, 2026."
      },
      {
       "display": "Zaccharie Risacher",
@@ -1051,7 +1145,8 @@
        "Risacher",
        "Zaccharie",
        "Zaccharie Risacher"
-      ]
+      ],
+      "detail": "Joey got Zaccharie Risacher in a trade with Papo and Jacobo on August 17, 2024."
      },
      {
       "display": "Zion Williamson",
@@ -1059,7 +1154,8 @@
        "Williamson",
        "Zion",
        "Zion Williamson"
-      ]
+      ],
+      "detail": "Joey got Zion Williamson in a trade with Jacobo on January 6, 2024."
      }
     ],
     "note": null,
@@ -1081,10 +1177,11 @@
        "Anthony",
        "Anthony Edwards",
        "Edwards"
-      ]
+      ],
+      "detail": "Taken 8th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
-    "note": "Round 1, pick 8 overall.",
+    "note": null,
     "about": [
      "libguel"
     ],
@@ -1108,7 +1205,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 15-3 in the 2023-2024 regular season (1st of 12) with 9,197 points, then finished third."
      },
      {
       "display": "Kareem Abdul-Jabong (Melo)",
@@ -1122,7 +1220,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 12-6 in the 2023-2024 regular season (2nd of 12) with 9,139 points, then finished fourth."
      }
     ],
     "note": null,
@@ -1142,7 +1241,8 @@
        "Alex",
        "Alex Sarr",
        "Sarr"
-      ]
+      ],
+      "detail": "Taken 1st overall by Los Chigüires (Libguel) in the 2024 rookie draft. Never traded in Das League."
      },
      {
       "display": "Donovan Clingan",
@@ -1150,7 +1250,8 @@
        "Clingan",
        "Donovan",
        "Donovan Clingan"
-      ]
+      ],
+      "detail": "Taken 5th overall by The Edey and Matas Show (Papo) in the 2024 rookie draft. Traded 1 time in Das League."
      },
      {
       "display": "Ron Holland",
@@ -1158,7 +1259,8 @@
        "Holland",
        "Ron",
        "Ron Holland"
-      ]
+      ],
+      "detail": "Taken 2nd overall by MoonUnit (Ricky) in the 2024 rookie draft. Never traded in Das League."
      },
      {
       "display": "Stephon Castle",
@@ -1166,7 +1268,8 @@
        "Castle",
        "Stephon",
        "Stephon Castle"
-      ]
+      ],
+      "detail": "Taken 3rd overall by The Edey and Matas Show (Papo) in the 2024 rookie draft. Traded 3 times in Das League."
      },
      {
       "display": "Zaccharie Risacher",
@@ -1174,7 +1277,8 @@
        "Risacher",
        "Zaccharie",
        "Zaccharie Risacher"
-      ]
+      ],
+      "detail": "Taken 4th overall by The Edey and Matas Show (Papo) in the 2024 rookie draft. Traded 3 times in Das League."
      }
     ],
     "note": null,
@@ -1196,7 +1300,8 @@
        "Jake",
        "hotrelish"
       ],
-      "manager": "jacobo"
+      "manager": "jacobo",
+      "detail": "Jacobo went 7-13 in the 2025-2026 regular season (10th of 12) with 8,074 points and missed the playoffs."
      }
     ],
     "note": "Lost 147-456 to Los Chigüires (Libguel) in week 17.",
@@ -1226,7 +1331,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 12-6 in the 2023-2024 regular season (2nd of 12) with 9,139 points, then finished fourth."
      }
     ],
     "note": "648 points in week 13.",
@@ -1251,7 +1357,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 11-7 in the 2023-2024 regular season (5th of 12) with 9,052 points, then lost in the final."
      }
     ],
     "note": "23 trades.",
@@ -1271,10 +1378,11 @@
        "Dončić",
        "Luka",
        "Luka Dončić"
-      ]
+      ],
+      "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 4 times in Das League."
      }
     ],
-    "note": "Round 1, pick 2 overall.",
+    "note": null,
     "about": [
      "papo"
     ],
@@ -1298,7 +1406,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
      }
     ],
     "note": null,
@@ -1318,7 +1427,8 @@
        "Alex",
        "Alex Sarr",
        "Sarr"
-      ]
+      ],
+      "detail": "Taken 1st overall by Los Chigüires (Libguel) in the 2024 rookie draft. Never traded in Das League."
      },
      {
       "display": "Cody Williams",
@@ -1326,7 +1436,8 @@
        "Cody",
        "Cody Williams",
        "Williams"
-      ]
+      ],
+      "detail": "Taken 10th overall by 2057 Champs (Shueiro) in the 2024 rookie draft. Traded 1 time in Das League."
      },
      {
       "display": "Donovan Clingan",
@@ -1334,7 +1445,8 @@
        "Clingan",
        "Donovan",
        "Donovan Clingan"
-      ]
+      ],
+      "detail": "Taken 5th overall by The Edey and Matas Show (Papo) in the 2024 rookie draft. Traded 1 time in Das League."
      },
      {
       "display": "Kel'el Ware",
@@ -1342,7 +1454,8 @@
        "Kel'el",
        "Kel'el Ware",
        "Ware"
-      ]
+      ],
+      "detail": "Taken 12th overall by The Edey and Matas Show (Papo) in the 2024 rookie draft. Traded 2 times in Das League."
      },
      {
       "display": "Matas Buzelis",
@@ -1350,7 +1463,8 @@
        "Buzelis",
        "Matas",
        "Matas Buzelis"
-      ]
+      ],
+      "detail": "Taken 6th overall by The Edey and Matas Show (Papo) in the 2024 rookie draft. Traded 1 time in Das League."
      },
      {
       "display": "Reed Sheppard",
@@ -1358,7 +1472,8 @@
        "Reed",
        "Reed Sheppard",
        "Sheppard"
-      ]
+      ],
+      "detail": "Taken 7th overall by I Love Dragić (Victor) in the 2024 rookie draft. Never traded in Das League."
      },
      {
       "display": "Rob Dillingham",
@@ -1366,7 +1481,8 @@
        "Dillingham",
        "Rob",
        "Rob Dillingham"
-      ]
+      ],
+      "detail": "Taken 8th overall by MoonUnit (Ricky) in the 2024 rookie draft. Traded 3 times in Das League."
      },
      {
       "display": "Ron Holland",
@@ -1374,7 +1490,8 @@
        "Holland",
        "Ron",
        "Ron Holland"
-      ]
+      ],
+      "detail": "Taken 2nd overall by MoonUnit (Ricky) in the 2024 rookie draft. Never traded in Das League."
      },
      {
       "display": "Stephon Castle",
@@ -1382,7 +1499,8 @@
        "Castle",
        "Stephon",
        "Stephon Castle"
-      ]
+      ],
+      "detail": "Taken 3rd overall by The Edey and Matas Show (Papo) in the 2024 rookie draft. Traded 3 times in Das League."
      },
      {
       "display": "Tidjane Salaün",
@@ -1390,7 +1508,8 @@
        "Salaün",
        "Tidjane",
        "Tidjane Salaün"
-      ]
+      ],
+      "detail": "Taken 11th overall by MoonUnit (Ricky) in the 2024 rookie draft. Traded 3 times in Das League."
      },
      {
       "display": "Zaccharie Risacher",
@@ -1398,7 +1517,8 @@
        "Risacher",
        "Zaccharie",
        "Zaccharie Risacher"
-      ]
+      ],
+      "detail": "Taken 4th overall by The Edey and Matas Show (Papo) in the 2024 rookie draft. Traded 3 times in Das League."
      },
      {
       "display": "Zach Edey",
@@ -1406,7 +1526,8 @@
        "Edey",
        "Zach",
        "Zach Edey"
-      ]
+      ],
+      "detail": "Taken 9th overall by The Edey and Matas Show (Papo) in the 2024 rookie draft. Traded 3 times in Das League."
      }
     ],
     "note": null,
@@ -1430,7 +1551,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Through 2025-2026, Libguel is 29-26 in the regular season with 1 playoff trip and 1 title. Libguel has made 22 trades in all."
      }
     ],
     "note": "16 straight wins in 2025-2026 (regular season).",
@@ -1454,7 +1576,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
      }
     ],
     "note": "610 points in week 7.",
@@ -1476,7 +1599,8 @@
        "Daniel",
        "Daniel Gafford",
        "Gafford"
-      ]
+      ],
+      "detail": "Victor got Daniel Gafford in a trade with Papo on October 4, 2024."
      },
      {
       "display": "Draymond Green",
@@ -1484,7 +1608,8 @@
        "Draymond",
        "Draymond Green",
        "Green"
-      ]
+      ],
+      "detail": "Victor got Draymond Green in a trade with Papo on February 10, 2025."
      },
      {
       "display": "Fred VanVleet",
@@ -1492,7 +1617,8 @@
        "Fred",
        "Fred VanVleet",
        "VanVleet"
-      ]
+      ],
+      "detail": "Victor got Fred VanVleet in a trade with Papo on October 4, 2024."
      },
      {
       "display": "Jaylen Wells",
@@ -1500,7 +1626,8 @@
        "Jaylen",
        "Jaylen Wells",
        "Wells"
-      ]
+      ],
+      "detail": "Victor got Jaylen Wells in a trade with Blandon on February 6, 2025."
      },
      {
       "display": "Jonas Valančiūnas",
@@ -1508,7 +1635,8 @@
        "Jonas",
        "Jonas Valančiūnas",
        "Valančiūnas"
-      ]
+      ],
+      "detail": "Victor got Jonas Valančiūnas in a trade with Papo on October 4, 2024."
      },
      {
       "display": "Kobe Bufkin",
@@ -1516,7 +1644,8 @@
        "Bufkin",
        "Kobe",
        "Kobe Bufkin"
-      ]
+      ],
+      "detail": "Victor got Kobe Bufkin in a trade with Blandon on October 10, 2025."
      },
      {
       "display": "Nikola Jović",
@@ -1524,7 +1653,8 @@
        "Jović",
        "Nikola",
        "Nikola Jović"
-      ]
+      ],
+      "detail": "Victor got Nikola Jović in a trade with Papo on February 10, 2025."
      }
     ],
     "note": null,
@@ -1546,10 +1676,11 @@
        "Chet",
        "Chet Holmgren",
        "Holmgren"
-      ]
+      ],
+      "detail": "Taken 11th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 3 times in Das League."
      }
     ],
-    "note": "Round 1, pick 11 overall.",
+    "note": null,
     "about": [
      "shueiro"
     ],
@@ -1573,7 +1704,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips and 0 titles. Winch has made 39 trades in all."
      },
      {
       "display": "LeBong James (Melo)",
@@ -1587,7 +1719,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Through 2025-2026, Melo is 35-20 in the regular season with 3 playoff trips and 1 title. Melo has made 21 trades in all."
      }
     ],
     "note": null,
@@ -1607,7 +1740,8 @@
        "Ace",
        "Ace Bailey",
        "Bailey"
-      ]
+      ],
+      "detail": "Taken 4th overall by hotrelish (Jacobo) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Cooper Flagg",
@@ -1615,7 +1749,8 @@
        "Cooper",
        "Cooper Flagg",
        "Flagg"
-      ]
+      ],
+      "detail": "Taken 1st overall by hotrelish (Jacobo) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Dylan Harper",
@@ -1623,7 +1758,8 @@
        "Dylan",
        "Dylan Harper",
        "Harper"
-      ]
+      ],
+      "detail": "Taken 2nd overall by Rabbi BT69 (Blandon) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Tre Johnson",
@@ -1631,7 +1767,8 @@
        "Johnson",
        "Tre",
        "Tre Johnson"
-      ]
+      ],
+      "detail": "Taken 5th overall by Fidel’s Accumulators (Joey) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "VJ Edgecombe",
@@ -1639,7 +1776,8 @@
        "Edgecombe",
        "VJ",
        "VJ Edgecombe"
-      ]
+      ],
+      "detail": "Taken 3rd overall by Los Chigüires (Libguel) in the 2025 rookie draft. Never traded in Das League."
      }
     ],
     "note": null,
@@ -1661,7 +1799,8 @@
        "Jake",
        "hotrelish"
       ],
-      "manager": "jacobo"
+      "manager": "jacobo",
+      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips and 0 titles. Jacobo has made 66 trades in all."
      },
      {
       "display": "Los Chigüires (Libguel)",
@@ -1673,7 +1812,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Through 2025-2026, Libguel is 29-26 in the regular season with 1 playoff trip and 1 title. Libguel has made 22 trades in all."
      },
      {
       "display": "MoonUnit 🦬 (Ricky)",
@@ -1685,7 +1825,8 @@
        "Rick",
        "Ricky"
       ],
-      "manager": "ricky"
+      "manager": "ricky",
+      "detail": "Through 2025-2026, Ricky is 14-41 in the regular season with 0 playoff trips and 0 titles. Ricky has made 12 trades in all."
      }
     ],
     "note": "9 straight losses (regular season).",
@@ -1709,10 +1850,11 @@
        "Joseph",
        "hughjasnuts"
       ],
-      "manager": "joey"
+      "manager": "joey",
+      "detail": "Joey went 2-18 in the 2025-2026 regular season (12th of 12) with 8,218 points and missed the playoffs."
      }
     ],
-    "note": "2-18",
+    "note": null,
     "about": [],
     "sources": [
      "seasons.json"
@@ -1732,7 +1874,8 @@
        "Victor",
        "victorprieto"
       ],
-      "manager": "victor"
+      "manager": "victor",
+      "detail": "Through 2025-2026, Victor is 29-26 in the regular season with 2 playoff trips and 0 titles. Victor has made 6 trades in all."
      }
     ],
     "note": "6 trades.",
@@ -1756,10 +1899,11 @@
        "Gilgeous-Alexander",
        "Shai",
        "Shai Gilgeous-Alexander"
-      ]
+      ],
+      "detail": "Taken 9th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
      }
     ],
-    "note": "Round 1, pick 9 overall.",
+    "note": null,
     "about": [
      "chalela"
     ],
@@ -1782,7 +1926,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
      },
      {
       "display": "Fear the Brow (Papo)",
@@ -1795,7 +1940,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
      },
      {
       "display": "2057 Champs (Shueiro)",
@@ -1808,7 +1954,8 @@
        "Sway",
        "msway21"
       ],
-      "manager": "shueiro"
+      "manager": "shueiro",
+      "detail": "Shueiro went 13-7 in the 2025-2026 regular season (3rd of 12) with 9,303 points, then lost in the first round of the playoffs."
      },
      {
       "display": "LeBong James 👑 (Melo)",
@@ -1822,7 +1969,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 12-8 in the 2025-2026 regular season (4th of 12) with 9,857 points, then lost in the first round of the playoffs."
      },
      {
       "display": "Lochte & Associates (Chalela)",
@@ -1834,7 +1982,8 @@
        "Equipito PapoChullo",
        "Lochte & Associates"
       ],
-      "manager": "chalela"
+      "manager": "chalela",
+      "detail": "Chalela went 12-8 in the 2025-2026 regular season (5th of 12) with 9,010 points, then finished fourth."
      },
      {
       "display": "Equipo Winchenzo (Winch)",
@@ -1847,7 +1996,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 10-10 in the 2025-2026 regular season (6th of 12) with 9,276 points, then finished third."
      }
     ],
     "note": null,
@@ -1870,7 +2020,8 @@
        "Victor",
        "victorprieto"
       ],
-      "manager": "victor"
+      "manager": "victor",
+      "detail": "Victor went 9-9 in the 2023-2024 regular season (6th of 12) with 8,621 points, then lost in the first round of the playoffs."
      }
     ],
     "note": "The pick was Nikola Jokić.",
@@ -1890,7 +2041,8 @@
        "Mann",
        "Tre",
        "Tre Mann"
-      ]
+      ],
+      "detail": "Taken 216th overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
      }
     ],
     "note": "Pick 216, taken by I Love Dragić (Victor).",
@@ -1916,10 +2068,11 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
      }
     ],
-    "note": "18-2",
+    "note": null,
     "about": [],
     "sources": [
      "seasons.json"
@@ -1941,7 +2094,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
      },
      {
       "display": "hotrelish (Jacobo)",
@@ -1951,7 +2105,8 @@
        "Jake",
        "hotrelish"
       ],
-      "manager": "jacobo"
+      "manager": "jacobo",
+      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips and 0 titles. Jacobo has made 66 trades in all."
      },
      {
       "display": "Equipo Winchenzo (Winch)",
@@ -1964,7 +2119,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips and 0 titles. Winch has made 39 trades in all."
      }
     ],
     "note": null,
@@ -1984,10 +2140,11 @@
        "Embiid",
        "Joel",
        "Joel Embiid"
-      ]
+      ],
+      "detail": "Taken 7th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      }
     ],
-    "note": "Round 1, pick 7 overall.",
+    "note": null,
     "about": [
      "melo"
     ],
@@ -2014,7 +2171,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips and 1 title. Blandon has made 30 trades in all."
      },
      {
       "display": "Los Chigüires (Libguel)",
@@ -2026,7 +2184,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Through 2025-2026, Libguel is 29-26 in the regular season with 1 playoff trip and 1 title. Libguel has made 22 trades in all."
      },
      {
       "display": "LeBong James (Melo)",
@@ -2040,7 +2199,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Through 2025-2026, Melo is 35-20 in the regular season with 3 playoff trips and 1 title. Melo has made 21 trades in all."
      },
      {
       "display": "Fear the Brow (Papo)",
@@ -2053,7 +2213,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
      }
     ],
     "note": null,
@@ -2079,7 +2240,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Blandon went 1-2 in the 2026-2027 regular season (9th of 12) with 1,334 points so far."
      }
     ],
     "note": "The pick was Cameron Boozer.",
@@ -2104,7 +2266,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 14-3 in the 2024-2025 regular season (1st of 12) with 8,544 points, then finished fourth."
      }
     ],
     "note": "Lost by 2 to Fidel’s Accumulators (Joey) in week 3.",
@@ -2131,10 +2294,11 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 14-3 in the 2024-2025 regular season (1st of 12) with 8,544 points, then finished fourth."
      }
     ],
-    "note": "14-3",
+    "note": null,
     "about": [],
     "sources": [
      "seasons.json"
@@ -2151,7 +2315,8 @@
        "Alperen",
        "Alperen Şengün",
        "Şengün"
-      ]
+      ],
+      "detail": "Ricky got Alperen Şengün in a trade with Shueiro on July 20, 2026."
      },
      {
       "display": "Anthony Edwards",
@@ -2159,7 +2324,8 @@
        "Anthony",
        "Anthony Edwards",
        "Edwards"
-      ]
+      ],
+      "detail": "Ricky got Anthony Edwards in a trade with Jacobo on December 22, 2024."
      },
      {
       "display": "Bennett Stirtz",
@@ -2167,7 +2333,8 @@
        "Bennett",
        "Bennett Stirtz",
        "Stirtz"
-      ]
+      ],
+      "detail": "Ricky got Bennett Stirtz in a trade with Blandon on July 2, 2026."
      },
      {
       "display": "Cade Cunningham",
@@ -2175,7 +2342,8 @@
        "Cade",
        "Cade Cunningham",
        "Cunningham"
-      ]
+      ],
+      "detail": "Ricky got Cade Cunningham in a trade with Shueiro on July 20, 2026."
      },
      {
       "display": "Chet Holmgren",
@@ -2183,7 +2351,8 @@
        "Chet",
        "Chet Holmgren",
        "Holmgren"
-      ]
+      ],
+      "detail": "Ricky got Chet Holmgren in a trade with Shueiro on July 20, 2026."
      },
      {
       "display": "Clint Capela",
@@ -2191,7 +2360,8 @@
        "Capela",
        "Clint",
        "Clint Capela"
-      ]
+      ],
+      "detail": "Ricky got Clint Capela in a trade with Papo on November 30, 2023."
      },
      {
       "display": "Deni Avdija",
@@ -2199,7 +2369,8 @@
        "Avdija",
        "Deni",
        "Deni Avdija"
-      ]
+      ],
+      "detail": "Ricky got Deni Avdija in a trade with Jacobo on July 22, 2024."
      },
      {
       "display": "Franz Wagner",
@@ -2207,7 +2378,8 @@
        "Franz",
        "Franz Wagner",
        "Wagner"
-      ]
+      ],
+      "detail": "Ricky got Franz Wagner in a trade with Jacobo on December 22, 2024."
      },
      {
       "display": "Hannes Steinbach",
@@ -2215,7 +2387,8 @@
        "Hannes",
        "Hannes Steinbach",
        "Steinbach"
-      ]
+      ],
+      "detail": "Ricky got Hannes Steinbach in a trade with Shueiro on July 20, 2026."
      },
      {
       "display": "Jalen Green",
@@ -2223,7 +2396,8 @@
        "Green",
        "Jalen",
        "Jalen Green"
-      ]
+      ],
+      "detail": "Ricky got Jalen Green in a trade with Papo on January 14, 2025."
      },
      {
       "display": "Jordan Poole",
@@ -2231,7 +2405,8 @@
        "Jordan",
        "Jordan Poole",
        "Poole"
-      ]
+      ],
+      "detail": "Ricky got Jordan Poole in a trade with Jacobo on May 15, 2025."
      },
      {
       "display": "LaMelo Ball",
@@ -2239,7 +2414,8 @@
        "Ball",
        "LaMelo",
        "LaMelo Ball"
-      ]
+      ],
+      "detail": "Ricky got LaMelo Ball in a trade with Jacobo on July 22, 2024."
      },
      {
       "display": "Lauri Markkanen",
@@ -2247,7 +2423,8 @@
        "Lauri",
        "Lauri Markkanen",
        "Markkanen"
-      ]
+      ],
+      "detail": "Ricky got Lauri Markkanen in a trade with Papo on January 14, 2025."
      },
      {
       "display": "Mark Williams",
@@ -2255,7 +2432,8 @@
        "Mark",
        "Mark Williams",
        "Williams"
-      ]
+      ],
+      "detail": "Ricky got Mark Williams in a trade with Jacobo on May 15, 2025."
      },
      {
       "display": "Mikal Bridges",
@@ -2263,7 +2441,8 @@
        "Bridges",
        "Mikal",
        "Mikal Bridges"
-      ]
+      ],
+      "detail": "Ricky got Mikal Bridges in a trade with Papo on September 11, 2025."
      },
      {
       "display": "Naz Reid",
@@ -2271,7 +2450,8 @@
        "Naz",
        "Naz Reid",
        "Reid"
-      ]
+      ],
+      "detail": "Ricky got Naz Reid in a trade with Papo on September 11, 2025."
      },
      {
       "display": "P.J. Washington",
@@ -2279,7 +2459,8 @@
        "P.J.",
        "P.J. Washington",
        "Washington"
-      ]
+      ],
+      "detail": "Ricky got P.J. Washington in a trade with Papo on January 14, 2025."
      },
      {
       "display": "Scottie Barnes",
@@ -2287,7 +2468,8 @@
        "Barnes",
        "Scottie",
        "Scottie Barnes"
-      ]
+      ],
+      "detail": "Ricky got Scottie Barnes in a trade with Jacobo on December 22, 2024."
      },
      {
       "display": "Tristan Vukcevic",
@@ -2295,7 +2477,8 @@
        "Tristan",
        "Tristan Vukcevic",
        "Vukcevic"
-      ]
+      ],
+      "detail": "Ricky got Tristan Vukcevic in a trade with Jacobo on May 15, 2025."
      },
      {
       "display": "Tyrese Haliburton",
@@ -2303,7 +2486,8 @@
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
-      ]
+      ],
+      "detail": "Ricky got Tyrese Haliburton in a trade with Jacobo on July 22, 2024."
      },
      {
       "display": "Victor Wembanyama",
@@ -2311,7 +2495,8 @@
        "Victor",
        "Victor Wembanyama",
        "Wembanyama"
-      ]
+      ],
+      "detail": "Ricky got Victor Wembanyama in a trade with Jacobo on July 22, 2024."
      }
     ],
     "note": null,
@@ -2333,10 +2518,11 @@
        "Jokić",
        "Nikola",
        "Nikola Jokić"
-      ]
+      ],
+      "detail": "Taken 1st overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
      }
     ],
-    "note": "Round 1, pick 1 overall.",
+    "note": null,
     "about": [
      "victor"
     ],
@@ -2359,7 +2545,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
      }
     ],
     "note": null,
@@ -2383,7 +2570,8 @@
        "Jake",
        "hotrelish"
       ],
-      "manager": "jacobo"
+      "manager": "jacobo",
+      "detail": "Jacobo went 7-13 in the 2025-2026 regular season (10th of 12) with 8,074 points and missed the playoffs."
      }
     ],
     "note": "The pick was Cooper Flagg.",
@@ -2405,7 +2593,8 @@
        "Jake",
        "hotrelish"
       ],
-      "manager": "jacobo"
+      "manager": "jacobo",
+      "detail": "Jacobo went 7-13 in the 2025-2026 regular season (10th of 12) with 8,074 points and missed the playoffs."
      }
     ],
     "note": "Just 147 points in week 17.",
@@ -2427,10 +2616,11 @@
        "Jake",
        "hotrelish"
       ],
-      "manager": "jacobo"
+      "manager": "jacobo",
+      "detail": "Jacobo went 3-14 in the 2024-2025 regular season (12th of 12) with 6,789 points and missed the playoffs."
      }
     ],
-    "note": "3-14",
+    "note": null,
     "about": [],
     "sources": [
      "seasons.json"
@@ -2447,7 +2637,8 @@
        "Andrew",
        "Andrew Nembhard",
        "Nembhard"
-      ]
+      ],
+      "detail": "Papo got Andrew Nembhard in a trade with Joey on November 21, 2025."
      },
      {
       "display": "Andrew Wiggins",
@@ -2455,7 +2646,8 @@
        "Andrew",
        "Andrew Wiggins",
        "Wiggins"
-      ]
+      ],
+      "detail": "Papo got Andrew Wiggins in a trade with Melo on October 20, 2023. Papo has traded for Andrew Wiggins 3 times in all."
      },
      {
       "display": "Anthony Davis",
@@ -2463,7 +2655,8 @@
        "Anthony",
        "Anthony Davis",
        "Davis"
-      ]
+      ],
+      "detail": "Papo got Anthony Davis in a trade with Joey on February 10, 2025."
      },
      {
       "display": "Bam Adebayo",
@@ -2471,7 +2664,8 @@
        "Adebayo",
        "Bam",
        "Bam Adebayo"
-      ]
+      ],
+      "detail": "Papo got Bam Adebayo in a trade with Blandon on September 10, 2025."
      },
      {
       "display": "Ben Simmons",
@@ -2479,7 +2673,8 @@
        "Ben",
        "Ben Simmons",
        "Simmons"
-      ]
+      ],
+      "detail": "Papo got Ben Simmons in a trade with Joey on July 22, 2024."
      },
      {
       "display": "Bobby Portis Jr.",
@@ -2488,7 +2683,8 @@
        "Bobby Portis",
        "Bobby Portis Jr.",
        "Portis"
-      ]
+      ],
+      "detail": "Papo got Bobby Portis Jr. in a trade with Winch on August 20, 2024."
      },
      {
       "display": "Bogdan Bogdanović",
@@ -2496,7 +2692,8 @@
        "Bogdan",
        "Bogdan Bogdanović",
        "Bogdanović"
-      ]
+      ],
+      "detail": "Papo got Bogdan Bogdanović in a trade with Blandon on January 25, 2024."
      },
      {
       "display": "Bradley Beal",
@@ -2504,7 +2701,8 @@
        "Beal",
        "Bradley",
        "Bradley Beal"
-      ]
+      ],
+      "detail": "Papo got Bradley Beal in a trade with Shueiro on January 30, 2024. Papo has traded for Bradley Beal 3 times in all."
      },
      {
       "display": "Brandon Ingram",
@@ -2512,7 +2710,8 @@
        "Brandon",
        "Brandon Ingram",
        "Ingram"
-      ]
+      ],
+      "detail": "Papo got Brandon Ingram in a trade with Melo on August 20, 2024. Papo has traded for Brandon Ingram 3 times in all."
      },
      {
       "display": "Brook Lopez",
@@ -2520,7 +2719,8 @@
        "Brook",
        "Brook Lopez",
        "Lopez"
-      ]
+      ],
+      "detail": "Papo got Brook Lopez in a trade with Melo on May 6, 2024."
      },
      {
       "display": "CJ McCollum",
@@ -2528,7 +2728,8 @@
        "CJ",
        "CJ McCollum",
        "McCollum"
-      ]
+      ],
+      "detail": "Papo got CJ McCollum in a trade with Joey on April 5, 2025."
      },
      {
       "display": "Cam Whitmore",
@@ -2536,7 +2737,8 @@
        "Cam",
        "Cam Whitmore",
        "Whitmore"
-      ]
+      ],
+      "detail": "Papo got Cam Whitmore in a trade with Libguel on April 22, 2025."
      },
      {
       "display": "Cameron Johnson",
@@ -2544,7 +2746,8 @@
        "Cameron",
        "Cameron Johnson",
        "Johnson"
-      ]
+      ],
+      "detail": "Papo got Cameron Johnson in a trade with Ricky on January 14, 2025. Papo has traded for Cameron Johnson 2 times in all."
      },
      {
       "display": "Caris LeVert",
@@ -2552,7 +2755,8 @@
        "Caris",
        "Caris LeVert",
        "LeVert"
-      ]
+      ],
+      "detail": "Papo got Caris LeVert in a trade with Blandon on January 25, 2024."
      },
      {
       "display": "Chet Holmgren",
@@ -2560,7 +2764,8 @@
        "Chet",
        "Chet Holmgren",
        "Holmgren"
-      ]
+      ],
+      "detail": "Papo got Chet Holmgren in a trade with Shueiro on January 21, 2025."
      },
      {
       "display": "Chris Paul",
@@ -2568,7 +2773,8 @@
        "Chris",
        "Chris Paul",
        "Paul"
-      ]
+      ],
+      "detail": "Papo got Chris Paul in a trade with Winch on July 1, 2024. Papo has traded for Chris Paul 3 times in all."
      },
      {
       "display": "Christian Braun",
@@ -2576,7 +2782,8 @@
        "Braun",
        "Christian",
        "Christian Braun"
-      ]
+      ],
+      "detail": "Papo got Christian Braun in a trade with Ricky on January 14, 2025."
      },
      {
       "display": "D'Angelo Russell",
@@ -2584,7 +2791,8 @@
        "D'Angelo",
        "D'Angelo Russell",
        "Russell"
-      ]
+      ],
+      "detail": "Papo got D'Angelo Russell in a trade with Shueiro on January 30, 2024."
      },
      {
       "display": "Dalton Knecht",
@@ -2592,7 +2800,8 @@
        "Dalton",
        "Dalton Knecht",
        "Knecht"
-      ]
+      ],
+      "detail": "Papo got Dalton Knecht in a trade with Jacobo on November 27, 2024. Papo has traded for Dalton Knecht 2 times in all."
      },
      {
       "display": "Daniel Gafford",
@@ -2600,7 +2809,8 @@
        "Daniel",
        "Daniel Gafford",
        "Gafford"
-      ]
+      ],
+      "detail": "Papo got Daniel Gafford in a trade with Shueiro on August 21, 2024."
      },
      {
       "display": "DeMar DeRozan",
@@ -2608,7 +2818,8 @@
        "DeMar",
        "DeMar DeRozan",
        "DeRozan"
-      ]
+      ],
+      "detail": "Papo got DeMar DeRozan in a trade with Ricky on November 30, 2023. Papo has traded for DeMar DeRozan 2 times in all."
      },
      {
       "display": "Deandre Ayton",
@@ -2616,7 +2827,8 @@
        "Ayton",
        "Deandre",
        "Deandre Ayton"
-      ]
+      ],
+      "detail": "Papo got Deandre Ayton in a trade with Verdeja on January 17, 2025. Papo has traded for Deandre Ayton 2 times in all."
      },
      {
       "display": "Dejounte Murray",
@@ -2624,7 +2836,8 @@
        "Dejounte",
        "Dejounte Murray",
        "Murray"
-      ]
+      ],
+      "detail": "Papo got Dejounte Murray in a trade with Melo on February 11, 2025. Papo has traded for Dejounte Murray 2 times in all."
      },
      {
       "display": "Deni Avdija",
@@ -2632,7 +2845,8 @@
        "Avdija",
        "Deni",
        "Deni Avdija"
-      ]
+      ],
+      "detail": "Papo got Deni Avdija in a trade with Jacobo on July 31, 2024."
      },
      {
       "display": "Dennis Schröder",
@@ -2640,7 +2854,8 @@
        "Dennis",
        "Dennis Schröder",
        "Schröder"
-      ]
+      ],
+      "detail": "Papo got Dennis Schröder in a trade with Blandon on August 24, 2024. Papo has traded for Dennis Schröder 2 times in all."
      },
      {
       "display": "Derrick White",
@@ -2648,7 +2863,8 @@
        "Derrick",
        "Derrick White",
        "White"
-      ]
+      ],
+      "detail": "Papo got Derrick White in a trade with Chalela on January 21, 2025. Papo has traded for Derrick White 5 times in all."
      },
      {
       "display": "Domantas Sabonis",
@@ -2656,7 +2872,8 @@
        "Domantas",
        "Domantas Sabonis",
        "Sabonis"
-      ]
+      ],
+      "detail": "Papo got Domantas Sabonis in a trade with Verdeja on June 27, 2025."
      },
      {
       "display": "Donte DiVincenzo",
@@ -2664,7 +2881,8 @@
        "DiVincenzo",
        "Donte",
        "Donte DiVincenzo"
-      ]
+      ],
+      "detail": "Papo got Donte DiVincenzo in a trade with Joey on June 13, 2024."
      },
      {
       "display": "Draymond Green",
@@ -2672,7 +2890,8 @@
        "Draymond",
        "Draymond Green",
        "Green"
-      ]
+      ],
+      "detail": "Papo got Draymond Green in a trade with Chalela on November 3, 2024."
      },
      {
       "display": "Fred VanVleet",
@@ -2680,7 +2899,8 @@
        "Fred",
        "Fred VanVleet",
        "VanVleet"
-      ]
+      ],
+      "detail": "Papo got Fred VanVleet in a trade with Winch on October 4, 2024."
      },
      {
       "display": "Giannis Antetokounmpo",
@@ -2688,7 +2908,8 @@
        "Antetokounmpo",
        "Giannis",
        "Giannis Antetokounmpo"
-      ]
+      ],
+      "detail": "Papo got Giannis Antetokounmpo in a trade with Blandon on March 31, 2025."
      },
      {
       "display": "Goga Bitadze",
@@ -2696,7 +2917,8 @@
        "Bitadze",
        "Goga",
        "Goga Bitadze"
-      ]
+      ],
+      "detail": "Papo got Goga Bitadze in a trade with Melo on January 14, 2025."
      },
      {
       "display": "Grant Williams",
@@ -2704,7 +2926,8 @@
        "Grant",
        "Grant Williams",
        "Williams"
-      ]
+      ],
+      "detail": "Papo got Grant Williams in a trade with Verdeja on July 26, 2024."
      },
      {
       "display": "Hugo González",
@@ -2712,7 +2935,8 @@
        "González",
        "Hugo",
        "Hugo González"
-      ]
+      ],
+      "detail": "Papo got Hugo González in a trade with Jacobo on July 2, 2026."
      },
      {
       "display": "Isaiah Hartenstein",
@@ -2720,7 +2944,8 @@
        "Hartenstein",
        "Isaiah",
        "Isaiah Hartenstein"
-      ]
+      ],
+      "detail": "Papo got Isaiah Hartenstein in a trade with Jacobo on April 5, 2025. Papo has traded for Isaiah Hartenstein 2 times in all."
      },
      {
       "display": "Ivica Zubac",
@@ -2728,7 +2953,8 @@
        "Ivica",
        "Ivica Zubac",
        "Zubac"
-      ]
+      ],
+      "detail": "Papo got Ivica Zubac in a trade with Winch on November 14, 2023. Papo has traded for Ivica Zubac 2 times in all."
      },
      {
       "display": "Ja Morant",
@@ -2736,7 +2962,8 @@
        "Ja",
        "Ja Morant",
        "Morant"
-      ]
+      ],
+      "detail": "Papo got Ja Morant in a trade with Libguel on July 3, 2025. Papo has traded for Ja Morant 2 times in all."
      },
      {
       "display": "Jabari Smith Jr.",
@@ -2745,7 +2972,8 @@
        "Jabari Smith",
        "Jabari Smith Jr.",
        "Smith"
-      ]
+      ],
+      "detail": "Papo got Jabari Smith Jr. in a trade with Chalela on January 21, 2025. Papo has traded for Jabari Smith Jr. 2 times in all."
      },
      {
       "display": "Jaden McDaniels",
@@ -2753,7 +2981,8 @@
        "Jaden",
        "Jaden McDaniels",
        "McDaniels"
-      ]
+      ],
+      "detail": "Papo got Jaden McDaniels in a trade with Winch on April 27, 2026."
      },
      {
       "display": "Jaime Jaquez Jr.",
@@ -2762,7 +2991,8 @@
        "Jaime Jaquez",
        "Jaime Jaquez Jr.",
        "Jaquez"
-      ]
+      ],
+      "detail": "Papo got Jaime Jaquez Jr. in a trade with Shueiro on January 28, 2025."
      },
      {
       "display": "Jakob Poeltl",
@@ -2770,7 +3000,8 @@
        "Jakob",
        "Jakob Poeltl",
        "Poeltl"
-      ]
+      ],
+      "detail": "Papo got Jakob Poeltl in a trade with Verdeja on January 4, 2024. Papo has traded for Jakob Poeltl 2 times in all."
      },
      {
       "display": "Jalen Duren",
@@ -2778,7 +3009,8 @@
        "Duren",
        "Jalen",
        "Jalen Duren"
-      ]
+      ],
+      "detail": "Papo got Jalen Duren in a trade with Libguel on November 7, 2024."
      },
      {
       "display": "Jalen Green",
@@ -2786,7 +3018,8 @@
        "Green",
        "Jalen",
        "Jalen Green"
-      ]
+      ],
+      "detail": "Papo got Jalen Green in a trade with Shueiro on January 30, 2024. Papo has traded for Jalen Green 2 times in all."
      },
      {
       "display": "Jalen Smith",
@@ -2794,7 +3027,8 @@
        "Jalen",
        "Jalen Smith",
        "Smith"
-      ]
+      ],
+      "detail": "Papo got Jalen Smith in a trade with Joey on July 14, 2026."
      },
      {
       "display": "Jalen Suggs",
@@ -2802,7 +3036,8 @@
        "Jalen",
        "Jalen Suggs",
        "Suggs"
-      ]
+      ],
+      "detail": "Papo got Jalen Suggs in a trade with Shueiro on April 6, 2025. Papo has traded for Jalen Suggs 4 times in all."
      },
      {
       "display": "James Harden",
@@ -2810,7 +3045,8 @@
        "Harden",
        "James",
        "James Harden"
-      ]
+      ],
+      "detail": "Papo got James Harden in a trade with Winch on October 4, 2024. Papo has traded for James Harden 2 times in all."
      },
      {
       "display": "Jared McCain",
@@ -2818,7 +3054,8 @@
        "Jared",
        "Jared McCain",
        "McCain"
-      ]
+      ],
+      "detail": "Papo got Jared McCain in a trade with Joey on November 23, 2024."
      },
      {
       "display": "Jaren Jackson Jr.",
@@ -2827,7 +3064,8 @@
        "Jaren",
        "Jaren Jackson",
        "Jaren Jackson Jr."
-      ]
+      ],
+      "detail": "Papo got Jaren Jackson Jr. in a trade with Victor on October 4, 2024."
      },
      {
       "display": "Jay Huff",
@@ -2835,7 +3073,8 @@
        "Huff",
        "Jay",
        "Jay Huff"
-      ]
+      ],
+      "detail": "Papo got Jay Huff in a trade with Blandon on February 24, 2026."
      },
      {
       "display": "Jerami Grant",
@@ -2843,7 +3082,8 @@
        "Grant",
        "Jerami",
        "Jerami Grant"
-      ]
+      ],
+      "detail": "Papo got Jerami Grant in a trade with Joey on April 20, 2025."
      },
      {
       "display": "Jimmy Butler III",
@@ -2852,7 +3092,8 @@
        "Jimmy",
        "Jimmy Butler",
        "Jimmy Butler III"
-      ]
+      ],
+      "detail": "Papo got Jimmy Butler III in a trade with Winch on August 20, 2024. Papo has traded for Jimmy Butler III 2 times in all."
      },
      {
       "display": "Joel Embiid",
@@ -2860,7 +3101,8 @@
        "Embiid",
        "Joel",
        "Joel Embiid"
-      ]
+      ],
+      "detail": "Papo got Joel Embiid in a trade with Melo on April 2, 2025."
      },
      {
       "display": "John Collins",
@@ -2868,7 +3110,8 @@
        "Collins",
        "John",
        "John Collins"
-      ]
+      ],
+      "detail": "Papo got John Collins in a trade with Joey on February 8, 2024. Papo has traded for John Collins 2 times in all."
      },
      {
       "display": "Jonas Valančiūnas",
@@ -2876,7 +3119,8 @@
        "Jonas",
        "Jonas Valančiūnas",
        "Valančiūnas"
-      ]
+      ],
+      "detail": "Papo got Jonas Valančiūnas in a trade with Winch on October 4, 2024."
      },
      {
       "display": "Jordan Poole",
@@ -2884,7 +3128,8 @@
        "Jordan",
        "Jordan Poole",
        "Poole"
-      ]
+      ],
+      "detail": "Papo got Jordan Poole in a trade with Jacobo on November 28, 2023."
      },
      {
       "display": "Jrue Holiday",
@@ -2892,7 +3137,8 @@
        "Holiday",
        "Jrue",
        "Jrue Holiday"
-      ]
+      ],
+      "detail": "Papo got Jrue Holiday in a trade with Joey on September 10, 2025."
      },
      {
       "display": "Julius Randle",
@@ -2900,7 +3146,8 @@
        "Julius",
        "Julius Randle",
        "Randle"
-      ]
+      ],
+      "detail": "Papo got Julius Randle in a trade with Joey on November 23, 2024. Papo has traded for Julius Randle 3 times in all."
      },
      {
       "display": "Jusuf Nurkić",
@@ -2908,7 +3155,8 @@
        "Jusuf",
        "Jusuf Nurkić",
        "Nurkić"
-      ]
+      ],
+      "detail": "Papo got Jusuf Nurkić in a trade with Joey on November 21, 2025."
      },
      {
       "display": "Karl-Anthony Towns",
@@ -2916,7 +3164,8 @@
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
-      ]
+      ],
+      "detail": "Papo got Karl-Anthony Towns in a trade with Joey on July 22, 2024."
      },
      {
       "display": "Kel'el Ware",
@@ -2924,7 +3173,8 @@
        "Kel'el",
        "Kel'el Ware",
        "Ware"
-      ]
+      ],
+      "detail": "Papo got Kel'el Ware in a trade with Joey on June 20, 2026."
      },
      {
       "display": "Keldon Johnson",
@@ -2932,7 +3182,8 @@
        "Johnson",
        "Keldon",
        "Keldon Johnson"
-      ]
+      ],
+      "detail": "Papo got Keldon Johnson in a trade with Libguel on June 13, 2024."
      },
      {
       "display": "Keyonte George",
@@ -2940,7 +3191,8 @@
        "George",
        "Keyonte",
        "Keyonte George"
-      ]
+      ],
+      "detail": "Papo got Keyonte George in a trade with Shueiro on April 6, 2025."
      },
      {
       "display": "Khris Middleton",
@@ -2948,7 +3200,8 @@
        "Khris",
        "Khris Middleton",
        "Middleton"
-      ]
+      ],
+      "detail": "Papo got Khris Middleton in a trade with Melo on October 20, 2023. Papo has traded for Khris Middleton 2 times in all."
      },
      {
       "display": "Klay Thompson",
@@ -2956,7 +3209,8 @@
        "Klay",
        "Klay Thompson",
        "Thompson"
-      ]
+      ],
+      "detail": "Papo got Klay Thompson in a trade with Jacobo on February 11, 2024."
      },
      {
       "display": "Kristaps Porziņģis",
@@ -2964,7 +3218,8 @@
        "Kristaps",
        "Kristaps Porziņģis",
        "Porziņģis"
-      ]
+      ],
+      "detail": "Papo got Kristaps Porziņģis in a trade with Joey on February 10, 2025."
      },
      {
       "display": "Kyle Filipowski",
@@ -2972,7 +3227,8 @@
        "Filipowski",
        "Kyle",
        "Kyle Filipowski"
-      ]
+      ],
+      "detail": "Papo got Kyle Filipowski in a trade with Jacobo on February 12, 2026."
      },
      {
       "display": "Kyle Kuzma",
@@ -2980,7 +3236,8 @@
        "Kuzma",
        "Kyle",
        "Kyle Kuzma"
-      ]
+      ],
+      "detail": "Papo got Kyle Kuzma in a trade with Victor on February 10, 2025."
      },
      {
       "display": "LaMelo Ball",
@@ -2988,7 +3245,8 @@
        "Ball",
        "LaMelo",
        "LaMelo Ball"
-      ]
+      ],
+      "detail": "Papo got LaMelo Ball in a trade with Jacobo on August 2, 2024."
      },
      {
       "display": "Lauri Markkanen",
@@ -2996,7 +3254,8 @@
        "Lauri",
        "Lauri Markkanen",
        "Markkanen"
-      ]
+      ],
+      "detail": "Papo got Lauri Markkanen in a trade with Blandon on November 1, 2024. Papo has traded for Lauri Markkanen 3 times in all."
      },
      {
       "display": "LeBron James",
@@ -3004,7 +3263,8 @@
        "James",
        "LeBron",
        "LeBron James"
-      ]
+      ],
+      "detail": "Papo got LeBron James in a trade with Joey on February 10, 2025."
      },
      {
       "display": "Luka Dončić",
@@ -3012,7 +3272,8 @@
        "Dončić",
        "Luka",
        "Luka Dončić"
-      ]
+      ],
+      "detail": "Papo got Luka Dončić in a trade with Winch on July 22, 2024."
      },
      {
       "display": "Mason Plumlee",
@@ -3020,7 +3281,8 @@
        "Mason",
        "Mason Plumlee",
        "Plumlee"
-      ]
+      ],
+      "detail": "Papo got Mason Plumlee in a trade with Libguel on January 17, 2024."
      },
      {
       "display": "Max Strus",
@@ -3028,7 +3290,8 @@
        "Max",
        "Max Strus",
        "Strus"
-      ]
+      ],
+      "detail": "Papo got Max Strus in a trade with Verdeja on July 26, 2024."
      },
      {
       "display": "Michael Porter Jr.",
@@ -3037,7 +3300,8 @@
        "Michael Porter",
        "Michael Porter Jr.",
        "Porter"
-      ]
+      ],
+      "detail": "Papo got Michael Porter Jr. in a trade with Melo on February 3, 2024. Papo has traded for Michael Porter Jr. 4 times in all."
      },
      {
       "display": "Mikal Bridges",
@@ -3045,7 +3309,8 @@
        "Bridges",
        "Mikal",
        "Mikal Bridges"
-      ]
+      ],
+      "detail": "Papo got Mikal Bridges in a trade with Verdeja on January 4, 2024. Papo has traded for Mikal Bridges 3 times in all."
      },
      {
       "display": "Miles Bridges",
@@ -3053,7 +3318,8 @@
        "Bridges",
        "Miles",
        "Miles Bridges"
-      ]
+      ],
+      "detail": "Papo got Miles Bridges in a trade with Blandon on August 24, 2024. Papo has traded for Miles Bridges 2 times in all."
      },
      {
       "display": "Mitchell Robinson",
@@ -3061,7 +3327,8 @@
        "Mitchell",
        "Mitchell Robinson",
        "Robinson"
-      ]
+      ],
+      "detail": "Papo got Mitchell Robinson in a trade with Jacobo on July 8, 2024."
      },
      {
       "display": "Naz Reid",
@@ -3069,7 +3336,8 @@
        "Naz",
        "Naz Reid",
        "Reid"
-      ]
+      ],
+      "detail": "Papo got Naz Reid in a trade with Verdeja on January 17, 2025. Papo has traded for Naz Reid 2 times in all."
      },
      {
       "display": "Nic Claxton",
@@ -3077,7 +3345,8 @@
        "Claxton",
        "Nic",
        "Nic Claxton"
-      ]
+      ],
+      "detail": "Papo got Nic Claxton in a trade with Joey and Jacobo on August 17, 2024. Papo has traded for Nic Claxton 2 times in all."
      },
      {
       "display": "Nikola Jović",
@@ -3085,7 +3354,8 @@
        "Jović",
        "Nikola",
        "Nikola Jović"
-      ]
+      ],
+      "detail": "Papo got Nikola Jović in a trade with Winch on February 10, 2025."
      },
      {
       "display": "Nikola Topić",
@@ -3093,7 +3363,8 @@
        "Nikola",
        "Nikola Topić",
        "Topić"
-      ]
+      ],
+      "detail": "Papo got Nikola Topić in a trade with Ricky on January 14, 2025."
      },
      {
       "display": "OG Anunoby",
@@ -3101,7 +3372,8 @@
        "Anunoby",
        "OG",
        "OG Anunoby"
-      ]
+      ],
+      "detail": "Papo got OG Anunoby in a trade with Winch on April 27, 2026."
      },
      {
       "display": "Obi Toppin",
@@ -3109,7 +3381,8 @@
        "Obi",
        "Obi Toppin",
        "Toppin"
-      ]
+      ],
+      "detail": "Papo got Obi Toppin in a trade with Winch on October 18, 2023."
      },
      {
       "display": "P.J. Washington",
@@ -3117,7 +3390,8 @@
        "P.J.",
        "P.J. Washington",
        "Washington"
-      ]
+      ],
+      "detail": "Papo got P.J. Washington in a trade with Joey on November 23, 2024."
      },
      {
       "display": "Pascal Siakam",
@@ -3125,7 +3399,8 @@
        "Pascal",
        "Pascal Siakam",
        "Siakam"
-      ]
+      ],
+      "detail": "Papo got Pascal Siakam in a trade with Melo on August 20, 2024."
      },
      {
       "display": "Paul George",
@@ -3133,7 +3408,8 @@
        "George",
        "Paul",
        "Paul George"
-      ]
+      ],
+      "detail": "Papo got Paul George in a trade with Verdeja on February 5, 2025. Papo has traded for Paul George 3 times in all."
      },
      {
       "display": "Payton Pritchard",
@@ -3141,7 +3417,8 @@
        "Payton",
        "Payton Pritchard",
        "Pritchard"
-      ]
+      ],
+      "detail": "Papo got Payton Pritchard in a trade with Jacobo on April 2, 2025."
      },
      {
       "display": "Precious Achiuwa",
@@ -3149,7 +3426,8 @@
        "Achiuwa",
        "Precious",
        "Precious Achiuwa"
-      ]
+      ],
+      "detail": "Papo got Precious Achiuwa in a trade with Victor on October 4, 2024."
      },
      {
       "display": "Quenton Jackson",
@@ -3157,7 +3435,8 @@
        "Jackson",
        "Quenton",
        "Quenton Jackson"
-      ]
+      ],
+      "detail": "Papo got Quenton Jackson in a trade with Winch on March 2, 2026."
      },
      {
       "display": "RJ Barrett",
@@ -3165,7 +3444,8 @@
        "Barrett",
        "RJ",
        "RJ Barrett"
-      ]
+      ],
+      "detail": "Papo got RJ Barrett in a trade with Winch on April 27, 2026."
      },
      {
       "display": "Rob Dillingham",
@@ -3173,7 +3453,8 @@
        "Dillingham",
        "Rob",
        "Rob Dillingham"
-      ]
+      ],
+      "detail": "Papo got Rob Dillingham in a trade with Ricky on January 14, 2025."
      },
      {
       "display": "Robert Williams III",
@@ -3182,7 +3463,8 @@
        "Robert Williams",
        "Robert Williams III",
        "Williams"
-      ]
+      ],
+      "detail": "Papo got Robert Williams III in a trade with Melo on February 3, 2024."
      },
      {
       "display": "Ronald Holland II",
@@ -3191,7 +3473,8 @@
        "Ronald",
        "Ronald Holland",
        "Ronald Holland II"
-      ]
+      ],
+      "detail": "Papo got Ronald Holland II in a trade with Ricky on January 14, 2025."
      },
      {
       "display": "Russell Westbrook",
@@ -3199,7 +3482,8 @@
        "Russell",
        "Russell Westbrook",
        "Westbrook"
-      ]
+      ],
+      "detail": "Papo got Russell Westbrook in a trade with Joey on April 20, 2025."
      },
      {
       "display": "Ryan Conwell",
@@ -3207,7 +3491,8 @@
        "Conwell",
        "Ryan",
        "Ryan Conwell"
-      ]
+      ],
+      "detail": "Papo got Ryan Conwell in a trade with Jacobo on July 2, 2026."
      },
      {
       "display": "Ryan Kalkbrenner",
@@ -3215,7 +3500,8 @@
        "Kalkbrenner",
        "Ryan",
        "Ryan Kalkbrenner"
-      ]
+      ],
+      "detail": "Papo got Ryan Kalkbrenner in a trade with Libguel on January 15, 2026."
      },
      {
       "display": "Scoot Henderson",
@@ -3223,7 +3509,8 @@
        "Henderson",
        "Scoot",
        "Scoot Henderson"
-      ]
+      ],
+      "detail": "Papo got Scoot Henderson in a trade with Jacobo on November 6, 2026."
      },
      {
       "display": "Shaedon Sharpe",
@@ -3231,7 +3518,8 @@
        "Shaedon",
        "Shaedon Sharpe",
        "Sharpe"
-      ]
+      ],
+      "detail": "Papo got Shaedon Sharpe in a trade with Jacobo on July 2, 2026."
      },
      {
       "display": "Stephen Curry",
@@ -3239,7 +3527,8 @@
        "Curry",
        "Stephen",
        "Stephen Curry"
-      ]
+      ],
+      "detail": "Papo got Stephen Curry in a trade with Winch on July 22, 2024. Papo has traded for Stephen Curry 3 times in all."
      },
      {
       "display": "Stephon Castle",
@@ -3247,7 +3536,8 @@
        "Castle",
        "Stephon",
        "Stephon Castle"
-      ]
+      ],
+      "detail": "Papo got Stephon Castle in a trade with Shueiro on January 28, 2025."
      },
      {
       "display": "Tidjane Salaün",
@@ -3255,7 +3545,8 @@
        "Salaün",
        "Tidjane",
        "Tidjane Salaün"
-      ]
+      ],
+      "detail": "Papo got Tidjane Salaün in a trade with Ricky on January 14, 2025."
      },
      {
       "display": "Tobias Harris",
@@ -3263,7 +3554,8 @@
        "Harris",
        "Tobias",
        "Tobias Harris"
-      ]
+      ],
+      "detail": "Papo got Tobias Harris in a trade with Melo on May 6, 2024."
      },
      {
       "display": "Tre Jones",
@@ -3271,7 +3563,8 @@
        "Jones",
        "Tre",
        "Tre Jones"
-      ]
+      ],
+      "detail": "Papo got Tre Jones in a trade with Melo on May 6, 2024."
      },
      {
       "display": "Trey Murphy III",
@@ -3280,7 +3573,8 @@
        "Trey",
        "Trey Murphy",
        "Trey Murphy III"
-      ]
+      ],
+      "detail": "Papo got Trey Murphy III in a trade with Shueiro on July 12, 2025."
      },
      {
       "display": "Yves Missi",
@@ -3288,7 +3582,8 @@
        "Missi",
        "Yves",
        "Yves Missi"
-      ]
+      ],
+      "detail": "Papo got Yves Missi in a trade with Jacobo on April 2, 2025."
      },
      {
       "display": "Zaccharie Risacher",
@@ -3296,7 +3591,8 @@
        "Risacher",
        "Zaccharie",
        "Zaccharie Risacher"
-      ]
+      ],
+      "detail": "Papo got Zaccharie Risacher in a trade with Joey on November 23, 2024."
      },
      {
       "display": "Zach Edey",
@@ -3304,7 +3600,8 @@
        "Edey",
        "Zach",
        "Zach Edey"
-      ]
+      ],
+      "detail": "Papo got Zach Edey in a trade with Jacobo on January 28, 2025."
      },
      {
       "display": "Zach LaVine",
@@ -3312,7 +3609,8 @@
        "LaVine",
        "Zach",
        "Zach LaVine"
-      ]
+      ],
+      "detail": "Papo got Zach LaVine in a trade with Verdeja on January 4, 2024. Papo has traded for Zach LaVine 2 times in all."
      },
      {
       "display": "Zion Williamson",
@@ -3320,7 +3618,8 @@
        "Williamson",
        "Zion",
        "Zion Williamson"
-      ]
+      ],
+      "detail": "Papo got Zion Williamson in a trade with Joey on July 22, 2024. Papo has traded for Zion Williamson 2 times in all."
      },
      {
       "display": "Zuby Ejiofor",
@@ -3328,7 +3627,8 @@
        "Ejiofor",
        "Zuby",
        "Zuby Ejiofor"
-      ]
+      ],
+      "detail": "Papo got Zuby Ejiofor in a trade with Joey on July 14, 2026."
      }
     ],
     "note": null,
@@ -3350,7 +3650,8 @@
        "Damian",
        "Damian Lillard",
        "Lillard"
-      ]
+      ],
+      "detail": "Taken 38th overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Deandre Ayton",
@@ -3358,7 +3659,8 @@
        "Ayton",
        "Deandre",
        "Deandre Ayton"
-      ]
+      ],
+      "detail": "Taken 47th overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 4 times in Das League."
      },
      {
       "display": "Kevin Durant",
@@ -3366,7 +3668,8 @@
        "Durant",
        "Kevin",
        "Kevin Durant"
-      ]
+      ],
+      "detail": "Taken 35th overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Kristaps Porziņģis",
@@ -3374,7 +3677,8 @@
        "Kristaps",
        "Kristaps Porziņģis",
        "Porziņģis"
-      ]
+      ],
+      "detail": "Taken 59th overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Luka Dončić",
@@ -3382,7 +3686,8 @@
        "Dončić",
        "Luka",
        "Luka Dončić"
-      ]
+      ],
+      "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 4 times in Das League."
      }
     ],
     "note": null,
@@ -3408,7 +3713,8 @@
        "Rick",
        "Ricky"
       ],
-      "manager": "ricky"
+      "manager": "ricky",
+      "detail": "Through 2025-2026, Ricky is 14-41 in the regular season with 0 playoff trips and 0 titles. Ricky has made 12 trades in all."
      },
      {
       "display": "hotrelish (Jacobo)",
@@ -3418,7 +3724,8 @@
        "Jake",
        "hotrelish"
       ],
-      "manager": "jacobo"
+      "manager": "jacobo",
+      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips and 0 titles. Jacobo has made 66 trades in all."
      },
      {
       "display": "Antetokounmpers (Verdeja)",
@@ -3432,7 +3739,8 @@
        "Verdy",
        "Verdy11"
       ],
-      "manager": "verdeja"
+      "manager": "verdeja",
+      "detail": "Through 2025-2026, Verdeja is 24-31 in the regular season with 0 playoff trips and 0 titles. Verdeja has made 16 trades in all."
      }
     ],
     "note": "Through 2025-2026.",
@@ -3452,10 +3760,11 @@
        "Cooper",
        "Cooper Flagg",
        "Flagg"
-      ]
+      ],
+      "detail": "Taken 1st overall by hotrelish (Jacobo) in the 2025 rookie draft. Never traded in Das League."
      }
     ],
-    "note": "Taken by hotrelish (Jacobo).",
+    "note": null,
     "about": [
      "jacobo"
     ],
@@ -3480,7 +3789,8 @@
        "Joseph",
        "hughjasnuts"
       ],
-      "manager": "joey"
+      "manager": "joey",
+      "detail": "Joey went 11-6-1 in the 2023-2024 regular season (4th of 12) with 8,695 points, then lost in the first round of the playoffs."
      },
      {
       "display": "2057 Champs (Shueiro)",
@@ -3493,7 +3803,8 @@
        "Sway",
        "msway21"
       ],
-      "manager": "shueiro"
+      "manager": "shueiro",
+      "detail": "Shueiro went 5-12-1 in the 2023-2024 regular season (10th of 12) with 7,905 points and missed the playoffs."
      }
     ],
     "note": "474-474 in week 17 of 2023-2024.",
@@ -3511,7 +3822,8 @@
       "display": "12",
       "accept": [
        "12"
-      ]
+      ],
+      "detail": "Blandon went 12-6 in the 2023-2024 regular season (3rd of 12) with 8,596 points, then won the championship."
      }
     ],
     "note": null,
@@ -3538,7 +3850,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
      }
     ],
     "note": "30 trades.",
@@ -3558,7 +3871,8 @@
        "Domantas",
        "Domantas Sabonis",
        "Sabonis"
-      ]
+      ],
+      "detail": "Taken 12th overall by Saboners (Verdeja) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Mikal Bridges",
@@ -3566,7 +3880,8 @@
        "Bridges",
        "Mikal",
        "Mikal Bridges"
-      ]
+      ],
+      "detail": "Taken 32nd overall by Saboners (Verdeja) in the 2023 startup draft. Traded 6 times in Das League."
      },
      {
       "display": "Paolo Banchero",
@@ -3574,7 +3889,8 @@
        "Banchero",
        "Paolo",
        "Paolo Banchero"
-      ]
+      ],
+      "detail": "Taken 13th overall by Saboners (Verdeja) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Tyrese Maxey",
@@ -3582,7 +3898,8 @@
        "Maxey",
        "Tyrese",
        "Tyrese Maxey"
-      ]
+      ],
+      "detail": "Taken 41st overall by Saboners (Verdeja) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Zach LaVine",
@@ -3590,7 +3907,8 @@
        "LaVine",
        "Zach",
        "Zach LaVine"
-      ]
+      ],
+      "detail": "Taken 56th overall by Saboners (Verdeja) in the 2023 startup draft. Traded 4 times in Das League."
      }
     ],
     "note": null,
@@ -3617,7 +3935,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 15-3 in the 2023-2024 regular season (1st of 12) with 9,197 points, then finished third."
      },
      {
       "display": "Kareem Abdul-Jabong (Melo)",
@@ -3631,7 +3950,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 12-6 in the 2023-2024 regular season (2nd of 12) with 9,139 points, then finished fourth."
      },
      {
       "display": "Rabbi BT69 (Blandon)",
@@ -3645,7 +3965,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Blandon went 12-6 in the 2023-2024 regular season (3rd of 12) with 8,596 points, then won the championship."
      },
      {
       "display": "Fidel’s Accumulators (Joey)",
@@ -3657,7 +3978,8 @@
        "Joseph",
        "hughjasnuts"
       ],
-      "manager": "joey"
+      "manager": "joey",
+      "detail": "Joey went 11-6-1 in the 2023-2024 regular season (4th of 12) with 8,695 points, then lost in the first round of the playoffs."
      },
      {
       "display": "Luka Deez Nuts (Papo)",
@@ -3670,7 +3992,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 11-7 in the 2023-2024 regular season (5th of 12) with 9,052 points, then lost in the final."
      },
      {
       "display": "I Love Dragić (Victor)",
@@ -3681,7 +4004,8 @@
        "Victor",
        "victorprieto"
       ],
-      "manager": "victor"
+      "manager": "victor",
+      "detail": "Victor went 9-9 in the 2023-2024 regular season (6th of 12) with 8,621 points, then lost in the first round of the playoffs."
      }
     ],
     "note": null,
@@ -3701,10 +4025,11 @@
        "Boozer",
        "Cameron",
        "Cameron Boozer"
-      ]
+      ],
+      "detail": "Taken 1st overall by Rabbi BT69 (Blandon) in the 2026 rookie draft. Never traded in Das League."
      }
     ],
-    "note": "Taken by Rabbi BT69 (Blandon).",
+    "note": null,
     "about": [
      "blandon"
     ],
@@ -3729,7 +4054,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Through 2025-2026, Melo is 35-20 in the regular season with 3 playoff trips and 1 title. Melo has made 21 trades in all."
      }
     ],
     "note": "That was the name in 2023-2024.",
@@ -3749,7 +4075,8 @@
       "display": "11",
       "accept": [
        "11"
-      ]
+      ],
+      "detail": "Melo went 11-6 in the 2024-2025 regular season (4th of 12) with 8,722 points, then won the championship."
      }
     ],
     "note": null,
@@ -3771,7 +4098,8 @@
        "Brandon",
        "Brandon Ingram",
        "Ingram"
-      ]
+      ],
+      "detail": "Libguel got Brandon Ingram in a trade with Papo on November 7, 2024."
      },
      {
       "display": "Cam Whitmore",
@@ -3779,7 +4107,8 @@
        "Cam",
        "Cam Whitmore",
        "Whitmore"
-      ]
+      ],
+      "detail": "Libguel got Cam Whitmore in a trade with Joey on January 13, 2024."
      },
      {
       "display": "Dalton Knecht",
@@ -3787,7 +4116,8 @@
        "Dalton",
        "Dalton Knecht",
        "Knecht"
-      ]
+      ],
+      "detail": "Libguel got Dalton Knecht in a trade with Papo on February 8, 2025."
      },
      {
       "display": "Darius Garland",
@@ -3795,7 +4125,8 @@
        "Darius",
        "Darius Garland",
        "Garland"
-      ]
+      ],
+      "detail": "Libguel got Darius Garland in a trade with Shueiro on July 23, 2024."
      },
      {
       "display": "Devin Vassell",
@@ -3803,7 +4134,8 @@
        "Devin",
        "Devin Vassell",
        "Vassell"
-      ]
+      ],
+      "detail": "Libguel got Devin Vassell in a trade with Shueiro on July 23, 2024."
      },
      {
       "display": "Domantas Sabonis",
@@ -3811,7 +4143,8 @@
        "Domantas",
        "Domantas Sabonis",
        "Sabonis"
-      ]
+      ],
+      "detail": "Libguel got Domantas Sabonis in a trade with Papo on July 3, 2025."
      },
      {
       "display": "Evan Mobley",
@@ -3819,7 +4152,8 @@
        "Evan",
        "Evan Mobley",
        "Mobley"
-      ]
+      ],
+      "detail": "Libguel got Evan Mobley in a trade with Joey on December 30, 2023."
      },
      {
       "display": "Isaiah Hartenstein",
@@ -3827,7 +4161,8 @@
        "Hartenstein",
        "Isaiah",
        "Isaiah Hartenstein"
-      ]
+      ],
+      "detail": "Libguel got Isaiah Hartenstein in a trade with Papo on April 22, 2025."
      },
      {
       "display": "Jabari Smith Jr.",
@@ -3836,7 +4171,8 @@
        "Jabari Smith",
        "Jabari Smith Jr.",
        "Smith"
-      ]
+      ],
+      "detail": "Libguel got Jabari Smith Jr. in a trade with Papo on February 8, 2025."
      },
      {
       "display": "Jalen Suggs",
@@ -3844,7 +4180,8 @@
        "Jalen",
        "Jalen Suggs",
        "Suggs"
-      ]
+      ],
+      "detail": "Libguel got Jalen Suggs in a trade with Papo on April 22, 2025."
      },
      {
       "display": "Leonard Miller",
@@ -3852,7 +4189,8 @@
        "Leonard",
        "Leonard Miller",
        "Miller"
-      ]
+      ],
+      "detail": "Libguel got Leonard Miller in a trade with Papo on January 17, 2024."
      },
      {
       "display": "Michael Porter Jr.",
@@ -3861,7 +4199,8 @@
        "Michael Porter",
        "Michael Porter Jr.",
        "Porter"
-      ]
+      ],
+      "detail": "Libguel got Michael Porter Jr. in a trade with Papo on June 13, 2024."
      },
      {
       "display": "Nic Claxton",
@@ -3869,7 +4208,8 @@
        "Claxton",
        "Nic",
        "Nic Claxton"
-      ]
+      ],
+      "detail": "Libguel got Nic Claxton in a trade with Papo on February 8, 2025."
      },
      {
       "display": "Shaedon Sharpe",
@@ -3877,7 +4217,8 @@
        "Shaedon",
        "Shaedon Sharpe",
        "Sharpe"
-      ]
+      ],
+      "detail": "Libguel got Shaedon Sharpe in a trade with Jacobo on December 22, 2024."
      },
      {
       "display": "Tidjane Salaün",
@@ -3885,7 +4226,8 @@
        "Salaün",
        "Tidjane",
        "Tidjane Salaün"
-      ]
+      ],
+      "detail": "Libguel got Tidjane Salaün in a trade with Papo on February 10, 2025."
      },
      {
       "display": "Tyrese Haliburton",
@@ -3893,7 +4235,8 @@
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
-      ]
+      ],
+      "detail": "Libguel got Tyrese Haliburton in a trade with Jacobo on December 22, 2024."
      }
     ],
     "note": null,
@@ -3915,7 +4258,8 @@
        "Alperen",
        "Alperen Şengün",
        "Şengün"
-      ]
+      ],
+      "detail": "Taken 23rd overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 3 times in Das League."
      },
      {
       "display": "Cade Cunningham",
@@ -3923,7 +4267,8 @@
        "Cade",
        "Cade Cunningham",
        "Cunningham"
-      ]
+      ],
+      "detail": "Taken 14th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Chet Holmgren",
@@ -3931,7 +4276,8 @@
        "Chet",
        "Chet Holmgren",
        "Holmgren"
-      ]
+      ],
+      "detail": "Taken 11th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 3 times in Das League."
      },
      {
       "display": "Darius Garland",
@@ -3939,7 +4285,8 @@
        "Darius",
        "Darius Garland",
        "Garland"
-      ]
+      ],
+      "detail": "Taken 26th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Jalen Green",
@@ -3947,7 +4294,8 @@
        "Green",
        "Jalen",
        "Jalen Green"
-      ]
+      ],
+      "detail": "Taken 50th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 4 times in Das League."
      }
     ],
     "note": null,
@@ -3975,7 +4323,8 @@
        "Verdy",
        "Verdy11"
       ],
-      "manager": "verdeja"
+      "manager": "verdeja",
+      "detail": "Verdeja went 10-10 in the 2025-2026 regular season (7th of 12) with 8,676 points and missed the playoffs."
      },
      {
       "display": "I Love Dragić (Victor)",
@@ -3986,7 +4335,8 @@
        "Victor",
        "victorprieto"
       ],
-      "manager": "victor"
+      "manager": "victor",
+      "detail": "Victor went 9-11 in the 2025-2026 regular season (8th of 12) with 8,200 points and missed the playoffs."
      },
      {
       "display": "MoonUnit 🦬 (Ricky)",
@@ -3998,7 +4348,8 @@
        "Rick",
        "Ricky"
       ],
-      "manager": "ricky"
+      "manager": "ricky",
+      "detail": "Ricky went 7-13 in the 2025-2026 regular season (9th of 12) with 8,086 points and missed the playoffs."
      },
      {
       "display": "hotrelish (Jacobo)",
@@ -4008,7 +4359,8 @@
        "Jake",
        "hotrelish"
       ],
-      "manager": "jacobo"
+      "manager": "jacobo",
+      "detail": "Jacobo went 7-13 in the 2025-2026 regular season (10th of 12) with 8,074 points and missed the playoffs."
      },
      {
       "display": "Rabbi BT69 (Blandon)",
@@ -4022,7 +4374,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Blandon went 5-15 in the 2025-2026 regular season (11th of 12) with 7,866 points and missed the playoffs."
      },
      {
       "display": "Fidel’s Accumulators (Joey)",
@@ -4034,7 +4387,8 @@
        "Joseph",
        "hughjasnuts"
       ],
-      "manager": "joey"
+      "manager": "joey",
+      "detail": "Joey went 2-18 in the 2025-2026 regular season (12th of 12) with 8,218 points and missed the playoffs."
      }
     ],
     "note": null,
@@ -4054,7 +4408,8 @@
        "Anthony",
        "Anthony Edwards",
        "Edwards"
-      ]
+      ],
+      "detail": "Taken 8th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Chet Holmgren",
@@ -4062,7 +4417,8 @@
        "Chet",
        "Chet Holmgren",
        "Holmgren"
-      ]
+      ],
+      "detail": "Taken 11th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 3 times in Das League."
      },
      {
       "display": "Domantas Sabonis",
@@ -4070,7 +4426,8 @@
        "Domantas",
        "Domantas Sabonis",
        "Sabonis"
-      ]
+      ],
+      "detail": "Taken 12th overall by Saboners (Verdeja) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Giannis Antetokounmpo",
@@ -4078,7 +4435,8 @@
        "Antetokounmpo",
        "Giannis",
        "Giannis Antetokounmpo"
-      ]
+      ],
+      "detail": "Taken 6th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 4 times in Das League."
      },
      {
       "display": "Jayson Tatum",
@@ -4086,7 +4444,8 @@
        "Jayson",
        "Jayson Tatum",
        "Tatum"
-      ]
+      ],
+      "detail": "Taken 10th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Joel Embiid",
@@ -4094,7 +4453,8 @@
        "Embiid",
        "Joel",
        "Joel Embiid"
-      ]
+      ],
+      "detail": "Taken 7th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "LaMelo Ball",
@@ -4102,7 +4462,8 @@
        "Ball",
        "LaMelo",
        "LaMelo Ball"
-      ]
+      ],
+      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 4 times in Das League."
      },
      {
       "display": "Luka Dončić",
@@ -4110,7 +4471,8 @@
        "Dončić",
        "Luka",
        "Luka Dončić"
-      ]
+      ],
+      "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 4 times in Das League."
      },
      {
       "display": "Nikola Jokić",
@@ -4118,7 +4480,8 @@
        "Jokić",
        "Nikola",
        "Nikola Jokić"
-      ]
+      ],
+      "detail": "Taken 1st overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Shai Gilgeous-Alexander",
@@ -4128,7 +4491,8 @@
        "Gilgeous-Alexander",
        "Shai",
        "Shai Gilgeous-Alexander"
-      ]
+      ],
+      "detail": "Taken 9th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Tyrese Haliburton",
@@ -4136,7 +4500,8 @@
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
-      ]
+      ],
+      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 6 times in Das League."
      },
      {
       "display": "Victor Wembanyama",
@@ -4144,7 +4509,8 @@
        "Victor",
        "Victor Wembanyama",
        "Wembanyama"
-      ]
+      ],
+      "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 4 times in Das League."
      }
     ],
     "note": null,
@@ -4168,7 +4534,8 @@
        "Rick",
        "Ricky"
       ],
-      "manager": "ricky"
+      "manager": "ricky",
+      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
      }
     ],
     "note": "Just 243 points in week 16.",
@@ -4192,7 +4559,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
      },
      {
       "display": "Fear the Brow (Papo)",
@@ -4205,7 +4573,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
      },
      {
       "display": "2057 Champs (Shueiro)",
@@ -4218,7 +4587,8 @@
        "Sway",
        "msway21"
       ],
-      "manager": "shueiro"
+      "manager": "shueiro",
+      "detail": "Shueiro went 13-7 in the 2025-2026 regular season (3rd of 12) with 9,303 points, then lost in the first round of the playoffs."
      },
      {
       "display": "LeBong James 👑 (Melo)",
@@ -4232,7 +4602,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 12-8 in the 2025-2026 regular season (4th of 12) with 9,857 points, then lost in the first round of the playoffs."
      },
      {
       "display": "Lochte & Associates (Chalela)",
@@ -4244,7 +4615,8 @@
        "Equipito PapoChullo",
        "Lochte & Associates"
       ],
-      "manager": "chalela"
+      "manager": "chalela",
+      "detail": "Chalela went 12-8 in the 2025-2026 regular season (5th of 12) with 9,010 points, then finished fourth."
      }
     ],
     "note": null,
@@ -4266,7 +4638,8 @@
        "Brandon",
        "Brandon Ingram",
        "Ingram"
-      ]
+      ],
+      "detail": "Taken 31st overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 8 times in Das League."
      },
      {
       "display": "Chris Paul",
@@ -4274,7 +4647,8 @@
        "Chris",
        "Chris Paul",
        "Paul"
-      ]
+      ],
+      "detail": "Taken 129th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Traded 7 times in Das League."
      },
      {
       "display": "Derrick White",
@@ -4282,7 +4656,8 @@
        "Derrick",
        "Derrick White",
        "White"
-      ]
+      ],
+      "detail": "Taken 131st overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 11 times in Das League."
      },
      {
       "display": "Jalen Suggs",
@@ -4290,7 +4665,8 @@
        "Jalen",
        "Jalen Suggs",
        "Suggs"
-      ]
+      ],
+      "detail": "Taken 191st overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 7 times in Das League."
      },
      {
       "display": "Jimmy Butler III",
@@ -4299,7 +4675,8 @@
        "Jimmy",
        "Jimmy Butler",
        "Jimmy Butler III"
-      ]
+      ],
+      "detail": "Taken 66th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 6 times in Das League."
      },
      {
       "display": "Julius Randle",
@@ -4307,7 +4684,8 @@
        "Julius",
        "Julius Randle",
        "Randle"
-      ]
+      ],
+      "detail": "Taken 44th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 6 times in Das League."
      },
      {
       "display": "Lauri Markkanen",
@@ -4315,7 +4693,8 @@
        "Lauri",
        "Lauri Markkanen",
        "Markkanen"
-      ]
+      ],
+      "detail": "Taken 37th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 10 times in Das League."
      },
      {
       "display": "Michael Porter Jr.",
@@ -4324,7 +4703,8 @@
        "Michael Porter",
        "Michael Porter Jr.",
        "Porter"
-      ]
+      ],
+      "detail": "Taken 90th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 7 times in Das League."
      },
      {
       "display": "Mikal Bridges",
@@ -4332,7 +4712,8 @@
        "Bridges",
        "Mikal",
        "Mikal Bridges"
-      ]
+      ],
+      "detail": "Taken 32nd overall by Saboners (Verdeja) in the 2023 startup draft. Traded 6 times in Das League."
      },
      {
       "display": "Miles Bridges",
@@ -4340,7 +4721,8 @@
        "Bridges",
        "Miles",
        "Miles Bridges"
-      ]
+      ],
+      "detail": "Taken 102nd overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 6 times in Das League."
      },
      {
       "display": "Naz Reid",
@@ -4348,7 +4730,8 @@
        "Naz",
        "Naz Reid",
        "Reid"
-      ]
+      ],
+      "detail": "Taken 196th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 6 times in Das League."
      },
      {
       "display": "Paul George",
@@ -4356,7 +4739,8 @@
        "George",
        "Paul",
        "Paul George"
-      ]
+      ],
+      "detail": "Taken 62nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 7 times in Das League."
      },
      {
       "display": "Stephen Curry",
@@ -4364,7 +4748,8 @@
        "Curry",
        "Stephen",
        "Stephen Curry"
-      ]
+      ],
+      "detail": "Taken 34th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Traded 6 times in Das League."
      },
      {
       "display": "Tyrese Haliburton",
@@ -4372,7 +4757,8 @@
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
-      ]
+      ],
+      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 6 times in Das League."
      }
     ],
     "note": null,
@@ -4392,7 +4778,8 @@
        "Adebayo",
        "Bam",
        "Bam Adebayo"
-      ]
+      ],
+      "detail": "Taken 30th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 5 times in Das League."
      },
      {
       "display": "Giannis Antetokounmpo",
@@ -4400,7 +4787,8 @@
        "Antetokounmpo",
        "Giannis",
        "Giannis Antetokounmpo"
-      ]
+      ],
+      "detail": "Taken 6th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 4 times in Das League."
      },
      {
       "display": "Jalen Williams",
@@ -4408,7 +4796,8 @@
        "Jalen",
        "Jalen Williams",
        "Williams"
-      ]
+      ],
+      "detail": "Taken 43rd overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Karl-Anthony Towns",
@@ -4416,7 +4805,8 @@
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
-      ]
+      ],
+      "detail": "Taken 19th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 3 times in Das League."
      },
      {
       "display": "OG Anunoby",
@@ -4424,7 +4814,8 @@
        "Anunoby",
        "OG",
        "OG Anunoby"
-      ]
+      ],
+      "detail": "Taken 54th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 3 times in Das League."
      }
     ],
     "note": null,
@@ -4452,7 +4843,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 11-6 in the 2024-2025 regular season (4th of 12) with 8,722 points, then won the championship."
      }
     ],
     "note": null,
@@ -4472,10 +4864,11 @@
        "Alex",
        "Alex Sarr",
        "Sarr"
-      ]
+      ],
+      "detail": "Taken 1st overall by Los Chigüires (Libguel) in the 2024 rookie draft. Never traded in Das League."
      }
     ],
-    "note": "Taken by Los Chigüires (Libguel).",
+    "note": null,
     "about": [
      "libguel"
     ],
@@ -4500,7 +4893,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Blandon went 12-6 in the 2023-2024 regular season (3rd of 12) with 8,596 points, then won the championship."
      }
     ],
     "note": "533 points in week 15, and still lost to Luka Deez Nuts (Papo).",
@@ -4528,7 +4922,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 11-6 in the 2024-2025 regular season (4th of 12) with 8,722 points, then won the championship."
      },
      {
       "display": "Equipito PapoChullo (Chalela)",
@@ -4540,7 +4935,8 @@
        "Equipito PapoChullo",
        "Lochte & Associates"
       ],
-      "manager": "chalela"
+      "manager": "chalela",
+      "detail": "Chalela went 13-4 in the 2024-2025 regular season (2nd of 12) with 8,653 points, then finished third."
      },
      {
       "display": "Equipo Winchenzo 2X (Winch)",
@@ -4553,7 +4949,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 14-3 in the 2024-2025 regular season (1st of 12) with 8,544 points, then finished fourth."
      }
     ],
     "note": null,
@@ -4573,7 +4970,8 @@
        "Alperen",
        "Alperen Şengün",
        "Şengün"
-      ]
+      ],
+      "detail": "Shueiro got Alperen Şengün in a trade with Blandon on January 30, 2024."
      },
      {
       "display": "Amen Thompson",
@@ -4581,7 +4979,8 @@
        "Amen",
        "Amen Thompson",
        "Thompson"
-      ]
+      ],
+      "detail": "Shueiro got Amen Thompson in a trade with Blandon on January 30, 2024."
      },
      {
       "display": "Anthony Black",
@@ -4589,7 +4988,8 @@
        "Anthony",
        "Anthony Black",
        "Black"
-      ]
+      ],
+      "detail": "Shueiro got Anthony Black in a trade with Libguel on December 28, 2023."
      },
      {
       "display": "Bam Adebayo",
@@ -4597,7 +4997,8 @@
        "Adebayo",
        "Bam",
        "Bam Adebayo"
-      ]
+      ],
+      "detail": "Shueiro got Bam Adebayo in a trade with Blandon on January 30, 2024."
      },
      {
       "display": "Bobby Portis Jr.",
@@ -4606,7 +5007,8 @@
        "Bobby Portis",
        "Bobby Portis Jr.",
        "Portis"
-      ]
+      ],
+      "detail": "Shueiro got Bobby Portis Jr. in a trade with Papo on August 21, 2024."
      },
      {
       "display": "Bradley Beal",
@@ -4614,7 +5016,8 @@
        "Beal",
        "Bradley",
        "Bradley Beal"
-      ]
+      ],
+      "detail": "Shueiro got Bradley Beal in a trade with Papo on July 22, 2024."
      },
      {
       "display": "Brandin Podziemski",
@@ -4622,7 +5025,8 @@
        "Brandin",
        "Brandin Podziemski",
        "Podziemski"
-      ]
+      ],
+      "detail": "Shueiro got Brandin Podziemski in a trade with Libguel on July 23, 2024."
      },
      {
       "display": "Brandon Ingram",
@@ -4630,7 +5034,8 @@
        "Brandon",
        "Brandon Ingram",
        "Ingram"
-      ]
+      ],
+      "detail": "Shueiro got Brandon Ingram in a trade with Papo on September 22, 2024."
      },
      {
       "display": "Brandon Miller",
@@ -4638,7 +5043,8 @@
        "Brandon",
        "Brandon Miller",
        "Miller"
-      ]
+      ],
+      "detail": "Shueiro got Brandon Miller in a trade with Blandon on January 30, 2024."
      },
      {
       "display": "Cameron Johnson",
@@ -4646,7 +5052,8 @@
        "Cameron",
        "Cameron Johnson",
        "Johnson"
-      ]
+      ],
+      "detail": "Shueiro got Cameron Johnson in a trade with Papo on July 12, 2025."
      },
      {
       "display": "Chet Holmgren",
@@ -4654,7 +5061,8 @@
        "Chet",
        "Chet Holmgren",
        "Holmgren"
-      ]
+      ],
+      "detail": "Shueiro got Chet Holmgren in a trade with Papo on January 28, 2025."
      },
      {
       "display": "Christian Braun",
@@ -4662,7 +5070,8 @@
        "Braun",
        "Christian",
        "Christian Braun"
-      ]
+      ],
+      "detail": "Shueiro got Christian Braun in a trade with Papo on January 21, 2025."
      },
      {
       "display": "Deni Avdija",
@@ -4670,7 +5079,8 @@
        "Avdija",
        "Deni",
        "Deni Avdija"
-      ]
+      ],
+      "detail": "Shueiro got Deni Avdija in a trade with Jacobo on August 19, 2024."
      },
      {
       "display": "Giannis Antetokounmpo",
@@ -4678,7 +5088,8 @@
        "Antetokounmpo",
        "Giannis",
        "Giannis Antetokounmpo"
-      ]
+      ],
+      "detail": "Shueiro got Giannis Antetokounmpo in a trade with Blandon on January 30, 2024."
      },
      {
       "display": "Immanuel Quickley",
@@ -4686,7 +5097,8 @@
        "Immanuel",
        "Immanuel Quickley",
        "Quickley"
-      ]
+      ],
+      "detail": "Shueiro got Immanuel Quickley in a trade with Libguel on July 23, 2024."
      },
      {
       "display": "Jaden McDaniels",
@@ -4694,7 +5106,8 @@
        "Jaden",
        "Jaden McDaniels",
        "McDaniels"
-      ]
+      ],
+      "detail": "Shueiro got Jaden McDaniels in a trade with Papo on September 22, 2024."
      },
      {
       "display": "Jaime Jaquez Jr.",
@@ -4703,7 +5116,8 @@
        "Jaime Jaquez",
        "Jaime Jaquez Jr.",
        "Jaquez"
-      ]
+      ],
+      "detail": "Shueiro got Jaime Jaquez Jr. in a trade with Blandon on July 26, 2024."
      },
      {
       "display": "Jalen Suggs",
@@ -4711,7 +5125,8 @@
        "Jalen",
        "Jalen Suggs",
        "Suggs"
-      ]
+      ],
+      "detail": "Shueiro got Jalen Suggs in a trade with Papo on July 12, 2025."
      },
      {
       "display": "Jalen Williams",
@@ -4719,7 +5134,8 @@
        "Jalen",
        "Jalen Williams",
        "Williams"
-      ]
+      ],
+      "detail": "Shueiro got Jalen Williams in a trade with Blandon on January 30, 2024."
      },
      {
       "display": "Jimmy Butler III",
@@ -4728,7 +5144,8 @@
        "Jimmy",
        "Jimmy Butler",
        "Jimmy Butler III"
-      ]
+      ],
+      "detail": "Shueiro got Jimmy Butler III in a trade with Papo on September 22, 2024."
      },
      {
       "display": "Jonathan Kuminga",
@@ -4736,7 +5153,8 @@
        "Jonathan",
        "Jonathan Kuminga",
        "Kuminga"
-      ]
+      ],
+      "detail": "Shueiro got Jonathan Kuminga in a trade with Blandon on January 30, 2024."
      },
      {
       "display": "Klay Thompson",
@@ -4744,7 +5162,8 @@
        "Klay",
        "Klay Thompson",
        "Thompson"
-      ]
+      ],
+      "detail": "Shueiro got Klay Thompson in a trade with Papo on August 21, 2024."
      },
      {
       "display": "Lauri Markkanen",
@@ -4752,7 +5171,8 @@
        "Lauri",
        "Lauri Markkanen",
        "Markkanen"
-      ]
+      ],
+      "detail": "Shueiro got Lauri Markkanen in a trade with Blandon on January 30, 2024."
      },
      {
       "display": "Mikal Bridges",
@@ -4760,7 +5180,8 @@
        "Bridges",
        "Mikal",
        "Mikal Bridges"
-      ]
+      ],
+      "detail": "Shueiro got Mikal Bridges in a trade with Papo on January 30, 2024."
      },
      {
       "display": "Miles Bridges",
@@ -4768,7 +5189,8 @@
        "Bridges",
        "Miles",
        "Miles Bridges"
-      ]
+      ],
+      "detail": "Shueiro got Miles Bridges in a trade with Blandon on January 30, 2024. Shueiro has traded for Miles Bridges 2 times in all."
      },
      {
       "display": "Naz Reid",
@@ -4776,7 +5198,8 @@
        "Naz",
        "Naz Reid",
        "Reid"
-      ]
+      ],
+      "detail": "Shueiro got Naz Reid in a trade with Papo on January 21, 2025."
      },
      {
       "display": "Onyeka Okongwu",
@@ -4784,7 +5207,8 @@
        "Okongwu",
        "Onyeka",
        "Onyeka Okongwu"
-      ]
+      ],
+      "detail": "Shueiro got Onyeka Okongwu in a trade with Blandon on January 30, 2024."
      },
      {
       "display": "P.J. Washington",
@@ -4792,7 +5216,8 @@
        "P.J.",
        "P.J. Washington",
        "Washington"
-      ]
+      ],
+      "detail": "Shueiro got P.J. Washington in a trade with Ricky on July 20, 2026."
      },
      {
       "display": "Payton Pritchard",
@@ -4800,7 +5225,8 @@
        "Payton",
        "Payton Pritchard",
        "Pritchard"
-      ]
+      ],
+      "detail": "Shueiro got Payton Pritchard in a trade with Papo on April 6, 2025."
      },
      {
       "display": "Ronald Holland II",
@@ -4809,7 +5235,8 @@
        "Ronald",
        "Ronald Holland",
        "Ronald Holland II"
-      ]
+      ],
+      "detail": "Shueiro got Ronald Holland II in a trade with Papo on January 21, 2025."
      },
      {
       "display": "Stephon Castle",
@@ -4817,7 +5244,8 @@
        "Castle",
        "Stephon",
        "Stephon Castle"
-      ]
+      ],
+      "detail": "Shueiro got Stephon Castle in a trade with Papo on January 21, 2025."
      },
      {
       "display": "Tari Eason",
@@ -4825,7 +5253,8 @@
        "Eason",
        "Tari",
        "Tari Eason"
-      ]
+      ],
+      "detail": "Shueiro got Tari Eason in a trade with Blandon on January 30, 2024."
      },
      {
       "display": "Victor Wembanyama",
@@ -4833,7 +5262,8 @@
        "Victor",
        "Victor Wembanyama",
        "Wembanyama"
-      ]
+      ],
+      "detail": "Shueiro got Victor Wembanyama in a trade with Ricky on July 20, 2026."
      },
      {
       "display": "Walter Clayton Jr.",
@@ -4842,7 +5272,8 @@
        "Walter",
        "Walter Clayton",
        "Walter Clayton Jr."
-      ]
+      ],
+      "detail": "Shueiro got Walter Clayton Jr. in a trade with Papo on July 12, 2025."
      },
      {
       "display": "Zaccharie Risacher",
@@ -4850,7 +5281,8 @@
        "Risacher",
        "Zaccharie",
        "Zaccharie Risacher"
-      ]
+      ],
+      "detail": "Shueiro got Zaccharie Risacher in a trade with Papo on January 21, 2025."
      },
      {
       "display": "Zach Edey",
@@ -4858,7 +5290,8 @@
        "Edey",
        "Zach",
        "Zach Edey"
-      ]
+      ],
+      "detail": "Shueiro got Zach Edey in a trade with Papo on April 6, 2025."
      }
     ],
     "note": null,
@@ -4882,7 +5315,8 @@
        "Bane",
        "Desmond",
        "Desmond Bane"
-      ]
+      ],
+      "detail": "Taken 40th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Jabari Smith Jr.",
@@ -4891,7 +5325,8 @@
        "Jabari Smith",
        "Jabari Smith Jr.",
        "Smith"
-      ]
+      ],
+      "detail": "Taken 57th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Traded 4 times in Das League."
      },
      {
       "display": "Jalen Brunson",
@@ -4899,7 +5334,8 @@
        "Brunson",
        "Jalen",
        "Jalen Brunson"
-      ]
+      ],
+      "detail": "Taken 33rd overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Shai Gilgeous-Alexander",
@@ -4909,7 +5345,8 @@
        "Gilgeous-Alexander",
        "Shai",
        "Shai Gilgeous-Alexander"
-      ]
+      ],
+      "detail": "Taken 9th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Trae Young",
@@ -4917,7 +5354,8 @@
        "Trae",
        "Trae Young",
        "Young"
-      ]
+      ],
+      "detail": "Taken 16th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
      }
     ],
     "note": null,
@@ -4945,7 +5383,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips and 1 title. Blandon has made 30 trades in all."
      },
      {
       "display": "Fear the Brow (Papo)",
@@ -4958,7 +5397,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
      }
     ],
     "note": null,
@@ -4978,7 +5418,8 @@
        "AJ",
        "AJ Dybantsa",
        "Dybantsa"
-      ]
+      ],
+      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Caleb Wilson",
@@ -4986,7 +5427,8 @@
        "Caleb",
        "Caleb Wilson",
        "Wilson"
-      ]
+      ],
+      "detail": "Taken 3rd overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Cameron Boozer",
@@ -4994,7 +5436,8 @@
        "Boozer",
        "Cameron",
        "Cameron Boozer"
-      ]
+      ],
+      "detail": "Taken 1st overall by Rabbi BT69 (Blandon) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Darius Acuff Jr.",
@@ -5003,7 +5446,8 @@
        "Darius",
        "Darius Acuff",
        "Darius Acuff Jr."
-      ]
+      ],
+      "detail": "Taken 2nd overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
      },
      {
       "display": "Darryn Peterson",
@@ -5011,7 +5455,8 @@
        "Darryn",
        "Darryn Peterson",
        "Peterson"
-      ]
+      ],
+      "detail": "Taken 4th overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
      }
     ],
     "note": null,
@@ -5036,7 +5481,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
      }
     ],
     "note": null,
@@ -5062,7 +5508,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 11-6 in the 2024-2025 regular season (4th of 12) with 8,722 points, then won the championship."
      }
     ],
     "note": "601 points in week 9.",
@@ -5082,7 +5529,8 @@
        "Andrew",
        "Andrew Wiggins",
        "Wiggins"
-      ]
+      ],
+      "detail": "Verdeja got Andrew Wiggins in a trade with Papo on April 12, 2024."
      },
      {
       "display": "Bam Adebayo",
@@ -5090,7 +5538,8 @@
        "Adebayo",
        "Bam",
        "Bam Adebayo"
-      ]
+      ],
+      "detail": "Verdeja got Bam Adebayo in a trade with Melo on September 4, 2026."
      },
      {
       "display": "Brook Lopez",
@@ -5098,7 +5547,8 @@
        "Brook",
        "Brook Lopez",
        "Lopez"
-      ]
+      ],
+      "detail": "Verdeja got Brook Lopez in a trade with Papo on July 26, 2024."
      },
      {
       "display": "Cam Whitmore",
@@ -5106,7 +5556,8 @@
        "Cam",
        "Cam Whitmore",
        "Whitmore"
-      ]
+      ],
+      "detail": "Verdeja got Cam Whitmore in a trade with Papo on April 27, 2025."
      },
      {
       "display": "Cameron Johnson",
@@ -5114,7 +5565,8 @@
        "Cameron",
        "Cameron Johnson",
        "Johnson"
-      ]
+      ],
+      "detail": "Verdeja got Cameron Johnson in a trade with Papo on February 5, 2025."
      },
      {
       "display": "Chris Paul",
@@ -5122,7 +5574,8 @@
        "Chris",
        "Chris Paul",
        "Paul"
-      ]
+      ],
+      "detail": "Verdeja got Chris Paul in a trade with Papo on April 27, 2025."
      },
      {
       "display": "DeMar DeRozan",
@@ -5130,7 +5583,8 @@
        "DeMar",
        "DeMar DeRozan",
        "DeRozan"
-      ]
+      ],
+      "detail": "Verdeja got DeMar DeRozan in a trade with Papo on April 12, 2024."
      },
      {
       "display": "Deandre Ayton",
@@ -5138,7 +5592,8 @@
        "Ayton",
        "Deandre",
        "Deandre Ayton"
-      ]
+      ],
+      "detail": "Verdeja got Deandre Ayton in a trade with Papo on January 4, 2024."
      },
      {
       "display": "Donovan Mitchell",
@@ -5146,7 +5601,8 @@
        "Donovan",
        "Donovan Mitchell",
        "Mitchell"
-      ]
+      ],
+      "detail": "Verdeja got Donovan Mitchell in a trade with Melo on September 4, 2026."
      },
      {
       "display": "Donte DiVincenzo",
@@ -5154,7 +5610,8 @@
        "DiVincenzo",
        "Donte",
        "Donte DiVincenzo"
-      ]
+      ],
+      "detail": "Verdeja got Donte DiVincenzo in a trade with Papo on July 26, 2024."
      },
      {
       "display": "Giannis Antetokounmpo",
@@ -5162,7 +5619,8 @@
        "Antetokounmpo",
        "Giannis",
        "Giannis Antetokounmpo"
-      ]
+      ],
+      "detail": "Verdeja got Giannis Antetokounmpo in a trade with Papo on June 27, 2025."
      },
      {
       "display": "Jaime Jaquez Jr.",
@@ -5171,7 +5629,8 @@
        "Jaime Jaquez",
        "Jaime Jaquez Jr.",
        "Jaquez"
-      ]
+      ],
+      "detail": "Verdeja got Jaime Jaquez Jr. in a trade with Papo on February 5, 2025."
      },
      {
       "display": "Jalen Duren",
@@ -5179,7 +5638,8 @@
        "Duren",
        "Jalen",
        "Jalen Duren"
-      ]
+      ],
+      "detail": "Verdeja got Jalen Duren in a trade with Papo on January 17, 2025."
      },
      {
       "display": "Jimmy Butler III",
@@ -5188,7 +5648,8 @@
        "Jimmy",
        "Jimmy Butler",
        "Jimmy Butler III"
-      ]
+      ],
+      "detail": "Verdeja got Jimmy Butler III in a trade with Papo on September 3, 2025."
      },
      {
       "display": "John Collins",
@@ -5196,7 +5657,8 @@
        "Collins",
        "John",
        "John Collins"
-      ]
+      ],
+      "detail": "Verdeja got John Collins in a trade with Papo on January 17, 2025."
      },
      {
       "display": "Jordan Poole",
@@ -5204,7 +5666,8 @@
        "Jordan",
        "Jordan Poole",
        "Poole"
-      ]
+      ],
+      "detail": "Verdeja got Jordan Poole in a trade with Papo on January 4, 2024."
      },
      {
       "display": "Keyonte George",
@@ -5212,7 +5675,8 @@
        "George",
        "Keyonte",
        "Keyonte George"
-      ]
+      ],
+      "detail": "Verdeja got Keyonte George in a trade with Papo on April 27, 2025."
      },
      {
       "display": "Naz Reid",
@@ -5220,7 +5684,8 @@
        "Naz",
        "Naz Reid",
        "Reid"
-      ]
+      ],
+      "detail": "Verdeja got Naz Reid in a trade with Jacobo on August 1, 2024."
      },
      {
       "display": "Nickeil Alexander-Walker",
@@ -5230,7 +5695,8 @@
        "Nickeil",
        "Nickeil Alexander-Walker",
        "Walker"
-      ]
+      ],
+      "detail": "Verdeja got Nickeil Alexander-Walker in a trade with Jacobo on February 2, 2026."
      },
      {
       "display": "Paul George",
@@ -5238,7 +5704,8 @@
        "George",
        "Paul",
        "Paul George"
-      ]
+      ],
+      "detail": "Verdeja got Paul George in a trade with Papo on January 4, 2024."
      }
     ],
     "note": null,
@@ -5260,7 +5727,8 @@
        "Anfernee",
        "Anfernee Simons",
        "Simons"
-      ]
+      ],
+      "detail": "Taken 51st overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "De'Aaron Fox",
@@ -5268,7 +5736,8 @@
        "De'Aaron",
        "De'Aaron Fox",
        "Fox"
-      ]
+      ],
+      "detail": "Taken 27th overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Jaylen Brown",
@@ -5276,7 +5745,8 @@
        "Brown",
        "Jaylen",
        "Jaylen Brown"
-      ]
+      ],
+      "detail": "Taken 22nd overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Tyler Herro",
@@ -5284,7 +5754,8 @@
        "Herro",
        "Tyler",
        "Tyler Herro"
-      ]
+      ],
+      "detail": "Taken 46th overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Victor Wembanyama",
@@ -5292,7 +5763,8 @@
        "Victor",
        "Victor Wembanyama",
        "Wembanyama"
-      ]
+      ],
+      "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 4 times in Das League."
      }
     ],
     "note": null,
@@ -5321,7 +5793,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 14-3 in the 2024-2025 regular season (1st of 12) with 8,544 points, then finished fourth."
      },
      {
       "display": "Equipito PapoChullo (Chalela)",
@@ -5333,7 +5806,8 @@
        "Equipito PapoChullo",
        "Lochte & Associates"
       ],
-      "manager": "chalela"
+      "manager": "chalela",
+      "detail": "Chalela went 13-4 in the 2024-2025 regular season (2nd of 12) with 8,653 points, then finished third."
      },
      {
       "display": "Rabbi Repeat BT69 (Blandon)",
@@ -5347,7 +5821,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Blandon went 13-4 in the 2024-2025 regular season (3rd of 12) with 8,434 points, then lost in the final."
      },
      {
       "display": "Joel Embong? 😓 (Melo)",
@@ -5361,7 +5836,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 11-6 in the 2024-2025 regular season (4th of 12) with 8,722 points, then won the championship."
      },
      {
       "display": "I Love Dragić (Victor)",
@@ -5372,7 +5848,8 @@
        "Victor",
        "victorprieto"
       ],
-      "manager": "victor"
+      "manager": "victor",
+      "detail": "Victor went 11-6 in the 2024-2025 regular season (5th of 12) with 7,973 points, then lost in the first round of the playoffs."
      },
      {
       "display": "Fidel’s Accumulators (Joey)",
@@ -5384,7 +5861,8 @@
        "Joseph",
        "hughjasnuts"
       ],
-      "manager": "joey"
+      "manager": "joey",
+      "detail": "Joey went 8-9 in the 2024-2025 regular season (6th of 12) with 7,672 points, then lost in the first round of the playoffs."
      }
     ],
     "note": null,
@@ -5408,7 +5886,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Libguel went 7-10 in the 2024-2025 regular season (7th of 12) with 8,019 points and missed the playoffs."
      }
     ],
     "note": "The pick was Alex Sarr.",
@@ -5434,7 +5913,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 11-6 in the 2024-2025 regular season (4th of 12) with 8,722 points, then won the championship."
      }
     ],
     "note": "549 points in week 14, and still lost to I Love Dragić (Victor).",
@@ -5458,7 +5938,8 @@
        "Jake",
        "hotrelish"
       ],
-      "manager": "jacobo"
+      "manager": "jacobo",
+      "detail": "Jacobo went 8-10 in the 2023-2024 regular season (9th of 12) with 7,458 points and missed the playoffs."
      }
     ],
     "note": null,
@@ -5478,7 +5959,8 @@
        "Caris",
        "Caris LeVert",
        "LeVert"
-      ]
+      ],
+      "detail": "Chalela got Caris LeVert in a trade with Papo on February 6, 2024."
      },
      {
       "display": "Dennis Schröder",
@@ -5486,7 +5968,8 @@
        "Dennis",
        "Dennis Schröder",
        "Schröder"
-      ]
+      ],
+      "detail": "Chalela got Dennis Schröder in a trade with Papo on November 3, 2024. Chalela has traded for Dennis Schröder 2 times in all."
      },
      {
       "display": "Derrick White",
@@ -5494,7 +5977,8 @@
        "Derrick",
        "Derrick White",
        "White"
-      ]
+      ],
+      "detail": "Chalela got Derrick White in a trade with Papo on May 14, 2024."
      },
      {
       "display": "Goga Bitadze",
@@ -5502,7 +5986,8 @@
        "Bitadze",
        "Goga",
        "Goga Bitadze"
-      ]
+      ],
+      "detail": "Chalela got Goga Bitadze in a trade with Papo on January 21, 2025."
      },
      {
       "display": "Kyle Kuzma",
@@ -5510,7 +5995,8 @@
        "Kuzma",
        "Kyle",
        "Kyle Kuzma"
-      ]
+      ],
+      "detail": "Chalela got Kyle Kuzma in a trade with Jacobo on November 26, 2025."
      },
      {
       "display": "Max Christie",
@@ -5518,7 +6004,8 @@
        "Christie",
        "Max",
        "Max Christie"
-      ]
+      ],
+      "detail": "Chalela got Max Christie in a trade with Libguel on July 2, 2025."
      },
      {
       "display": "Neemias Queta",
@@ -5526,7 +6013,8 @@
        "Neemias",
        "Neemias Queta",
        "Queta"
-      ]
+      ],
+      "detail": "Chalela got Neemias Queta in a trade with Jacobo on February 3, 2026."
      },
      {
       "display": "Rui Hachimura",
@@ -5534,7 +6022,8 @@
        "Hachimura",
        "Rui",
        "Rui Hachimura"
-      ]
+      ],
+      "detail": "Chalela got Rui Hachimura in a trade with Jacobo on July 2, 2025."
      },
      {
       "display": "Scotty Pippen Jr.",
@@ -5543,7 +6032,8 @@
        "Scotty",
        "Scotty Pippen",
        "Scotty Pippen Jr."
-      ]
+      ],
+      "detail": "Chalela got Scotty Pippen Jr. in a trade with Papo on February 6, 2024."
      },
      {
       "display": "Stephen Curry",
@@ -5551,7 +6041,8 @@
        "Curry",
        "Stephen",
        "Stephen Curry"
-      ]
+      ],
+      "detail": "Chalela got Stephen Curry in a trade with Papo on January 21, 2025."
      },
      {
       "display": "Tobias Harris",
@@ -5559,7 +6050,8 @@
        "Harris",
        "Tobias",
        "Tobias Harris"
-      ]
+      ],
+      "detail": "Chalela got Tobias Harris in a trade with Papo on November 3, 2024."
      },
      {
       "display": "Tre Jones",
@@ -5567,7 +6059,8 @@
        "Jones",
        "Tre",
        "Tre Jones"
-      ]
+      ],
+      "detail": "Chalela got Tre Jones in a trade with Papo on May 14, 2024."
      }
     ],
     "note": null,
@@ -5589,7 +6082,8 @@
        "Booker",
        "Devin",
        "Devin Booker"
-      ]
+      ],
+      "detail": "Taken 15th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "James Harden",
@@ -5597,7 +6091,8 @@
        "Harden",
        "James",
        "James Harden"
-      ]
+      ],
+      "detail": "Taken 39th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Traded 4 times in Das League."
      },
      {
       "display": "Jayson Tatum",
@@ -5605,7 +6100,8 @@
        "Jayson",
        "Jayson Tatum",
        "Tatum"
-      ]
+      ],
+      "detail": "Taken 10th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Kawhi Leonard",
@@ -5613,7 +6109,8 @@
        "Kawhi",
        "Kawhi Leonard",
        "Leonard"
-      ]
+      ],
+      "detail": "Taken 58th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Stephen Curry",
@@ -5621,7 +6118,8 @@
        "Curry",
        "Stephen",
        "Stephen Curry"
-      ]
+      ],
+      "detail": "Taken 34th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Traded 6 times in Das League."
      }
     ],
     "note": null,
@@ -5649,7 +6147,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Blandon went 12-6 in the 2023-2024 regular season (3rd of 12) with 8,596 points, then won the championship."
      }
     ],
     "note": null,
@@ -5671,7 +6170,8 @@
        "Ace",
        "Ace Bailey",
        "Bailey"
-      ]
+      ],
+      "detail": "Taken 4th overall by hotrelish (Jacobo) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Cedric Coward",
@@ -5679,7 +6179,8 @@
        "Cedric",
        "Cedric Coward",
        "Coward"
-      ]
+      ],
+      "detail": "Taken 11th overall by Rabbi BT69 (Blandon) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Collin Murray-Boyles",
@@ -5689,7 +6190,8 @@
        "Collin Murray-Boyles",
        "Murray",
        "Murray-Boyles"
-      ]
+      ],
+      "detail": "Taken 10th overall by 2057 Champs (Shueiro) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Cooper Flagg",
@@ -5697,7 +6199,8 @@
        "Cooper",
        "Cooper Flagg",
        "Flagg"
-      ]
+      ],
+      "detail": "Taken 1st overall by hotrelish (Jacobo) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Dylan Harper",
@@ -5705,7 +6208,8 @@
        "Dylan",
        "Dylan Harper",
        "Harper"
-      ]
+      ],
+      "detail": "Taken 2nd overall by Rabbi BT69 (Blandon) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Egor Dëmin",
@@ -5713,7 +6217,8 @@
        "Dëmin",
        "Egor",
        "Egor Dëmin"
-      ]
+      ],
+      "detail": "Taken 8th overall by Rabbi BT69 (Blandon) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Jeremiah Fears",
@@ -5721,7 +6226,8 @@
        "Fears",
        "Jeremiah",
        "Jeremiah Fears"
-      ]
+      ],
+      "detail": "Taken 9th overall by Fear the Brow (Papo) in the 2025 rookie draft. Traded 1 time in Das League."
      },
      {
       "display": "Kasparas Jakučionis",
@@ -5729,7 +6235,8 @@
        "Jakučionis",
        "Kasparas",
        "Kasparas Jakučionis"
-      ]
+      ],
+      "detail": "Taken 12th overall by 2057 Champs (Shueiro) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Khaman Maluach",
@@ -5737,7 +6244,8 @@
        "Khaman",
        "Khaman Maluach",
        "Maluach"
-      ]
+      ],
+      "detail": "Taken 6th overall by hotrelish (Jacobo) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Kon Knueppel",
@@ -5745,7 +6253,8 @@
        "Knueppel",
        "Kon",
        "Kon Knueppel"
-      ]
+      ],
+      "detail": "Taken 7th overall by hotrelish (Jacobo) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "Tre Johnson",
@@ -5753,7 +6262,8 @@
        "Johnson",
        "Tre",
        "Tre Johnson"
-      ]
+      ],
+      "detail": "Taken 5th overall by Fidel’s Accumulators (Joey) in the 2025 rookie draft. Never traded in Das League."
      },
      {
       "display": "VJ Edgecombe",
@@ -5761,7 +6271,8 @@
        "Edgecombe",
        "VJ",
        "VJ Edgecombe"
-      ]
+      ],
+      "detail": "Taken 3rd overall by Los Chigüires (Libguel) in the 2025 rookie draft. Never traded in Das League."
      }
     ],
     "note": null,
@@ -5787,7 +6298,8 @@
        "Verdy",
        "Verdy11"
       ],
-      "manager": "verdeja"
+      "manager": "verdeja",
+      "detail": "Through 2025-2026, Verdeja is 24-31 in the regular season with 0 playoff trips and 0 titles. Verdeja has made 16 trades in all."
      }
     ],
     "note": "That was the name in 2023-2024.",
@@ -5812,10 +6324,11 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 15-3 in the 2023-2024 regular season (1st of 12) with 9,197 points, then finished third."
      }
     ],
-    "note": "15-3",
+    "note": null,
     "about": [],
     "sources": [
      "seasons.json"
@@ -5832,7 +6345,8 @@
        "Anthony",
        "Anthony Edwards",
        "Edwards"
-      ]
+      ],
+      "detail": "Jacobo got Anthony Edwards in a trade with Libguel on December 22, 2024."
      },
      {
       "display": "Bobby Portis Jr.",
@@ -5841,7 +6355,8 @@
        "Bobby Portis",
        "Bobby Portis Jr.",
        "Portis"
-      ]
+      ],
+      "detail": "Jacobo got Bobby Portis Jr. in a trade with Winch on July 27, 2024."
      },
      {
       "display": "Brandon Ingram",
@@ -5849,7 +6364,8 @@
        "Brandon",
        "Brandon Ingram",
        "Ingram"
-      ]
+      ],
+      "detail": "Jacobo got Brandon Ingram in a trade with Papo on May 12, 2025."
      },
      {
       "display": "Bruce Brown",
@@ -5857,7 +6373,8 @@
        "Brown",
        "Bruce",
        "Bruce Brown"
-      ]
+      ],
+      "detail": "Jacobo got Bruce Brown in a trade with Verdeja on August 1, 2024."
      },
      {
       "display": "Clint Capela",
@@ -5865,7 +6382,8 @@
        "Capela",
        "Clint",
        "Clint Capela"
-      ]
+      ],
+      "detail": "Jacobo got Clint Capela in a trade with Ricky on May 15, 2025."
      },
      {
       "display": "Dalano Banton",
@@ -5873,7 +6391,8 @@
        "Banton",
        "Dalano",
        "Dalano Banton"
-      ]
+      ],
+      "detail": "Jacobo got Dalano Banton in a trade with Winch on July 21, 2024."
      },
      {
       "display": "Dalton Knecht",
@@ -5881,7 +6400,8 @@
        "Dalton",
        "Dalton Knecht",
        "Knecht"
-      ]
+      ],
+      "detail": "Jacobo got Dalton Knecht in a trade with Papo on August 2, 2024."
      },
      {
       "display": "De'Anthony Melton",
@@ -5889,7 +6409,8 @@
        "De'Anthony",
        "De'Anthony Melton",
        "Melton"
-      ]
+      ],
+      "detail": "Jacobo got De'Anthony Melton in a trade with Papo on July 5, 2024."
      },
      {
       "display": "Deni Avdija",
@@ -5897,7 +6418,8 @@
        "Avdija",
        "Deni",
        "Deni Avdija"
-      ]
+      ],
+      "detail": "Jacobo got Deni Avdija in a trade with Ricky on July 22, 2024. Jacobo has traded for Deni Avdija 2 times in all."
      },
      {
       "display": "Derrick White",
@@ -5905,7 +6427,8 @@
        "Derrick",
        "Derrick White",
        "White"
-      ]
+      ],
+      "detail": "Jacobo got Derrick White in a trade with Papo on April 2, 2025."
      },
      {
       "display": "Dillon Brooks",
@@ -5913,7 +6436,8 @@
        "Brooks",
        "Dillon",
        "Dillon Brooks"
-      ]
+      ],
+      "detail": "Jacobo got Dillon Brooks in a trade with Ricky on May 15, 2025."
      },
      {
       "display": "Donovan Clingan",
@@ -5921,7 +6445,8 @@
        "Clingan",
        "Donovan",
        "Donovan Clingan"
-      ]
+      ],
+      "detail": "Jacobo got Donovan Clingan in a trade with Papo on August 2, 2024."
      },
      {
       "display": "Franz Wagner",
@@ -5929,7 +6454,8 @@
        "Franz",
        "Franz Wagner",
        "Wagner"
-      ]
+      ],
+      "detail": "Jacobo got Franz Wagner in a trade with Libguel on December 22, 2024."
      },
      {
       "display": "Isaiah Hartenstein",
@@ -5937,7 +6463,8 @@
        "Hartenstein",
        "Isaiah",
        "Isaiah Hartenstein"
-      ]
+      ],
+      "detail": "Jacobo got Isaiah Hartenstein in a trade with Verdeja on August 1, 2024."
      },
      {
       "display": "Jakob Poeltl",
@@ -5945,7 +6472,8 @@
        "Jakob",
        "Jakob Poeltl",
        "Poeltl"
-      ]
+      ],
+      "detail": "Jacobo got Jakob Poeltl in a trade with Papo on July 2, 2026."
      },
      {
       "display": "Jalen Green",
@@ -5953,7 +6481,8 @@
        "Green",
        "Jalen",
        "Jalen Green"
-      ]
+      ],
+      "detail": "Jacobo got Jalen Green in a trade with Papo on August 2, 2024."
      },
      {
       "display": "Jamal Shead",
@@ -5961,7 +6490,8 @@
        "Jamal",
        "Jamal Shead",
        "Shead"
-      ]
+      ],
+      "detail": "Jacobo got Jamal Shead in a trade with Winch on November 1, 2024."
      },
      {
       "display": "Jerami Grant",
@@ -5969,7 +6499,8 @@
        "Grant",
        "Jerami",
        "Jerami Grant"
-      ]
+      ],
+      "detail": "Jacobo got Jerami Grant in a trade with Papo on November 28, 2023."
      },
      {
       "display": "Jordan Poole",
@@ -5977,7 +6508,8 @@
        "Jordan",
        "Jordan Poole",
        "Poole"
-      ]
+      ],
+      "detail": "Jacobo got Jordan Poole in a trade with Verdeja on January 16, 2025."
      },
      {
       "display": "Julius Randle",
@@ -5985,7 +6517,8 @@
        "Julius",
        "Julius Randle",
        "Randle"
-      ]
+      ],
+      "detail": "Jacobo got Julius Randle in a trade with Papo on January 28, 2025."
      },
      {
       "display": "Jusuf Nurkić",
@@ -5993,7 +6526,8 @@
        "Jusuf",
        "Jusuf Nurkić",
        "Nurkić"
-      ]
+      ],
+      "detail": "Jacobo got Jusuf Nurkić in a trade with Ricky on May 15, 2025."
      },
      {
       "display": "Keldon Johnson",
@@ -6001,7 +6535,8 @@
        "Johnson",
        "Keldon",
        "Keldon Johnson"
-      ]
+      ],
+      "detail": "Jacobo got Keldon Johnson in a trade with Papo on July 31, 2024."
      },
      {
       "display": "Klay Thompson",
@@ -6009,7 +6544,8 @@
        "Klay",
        "Klay Thompson",
        "Thompson"
-      ]
+      ],
+      "detail": "Jacobo got Klay Thompson in a trade with Joey on February 11, 2024."
      },
      {
       "display": "Kyle Filipowski",
@@ -6017,7 +6553,8 @@
        "Filipowski",
        "Kyle",
        "Kyle Filipowski"
-      ]
+      ],
+      "detail": "Jacobo got Kyle Filipowski in a trade with Winch on November 1, 2024."
      },
      {
       "display": "LaMelo Ball",
@@ -6025,7 +6562,8 @@
        "Ball",
        "LaMelo",
        "LaMelo Ball"
-      ]
+      ],
+      "detail": "Jacobo got LaMelo Ball in a trade with Ricky on July 22, 2024."
      },
      {
       "display": "LiAngelo Ball",
@@ -6033,7 +6571,8 @@
        "Ball",
        "LiAngelo",
        "LiAngelo Ball"
-      ]
+      ],
+      "detail": "Jacobo got LiAngelo Ball in a trade with Winch on January 17, 2025."
      },
      {
       "display": "Luka Dončić",
@@ -6041,7 +6580,8 @@
        "Dončić",
        "Luka",
        "Luka Dončić"
-      ]
+      ],
+      "detail": "Jacobo got Luka Dončić in a trade with Joey on April 8, 2026."
      },
      {
       "display": "Matas Buzelis",
@@ -6049,7 +6589,8 @@
        "Buzelis",
        "Matas",
        "Matas Buzelis"
-      ]
+      ],
+      "detail": "Jacobo got Matas Buzelis in a trade with Papo on April 5, 2025."
      },
      {
       "display": "Michael Porter Jr.",
@@ -6058,7 +6599,8 @@
        "Michael Porter",
        "Michael Porter Jr.",
        "Porter"
-      ]
+      ],
+      "detail": "Jacobo got Michael Porter Jr. in a trade with Papo on April 5, 2025."
      },
      {
       "display": "Mitchell Robinson",
@@ -6066,7 +6608,8 @@
        "Mitchell",
        "Mitchell Robinson",
        "Robinson"
-      ]
+      ],
+      "detail": "Jacobo got Mitchell Robinson in a trade with Joey on January 6, 2024."
      },
      {
       "display": "Nikola Jović",
@@ -6074,7 +6617,8 @@
        "Jović",
        "Nikola",
        "Nikola Jović"
-      ]
+      ],
+      "detail": "Jacobo got Nikola Jović in a trade with Joey and Papo on August 17, 2024."
      },
      {
       "display": "Nikola Topić",
@@ -6082,7 +6626,8 @@
        "Nikola",
        "Nikola Topić",
        "Topić"
-      ]
+      ],
+      "detail": "Jacobo got Nikola Topić in a trade with Ricky on December 22, 2024."
      },
      {
       "display": "OG Anunoby",
@@ -6090,7 +6635,8 @@
        "Anunoby",
        "OG",
        "OG Anunoby"
-      ]
+      ],
+      "detail": "Jacobo got OG Anunoby in a trade with Papo on July 2, 2026."
      },
      {
       "display": "Paul George",
@@ -6098,7 +6644,8 @@
        "George",
        "Paul",
        "Paul George"
-      ]
+      ],
+      "detail": "Jacobo got Paul George in a trade with Papo on February 12, 2026. Jacobo has traded for Paul George 2 times in all."
      },
      {
       "display": "Rob Dillingham",
@@ -6106,7 +6653,8 @@
        "Dillingham",
        "Rob",
        "Rob Dillingham"
-      ]
+      ],
+      "detail": "Jacobo got Rob Dillingham in a trade with Papo on January 28, 2025."
      },
      {
       "display": "Scottie Barnes",
@@ -6114,7 +6662,8 @@
        "Barnes",
        "Scottie",
        "Scottie Barnes"
-      ]
+      ],
+      "detail": "Jacobo got Scottie Barnes in a trade with Libguel on December 22, 2024."
      },
      {
       "display": "Sergio De Larrea",
@@ -6122,7 +6671,8 @@
        "Larrea",
        "Sergio",
        "Sergio De Larrea"
-      ]
+      ],
+      "detail": "Jacobo got Sergio De Larrea in a trade with Winch on July 22, 2026."
      },
      {
       "display": "Shaedon Sharpe",
@@ -6130,7 +6680,8 @@
        "Shaedon",
        "Shaedon Sharpe",
        "Sharpe"
-      ]
+      ],
+      "detail": "Jacobo got Shaedon Sharpe in a trade with Shueiro on August 19, 2024."
      },
      {
       "display": "Tidjane Salaün",
@@ -6138,7 +6689,8 @@
        "Salaün",
        "Tidjane",
        "Tidjane Salaün"
-      ]
+      ],
+      "detail": "Jacobo got Tidjane Salaün in a trade with Ricky on December 22, 2024."
      },
      {
       "display": "Toumani Camara",
@@ -6146,7 +6698,8 @@
        "Camara",
        "Toumani",
        "Toumani Camara"
-      ]
+      ],
+      "detail": "Jacobo got Toumani Camara in a trade with Winch on April 6, 2025."
      },
      {
       "display": "Tyrese Haliburton",
@@ -6154,7 +6707,8 @@
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
-      ]
+      ],
+      "detail": "Jacobo got Tyrese Haliburton in a trade with Joey on January 6, 2024. Jacobo has traded for Tyrese Haliburton 3 times in all."
      },
      {
       "display": "Victor Wembanyama",
@@ -6162,7 +6716,8 @@
        "Victor",
        "Victor Wembanyama",
        "Wembanyama"
-      ]
+      ],
+      "detail": "Jacobo got Victor Wembanyama in a trade with Ricky on July 22, 2024. Jacobo has traded for Victor Wembanyama 2 times in all."
      },
      {
       "display": "Zach Edey",
@@ -6170,7 +6725,8 @@
        "Edey",
        "Zach",
        "Zach Edey"
-      ]
+      ],
+      "detail": "Jacobo got Zach Edey in a trade with Papo on November 27, 2024."
      }
     ],
     "note": null,
@@ -6192,7 +6748,8 @@
        "Anthony",
        "Anthony Davis",
        "Davis"
-      ]
+      ],
+      "detail": "Taken 29th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Evan Mobley",
@@ -6200,7 +6757,8 @@
        "Evan",
        "Evan Mobley",
        "Mobley"
-      ]
+      ],
+      "detail": "Taken 21st overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Jarrett Allen",
@@ -6208,7 +6766,8 @@
        "Allen",
        "Jarrett",
        "Jarrett Allen"
-      ]
+      ],
+      "detail": "Taken 53rd overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Julius Randle",
@@ -6216,7 +6775,8 @@
        "Julius",
        "Julius Randle",
        "Randle"
-      ]
+      ],
+      "detail": "Taken 44th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 6 times in Das League."
      },
      {
       "display": "Tyrese Haliburton",
@@ -6224,7 +6784,8 @@
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
-      ]
+      ],
+      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 6 times in Das League."
      }
     ],
     "note": null,
@@ -6252,7 +6813,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips and 1 title. Blandon has made 30 trades in all."
      },
      {
       "display": "Los Chigüires (Libguel)",
@@ -6264,7 +6826,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Through 2025-2026, Libguel is 29-26 in the regular season with 1 playoff trip and 1 title. Libguel has made 22 trades in all."
      },
      {
       "display": "LeBong James (Melo)",
@@ -6278,7 +6841,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Through 2025-2026, Melo is 35-20 in the regular season with 3 playoff trips and 1 title. Melo has made 21 trades in all."
      }
     ],
     "note": null,
@@ -6303,7 +6867,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 5-12 in the 2024-2025 regular season (10th of 12) with 6,352 points and missed the playoffs."
      }
     ],
     "note": "Lost 164-485 to I Love Dragić (Victor) in week 17.",
@@ -6332,7 +6897,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 14-3 in the 2024-2025 regular season (1st of 12) with 8,544 points, then finished fourth."
      },
      {
       "display": "Equipito PapoChullo (Chalela)",
@@ -6344,7 +6910,8 @@
        "Equipito PapoChullo",
        "Lochte & Associates"
       ],
-      "manager": "chalela"
+      "manager": "chalela",
+      "detail": "Chalela went 13-4 in the 2024-2025 regular season (2nd of 12) with 8,653 points, then finished third."
      },
      {
       "display": "Rabbi Repeat BT69 (Blandon)",
@@ -6358,7 +6925,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Blandon went 13-4 in the 2024-2025 regular season (3rd of 12) with 8,434 points, then lost in the final."
      },
      {
       "display": "Joel Embong? 😓 (Melo)",
@@ -6372,7 +6940,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 11-6 in the 2024-2025 regular season (4th of 12) with 8,722 points, then won the championship."
      },
      {
       "display": "I Love Dragić (Victor)",
@@ -6383,7 +6952,8 @@
        "Victor",
        "victorprieto"
       ],
-      "manager": "victor"
+      "manager": "victor",
+      "detail": "Victor went 11-6 in the 2024-2025 regular season (5th of 12) with 7,973 points, then lost in the first round of the playoffs."
      }
     ],
     "note": null,
@@ -6403,7 +6973,8 @@
        "Alperen",
        "Alperen Şengün",
        "Şengün"
-      ]
+      ],
+      "detail": "Blandon got Alperen Şengün in a trade with Shueiro on January 30, 2024."
      },
      {
       "display": "Amen Thompson",
@@ -6411,7 +6982,8 @@
        "Amen",
        "Amen Thompson",
        "Thompson"
-      ]
+      ],
+      "detail": "Blandon got Amen Thompson in a trade with Shueiro on January 30, 2024."
      },
      {
       "display": "Bam Adebayo",
@@ -6419,7 +6991,8 @@
        "Adebayo",
        "Bam",
        "Bam Adebayo"
-      ]
+      ],
+      "detail": "Blandon got Bam Adebayo in a trade with Shueiro on January 30, 2024."
      },
      {
       "display": "Bilal Coulibaly",
@@ -6427,7 +7000,8 @@
        "Bilal",
        "Bilal Coulibaly",
        "Coulibaly"
-      ]
+      ],
+      "detail": "Blandon got Bilal Coulibaly in a trade with Verdeja on April 8, 2024."
      },
      {
       "display": "Brandon Miller",
@@ -6435,7 +7009,8 @@
        "Brandon",
        "Brandon Miller",
        "Miller"
-      ]
+      ],
+      "detail": "Blandon got Brandon Miller in a trade with Shueiro on January 30, 2024."
      },
      {
       "display": "D'Angelo Russell",
@@ -6443,7 +7018,8 @@
        "D'Angelo",
        "D'Angelo Russell",
        "Russell"
-      ]
+      ],
+      "detail": "Blandon got D'Angelo Russell in a trade with Papo on January 28, 2025."
      },
      {
       "display": "Derrick White",
@@ -6451,7 +7027,8 @@
        "Derrick",
        "Derrick White",
        "White"
-      ]
+      ],
+      "detail": "Blandon got Derrick White in a trade with Papo on January 28, 2025."
      },
      {
       "display": "Immanuel Quickley",
@@ -6459,7 +7036,8 @@
        "Immanuel",
        "Immanuel Quickley",
        "Quickley"
-      ]
+      ],
+      "detail": "Blandon got Immanuel Quickley in a trade with Shueiro on July 26, 2024."
      },
      {
       "display": "Jaime Jaquez Jr.",
@@ -6468,7 +7046,8 @@
        "Jaime Jaquez",
        "Jaime Jaquez Jr.",
        "Jaquez"
-      ]
+      ],
+      "detail": "Blandon got Jaime Jaquez Jr. in a trade with Winch on July 22, 2024."
      },
      {
       "display": "Jakob Poeltl",
@@ -6476,7 +7055,8 @@
        "Jakob",
        "Jakob Poeltl",
        "Poeltl"
-      ]
+      ],
+      "detail": "Blandon got Jakob Poeltl in a trade with Papo on January 25, 2024."
      },
      {
       "display": "Jalen Williams",
@@ -6484,7 +7064,8 @@
        "Jalen",
        "Jalen Williams",
        "Williams"
-      ]
+      ],
+      "detail": "Blandon got Jalen Williams in a trade with Shueiro on January 30, 2024."
      },
      {
       "display": "Jaren Jackson Jr.",
@@ -6493,7 +7074,8 @@
        "Jaren",
        "Jaren Jackson",
        "Jaren Jackson Jr."
-      ]
+      ],
+      "detail": "Blandon got Jaren Jackson Jr. in a trade with Papo on November 1, 2024."
      },
      {
       "display": "Jeremy Sochan",
@@ -6501,7 +7083,8 @@
        "Jeremy",
        "Jeremy Sochan",
        "Sochan"
-      ]
+      ],
+      "detail": "Blandon got Jeremy Sochan in a trade with Jacobo on September 19, 2025."
      },
      {
       "display": "Jonathan Kuminga",
@@ -6509,7 +7092,8 @@
        "Jonathan",
        "Jonathan Kuminga",
        "Kuminga"
-      ]
+      ],
+      "detail": "Blandon got Jonathan Kuminga in a trade with Shueiro on January 30, 2024."
      },
      {
       "display": "Jusuf Nurkić",
@@ -6517,7 +7101,8 @@
        "Jusuf",
        "Jusuf Nurkić",
        "Nurkić"
-      ]
+      ],
+      "detail": "Blandon got Jusuf Nurkić in a trade with Winch and Papo on February 26, 2026."
      },
      {
       "display": "Keldon Johnson",
@@ -6525,7 +7110,8 @@
        "Johnson",
        "Keldon",
        "Keldon Johnson"
-      ]
+      ],
+      "detail": "Blandon got Keldon Johnson in a trade with Joey on January 6, 2024."
      },
      {
       "display": "Lauri Markkanen",
@@ -6533,7 +7119,8 @@
        "Lauri",
        "Lauri Markkanen",
        "Markkanen"
-      ]
+      ],
+      "detail": "Blandon got Lauri Markkanen in a trade with Joey on January 6, 2024. Blandon has traded for Lauri Markkanen 2 times in all."
      },
      {
       "display": "Miles Bridges",
@@ -6541,7 +7128,8 @@
        "Bridges",
        "Miles",
        "Miles Bridges"
-      ]
+      ],
+      "detail": "Blandon got Miles Bridges in a trade with Shueiro on January 30, 2024."
      },
      {
       "display": "Naz Reid",
@@ -6549,7 +7137,8 @@
        "Naz",
        "Naz Reid",
        "Reid"
-      ]
+      ],
+      "detail": "Blandon got Naz Reid in a trade with Jacobo on December 1, 2023."
      },
      {
       "display": "Nic Claxton",
@@ -6557,7 +7146,8 @@
        "Claxton",
        "Nic",
        "Nic Claxton"
-      ]
+      ],
+      "detail": "Blandon got Nic Claxton in a trade with Papo on August 24, 2024."
      },
      {
       "display": "Onyeka Okongwu",
@@ -6565,7 +7155,8 @@
        "Okongwu",
        "Onyeka",
        "Onyeka Okongwu"
-      ]
+      ],
+      "detail": "Blandon got Onyeka Okongwu in a trade with Shueiro on January 30, 2024."
      },
      {
       "display": "Ryan Kalkbrenner",
@@ -6573,7 +7164,8 @@
        "Kalkbrenner",
        "Ryan",
        "Ryan Kalkbrenner"
-      ]
+      ],
+      "detail": "Blandon got Ryan Kalkbrenner in a trade with Papo on February 24, 2026."
      },
      {
       "display": "Stephon Castle",
@@ -6581,7 +7173,8 @@
        "Castle",
        "Stephon",
        "Stephon Castle"
-      ]
+      ],
+      "detail": "Blandon got Stephon Castle in a trade with Papo on March 31, 2025."
      },
      {
       "display": "Tari Eason",
@@ -6589,7 +7182,8 @@
        "Eason",
        "Tari",
        "Tari Eason"
-      ]
+      ],
+      "detail": "Blandon got Tari Eason in a trade with Shueiro on January 30, 2024."
      },
      {
       "display": "Trey Murphy III",
@@ -6598,7 +7192,8 @@
        "Trey",
        "Trey Murphy",
        "Trey Murphy III"
-      ]
+      ],
+      "detail": "Blandon got Trey Murphy III in a trade with Papo on September 10, 2025."
      }
     ],
     "note": null,
@@ -6620,7 +7215,8 @@
        "Anthony",
        "Anthony Edwards",
        "Edwards"
-      ]
+      ],
+      "detail": "Taken 8th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Ja Morant",
@@ -6628,7 +7224,8 @@
        "Ja",
        "Ja Morant",
        "Morant"
-      ]
+      ],
+      "detail": "Taken 17th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 3 times in Das League."
      },
      {
       "display": "Jamal Murray",
@@ -6636,7 +7233,8 @@
        "Jamal",
        "Jamal Murray",
        "Murray"
-      ]
+      ],
+      "detail": "Taken 36th overall by Los Chigüires (Libguel) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Lauri Markkanen",
@@ -6644,7 +7242,8 @@
        "Lauri",
        "Lauri Markkanen",
        "Markkanen"
-      ]
+      ],
+      "detail": "Taken 37th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 10 times in Das League."
      },
      {
       "display": "Scottie Barnes",
@@ -6652,7 +7251,8 @@
        "Barnes",
        "Scottie",
        "Scottie Barnes"
-      ]
+      ],
+      "detail": "Taken 60th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
     "note": null,
@@ -6679,7 +7279,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips and 0 titles. Winch has made 39 trades in all."
      },
      {
       "display": "Fidel’s Accumulators (Joey)",
@@ -6691,7 +7292,8 @@
        "Joseph",
        "hughjasnuts"
       ],
-      "manager": "joey"
+      "manager": "joey",
+      "detail": "Through 2025-2026, Joey is 21-33 in the regular season with 2 playoff trips and 0 titles. Joey has made 34 trades in all."
      },
      {
       "display": "I Love Dragić (Victor)",
@@ -6702,7 +7304,8 @@
        "Victor",
        "victorprieto"
       ],
-      "manager": "victor"
+      "manager": "victor",
+      "detail": "Through 2025-2026, Victor is 29-26 in the regular season with 2 playoff trips and 0 titles. Victor has made 6 trades in all."
      },
      {
       "display": "2057 Champs (Shueiro)",
@@ -6715,7 +7318,8 @@
        "Sway",
        "msway21"
       ],
-      "manager": "shueiro"
+      "manager": "shueiro",
+      "detail": "Through 2025-2026, Shueiro is 25-29 in the regular season with 1 playoff trip and 0 titles. Shueiro has made 23 trades in all."
      },
      {
       "display": "Lochte & Associates (Chalela)",
@@ -6727,7 +7331,8 @@
        "Equipito PapoChullo",
        "Lochte & Associates"
       ],
-      "manager": "chalela"
+      "manager": "chalela",
+      "detail": "Through 2025-2026, Chalela is 34-21 in the regular season with 2 playoff trips and 0 titles. Chalela has made 11 trades in all."
      }
     ],
     "note": null,
@@ -6753,7 +7358,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Blandon went 5-15 in the 2025-2026 regular season (11th of 12) with 7,866 points and missed the playoffs."
      }
     ],
     "note": "515 points in week 7, and still lost to 2057 Champs (Shueiro).",
@@ -6780,7 +7386,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 5-12 in the 2024-2025 regular season (10th of 12) with 6,352 points and missed the playoffs."
      }
     ],
     "note": null,
@@ -6801,7 +7408,8 @@
        "Bobby Portis",
        "Bobby Portis Jr.",
        "Portis"
-      ]
+      ],
+      "detail": "Winch got Bobby Portis Jr. in a trade with Jacobo on July 27, 2024."
      },
      {
       "display": "Brandon Ingram",
@@ -6809,7 +7417,8 @@
        "Brandon",
        "Brandon Ingram",
        "Ingram"
-      ]
+      ],
+      "detail": "Winch got Brandon Ingram in a trade with Papo on April 27, 2026."
      },
      {
       "display": "Chris Paul",
@@ -6817,7 +7426,8 @@
        "Chris",
        "Chris Paul",
        "Paul"
-      ]
+      ],
+      "detail": "Winch got Chris Paul in a trade with Chalela on January 23, 2024."
      },
      {
       "display": "Clint Capela",
@@ -6825,7 +7435,8 @@
        "Capela",
        "Clint",
        "Clint Capela"
-      ]
+      ],
+      "detail": "Winch got Clint Capela in a trade with Jacobo on June 30, 2025."
      },
      {
       "display": "GG Jackson",
@@ -6833,7 +7444,8 @@
        "GG",
        "GG Jackson",
        "Jackson"
-      ]
+      ],
+      "detail": "Winch got GG Jackson in a trade with Jacobo on October 10, 2025."
      },
      {
       "display": "Ivica Zubac",
@@ -6841,7 +7453,8 @@
        "Ivica",
        "Ivica Zubac",
        "Zubac"
-      ]
+      ],
+      "detail": "Winch got Ivica Zubac in a trade with Papo on July 1, 2024."
      },
      {
       "display": "Jaime Jaquez Jr.",
@@ -6850,7 +7463,8 @@
        "Jaime Jaquez",
        "Jaime Jaquez Jr.",
        "Jaquez"
-      ]
+      ],
+      "detail": "Winch got Jaime Jaquez Jr. in a trade with Jacobo on May 29, 2024."
      },
      {
       "display": "Jakob Poeltl",
@@ -6858,7 +7472,8 @@
        "Jakob",
        "Jakob Poeltl",
        "Poeltl"
-      ]
+      ],
+      "detail": "Winch got Jakob Poeltl in a trade with Jacobo on July 22, 2026."
      },
      {
       "display": "Jarrett Allen",
@@ -6866,7 +7481,8 @@
        "Allen",
        "Jarrett",
        "Jarrett Allen"
-      ]
+      ],
+      "detail": "Winch got Jarrett Allen in a trade with Joey on November 29, 2023."
      },
      {
       "display": "Jimmy Butler III",
@@ -6875,7 +7491,8 @@
        "Jimmy",
        "Jimmy Butler",
        "Jimmy Butler III"
-      ]
+      ],
+      "detail": "Winch got Jimmy Butler III in a trade with Melo on January 8, 2024."
      },
      {
       "display": "Karlo Matković",
@@ -6883,7 +7500,8 @@
        "Karlo",
        "Karlo Matković",
        "Matković"
-      ]
+      ],
+      "detail": "Winch got Karlo Matković in a trade with Jacobo on June 30, 2025."
      },
      {
       "display": "LaMelo Ball",
@@ -6891,7 +7509,8 @@
        "Ball",
        "LaMelo",
        "LaMelo Ball"
-      ]
+      ],
+      "detail": "Winch got LaMelo Ball in a trade with Papo on October 4, 2024."
      },
      {
       "display": "Luka Dončić",
@@ -6899,7 +7518,8 @@
        "Dončić",
        "Luka",
        "Luka Dončić"
-      ]
+      ],
+      "detail": "Winch got Luka Dončić in a trade with Papo on July 22, 2024."
      },
      {
       "display": "Marvin Bagley III",
@@ -6908,7 +7528,8 @@
        "Marvin",
        "Marvin Bagley",
        "Marvin Bagley III"
-      ]
+      ],
+      "detail": "Winch got Marvin Bagley III in a trade with Jacobo on July 21, 2024."
      },
      {
       "display": "Nikola Jović",
@@ -6916,7 +7537,8 @@
        "Jović",
        "Nikola",
        "Nikola Jović"
-      ]
+      ],
+      "detail": "Winch got Nikola Jović in a trade with Jacobo on November 1, 2024."
      },
      {
       "display": "OG Anunoby",
@@ -6924,7 +7546,8 @@
        "Anunoby",
        "OG",
        "OG Anunoby"
-      ]
+      ],
+      "detail": "Winch got OG Anunoby in a trade with Blandon on July 22, 2024."
      },
      {
       "display": "Pascal Siakam",
@@ -6932,7 +7555,8 @@
        "Pascal",
        "Pascal Siakam",
        "Siakam"
-      ]
+      ],
+      "detail": "Winch got Pascal Siakam in a trade with Papo on August 20, 2024."
      },
      {
       "display": "Paul George",
@@ -6940,7 +7564,8 @@
        "George",
        "Paul",
        "Paul George"
-      ]
+      ],
+      "detail": "Winch got Paul George in a trade with Papo on February 10, 2025."
      },
      {
       "display": "Pelle Larsson",
@@ -6948,7 +7573,8 @@
        "Larsson",
        "Pelle",
        "Pelle Larsson"
-      ]
+      ],
+      "detail": "Winch got Pelle Larsson in a trade with Papo and Blandon on February 26, 2026."
      },
      {
       "display": "Quenton Jackson",
@@ -6956,7 +7582,8 @@
        "Jackson",
        "Quenton",
        "Quenton Jackson"
-      ]
+      ],
+      "detail": "Winch got Quenton Jackson in a trade with Papo on March 2, 2026."
      },
      {
       "display": "RJ Barrett",
@@ -6964,7 +7591,8 @@
        "Barrett",
        "RJ",
        "RJ Barrett"
-      ]
+      ],
+      "detail": "Winch got RJ Barrett in a trade with Papo on November 14, 2023."
      },
      {
       "display": "Rob Dillingham",
@@ -6972,7 +7600,8 @@
        "Dillingham",
        "Rob",
        "Rob Dillingham"
-      ]
+      ],
+      "detail": "Winch got Rob Dillingham in a trade with Jacobo on October 10, 2025."
      },
      {
       "display": "Stephen Curry",
@@ -6980,7 +7609,8 @@
        "Curry",
        "Stephen",
        "Stephen Curry"
-      ]
+      ],
+      "detail": "Winch got Stephen Curry in a trade with Papo on July 22, 2024."
      },
      {
       "display": "Tyrese Haliburton",
@@ -6988,7 +7618,8 @@
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
-      ]
+      ],
+      "detail": "Winch got Tyrese Haliburton in a trade with Jacobo on November 13, 2024."
      },
      {
       "display": "Zach LaVine",
@@ -6996,7 +7627,8 @@
        "LaVine",
        "Zach",
        "Zach LaVine"
-      ]
+      ],
+      "detail": "Winch got Zach LaVine in a trade with Papo on October 4, 2024."
      },
      {
       "display": "Zion Williamson",
@@ -7004,7 +7636,8 @@
        "Williamson",
        "Zion",
        "Zion Williamson"
-      ]
+      ],
+      "detail": "Winch got Zion Williamson in a trade with Papo on April 27, 2026."
      }
     ],
     "note": null,
@@ -7028,10 +7661,11 @@
        "Domantas",
        "Domantas Sabonis",
        "Sabonis"
-      ]
+      ],
+      "detail": "Taken 12th overall by Saboners (Verdeja) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
-    "note": "Round 1, pick 12 overall.",
+    "note": null,
     "about": [
      "verdeja"
     ],
@@ -7055,7 +7689,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 14-3 in the 2024-2025 regular season (1st of 12) with 8,544 points, then finished fourth."
      },
      {
       "display": "Equipito PapoChullo (Chalela)",
@@ -7067,7 +7702,8 @@
        "Equipito PapoChullo",
        "Lochte & Associates"
       ],
-      "manager": "chalela"
+      "manager": "chalela",
+      "detail": "Chalela went 13-4 in the 2024-2025 regular season (2nd of 12) with 8,653 points, then finished third."
      }
     ],
     "note": null,
@@ -7093,7 +7729,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Through 2025-2026, Melo is 35-20 in the regular season with 3 playoff trips and 1 title. Melo has made 21 trades in all."
      }
     ],
     "note": "That was the name in 2024-2025.",
@@ -7118,7 +7755,8 @@
        "Winch",
        "Winchenzo"
       ],
-      "manager": "winch"
+      "manager": "winch",
+      "detail": "Winch went 15-3 in the 2023-2024 regular season (1st of 12) with 9,197 points, then finished third."
      },
      {
       "display": "Kareem Abdul-Jabong (Melo)",
@@ -7132,7 +7770,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 12-6 in the 2023-2024 regular season (2nd of 12) with 9,139 points, then finished fourth."
      },
      {
       "display": "Luka Deez Nuts (Papo)",
@@ -7145,7 +7784,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 11-7 in the 2023-2024 regular season (5th of 12) with 9,052 points, then lost in the final."
      }
     ],
     "note": null,
@@ -7165,7 +7805,8 @@
        "Adebayo",
        "Bam",
        "Bam Adebayo"
-      ]
+      ],
+      "detail": "Melo got Bam Adebayo in a trade with Papo on April 15, 2026."
      },
      {
       "display": "Bogdan Bogdanović",
@@ -7173,7 +7814,8 @@
        "Bogdan",
        "Bogdan Bogdanović",
        "Bogdanović"
-      ]
+      ],
+      "detail": "Melo got Bogdan Bogdanović in a trade with Papo on February 2, 2024."
      },
      {
       "display": "Chris Paul",
@@ -7181,7 +7823,8 @@
        "Chris",
        "Chris Paul",
        "Paul"
-      ]
+      ],
+      "detail": "Melo got Chris Paul in a trade with Papo on January 14, 2025. Melo has traded for Chris Paul 2 times in all."
      },
      {
       "display": "Damian Lillard",
@@ -7189,7 +7832,8 @@
        "Damian",
        "Damian Lillard",
        "Lillard"
-      ]
+      ],
+      "detail": "Melo got Damian Lillard in a trade with Papo on October 20, 2023."
      },
      {
       "display": "Dejounte Murray",
@@ -7197,7 +7841,8 @@
        "Dejounte",
        "Dejounte Murray",
        "Murray"
-      ]
+      ],
+      "detail": "Melo got Dejounte Murray in a trade with Papo on April 2, 2025."
      },
      {
       "display": "Derrick White",
@@ -7205,7 +7850,8 @@
        "Derrick",
        "Derrick White",
        "White"
-      ]
+      ],
+      "detail": "Melo got Derrick White in a trade with Papo on February 7, 2026. Melo has traded for Derrick White 2 times in all."
      },
      {
       "display": "Giannis Antetokounmpo",
@@ -7213,7 +7859,8 @@
        "Antetokounmpo",
        "Giannis",
        "Giannis Antetokounmpo"
-      ]
+      ],
+      "detail": "Melo got Giannis Antetokounmpo in a trade with Verdeja on September 4, 2026."
      },
      {
       "display": "Ivica Zubac",
@@ -7221,7 +7868,8 @@
        "Ivica",
        "Ivica Zubac",
        "Zubac"
-      ]
+      ],
+      "detail": "Melo got Ivica Zubac in a trade with Papo on February 2, 2024."
      },
      {
       "display": "James Harden",
@@ -7229,7 +7877,8 @@
        "Harden",
        "James",
        "James Harden"
-      ]
+      ],
+      "detail": "Melo got James Harden in a trade with Papo on February 11, 2025."
      },
      {
       "display": "Jarrett Allen",
@@ -7237,7 +7886,8 @@
        "Allen",
        "Jarrett",
        "Jarrett Allen"
-      ]
+      ],
+      "detail": "Melo got Jarrett Allen in a trade with Winch on January 8, 2024."
      },
      {
       "display": "Jerami Grant",
@@ -7245,7 +7895,8 @@
        "Grant",
        "Jerami",
        "Jerami Grant"
-      ]
+      ],
+      "detail": "Melo got Jerami Grant in a trade with Papo on June 30, 2025."
      },
      {
       "display": "John Collins",
@@ -7253,7 +7904,8 @@
        "Collins",
        "John",
        "John Collins"
-      ]
+      ],
+      "detail": "Melo got John Collins in a trade with Papo on May 21, 2024."
      },
      {
       "display": "Jrue Holiday",
@@ -7261,7 +7913,8 @@
        "Holiday",
        "Jrue",
        "Jrue Holiday"
-      ]
+      ],
+      "detail": "Melo got Jrue Holiday in a trade with Papo on February 7, 2026."
      },
      {
       "display": "Julius Randle",
@@ -7269,7 +7922,8 @@
        "Julius",
        "Julius Randle",
        "Randle"
-      ]
+      ],
+      "detail": "Melo got Julius Randle in a trade with Papo on April 15, 2026."
      },
      {
       "display": "Karl-Anthony Towns",
@@ -7277,7 +7931,8 @@
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
-      ]
+      ],
+      "detail": "Melo got Karl-Anthony Towns in a trade with Papo on August 20, 2024."
      },
      {
       "display": "Kevin Durant",
@@ -7285,7 +7940,8 @@
        "Durant",
        "Kevin",
        "Kevin Durant"
-      ]
+      ],
+      "detail": "Melo got Kevin Durant in a trade with Papo on May 6, 2024."
      },
      {
       "display": "Lauri Markkanen",
@@ -7293,7 +7949,8 @@
        "Lauri",
        "Lauri Markkanen",
        "Markkanen"
-      ]
+      ],
+      "detail": "Melo got Lauri Markkanen in a trade with Papo on February 7, 2026."
      },
      {
       "display": "LeBron James",
@@ -7301,7 +7958,8 @@
        "James",
        "LeBron",
        "LeBron James"
-      ]
+      ],
+      "detail": "Melo got LeBron James in a trade with Papo on April 2, 2025."
      },
      {
       "display": "Miles Bridges",
@@ -7309,7 +7967,8 @@
        "Bridges",
        "Miles",
        "Miles Bridges"
-      ]
+      ],
+      "detail": "Melo got Miles Bridges in a trade with Papo on January 14, 2025."
      },
      {
       "display": "Nikola Topić",
@@ -7317,7 +7976,8 @@
        "Nikola",
        "Nikola Topić",
        "Topić"
-      ]
+      ],
+      "detail": "Melo got Nikola Topić in a trade with Papo on January 14, 2025."
      },
      {
       "display": "Stephen Curry",
@@ -7325,7 +7985,8 @@
        "Curry",
        "Stephen",
        "Stephen Curry"
-      ]
+      ],
+      "detail": "Melo got Stephen Curry in a trade with Papo on November 24, 2024."
      },
      {
       "display": "Yves Missi",
@@ -7333,7 +7994,8 @@
        "Missi",
        "Yves",
        "Yves Missi"
-      ]
+      ],
+      "detail": "Melo got Yves Missi in a trade with Papo on April 2, 2025."
      },
      {
       "display": "Zach LaVine",
@@ -7341,7 +8003,8 @@
        "LaVine",
        "Zach",
        "Zach LaVine"
-      ]
+      ],
+      "detail": "Melo got Zach LaVine in a trade with Papo on February 3, 2024."
      },
      {
       "display": "Zion Williamson",
@@ -7349,7 +8012,8 @@
        "Williamson",
        "Zion",
        "Zion Williamson"
-      ]
+      ],
+      "detail": "Melo got Zion Williamson in a trade with Papo on August 20, 2024."
      }
     ],
     "note": null,
@@ -7371,10 +8035,11 @@
        "Ball",
        "LaMelo",
        "LaMelo Ball"
-      ]
+      ],
+      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 4 times in Das League."
      }
     ],
-    "note": "Round 1, pick 5 overall.",
+    "note": null,
     "about": [
      "jacobo"
     ],
@@ -7397,7 +8062,8 @@
        "Equipito PapoChullo",
        "Lochte & Associates"
       ],
-      "manager": "chalela"
+      "manager": "chalela",
+      "detail": "Chalela went 9-9 in the 2023-2024 regular season (7th of 12) with 8,286 points and missed the playoffs."
      },
      {
       "display": "Saboners (Verdeja)",
@@ -7411,7 +8077,8 @@
        "Verdy",
        "Verdy11"
       ],
-      "manager": "verdeja"
+      "manager": "verdeja",
+      "detail": "Verdeja went 8-10 in the 2023-2024 regular season (8th of 12) with 7,802 points and missed the playoffs."
      },
      {
       "display": "hotrelish (Jacobo)",
@@ -7421,7 +8088,8 @@
        "Jake",
        "hotrelish"
       ],
-      "manager": "jacobo"
+      "manager": "jacobo",
+      "detail": "Jacobo went 8-10 in the 2023-2024 regular season (9th of 12) with 7,458 points and missed the playoffs."
      },
      {
       "display": "2057 Champs (Shueiro)",
@@ -7434,7 +8102,8 @@
        "Sway",
        "msway21"
       ],
-      "manager": "shueiro"
+      "manager": "shueiro",
+      "detail": "Shueiro went 5-12-1 in the 2023-2024 regular season (10th of 12) with 7,905 points and missed the playoffs."
      },
      {
       "display": "Los Chigüires (Libguel)",
@@ -7446,7 +8115,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Libguel went 4-14 in the 2023-2024 regular season (11th of 12) with 7,964 points and missed the playoffs."
      },
      {
       "display": "MoonUnit (Ricky)",
@@ -7458,7 +8128,8 @@
        "Rick",
        "Ricky"
       ],
-      "manager": "ricky"
+      "manager": "ricky",
+      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
      }
     ],
     "note": null,
@@ -7484,7 +8155,8 @@
        "Rick",
        "Ricky"
       ],
-      "manager": "ricky"
+      "manager": "ricky",
+      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
      }
     ],
     "note": "Lost 243-492 to I Love Dragić (Victor) in week 16.",
@@ -7510,7 +8182,8 @@
        "Miguel",
        "miguelhern99"
       ],
-      "manager": "libguel"
+      "manager": "libguel",
+      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
      },
      {
       "display": "LeBong James 👑 (Melo)",
@@ -7524,7 +8197,8 @@
        "LeBong James 👑",
        "Melo"
       ],
-      "manager": "melo"
+      "manager": "melo",
+      "detail": "Melo went 12-8 in the 2025-2026 regular season (4th of 12) with 9,857 points, then lost in the first round of the playoffs."
      },
      {
       "display": "Fear the Brow (Papo)",
@@ -7537,7 +8211,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
      }
     ],
     "note": null,
@@ -7557,7 +8232,8 @@
        "Brandon",
        "Brandon Ingram",
        "Ingram"
-      ]
+      ],
+      "detail": "Taken 31st overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 8 times in Das League."
      },
      {
       "display": "Dejounte Murray",
@@ -7565,7 +8241,8 @@
        "Dejounte",
        "Dejounte Murray",
        "Murray"
-      ]
+      ],
+      "detail": "Taken 42nd overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 3 times in Das League."
      },
      {
       "display": "Donovan Mitchell",
@@ -7573,7 +8250,8 @@
        "Donovan",
        "Donovan Mitchell",
        "Mitchell"
-      ]
+      ],
+      "detail": "Taken 18th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Joel Embiid",
@@ -7581,7 +8259,8 @@
        "Embiid",
        "Joel",
        "Joel Embiid"
-      ]
+      ],
+      "detail": "Taken 7th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Pascal Siakam",
@@ -7589,7 +8268,8 @@
        "Pascal",
        "Pascal Siakam",
        "Siakam"
-      ]
+      ],
+      "detail": "Taken 55th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
     "note": null,
@@ -7616,7 +8296,8 @@
        "The Edey and Matas Show",
        "papochullo7979"
       ],
-      "manager": "papo"
+      "manager": "papo",
+      "detail": "Papo went 11-7 in the 2023-2024 regular season (5th of 12) with 9,052 points, then lost in the final."
      }
     ],
     "note": null,
@@ -7640,7 +8321,8 @@
        "Equipito PapoChullo",
        "Lochte & Associates"
       ],
-      "manager": "chalela"
+      "manager": "chalela",
+      "detail": "Chalela went 9-9 in the 2023-2024 regular season (7th of 12) with 8,286 points and missed the playoffs."
      },
      {
       "display": "MoonUnit (Ricky)",
@@ -7652,7 +8334,8 @@
        "Rick",
        "Ricky"
       ],
-      "manager": "ricky"
+      "manager": "ricky",
+      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
      }
     ],
     "note": "2 games that season were decided by 1.",
@@ -7678,7 +8361,8 @@
        "Rabbi Repeat BT69",
        "RabbiBT69"
       ],
-      "manager": "blandon"
+      "manager": "blandon",
+      "detail": "Blandon went 5-15 in the 2025-2026 regular season (11th of 12) with 7,866 points and missed the playoffs."
      }
     ],
     "note": null,
@@ -7698,10 +8382,11 @@
        "Jayson",
        "Jayson Tatum",
        "Tatum"
-      ]
+      ],
+      "detail": "Taken 10th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
      }
     ],
-    "note": "Round 1, pick 10 overall.",
+    "note": null,
     "about": [
      "winch"
     ],

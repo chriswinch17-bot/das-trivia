@@ -62,6 +62,9 @@ The owner has essentially no coding or web development experience.
 - Many questions have several valid answers (e.g. "Name a manager who has won a title").
 - Rarity scoring: the fewer players who gave a correct answer that day, the more it scores.
   Until the database exists, the prototype uses a temporary stand-in score, clearly marked as such.
+- After each guess the answer is shown in bold with one or two sentences of detail under it.
+  Every answer carries a `detail` sentence generated from the data in `build_questions.py`
+  (season record and finish, career record, draft slot, trade history); the question's `note` goes first.
 - End screen with final score and a copyable, spoiler-free share text.
 - Leaderboard comparing league members (how players identify themselves: not yet decided).
 

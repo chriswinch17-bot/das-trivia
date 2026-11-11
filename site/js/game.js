@@ -218,24 +218,34 @@
     else { said.append("You said: "); const b = document.createElement("b"); b.textContent = typed; said.append(b); }
 
     const total = question.answers.length;
-    $("answers-label").textContent = total === 1 ? "The answer" : `Accepted answers (${total})`;
+    // The answer in bold, then a sentence or two about it, then any other accepted answers.
+    const main = answer || (total === 1 ? question.answers[0] : null);
+    $("answers-label").textContent = !main ? `Accepted answers (${total})`
+      : answer && total > 1 ? "Your answer" : "The answer";
+    $("answer-main").textContent = main ? main.display : "";
+    $("answer-main").hidden = !main;
+    const facts = [question.note, main && main.detail].filter(Boolean).join(" ");
+    $("note").textContent = facts;
+    $("note").hidden = !facts;
+
+    const others = question.answers.filter((a) => a !== main);
+    $("others-label").textContent = `Other accepted answers (${others.length})`;
+    $("others-label").hidden = !main || !others.length;
     const chips = $("answers");
     chips.replaceChildren();
-    const ordered = answer ? [answer, ...question.answers.filter((a) => a !== answer)] : question.answers;
-    ordered.slice(0, MAX_CHIPS).forEach((a) => {
+    chips.hidden = !others.length;
+    others.slice(0, MAX_CHIPS).forEach((a) => {
       const chip = document.createElement("span");
-      chip.className = "chip" + (a === answer ? " yours" : "");
+      chip.className = "chip";
       chip.textContent = a.display;
       chips.append(chip);
     });
-    if (total > MAX_CHIPS) {
+    if (others.length > MAX_CHIPS) {
       const more = document.createElement("span");
       more.className = "chip more";
-      more.textContent = `and ${total - MAX_CHIPS} more`;
+      more.textContent = `and ${others.length - MAX_CHIPS} more`;
       chips.append(more);
     }
-    $("note").textContent = question.note || "";
-    $("note").hidden = !question.note;
 
     $("btn-next").textContent = index + 1 < questions.length ? "Next question" : "See my score";
     $("answer-form").hidden = true;

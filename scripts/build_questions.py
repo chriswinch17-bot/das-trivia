@@ -14,6 +14,7 @@ import hashlib
 import json
 import random
 from collections import Counter, defaultdict
+from datetime import datetime
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parent.parent / "site" / "data"
@@ -40,10 +41,64 @@ def main():
         name = team[(season, mid)] if season else managers[mid]["current_team_name"]
         return f"{name} ({managers[mid]['name']})"
 
+    # ---------- one-sentence facts shown under the answer, all worked out from the data ----------
+    def ordinal(n):
+        return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+
+    def plural(n, word):
+        return f"{n} {word}" if n == 1 else f"{n} {word}s"
+
+    def nice_date(iso):
+        d = datetime.strptime(iso, "%Y-%m-%d")
+        return f"{d.strftime('%B')} {d.day}, {d.year}"
+
+    row_of = {(s["season"], r["manager"]): r for s in seasons for r in s["standings"]}
+    season_of = {s["season"]: s for s in seasons}
+    traded = Counter(name for t in trades for side in t["sides"] for name in side["receives_players"])
+    trade_count = Counter(m for t in trades for m in t["managers"])
+    drafted = {}
+    for d in drafts:
+        for p in d["picks"]:
+            drafted.setdefault(p["player"], (d, p))
+
+    def season_fact(mid, y):
+        r = row_of[(y, mid)]
+        record = f"{r['wins']}-{r['losses']}" + (f"-{r['ties']}" if r["ties"] else "")
+        base = (f"{managers[mid]['name']} went {record} in the {y} regular season "
+                f"({ordinal(r['regular_season_rank'])} of {len(season_of[y]['standings'])}) with {r['points_for']:,.0f} points")
+        if season_of[y]["status"] != "complete":
+            return base + " so far."
+        if not r["made_playoffs"]:
+            return base + " and missed the playoffs."
+        ending = {1: "won the championship", 2: "lost in the final", 3: "finished third",
+                  4: "finished fourth"}.get(r["playoff_finish"], "lost in the first round of the playoffs")
+        return f"{base}, then {ending}."
+
+    def career_fact(mid):
+        rows = [row_of[(s["season"], mid)] for s in done]
+        wins, losses = sum(r["wins"] for r in rows), sum(r["losses"] for r in rows)
+        return (f"Through {done[-1]['season']}, {managers[mid]['name']} is {wins}-{losses} in the regular season with "
+                f"{plural(sum(1 for r in rows if r['made_playoffs']), 'playoff trip')} and "
+                f"{plural(len(managers[mid]['championships']), 'title')}. "
+                f"{managers[mid]['name']} has made {plural(trade_count[mid], 'trade')} in all.")
+
+    def player_fact(name):
+        parts = []
+        if name in drafted:
+            d, p = drafted[name]
+            parts.append(f"Taken {ordinal(p['pick'])} overall by {show(p['manager'], d['season'])} "
+                         f"in the {d['season'][:4]} {d['kind']} draft.")
+        if traded[name]:
+            parts.append(f"Traded {plural(traded[name], 'time')} in Das League.")
+        elif parts:
+            parts.append("Never traded in Das League.")
+        return " ".join(parts)
+
     def manager_answer(mid, season=None):
         m = managers[mid]
         accept = {m["name"], *m["aliases"], *m["sleeper_usernames"], *m["team_names"]}
-        return {"display": show(mid, season), "accept": sorted(accept), "manager": mid}
+        return {"display": show(mid, season), "accept": sorted(accept), "manager": mid,
+                "detail": season_fact(mid, season) if season else career_fact(mid)}
 
     def player_answer(name):
         parts = name.split()
@@ -56,7 +111,7 @@ def main():
             for piece in parts[-1].split("-"):          # and either half of a double-barrelled last name
                 if len(piece) >= 4:
                     accept.add(piece)
-        return {"display": name, "accept": sorted(accept)}
+        return {"display": name, "accept": sorted(accept), "detail": player_fact(name)}
 
     groups = defaultdict(list)
 
@@ -65,7 +120,7 @@ def main():
         if not answers:
             return
         # which managers the question or its note mentions, so the site can show that manager's pictures
-        mentioned = f"{text} {note or ''}"
+        mentioned = f"{text} {note or ''} {answers[0].get('detail', '') if len(answers) == 1 else ''}"
         about = [mid for mid, m in managers.items() if f"({m['name']})" in mentioned]
         groups[group].append({
             "id": hashlib.md5(text.encode("utf-8")).hexdigest()[:8],
@@ -75,8 +130,12 @@ def main():
     def managers_q(group, text, ids, sources, season=None, note=None):
         ask(group, text, "manager", [manager_answer(i, season) for i in ids], sources, note)
 
-    def players_q(group, text, names, sources, note=None):
-        ask(group, text, "player", [player_answer(n) for n in sorted(set(names))], sources, note)
+    def players_q(group, text, names, sources, note=None, detail=None):
+        answers = [player_answer(n) for n in sorted(set(names))]
+        if detail:                      # a fact specific to this question instead of the general one
+            for a in answers:
+                a["detail"] = detail(a["display"])
+        ask(group, text, "player", answers, sources, note)
 
     # ---------- championships and playoffs ----------
     S = ["seasons.json"]
@@ -108,11 +167,9 @@ def main():
 
         # ---------- regular-season standings ----------
         top = rows[0]
-        managers_q("standings", f"Who finished with the best regular-season record in {y}?", [top["manager"]], S, y,
-                   note=f"{top['wins']}-{top['losses']}" + (f"-{top['ties']}" if top["ties"] else ""))
+        managers_q("standings", f"Who finished with the best regular-season record in {y}?", [top["manager"]], S, y)
         last = rows[-1]
-        managers_q("standings", f"Who finished last in the {y} regular season?", [last["manager"]], S, y,
-                   note=f"{last['wins']}-{last['losses']}" + (f"-{last['ties']}" if last["ties"] else ""))
+        managers_q("standings", f"Who finished last in the {y} regular season?", [last["manager"]], S, y)
         by_points = sorted(rows, key=lambda r: -r["points_for"])
         managers_q("standings", f"Name one of the three highest-scoring teams of the {y} regular season.",
                    [r["manager"] for r in by_points if r["points_for"] >= by_points[2]["points_for"]], S, y)
@@ -122,7 +179,8 @@ def main():
                    [r["manager"] for r in rows if r["wins"] > r["losses"]], S, y)
         champ = next(r for r in rows if r["manager"] == s["champion"])
         ask("standings", f"How many regular-season wins did the {y} champion, {show(s['champion'], y)}, have?",
-            "number", [{"display": str(champ["wins"]), "accept": [str(champ["wins"])]}], S)
+            "number", [{"display": str(champ["wins"]), "accept": [str(champ["wins"])],
+                        "detail": season_fact(s["champion"], y)}], S)
 
         # highest single-week score (games whose official result disagrees with the score are left out)
         games = [g for g in matchups if g["season"] == y]
@@ -146,8 +204,7 @@ def main():
                       [p["player"] for p in picks if p["round"] == 1], DR)
             players_q("drafts", f"Name a player taken in the second round of the {title}.",
                       [p["player"] for p in picks if p["round"] == 2], DR)
-            players_q("drafts", f"Who was the first overall pick of the {title}?", [picks[0]["player"]], DR,
-                      note=f"Taken by {show(picks[0]['manager'], y)}.")
+            players_q("drafts", f"Who was the first overall pick of the {title}?", [picks[0]["player"]], DR)
             managers_q("drafts", f"Who made the first overall pick of the {title}?", [picks[0]["manager"]], DR, y,
                        note=f"The pick was {picks[0]['player']}.")
             for mid in managers:
@@ -155,13 +212,12 @@ def main():
                 if not mine:
                     continue
                 players_q("startup", f"Who did {show(mid, y)} take with their first pick of the {title}?",
-                          [mine[0]["player"]], DR, note=f"Round {mine[0]['round']}, pick {mine[0]['pick']} overall.")
+                          [mine[0]["player"]], DR)
                 players_q("startup", f"Name one of the first five players {show(mid, y)} took in the {title}.",
                           [p["player"] for p in mine[:5]], DR)
         else:
             title = f"{y[:4]} rookie draft"
-            players_q("drafts", f"Who was the first overall pick of the {title}?", [picks[0]["player"]], DR,
-                      note=f"Taken by {show(picks[0]['manager'], y)}.")
+            players_q("drafts", f"Who was the first overall pick of the {title}?", [picks[0]["player"]], DR)
             managers_q("drafts", f"Who made the first overall pick of the {title}?", [picks[0]["manager"]], DR, y,
                        note=f"The pick was {picks[0]['player']}.")
             players_q("drafts", f"Name a top-five pick of the {title}.", [p["player"] for p in picks[:5]], DR)
@@ -170,10 +226,9 @@ def main():
 
     # ---------- trades ----------
     TR = ["trades.json"]
-    traded = Counter(name for t in trades for side in t["sides"] for name in side["receives_players"])
     most = max(traded.values())
     players_q("trades", "Which player has been traded the most times in Das League history?",
-              [n for n, c in traded.items() if c == most], TR, note=f"Traded {most} times.")
+              [n for n, c in traded.items() if c == most], TR)
     often = next(n for n in range(2, most + 1) if sum(c >= n for c in traded.values()) <= 15)
     players_q("trades", f"Name a player who has been traded at least {often} times in Das League.",
               [n for n, c in traded.items() if c >= often], TR)
@@ -192,8 +247,22 @@ def main():
             managers_q("trades", f"Which manager made the most trades during the {y} season?",
                        [m for m, c in per.items() if c == top], TR, y, note=f"{top} trades.")
     for mid in managers:
-        got = {n for t in trades for side in t["sides"] if side["manager"] == mid for n in side["receives_players"]}
-        players_q("trades", f"Name a player {show(mid)} has acquired in a trade.", got, TR)
+        got = defaultdict(list)
+        for t in trades:
+            for side in t["sides"]:
+                if side["manager"] == mid:
+                    for n in side["receives_players"]:
+                        got[n].append(t)
+
+        def how(n, mid=mid, got=got):
+            first = got[n][0]
+            others = " and ".join(managers[m]["name"] for m in first["managers"] if m != mid)
+            text = f"{managers[mid]['name']} got {n} in a trade with {others} on {nice_date(first['date'])}."
+            if len(got[n]) > 1:
+                text += f" {managers[mid]['name']} has traded for {n} {len(got[n])} times in all."
+            return text
+
+        players_q("trades", f"Name a player {show(mid)} has acquired in a trade.", got, TR, detail=how)
 
     # ---------- fun and random ----------
     M = ["matchups.json"]
