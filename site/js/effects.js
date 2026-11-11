@@ -58,5 +58,8 @@ window.EFFECTS = {
     shueiro: [
       "images/managers/shueiro/1.webp",
     ],
+    joey: [
+      "images/managers/joey/1.webp",
+    ],
   },
 };
