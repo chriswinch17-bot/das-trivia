@@ -1,6 +1,6 @@
 {
  "title": "Das Trivia",
- "start_date": "2026-11-11",
+ "start_date": "2026-11-10",
  "days": [
   [
    {
@@ -8395,6 +8395,56 @@
     ]
    }
   ]
+ ],
+ "players": [
+  {
+   "id": "winch",
+   "name": "Winch"
+  },
+  {
+   "id": "libguel",
+   "name": "Libguel"
+  },
+  {
+   "id": "joey",
+   "name": "Joey"
+  },
+  {
+   "id": "ricky",
+   "name": "Ricky"
+  },
+  {
+   "id": "victor",
+   "name": "Victor"
+  },
+  {
+   "id": "melo",
+   "name": "Melo"
+  },
+  {
+   "id": "shueiro",
+   "name": "Shueiro"
+  },
+  {
+   "id": "jacobo",
+   "name": "Jacobo"
+  },
+  {
+   "id": "papo",
+   "name": "Papo"
+  },
+  {
+   "id": "chalela",
+   "name": "Chalela"
+  },
+  {
+   "id": "blandon",
+   "name": "Blandon"
+  },
+  {
+   "id": "verdeja",
+   "name": "Verdeja"
+  }
  ],
  "entities": [
   "2057 Champs",

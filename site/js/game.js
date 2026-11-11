@@ -274,6 +274,107 @@
     return lines.join("\n");
   }
 
+  /* ---------- player name and daily leaderboard ---------- */
+
+  const PLAYER_KEY = "das-trivia:player";
+  const config = window.DAS_CONFIG || {};
+  const online = Boolean(config.supabaseUrl && config.supabaseKey);
+  let rememberedName = "", afterName = null;
+
+  function getPlayer() {
+    if (rememberedName) return rememberedName;
+    try { rememberedName = localStorage.getItem(PLAYER_KEY) || ""; } catch (e) { /* private browsing */ }
+    return rememberedName;
+  }
+  function setPlayer(name) {
+    rememberedName = name.trim().slice(0, 20);
+    try { localStorage.setItem(PLAYER_KEY, rememberedName); } catch (e) { /* private browsing */ }
+    drawPlayer();
+  }
+  function drawPlayer() {
+    $("playing-as").hidden = !getPlayer();
+    $("player-name").textContent = getPlayer();
+  }
+
+  // Shown after Tip off the first time, or when "change" is tapped.
+  function askName(then) {
+    afterName = then;
+    const box = $("names");
+    box.replaceChildren();
+    (game.players || []).forEach((p) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "name-btn" + (p.name === getPlayer() ? " picked" : "");
+      button.textContent = p.name;
+      button.addEventListener("click", () => chooseName(p.name));
+      box.append(button);
+    });
+    $("other-name").value = "";
+    show("name");
+  }
+  function chooseName(name) {
+    if (!name.trim()) return;
+    setPlayer(name);
+    const next = afterName;
+    afterName = null;
+    if (next) next();
+  }
+  function tipOff() {
+    if (!getPlayer()) return askName(showQuestion);
+    showQuestion();
+  }
+
+  async function database(path, options = {}) {
+    const response = await fetch(`${config.supabaseUrl}/rest/v1/${path}`, {
+      ...options,
+      headers: { apikey: config.supabaseKey, Authorization: `Bearer ${config.supabaseKey}`, "Content-Type": "application/json", ...(options.headers || {}) },
+    });
+    if (!response.ok) throw new Error(`leaderboard returned ${response.status}`);
+    return response.status === 200 ? response.json() : null;
+  }
+
+  // Sends this player's score once, then shows everyone's scores for today's game.
+  async function showLeaderboard(score, right) {
+    const boxes = state.answers.map((a) => (a.result === "correct" ? "🟩" : a.result === "close" ? "🟧" : "🟥")).join("");
+    const mine = { player: getPlayer() || "You", score, correct: right, boxes };
+    const list = $("leaders"), status = $("leaders-status");
+
+    const draw = (rows, note) => {
+      list.replaceChildren();
+      rows.forEach((row, i) => {
+        const item = document.createElement("li");
+        if (row.player === mine.player) item.className = "me";
+        const rank = document.createElement("span"); rank.className = "lr"; rank.textContent = i + 1;
+        const name = document.createElement("span"); name.className = "ln"; name.textContent = row.player;
+        const marks = document.createElement("span"); marks.className = "lb"; marks.textContent = row.boxes || "";
+        const points = document.createElement("span"); points.className = "ls"; points.textContent = row.score;
+        item.append(rank, name, marks, points);
+        list.append(item);
+      });
+      status.textContent = note;
+      status.hidden = !note;
+    };
+
+    if (!online) return draw([mine], "The shared leaderboard isn't connected yet, so only your score shows here.");
+    draw([mine], "Loading the leaderboard…");
+    try {
+      if (!testMode && !state.submitted) {
+        await database("scores?on_conflict=game,player", {
+          method: "POST",
+          headers: { Prefer: "resolution=ignore-duplicates,return=minimal" },
+          body: JSON.stringify({ game: gameNumber, ...mine }),
+        });
+        state.submitted = true;
+        saveState();
+      }
+      const rows = await database(`scores?game=eq.${gameNumber}&select=player,score,correct,boxes&order=score.desc,created_at.asc&limit=50`);
+      const everyone = testMode && !rows.some((r) => r.player === mine.player) ? [...rows, mine].sort((a, b) => b.score - a.score) : rows;
+      draw(everyone, testMode ? "Practice mode: your score isn't saved to the leaderboard." : "First score counts. One game per player per day.");
+    } catch (error) {
+      draw([mine], "Couldn't reach the leaderboard right now, so only your score shows here.");
+    }
+  }
+
   function showResults() {
     show("results");
     const score = state.answers.reduce((sum, a) => sum + a.points, 0);
@@ -302,6 +403,7 @@
       item.append(pts, q, r);
       recap.append(item);
     });
+    showLeaderboard(score, right);
   }
 
   async function copyShare() {
@@ -340,7 +442,10 @@
     $("game-tag").textContent = `Game #${gameNumber}` + (testMode ? " · test" : "");
     $("start-date").textContent = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
 
-    $("btn-play").addEventListener("click", showQuestion);
+    $("btn-play").addEventListener("click", tipOff);
+    $("change-player").addEventListener("click", (event) => { event.preventDefault(); askName(() => show("start")); });
+    $("other-form").addEventListener("submit", (event) => { event.preventDefault(); chooseName($("other-name").value); });
+    drawPlayer();
     $("btn-next").addEventListener("click", nextStep);
     $("btn-share").addEventListener("click", copyShare);
     $("answer-form").addEventListener("submit", (event) => {

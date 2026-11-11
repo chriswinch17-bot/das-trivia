@@ -18,7 +18,8 @@ from datetime import datetime
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parent.parent / "site" / "data"
-START_DATE = "2026-11-11"      # the day Game #1 is played
+START_DATE = "2026-11-10"      # the day Game #1 falls on. Moved back a day on 2026-11-11 at the owner's
+                               # request, so that day's players got the next set of questions (Game #2).
 QUESTIONS_PER_DAY = 7
 NAME_SUFFIXES = {"jr", "jr.", "sr", "sr.", "ii", "iii", "iv"}
 
@@ -393,6 +394,7 @@ def main():
         "title": "Das Trivia",
         "start_date": START_DATE,
         "days": days,
+        "players": [{"id": m["id"], "name": m["name"]} for m in managers.values()],   # the name picker
         "entities": sorted(entities),
     }, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"Wrote {len(order)} questions; {len(days)} daily games of {QUESTIONS_PER_DAY} "

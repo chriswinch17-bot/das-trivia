@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=25">
+  <link rel="stylesheet" href="css/style.css?v=26">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -71,8 +71,22 @@
         <li>Every right answer moves you <b>up a step</b>. Get all 7 for the slam dunk</li>
       </ul>
       <button class="btn primary" id="btn-play">Tip off</button>
+      <p class="fine playing-as" id="playing-as" hidden>Playing as <b id="player-name"></b> · <a href="#" id="change-player">change</a></p>
       <p class="fine">Prototype scoring: 100 points for a correct answer plus a speed bonus.
         Rarity scoring arrives with the leaderboard.</p>
+    </section>
+
+    <!-- Name screen: asked once, after Tip off and before the first question -->
+    <section class="screen card" id="screen-name" hidden>
+      <p class="eyebrow">Before we tip off</p>
+      <h1>Who's playing?</h1>
+      <div class="names" id="names"></div>
+      <form id="other-form" autocomplete="off">
+        <input id="other-name" type="text" maxlength="20" placeholder="Not on the list? Type your name"
+               autocomplete="off" autocorrect="off" spellcheck="false">
+        <button class="btn primary" type="submit">Go</button>
+      </form>
+      <p class="fine">Your name goes on the daily leaderboard. This phone will remember it.</p>
     </section>
 
     <!-- Question screen -->
@@ -122,6 +136,9 @@
       <div class="grid" id="final-grid"></div>
       <button class="btn primary" id="btn-share">Share result</button>
       <p class="fine" id="share-status">Copies your boxes and score so you can paste them into the group chat.</p>
+      <h3>Today's leaderboard</h3>
+      <ol class="leaders" id="leaders"></ol>
+      <p class="fine" id="leaders-status"></p>
       <h3>Your answers</h3>
       <ol class="recap" id="recap"></ol>
       <p class="fine">A new game starts every day at midnight Eastern.</p>
@@ -133,8 +150,9 @@
     </section>
   </main>
 
-  <script src="js/effects.js?v=25"></script>
-  <script src="js/cutscene.js?v=25"></script>
-  <script src="js/game.js?v=25"></script>
+  <script src="js/config.js?v=26"></script>
+  <script src="js/effects.js?v=26"></script>
+  <script src="js/cutscene.js?v=26"></script>
+  <script src="js/game.js?v=26"></script>
 </body>
 </html>

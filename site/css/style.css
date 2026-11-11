@@ -240,6 +240,36 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .scene .cs-mark { font: 700 9px var(--body); fill: #fff; opacity: .75; }
 .btn.ghost { margin-top: 14px; background: transparent; color: var(--muted); border: 1px solid var(--card-edge); font-size: 16px; min-height: 40px; padding: 6px 20px; }
 
+/* name screen */
+.names { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 4px 0 16px; }
+.name-btn {
+  appearance: none; cursor: pointer; min-height: 48px; padding: 8px 10px; border-radius: 10px;
+  background: #0d1220; border: 2px solid var(--card-edge); color: var(--text);
+  font-family: var(--head); font-size: 22px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase;
+}
+.name-btn:hover, .name-btn.picked { border-color: var(--orange); color: var(--orange); }
+#other-form { display: flex; gap: 8px; }
+#other-form input {
+  flex: 1; min-width: 0; min-height: 50px; padding: 10px 12px; font: 600 16px var(--body); color: var(--text);
+  background: #0d1220; border: 2px solid var(--card-edge); border-radius: 12px;
+}
+#other-form input:focus { border-color: var(--orange); outline: none; }
+#other-form .btn { width: auto; flex: none; }
+.playing-as { text-align: center; }
+.playing-as b { color: var(--text); }
+.playing-as a { color: var(--orange); }
+
+/* daily leaderboard */
+.leaders { list-style: none; margin: 0; padding: 0; text-align: left; }
+.leaders li { display: flex; align-items: center; gap: 8px; padding: 9px 10px; border-radius: 10px; }
+.leaders li:nth-child(odd) { background: rgba(255, 255, 255, .03); }
+.leaders li.me { background: rgba(255, 122, 26, .16); outline: 1px solid var(--orange); }
+.leaders .lr { width: 1.6em; font-family: var(--head); font-size: 20px; font-weight: 800; color: var(--muted); }
+.leaders li:first-child .lr { color: #ffc53d; }
+.leaders .ln { flex: 1; min-width: 0; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.leaders .lb { font-size: 9px; letter-spacing: -1px; white-space: nowrap; }
+.leaders .ls { font-family: var(--head); font-size: 22px; font-weight: 800; color: var(--orange); min-width: 2.2em; text-align: right; }
+
 /* results */
 #screen-results { text-align: center; }
 .score { font-family: var(--head); font-size: 96px; font-weight: 800; line-height: 1; color: var(--orange); }
