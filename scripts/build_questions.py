@@ -18,8 +18,8 @@ from datetime import datetime
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parent.parent / "site" / "data"
-START_DATE = "2026-11-10"      # the day Game #1 falls on. Moved back a day on 2026-11-11 at the owner's
-                               # request, so that day's players got the next set of questions (Game #2).
+START_DATE = "2026-11-09"      # the day Game #1 falls on. Moved back a day on 2026-11-11 at the owner's
+                               # request, and a second time later the same day, so 2026-11-11 ended on Game #3.
 QUESTIONS_PER_DAY = 7
 NAME_SUFFIXES = {"jr", "jr.", "sr", "sr.", "ii", "iii", "iv"}
 
