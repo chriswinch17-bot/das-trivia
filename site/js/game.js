@@ -279,6 +279,9 @@
   const PLAYER_KEY = "das-trivia:player";
   const config = window.DAS_CONFIG || {};
   const online = Boolean(config.supabaseUrl && config.supabaseKey);
+  // The name screen and leaderboard stay switched off until the database is connected.
+  // To preview them before that, open the site with ?test&board
+  const boardOn = online || (testMode && params.has("board"));
   let rememberedName = "", afterName = null;
 
   function getPlayer() {
@@ -292,7 +295,7 @@
     drawPlayer();
   }
   function drawPlayer() {
-    $("playing-as").hidden = !getPlayer();
+    $("playing-as").hidden = !boardOn || !getPlayer();
     $("player-name").textContent = getPlayer();
   }
 
@@ -320,7 +323,7 @@
     if (next) next();
   }
   function tipOff() {
-    if (!getPlayer()) return askName(showQuestion);
+    if (boardOn && !getPlayer()) return askName(showQuestion);
     showQuestion();
   }
 
@@ -338,6 +341,8 @@
     const boxes = state.answers.map((a) => (a.result === "correct" ? "🟩" : a.result === "close" ? "🟧" : "🟥")).join("");
     const mine = { player: getPlayer() || "You", score, correct: right, boxes };
     const list = $("leaders"), status = $("leaders-status");
+    $("leaders-title").hidden = list.hidden = !boardOn;
+    if (!boardOn) { status.hidden = true; return; }
 
     const draw = (rows, note) => {
       list.replaceChildren();

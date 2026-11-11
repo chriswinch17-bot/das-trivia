@@ -98,7 +98,7 @@ The owner has essentially no coding or web development experience.
 - Daily leaderboard: after Tip off the player picks their name (12 managers, or types one); it is
   remembered on the device. The results screen shows "Today's leaderboard". Scores live in a Supabase
   table `scores` (`docs/leaderboard_setup.sql`); the connection values go in `site/js/config.js`.
-  While those are empty the leaderboard shows only the player's own score. Practice mode never saves a score.
+  While those are empty the name screen and leaderboard are switched off entirely; preview them with `?test&board`. Practice mode never saves a score.
   It is an honor system: anyone can pick any name, and the first score per name per day counts.
 - Testing: open the site with `?test` on the address to replay without saving; `?test&day=3` plays Game #3.
 - Local preview: `python -m http.server 8123 --bind 127.0.0.1 --directory site`, then http://localhost:8123.
