@@ -52,6 +52,7 @@ window.EFFECTS = {
     ],
     winch: [
       "images/managers/winch/1.webp",
+      "images/managers/winch/2.webp",
     ],
   },
 };
