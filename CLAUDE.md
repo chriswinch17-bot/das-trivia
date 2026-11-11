@@ -87,6 +87,10 @@ The owner has essentially no coding or web development experience.
   from data, roughly one per daily game.
 - `index.html` loads the CSS and JS with a `?v=N` tag. Raise N whenever those files change, or
   browsers keep showing the old version.
+- `site/js/cutscene.js` is the cutscene shown after each correct answer (never after a wrong, close or
+  timed-out one): the player moves up one of 7 steps and a robot baller does that step's move
+  (grab ball, dribble, layup, floater, free throw, three-pointer, slam dunk). Preview with
+  `?test&scene=3` or `?test&scene=all`.
 - Testing: open the site with `?test` on the address to replay without saving; `?test&day=3` plays Game #3.
 - Local preview: `python -m http.server 8123 --bind 127.0.0.1 --directory site`, then http://localhost:8123.
 - Scoring is a stand-in (100 + 2 per second left) until rarity scoring arrives in Phase 4.
@@ -123,6 +127,10 @@ docs/            ROADMAP.md, DATA_GUIDE.md
 ```
 
 ## Working guidelines
+
+- **Show first, publish second.** The site is live and league members play it. Make changes locally,
+  show the owner in the Browser pane (local preview), and `git push` only after the owner approves
+  that change. Local commits are fine.
 
 - This project must stay out of the Documents folder: on this computer it syncs to a work OneDrive.
 - Keep original data files in `data/raw/` unmodified; all cleaning happens in scripts.

@@ -164,6 +164,15 @@
     tick();
   }
 
+  // After a correct answer, play the cutscene for the step just reached, then carry on.
+  function nextStep() {
+    const last = state.answers[state.answers.length - 1];
+    if (!last || last.result !== "correct" || !window.Cutscene) return showQuestion();
+    const step = state.answers.filter((a) => a.result === "correct").length;
+    show("cutscene");
+    window.Cutscene.play(step, showQuestion);
+  }
+
   function finish(result, typed, answer) {
     clearInterval(timerId);
     const index = state.answers.length;
@@ -332,7 +341,7 @@
     $("start-date").textContent = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
 
     $("btn-play").addEventListener("click", showQuestion);
-    $("btn-next").addEventListener("click", showQuestion);
+    $("btn-next").addEventListener("click", nextStep);
     $("btn-share").addEventListener("click", copyShare);
     $("answer-form").addEventListener("submit", (event) => {
       event.preventDefault();
@@ -346,6 +355,17 @@
       const question = questions[state.answers.length];
       finish(answer ? "correct" : isCloseNumber(question, typed) ? "close" : "wrong", typed, answer);
     });
+
+    // testing: ?test&scene=3 plays cutscene 3; ?test&scene=all plays all seven in a row
+    if (testMode && params.get("scene") && window.Cutscene) {
+      const wanted = params.get("scene") === "all" ? [1, 2, 3, 4, 5, 6, 7] : [Number(params.get("scene")) || 1];
+      const playNext = () => {
+        if (!wanted.length) return show("start");
+        show("cutscene");
+        window.Cutscene.play(wanted.shift(), playNext);
+      };
+      return playNext();
+    }
 
     if (state.answers.length >= questions.length) showResults();
     else if (state.startedAt) showQuestion();   // refreshed mid-question: the clock kept running

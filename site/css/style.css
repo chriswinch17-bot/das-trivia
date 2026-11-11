@@ -173,6 +173,27 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 @keyframes pop { 40% { transform: scale(1.02); } }
 @keyframes shake { 20%, 60% { transform: translateX(-7px); } 40%, 80% { transform: translateX(7px); } }
 
+/* cutscene between questions */
+#screen-cutscene { text-align: center; }
+.cut-title { font-size: 38px; line-height: 1; margin-bottom: 14px; }
+.is-dunk .cut-title { color: var(--orange); font-size: 46px; }
+.steps { display: flex; gap: 6px; margin: 0 auto 14px; max-width: 320px; align-items: flex-end; height: 34px; }
+.steps span { flex: 1; border-radius: 4px 4px 0 0; background: var(--card-edge); }
+.steps span:nth-child(1) { height: 28%; } .steps span:nth-child(2) { height: 40%; } .steps span:nth-child(3) { height: 52%; }
+.steps span:nth-child(4) { height: 64%; } .steps span:nth-child(5) { height: 76%; } .steps span:nth-child(6) { height: 88%; }
+.steps span:nth-child(7) { height: 100%; }
+.steps .done { background: var(--green); }
+.steps .now { background: var(--orange); animation: pulse .5s 3 alternate; transform-origin: bottom; }
+.scene svg { display: block; overflow: hidden; width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--card-edge); }
+.scene .baller, .scene .ball-x, .scene .ball-y, .scene .shake { transform-origin: 0 0; }
+.scene .arm { transform-origin: 2px -42px; }
+.scene .leg { transform-origin: 0 -22px; }
+.scene .net { transform-origin: 309px 84px; }
+.scene .hoop { transform-origin: 324px 84px; }
+.scene .boom { font: 800 40px var(--head); fill: #ffd23f; stroke: #7a2d00; stroke-width: 1.5px; paint-order: stroke; transform-origin: 150px 60px; }
+.scene .cs-mark { font: 700 9px var(--body); fill: #fff; opacity: .75; }
+.btn.ghost { margin-top: 14px; background: transparent; color: var(--muted); border: 1px solid var(--card-edge); font-size: 16px; min-height: 40px; padding: 6px 20px; }
+
 /* results */
 #screen-results { text-align: center; }
 .score { font-family: var(--head); font-size: 96px; font-weight: 800; line-height: 1; color: var(--orange); }
