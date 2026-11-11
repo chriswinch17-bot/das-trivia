@@ -25,9 +25,9 @@ Each phase ends with something you can see and try. Nothing is published until y
 - [ ] Your images and reactions for right / wrong / out of time (`site/js/effects.js`)
 
 ## Phase 3 — Put it online
-- [ ] You create a free GitHub account (I'll walk you through it)
-- [ ] Publish the site to a free address
-- [ ] A new game appears automatically each day
+- [x] GitHub account created (chriswinch17-bot)
+- [x] Published at https://chriswinch17-bot.github.io/das-trivia/
+- [x] A new game appears automatically each day (17 scheduled from 2026-11-11)
 - [ ] A few league members test it on their phones
 
 ## Phase 4 — Leaderboard and real rarity scoring
