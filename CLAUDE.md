@@ -5,8 +5,9 @@ The site is named **Das Trivia**, with the tagline "Brought to you by EquipoGPT"
 
 The host character is **EquipoGPT**, the owner as a robot game-show host (`site/images/host.webp`).
 It is the link-preview picture (Open Graph tags in `index.html`) and appears on the start screen.
-The `SITE_ADDRESS` placeholder in those tags must be replaced with the real address at publish time;
-if the picture doesn't show in some chat app, convert it to JPG (needs Pillow, ask first).
+The site is published at https://chriswinch17-bot.github.io/das-trivia/ from the public GitHub
+repository `chriswinch17-bot/das-trivia`; `git push` republishes it automatically (`.github/workflows/publish.yml`).
+If the preview picture doesn't show in some chat app, convert it to JPG (needs Pillow, ask first).
 
 A daily trivia website for a dynasty fantasy basketball league, inspired by Krillion.
 League members answer questions drawn only from the league's own history.
