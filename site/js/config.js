@@ -6,6 +6,6 @@
   While these are empty, the game works normally and the leaderboard shows only your own score.
 */
 window.DAS_CONFIG = {
-  supabaseUrl: "",
-  supabaseKey: "",
+  supabaseUrl: "https://hlatsivwhtbowstjpovt.supabase.co",
+  supabaseKey: "sb_publishable_RXxV1eavF5Fu9Qg5_SQ1eA_U5No5aK5",
 };
