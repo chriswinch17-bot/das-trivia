@@ -214,14 +214,13 @@
     $("btn-next").focus();
   }
 
+  // What gets pasted into the group chat: title, seven green/red boxes, then the score.
   function shareText() {
-    const squares = { correct: "🟩", wrong: "🟥", timeout: "⬛" };
     const score = state.answers.reduce((sum, a) => sum + a.points, 0);
-    const right = state.answers.filter((a) => a.result === "correct").length;
     const lines = [
       `🏀 ${game.title} #${gameNumber}`,
-      `${score} pts · ${right}/${questions.length}`,
-      state.answers.map((a) => squares[a.result]).join(""),
+      state.answers.map((a) => (a.result === "correct" ? "🟩" : "🟥")).join(""),
+      `Score: ${score}`,
     ];
     if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) lines.push(location.origin + location.pathname);
     return lines.join("\n");
