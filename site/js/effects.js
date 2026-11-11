@@ -42,5 +42,9 @@ window.EFFECTS = {
       "images/managers/victor/3.webp",
       "images/managers/victor/4.webp",
     ],
+    papo: [
+      "images/managers/papo/1.webp",
+      "images/managers/papo/2.webp",
+    ],
   },
 };

@@ -166,8 +166,14 @@
       ...(question.about || []),
     ].filter((id) => id && gallery[id] && gallery[id].length);
     const image = involved.length ? pick(gallery[involved[0]]) : pick(fx.image);
-    $("fx-image").hidden = !image;
-    if (image) $("fx-image").src = image;
+    // swap in a fresh picture element so the previous question's picture can never linger
+    const fresh = document.createElement("img");
+    fresh.id = "fx-image"; fresh.className = "fx-image"; fresh.alt = ""; fresh.hidden = true;
+    $("fx-image").replaceWith(fresh);
+    if (image) {
+      fresh.onload = () => { fresh.hidden = false; };
+      fresh.src = image;
+    }
     const sound = pick(fx.sound);
     if (sound) { try { new Audio(sound).play().catch(() => {}); } catch (e) { /* sound is optional */ } }
 

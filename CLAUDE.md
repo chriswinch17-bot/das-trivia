@@ -68,6 +68,8 @@ The owner has essentially no coding or web development experience.
 - The owner wants funny, random questions mixed in "every once in a while". These are the `fun` group
   in `build_questions.py` (old team names, blowouts, lowest scores, streaks, etc.), still computed
   from data, roughly one per daily game.
+- `index.html` loads the CSS and JS with a `?v=N` tag. Raise N whenever those files change, or
+  browsers keep showing the old version.
 - Testing: open the site with `?test` on the address to replay without saving; `?test&day=3` plays Game #3.
 - Local preview: `python -m http.server 8123 --bind 127.0.0.1 --directory site`, then http://localhost:8123.
 - Scoring is a stand-in (100 + 2 per second left) until rarity scoring arrives in Phase 4.
