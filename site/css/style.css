@@ -83,11 +83,62 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 }
 .fine { color: var(--muted); font-size: 13px; margin: 14px 0 0; }
 
-.host { display: flex; align-items: center; gap: 14px; margin: 0 0 12px; }
-.host img { width: 96px; height: 96px; border-radius: 16px; object-fit: cover; border: 2px solid var(--orange); flex: none; }
-.host p { margin: 0; display: flex; flex-direction: column; line-height: 1.1; }
-.host span { font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
-.host b { font-family: var(--head); font-size: 32px; font-weight: 800; letter-spacing: .5px; color: var(--text); }
+/* start screen: the host in front of a game-show survey board */
+.stage { display: grid; grid-template-columns: 36% 1fr; align-items: end; margin: 6px 0 20px; }
+.stage-host { position: relative; z-index: 2; margin: 0 -16px 0 0; }
+.stage-host img {
+  display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: 13% 0;
+  border-radius: 14px;
+  -webkit-mask-image: linear-gradient(to right, #000 62%, transparent 98%), linear-gradient(to bottom, #000 78%, transparent 100%);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to right, #000 62%, transparent 98%), linear-gradient(to bottom, #000 78%, transparent 100%);
+  mask-composite: intersect;
+}
+.stage-host figcaption {
+  position: absolute; left: 0; bottom: 0; display: flex; flex-direction: column; line-height: 1.05;
+  padding: 4px 9px 5px; border-radius: 0 10px 0 12px; background: rgba(10, 15, 36, .82);
+}
+.stage-host figcaption span { font-size: 9px; letter-spacing: 1.4px; text-transform: uppercase; color: var(--muted); }
+.stage-host figcaption b { font-family: var(--head); font-size: clamp(17px, 5vw, 26px); font-weight: 800; letter-spacing: .5px; }
+
+.board {
+  position: relative; margin: 9px 9px 9px 0; padding: 8px 8px 9px 18px;
+  background: linear-gradient(#0d2170, #081447); border: 3px solid #ffc53d; border-radius: 12px;
+  box-shadow: 0 0 26px rgba(255, 197, 61, .3);
+}
+.board::before {               /* the ring of bulbs around the board */
+  content: ""; position: absolute; inset: -10px; border: 4px dotted #ffe08a; border-radius: 18px;
+  animation: bulbs 1.2s steps(2) infinite; pointer-events: none;
+}
+@keyframes bulbs { 50% { opacity: .45; } }
+.board-title {
+  font-family: var(--head); font-weight: 800; text-transform: uppercase; text-align: center;
+  color: #ffc53d; font-size: clamp(15px, 4.6vw, 26px); letter-spacing: 1px; line-height: 1.05; padding: 2px 0 7px;
+}
+.board-list {
+  list-style: none; margin: 0; padding: 0; display: grid; gap: 5px;
+  grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3, auto); grid-auto-flow: column;
+}
+.board-list li {
+  height: clamp(28px, 8.4vw, 44px); display: flex; align-items: center; justify-content: center;
+  border-radius: 6px; border: 1px solid #7d9dff; background: linear-gradient(#2f5be0, #142f92);
+  font-family: var(--head); font-size: clamp(15px, 4.4vw, 24px); color: #fff;
+}
+.board-list .num {
+  display: grid; place-items: center; width: 1.9em; height: 1.3em; border-radius: 50%;
+  background: #0a1a5c; border: 1px solid #7d9dff; font-weight: 800;
+}
+.board-list .revealed {
+  justify-content: flex-start; gap: 6px; padding: 0 6px; color: #0a1a5c;
+  background: linear-gradient(#ffffff, #cfd9f5); border-color: #fff;
+  animation: flip .7s .6s both; transform-origin: center;
+}
+.board-list .rank {
+  display: grid; place-items: center; width: 1.25em; height: 1.25em; flex: none; border-radius: 4px;
+  background: #0a1a5c; color: #ffc53d; font-weight: 800; font-size: .85em;
+}
+.board-list .ans { font-weight: 800; letter-spacing: .5px; text-transform: uppercase; }
+@keyframes flip { from { transform: rotateX(90deg); } to { transform: rotateX(0); } }
 
 .rules { list-style: none; margin: 0 0 22px; padding: 0; }
 .rules li { padding: 10px 0 10px 30px; border-bottom: 1px solid var(--card-edge); position: relative; color: #d5dbea; }

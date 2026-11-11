@@ -5,6 +5,8 @@ The site is named **Das Trivia**, with the tagline "Brought to you by EquipoGPT"
 
 The host character is **EquipoGPT**, the owner as a robot game-show host (`site/images/host.webp`).
 It is the link-preview picture (Open Graph tags in `index.html`) and appears on the start screen.
+The start screen shows the host in front of a game-show survey board titled "Worst Dynasty Teams" with
+number 1 flipped to "Jacobo" and the rest hidden. That is the owner's joke, not league data.
 The site is published at https://chriswinch17-bot.github.io/das-trivia/ from the public GitHub
 repository `chriswinch17-bot/das-trivia`; `git push` republishes it automatically (`.github/workflows/publish.yml`).
 If the preview picture doesn't show in some chat app, convert it to JPG (needs Pillow, ask first).
