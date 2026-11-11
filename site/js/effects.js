@@ -50,5 +50,8 @@ window.EFFECTS = {
       "images/managers/libguel/1.webp",
       "images/managers/libguel/2.png",
     ],
+    winch: [
+      "images/managers/winch/1.webp",
+    ],
   },
 };
