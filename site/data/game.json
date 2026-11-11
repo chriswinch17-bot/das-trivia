@@ -38,6 +38,7 @@
       "display": "Nikola Jokić",
       "accept": [
        "Jokić",
+       "Nikola",
        "Nikola Jokić"
       ]
      }
@@ -129,6 +130,7 @@
       "display": "Tyrese Haliburton",
       "accept": [
        "Haliburton",
+       "Tyrese",
        "Tyrese Haliburton"
       ]
      }
@@ -254,12 +256,14 @@
       "display": "Devin Booker",
       "accept": [
        "Booker",
+       "Devin",
        "Devin Booker"
       ]
      },
      {
       "display": "Donovan Mitchell",
       "accept": [
+       "Donovan",
        "Donovan Mitchell",
        "Mitchell"
       ]
@@ -293,6 +297,7 @@
       "display": "Jaylen Brown",
       "accept": [
        "Brown",
+       "Jaylen",
        "Jaylen Brown"
       ]
      },
@@ -476,6 +481,7 @@
       "display": "Josh Giddey",
       "accept": [
        "Giddey",
+       "Josh",
        "Josh Giddey"
       ]
      },
@@ -491,6 +497,7 @@
       "display": "Nikola Jokić",
       "accept": [
        "Jokić",
+       "Nikola",
        "Nikola Jokić"
       ]
      },
@@ -556,6 +563,7 @@
      {
       "display": "AJ Dybantsa",
       "accept": [
+       "AJ",
        "AJ Dybantsa",
        "Dybantsa"
       ]
@@ -588,6 +596,7 @@
       "display": "Cameron Boozer",
       "accept": [
        "Boozer",
+       "Cameron",
        "Cameron Boozer"
       ]
      },
@@ -595,6 +604,7 @@
       "display": "Darius Acuff Jr.",
       "accept": [
        "Acuff",
+       "Darius",
        "Darius Acuff",
        "Darius Acuff Jr."
       ]
@@ -714,6 +724,7 @@
      {
       "display": "Andrew Nembhard",
       "accept": [
+       "Andrew",
        "Andrew Nembhard",
        "Nembhard"
       ]
@@ -721,6 +732,7 @@
      {
       "display": "Andrew Wiggins",
       "accept": [
+       "Andrew",
        "Andrew Wiggins",
        "Wiggins"
       ]
@@ -728,6 +740,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "Brandon",
        "Brandon Ingram",
        "Ingram"
       ]
@@ -751,6 +764,7 @@
      {
       "display": "Collin Sexton",
       "accept": [
+       "Collin",
        "Collin Sexton",
        "Sexton"
       ]
@@ -799,6 +813,7 @@
       "display": "Isaiah Hartenstein",
       "accept": [
        "Hartenstein",
+       "Isaiah",
        "Isaiah Hartenstein"
       ]
      },
@@ -822,6 +837,7 @@
      {
       "display": "Jaden McDaniels",
       "accept": [
+       "Jaden",
        "Jaden McDaniels",
        "McDaniels"
       ]
@@ -829,6 +845,7 @@
      {
       "display": "Jalen Suggs",
       "accept": [
+       "Jalen",
        "Jalen Suggs",
        "Suggs"
       ]
@@ -837,6 +854,7 @@
       "display": "James Harden",
       "accept": [
        "Harden",
+       "James",
        "James Harden"
       ]
      },
@@ -1015,6 +1033,7 @@
       "display": "Ryan Conwell",
       "accept": [
        "Conwell",
+       "Ryan",
        "Ryan Conwell"
       ]
      },
@@ -1059,6 +1078,7 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Anthony",
        "Anthony Edwards",
        "Edwards"
       ]
@@ -1119,6 +1139,7 @@
      {
       "display": "Alex Sarr",
       "accept": [
+       "Alex",
        "Alex Sarr",
        "Sarr"
       ]
@@ -1127,6 +1148,7 @@
       "display": "Donovan Clingan",
       "accept": [
        "Clingan",
+       "Donovan",
        "Donovan Clingan"
       ]
      },
@@ -1293,6 +1315,7 @@
      {
       "display": "Alex Sarr",
       "accept": [
+       "Alex",
        "Alex Sarr",
        "Sarr"
       ]
@@ -1309,6 +1332,7 @@
       "display": "Donovan Clingan",
       "accept": [
        "Clingan",
+       "Donovan",
        "Donovan Clingan"
       ]
      },
@@ -1324,6 +1348,7 @@
       "display": "Matas Buzelis",
       "accept": [
        "Buzelis",
+       "Matas",
        "Matas Buzelis"
       ]
      },
@@ -1379,6 +1404,7 @@
       "display": "Zach Edey",
       "accept": [
        "Edey",
+       "Zach",
        "Zach Edey"
       ]
      }
@@ -1471,6 +1497,7 @@
      {
       "display": "Jaylen Wells",
       "accept": [
+       "Jaylen",
        "Jaylen Wells",
        "Wells"
       ]
@@ -1495,6 +1522,7 @@
       "display": "Nikola Jović",
       "accept": [
        "Jović",
+       "Nikola",
        "Nikola Jović"
       ]
      }
@@ -1601,6 +1629,7 @@
       "display": "Tre Johnson",
       "accept": [
        "Johnson",
+       "Tre",
        "Tre Johnson"
       ]
      },
@@ -1722,6 +1751,8 @@
      {
       "display": "Shai Gilgeous-Alexander",
       "accept": [
+       "Alexander",
+       "Gilgeous",
        "Gilgeous-Alexander",
        "Shai",
        "Shai Gilgeous-Alexander"
@@ -1857,6 +1888,7 @@
       "display": "Tre Mann",
       "accept": [
        "Mann",
+       "Tre",
        "Tre Mann"
       ]
      }
@@ -2124,6 +2156,7 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Anthony",
        "Anthony Edwards",
        "Edwards"
       ]
@@ -2188,12 +2221,14 @@
       "display": "Jalen Green",
       "accept": [
        "Green",
+       "Jalen",
        "Jalen Green"
       ]
      },
      {
       "display": "Jordan Poole",
       "accept": [
+       "Jordan",
        "Jordan Poole",
        "Poole"
       ]
@@ -2257,6 +2292,7 @@
      {
       "display": "Tristan Vukcevic",
       "accept": [
+       "Tristan",
        "Tristan Vukcevic",
        "Vukcevic"
       ]
@@ -2265,6 +2301,7 @@
       "display": "Tyrese Haliburton",
       "accept": [
        "Haliburton",
+       "Tyrese",
        "Tyrese Haliburton"
       ]
      },
@@ -2294,6 +2331,7 @@
       "display": "Nikola Jokić",
       "accept": [
        "Jokić",
+       "Nikola",
        "Nikola Jokić"
       ]
      }
@@ -2406,6 +2444,7 @@
      {
       "display": "Andrew Nembhard",
       "accept": [
+       "Andrew",
        "Andrew Nembhard",
        "Nembhard"
       ]
@@ -2413,6 +2452,7 @@
      {
       "display": "Andrew Wiggins",
       "accept": [
+       "Andrew",
        "Andrew Wiggins",
        "Wiggins"
       ]
@@ -2420,6 +2460,7 @@
      {
       "display": "Anthony Davis",
       "accept": [
+       "Anthony",
        "Anthony Davis",
        "Davis"
       ]
@@ -2435,6 +2476,7 @@
      {
       "display": "Ben Simmons",
       "accept": [
+       "Ben",
        "Ben Simmons",
        "Simmons"
       ]
@@ -2467,6 +2509,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "Brandon",
        "Brandon Ingram",
        "Ingram"
       ]
@@ -2490,6 +2533,7 @@
      {
       "display": "Cam Whitmore",
       "accept": [
+       "Cam",
        "Cam Whitmore",
        "Whitmore"
       ]
@@ -2497,6 +2541,7 @@
      {
       "display": "Cameron Johnson",
       "accept": [
+       "Cameron",
        "Cameron Johnson",
        "Johnson"
       ]
@@ -2520,6 +2565,7 @@
      {
       "display": "Chris Paul",
       "accept": [
+       "Chris",
        "Chris Paul",
        "Paul"
       ]
@@ -2528,6 +2574,7 @@
       "display": "Christian Braun",
       "accept": [
        "Braun",
+       "Christian",
        "Christian Braun"
       ]
      },
@@ -2671,6 +2718,7 @@
       "display": "Isaiah Hartenstein",
       "accept": [
        "Hartenstein",
+       "Isaiah",
        "Isaiah Hartenstein"
       ]
      },
@@ -2702,6 +2750,7 @@
      {
       "display": "Jaden McDaniels",
       "accept": [
+       "Jaden",
        "Jaden McDaniels",
        "McDaniels"
       ]
@@ -2727,6 +2776,7 @@
       "display": "Jalen Duren",
       "accept": [
        "Duren",
+       "Jalen",
        "Jalen Duren"
       ]
      },
@@ -2734,12 +2784,14 @@
       "display": "Jalen Green",
       "accept": [
        "Green",
+       "Jalen",
        "Jalen Green"
       ]
      },
      {
       "display": "Jalen Smith",
       "accept": [
+       "Jalen",
        "Jalen Smith",
        "Smith"
       ]
@@ -2747,6 +2799,7 @@
      {
       "display": "Jalen Suggs",
       "accept": [
+       "Jalen",
        "Jalen Suggs",
        "Suggs"
       ]
@@ -2755,6 +2808,7 @@
       "display": "James Harden",
       "accept": [
        "Harden",
+       "James",
        "James Harden"
       ]
      },
@@ -2827,6 +2881,7 @@
      {
       "display": "Jordan Poole",
       "accept": [
+       "Jordan",
        "Jordan Poole",
        "Poole"
       ]
@@ -2915,6 +2970,7 @@
       "display": "Kyle Filipowski",
       "accept": [
        "Filipowski",
+       "Kyle",
        "Kyle Filipowski"
       ]
      },
@@ -2922,6 +2978,7 @@
       "display": "Kyle Kuzma",
       "accept": [
        "Kuzma",
+       "Kyle",
        "Kyle Kuzma"
       ]
      },
@@ -2968,6 +3025,7 @@
      {
       "display": "Max Strus",
       "accept": [
+       "Max",
        "Max Strus",
        "Strus"
       ]
@@ -3025,12 +3083,14 @@
       "display": "Nikola Jović",
       "accept": [
        "Jović",
+       "Nikola",
        "Nikola Jović"
       ]
      },
      {
       "display": "Nikola Topić",
       "accept": [
+       "Nikola",
        "Nikola Topić",
        "Topić"
       ]
@@ -3071,6 +3131,7 @@
       "display": "Paul George",
       "accept": [
        "George",
+       "Paul",
        "Paul George"
       ]
      },
@@ -3102,6 +3163,7 @@
       "display": "RJ Barrett",
       "accept": [
        "Barrett",
+       "RJ",
        "RJ Barrett"
       ]
      },
@@ -3143,6 +3205,7 @@
       "display": "Ryan Conwell",
       "accept": [
        "Conwell",
+       "Ryan",
        "Ryan Conwell"
       ]
      },
@@ -3150,6 +3213,7 @@
       "display": "Ryan Kalkbrenner",
       "accept": [
        "Kalkbrenner",
+       "Ryan",
        "Ryan Kalkbrenner"
       ]
      },
@@ -3205,6 +3269,7 @@
       "display": "Tre Jones",
       "accept": [
        "Jones",
+       "Tre",
        "Tre Jones"
       ]
      },
@@ -3237,6 +3302,7 @@
       "display": "Zach Edey",
       "accept": [
        "Edey",
+       "Zach",
        "Zach Edey"
       ]
      },
@@ -3244,6 +3310,7 @@
       "display": "Zach LaVine",
       "accept": [
        "LaVine",
+       "Zach",
        "Zach LaVine"
       ]
      },
@@ -3297,6 +3364,7 @@
       "display": "Kevin Durant",
       "accept": [
        "Durant",
+       "Kevin",
        "Kevin Durant"
       ]
      },
@@ -3512,6 +3580,7 @@
       "display": "Tyrese Maxey",
       "accept": [
        "Maxey",
+       "Tyrese",
        "Tyrese Maxey"
       ]
      },
@@ -3519,6 +3588,7 @@
       "display": "Zach LaVine",
       "accept": [
        "LaVine",
+       "Zach",
        "Zach LaVine"
       ]
      }
@@ -3629,6 +3699,7 @@
       "display": "Cameron Boozer",
       "accept": [
        "Boozer",
+       "Cameron",
        "Cameron Boozer"
       ]
      }
@@ -3697,6 +3768,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "Brandon",
        "Brandon Ingram",
        "Ingram"
       ]
@@ -3704,6 +3776,7 @@
      {
       "display": "Cam Whitmore",
       "accept": [
+       "Cam",
        "Cam Whitmore",
        "Whitmore"
       ]
@@ -3719,6 +3792,7 @@
      {
       "display": "Darius Garland",
       "accept": [
+       "Darius",
        "Darius Garland",
        "Garland"
       ]
@@ -3726,6 +3800,7 @@
      {
       "display": "Devin Vassell",
       "accept": [
+       "Devin",
        "Devin Vassell",
        "Vassell"
       ]
@@ -3750,6 +3825,7 @@
       "display": "Isaiah Hartenstein",
       "accept": [
        "Hartenstein",
+       "Isaiah",
        "Isaiah Hartenstein"
       ]
      },
@@ -3765,6 +3841,7 @@
      {
       "display": "Jalen Suggs",
       "accept": [
+       "Jalen",
        "Jalen Suggs",
        "Suggs"
       ]
@@ -3814,6 +3891,7 @@
       "display": "Tyrese Haliburton",
       "accept": [
        "Haliburton",
+       "Tyrese",
        "Tyrese Haliburton"
       ]
      }
@@ -3858,6 +3936,7 @@
      {
       "display": "Darius Garland",
       "accept": [
+       "Darius",
        "Darius Garland",
        "Garland"
       ]
@@ -3866,6 +3945,7 @@
       "display": "Jalen Green",
       "accept": [
        "Green",
+       "Jalen",
        "Jalen Green"
       ]
      }
@@ -3971,6 +4051,7 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Anthony",
        "Anthony Edwards",
        "Edwards"
       ]
@@ -4035,12 +4116,15 @@
       "display": "Nikola Jokić",
       "accept": [
        "Jokić",
+       "Nikola",
        "Nikola Jokić"
       ]
      },
      {
       "display": "Shai Gilgeous-Alexander",
       "accept": [
+       "Alexander",
+       "Gilgeous",
        "Gilgeous-Alexander",
        "Shai",
        "Shai Gilgeous-Alexander"
@@ -4050,6 +4134,7 @@
       "display": "Tyrese Haliburton",
       "accept": [
        "Haliburton",
+       "Tyrese",
        "Tyrese Haliburton"
       ]
      },
@@ -4178,6 +4263,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "Brandon",
        "Brandon Ingram",
        "Ingram"
       ]
@@ -4185,6 +4271,7 @@
      {
       "display": "Chris Paul",
       "accept": [
+       "Chris",
        "Chris Paul",
        "Paul"
       ]
@@ -4200,6 +4287,7 @@
      {
       "display": "Jalen Suggs",
       "accept": [
+       "Jalen",
        "Jalen Suggs",
        "Suggs"
       ]
@@ -4266,6 +4354,7 @@
       "display": "Paul George",
       "accept": [
        "George",
+       "Paul",
        "Paul George"
       ]
      },
@@ -4281,6 +4370,7 @@
       "display": "Tyrese Haliburton",
       "accept": [
        "Haliburton",
+       "Tyrese",
        "Tyrese Haliburton"
       ]
      }
@@ -4315,6 +4405,7 @@
      {
       "display": "Jalen Williams",
       "accept": [
+       "Jalen",
        "Jalen Williams",
        "Williams"
       ]
@@ -4378,6 +4469,7 @@
      {
       "display": "Alex Sarr",
       "accept": [
+       "Alex",
        "Alex Sarr",
        "Sarr"
       ]
@@ -4494,6 +4586,7 @@
      {
       "display": "Anthony Black",
       "accept": [
+       "Anthony",
        "Anthony Black",
        "Black"
       ]
@@ -4534,6 +4627,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "Brandon",
        "Brandon Ingram",
        "Ingram"
       ]
@@ -4541,6 +4635,7 @@
      {
       "display": "Brandon Miller",
       "accept": [
+       "Brandon",
        "Brandon Miller",
        "Miller"
       ]
@@ -4548,6 +4643,7 @@
      {
       "display": "Cameron Johnson",
       "accept": [
+       "Cameron",
        "Cameron Johnson",
        "Johnson"
       ]
@@ -4564,6 +4660,7 @@
       "display": "Christian Braun",
       "accept": [
        "Braun",
+       "Christian",
        "Christian Braun"
       ]
      },
@@ -4594,6 +4691,7 @@
      {
       "display": "Jaden McDaniels",
       "accept": [
+       "Jaden",
        "Jaden McDaniels",
        "McDaniels"
       ]
@@ -4610,6 +4708,7 @@
      {
       "display": "Jalen Suggs",
       "accept": [
+       "Jalen",
        "Jalen Suggs",
        "Suggs"
       ]
@@ -4617,6 +4716,7 @@
      {
       "display": "Jalen Williams",
       "accept": [
+       "Jalen",
        "Jalen Williams",
        "Williams"
       ]
@@ -4633,6 +4733,7 @@
      {
       "display": "Jonathan Kuminga",
       "accept": [
+       "Jonathan",
        "Jonathan Kuminga",
        "Kuminga"
       ]
@@ -4755,6 +4856,7 @@
       "display": "Zach Edey",
       "accept": [
        "Edey",
+       "Zach",
        "Zach Edey"
       ]
      }
@@ -4795,12 +4897,15 @@
       "display": "Jalen Brunson",
       "accept": [
        "Brunson",
+       "Jalen",
        "Jalen Brunson"
       ]
      },
      {
       "display": "Shai Gilgeous-Alexander",
       "accept": [
+       "Alexander",
+       "Gilgeous",
        "Gilgeous-Alexander",
        "Shai",
        "Shai Gilgeous-Alexander"
@@ -4870,6 +4975,7 @@
      {
       "display": "AJ Dybantsa",
       "accept": [
+       "AJ",
        "AJ Dybantsa",
        "Dybantsa"
       ]
@@ -4886,6 +4992,7 @@
       "display": "Cameron Boozer",
       "accept": [
        "Boozer",
+       "Cameron",
        "Cameron Boozer"
       ]
      },
@@ -4893,6 +5000,7 @@
       "display": "Darius Acuff Jr.",
       "accept": [
        "Acuff",
+       "Darius",
        "Darius Acuff",
        "Darius Acuff Jr."
       ]
@@ -4971,6 +5079,7 @@
      {
       "display": "Andrew Wiggins",
       "accept": [
+       "Andrew",
        "Andrew Wiggins",
        "Wiggins"
       ]
@@ -4994,6 +5103,7 @@
      {
       "display": "Cam Whitmore",
       "accept": [
+       "Cam",
        "Cam Whitmore",
        "Whitmore"
       ]
@@ -5001,6 +5111,7 @@
      {
       "display": "Cameron Johnson",
       "accept": [
+       "Cameron",
        "Cameron Johnson",
        "Johnson"
       ]
@@ -5008,6 +5119,7 @@
      {
       "display": "Chris Paul",
       "accept": [
+       "Chris",
        "Chris Paul",
        "Paul"
       ]
@@ -5031,6 +5143,7 @@
      {
       "display": "Donovan Mitchell",
       "accept": [
+       "Donovan",
        "Donovan Mitchell",
        "Mitchell"
       ]
@@ -5064,6 +5177,7 @@
       "display": "Jalen Duren",
       "accept": [
        "Duren",
+       "Jalen",
        "Jalen Duren"
       ]
      },
@@ -5087,6 +5201,7 @@
      {
       "display": "Jordan Poole",
       "accept": [
+       "Jordan",
        "Jordan Poole",
        "Poole"
       ]
@@ -5110,15 +5225,18 @@
      {
       "display": "Nickeil Alexander-Walker",
       "accept": [
+       "Alexander",
        "Alexander-Walker",
        "Nickeil",
-       "Nickeil Alexander-Walker"
+       "Nickeil Alexander-Walker",
+       "Walker"
       ]
      },
      {
       "display": "Paul George",
       "accept": [
        "George",
+       "Paul",
        "Paul George"
       ]
      }
@@ -5156,6 +5274,7 @@
       "display": "Jaylen Brown",
       "accept": [
        "Brown",
+       "Jaylen",
        "Jaylen Brown"
       ]
      },
@@ -5163,6 +5282,7 @@
       "display": "Tyler Herro",
       "accept": [
        "Herro",
+       "Tyler",
        "Tyler Herro"
       ]
      },
@@ -5388,6 +5508,7 @@
       "display": "Kyle Kuzma",
       "accept": [
        "Kuzma",
+       "Kyle",
        "Kyle Kuzma"
       ]
      },
@@ -5395,6 +5516,7 @@
       "display": "Max Christie",
       "accept": [
        "Christie",
+       "Max",
        "Max Christie"
       ]
      },
@@ -5443,6 +5565,7 @@
       "display": "Tre Jones",
       "accept": [
        "Jones",
+       "Tre",
        "Tre Jones"
       ]
      }
@@ -5464,6 +5587,7 @@
       "display": "Devin Booker",
       "accept": [
        "Booker",
+       "Devin",
        "Devin Booker"
       ]
      },
@@ -5471,6 +5595,7 @@
       "display": "James Harden",
       "accept": [
        "Harden",
+       "James",
        "James Harden"
       ]
      },
@@ -5559,7 +5684,10 @@
      {
       "display": "Collin Murray-Boyles",
       "accept": [
+       "Boyles",
+       "Collin",
        "Collin Murray-Boyles",
+       "Murray",
        "Murray-Boyles"
       ]
      },
@@ -5623,6 +5751,7 @@
       "display": "Tre Johnson",
       "accept": [
        "Johnson",
+       "Tre",
        "Tre Johnson"
       ]
      },
@@ -5700,6 +5829,7 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Anthony",
        "Anthony Edwards",
        "Edwards"
       ]
@@ -5716,6 +5846,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "Brandon",
        "Brandon Ingram",
        "Ingram"
       ]
@@ -5788,6 +5919,7 @@
       "display": "Donovan Clingan",
       "accept": [
        "Clingan",
+       "Donovan",
        "Donovan Clingan"
       ]
      },
@@ -5803,6 +5935,7 @@
       "display": "Isaiah Hartenstein",
       "accept": [
        "Hartenstein",
+       "Isaiah",
        "Isaiah Hartenstein"
       ]
      },
@@ -5818,12 +5951,14 @@
       "display": "Jalen Green",
       "accept": [
        "Green",
+       "Jalen",
        "Jalen Green"
       ]
      },
      {
       "display": "Jamal Shead",
       "accept": [
+       "Jamal",
        "Jamal Shead",
        "Shead"
       ]
@@ -5839,6 +5974,7 @@
      {
       "display": "Jordan Poole",
       "accept": [
+       "Jordan",
        "Jordan Poole",
        "Poole"
       ]
@@ -5879,6 +6015,7 @@
       "display": "Kyle Filipowski",
       "accept": [
        "Filipowski",
+       "Kyle",
        "Kyle Filipowski"
       ]
      },
@@ -5910,6 +6047,7 @@
       "display": "Matas Buzelis",
       "accept": [
        "Buzelis",
+       "Matas",
        "Matas Buzelis"
       ]
      },
@@ -5934,12 +6072,14 @@
       "display": "Nikola Jović",
       "accept": [
        "Jović",
+       "Nikola",
        "Nikola Jović"
       ]
      },
      {
       "display": "Nikola Topić",
       "accept": [
+       "Nikola",
        "Nikola Topić",
        "Topić"
       ]
@@ -5956,6 +6096,7 @@
       "display": "Paul George",
       "accept": [
        "George",
+       "Paul",
        "Paul George"
       ]
      },
@@ -6011,6 +6152,7 @@
       "display": "Tyrese Haliburton",
       "accept": [
        "Haliburton",
+       "Tyrese",
        "Tyrese Haliburton"
       ]
      },
@@ -6026,6 +6168,7 @@
       "display": "Zach Edey",
       "accept": [
        "Edey",
+       "Zach",
        "Zach Edey"
       ]
      }
@@ -6046,6 +6189,7 @@
      {
       "display": "Anthony Davis",
       "accept": [
+       "Anthony",
        "Anthony Davis",
        "Davis"
       ]
@@ -6078,6 +6222,7 @@
       "display": "Tyrese Haliburton",
       "accept": [
        "Haliburton",
+       "Tyrese",
        "Tyrese Haliburton"
       ]
      }
@@ -6287,6 +6432,7 @@
      {
       "display": "Brandon Miller",
       "accept": [
+       "Brandon",
        "Brandon Miller",
        "Miller"
       ]
@@ -6335,6 +6481,7 @@
      {
       "display": "Jalen Williams",
       "accept": [
+       "Jalen",
        "Jalen Williams",
        "Williams"
       ]
@@ -6359,6 +6506,7 @@
      {
       "display": "Jonathan Kuminga",
       "accept": [
+       "Jonathan",
        "Jonathan Kuminga",
        "Kuminga"
       ]
@@ -6423,6 +6571,7 @@
       "display": "Ryan Kalkbrenner",
       "accept": [
        "Kalkbrenner",
+       "Ryan",
        "Ryan Kalkbrenner"
       ]
      },
@@ -6468,6 +6617,7 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Anthony",
        "Anthony Edwards",
        "Edwards"
       ]
@@ -6483,6 +6633,7 @@
      {
       "display": "Jamal Murray",
       "accept": [
+       "Jamal",
        "Jamal Murray",
        "Murray"
       ]
@@ -6655,6 +6806,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "Brandon",
        "Brandon Ingram",
        "Ingram"
       ]
@@ -6662,6 +6814,7 @@
      {
       "display": "Chris Paul",
       "accept": [
+       "Chris",
        "Chris Paul",
        "Paul"
       ]
@@ -6761,6 +6914,7 @@
       "display": "Nikola Jović",
       "accept": [
        "Jović",
+       "Nikola",
        "Nikola Jović"
       ]
      },
@@ -6784,6 +6938,7 @@
       "display": "Paul George",
       "accept": [
        "George",
+       "Paul",
        "Paul George"
       ]
      },
@@ -6807,6 +6962,7 @@
       "display": "RJ Barrett",
       "accept": [
        "Barrett",
+       "RJ",
        "RJ Barrett"
       ]
      },
@@ -6830,6 +6986,7 @@
       "display": "Tyrese Haliburton",
       "accept": [
        "Haliburton",
+       "Tyrese",
        "Tyrese Haliburton"
       ]
      },
@@ -6837,6 +6994,7 @@
       "display": "Zach LaVine",
       "accept": [
        "LaVine",
+       "Zach",
        "Zach LaVine"
       ]
      },
@@ -7020,6 +7178,7 @@
      {
       "display": "Chris Paul",
       "accept": [
+       "Chris",
        "Chris Paul",
        "Paul"
       ]
@@ -7068,6 +7227,7 @@
       "display": "James Harden",
       "accept": [
        "Harden",
+       "James",
        "James Harden"
       ]
      },
@@ -7123,6 +7283,7 @@
       "display": "Kevin Durant",
       "accept": [
        "Durant",
+       "Kevin",
        "Kevin Durant"
       ]
      },
@@ -7153,6 +7314,7 @@
      {
       "display": "Nikola Topić",
       "accept": [
+       "Nikola",
        "Nikola Topić",
        "Topić"
       ]
@@ -7177,6 +7339,7 @@
       "display": "Zach LaVine",
       "accept": [
        "LaVine",
+       "Zach",
        "Zach LaVine"
       ]
      },
@@ -7391,6 +7554,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "Brandon",
        "Brandon Ingram",
        "Ingram"
       ]
@@ -7406,6 +7570,7 @@
      {
       "display": "Donovan Mitchell",
       "accept": [
+       "Donovan",
        "Donovan Mitchell",
        "Mitchell"
       ]
@@ -7548,6 +7713,7 @@
  ],
  "entities": [
   "2057 Champs",
+  "AJ",
   "AJ Dybantsa",
   "AJ Griffin",
   "Aaron",
@@ -7567,8 +7733,10 @@
   "Al Horford",
   "Aleksej",
   "Aleksej Pokuševski",
+  "Alex",
   "Alex Karaban",
   "Alex Sarr",
+  "Alexander",
   "Alexander-Walker",
   "Allen",
   "Allen Graves",
@@ -7582,6 +7750,7 @@
   "Andre Jackson",
   "Andre Jackson Jr.",
   "Andres",
+  "Andrew",
   "Andrew Nembhard",
   "Andrew Wiggins",
   "Anfernee",
@@ -7617,6 +7786,7 @@
   "Barrett",
   "Bates",
   "Beal",
+  "Ben",
   "Ben Saraf",
   "Ben Simmons",
   "Bennedict",
@@ -7644,6 +7814,7 @@
   "Bones Hyland",
   "Booker",
   "Boozer",
+  "Boyles",
   "Bradley",
   "Bradley Beal",
   "Brandin",
@@ -7684,11 +7855,13 @@
   "Cade Cunningham",
   "Caleb",
   "Caleb Wilson",
+  "Cam",
   "Cam Christie",
   "Cam Reddish",
   "Cam Thomas",
   "Cam Whitmore",
   "Camara",
+  "Cameron",
   "Cameron Boozer",
   "Cameron Carr",
   "Cameron Johnson",
@@ -7713,6 +7886,7 @@
   "Chris Cenac",
   "Chris Cenac Jr.",
   "Chris Paul",
+  "Christian",
   "Christian Anderson",
   "Christian Braun",
   "Christian Wood",
@@ -7731,6 +7905,7 @@
   "Cole",
   "Cole Anthony",
   "Collier",
+  "Collin",
   "Collin Murray-Boyles",
   "Collin Sexton",
   "Collins",
@@ -7766,6 +7941,7 @@
   "Danny Wolf",
   "Dariq",
   "Dariq Whitehead",
+  "Darius",
   "Darius Acuff",
   "Darius Acuff Jr.",
   "Darius Garland",
@@ -7800,6 +7976,7 @@
   "Derrick White",
   "Desmond",
   "Desmond Bane",
+  "Devin",
   "Devin Booker",
   "Devin Carter",
   "Devin Vassell",
@@ -7812,6 +7989,7 @@
   "Doctor",
   "Domantas",
   "Domantas Sabonis",
+  "Donovan",
   "Donovan Clingan",
   "Donovan Mitchell",
   "Donte",
@@ -7882,6 +8060,7 @@
   "Giannis",
   "Giannis Antetokounmpo",
   "Giddey",
+  "Gilgeous",
   "Gilgeous-Alexander",
   "Gillespie",
   "Gobert",
@@ -7924,8 +8103,10 @@
   "Holland",
   "Holmes",
   "Holmgren",
+  "Hood",
   "Hood-Schifino",
   "Horford",
+  "Horton",
   "Horton-Tucker",
   "Howard",
   "Huerter",
@@ -7939,6 +8120,7 @@
   "Immanuel Quickley",
   "Ingram",
   "Irving",
+  "Isaiah",
   "Isaiah Collier",
   "Isaiah Evans",
   "Isaiah Hartenstein",
@@ -7958,6 +8140,7 @@
   "Jackson",
   "Jacob",
   "Jacobo",
+  "Jaden",
   "Jaden Hardy",
   "Jaden Ivey",
   "Jaden McDaniels",
@@ -7968,6 +8151,7 @@
   "Jakob",
   "Jakob Poeltl",
   "Jakučionis",
+  "Jalen",
   "Jalen Brunson",
   "Jalen Duren",
   "Jalen Green",
@@ -7976,6 +8160,7 @@
   "Jalen Smith",
   "Jalen Suggs",
   "Jalen Williams",
+  "Jamal",
   "Jamal Murray",
   "Jamal Shead",
   "James",
@@ -7998,6 +8183,7 @@
   "Jay Huff",
   "Jayden",
   "Jayden Quaintance",
+  "Jaylen",
   "Jaylen Brown",
   "Jaylen Wells",
   "Jaylon",
@@ -8033,15 +8219,18 @@
   "Jokić",
   "Jonas",
   "Jonas Valančiūnas",
+  "Jonathan",
   "Jonathan Kuminga",
   "Jonathan Mogbo",
   "Jones",
+  "Jordan",
   "Jordan Clarkson",
   "Jordan Hawkins",
   "Jordan Miller",
   "Jordan Poole",
   "Jordan Walsh",
   "Joseph",
+  "Josh",
   "Josh Giddey",
   "Josh Hart",
   "Joshua",
@@ -8080,6 +8269,7 @@
   "Kelly Oubre",
   "Kelly Oubre Jr.",
   "Kessler",
+  "Kevin",
   "Kevin Durant",
   "Kevin Huerter",
   "Kevin Porter",
@@ -8114,6 +8304,7 @@
   "Kristaps Porziņģis",
   "Kuminga",
   "Kuzma",
+  "Kyle",
   "Kyle Filipowski",
   "Kyle Kuzma",
   "Kyrie",
@@ -8159,6 +8350,7 @@
   "Maluach",
   "Mann",
   "Mara",
+  "Marcus",
   "Marcus Sasser",
   "Marcus Smart",
   "Mark",
@@ -8171,9 +8363,11 @@
   "Marvin Bagley III",
   "Mason",
   "Mason Plumlee",
+  "Matas",
   "Matas Buzelis",
   "Mathurin",
   "Matković",
+  "Max",
   "Max Christie",
   "Max Strus",
   "Maxey",
@@ -8240,6 +8434,7 @@
   "Nick Smith Jr.",
   "Nickeil",
   "Nickeil Alexander-Walker",
+  "Nikola",
   "Nikola Jokić",
   "Nikola Jović",
   "Nikola Topić",
@@ -8316,6 +8511,7 @@
   "Quenton Jackson",
   "Queta",
   "Quickley",
+  "RJ",
   "RJ Barrett",
   "RJ Hampton",
   "Rabbi",
@@ -8356,6 +8552,7 @@
   "Rui Hachimura",
   "Russell",
   "Russell Westbrook",
+  "Ryan",
   "Ryan Conwell",
   "Ryan Dunn",
   "Ryan Kalkbrenner",
@@ -8368,6 +8565,7 @@
   "Sarr",
   "Sasser",
   "Saunders",
+  "Schifino",
   "Schröder",
   "Scoot",
   "Scoot Henderson",
@@ -8450,6 +8648,7 @@
   "Trae",
   "Trae Young",
   "Traore",
+  "Tre",
   "Tre Johnson",
   "Tre Jones",
   "Tre Mann",
@@ -8457,11 +8656,15 @@
   "Trey",
   "Trey Murphy",
   "Trey Murphy III",
+  "Tristan",
   "Tristan Vukcevic",
   "Tristan da Silva",
+  "Tucker",
   "Turner",
+  "Tyler",
   "Tyler Herro",
   "Tyler Smith",
+  "Tyrese",
   "Tyrese Haliburton",
   "Tyrese Maxey",
   "Tyrese Proctor",
@@ -8521,6 +8724,7 @@
   "Yves Missi",
   "Zaccharie",
   "Zaccharie Risacher",
+  "Zach",
   "Zach Collins",
   "Zach Edey",
   "Zach LaVine",

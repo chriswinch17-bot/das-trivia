@@ -51,9 +51,11 @@ def main():
             parts.pop()
         accept = {name, " ".join(parts)}
         if len(parts) > 1:
-            accept.add(parts[-1])                       # last name
-            if first_names[parts[0].lower()] == 1:      # first name, only when no one else shares it
-                accept.add(parts[0])
+            accept.add(parts[-1])                       # last name alone counts
+            accept.add(parts[0])                        # so does first name alone (owner wants lenient matching)
+            for piece in parts[-1].split("-"):          # and either half of a double-barrelled last name
+                if len(piece) >= 4:
+                    accept.add(piece)
         return {"display": name, "accept": sorted(accept)}
 
     groups = defaultdict(list)

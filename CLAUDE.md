@@ -53,6 +53,8 @@ The owner has essentially no coding or web development experience.
 
 - One game per day, about 7 questions, the same for every player.
 - 25-second timer per question.
+- The owner wants matching to be generous: a player's first name alone or last name alone counts,
+  and near-misses of either count too. When in doubt, accept.
 - Typed text answers, not multiple choice. Matching is forgiving: ignore case, punctuation and
   accents; accept listed aliases and nicknames; tolerate small typos.
 - Many questions have several valid answers (e.g. "Name a manager who has won a title").

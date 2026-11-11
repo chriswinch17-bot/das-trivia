@@ -25,7 +25,7 @@
   }
 
   function editDistance(a, b) {
-    if (Math.abs(a.length - b.length) > 2) return 3;
+    if (Math.abs(a.length - b.length) > 3) return 4;
     let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
     for (let i = 1; i <= a.length; i++) {
       const row = [i];
@@ -46,7 +46,14 @@
     }
     // Numbers must be exact. A near-miss that is exactly some other known name is not a typo.
     if (question.kind === "number" || known.has(input)) return null;
-    const allowed = input.length >= 8 ? 2 : input.length >= 4 ? 1 : 0;
+    // a decent-sized chunk of the answer counts: "edey and matas" for "The Edey and Matas Show"
+    if (input.length >= 5) {
+      for (const answer of question.answers) {
+        if (answer.accept.some((a) => normalize(a).includes(input))) return answer;
+      }
+    }
+    // how many wrong, missing or extra letters are forgiven, by length of what was typed
+    const allowed = input.length >= 11 ? 3 : input.length >= 7 ? 2 : input.length >= 4 ? 1 : 0;
     if (!allowed) return null;
     let best = null, bestDistance = allowed + 1;
     for (const answer of question.answers) {
