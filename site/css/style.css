@@ -84,25 +84,19 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .fine { color: var(--muted); font-size: 13px; margin: 14px 0 0; }
 
 /* start screen: the host in front of a game-show survey board */
-.stage { display: grid; grid-template-columns: 36% 1fr; align-items: end; margin: 6px 0 20px; }
-.stage-host { position: relative; z-index: 2; margin: 0 -16px 0 0; }
-.stage-host img {
-  display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: 13% 0;
-  border-radius: 14px;
-  -webkit-mask-image: linear-gradient(to right, #000 62%, transparent 98%), linear-gradient(to bottom, #000 78%, transparent 100%);
-  -webkit-mask-composite: source-in;
-  mask-image: linear-gradient(to right, #000 62%, transparent 98%), linear-gradient(to bottom, #000 78%, transparent 100%);
-  mask-composite: intersect;
+/* phones: the host picture on top and the board under it; wider screens: side by side (see the media query) */
+.stage { display: grid; grid-template-columns: 1fr; align-items: center; gap: 14px; margin: 6px 0 20px; }
+.stage-host { margin: 0; }
+.stage-host img {          /* the whole host picture, uncropped */
+  display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; border-radius: 12px;
+  border: 2px solid #ffc53d; box-shadow: 0 0 22px rgba(255, 197, 61, .25);
 }
-.stage-host figcaption {
-  position: absolute; left: 0; bottom: 0; display: flex; flex-direction: column; line-height: 1.05;
-  padding: 4px 9px 5px; border-radius: 0 10px 0 12px; background: rgba(10, 15, 36, .82);
-}
-.stage-host figcaption span { font-size: 9px; letter-spacing: 1.4px; text-transform: uppercase; color: var(--muted); }
-.stage-host figcaption b { font-family: var(--head); font-size: clamp(17px, 5vw, 26px); font-weight: 800; letter-spacing: .5px; }
+.stage-host figcaption { display: flex; flex-direction: column; align-items: center; gap: 2px; margin-top: 7px; line-height: 1; }
+.stage-host figcaption span { font-size: 9px; letter-spacing: 1.4px; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+.stage-host figcaption b { font-family: var(--head); font-size: clamp(16px, 4.6vw, 24px); font-weight: 800; letter-spacing: .5px; }
 
 .board {
-  position: relative; margin: 9px 9px 9px 0; padding: 8px 8px 9px 18px;
+  position: relative; margin: 9px; padding: 8px 8px 9px;
   background: linear-gradient(#0d2170, #081447); border: 3px solid #ffc53d; border-radius: 12px;
   box-shadow: 0 0 26px rgba(255, 197, 61, .3);
 }
@@ -117,7 +111,7 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 }
 .board-list {
   list-style: none; margin: 0; padding: 0; display: grid; gap: 5px;
-  grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3, auto); grid-auto-flow: column;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(3, auto); grid-auto-flow: column;
 }
 .board-list li {
   height: clamp(28px, 8.4vw, 44px); display: flex; align-items: center; justify-content: center;
@@ -129,7 +123,7 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
   background: #0a1a5c; border: 1px solid #7d9dff; font-weight: 800;
 }
 .board-list .revealed {
-  justify-content: flex-start; gap: 6px; padding: 0 6px; color: #0a1a5c;
+  justify-content: flex-start; gap: 6px; padding: 0 6px; color: #0a1a5c; overflow: hidden;
   background: linear-gradient(#ffffff, #cfd9f5); border-color: #fff;
   animation: flip .7s .6s both; transform-origin: center;
 }
@@ -271,6 +265,7 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .recap li.correct .rp { color: var(--green); }
 
 @media (min-width: 560px) {
+  .stage { grid-template-columns: 42% 1fr; gap: 18px; }
   main { padding-top: 24px; }
   .card { padding: 30px 30px 32px; }
   h1 { font-size: 54px; }
