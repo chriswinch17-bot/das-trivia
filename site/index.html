@@ -5,10 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0f1420">
   <title>Das Trivia</title>
+  <meta name="description" content="The daily Das League trivia game, hosted by EquipoGPT. 7 questions, 25 seconds each.">
+
+  <!-- The picture and text shown when the link is pasted into a group chat.
+       SITE_ADDRESS is replaced with the real web address when the site is published. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Das Trivia">
+  <meta property="og:title" content="Das Trivia, by EquipoGPT">
+  <meta property="og:description" content="Today's game is live. 7 questions from Das League history, 25 seconds each.">
+  <meta property="og:url" content="SITE_ADDRESS/">
+  <meta property="og:image" content="SITE_ADDRESS/images/host.webp">
+  <meta property="og:image:width" content="1254">
+  <meta property="og:image:height" content="1254">
+  <meta property="og:image:alt" content="EquipoGPT, the robot host of Das Trivia">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/host.webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=13">
+  <link rel="stylesheet" href="css/style.css?v=14">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -29,6 +44,10 @@
     <section class="screen card" id="screen-start" hidden>
       <p class="eyebrow" id="start-date"></p>
       <h1>Today's game</h1>
+      <div class="host">
+        <img src="images/host.webp" alt="EquipoGPT, the robot host of Das Trivia" width="96" height="96">
+        <p><span>Your host</span><b>EquipoGPT</b></p>
+      </div>
       <ul class="rules">
         <li><b>7 questions</b> from Das League history</li>
         <li><b>25 seconds</b> each. Type your answer</li>
@@ -87,7 +106,7 @@
     </section>
   </main>
 
-  <script src="js/effects.js?v=13"></script>
-  <script src="js/game.js?v=13"></script>
+  <script src="js/effects.js?v=14"></script>
+  <script src="js/game.js?v=14"></script>
 </body>
 </html>
