@@ -18,6 +18,12 @@ window.EFFECTS = {
     image: null,
     sound: null,
   },
+  // number questions only: the answer was close, so it earns partial points (orange)
+  close: {
+    messages: ["Off the glass!", "Rattled in!", "So close!"],
+    image: null,
+    sound: null,
+  },
   wrong: {
     messages: ["Brick!", "Airball!", "Rejected!", "Off the rim!"],
     image: null,

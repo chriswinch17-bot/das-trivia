@@ -57,6 +57,8 @@ The owner has essentially no coding or web development experience.
   and near-misses of either count too. When in doubt, accept.
 - Typed text answers, not multiple choice. Matching is forgiving: ignore case, punctuation and
   accents; accept listed aliases and nicknames; tolerate small typos.
+- Number questions only: a guess within 2 of the answer (or 10% for big numbers) is "close":
+  shown in orange, worth half points, and an orange box in the share text.
 - Many questions have several valid answers (e.g. "Name a manager who has won a title").
 - Rarity scoring: the fewer players who gave a correct answer that day, the more it scores.
   Until the database exists, the prototype uses a temporary stand-in score, clearly marked as such.

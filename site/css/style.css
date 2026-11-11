@@ -8,6 +8,7 @@
   --orange-deep: #e25f00;
   --green: #2fbf71;
   --red: #ef4b4b;
+  --close: #ffa51f;
   --gray: #6b7690;
   --head: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
   --body: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -109,6 +110,7 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .progress { display: flex; gap: 6px; margin-bottom: 16px; }
 .progress span { flex: 1; height: 6px; border-radius: 3px; background: var(--card-edge); }
 .progress .correct { background: var(--green); }
+.progress .close { background: var(--close); }
 .progress .wrong { background: var(--red); }
 .progress .timeout { background: var(--gray); }
 .progress .current { background: var(--orange); }
@@ -162,6 +164,8 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .result-correct .verdict { color: var(--green); }
 .result-wrong .verdict { color: var(--red); }
 .result-timeout .verdict { color: var(--muted); }
+.result-close .verdict { color: var(--close); }
+.card.result-close { animation: pop .35s; border-color: var(--close); }
 .card.result-correct { animation: pop .35s; border-color: var(--green); }
 .card.result-wrong { animation: shake .35s; border-color: var(--red); }
 .card.result-timeout { animation: shake .35s; border-color: var(--gray); }
@@ -175,6 +179,7 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .grid { display: flex; justify-content: center; gap: 6px; margin-bottom: 22px; }
 .grid span { width: 34px; height: 34px; border-radius: 8px; }
 .grid .correct { background: var(--green); }
+.grid .close { background: var(--close); }
 .grid .wrong { background: var(--red); }
 .grid .timeout { background: var(--gray); }
 .recap { list-style: none; margin: 0; padding: 0; text-align: left; counter-reset: q; }
@@ -183,6 +188,8 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
   border-left: 4px solid var(--gray); padding-left: 12px; margin-bottom: 2px;
 }
 .recap li.correct { border-left-color: var(--green); }
+.recap li.close { border-left-color: var(--close); }
+.recap li.close .rp { color: var(--close); }
 .recap li.wrong { border-left-color: var(--red); }
 .recap .rq { font-weight: 600; }
 .recap .ra { color: var(--muted); font-size: 14px; margin-top: 3px; overflow-wrap: anywhere; }

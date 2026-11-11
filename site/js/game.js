@@ -6,6 +6,8 @@
   const SECONDS = 25;
   const BASE_POINTS = 100;        // prototype scoring; replaced by rarity scoring later
   const SPEED_BONUS_PER_SECOND = 2;
+  const CLOSE_NUMBER_RANGE = 2;   // number questions: this near the answer counts as "close"
+  const CLOSE_SHARE = 0.5;        // a close answer earns this share of the points
   const TIME_ZONE = "America/New_York";
   const MAX_CHIPS = 14;
 
@@ -38,6 +40,18 @@
   }
 
   // Returns the matching answer, or null.
+  // Number questions only: a near-miss earns partial credit (shown in orange).
+  // "Close" means within 2 of the answer, or within 10% for big numbers.
+  function isCloseNumber(question, typed) {
+    if (question.kind !== "number") return false;
+    const guess = Number(String(typed).replace(/[^0-9.\-]/g, ""));
+    if (!String(typed).match(/[0-9]/) || Number.isNaN(guess)) return false;
+    return question.answers.some((a) => {
+      const real = Number(a.display);
+      return !Number.isNaN(real) && Math.abs(guess - real) <= Math.max(CLOSE_NUMBER_RANGE, Math.abs(real) * 0.1);
+    });
+  }
+
   function findAnswer(question, typed) {
     const input = normalize(typed);
     if (!input) return null;
@@ -122,7 +136,7 @@
 
     show("question");
     const card = $("screen-question");
-    card.classList.remove("result-correct", "result-wrong", "result-timeout");
+    card.classList.remove("result-correct", "result-close", "result-wrong", "result-timeout");
     $("feedback").hidden = true;
     $("answer-form").hidden = false;
     $("q-count").textContent = `Question ${index + 1} of ${questions.length}`;
@@ -155,7 +169,8 @@
     const index = state.answers.length;
     const question = questions[index];
     const secondsLeft = Math.max(0, SECONDS - (Date.now() - state.startedAt) / 1000);
-    const points = result === "correct" ? BASE_POINTS + Math.round(secondsLeft * SPEED_BONUS_PER_SECOND) : 0;
+    const full = BASE_POINTS + Math.round(secondsLeft * SPEED_BONUS_PER_SECOND);
+    const points = result === "correct" ? full : result === "close" ? Math.round(full * CLOSE_SHARE) : 0;
 
     // the question is saved with the answer, so the recap stays right even if the question list changes later
     state.answers.push({
@@ -169,7 +184,7 @@
 
     // reaction (customise in js/effects.js)
     const fx = (window.EFFECTS || {})[result] || {};
-    const fallback = { correct: "Correct!", wrong: "Wrong!", timeout: "Out of time!" }[result];
+    const fallback = { correct: "Correct!", close: "So close!", wrong: "Wrong!", timeout: "Out of time!" }[result];
     $("verdict").textContent = pick(fx.messages) || fallback;
     // a picture of the manager the question is about beats the general picture
     const gallery = (window.EFFECTS || {}).managers || {};
@@ -195,7 +210,8 @@
     document.querySelector(".timer").classList.add("stopped");
     drawProgress(-1);
 
-    $("points").textContent = result === "correct" ? `+${points} points` : "No points";
+    $("points").textContent = result === "correct" ? `+${points} points`
+      : result === "close" ? `+${points} points for being close` : "No points";
     const said = $("you-said");
     said.replaceChildren();
     if (result === "timeout") said.textContent = "You didn't answer in time.";
@@ -232,7 +248,7 @@
     const score = state.answers.reduce((sum, a) => sum + a.points, 0);
     const lines = [
       `🏀 ${game.title} #${gameNumber}`,
-      state.answers.map((a) => (a.result === "correct" ? "🟩" : "🟥")).join(""),
+      state.answers.map((a) => (a.result === "correct" ? "🟩" : a.result === "close" ? "🟧" : "🟥")).join(""),
       `Score: ${score}`,
     ];
     if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) lines.push(location.origin + location.pathname);
@@ -261,6 +277,7 @@
       const q = document.createElement("div"); q.className = "rq"; q.textContent = a.question || questions[i].text;
       const r = document.createElement("div"); r.className = "ra";
       r.textContent = a.result === "correct" ? `✓ ${a.matched}`
+        : a.result === "close" ? `≈ Close! You said "${a.typed}"`
         : a.result === "wrong" ? `✗ You said "${a.typed}"` : "Ran out of time";
       if (a.result !== "correct" && a.answer) r.textContent += ` · Answer: ${a.answer}`;
       item.append(pts, q, r);
@@ -316,7 +333,8 @@
         return input.focus();
       }
       const answer = findAnswer(questions[state.answers.length], typed);
-      finish(answer ? "correct" : "wrong", typed, answer);
+      const question = questions[state.answers.length];
+      finish(answer ? "correct" : isCloseNumber(question, typed) ? "close" : "wrong", typed, answer);
     });
 
     if (state.answers.length >= questions.length) showResults();
