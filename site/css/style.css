@@ -185,12 +185,13 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .steps .done { background: var(--green); }
 .steps .now { background: var(--orange); animation: pulse .5s 3 alternate; transform-origin: bottom; }
 .scene svg { display: block; overflow: hidden; width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--card-edge); }
-.scene .baller, .scene .ball-x, .scene .ball-y, .scene .shake { transform-origin: 0 0; }
-.scene .arm { transform-origin: 2px -42px; }
-.scene .leg { transform-origin: 0 -22px; }
+.scene .baller, .scene .defender, .scene .ball-x, .scene .ball-y, .scene .shake { transform-origin: 0 0; }
+.scene .arm { transform-origin: 2px -45px; }
+.scene .leg { transform-origin: 0 -24px; }
+.scene .cs-num { font: 800 9px var(--head); }
 .scene .net { transform-origin: 309px 84px; }
 .scene .hoop { transform-origin: 324px 84px; }
-.scene .boom { font: 800 40px var(--head); fill: #ffd23f; stroke: #7a2d00; stroke-width: 1.5px; paint-order: stroke; transform-origin: 150px 60px; }
+.scene .boom { font: 800 40px var(--head); fill: #ffd23f; stroke: #7a2d00; stroke-width: 1.5px; paint-order: stroke; transform-origin: 150px 52px; }
 .scene .cs-mark { font: 700 9px var(--body); fill: #fff; opacity: .75; }
 .btn.ghost { margin-top: 14px; background: transparent; color: var(--muted); border: 1px solid var(--card-edge); font-size: 16px; min-height: 40px; padding: 6px 20px; }
 

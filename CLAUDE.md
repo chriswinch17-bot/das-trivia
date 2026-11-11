@@ -89,7 +89,9 @@ The owner has essentially no coding or web development experience.
   browsers keep showing the old version.
 - `site/js/cutscene.js` is the cutscene shown after each correct answer (never after a wrong, close or
   timed-out one): the player moves up one of 7 steps and a robot baller does that step's move
-  (grab ball, dribble, layup, floater, free throw, three-pointer, slam dunk). Preview with
+  (grab ball, crossover that drops the defender, layup, floater, free throw, three-pointer, poster dunk).
+  The player is a person with the EquipoGPT host's face (cropped from `images/host.webp` via the
+  `FACE` settings); every scene has a red-jersey defender. Drawn in code (SVG), no extra image files. Preview with
   `?test&scene=3` or `?test&scene=all`.
 - Testing: open the site with `?test` on the address to replay without saving; `?test&day=3` plays Game #3.
 - Local preview: `python -m http.server 8123 --bind 127.0.0.1 --directory site`, then http://localhost:8123.
