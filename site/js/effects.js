@@ -61,5 +61,8 @@ window.EFFECTS = {
     joey: [
       "images/managers/joey/1.webp",
     ],
+    chalela: [
+      "images/managers/chalela/1.webp",
+    ],
   },
 };
