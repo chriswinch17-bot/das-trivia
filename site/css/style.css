@@ -50,7 +50,13 @@ body {
   font-family: var(--head); font-size: 26px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase;
 }
 .brand b { color: var(--orange); font-weight: 800; }
-.ball { width: 30px; height: 30px; flex: none; }
+.brand-text { display: flex; flex-direction: column; line-height: 1; }
+.brand-name { font-size: 30px; }
+.brand-by {
+  margin-top: 3px; font-family: var(--body); font-size: 11px; font-weight: 500;
+  letter-spacing: .6px; text-transform: none; color: var(--muted);
+}
+.ball { width: 36px; height: 36px; flex: none; }
 .ball circle { fill: var(--orange); }
 .ball path { fill: none; stroke: #2a1608; stroke-width: 2; }
 .game-tag {

@@ -1,4 +1,7 @@
-# League Trivia
+# Das Trivia
+
+The site is named **Das Trivia**, with the tagline "Brought to you by EquipoGPT" under the name
+(owner's choice). "Das League" is the league's own name and stays in question wording.
 
 A daily trivia website for a dynasty fantasy basketball league, inspired by Krillion.
 League members answer questions drawn only from the league's own history.
@@ -56,7 +59,8 @@ The owner has essentially no coding or web development experience.
 
 - `python scripts/build_questions.py` writes `site/data/game.json`: question templates whose answers
   are looked up in `site/data/`, arranged into daily games of 7. Add new question types there.
-  Adding questions reshuffles which questions fall on which future day.
+  Days already in `game.json` keep their questions and order on every rebuild; new questions only
+  fill gaps or add days at the end. Delete `game.json` first only if a full reshuffle is wanted.
 - `site/js/game.js` is the game: timer, answer matching, saving progress in the browser, results, share text.
   One guess per question. Game #1 is `START_DATE` in `build_questions.py`; days roll over at midnight Eastern.
 - `site/js/effects.js` is the owner's customization file: messages, images (`site/images/`) and sounds

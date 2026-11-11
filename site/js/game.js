@@ -1,4 +1,4 @@
-/* Das League Trivia: game logic.
+/* Das Trivia: game logic.
    Add ?test to the address to replay freely (nothing is saved); ?test&day=3 plays Game #3. */
 (() => {
   "use strict";
@@ -150,7 +150,13 @@
     const secondsLeft = Math.max(0, SECONDS - (Date.now() - state.startedAt) / 1000);
     const points = result === "correct" ? BASE_POINTS + Math.round(secondsLeft * SPEED_BONUS_PER_SECOND) : 0;
 
-    state.answers.push({ result, typed, matched: answer ? answer.display : null, points });
+    // the question is saved with the answer, so the recap stays right even if the question list changes later
+    state.answers.push({
+      result, typed, points,
+      matched: answer ? answer.display : null,
+      question: question.text,
+      answer: question.answers.length === 1 ? question.answers[0].display : null,
+    });
     state.startedAt = null;
     saveState();
 
@@ -245,13 +251,11 @@
       const item = document.createElement("li");
       item.className = a.result;
       const pts = document.createElement("span"); pts.className = "rp"; pts.textContent = a.points ? `+${a.points}` : "0";
-      const q = document.createElement("div"); q.className = "rq"; q.textContent = questions[i].text;
+      const q = document.createElement("div"); q.className = "rq"; q.textContent = a.question || questions[i].text;
       const r = document.createElement("div"); r.className = "ra";
       r.textContent = a.result === "correct" ? `✓ ${a.matched}`
         : a.result === "wrong" ? `✗ You said "${a.typed}"` : "Ran out of time";
-      if (a.result !== "correct" && questions[i].answers.length === 1) {
-        r.textContent += ` · Answer: ${questions[i].answers[0].display}`;
-      }
+      if (a.result !== "correct" && a.answer) r.textContent += ` · Answer: ${a.answer}`;
       item.append(pts, q, r);
       recap.append(item);
     });

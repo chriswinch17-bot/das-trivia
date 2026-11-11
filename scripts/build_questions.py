@@ -293,7 +293,23 @@ def main():
         for name in ("titles", "drafts", "fun", "standings", "trades", "startup"):
             if groups[name]:
                 order.append(groups[name].pop())
-    days = [order[i:i + QUESTIONS_PER_DAY] for i in range(0, len(order) - QUESTIONS_PER_DAY + 1, QUESTIONS_PER_DAY)]
+
+    # Games already scheduled keep their questions and order, so a day's game never changes after
+    # people may have played it. New questions only fill gaps and add new days at the end.
+    game_file = DATA / "game.json"
+    scheduled = [[q["id"] for q in day] for day in json.loads(game_file.read_text(encoding="utf-8"))["days"]] if game_file.exists() else []
+    by_id = {q["id"]: q for q in order}
+    kept = {qid for day in scheduled for qid in day if qid in by_id}
+    spare = [q for q in order if q["id"] not in kept]
+    days = []
+    for ids in scheduled:
+        day = [by_id[qid] for qid in ids if qid in by_id]
+        while len(day) < QUESTIONS_PER_DAY and spare:      # a question was reworded or removed
+            day.append(spare.pop(0))
+        if len(day) == QUESTIONS_PER_DAY:
+            days.append(day)
+    while len(spare) >= QUESTIONS_PER_DAY:
+        days.append([spare.pop(0) for _ in range(QUESTIONS_PER_DAY)])
 
     # every name the game knows, so a near-miss that is really a different person isn't accepted as a typo
     entities = set()
@@ -303,13 +319,13 @@ def main():
         entities.update(player_answer(p["name"])["accept"])
 
     (DATA / "game.json").write_text(json.dumps({
-        "title": "Das League Trivia",
+        "title": "Das Trivia",
         "start_date": START_DATE,
         "days": days,
         "entities": sorted(entities),
     }, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"Wrote {len(order)} questions; {len(days)} daily games of {QUESTIONS_PER_DAY} "
-          f"({len(order) - len(days) * QUESTIONS_PER_DAY} left over for later).")
+          f"({len(spare)} left over for later).")
 
 
 if __name__ == "__main__":
