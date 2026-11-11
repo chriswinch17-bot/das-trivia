@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f1420">
+  <title>Das League Trivia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="court" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <svg class="ball" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="18"/>
+        <path d="M2 20h36M20 2v36M7 7c7 6 7 20 0 26M33 7c-7 6-7 20 0 26"/>
+      </svg>
+      <span>Das League <b>Trivia</b></span>
+    </div>
+    <div class="game-tag" id="game-tag"></div>
+  </header>
+
+  <main>
+    <!-- Start screen -->
+    <section class="screen card" id="screen-start" hidden>
+      <p class="eyebrow" id="start-date"></p>
+      <h1>Today's game</h1>
+      <ul class="rules">
+        <li><b>7 questions</b> from Das League history</li>
+        <li><b>25 seconds</b> each. Type your answer</li>
+        <li><b>One guess</b> per question. Small typos are fine</li>
+        <li>Some questions have several right answers. Any one counts</li>
+      </ul>
+      <button class="btn primary" id="btn-play">Tip off</button>
+      <p class="fine">Prototype scoring: 100 points for a correct answer plus a speed bonus.
+        Rarity scoring arrives with the leaderboard.</p>
+    </section>
+
+    <!-- Question screen -->
+    <section class="screen card" id="screen-question" hidden>
+      <div class="progress" id="progress"></div>
+      <div class="timer">
+        <div class="timer-track"><div class="timer-fill" id="timer-fill"></div></div>
+        <div class="timer-num" id="timer-num">25</div>
+      </div>
+      <p class="eyebrow" id="q-count"></p>
+      <h2 class="question" id="q-text"></h2>
+
+      <form id="answer-form" autocomplete="off">
+        <input id="answer" type="text" inputmode="text" enterkeyhint="go" placeholder="Type your answer"
+               autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="60">
+        <button class="btn primary" type="submit">Shoot</button>
+      </form>
+
+      <div class="feedback" id="feedback" hidden>
+        <img class="fx-image" id="fx-image" alt="" hidden>
+        <div class="verdict" id="verdict"></div>
+        <div class="points" id="points"></div>
+        <p class="you-said" id="you-said"></p>
+        <p class="answers-label" id="answers-label"></p>
+        <div class="chips" id="answers"></div>
+        <p class="note" id="note"></p>
+        <button class="btn primary" id="btn-next">Next question</button>
+      </div>
+    </section>
+
+    <!-- Results screen -->
+    <section class="screen card" id="screen-results" hidden>
+      <p class="eyebrow">Final score</p>
+      <div class="score" id="final-score">0</div>
+      <p class="score-sub" id="final-sub"></p>
+      <div class="grid" id="final-grid"></div>
+      <button class="btn primary" id="btn-share">Share result</button>
+      <p class="fine" id="share-status">Copies a spoiler-free summary you can paste into the group chat.</p>
+      <h3>Your answers</h3>
+      <ol class="recap" id="recap"></ol>
+      <p class="fine">A new game starts every day at midnight Eastern.</p>
+    </section>
+
+    <section class="screen card" id="screen-error" hidden>
+      <h2>Couldn't load the game</h2>
+      <p id="error-text"></p>
+    </section>
+  </main>
+
+  <script src="js/effects.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>

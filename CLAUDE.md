@@ -1,0 +1,114 @@
+# League Trivia
+
+A daily trivia website for a dynasty fantasy basketball league, inspired by Krillion.
+League members answer questions drawn only from the league's own history.
+
+## The owner
+
+The owner has essentially no coding or web development experience.
+
+- Explain every step in plain language; define any technical term the first time it appears.
+- Do the programming, file creation, testing and troubleshooting yourself wherever possible.
+- When the owner must do something by hand (create an account, click a button), give numbered steps.
+- Ask for approval before installing software, touching anything outside this folder, or deploying.
+
+## Hard rules
+
+1. **Never fabricate league data.** Every question and every accepted answer must trace back to a
+   file in `data/raw/` supplied by the owner. If the data doesn't answer something, ask.
+2. **Free to run.** No paid services, no purchased domain.
+3. **Works on phones and desktops.** Design mobile-first; test at phone width before calling anything done.
+4. **Simple over clever.** A working, polished site beats technical sophistication.
+5. **Built to grow.** New seasons, question types and game modes must be addable without rewrites.
+
+## The league and its data
+
+- "Das League" on Sleeper, 12 teams, dynasty since the 2023-2024 season. It existed earlier as a
+  non-dynasty league; the owner has decided that pre-2023 history is **not** included.
+- Seasons are written "2023-2024" (Sleeper calls that season "2023").
+- **Naming rule:** whenever a team is shown, write the team name followed by the manager's real
+  name in parentheses, e.g. "Equipo Winchenzo (Winch)". Use the team name from the season in question.
+- Real names live in `data/managers.json` (owner-supplied; edit by hand to add nicknames to `aliases`).
+- Data pipeline, both safe to re-run at any time:
+  1. `python scripts/fetch_sleeper.py 1344343390740819968` refreshes `data/raw/sleeper/` (league ID is the current season's).
+  2. `python scripts/build_data.py` rebuilds `site/data/` (managers, seasons, matchups, drafts, trades, players)
+     and stops with "DATA PROBLEM" if the raw data contradicts itself.
+- Matchup winners come from Sleeper's official weekly results. Two games are flagged
+  `result_differs_from_score` (official winner had fewer points, apparently stat corrections after
+  the week closed). Don't write score-based questions about flagged games without asking the owner.
+- Playoff rounds lasted two weeks each in 2023-2024 and 2024-2025, and one week each from 2025-2026.
+- Not yet in `site/data/`: waiver/free-agent moves, per-player weekly points, consolation bracket.
+  The raw files have them.
+
+## Game design
+
+- One game per day, about 7 questions, the same for every player.
+- 25-second timer per question.
+- Typed text answers, not multiple choice. Matching is forgiving: ignore case, punctuation and
+  accents; accept listed aliases and nicknames; tolerate small typos.
+- Many questions have several valid answers (e.g. "Name a manager who has won a title").
+- Rarity scoring: the fewer players who gave a correct answer that day, the more it scores.
+  Until the database exists, the prototype uses a temporary stand-in score, clearly marked as such.
+- End screen with final score and a copyable, spoiler-free share text.
+- Leaderboard comparing league members (how players identify themselves: not yet decided).
+
+## How the prototype works
+
+- `python scripts/build_questions.py` writes `site/data/game.json`: question templates whose answers
+  are looked up in `site/data/`, arranged into daily games of 7. Add new question types there.
+  Adding questions reshuffles which questions fall on which future day.
+- `site/js/game.js` is the game: timer, answer matching, saving progress in the browser, results, share text.
+  One guess per question. Game #1 is `START_DATE` in `build_questions.py`; days roll over at midnight Eastern.
+- `site/js/effects.js` is the owner's customization file: messages, images (`site/images/`) and sounds
+  for correct / wrong / out-of-time. The owner wants to add images and reactions here; keep it simple to edit.
+- Manager pictures: `EFFECTS.managers` in `effects.js` maps a manager id to images in
+  `site/images/managers/<id>/`. One shows whenever a question, its note or its answer involves that
+  manager. Victor has four; the owner will send more for other managers. They are joke images among
+  friends, and they become publicly reachable once the site is published.
+- The owner wants funny, random questions mixed in "every once in a while". These are the `fun` group
+  in `build_questions.py` (old team names, blowouts, lowest scores, streaks, etc.), still computed
+  from data, roughly one per daily game.
+- Testing: open the site with `?test` on the address to replay without saving; `?test&day=3` plays Game #3.
+- Local preview: `python -m http.server 8123 --bind 127.0.0.1 --directory site`, then http://localhost:8123.
+- Scoring is a stand-in (100 + 2 per second left) until rarity scoring arrives in Phase 4.
+
+## Technical decisions
+
+| Area | Decision | Why |
+|---|---|---|
+| Site | Plain HTML, CSS, JavaScript; no framework, no build step | Nothing to install; easy to host and maintain |
+| Data | JSON files generated from the owner's spreadsheets | Human-checkable, versioned with the site |
+| Scripts | Python 3.10 (already installed), standard library only | Convert and validate data; no extra installs |
+| Local preview | `python -m http.server` from `site/` | Already available |
+| Hosting | GitHub Pages (owner has no GitHub account yet) | Free, no domain needed |
+| Leaderboard + rarity | Supabase free tier, added in Phase 4 | Free shared database; not needed for the prototype |
+
+The computer has Git and Python but not Node.js. Do not introduce anything that requires Node
+without asking first.
+
+Known trade-off: with a static site, the answers ship to the browser, so a determined player could
+look them up. Acceptable for a friends' league; revisit if it becomes a problem.
+
+## Folder layout
+
+```
+site/            The website itself (this is what gets published)
+  index.html
+  css/  js/
+  data/          Generated JSON the site reads; do not edit by hand
+data/
+  raw/           The owner's original files, kept untouched
+  questions/     Question definitions
+scripts/         Python scripts: convert raw data, validate questions
+docs/            ROADMAP.md, DATA_GUIDE.md
+```
+
+## Working guidelines
+
+- This project must stay out of the Documents folder: on this computer it syncs to a work OneDrive.
+- Keep original data files in `data/raw/` unmodified; all cleaning happens in scripts.
+- Every question records which data file(s) its answers came from.
+- Run the validation script after any data or question change.
+- Test in a browser at phone and desktop widths before reporting a feature as finished.
+- Commit to Git in small, described steps; only when the owner agrees.
+- Keep `docs/ROADMAP.md` current as phases finish.

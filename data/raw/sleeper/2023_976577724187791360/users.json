@@ -1,0 +1,212 @@
+[
+ {
+  "avatar": "b117583198c0a008e0c9f9aed74010c3",
+  "display_name": "msway21",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "on",
+   "avatar": "https://sleepercdn.com/uploads/54ce17c311e5356a5f7d82bbdf0842ef.jpg",
+   "league_report_pn": "on",
+   "mention_pn": "off",
+   "player_like_pn": "on",
+   "player_nickname_update": "on",
+   "team_name": "2057 Champs",
+   "team_name_update": "on",
+   "trade_block_pn": "on",
+   "transaction_commissioner": "on",
+   "transaction_free_agent": "on",
+   "transaction_trade": "on",
+   "transaction_waiver": "on",
+   "user_message_pn": "on"
+  },
+  "settings": null,
+  "user_id": "723039017997791232"
+ },
+ {
+  "avatar": "3e1b710f0f064c2f5b1cf64a14194595",
+  "display_name": "hughjasnuts",
+  "is_bot": false,
+  "is_owner": true,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "on",
+   "archived": "off",
+   "avatar": "https://sleepercdn.com/uploads/d267e4368002f646c619dcec82958c92.jpg",
+   "mention_pn": "on",
+   "team_name": "Fidel\u2019s Accumulators"
+  },
+  "settings": null,
+  "user_id": "732826491003457536"
+ },
+ {
+  "avatar": "b3338675f635c2c1f42b469621d38ec6",
+  "display_name": "miguelhern99",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "on",
+   "archived": "off",
+   "avatar": "https://sleepercdn.com/uploads/8aba3a26a3a3e9fec871d18c6f712ce5.jpg",
+   "mention_pn": "on",
+   "team_name": "Los Chig\u00fcires"
+  },
+  "settings": null,
+  "user_id": "862193547003187200"
+ },
+ {
+  "avatar": "968ef14d39ed1302a878519836425d98",
+  "display_name": "ElWinchenzo",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "on",
+   "allow_sms": "on",
+   "archived": "off",
+   "avatar": "https://sleepercdn.com/uploads/e5e262a643f82c76252eed5180dfa3e2.jpg",
+   "mention_pn": "on",
+   "team_name": "Equipo Winchenzo"
+  },
+  "settings": null,
+  "user_id": "944885363049463808"
+ },
+ {
+  "avatar": "4f4090e5e9c3941414db40a871e3e909",
+  "display_name": "victorprieto",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "on",
+   "allow_sms": "on",
+   "avatar": "https://sleepercdn.com/uploads/2adbbc437ff61a5fa6288e2b9ae5d859.jpg",
+   "mention_pn": "on",
+   "team_name": "I Love Dragi\u0107"
+  },
+  "settings": null,
+  "user_id": "976911337844420608"
+ },
+ {
+  "avatar": "f0edbf4278f53f9425db175073df6584",
+  "display_name": "Verdy11",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "on",
+   "allow_sms": "on",
+   "avatar": "https://sleepercdn.com/uploads/cc9a80250ca6227e33c8280d94b4274c.jpg",
+   "mention_pn": "on",
+   "team_name": "Saboners"
+  },
+  "settings": null,
+  "user_id": "979794682534297600"
+ },
+ {
+  "avatar": "3b9367caa479f593793d49134e7e3600",
+  "display_name": "DasMelo",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "on",
+   "allow_sms": "on",
+   "avatar": "https://sleepercdn.com/uploads/99881702e5676d2b5b962b8116a55c91.jpg",
+   "mention_pn": "on",
+   "team_name": "Kareem Abdul-Jabong"
+  },
+  "settings": null,
+  "user_id": "979796017430237184"
+ },
+ {
+  "avatar": "82aec8e811b839b8ec25d7b458afd57b",
+  "display_name": "Achalela",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "off",
+   "allow_pn_lock_in_reminder": "on",
+   "avatar": "https://sleepercdn.com/uploads/9e51bd27271a8bc6289a837feedb4def.jpg",
+   "league_report_pn": "on",
+   "mention_pn": "off",
+   "player_like_pn": "on",
+   "player_nickname_update": "off",
+   "team_name": "Equipito PapoChullo",
+   "team_name_update": "off",
+   "trade_block_pn": "on",
+   "transaction_commissioner": "on",
+   "transaction_free_agent": "off",
+   "transaction_trade": "on",
+   "transaction_waiver": "off",
+   "user_message_pn": "off"
+  },
+  "settings": null,
+  "user_id": "979807557940293632"
+ },
+ {
+  "avatar": "89bf208b7aabd6e327013243f6912e5c",
+  "display_name": "MoonUnit11",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "on",
+   "allow_sms": "on",
+   "avatar": "https://sleepercdn.com/uploads/ac3a03bb824e0160ffc51bec5b70b79b.jpg",
+   "mention_pn": "on",
+   "team_name": "MoonUnit"
+  },
+  "settings": null,
+  "user_id": "979825730563469312"
+ },
+ {
+  "avatar": "02195b99a3d5e2d8f197d2f02fa765a2",
+  "display_name": "RabbiBT69",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "on",
+   "avatar": "https://sleepercdn.com/uploads/bd3afa4f6951109c24747f42215df868.jpg",
+   "mention_pn": "on",
+   "team_name": "Rabbi BT69"
+  },
+  "settings": null,
+  "user_id": "980153965616685056"
+ },
+ {
+  "avatar": "4f4090e5e9c3941414db40a871e3e909",
+  "display_name": "hotrelish",
+  "is_bot": false,
+  "is_owner": false,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "on",
+   "allow_sms": "on",
+   "avatar": "https://sleepercdn.com/uploads/23798a82cb0978b5ca620ad3dffba6ee.jpg",
+   "mention_pn": "on",
+   "team_name": "hotrelish"
+  },
+  "settings": null,
+  "user_id": "1013619147659485184"
+ },
+ {
+  "avatar": "a717ba78ce82155ba6f1d3316ae26633",
+  "display_name": "papochullo7979",
+  "is_bot": false,
+  "is_owner": null,
+  "league_id": "976577724187791360",
+  "metadata": {
+   "allow_pn": "on",
+   "avatar": "https://sleepercdn.com/uploads/36aace01b21cd69110e91fc98facace6.jpg",
+   "mention_pn": "on",
+   "team_name": "Luka Deez Nuts"
+  },
+  "settings": null,
+  "user_id": "1082068668328017920"
+ }
+]

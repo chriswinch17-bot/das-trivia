@@ -1,0 +1,7570 @@
+[
+ {
+  "id": "1016043332222500864",
+  "season": "2023-2024",
+  "date": "2023-10-06",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 1,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2023,
+      "round": 12,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2023,
+      "round": 2,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2023,
+      "round": 4,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2023,
+      "round": 6,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2023,
+      "round": 8,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 1,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2023,
+      "round": 12,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2023,
+      "round": 2,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2023,
+      "round": 4,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2023,
+      "round": 6,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2023,
+      "round": 8,
+      "original_team": "joey"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1018407198701457408",
+  "season": "2023-2024",
+  "date": "2023-10-13",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 1,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2023,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 1,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2023,
+      "round": 4,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1019401420837826560",
+  "season": "2023-2024",
+  "date": "2023-10-15",
+  "managers": [
+   "libguel",
+   "verdeja"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 1,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2023,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "verdeja",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 1,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2023,
+      "round": 13,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2023,
+      "round": 2,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1019432934841323520",
+  "season": "2023-2024",
+  "date": "2023-10-15",
+  "managers": [
+   "joey",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 1,
+      "original_team": "jacobo"
+     },
+     {
+      "draft_year": 2023,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 1,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2023,
+      "round": 2,
+      "original_team": "joey"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1019484690241437696",
+  "season": "2023-2024",
+  "date": "2023-10-16",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 13,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 14,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2023,
+      "round": 15,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1019487664225525760",
+  "season": "2023-2024",
+  "date": "2023-10-16",
+  "managers": [
+   "joey",
+   "libguel"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 14,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2023,
+      "round": 16,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "libguel",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2023,
+      "round": 13,
+      "original_team": "joey"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1019841725315387392",
+  "season": "2023-2024",
+  "date": "2023-10-17",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Lonzo Ball"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "joey"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1020518157305372672",
+  "season": "2023-2024",
+  "date": "2023-10-18",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "joey"
+     }
+    ],
+    "receives_faab": 22
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Obi Toppin"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1021170746749501440",
+  "season": "2023-2024",
+  "date": "2023-10-20",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Andrew Wiggins",
+     "Khris Middleton"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Damian Lillard"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1030296206041288704",
+  "season": "2023-2024",
+  "date": "2023-11-14",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "RJ Barrett"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Ivica Zubac"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "joey"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1030641429615370240",
+  "season": "2023-2024",
+  "date": "2023-11-15",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1030690799056556032",
+  "season": "2023-2024",
+  "date": "2023-11-16",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1032478253686804480",
+  "season": "2023-2024",
+  "date": "2023-11-21",
+  "managers": [
+   "papo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1032487379108036608",
+  "season": "2023-2024",
+  "date": "2023-11-21",
+  "managers": [
+   "jacobo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1035362806624907264",
+  "season": "2023-2024",
+  "date": "2023-11-28",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Jordan Poole"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Jerami Grant"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1035417225915883520",
+  "season": "2023-2024",
+  "date": "2023-11-29",
+  "managers": [
+   "joey",
+   "winch"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "CJ McCollum"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Jarrett Allen"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1035784292657520640",
+  "season": "2023-2024",
+  "date": "2023-11-30",
+  "managers": [
+   "papo",
+   "ricky"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "DeMar DeRozan"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "ricky",
+    "receives_players": [
+     "Clint Capela"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1036359781029634048",
+  "season": "2023-2024",
+  "date": "2023-12-01",
+  "managers": [
+   "jacobo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Naz Reid"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1045943112079634432",
+  "season": "2023-2024",
+  "date": "2023-12-28",
+  "managers": [
+   "libguel",
+   "shueiro"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Anthony Black"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1046620983353819136",
+  "season": "2023-2024",
+  "date": "2023-12-30",
+  "managers": [
+   "joey",
+   "libguel"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Dennis Schröder",
+     "Lauri Markkanen"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "libguel",
+    "receives_players": [
+     "Evan Mobley"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1048435916823449600",
+  "season": "2023-2024",
+  "date": "2024-01-04",
+  "managers": [
+   "papo",
+   "verdeja"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Jakob Poeltl",
+     "Mikal Bridges",
+     "Zach LaVine"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "verdeja",
+    "receives_players": [
+     "Deandre Ayton",
+     "Jordan Poole",
+     "Paul George"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1049380992957521920",
+  "season": "2023-2024",
+  "date": "2024-01-06",
+  "managers": [
+   "joey",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Collin Sexton",
+     "Jerami Grant",
+     "LeBron James",
+     "Zion Williamson"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "jacobo"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "jacobo"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "jacobo"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Mitchell Robinson",
+     "Tyrese Haliburton"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1049407179607908352",
+  "season": "2023-2024",
+  "date": "2024-01-06",
+  "managers": [
+   "joey",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Karl-Anthony Towns"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Keldon Johnson",
+     "Lauri Markkanen"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1049935152358739968",
+  "season": "2023-2024",
+  "date": "2024-01-08",
+  "managers": [
+   "winch",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Jimmy Butler III"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Jarrett Allen"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1050264424461881344",
+  "season": "2023-2024",
+  "date": "2024-01-09",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "joey"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 100
+   }
+  ]
+ },
+ {
+  "id": "1052021754341785600",
+  "season": "2023-2024",
+  "date": "2024-01-13",
+  "managers": [
+   "joey",
+   "libguel"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Jrue Holiday",
+     "Klay Thompson"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "libguel",
+    "receives_players": [
+     "Cam Whitmore"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1053382980758077440",
+  "season": "2023-2024",
+  "date": "2024-01-17",
+  "managers": [
+   "libguel",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [
+     "Leonard Miller"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Mason Plumlee"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1055365096995684352",
+  "season": "2023-2024",
+  "date": "2024-01-23",
+  "managers": [
+   "winch",
+   "chalela"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Chris Paul"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "chalela",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1056345210130673664",
+  "season": "2023-2024",
+  "date": "2024-01-25",
+  "managers": [
+   "papo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Bogdan Bogdanović",
+     "Caris LeVert"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Jakob Poeltl"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1056671324745105408",
+  "season": "2023-2024",
+  "date": "2024-01-26",
+  "managers": [
+   "victor",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "victor",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "victor"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1058120019361570816",
+  "season": "2023-2024",
+  "date": "2024-01-30",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Mikal Bridges"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "victor"
+     },
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Bradley Beal",
+     "D'Angelo Russell",
+     "Jalen Green"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1058185689390616576",
+  "season": "2023-2024",
+  "date": "2024-01-30",
+  "managers": [
+   "shueiro",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Amen Thompson",
+     "Bam Adebayo",
+     "Brandon Miller",
+     "Giannis Antetokounmpo",
+     "Jalen Williams",
+     "Jonathan Kuminga",
+     "Lauri Markkanen",
+     "Miles Bridges",
+     "Onyeka Okongwu",
+     "Tari Eason"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Alperen Şengün"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1058187370442395648",
+  "season": "2023-2024",
+  "date": "2024-01-30",
+  "managers": [
+   "shueiro",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Alperen Şengün"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Amen Thompson",
+     "Bam Adebayo",
+     "Brandon Miller",
+     "Jalen Williams",
+     "Jonathan Kuminga",
+     "Lauri Markkanen",
+     "Miles Bridges",
+     "Tari Eason"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1058187905480450048",
+  "season": "2023-2024",
+  "date": "2024-01-30",
+  "managers": [
+   "shueiro",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 1
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Onyeka Okongwu"
+    ],
+    "receives_picks": [],
+    "receives_faab": 1
+   }
+  ]
+ },
+ {
+  "id": "1059175135124611072",
+  "season": "2023-2024",
+  "date": "2024-02-02",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Bogdan Bogdanović",
+     "Ivica Zubac"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1059638949829828608",
+  "season": "2023-2024",
+  "date": "2024-02-03",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Michael Porter Jr.",
+     "Robert Williams III"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Zach LaVine"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1060633220842123264",
+  "season": "2023-2024",
+  "date": "2024-02-06",
+  "managers": [
+   "papo",
+   "chalela"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "chalela"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "chalela",
+    "receives_players": [
+     "Caris LeVert",
+     "Scotty Pippen Jr."
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1061356696544653312",
+  "season": "2023-2024",
+  "date": "2024-02-08",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Khris Middleton"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "John Collins"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1062433690833223680",
+  "season": "2023-2024",
+  "date": "2024-02-11",
+  "managers": [
+   "joey",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Donte DiVincenzo"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Klay Thompson"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "joey"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1062440375329091584",
+  "season": "2023-2024",
+  "date": "2024-02-11",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Klay Thompson"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1083201336281313280",
+  "season": "2024-2025",
+  "date": "2024-04-08",
+  "managers": [
+   "verdeja",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "verdeja",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Bilal Coulibaly"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1084512200749867008",
+  "season": "2024-2025",
+  "date": "2024-04-12",
+  "managers": [
+   "papo",
+   "verdeja"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "verdeja",
+    "receives_players": [
+     "Andrew Wiggins",
+     "DeMar DeRozan"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1093298159389868032",
+  "season": "2024-2025",
+  "date": "2024-05-06",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Brook Lopez",
+     "Tobias Harris",
+     "Tre Jones"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Kevin Durant"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1095758901498187776",
+  "season": "2024-2025",
+  "date": "2024-05-14",
+  "managers": [
+   "papo",
+   "chalela"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "chalela"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "chalela",
+    "receives_players": [
+     "Derrick White",
+     "Tre Jones"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1096108503028150272",
+  "season": "2024-2025",
+  "date": "2024-05-14",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1096514706547830784",
+  "season": "2024-2025",
+  "date": "2024-05-15",
+  "managers": [
+   "libguel",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 50
+   }
+  ]
+ },
+ {
+  "id": "1098727207012253696",
+  "season": "2024-2025",
+  "date": "2024-05-21",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Ivica Zubac"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 50
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "John Collins"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1098820523615834112",
+  "season": "2024-2025",
+  "date": "2024-05-22",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1101375095274074112",
+  "season": "2024-2025",
+  "date": "2024-05-29",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 25
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1101613414155137024",
+  "season": "2024-2025",
+  "date": "2024-05-29",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Jaime Jaquez Jr."
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1106775812402946048",
+  "season": "2024-2025",
+  "date": "2024-06-13",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Kristaps Porziņģis"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "ricky"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Donte DiVincenzo"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1106802766049173504",
+  "season": "2024-2025",
+  "date": "2024-06-13",
+  "managers": [
+   "libguel",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [
+     "Michael Porter Jr."
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Keldon Johnson"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1113300233817051136",
+  "season": "2024-2025",
+  "date": "2024-07-01",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Ivica Zubac"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Chris Paul"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1114031429014466560",
+  "season": "2024-2025",
+  "date": "2024-07-03",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 1,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1114952593912004608",
+  "season": "2024-2025",
+  "date": "2024-07-05",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 2,
+      "original_team": "joey"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "De'Anthony Melton"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1115145116974444544",
+  "season": "2024-2025",
+  "date": "2024-07-06",
+  "managers": [
+   "libguel",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 5
+   },
+   {
+    "manager": "melo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2024,
+      "round": 3,
+      "original_team": "ricky"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1116123281142214656",
+  "season": "2024-2025",
+  "date": "2024-07-08",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1116124113464135680",
+  "season": "2024-2025",
+  "date": "2024-07-08",
+  "managers": [
+   "libguel",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 5
+   }
+  ]
+ },
+ {
+  "id": "1116135596856127488",
+  "season": "2024-2025",
+  "date": "2024-07-08",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Mitchell Robinson"
+    ],
+    "receives_picks": [],
+    "receives_faab": 50
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1120799875408560128",
+  "season": "2024-2025",
+  "date": "2024-07-21",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Marvin Bagley III"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Dalano Banton"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1121158352127578112",
+  "season": "2024-2025",
+  "date": "2024-07-22",
+  "managers": [
+   "jacobo",
+   "ricky"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Victor Wembanyama"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "ricky",
+    "receives_players": [
+     "Deni Avdija",
+     "LaMelo Ball",
+     "Tyrese Haliburton"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1121167019459624960",
+  "season": "2024-2025",
+  "date": "2024-07-22",
+  "managers": [
+   "jacobo",
+   "ricky"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Deni Avdija",
+     "LaMelo Ball",
+     "Tyrese Haliburton"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "ricky",
+    "receives_players": [
+     "Victor Wembanyama"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1121210386298060800",
+  "season": "2024-2025",
+  "date": "2024-07-22",
+  "managers": [
+   "winch",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "OG Anunoby"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Jaime Jaquez Jr."
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1121223995245842432",
+  "season": "2024-2025",
+  "date": "2024-07-22",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Luka Dončić"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Stephen Curry"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1121225370306588672",
+  "season": "2024-2025",
+  "date": "2024-07-22",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Stephen Curry"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Luka Dončić"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1121229829304692736",
+  "season": "2024-2025",
+  "date": "2024-07-22",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Luka Dončić",
+     "Russell Westbrook"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Ben Simmons",
+     "Karl-Anthony Towns",
+     "Zion Williamson"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1121236265388720128",
+  "season": "2024-2025",
+  "date": "2024-07-22",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Bradley Beal"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1121277277209337856",
+  "season": "2024-2025",
+  "date": "2024-07-23",
+  "managers": [
+   "libguel",
+   "shueiro"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [
+     "Darius Garland",
+     "Devin Vassell"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Brandin Podziemski",
+     "Immanuel Quickley"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1122586022098984960",
+  "season": "2024-2025",
+  "date": "2024-07-26",
+  "managers": [
+   "shueiro",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Jaime Jaquez Jr."
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Immanuel Quickley"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1122637335209943040",
+  "season": "2024-2025",
+  "date": "2024-07-26",
+  "managers": [
+   "papo",
+   "verdeja"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Grant Williams",
+     "Max Strus"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "verdeja",
+    "receives_players": [
+     "Brook Lopez",
+     "Donte DiVincenzo"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 90
+   }
+  ]
+ },
+ {
+  "id": "1122781158485475328",
+  "season": "2024-2025",
+  "date": "2024-07-27",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Bobby Portis Jr."
+    ],
+    "receives_picks": [],
+    "receives_faab": 32
+   }
+  ]
+ },
+ {
+  "id": "1122939763633381376",
+  "season": "2024-2025",
+  "date": "2024-07-27",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Bobby Portis Jr."
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1124401045441859584",
+  "season": "2024-2025",
+  "date": "2024-07-31",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Deni Avdija"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Keldon Johnson"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1124749423021588480",
+  "season": "2024-2025",
+  "date": "2024-08-01",
+  "managers": [
+   "verdeja",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "verdeja",
+    "receives_players": [
+     "Naz Reid"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Bruce Brown",
+     "Isaiah Hartenstein"
+    ],
+    "receives_picks": [],
+    "receives_faab": 50
+   }
+  ]
+ },
+ {
+  "id": "1124942848564072448",
+  "season": "2024-2025",
+  "date": "2024-08-02",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "LaMelo Ball"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Dalton Knecht",
+     "Donovan Clingan",
+     "Jalen Green"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1130634491694911488",
+  "season": "2024-2025",
+  "date": "2024-08-17",
+  "managers": [
+   "joey",
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Mitchell Robinson",
+     "Zaccharie Risacher"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Nic Claxton"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Deni Avdija",
+     "Nikola Jović"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1131330476322586624",
+  "season": "2024-2025",
+  "date": "2024-08-19",
+  "managers": [
+   "shueiro",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Deni Avdija"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Shaedon Sharpe"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1131755428653940736",
+  "season": "2024-2025",
+  "date": "2024-08-20",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Brandon Ingram",
+     "Pascal Siakam",
+     "Zach LaVine"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Karl-Anthony Towns",
+     "Zion Williamson"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1131761293196713984",
+  "season": "2024-2025",
+  "date": "2024-08-20",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Pascal Siakam"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Bobby Portis Jr.",
+     "Jimmy Butler III"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1132043285259853824",
+  "season": "2024-2025",
+  "date": "2024-08-21",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Bobby Portis Jr.",
+     "Klay Thompson"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 150
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Daniel Gafford"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1133139185168384000",
+  "season": "2024-2025",
+  "date": "2024-08-24",
+  "managers": [
+   "papo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Dennis Schröder",
+     "Miles Bridges"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Nic Claxton"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1143458395597475840",
+  "season": "2024-2025",
+  "date": "2024-09-22",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Brandon Ingram",
+     "Jaden McDaniels",
+     "Jimmy Butler III",
+     "Miles Bridges"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Bradley Beal"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1147806847676772352",
+  "season": "2024-2025",
+  "date": "2024-10-04",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "LaMelo Ball",
+     "Zach LaVine"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Fred VanVleet",
+     "James Harden",
+     "Jonas Valančiūnas",
+     "Stephen Curry"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1147824691827089408",
+  "season": "2024-2025",
+  "date": "2024-10-04",
+  "managers": [
+   "victor",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "victor",
+    "receives_players": [
+     "Daniel Gafford",
+     "Fred VanVleet",
+     "Jonas Valančiūnas"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 67
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Jaren Jackson Jr.",
+     "Precious Achiuwa"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1157878383255465984",
+  "season": "2024-2025",
+  "date": "2024-11-01",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Nikola Jović"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Jamal Shead",
+     "Kyle Filipowski"
+    ],
+    "receives_picks": [],
+    "receives_faab": 50
+   }
+  ]
+ },
+ {
+  "id": "1158118592295251968",
+  "season": "2024-2025",
+  "date": "2024-11-01",
+  "managers": [
+   "papo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Lauri Markkanen"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Jaren Jackson Jr."
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1158912711347220480",
+  "season": "2024-2025",
+  "date": "2024-11-03",
+  "managers": [
+   "papo",
+   "chalela"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Draymond Green"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "chalela"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "chalela",
+    "receives_players": [
+     "Dennis Schröder",
+     "Tobias Harris"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1160054736477876224",
+  "season": "2024-2025",
+  "date": "2024-11-07",
+  "managers": [
+   "libguel",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [
+     "Brandon Ingram"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Jalen Duren"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1162473591783628800",
+  "season": "2024-2025",
+  "date": "2024-11-13",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Tyrese Haliburton"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 163
+   }
+  ]
+ },
+ {
+  "id": "1162480100793892864",
+  "season": "2024-2025",
+  "date": "2024-11-13",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 163
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Tyrese Haliburton"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1166184894842712064",
+  "season": "2024-2025",
+  "date": "2024-11-23",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "James Harden",
+     "Jimmy Butler III"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Jared McCain",
+     "Julius Randle",
+     "P.J. Washington",
+     "Zaccharie Risacher"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1166205987876089856",
+  "season": "2024-2025",
+  "date": "2024-11-24",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Chris Paul",
+     "John Collins"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Stephen Curry"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1167606875010048000",
+  "season": "2024-2025",
+  "date": "2024-11-27",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Dalton Knecht",
+     "Jalen Green"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Zach Edey"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1176414541050441728",
+  "season": "2024-2025",
+  "date": "2024-12-22",
+  "managers": [
+   "libguel",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [
+     "Shaedon Sharpe",
+     "Tyrese Haliburton"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Anthony Edwards",
+     "Franz Wagner",
+     "Scottie Barnes"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1176416943137046528",
+  "season": "2024-2025",
+  "date": "2024-12-22",
+  "managers": [
+   "jacobo",
+   "ricky"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Nikola Topić",
+     "Tidjane Salaün",
+     "Victor Wembanyama"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "ricky",
+    "receives_players": [
+     "Anthony Edwards",
+     "Franz Wagner",
+     "Scottie Barnes"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1184760666653032448",
+  "season": "2024-2025",
+  "date": "2025-01-14",
+  "managers": [
+   "papo",
+   "ricky"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Cameron Johnson",
+     "Christian Braun",
+     "Nikola Topić",
+     "Rob Dillingham",
+     "Ronald Holland II",
+     "Tidjane Salaün"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "ricky"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "ricky"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "ricky",
+    "receives_players": [
+     "Jalen Green",
+     "Lauri Markkanen",
+     "P.J. Washington"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1184985983718735872",
+  "season": "2024-2025",
+  "date": "2025-01-14",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Goga Bitadze",
+     "Stephen Curry"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Chris Paul",
+     "Miles Bridges",
+     "Nikola Topić"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1185691208596557824",
+  "season": "2024-2025",
+  "date": "2025-01-16",
+  "managers": [
+   "verdeja",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "verdeja",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Jordan Poole"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1185992154963312640",
+  "season": "2024-2025",
+  "date": "2025-01-17",
+  "managers": [
+   "papo",
+   "verdeja"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Deandre Ayton",
+     "Naz Reid"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "verdeja",
+    "receives_players": [
+     "Jalen Duren",
+     "John Collins"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1186090846696542208",
+  "season": "2024-2025",
+  "date": "2025-01-17",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 1
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "LiAngelo Ball"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1187278296991350784",
+  "season": "2024-2025",
+  "date": "2025-01-21",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Christian Braun",
+     "Naz Reid",
+     "Ronald Holland II",
+     "Stephon Castle",
+     "Zaccharie Risacher"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "ricky"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Bradley Beal",
+     "Chet Holmgren",
+     "Mikal Bridges"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1187301136993021952",
+  "season": "2024-2025",
+  "date": "2025-01-21",
+  "managers": [
+   "papo",
+   "chalela"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Dennis Schröder",
+     "Derrick White",
+     "Jabari Smith Jr."
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "chalela"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "chalela",
+    "receives_players": [
+     "Goga Bitadze",
+     "Stephen Curry"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 3
+   }
+  ]
+ },
+ {
+  "id": "1190013327393140736",
+  "season": "2024-2025",
+  "date": "2025-01-28",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Zach Edey"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Julius Randle",
+     "Rob Dillingham"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "chalela"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1190039154716901376",
+  "season": "2024-2025",
+  "date": "2025-01-28",
+  "managers": [
+   "papo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Nic Claxton"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "D'Angelo Russell",
+     "Derrick White"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1190042841753325568",
+  "season": "2024-2025",
+  "date": "2025-01-28",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Chet Holmgren"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Jaime Jaquez Jr.",
+     "Stephon Castle"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "ricky"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1191129513525297152",
+  "season": "2024-2025",
+  "date": "2025-02-05",
+  "managers": [
+   "papo",
+   "verdeja"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Paul George"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "verdeja",
+    "receives_players": [
+     "Cameron Johnson",
+     "Jaime Jaquez Jr."
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1193295707066417152",
+  "season": "2024-2025",
+  "date": "2025-02-06",
+  "managers": [
+   "victor",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "victor",
+    "receives_players": [
+     "Jaylen Wells"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 20
+   }
+  ]
+ },
+ {
+  "id": "1194020565638934528",
+  "season": "2024-2025",
+  "date": "2025-02-08",
+  "managers": [
+   "libguel",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [
+     "Dalton Knecht",
+     "Jabari Smith Jr.",
+     "Nic Claxton"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "ricky"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Michael Porter Jr."
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1194506926499409920",
+  "season": "2024-2025",
+  "date": "2025-02-10",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Paul George"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Nikola Jović"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1194507537156546560",
+  "season": "2024-2025",
+  "date": "2025-02-10",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Deandre Ayton",
+     "Jared McCain",
+     "Kel'el Ware",
+     "Mikal Bridges"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Anthony Davis",
+     "James Harden",
+     "Kristaps Porziņģis",
+     "LeBron James"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1194549802871517184",
+  "season": "2024-2025",
+  "date": "2025-02-10",
+  "managers": [
+   "libguel",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [
+     "Tidjane Salaün"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "ricky"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1194717552257019904",
+  "season": "2024-2025",
+  "date": "2025-02-10",
+  "managers": [
+   "joey",
+   "libguel"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Dalton Knecht"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "libguel",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "joey"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1194721490293518336",
+  "season": "2024-2025",
+  "date": "2025-02-10",
+  "managers": [
+   "victor",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "victor",
+    "receives_players": [
+     "Draymond Green",
+     "Nikola Jović"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Kyle Kuzma"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "victor"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "victor"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1194851023180128256",
+  "season": "2024-2025",
+  "date": "2025-02-11",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Dejounte Murray"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "James Harden"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "victor"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1202900473762304000",
+  "season": "2024-2025",
+  "date": "2025-03-05",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 2
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 2
+   }
+  ]
+ },
+ {
+  "id": "1212281113603481600",
+  "season": "2024-2025",
+  "date": "2025-03-31",
+  "managers": [
+   "papo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Derrick White",
+     "Giannis Antetokounmpo"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Stephon Castle"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "victor"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1212966024966569984",
+  "season": "2025-2026",
+  "date": "2025-04-02",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Payton Pritchard",
+     "Yves Missi"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Derrick White"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1213226998235680768",
+  "season": "2025-2026",
+  "date": "2025-04-02",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Chris Paul",
+     "Joel Embiid"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "victor"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Dejounte Murray",
+     "LeBron James",
+     "Yves Missi"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1214078412088418304",
+  "season": "2025-2026",
+  "date": "2025-04-05",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Derrick White",
+     "Isaiah Hartenstein",
+     "Julius Randle"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Matas Buzelis",
+     "Michael Porter Jr."
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1214370635824762880",
+  "season": "2025-2026",
+  "date": "2025-04-05",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Isaiah Hartenstein"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "CJ McCollum",
+     "Jimmy Butler III"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1214447313242566656",
+  "season": "2025-2026",
+  "date": "2025-04-06",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Toumani Camara"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1214626173439451136",
+  "season": "2025-2026",
+  "date": "2025-04-06",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Payton Pritchard",
+     "Zach Edey"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "victor"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Jalen Suggs",
+     "Keyonte George"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1219780789856649216",
+  "season": "2025-2026",
+  "date": "2025-04-20",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Derrick White",
+     "Julius Randle"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Isaiah Hartenstein",
+     "Jerami Grant",
+     "Khris Middleton",
+     "Russell Westbrook"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1220199847894724608",
+  "season": "2025-2026",
+  "date": "2025-04-22",
+  "managers": [
+   "libguel",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [
+     "Isaiah Hartenstein",
+     "Jalen Suggs"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Brandon Ingram",
+     "Cam Whitmore"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "ricky"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1222357203298553857",
+  "season": "2025-2026",
+  "date": "2025-04-27",
+  "managers": [
+   "papo",
+   "verdeja"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "DeMar DeRozan"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "verdeja",
+    "receives_players": [
+     "Cam Whitmore",
+     "Chris Paul",
+     "Keyonte George"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1227695330854703104",
+  "season": "2025-2026",
+  "date": "2025-05-12",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Michael Porter Jr."
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "chalela"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Brandon Ingram"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1228070150180188160",
+  "season": "2025-2026",
+  "date": "2025-05-13",
+  "managers": [
+   "verdeja",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "verdeja",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "jacobo"
+     },
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1228082770656370688",
+  "season": "2025-2026",
+  "date": "2025-05-13",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 1
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 2
+   }
+  ]
+ },
+ {
+  "id": "1228888725140803584",
+  "season": "2025-2026",
+  "date": "2025-05-15",
+  "managers": [
+   "jacobo",
+   "ricky"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Clint Capela",
+     "Dillon Brooks",
+     "Jusuf Nurkić"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "ricky"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "ricky"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "ricky"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "ricky",
+    "receives_players": [
+     "Jordan Poole",
+     "Mark Williams",
+     "Tristan Vukcevic"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1241966930688999424",
+  "season": "2025-2026",
+  "date": "2025-06-21",
+  "managers": [
+   "joey",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Brandon Ingram",
+     "Jusuf Nurkić"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1244184461893967872",
+  "season": "2025-2026",
+  "date": "2025-06-27",
+  "managers": [
+   "papo",
+   "verdeja"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Andrew Wiggins",
+     "Cameron Johnson",
+     "Domantas Sabonis"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 1,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "verdeja",
+    "receives_players": [
+     "Giannis Antetokounmpo"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1244362858133716992",
+  "season": "2025-2026",
+  "date": "2025-06-27",
+  "managers": [
+   "jacobo",
+   "ricky"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "ricky",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "ricky"
+     }
+    ],
+    "receives_faab": 25
+   }
+  ]
+ },
+ {
+  "id": "1244365842712375296",
+  "season": "2025-2026",
+  "date": "2025-06-27",
+  "managers": [
+   "jacobo",
+   "ricky"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 20
+   },
+   {
+    "manager": "ricky",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1245429693222502400",
+  "season": "2025-2026",
+  "date": "2025-06-30",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Clint Capela",
+     "Karlo Matković"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "ricky"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1245453186546810880",
+  "season": "2025-2026",
+  "date": "2025-06-30",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 50
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Jerami Grant"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1245814242230149120",
+  "season": "2025-2026",
+  "date": "2025-07-01",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Andrew Wiggins"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "ricky"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Mikal Bridges"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1246163321699192832",
+  "season": "2025-2026",
+  "date": "2025-07-02",
+  "managers": [
+   "libguel",
+   "chalela"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 2,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "chalela",
+    "receives_players": [
+     "Max Christie"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 75
+   }
+  ]
+ },
+ {
+  "id": "1246207385744195584",
+  "season": "2025-2026",
+  "date": "2025-07-02",
+  "managers": [
+   "jacobo",
+   "chalela"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "chalela",
+    "receives_players": [
+     "Rui Hachimura"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1246209741017862144",
+  "season": "2025-2026",
+  "date": "2025-07-02",
+  "managers": [
+   "jacobo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2025,
+      "round": 3,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1246308787736813568",
+  "season": "2025-2026",
+  "date": "2025-07-03",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1246335462008696832",
+  "season": "2025-2026",
+  "date": "2025-07-03",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Paul George"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1246551542782230528",
+  "season": "2025-2026",
+  "date": "2025-07-03",
+  "managers": [
+   "shueiro",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1246566063752101888",
+  "season": "2025-2026",
+  "date": "2025-07-03",
+  "managers": [
+   "libguel",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [
+     "Domantas Sabonis"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Ja Morant",
+     "Jabari Smith Jr.",
+     "Jalen Suggs"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1248059914203451392",
+  "season": "2025-2026",
+  "date": "2025-07-08",
+  "managers": [
+   "melo",
+   "verdeja"
+  ],
+  "sides": [
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Chris Paul"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "verdeja",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 3,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1249768688358273024",
+  "season": "2025-2026",
+  "date": "2025-07-12",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "Cameron Johnson",
+     "Jalen Suggs",
+     "Walter Clayton Jr."
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 2,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2028,
+      "round": 3,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Naz Reid",
+     "Trey Murphy III"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1268787860928991233",
+  "season": "2025-2026",
+  "date": "2025-09-03",
+  "managers": [
+   "papo",
+   "verdeja"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2028,
+      "round": 2,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "jacobo"
+     },
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "verdeja",
+    "receives_players": [
+     "Jimmy Butler III"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1271559413286584320",
+  "season": "2025-2026",
+  "date": "2025-09-10",
+  "managers": [
+   "papo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Bam Adebayo"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Trey Murphy III"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1271614104229937152",
+  "season": "2025-2026",
+  "date": "2025-09-10",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Jabari Smith Jr."
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2028,
+      "round": 2,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Andrew Wiggins",
+     "Jrue Holiday"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1271927717104738304",
+  "season": "2025-2026",
+  "date": "2025-09-11",
+  "managers": [
+   "papo",
+   "ricky"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Lauri Markkanen"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "ricky"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "ricky",
+    "receives_players": [
+     "Mikal Bridges",
+     "Naz Reid"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1274780537386459136",
+  "season": "2025-2026",
+  "date": "2025-09-19",
+  "managers": [
+   "jacobo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Jeremy Sochan"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1281464730044628992",
+  "season": "2025-2026",
+  "date": "2025-10-08",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Cody Williams",
+     "Ja Morant"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Derrick White",
+     "Julius Randle"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "libguel"
+     },
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1281481695643598848",
+  "season": "2025-2026",
+  "date": "2025-10-08",
+  "managers": [
+   "shueiro",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Jalen Suggs"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1282182581697150976",
+  "season": "2025-2026",
+  "date": "2025-10-10",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "GG Jackson",
+     "Rob Dillingham"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 3
+   }
+  ]
+ },
+ {
+  "id": "1282507338791546880",
+  "season": "2025-2026",
+  "date": "2025-10-10",
+  "managers": [
+   "victor",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "victor",
+    "receives_players": [
+     "Kobe Bufkin"
+    ],
+    "receives_picks": [],
+    "receives_faab": 2
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 1
+   }
+  ]
+ },
+ {
+  "id": "1297631690394468352",
+  "season": "2025-2026",
+  "date": "2025-11-21",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Lauri Markkanen",
+     "Michael Porter Jr."
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "ricky"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Andrew Nembhard",
+     "Brandon Ingram",
+     "Ja Morant",
+     "Jusuf Nurkić"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1299488659220746240",
+  "season": "2025-2026",
+  "date": "2025-11-26",
+  "managers": [
+   "jacobo",
+   "chalela"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 3
+   },
+   {
+    "manager": "chalela",
+    "receives_players": [
+     "Kyle Kuzma"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1311406433274695680",
+  "season": "2025-2026",
+  "date": "2025-12-29",
+  "managers": [
+   "libguel",
+   "chalela"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 12
+   },
+   {
+    "manager": "chalela",
+    "receives_players": [
+     "Dennis Schröder"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1314282594174513152",
+  "season": "2025-2026",
+  "date": "2026-01-06",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Andrew Nembhard",
+     "Jeremiah Fears"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 2,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Lauri Markkanen"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1317549351274311680",
+  "season": "2025-2026",
+  "date": "2026-01-15",
+  "managers": [
+   "libguel",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 30
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Ryan Kalkbrenner"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1324055169326940160",
+  "season": "2025-2026",
+  "date": "2026-02-02",
+  "managers": [
+   "verdeja",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "verdeja",
+    "receives_players": [
+     "Nickeil Alexander-Walker"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1324169098019475456",
+  "season": "2025-2026",
+  "date": "2026-02-02",
+  "managers": [
+   "melo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "melo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1324252883373268992",
+  "season": "2025-2026",
+  "date": "2026-02-03",
+  "managers": [
+   "jacobo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 3,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1324525922530885632",
+  "season": "2025-2026",
+  "date": "2026-02-03",
+  "managers": [
+   "jacobo",
+   "chalela"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "chalela",
+    "receives_players": [
+     "Neemias Queta"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1324255008295747584",
+  "season": "2025-2026",
+  "date": "2026-02-04",
+  "managers": [
+   "chalela",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "chalela",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "chalela"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1324794987119931392",
+  "season": "2025-2026",
+  "date": "2026-02-04",
+  "managers": [
+   "victor",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "victor",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 3,
+      "original_team": "victor"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1325670946626891776",
+  "season": "2025-2026",
+  "date": "2026-02-07",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Zion Williamson"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Derrick White",
+     "Jrue Holiday",
+     "Lauri Markkanen"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1327715774541869056",
+  "season": "2025-2026",
+  "date": "2026-02-12",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Kyle Filipowski"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Paul George"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1332080675850838016",
+  "season": "2025-2026",
+  "date": "2026-02-24",
+  "managers": [
+   "papo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Jay Huff"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Ryan Kalkbrenner"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1332768947811946496",
+  "season": "2025-2026",
+  "date": "2026-02-26",
+  "managers": [
+   "winch",
+   "papo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Pelle Larsson"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Jakob Poeltl"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [
+     "Jusuf Nurkić"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 3,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1334004199309967360",
+  "season": "2025-2026",
+  "date": "2026-03-02",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Quenton Jackson"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1334035706623844352",
+  "season": "2025-2026",
+  "date": "2026-03-02",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Quenton Jackson"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1344439600306733056",
+  "season": "2026-2027",
+  "date": "2026-03-30",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1347671701692887040",
+  "season": "2026-2027",
+  "date": "2026-04-08",
+  "managers": [
+   "joey",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 2,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "ricky"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2028,
+      "round": 3,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2028,
+      "round": 3,
+      "original_team": "victor"
+     },
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "shueiro"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "melo"
+     },
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "jacobo"
+     },
+     {
+      "draft_year": 2027,
+      "round": 3,
+      "original_team": "jacobo"
+     },
+     {
+      "draft_year": 2028,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Luka Dončić"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1347688687617466368",
+  "season": "2026-2027",
+  "date": "2026-04-08",
+  "managers": [
+   "ricky",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "ricky",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 10
+   }
+  ]
+ },
+ {
+  "id": "1350225259688624128",
+  "season": "2026-2027",
+  "date": "2026-04-15",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Dejounte Murray",
+     "Derrick White"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Bam Adebayo",
+     "Julius Randle"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1354491652416225280",
+  "season": "2026-2027",
+  "date": "2026-04-27",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Brandon Ingram",
+     "Zion Williamson"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Jaden McDaniels",
+     "OG Anunoby",
+     "RJ Barrett"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "jacobo"
+     },
+     {
+      "draft_year": 2028,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1354884746357772288",
+  "season": "2026-2027",
+  "date": "2026-04-28",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1355927274460831744",
+  "season": "2026-2027",
+  "date": "2026-05-01",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "papo"
+     },
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1358627453702008833",
+  "season": "2026-2027",
+  "date": "2026-05-08",
+  "managers": [
+   "papo",
+   "melo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Miles Bridges"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Derrick White"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1374157530204209152",
+  "season": "2026-2027",
+  "date": "2026-06-20",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Jaden McDaniels"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Deandre Ayton",
+     "Kel'el Ware"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "victor"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1375644476076195841",
+  "season": "2026-2027",
+  "date": "2026-06-24",
+  "managers": [
+   "jacobo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1375646388141973504",
+  "season": "2026-2027",
+  "date": "2026-06-24",
+  "managers": [
+   "jacobo",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 1,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1376397972828360704",
+  "season": "2026-2027",
+  "date": "2026-06-27",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Jalen Suggs"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "victor"
+     },
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "melo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Michael Porter Jr."
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1376712793939521536",
+  "season": "2026-2027",
+  "date": "2026-06-27",
+  "managers": [
+   "libguel",
+   "shueiro"
+  ],
+  "sides": [
+   {
+    "manager": "libguel",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "joey"
+     },
+     {
+      "draft_year": 2028,
+      "round": 2,
+      "original_team": "shueiro"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "shueiro",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1377014787745001472",
+  "season": "2026-2027",
+  "date": "2026-06-28",
+  "managers": [
+   "joey",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Jusuf Nurkić"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "blandon"
+     },
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 2,
+      "original_team": "winch"
+     },
+     {
+      "draft_year": 2028,
+      "round": 1,
+      "original_team": "verdeja"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1377133772314517504",
+  "season": "2026-2027",
+  "date": "2026-06-29",
+  "managers": [
+   "joey",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "ricky"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "verdeja"
+     },
+     {
+      "draft_year": 2026,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1377439693876002816",
+  "season": "2026-2027",
+  "date": "2026-06-30",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2029,
+      "round": 1,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1377497453091110912",
+  "season": "2026-2027",
+  "date": "2026-06-30",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2029,
+      "round": 2,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1378227628602855424",
+  "season": "2026-2027",
+  "date": "2026-07-02",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2029,
+      "round": 3,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 10
+   }
+  ]
+ },
+ {
+  "id": "1378396265129209856",
+  "season": "2026-2027",
+  "date": "2026-07-02",
+  "managers": [
+   "winch",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2029,
+      "round": 3,
+      "original_team": "papo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 11
+   }
+  ]
+ },
+ {
+  "id": "1378423584166277120",
+  "season": "2026-2027",
+  "date": "2026-07-02",
+  "managers": [
+   "ricky",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "ricky",
+    "receives_players": [
+     "Bennett Stirtz"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [],
+    "receives_faab": 20
+   }
+  ]
+ },
+ {
+  "id": "1378480138223628288",
+  "season": "2026-2027",
+  "date": "2026-07-02",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Hugo González",
+     "Paul George",
+     "Ryan Conwell",
+     "Shaedon Sharpe"
+    ],
+    "receives_picks": [],
+    "receives_faab": 22
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Jakob Poeltl",
+     "OG Anunoby"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1381452713744678912",
+  "season": "2026-2027",
+  "date": "2026-07-10",
+  "managers": [
+   "winch",
+   "blandon"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2029,
+      "round": 1,
+      "original_team": "blandon"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "blandon",
+    "receives_players": [],
+    "receives_picks": [
+     {
+      "draft_year": 2029,
+      "round": 1,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1382397664712212480",
+  "season": "2026-2027",
+  "date": "2026-07-14",
+  "managers": [
+   "joey",
+   "papo"
+  ],
+  "sides": [
+   {
+    "manager": "joey",
+    "receives_players": [
+     "Labaron Philon Jr.",
+     "Ryan Conwell",
+     "Shaedon Sharpe"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Dalton Knecht",
+     "Jalen Smith",
+     "Jalen Suggs",
+     "Zuby Ejiofor"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1385019714924707840",
+  "season": "2026-2027",
+  "date": "2026-07-20",
+  "managers": [
+   "shueiro",
+   "ricky"
+  ],
+  "sides": [
+   {
+    "manager": "shueiro",
+    "receives_players": [
+     "P.J. Washington",
+     "Victor Wembanyama"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "ricky",
+    "receives_players": [
+     "Alperen Şengün",
+     "Cade Cunningham",
+     "Chet Holmgren",
+     "Hannes Steinbach"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2027,
+      "round": 1,
+      "original_team": "libguel"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1385490032403435520",
+  "season": "2026-2027",
+  "date": "2026-07-22",
+  "managers": [
+   "winch",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "winch",
+    "receives_players": [
+     "Jakob Poeltl"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2029,
+      "round": 1,
+      "original_team": "jacobo"
+     },
+     {
+      "draft_year": 2029,
+      "round": 2,
+      "original_team": "jacobo"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Sergio De Larrea"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2029,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1401678781776715776",
+  "season": "2026-2027",
+  "date": "2026-09-04",
+  "managers": [
+   "melo",
+   "verdeja"
+  ],
+  "sides": [
+   {
+    "manager": "melo",
+    "receives_players": [
+     "Giannis Antetokounmpo"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   },
+   {
+    "manager": "verdeja",
+    "receives_players": [
+     "Bam Adebayo",
+     "Donovan Mitchell"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ },
+ {
+  "id": "1424426751634759680",
+  "season": "2026-2027",
+  "date": "2026-11-06",
+  "managers": [
+   "papo",
+   "jacobo"
+  ],
+  "sides": [
+   {
+    "manager": "papo",
+    "receives_players": [
+     "Scoot Henderson"
+    ],
+    "receives_picks": [
+     {
+      "draft_year": 2028,
+      "round": 2,
+      "original_team": "winch"
+     }
+    ],
+    "receives_faab": 0
+   },
+   {
+    "manager": "jacobo",
+    "receives_players": [
+     "Paul George"
+    ],
+    "receives_picks": [],
+    "receives_faab": 0
+   }
+  ]
+ }
+]

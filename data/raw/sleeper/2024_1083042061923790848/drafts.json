@@ -1,0 +1,63 @@
+[
+ {
+  "created": 1712579858812,
+  "creators": [
+   "732826491003457536",
+   "741014999002152960"
+  ],
+  "draft_id": "1083042061923790849",
+  "draft_order": {
+   "1013619147659485184": 4,
+   "723039017997791232": 3,
+   "732826491003457536": 9,
+   "741014999002152960": 8,
+   "862193547003187200": 1,
+   "944885363049463808": 12,
+   "976911337844420608": 7,
+   "979794682534297600": 5,
+   "979796017430237184": 11,
+   "979807557940293632": 6,
+   "979825730563469312": 2,
+   "980153965616685056": 10
+  },
+  "last_message_id": "1116121724891701248",
+  "last_message_time": 1720466665054,
+  "last_picked": 1720466664246,
+  "league_id": "1083042061923790848",
+  "metadata": {
+   "description": "",
+   "name": "Das League",
+   "scoring_type": "dynasty"
+  },
+  "season": "2024",
+  "season_type": "regular",
+  "settings": {
+   "alpha_sort": 0,
+   "autopause_enabled": 1,
+   "autopause_end_time": 930,
+   "autopause_start_time": 240,
+   "autostart": 1,
+   "cpu_autopick": 0,
+   "enforce_position_limits": 1,
+   "nomination_timer": 60,
+   "pick_timer": 28800,
+   "player_type": 1,
+   "reversal_round": 0,
+   "rounds": 3,
+   "slots_bn": 5,
+   "slots_c": 1,
+   "slots_f": 1,
+   "slots_g": 1,
+   "slots_pf": 1,
+   "slots_pg": 1,
+   "slots_sf": 1,
+   "slots_sg": 1,
+   "slots_util": 3,
+   "teams": 12
+  },
+  "sport": "nba",
+  "start_time": 1719515880827,
+  "status": "complete",
+  "type": "linear"
+ }
+]

@@ -1,0 +1,37 @@
+{
+ "fetched_at": "2026-11-11 14:36:41",
+ "seasons": [
+  {
+   "season": "2023",
+   "league_id": "976577724187791360",
+   "name": "Das League",
+   "weeks_with_matchups": 25,
+   "transactions": 984,
+   "drafts": 1
+  },
+  {
+   "season": "2024",
+   "league_id": "1083042061923790848",
+   "name": "Das League",
+   "weeks_with_matchups": 25,
+   "transactions": 1010,
+   "drafts": 1
+  },
+  {
+   "season": "2025",
+   "league_id": "1212546169230602240",
+   "name": "Das League",
+   "weeks_with_matchups": 25,
+   "transactions": 1194,
+   "drafts": 1
+  },
+  {
+   "season": "2026",
+   "league_id": "1344343390740819968",
+   "name": "Das League",
+   "weeks_with_matchups": 25,
+   "transactions": 348,
+   "drafts": 2
+  }
+ ]
+}

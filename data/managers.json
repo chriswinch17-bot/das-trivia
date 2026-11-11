@@ -1,0 +1,17 @@
+{
+  "_note": "Real names supplied by the league owner. 'sleeper_usernames' links each person to their Sleeper account(s). Add nicknames to 'aliases' so players can type them as answers.",
+  "managers": [
+    {"id": "winch", "name": "Winch", "sleeper_usernames": ["ElWinchenzo"], "aliases": ["Winchenzo", "Equipo", "Chris"]},
+    {"id": "libguel", "name": "Libguel", "sleeper_usernames": ["miguelhern99"], "aliases": ["Miguel", "Mig", "Migue"]},
+    {"id": "joey", "name": "Joey", "sleeper_usernames": ["hughjasnuts"], "aliases": ["Joe", "Doctor", "Joseph"]},
+    {"id": "ricky", "name": "Ricky", "sleeper_usernames": ["MoonUnit11"], "aliases": ["Rick", "De Aguiar"]},
+    {"id": "victor", "name": "Victor", "sleeper_usernames": ["victorprieto"], "aliases": ["Vic", "Prieto"]},
+    {"id": "melo", "name": "Melo", "sleeper_usernames": ["DasMelo"], "aliases": ["Frank", "Francisco"]},
+    {"id": "shueiro", "name": "Shueiro", "sleeper_usernames": ["msway21"], "aliases": ["Mike", "Sueiro", "Michael", "Sway"]},
+    {"id": "jacobo", "name": "Jacobo", "sleeper_usernames": ["hotrelish"], "aliases": ["Jake", "Jacob"]},
+    {"id": "papo", "name": "Papo", "sleeper_usernames": ["Papochullo6969", "papochullo7979"], "aliases": ["Pedro"]},
+    {"id": "chalela", "name": "Chalela", "sleeper_usernames": ["Achalela"], "aliases": ["Chab", "Andres"]},
+    {"id": "blandon", "name": "Blandon", "sleeper_usernames": ["RabbiBT69"], "aliases": ["Rabbi", "Brandon", "BT", "BT69"]},
+    {"id": "verdeja", "name": "Verdeja", "sleeper_usernames": ["Verdy11"], "aliases": ["Verd", "Daniel", "Dan", "Verdy"]}
+  ]
+}

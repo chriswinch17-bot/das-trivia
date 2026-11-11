@@ -1,0 +1,857 @@
+[
+ {
+  "season": "2023-2024",
+  "status": "complete",
+  "teams": 12,
+  "regular_season_weeks": 18,
+  "playoff_teams": 6,
+  "champion": "blandon",
+  "runner_up": "papo",
+  "third_place": "winch",
+  "standings": [
+   {
+    "manager": "winch",
+    "team_name": "Equipo Winchenzo",
+    "wins": 15,
+    "losses": 3,
+    "ties": 0,
+    "points_for": 9197.0,
+    "points_against": 8184.0,
+    "regular_season_rank": 1,
+    "playoff_finish": 3,
+    "made_playoffs": true
+   },
+   {
+    "manager": "melo",
+    "team_name": "Kareem Abdul-Jabong",
+    "wins": 12,
+    "losses": 6,
+    "ties": 0,
+    "points_for": 9139.0,
+    "points_against": 8368.0,
+    "regular_season_rank": 2,
+    "playoff_finish": 4,
+    "made_playoffs": true
+   },
+   {
+    "manager": "blandon",
+    "team_name": "Rabbi BT69",
+    "wins": 12,
+    "losses": 6,
+    "ties": 0,
+    "points_for": 8596.0,
+    "points_against": 8177.0,
+    "regular_season_rank": 3,
+    "playoff_finish": 1,
+    "made_playoffs": true
+   },
+   {
+    "manager": "joey",
+    "team_name": "Fidel’s Accumulators",
+    "wins": 11,
+    "losses": 6,
+    "ties": 1,
+    "points_for": 8695.0,
+    "points_against": 8439.0,
+    "regular_season_rank": 4,
+    "playoff_finish": 6,
+    "made_playoffs": true
+   },
+   {
+    "manager": "papo",
+    "team_name": "Luka Deez Nuts",
+    "wins": 11,
+    "losses": 7,
+    "ties": 0,
+    "points_for": 9052.0,
+    "points_against": 8485.0,
+    "regular_season_rank": 5,
+    "playoff_finish": 2,
+    "made_playoffs": true
+   },
+   {
+    "manager": "victor",
+    "team_name": "I Love Dragić",
+    "wins": 9,
+    "losses": 9,
+    "ties": 0,
+    "points_for": 8621.0,
+    "points_against": 8202.0,
+    "regular_season_rank": 6,
+    "playoff_finish": 5,
+    "made_playoffs": true
+   },
+   {
+    "manager": "chalela",
+    "team_name": "Equipito PapoChullo",
+    "wins": 9,
+    "losses": 9,
+    "ties": 0,
+    "points_for": 8286.0,
+    "points_against": 8482.0,
+    "regular_season_rank": 7,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "verdeja",
+    "team_name": "Saboners",
+    "wins": 8,
+    "losses": 10,
+    "ties": 0,
+    "points_for": 7802.0,
+    "points_against": 8293.0,
+    "regular_season_rank": 8,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "jacobo",
+    "team_name": "hotrelish",
+    "wins": 8,
+    "losses": 10,
+    "ties": 0,
+    "points_for": 7458.0,
+    "points_against": 7986.0,
+    "regular_season_rank": 9,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "shueiro",
+    "team_name": "2057 Champs",
+    "wins": 5,
+    "losses": 12,
+    "ties": 1,
+    "points_for": 7905.0,
+    "points_against": 8573.0,
+    "regular_season_rank": 10,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "libguel",
+    "team_name": "Los Chigüires",
+    "wins": 4,
+    "losses": 14,
+    "ties": 0,
+    "points_for": 7964.0,
+    "points_against": 8649.0,
+    "regular_season_rank": 11,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "ricky",
+    "team_name": "MoonUnit",
+    "wins": 3,
+    "losses": 15,
+    "ties": 0,
+    "points_for": 7577.0,
+    "points_against": 8454.0,
+    "regular_season_rank": 12,
+    "playoff_finish": null,
+    "made_playoffs": false
+   }
+  ],
+  "playoffs": [
+   {
+    "round": "Quarterfinal",
+    "weeks": [
+     19,
+     20
+    ],
+    "winner": "papo",
+    "winner_points": 1073.0,
+    "loser": "joey",
+    "loser_points": 989.0
+   },
+   {
+    "round": "Quarterfinal",
+    "weeks": [
+     19,
+     20
+    ],
+    "winner": "blandon",
+    "winner_points": 1139.0,
+    "loser": "victor",
+    "loser_points": 1041.0
+   },
+   {
+    "round": "Semifinal",
+    "weeks": [
+     21,
+     22
+    ],
+    "winner": "papo",
+    "winner_points": 1122.0,
+    "loser": "winch",
+    "loser_points": 1046.0
+   },
+   {
+    "round": "Semifinal",
+    "weeks": [
+     21,
+     22
+    ],
+    "winner": "blandon",
+    "winner_points": 989.0,
+    "loser": "melo",
+    "loser_points": 909.0
+   },
+   {
+    "round": "5th-place game",
+    "weeks": [
+     21,
+     22
+    ],
+    "winner": "victor",
+    "winner_points": 974.0,
+    "loser": "joey",
+    "loser_points": 898.0
+   },
+   {
+    "round": "Final",
+    "weeks": [
+     23,
+     24
+    ],
+    "winner": "blandon",
+    "winner_points": 1079.0,
+    "loser": "papo",
+    "loser_points": 1071.0
+   },
+   {
+    "round": "3rd-place game",
+    "weeks": [
+     23,
+     24
+    ],
+    "winner": "winch",
+    "winner_points": 1083.0,
+    "loser": "melo",
+    "loser_points": 922.0
+   }
+  ]
+ },
+ {
+  "season": "2024-2025",
+  "status": "complete",
+  "teams": 12,
+  "regular_season_weeks": 17,
+  "playoff_teams": 6,
+  "champion": "melo",
+  "runner_up": "blandon",
+  "third_place": "chalela",
+  "standings": [
+   {
+    "manager": "winch",
+    "team_name": "Equipo Winchenzo 2X",
+    "wins": 14,
+    "losses": 3,
+    "ties": 0,
+    "points_for": 8544.0,
+    "points_against": 7568.0,
+    "regular_season_rank": 1,
+    "playoff_finish": 4,
+    "made_playoffs": true
+   },
+   {
+    "manager": "chalela",
+    "team_name": "Equipito PapoChullo",
+    "wins": 13,
+    "losses": 4,
+    "ties": 0,
+    "points_for": 8653.0,
+    "points_against": 7562.0,
+    "regular_season_rank": 2,
+    "playoff_finish": 3,
+    "made_playoffs": true
+   },
+   {
+    "manager": "blandon",
+    "team_name": "Rabbi Repeat BT69",
+    "wins": 13,
+    "losses": 4,
+    "ties": 0,
+    "points_for": 8434.0,
+    "points_against": 7645.0,
+    "regular_season_rank": 3,
+    "playoff_finish": 2,
+    "made_playoffs": true
+   },
+   {
+    "manager": "melo",
+    "team_name": "Joel Embong? 😓",
+    "wins": 11,
+    "losses": 6,
+    "ties": 0,
+    "points_for": 8722.0,
+    "points_against": 7786.0,
+    "regular_season_rank": 4,
+    "playoff_finish": 1,
+    "made_playoffs": true
+   },
+   {
+    "manager": "victor",
+    "team_name": "I Love Dragić",
+    "wins": 11,
+    "losses": 6,
+    "ties": 0,
+    "points_for": 7973.0,
+    "points_against": 7322.0,
+    "regular_season_rank": 5,
+    "playoff_finish": 5,
+    "made_playoffs": true
+   },
+   {
+    "manager": "joey",
+    "team_name": "Fidel’s Accumulators",
+    "wins": 8,
+    "losses": 9,
+    "ties": 0,
+    "points_for": 7672.0,
+    "points_against": 7869.0,
+    "regular_season_rank": 6,
+    "playoff_finish": 6,
+    "made_playoffs": true
+   },
+   {
+    "manager": "libguel",
+    "team_name": "Los Chigüires",
+    "wins": 7,
+    "losses": 10,
+    "ties": 0,
+    "points_for": 8019.0,
+    "points_against": 8044.0,
+    "regular_season_rank": 7,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "shueiro",
+    "team_name": "2057 Champs",
+    "wins": 7,
+    "losses": 10,
+    "ties": 0,
+    "points_for": 7902.0,
+    "points_against": 7595.0,
+    "regular_season_rank": 8,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "verdeja",
+    "team_name": "Saboners",
+    "wins": 6,
+    "losses": 11,
+    "ties": 0,
+    "points_for": 7277.0,
+    "points_against": 8007.0,
+    "regular_season_rank": 9,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "papo",
+    "team_name": "The Edey and Matas Show",
+    "wins": 5,
+    "losses": 12,
+    "ties": 0,
+    "points_for": 6352.0,
+    "points_against": 8081.0,
+    "regular_season_rank": 10,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "ricky",
+    "team_name": "MoonUnit",
+    "wins": 4,
+    "losses": 13,
+    "ties": 0,
+    "points_for": 6807.0,
+    "points_against": 7715.0,
+    "regular_season_rank": 11,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "jacobo",
+    "team_name": "hotrelish",
+    "wins": 3,
+    "losses": 14,
+    "ties": 0,
+    "points_for": 6789.0,
+    "points_against": 7950.0,
+    "regular_season_rank": 12,
+    "playoff_finish": null,
+    "made_playoffs": false
+   }
+  ],
+  "playoffs": [
+   {
+    "round": "Quarterfinal",
+    "weeks": [
+     18,
+     19
+    ],
+    "winner": "melo",
+    "winner_points": 1066.0,
+    "loser": "victor",
+    "loser_points": 802.0
+   },
+   {
+    "round": "Quarterfinal",
+    "weeks": [
+     18,
+     19
+    ],
+    "winner": "blandon",
+    "winner_points": 954.0,
+    "loser": "joey",
+    "loser_points": 768.0
+   },
+   {
+    "round": "Semifinal",
+    "weeks": [
+     20,
+     21
+    ],
+    "winner": "melo",
+    "winner_points": 1134.0,
+    "loser": "winch",
+    "loser_points": 1028.0
+   },
+   {
+    "round": "Semifinal",
+    "weeks": [
+     20,
+     21
+    ],
+    "winner": "blandon",
+    "winner_points": 1123.0,
+    "loser": "chalela",
+    "loser_points": 1026.0
+   },
+   {
+    "round": "5th-place game",
+    "weeks": [
+     20,
+     21
+    ],
+    "winner": "victor",
+    "winner_points": 783.0,
+    "loser": "joey",
+    "loser_points": 636.0
+   },
+   {
+    "round": "Final",
+    "weeks": [
+     22,
+     23
+    ],
+    "winner": "melo",
+    "winner_points": 972.0,
+    "loser": "blandon",
+    "loser_points": 945.0
+   },
+   {
+    "round": "3rd-place game",
+    "weeks": [
+     22,
+     23
+    ],
+    "winner": "chalela",
+    "winner_points": 1111.0,
+    "loser": "winch",
+    "loser_points": 981.0
+   }
+  ]
+ },
+ {
+  "season": "2025-2026",
+  "status": "complete",
+  "teams": 12,
+  "regular_season_weeks": 20,
+  "playoff_teams": 6,
+  "champion": "libguel",
+  "runner_up": "papo",
+  "third_place": "winch",
+  "standings": [
+   {
+    "manager": "libguel",
+    "team_name": "Los Chigüires",
+    "wins": 18,
+    "losses": 2,
+    "ties": 0,
+    "points_for": 9939.0,
+    "points_against": 8162.0,
+    "regular_season_rank": 1,
+    "playoff_finish": 1,
+    "made_playoffs": true
+   },
+   {
+    "manager": "papo",
+    "team_name": "Fear the Brow",
+    "wins": 15,
+    "losses": 5,
+    "ties": 0,
+    "points_for": 9460.0,
+    "points_against": 8771.0,
+    "regular_season_rank": 2,
+    "playoff_finish": 2,
+    "made_playoffs": true
+   },
+   {
+    "manager": "shueiro",
+    "team_name": "2057 Champs",
+    "wins": 13,
+    "losses": 7,
+    "ties": 0,
+    "points_for": 9303.0,
+    "points_against": 8722.0,
+    "regular_season_rank": 3,
+    "playoff_finish": 6,
+    "made_playoffs": true
+   },
+   {
+    "manager": "melo",
+    "team_name": "LeBong James 👑",
+    "wins": 12,
+    "losses": 8,
+    "ties": 0,
+    "points_for": 9857.0,
+    "points_against": 9017.0,
+    "regular_season_rank": 4,
+    "playoff_finish": 5,
+    "made_playoffs": true
+   },
+   {
+    "manager": "chalela",
+    "team_name": "Lochte & Associates",
+    "wins": 12,
+    "losses": 8,
+    "ties": 0,
+    "points_for": 9010.0,
+    "points_against": 8942.0,
+    "regular_season_rank": 5,
+    "playoff_finish": 4,
+    "made_playoffs": true
+   },
+   {
+    "manager": "winch",
+    "team_name": "Equipo Winchenzo",
+    "wins": 10,
+    "losses": 10,
+    "ties": 0,
+    "points_for": 9276.0,
+    "points_against": 9079.0,
+    "regular_season_rank": 6,
+    "playoff_finish": 3,
+    "made_playoffs": true
+   },
+   {
+    "manager": "verdeja",
+    "team_name": "Antetokounmpers",
+    "wins": 10,
+    "losses": 10,
+    "ties": 0,
+    "points_for": 8676.0,
+    "points_against": 8920.0,
+    "regular_season_rank": 7,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "victor",
+    "team_name": "I Love Dragić",
+    "wins": 9,
+    "losses": 11,
+    "ties": 0,
+    "points_for": 8200.0,
+    "points_against": 8528.0,
+    "regular_season_rank": 8,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "ricky",
+    "team_name": "MoonUnit 🦬",
+    "wins": 7,
+    "losses": 13,
+    "ties": 0,
+    "points_for": 8086.0,
+    "points_against": 8879.0,
+    "regular_season_rank": 9,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "jacobo",
+    "team_name": "hotrelish",
+    "wins": 7,
+    "losses": 13,
+    "ties": 0,
+    "points_for": 8074.0,
+    "points_against": 8958.0,
+    "regular_season_rank": 10,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "blandon",
+    "team_name": "Rabbi BT69",
+    "wins": 5,
+    "losses": 15,
+    "ties": 0,
+    "points_for": 7866.0,
+    "points_against": 8850.0,
+    "regular_season_rank": 11,
+    "playoff_finish": null,
+    "made_playoffs": false
+   },
+   {
+    "manager": "joey",
+    "team_name": "Fidel’s Accumulators",
+    "wins": 2,
+    "losses": 18,
+    "ties": 0,
+    "points_for": 8218.0,
+    "points_against": 9137.0,
+    "regular_season_rank": 12,
+    "playoff_finish": null,
+    "made_playoffs": false
+   }
+  ],
+  "playoffs": [
+   {
+    "round": "Quarterfinal",
+    "weeks": [
+     21
+    ],
+    "winner": "chalela",
+    "winner_points": 570.0,
+    "loser": "melo",
+    "loser_points": 495.0
+   },
+   {
+    "round": "Quarterfinal",
+    "weeks": [
+     21
+    ],
+    "winner": "winch",
+    "winner_points": 497.0,
+    "loser": "shueiro",
+    "loser_points": 494.0
+   },
+   {
+    "round": "Semifinal",
+    "weeks": [
+     22
+    ],
+    "winner": "libguel",
+    "winner_points": 525.0,
+    "loser": "chalela",
+    "loser_points": 467.0
+   },
+   {
+    "round": "Semifinal",
+    "weeks": [
+     22
+    ],
+    "winner": "papo",
+    "winner_points": 486.0,
+    "loser": "winch",
+    "loser_points": 436.0
+   },
+   {
+    "round": "5th-place game",
+    "weeks": [
+     22
+    ],
+    "winner": "melo",
+    "winner_points": 448.0,
+    "loser": "shueiro",
+    "loser_points": 390.0
+   },
+   {
+    "round": "Final",
+    "weeks": [
+     23
+    ],
+    "winner": "libguel",
+    "winner_points": 541.0,
+    "loser": "papo",
+    "loser_points": 406.0
+   },
+   {
+    "round": "3rd-place game",
+    "weeks": [
+     23
+    ],
+    "winner": "winch",
+    "winner_points": 518.0,
+    "loser": "chalela",
+    "loser_points": 413.0
+   }
+  ]
+ },
+ {
+  "season": "2026-2027",
+  "status": "in progress",
+  "teams": 12,
+  "regular_season_weeks": 20,
+  "playoff_teams": 6,
+  "champion": null,
+  "runner_up": null,
+  "third_place": null,
+  "standings": [
+   {
+    "manager": "jacobo",
+    "team_name": "hotrelish",
+    "wins": 3,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 1564.0,
+    "points_against": 1148.0,
+    "regular_season_rank": 1,
+    "playoff_finish": null,
+    "made_playoffs": null
+   },
+   {
+    "manager": "libguel",
+    "team_name": "Los Chigüires",
+    "wins": 2,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 1518.0,
+    "points_against": 1400.0,
+    "regular_season_rank": 2,
+    "playoff_finish": null,
+    "made_playoffs": null
+   },
+   {
+    "manager": "shueiro",
+    "team_name": "2057 Champs",
+    "wins": 2,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 1483.0,
+    "points_against": 1406.0,
+    "regular_season_rank": 3,
+    "playoff_finish": null,
+    "made_playoffs": null
+   },
+   {
+    "manager": "victor",
+    "team_name": "I Love Dragić",
+    "wins": 2,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 1346.0,
+    "points_against": 1188.0,
+    "regular_season_rank": 4,
+    "playoff_finish": null,
+    "made_playoffs": null
+   },
+   {
+    "manager": "verdeja",
+    "team_name": "Antetokounmpers",
+    "wins": 2,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 1337.0,
+    "points_against": 1184.0,
+    "regular_season_rank": 5,
+    "playoff_finish": null,
+    "made_playoffs": null
+   },
+   {
+    "manager": "ricky",
+    "team_name": "MoonUnit 🦬",
+    "wins": 2,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 1315.0,
+    "points_against": 1348.0,
+    "regular_season_rank": 6,
+    "playoff_finish": null,
+    "made_playoffs": null
+   },
+   {
+    "manager": "winch",
+    "team_name": "Equipo Winchenzo",
+    "wins": 2,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 1202.0,
+    "points_against": 1288.0,
+    "regular_season_rank": 7,
+    "playoff_finish": null,
+    "made_playoffs": null
+   },
+   {
+    "manager": "papo",
+    "team_name": "Fear the Brow",
+    "wins": 1,
+    "losses": 2,
+    "ties": 0,
+    "points_for": 1346.0,
+    "points_against": 1457.0,
+    "regular_season_rank": 8,
+    "playoff_finish": null,
+    "made_playoffs": null
+   },
+   {
+    "manager": "blandon",
+    "team_name": "Rabbi BT69",
+    "wins": 1,
+    "losses": 2,
+    "ties": 0,
+    "points_for": 1334.0,
+    "points_against": 1459.0,
+    "regular_season_rank": 9,
+    "playoff_finish": null,
+    "made_playoffs": null
+   },
+   {
+    "manager": "joey",
+    "team_name": "Fidel’s Accumulators",
+    "wins": 1,
+    "losses": 2,
+    "ties": 0,
+    "points_for": 1225.0,
+    "points_against": 1405.0,
+    "regular_season_rank": 10,
+    "playoff_finish": null,
+    "made_playoffs": null
+   },
+   {
+    "manager": "melo",
+    "team_name": "LeBong James",
+    "wins": 0,
+    "losses": 3,
+    "ties": 0,
+    "points_for": 1355.0,
+    "points_against": 1517.0,
+    "regular_season_rank": 11,
+    "playoff_finish": null,
+    "made_playoffs": null
+   },
+   {
+    "manager": "chalela",
+    "team_name": "Lochte & Associates",
+    "wins": 0,
+    "losses": 3,
+    "ties": 0,
+    "points_for": 1139.0,
+    "points_against": 1364.0,
+    "regular_season_rank": 12,
+    "playoff_finish": null,
+    "made_playoffs": null
+   }
+  ],
+  "playoffs": []
+ }
+]

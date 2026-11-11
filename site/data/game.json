@@ -1,0 +1,8541 @@
+{
+ "title": "Das League Trivia",
+ "start_date": "2026-11-11",
+ "days": [
+  [
+   {
+    "id": "e285f19e",
+    "text": "Who lost in the 2024-2025 championship final?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi Repeat BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "4008a362",
+    "text": "Who was the first overall pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Nikola Jokić",
+      "accept": [
+       "Jokić",
+       "Nikola Jokić"
+      ]
+     }
+    ],
+    "note": "Taken by I Love Dragić (Victor).",
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "791d6729",
+    "text": "Which team put up the lowest single-week score of the 2024-2025 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "The Edey and Matas Show (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": "Just 140 points in week 8.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "52b6ed64",
+    "text": "How many regular-season wins did the 2025-2026 champion, Los Chigüires (Libguel), have?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "18",
+      "accept": [
+       "18"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "71bd3fb5",
+    "text": "Which manager made the most trades during the 2024-2025 season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "The Edey and Matas Show (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": "52 trades.",
+    "about": [],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "ebcec64b",
+    "text": "Who did Fidel’s Accumulators (Joey) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Tyrese Haliburton",
+      "accept": [
+       "Haliburton",
+       "Tyrese Haliburton"
+      ]
+     }
+    ],
+    "note": "Round 1, pick 4 overall.",
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "03404e7b",
+    "text": "Name a team that missed the 2024-2025 playoffs.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro"
+     },
+     {
+      "display": "Saboners (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "manager": "verdeja"
+     },
+     {
+      "display": "The Edey and Matas Show (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     },
+     {
+      "display": "MoonUnit (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky"
+     },
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "eac460f9",
+    "text": "Name a player taken in the second round of the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Alperen Şengün",
+      "accept": [
+       "Alperen",
+       "Alperen Şengün",
+       "Şengün"
+      ]
+     },
+     {
+      "display": "Cade Cunningham",
+      "accept": [
+       "Cade",
+       "Cade Cunningham",
+       "Cunningham"
+      ]
+     },
+     {
+      "display": "Devin Booker",
+      "accept": [
+       "Booker",
+       "Devin Booker"
+      ]
+     },
+     {
+      "display": "Donovan Mitchell",
+      "accept": [
+       "Donovan Mitchell",
+       "Mitchell"
+      ]
+     },
+     {
+      "display": "Evan Mobley",
+      "accept": [
+       "Evan",
+       "Evan Mobley",
+       "Mobley"
+      ]
+     },
+     {
+      "display": "Ja Morant",
+      "accept": [
+       "Ja",
+       "Ja Morant",
+       "Morant"
+      ]
+     },
+     {
+      "display": "Jaren Jackson Jr.",
+      "accept": [
+       "Jackson",
+       "Jaren",
+       "Jaren Jackson",
+       "Jaren Jackson Jr."
+      ]
+     },
+     {
+      "display": "Jaylen Brown",
+      "accept": [
+       "Brown",
+       "Jaylen Brown"
+      ]
+     },
+     {
+      "display": "Karl-Anthony Towns",
+      "accept": [
+       "Karl-Anthony",
+       "Karl-Anthony Towns",
+       "Towns"
+      ]
+     },
+     {
+      "display": "Paolo Banchero",
+      "accept": [
+       "Banchero",
+       "Paolo",
+       "Paolo Banchero"
+      ]
+     },
+     {
+      "display": "Scoot Henderson",
+      "accept": [
+       "Henderson",
+       "Scoot",
+       "Scoot Henderson"
+      ]
+     },
+     {
+      "display": "Trae Young",
+      "accept": [
+       "Trae",
+       "Trae Young",
+       "Young"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "e3c3838d",
+    "text": "Whose team was once called \"The Edey and Matas Show\"?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": "That was the name in 2024-2025.",
+    "about": [],
+    "sources": [
+     "managers.json"
+    ]
+   },
+   {
+    "id": "1a4cc2f1",
+    "text": "Name a team that finished the 2023-2024 regular season with a winning record.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     },
+     {
+      "display": "Kareem Abdul-Jabong (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey"
+     },
+     {
+      "display": "Luka Deez Nuts (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "b57f73b7",
+    "text": "Which player has been traded the most times in Das League history?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Derrick White",
+      "accept": [
+       "Derrick",
+       "Derrick White",
+       "White"
+      ]
+     }
+    ],
+    "note": "Traded 11 times.",
+    "about": [],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "376fa8be",
+    "text": "Name one of the first five players I Love Dragić (Victor) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Jaren Jackson Jr.",
+      "accept": [
+       "Jackson",
+       "Jaren",
+       "Jaren Jackson",
+       "Jaren Jackson Jr."
+      ]
+     },
+     {
+      "display": "Josh Giddey",
+      "accept": [
+       "Giddey",
+       "Josh Giddey"
+      ]
+     },
+     {
+      "display": "Kyrie Irving",
+      "accept": [
+       "Irving",
+       "Kyrie",
+       "Kyrie Irving"
+      ]
+     },
+     {
+      "display": "Nikola Jokić",
+      "accept": [
+       "Jokić",
+       "Nikola Jokić"
+      ]
+     },
+     {
+      "display": "Walker Kessler",
+      "accept": [
+       "Kessler",
+       "Walker",
+       "Walker Kessler"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "0a1fca20",
+    "text": "Name a team that lost in the 2025-2026 semifinals.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela"
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "f8d4d744",
+    "text": "Name a first-round pick of the 2026 rookie draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "AJ Dybantsa",
+      "accept": [
+       "AJ Dybantsa",
+       "Dybantsa"
+      ]
+     },
+     {
+      "display": "Aday Mara",
+      "accept": [
+       "Aday",
+       "Aday Mara",
+       "Mara"
+      ]
+     },
+     {
+      "display": "Brayden Burries",
+      "accept": [
+       "Brayden",
+       "Brayden Burries",
+       "Burries"
+      ]
+     },
+     {
+      "display": "Caleb Wilson",
+      "accept": [
+       "Caleb",
+       "Caleb Wilson",
+       "Wilson"
+      ]
+     },
+     {
+      "display": "Cameron Boozer",
+      "accept": [
+       "Boozer",
+       "Cameron Boozer"
+      ]
+     },
+     {
+      "display": "Darius Acuff Jr.",
+      "accept": [
+       "Acuff",
+       "Darius Acuff",
+       "Darius Acuff Jr."
+      ]
+     },
+     {
+      "display": "Darryn Peterson",
+      "accept": [
+       "Darryn",
+       "Darryn Peterson",
+       "Peterson"
+      ]
+     },
+     {
+      "display": "Keaton Wagler",
+      "accept": [
+       "Keaton",
+       "Keaton Wagler",
+       "Wagler"
+      ]
+     },
+     {
+      "display": "Kingston Flemings",
+      "accept": [
+       "Flemings",
+       "Kingston",
+       "Kingston Flemings"
+      ]
+     },
+     {
+      "display": "Mikel Brown Jr.",
+      "accept": [
+       "Brown",
+       "Mikel",
+       "Mikel Brown",
+       "Mikel Brown Jr."
+      ]
+     },
+     {
+      "display": "Nate Ament",
+      "accept": [
+       "Ament",
+       "Nate",
+       "Nate Ament"
+      ]
+     },
+     {
+      "display": "Yaxel Lendeborg",
+      "accept": [
+       "Lendeborg",
+       "Yaxel",
+       "Yaxel Lendeborg"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "5857be26",
+    "text": "Whose team was once called \"Luka Deez Nuts\"?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": "That was the name in 2023-2024.",
+    "about": [],
+    "sources": [
+     "managers.json"
+    ]
+   },
+   {
+    "id": "a4c0b532",
+    "text": "Who finished last in the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "MoonUnit (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky"
+     }
+    ],
+    "note": "3-15",
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "3e5da8f8",
+    "text": "Name a player Fidel’s Accumulators (Joey) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Andrew Nembhard",
+      "accept": [
+       "Andrew Nembhard",
+       "Nembhard"
+      ]
+     },
+     {
+      "display": "Andrew Wiggins",
+      "accept": [
+       "Andrew Wiggins",
+       "Wiggins"
+      ]
+     },
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "Brandon Ingram",
+       "Ingram"
+      ]
+     },
+     {
+      "display": "CJ McCollum",
+      "accept": [
+       "CJ",
+       "CJ McCollum",
+       "McCollum"
+      ]
+     },
+     {
+      "display": "Cody Williams",
+      "accept": [
+       "Cody",
+       "Cody Williams",
+       "Williams"
+      ]
+     },
+     {
+      "display": "Collin Sexton",
+      "accept": [
+       "Collin Sexton",
+       "Sexton"
+      ]
+     },
+     {
+      "display": "Dalton Knecht",
+      "accept": [
+       "Dalton",
+       "Dalton Knecht",
+       "Knecht"
+      ]
+     },
+     {
+      "display": "Deandre Ayton",
+      "accept": [
+       "Ayton",
+       "Deandre",
+       "Deandre Ayton"
+      ]
+     },
+     {
+      "display": "Dennis Schröder",
+      "accept": [
+       "Dennis",
+       "Dennis Schröder",
+       "Schröder"
+      ]
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "Derrick",
+       "Derrick White",
+       "White"
+      ]
+     },
+     {
+      "display": "Donte DiVincenzo",
+      "accept": [
+       "DiVincenzo",
+       "Donte",
+       "Donte DiVincenzo"
+      ]
+     },
+     {
+      "display": "Isaiah Hartenstein",
+      "accept": [
+       "Hartenstein",
+       "Isaiah Hartenstein"
+      ]
+     },
+     {
+      "display": "Ja Morant",
+      "accept": [
+       "Ja",
+       "Ja Morant",
+       "Morant"
+      ]
+     },
+     {
+      "display": "Jabari Smith Jr.",
+      "accept": [
+       "Jabari",
+       "Jabari Smith",
+       "Jabari Smith Jr.",
+       "Smith"
+      ]
+     },
+     {
+      "display": "Jaden McDaniels",
+      "accept": [
+       "Jaden McDaniels",
+       "McDaniels"
+      ]
+     },
+     {
+      "display": "Jalen Suggs",
+      "accept": [
+       "Jalen Suggs",
+       "Suggs"
+      ]
+     },
+     {
+      "display": "James Harden",
+      "accept": [
+       "Harden",
+       "James Harden"
+      ]
+     },
+     {
+      "display": "Jared McCain",
+      "accept": [
+       "Jared",
+       "Jared McCain",
+       "McCain"
+      ]
+     },
+     {
+      "display": "Jerami Grant",
+      "accept": [
+       "Grant",
+       "Jerami",
+       "Jerami Grant"
+      ]
+     },
+     {
+      "display": "Jeremiah Fears",
+      "accept": [
+       "Fears",
+       "Jeremiah",
+       "Jeremiah Fears"
+      ]
+     },
+     {
+      "display": "Jimmy Butler III",
+      "accept": [
+       "Butler",
+       "Jimmy",
+       "Jimmy Butler",
+       "Jimmy Butler III"
+      ]
+     },
+     {
+      "display": "Jrue Holiday",
+      "accept": [
+       "Holiday",
+       "Jrue",
+       "Jrue Holiday"
+      ]
+     },
+     {
+      "display": "Julius Randle",
+      "accept": [
+       "Julius",
+       "Julius Randle",
+       "Randle"
+      ]
+     },
+     {
+      "display": "Jusuf Nurkić",
+      "accept": [
+       "Jusuf",
+       "Jusuf Nurkić",
+       "Nurkić"
+      ]
+     },
+     {
+      "display": "Karl-Anthony Towns",
+      "accept": [
+       "Karl-Anthony",
+       "Karl-Anthony Towns",
+       "Towns"
+      ]
+     },
+     {
+      "display": "Kel'el Ware",
+      "accept": [
+       "Kel'el",
+       "Kel'el Ware",
+       "Ware"
+      ]
+     },
+     {
+      "display": "Khris Middleton",
+      "accept": [
+       "Khris",
+       "Khris Middleton",
+       "Middleton"
+      ]
+     },
+     {
+      "display": "Klay Thompson",
+      "accept": [
+       "Klay",
+       "Klay Thompson",
+       "Thompson"
+      ]
+     },
+     {
+      "display": "Kristaps Porziņģis",
+      "accept": [
+       "Kristaps",
+       "Kristaps Porziņģis",
+       "Porziņģis"
+      ]
+     },
+     {
+      "display": "Labaron Philon Jr.",
+      "accept": [
+       "Labaron",
+       "Labaron Philon",
+       "Labaron Philon Jr.",
+       "Philon"
+      ]
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ]
+     },
+     {
+      "display": "LeBron James",
+      "accept": [
+       "James",
+       "LeBron",
+       "LeBron James"
+      ]
+     },
+     {
+      "display": "Lonzo Ball",
+      "accept": [
+       "Ball",
+       "Lonzo",
+       "Lonzo Ball"
+      ]
+     },
+     {
+      "display": "Luka Dončić",
+      "accept": [
+       "Dončić",
+       "Luka",
+       "Luka Dončić"
+      ]
+     },
+     {
+      "display": "Michael Porter Jr.",
+      "accept": [
+       "Michael",
+       "Michael Porter",
+       "Michael Porter Jr.",
+       "Porter"
+      ]
+     },
+     {
+      "display": "Mikal Bridges",
+      "accept": [
+       "Bridges",
+       "Mikal",
+       "Mikal Bridges"
+      ]
+     },
+     {
+      "display": "Mitchell Robinson",
+      "accept": [
+       "Mitchell",
+       "Mitchell Robinson",
+       "Robinson"
+      ]
+     },
+     {
+      "display": "Russell Westbrook",
+      "accept": [
+       "Russell",
+       "Russell Westbrook",
+       "Westbrook"
+      ]
+     },
+     {
+      "display": "Ryan Conwell",
+      "accept": [
+       "Conwell",
+       "Ryan Conwell"
+      ]
+     },
+     {
+      "display": "Shaedon Sharpe",
+      "accept": [
+       "Shaedon",
+       "Shaedon Sharpe",
+       "Sharpe"
+      ]
+     },
+     {
+      "display": "Zaccharie Risacher",
+      "accept": [
+       "Risacher",
+       "Zaccharie",
+       "Zaccharie Risacher"
+      ]
+     },
+     {
+      "display": "Zion Williamson",
+      "accept": [
+       "Williamson",
+       "Zion",
+       "Zion Williamson"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "68c691f9",
+    "text": "Who did Los Chigüires (Libguel) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Anthony Edwards",
+      "accept": [
+       "Anthony Edwards",
+       "Edwards"
+      ]
+     }
+    ],
+    "note": "Round 1, pick 8 overall.",
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "9fbd17cc",
+    "text": "Name a team that lost in the 2023-2024 semifinals.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     },
+     {
+      "display": "Kareem Abdul-Jabong (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "18bb7123",
+    "text": "Name a top-five pick of the 2024 rookie draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Alex Sarr",
+      "accept": [
+       "Alex Sarr",
+       "Sarr"
+      ]
+     },
+     {
+      "display": "Donovan Clingan",
+      "accept": [
+       "Clingan",
+       "Donovan Clingan"
+      ]
+     },
+     {
+      "display": "Ron Holland",
+      "accept": [
+       "Holland",
+       "Ron",
+       "Ron Holland"
+      ]
+     },
+     {
+      "display": "Stephon Castle",
+      "accept": [
+       "Castle",
+       "Stephon",
+       "Stephon Castle"
+      ]
+     },
+     {
+      "display": "Zaccharie Risacher",
+      "accept": [
+       "Risacher",
+       "Zaccharie",
+       "Zaccharie Risacher"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "b22ff45c",
+    "text": "Which team was on the wrong end of the biggest blowout of the 2025-2026 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo"
+     }
+    ],
+    "note": "Lost 147-456 to Los Chigüires (Libguel) in week 17.",
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "18c00577",
+    "text": "Which team posted the highest single-week score of the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Kareem Abdul-Jabong (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     }
+    ],
+    "note": "648 points in week 13.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "54379fff",
+    "text": "Which manager made the most trades during the 2023-2024 season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Luka Deez Nuts (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": "23 trades.",
+    "about": [],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "7f2607d2",
+    "text": "Who did Luka Deez Nuts (Papo) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Luka Dončić",
+      "accept": [
+       "Dončić",
+       "Luka",
+       "Luka Dončić"
+      ]
+     }
+    ],
+    "note": "Round 1, pick 2 overall.",
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "96f65d49",
+    "text": "Who lost in the 2025-2026 championship final?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "f159789f",
+    "text": "Name a first-round pick of the 2024 rookie draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Alex Sarr",
+      "accept": [
+       "Alex Sarr",
+       "Sarr"
+      ]
+     },
+     {
+      "display": "Cody Williams",
+      "accept": [
+       "Cody",
+       "Cody Williams",
+       "Williams"
+      ]
+     },
+     {
+      "display": "Donovan Clingan",
+      "accept": [
+       "Clingan",
+       "Donovan Clingan"
+      ]
+     },
+     {
+      "display": "Kel'el Ware",
+      "accept": [
+       "Kel'el",
+       "Kel'el Ware",
+       "Ware"
+      ]
+     },
+     {
+      "display": "Matas Buzelis",
+      "accept": [
+       "Buzelis",
+       "Matas Buzelis"
+      ]
+     },
+     {
+      "display": "Reed Sheppard",
+      "accept": [
+       "Reed",
+       "Reed Sheppard",
+       "Sheppard"
+      ]
+     },
+     {
+      "display": "Rob Dillingham",
+      "accept": [
+       "Dillingham",
+       "Rob",
+       "Rob Dillingham"
+      ]
+     },
+     {
+      "display": "Ron Holland",
+      "accept": [
+       "Holland",
+       "Ron",
+       "Ron Holland"
+      ]
+     },
+     {
+      "display": "Stephon Castle",
+      "accept": [
+       "Castle",
+       "Stephon",
+       "Stephon Castle"
+      ]
+     },
+     {
+      "display": "Tidjane Salaün",
+      "accept": [
+       "Salaün",
+       "Tidjane",
+       "Tidjane Salaün"
+      ]
+     },
+     {
+      "display": "Zaccharie Risacher",
+      "accept": [
+       "Risacher",
+       "Zaccharie",
+       "Zaccharie Risacher"
+      ]
+     },
+     {
+      "display": "Zach Edey",
+      "accept": [
+       "Edey",
+       "Zach Edey"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "93c32ce3",
+    "text": "Which manager owns the longest single-season winning streak in Das League history?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     }
+    ],
+    "note": "16 straight wins in 2025-2026 (regular season).",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "6cc1e406",
+    "text": "Which team posted the highest single-week score of the 2025-2026 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     }
+    ],
+    "note": "610 points in week 7.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "b4d1034a",
+    "text": "Name a player I Love Dragić (Victor) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Daniel Gafford",
+      "accept": [
+       "Daniel",
+       "Daniel Gafford",
+       "Gafford"
+      ]
+     },
+     {
+      "display": "Draymond Green",
+      "accept": [
+       "Draymond",
+       "Draymond Green",
+       "Green"
+      ]
+     },
+     {
+      "display": "Fred VanVleet",
+      "accept": [
+       "Fred",
+       "Fred VanVleet",
+       "VanVleet"
+      ]
+     },
+     {
+      "display": "Jaylen Wells",
+      "accept": [
+       "Jaylen Wells",
+       "Wells"
+      ]
+     },
+     {
+      "display": "Jonas Valančiūnas",
+      "accept": [
+       "Jonas",
+       "Jonas Valančiūnas",
+       "Valančiūnas"
+      ]
+     },
+     {
+      "display": "Kobe Bufkin",
+      "accept": [
+       "Bufkin",
+       "Kobe",
+       "Kobe Bufkin"
+      ]
+     },
+     {
+      "display": "Nikola Jović",
+      "accept": [
+       "Jović",
+       "Nikola Jović"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "2ceb2bfc",
+    "text": "Who did 2057 Champs (Shueiro) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Chet Holmgren",
+      "accept": [
+       "Chet",
+       "Chet Holmgren",
+       "Holmgren"
+      ]
+     }
+    ],
+    "note": "Round 1, pick 11 overall.",
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "34d8935d",
+    "text": "Name a manager who has made the playoffs in every completed season.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "0dec856c",
+    "text": "Name a top-five pick of the 2025 rookie draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Ace Bailey",
+      "accept": [
+       "Ace",
+       "Ace Bailey",
+       "Bailey"
+      ]
+     },
+     {
+      "display": "Cooper Flagg",
+      "accept": [
+       "Cooper",
+       "Cooper Flagg",
+       "Flagg"
+      ]
+     },
+     {
+      "display": "Dylan Harper",
+      "accept": [
+       "Dylan",
+       "Dylan Harper",
+       "Harper"
+      ]
+     },
+     {
+      "display": "Tre Johnson",
+      "accept": [
+       "Johnson",
+       "Tre Johnson"
+      ]
+     },
+     {
+      "display": "VJ Edgecombe",
+      "accept": [
+       "Edgecombe",
+       "VJ",
+       "VJ Edgecombe"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "c5121da5",
+    "text": "Which manager owns the longest single-season losing streak in Das League history?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo"
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     },
+     {
+      "display": "MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky"
+     }
+    ],
+    "note": "9 straight losses (regular season).",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "c44a62c9",
+    "text": "Who finished last in the 2025-2026 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey"
+     }
+    ],
+    "note": "2-18",
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "2134a3c1",
+    "text": "Which manager has made the fewest trades in Das League history?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor"
+     }
+    ],
+    "note": "6 trades.",
+    "about": [],
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "89c21508",
+    "text": "Who did Equipito PapoChullo (Chalela) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Shai Gilgeous-Alexander",
+      "accept": [
+       "Gilgeous-Alexander",
+       "Shai",
+       "Shai Gilgeous-Alexander"
+      ]
+     }
+    ],
+    "note": "Round 1, pick 9 overall.",
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "94afa254",
+    "text": "Name a team that made the 2025-2026 playoffs.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro"
+     },
+     {
+      "display": "LeBong James 👑 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela"
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "4254c936",
+    "text": "Who made the first overall pick of the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor"
+     }
+    ],
+    "note": "The pick was Nikola Jokić.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "7bf8e137",
+    "text": "Who was the very last pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Tre Mann",
+      "accept": [
+       "Mann",
+       "Tre Mann"
+      ]
+     }
+    ],
+    "note": "Pick 216, taken by I Love Dragić (Victor).",
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "0bc322ce",
+    "text": "Who finished with the best regular-season record in 2025-2026?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     }
+    ],
+    "note": "18-2",
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "48c6f16a",
+    "text": "Name one of the three managers with the most trades in Das League history.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     },
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo"
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "46ab5d05",
+    "text": "Who did Kareem Abdul-Jabong (Melo) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Joel Embiid",
+      "accept": [
+       "Embiid",
+       "Joel",
+       "Joel Embiid"
+      ]
+     }
+    ],
+    "note": "Round 1, pick 7 overall.",
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "f65ca2dc",
+    "text": "Name a manager who has played in a championship final.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "b791da8d",
+    "text": "Who made the first overall pick of the 2026 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     }
+    ],
+    "note": "The pick was Cameron Boozer.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "cf92707a",
+    "text": "Which team lost the closest game of the 2024-2025 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo 2X (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     }
+    ],
+    "note": "Lost by 2 to Fidel’s Accumulators (Joey) in week 3.",
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "88c19d46",
+    "text": "Who finished with the best regular-season record in 2024-2025?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo 2X (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     }
+    ],
+    "note": "14-3",
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "7e5c2367",
+    "text": "Name a player MoonUnit 🦬 (Ricky) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Alperen Şengün",
+      "accept": [
+       "Alperen",
+       "Alperen Şengün",
+       "Şengün"
+      ]
+     },
+     {
+      "display": "Anthony Edwards",
+      "accept": [
+       "Anthony Edwards",
+       "Edwards"
+      ]
+     },
+     {
+      "display": "Bennett Stirtz",
+      "accept": [
+       "Bennett",
+       "Bennett Stirtz",
+       "Stirtz"
+      ]
+     },
+     {
+      "display": "Cade Cunningham",
+      "accept": [
+       "Cade",
+       "Cade Cunningham",
+       "Cunningham"
+      ]
+     },
+     {
+      "display": "Chet Holmgren",
+      "accept": [
+       "Chet",
+       "Chet Holmgren",
+       "Holmgren"
+      ]
+     },
+     {
+      "display": "Clint Capela",
+      "accept": [
+       "Capela",
+       "Clint",
+       "Clint Capela"
+      ]
+     },
+     {
+      "display": "Deni Avdija",
+      "accept": [
+       "Avdija",
+       "Deni",
+       "Deni Avdija"
+      ]
+     },
+     {
+      "display": "Franz Wagner",
+      "accept": [
+       "Franz",
+       "Franz Wagner",
+       "Wagner"
+      ]
+     },
+     {
+      "display": "Hannes Steinbach",
+      "accept": [
+       "Hannes",
+       "Hannes Steinbach",
+       "Steinbach"
+      ]
+     },
+     {
+      "display": "Jalen Green",
+      "accept": [
+       "Green",
+       "Jalen Green"
+      ]
+     },
+     {
+      "display": "Jordan Poole",
+      "accept": [
+       "Jordan Poole",
+       "Poole"
+      ]
+     },
+     {
+      "display": "LaMelo Ball",
+      "accept": [
+       "Ball",
+       "LaMelo",
+       "LaMelo Ball"
+      ]
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ]
+     },
+     {
+      "display": "Mark Williams",
+      "accept": [
+       "Mark",
+       "Mark Williams",
+       "Williams"
+      ]
+     },
+     {
+      "display": "Mikal Bridges",
+      "accept": [
+       "Bridges",
+       "Mikal",
+       "Mikal Bridges"
+      ]
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ]
+     },
+     {
+      "display": "P.J. Washington",
+      "accept": [
+       "P.J.",
+       "P.J. Washington",
+       "Washington"
+      ]
+     },
+     {
+      "display": "Scottie Barnes",
+      "accept": [
+       "Barnes",
+       "Scottie",
+       "Scottie Barnes"
+      ]
+     },
+     {
+      "display": "Tristan Vukcevic",
+      "accept": [
+       "Tristan Vukcevic",
+       "Vukcevic"
+      ]
+     },
+     {
+      "display": "Tyrese Haliburton",
+      "accept": [
+       "Haliburton",
+       "Tyrese Haliburton"
+      ]
+     },
+     {
+      "display": "Victor Wembanyama",
+      "accept": [
+       "Victor",
+       "Victor Wembanyama",
+       "Wembanyama"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "aea37e9c",
+    "text": "Who did I Love Dragić (Victor) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Nikola Jokić",
+      "accept": [
+       "Jokić",
+       "Nikola Jokić"
+      ]
+     }
+    ],
+    "note": "Round 1, pick 1 overall.",
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "6917b67c",
+    "text": "Who won the 2025-2026 championship?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "aecc8f54",
+    "text": "Who made the first overall pick of the 2025 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo"
+     }
+    ],
+    "note": "The pick was Cooper Flagg.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "f2e1cd9a",
+    "text": "Which team put up the lowest single-week score of the 2025-2026 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo"
+     }
+    ],
+    "note": "Just 147 points in week 17.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "9ef1b587",
+    "text": "Who finished last in the 2024-2025 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo"
+     }
+    ],
+    "note": "3-14",
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "d2e0b902",
+    "text": "Name a player Fear the Brow (Papo) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Andrew Nembhard",
+      "accept": [
+       "Andrew Nembhard",
+       "Nembhard"
+      ]
+     },
+     {
+      "display": "Andrew Wiggins",
+      "accept": [
+       "Andrew Wiggins",
+       "Wiggins"
+      ]
+     },
+     {
+      "display": "Anthony Davis",
+      "accept": [
+       "Anthony Davis",
+       "Davis"
+      ]
+     },
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ]
+     },
+     {
+      "display": "Ben Simmons",
+      "accept": [
+       "Ben Simmons",
+       "Simmons"
+      ]
+     },
+     {
+      "display": "Bobby Portis Jr.",
+      "accept": [
+       "Bobby",
+       "Bobby Portis",
+       "Bobby Portis Jr.",
+       "Portis"
+      ]
+     },
+     {
+      "display": "Bogdan Bogdanović",
+      "accept": [
+       "Bogdan",
+       "Bogdan Bogdanović",
+       "Bogdanović"
+      ]
+     },
+     {
+      "display": "Bradley Beal",
+      "accept": [
+       "Beal",
+       "Bradley",
+       "Bradley Beal"
+      ]
+     },
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "Brandon Ingram",
+       "Ingram"
+      ]
+     },
+     {
+      "display": "Brook Lopez",
+      "accept": [
+       "Brook",
+       "Brook Lopez",
+       "Lopez"
+      ]
+     },
+     {
+      "display": "CJ McCollum",
+      "accept": [
+       "CJ",
+       "CJ McCollum",
+       "McCollum"
+      ]
+     },
+     {
+      "display": "Cam Whitmore",
+      "accept": [
+       "Cam Whitmore",
+       "Whitmore"
+      ]
+     },
+     {
+      "display": "Cameron Johnson",
+      "accept": [
+       "Cameron Johnson",
+       "Johnson"
+      ]
+     },
+     {
+      "display": "Caris LeVert",
+      "accept": [
+       "Caris",
+       "Caris LeVert",
+       "LeVert"
+      ]
+     },
+     {
+      "display": "Chet Holmgren",
+      "accept": [
+       "Chet",
+       "Chet Holmgren",
+       "Holmgren"
+      ]
+     },
+     {
+      "display": "Chris Paul",
+      "accept": [
+       "Chris Paul",
+       "Paul"
+      ]
+     },
+     {
+      "display": "Christian Braun",
+      "accept": [
+       "Braun",
+       "Christian Braun"
+      ]
+     },
+     {
+      "display": "D'Angelo Russell",
+      "accept": [
+       "D'Angelo",
+       "D'Angelo Russell",
+       "Russell"
+      ]
+     },
+     {
+      "display": "Dalton Knecht",
+      "accept": [
+       "Dalton",
+       "Dalton Knecht",
+       "Knecht"
+      ]
+     },
+     {
+      "display": "Daniel Gafford",
+      "accept": [
+       "Daniel",
+       "Daniel Gafford",
+       "Gafford"
+      ]
+     },
+     {
+      "display": "DeMar DeRozan",
+      "accept": [
+       "DeMar",
+       "DeMar DeRozan",
+       "DeRozan"
+      ]
+     },
+     {
+      "display": "Deandre Ayton",
+      "accept": [
+       "Ayton",
+       "Deandre",
+       "Deandre Ayton"
+      ]
+     },
+     {
+      "display": "Dejounte Murray",
+      "accept": [
+       "Dejounte",
+       "Dejounte Murray",
+       "Murray"
+      ]
+     },
+     {
+      "display": "Deni Avdija",
+      "accept": [
+       "Avdija",
+       "Deni",
+       "Deni Avdija"
+      ]
+     },
+     {
+      "display": "Dennis Schröder",
+      "accept": [
+       "Dennis",
+       "Dennis Schröder",
+       "Schröder"
+      ]
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "Derrick",
+       "Derrick White",
+       "White"
+      ]
+     },
+     {
+      "display": "Domantas Sabonis",
+      "accept": [
+       "Domantas",
+       "Domantas Sabonis",
+       "Sabonis"
+      ]
+     },
+     {
+      "display": "Donte DiVincenzo",
+      "accept": [
+       "DiVincenzo",
+       "Donte",
+       "Donte DiVincenzo"
+      ]
+     },
+     {
+      "display": "Draymond Green",
+      "accept": [
+       "Draymond",
+       "Draymond Green",
+       "Green"
+      ]
+     },
+     {
+      "display": "Fred VanVleet",
+      "accept": [
+       "Fred",
+       "Fred VanVleet",
+       "VanVleet"
+      ]
+     },
+     {
+      "display": "Giannis Antetokounmpo",
+      "accept": [
+       "Antetokounmpo",
+       "Giannis",
+       "Giannis Antetokounmpo"
+      ]
+     },
+     {
+      "display": "Goga Bitadze",
+      "accept": [
+       "Bitadze",
+       "Goga",
+       "Goga Bitadze"
+      ]
+     },
+     {
+      "display": "Grant Williams",
+      "accept": [
+       "Grant",
+       "Grant Williams",
+       "Williams"
+      ]
+     },
+     {
+      "display": "Hugo González",
+      "accept": [
+       "González",
+       "Hugo",
+       "Hugo González"
+      ]
+     },
+     {
+      "display": "Isaiah Hartenstein",
+      "accept": [
+       "Hartenstein",
+       "Isaiah Hartenstein"
+      ]
+     },
+     {
+      "display": "Ivica Zubac",
+      "accept": [
+       "Ivica",
+       "Ivica Zubac",
+       "Zubac"
+      ]
+     },
+     {
+      "display": "Ja Morant",
+      "accept": [
+       "Ja",
+       "Ja Morant",
+       "Morant"
+      ]
+     },
+     {
+      "display": "Jabari Smith Jr.",
+      "accept": [
+       "Jabari",
+       "Jabari Smith",
+       "Jabari Smith Jr.",
+       "Smith"
+      ]
+     },
+     {
+      "display": "Jaden McDaniels",
+      "accept": [
+       "Jaden McDaniels",
+       "McDaniels"
+      ]
+     },
+     {
+      "display": "Jaime Jaquez Jr.",
+      "accept": [
+       "Jaime",
+       "Jaime Jaquez",
+       "Jaime Jaquez Jr.",
+       "Jaquez"
+      ]
+     },
+     {
+      "display": "Jakob Poeltl",
+      "accept": [
+       "Jakob",
+       "Jakob Poeltl",
+       "Poeltl"
+      ]
+     },
+     {
+      "display": "Jalen Duren",
+      "accept": [
+       "Duren",
+       "Jalen Duren"
+      ]
+     },
+     {
+      "display": "Jalen Green",
+      "accept": [
+       "Green",
+       "Jalen Green"
+      ]
+     },
+     {
+      "display": "Jalen Smith",
+      "accept": [
+       "Jalen Smith",
+       "Smith"
+      ]
+     },
+     {
+      "display": "Jalen Suggs",
+      "accept": [
+       "Jalen Suggs",
+       "Suggs"
+      ]
+     },
+     {
+      "display": "James Harden",
+      "accept": [
+       "Harden",
+       "James Harden"
+      ]
+     },
+     {
+      "display": "Jared McCain",
+      "accept": [
+       "Jared",
+       "Jared McCain",
+       "McCain"
+      ]
+     },
+     {
+      "display": "Jaren Jackson Jr.",
+      "accept": [
+       "Jackson",
+       "Jaren",
+       "Jaren Jackson",
+       "Jaren Jackson Jr."
+      ]
+     },
+     {
+      "display": "Jay Huff",
+      "accept": [
+       "Huff",
+       "Jay",
+       "Jay Huff"
+      ]
+     },
+     {
+      "display": "Jerami Grant",
+      "accept": [
+       "Grant",
+       "Jerami",
+       "Jerami Grant"
+      ]
+     },
+     {
+      "display": "Jimmy Butler III",
+      "accept": [
+       "Butler",
+       "Jimmy",
+       "Jimmy Butler",
+       "Jimmy Butler III"
+      ]
+     },
+     {
+      "display": "Joel Embiid",
+      "accept": [
+       "Embiid",
+       "Joel",
+       "Joel Embiid"
+      ]
+     },
+     {
+      "display": "John Collins",
+      "accept": [
+       "Collins",
+       "John",
+       "John Collins"
+      ]
+     },
+     {
+      "display": "Jonas Valančiūnas",
+      "accept": [
+       "Jonas",
+       "Jonas Valančiūnas",
+       "Valančiūnas"
+      ]
+     },
+     {
+      "display": "Jordan Poole",
+      "accept": [
+       "Jordan Poole",
+       "Poole"
+      ]
+     },
+     {
+      "display": "Jrue Holiday",
+      "accept": [
+       "Holiday",
+       "Jrue",
+       "Jrue Holiday"
+      ]
+     },
+     {
+      "display": "Julius Randle",
+      "accept": [
+       "Julius",
+       "Julius Randle",
+       "Randle"
+      ]
+     },
+     {
+      "display": "Jusuf Nurkić",
+      "accept": [
+       "Jusuf",
+       "Jusuf Nurkić",
+       "Nurkić"
+      ]
+     },
+     {
+      "display": "Karl-Anthony Towns",
+      "accept": [
+       "Karl-Anthony",
+       "Karl-Anthony Towns",
+       "Towns"
+      ]
+     },
+     {
+      "display": "Kel'el Ware",
+      "accept": [
+       "Kel'el",
+       "Kel'el Ware",
+       "Ware"
+      ]
+     },
+     {
+      "display": "Keldon Johnson",
+      "accept": [
+       "Johnson",
+       "Keldon",
+       "Keldon Johnson"
+      ]
+     },
+     {
+      "display": "Keyonte George",
+      "accept": [
+       "George",
+       "Keyonte",
+       "Keyonte George"
+      ]
+     },
+     {
+      "display": "Khris Middleton",
+      "accept": [
+       "Khris",
+       "Khris Middleton",
+       "Middleton"
+      ]
+     },
+     {
+      "display": "Klay Thompson",
+      "accept": [
+       "Klay",
+       "Klay Thompson",
+       "Thompson"
+      ]
+     },
+     {
+      "display": "Kristaps Porziņģis",
+      "accept": [
+       "Kristaps",
+       "Kristaps Porziņģis",
+       "Porziņģis"
+      ]
+     },
+     {
+      "display": "Kyle Filipowski",
+      "accept": [
+       "Filipowski",
+       "Kyle Filipowski"
+      ]
+     },
+     {
+      "display": "Kyle Kuzma",
+      "accept": [
+       "Kuzma",
+       "Kyle Kuzma"
+      ]
+     },
+     {
+      "display": "LaMelo Ball",
+      "accept": [
+       "Ball",
+       "LaMelo",
+       "LaMelo Ball"
+      ]
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ]
+     },
+     {
+      "display": "LeBron James",
+      "accept": [
+       "James",
+       "LeBron",
+       "LeBron James"
+      ]
+     },
+     {
+      "display": "Luka Dončić",
+      "accept": [
+       "Dončić",
+       "Luka",
+       "Luka Dončić"
+      ]
+     },
+     {
+      "display": "Mason Plumlee",
+      "accept": [
+       "Mason",
+       "Mason Plumlee",
+       "Plumlee"
+      ]
+     },
+     {
+      "display": "Max Strus",
+      "accept": [
+       "Max Strus",
+       "Strus"
+      ]
+     },
+     {
+      "display": "Michael Porter Jr.",
+      "accept": [
+       "Michael",
+       "Michael Porter",
+       "Michael Porter Jr.",
+       "Porter"
+      ]
+     },
+     {
+      "display": "Mikal Bridges",
+      "accept": [
+       "Bridges",
+       "Mikal",
+       "Mikal Bridges"
+      ]
+     },
+     {
+      "display": "Miles Bridges",
+      "accept": [
+       "Bridges",
+       "Miles",
+       "Miles Bridges"
+      ]
+     },
+     {
+      "display": "Mitchell Robinson",
+      "accept": [
+       "Mitchell",
+       "Mitchell Robinson",
+       "Robinson"
+      ]
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ]
+     },
+     {
+      "display": "Nic Claxton",
+      "accept": [
+       "Claxton",
+       "Nic",
+       "Nic Claxton"
+      ]
+     },
+     {
+      "display": "Nikola Jović",
+      "accept": [
+       "Jović",
+       "Nikola Jović"
+      ]
+     },
+     {
+      "display": "Nikola Topić",
+      "accept": [
+       "Nikola Topić",
+       "Topić"
+      ]
+     },
+     {
+      "display": "OG Anunoby",
+      "accept": [
+       "Anunoby",
+       "OG",
+       "OG Anunoby"
+      ]
+     },
+     {
+      "display": "Obi Toppin",
+      "accept": [
+       "Obi",
+       "Obi Toppin",
+       "Toppin"
+      ]
+     },
+     {
+      "display": "P.J. Washington",
+      "accept": [
+       "P.J.",
+       "P.J. Washington",
+       "Washington"
+      ]
+     },
+     {
+      "display": "Pascal Siakam",
+      "accept": [
+       "Pascal",
+       "Pascal Siakam",
+       "Siakam"
+      ]
+     },
+     {
+      "display": "Paul George",
+      "accept": [
+       "George",
+       "Paul George"
+      ]
+     },
+     {
+      "display": "Payton Pritchard",
+      "accept": [
+       "Payton",
+       "Payton Pritchard",
+       "Pritchard"
+      ]
+     },
+     {
+      "display": "Precious Achiuwa",
+      "accept": [
+       "Achiuwa",
+       "Precious",
+       "Precious Achiuwa"
+      ]
+     },
+     {
+      "display": "Quenton Jackson",
+      "accept": [
+       "Jackson",
+       "Quenton",
+       "Quenton Jackson"
+      ]
+     },
+     {
+      "display": "RJ Barrett",
+      "accept": [
+       "Barrett",
+       "RJ Barrett"
+      ]
+     },
+     {
+      "display": "Rob Dillingham",
+      "accept": [
+       "Dillingham",
+       "Rob",
+       "Rob Dillingham"
+      ]
+     },
+     {
+      "display": "Robert Williams III",
+      "accept": [
+       "Robert",
+       "Robert Williams",
+       "Robert Williams III",
+       "Williams"
+      ]
+     },
+     {
+      "display": "Ronald Holland II",
+      "accept": [
+       "Holland",
+       "Ronald",
+       "Ronald Holland",
+       "Ronald Holland II"
+      ]
+     },
+     {
+      "display": "Russell Westbrook",
+      "accept": [
+       "Russell",
+       "Russell Westbrook",
+       "Westbrook"
+      ]
+     },
+     {
+      "display": "Ryan Conwell",
+      "accept": [
+       "Conwell",
+       "Ryan Conwell"
+      ]
+     },
+     {
+      "display": "Ryan Kalkbrenner",
+      "accept": [
+       "Kalkbrenner",
+       "Ryan Kalkbrenner"
+      ]
+     },
+     {
+      "display": "Scoot Henderson",
+      "accept": [
+       "Henderson",
+       "Scoot",
+       "Scoot Henderson"
+      ]
+     },
+     {
+      "display": "Shaedon Sharpe",
+      "accept": [
+       "Shaedon",
+       "Shaedon Sharpe",
+       "Sharpe"
+      ]
+     },
+     {
+      "display": "Stephen Curry",
+      "accept": [
+       "Curry",
+       "Stephen",
+       "Stephen Curry"
+      ]
+     },
+     {
+      "display": "Stephon Castle",
+      "accept": [
+       "Castle",
+       "Stephon",
+       "Stephon Castle"
+      ]
+     },
+     {
+      "display": "Tidjane Salaün",
+      "accept": [
+       "Salaün",
+       "Tidjane",
+       "Tidjane Salaün"
+      ]
+     },
+     {
+      "display": "Tobias Harris",
+      "accept": [
+       "Harris",
+       "Tobias",
+       "Tobias Harris"
+      ]
+     },
+     {
+      "display": "Tre Jones",
+      "accept": [
+       "Jones",
+       "Tre Jones"
+      ]
+     },
+     {
+      "display": "Trey Murphy III",
+      "accept": [
+       "Murphy",
+       "Trey",
+       "Trey Murphy",
+       "Trey Murphy III"
+      ]
+     },
+     {
+      "display": "Yves Missi",
+      "accept": [
+       "Missi",
+       "Yves",
+       "Yves Missi"
+      ]
+     },
+     {
+      "display": "Zaccharie Risacher",
+      "accept": [
+       "Risacher",
+       "Zaccharie",
+       "Zaccharie Risacher"
+      ]
+     },
+     {
+      "display": "Zach Edey",
+      "accept": [
+       "Edey",
+       "Zach Edey"
+      ]
+     },
+     {
+      "display": "Zach LaVine",
+      "accept": [
+       "LaVine",
+       "Zach LaVine"
+      ]
+     },
+     {
+      "display": "Zion Williamson",
+      "accept": [
+       "Williamson",
+       "Zion",
+       "Zion Williamson"
+      ]
+     },
+     {
+      "display": "Zuby Ejiofor",
+      "accept": [
+       "Ejiofor",
+       "Zuby",
+       "Zuby Ejiofor"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1f6325f2",
+    "text": "Name one of the first five players Luka Deez Nuts (Papo) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Damian Lillard",
+      "accept": [
+       "Damian",
+       "Damian Lillard",
+       "Lillard"
+      ]
+     },
+     {
+      "display": "Deandre Ayton",
+      "accept": [
+       "Ayton",
+       "Deandre",
+       "Deandre Ayton"
+      ]
+     },
+     {
+      "display": "Kevin Durant",
+      "accept": [
+       "Durant",
+       "Kevin Durant"
+      ]
+     },
+     {
+      "display": "Kristaps Porziņģis",
+      "accept": [
+       "Kristaps",
+       "Kristaps Porziņģis",
+       "Porziņģis"
+      ]
+     },
+     {
+      "display": "Luka Dončić",
+      "accept": [
+       "Dončić",
+       "Luka",
+       "Luka Dončić"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "43abef42",
+    "text": "Name a manager who has never made the playoffs.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky"
+     },
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo"
+     },
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "manager": "verdeja"
+     }
+    ],
+    "note": "Through 2025-2026.",
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "5d9b2ab9",
+    "text": "Who was the first overall pick of the 2025 rookie draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Cooper Flagg",
+      "accept": [
+       "Cooper",
+       "Cooper Flagg",
+       "Flagg"
+      ]
+     }
+    ],
+    "note": "Taken by hotrelish (Jacobo).",
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "f82a4346",
+    "text": "Only one regular-season game in Das League history has ended in a tie. Name either manager involved.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey"
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro"
+     }
+    ],
+    "note": "474-474 in week 17 of 2023-2024.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "5b2778b8",
+    "text": "How many regular-season wins did the 2023-2024 champion, Rabbi BT69 (Blandon), have?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "12",
+      "accept": [
+       "12"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "blandon"
+    ],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "0e0208c3",
+    "text": "Which manager made the most trades during the 2025-2026 season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": "30 trades.",
+    "about": [],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "d292de64",
+    "text": "Name one of the first five players Saboners (Verdeja) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Domantas Sabonis",
+      "accept": [
+       "Domantas",
+       "Domantas Sabonis",
+       "Sabonis"
+      ]
+     },
+     {
+      "display": "Mikal Bridges",
+      "accept": [
+       "Bridges",
+       "Mikal",
+       "Mikal Bridges"
+      ]
+     },
+     {
+      "display": "Paolo Banchero",
+      "accept": [
+       "Banchero",
+       "Paolo",
+       "Paolo Banchero"
+      ]
+     },
+     {
+      "display": "Tyrese Maxey",
+      "accept": [
+       "Maxey",
+       "Tyrese Maxey"
+      ]
+     },
+     {
+      "display": "Zach LaVine",
+      "accept": [
+       "LaVine",
+       "Zach LaVine"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "bbf11da0",
+    "text": "Name a team that made the 2023-2024 playoffs.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     },
+     {
+      "display": "Kareem Abdul-Jabong (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey"
+     },
+     {
+      "display": "Luka Deez Nuts (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "73e7540a",
+    "text": "Who was the first overall pick of the 2026 rookie draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Cameron Boozer",
+      "accept": [
+       "Boozer",
+       "Cameron Boozer"
+      ]
+     }
+    ],
+    "note": "Taken by Rabbi BT69 (Blandon).",
+    "about": [
+     "blandon"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "5af78687",
+    "text": "Whose team was once called \"Kareem Abdul-Jabong\"?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     }
+    ],
+    "note": "That was the name in 2023-2024.",
+    "about": [],
+    "sources": [
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "66bedc27",
+    "text": "How many regular-season wins did the 2024-2025 champion, Joel Embong? 😓 (Melo), have?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "11",
+      "accept": [
+       "11"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "57499f79",
+    "text": "Name a player Los Chigüires (Libguel) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "Brandon Ingram",
+       "Ingram"
+      ]
+     },
+     {
+      "display": "Cam Whitmore",
+      "accept": [
+       "Cam Whitmore",
+       "Whitmore"
+      ]
+     },
+     {
+      "display": "Dalton Knecht",
+      "accept": [
+       "Dalton",
+       "Dalton Knecht",
+       "Knecht"
+      ]
+     },
+     {
+      "display": "Darius Garland",
+      "accept": [
+       "Darius Garland",
+       "Garland"
+      ]
+     },
+     {
+      "display": "Devin Vassell",
+      "accept": [
+       "Devin Vassell",
+       "Vassell"
+      ]
+     },
+     {
+      "display": "Domantas Sabonis",
+      "accept": [
+       "Domantas",
+       "Domantas Sabonis",
+       "Sabonis"
+      ]
+     },
+     {
+      "display": "Evan Mobley",
+      "accept": [
+       "Evan",
+       "Evan Mobley",
+       "Mobley"
+      ]
+     },
+     {
+      "display": "Isaiah Hartenstein",
+      "accept": [
+       "Hartenstein",
+       "Isaiah Hartenstein"
+      ]
+     },
+     {
+      "display": "Jabari Smith Jr.",
+      "accept": [
+       "Jabari",
+       "Jabari Smith",
+       "Jabari Smith Jr.",
+       "Smith"
+      ]
+     },
+     {
+      "display": "Jalen Suggs",
+      "accept": [
+       "Jalen Suggs",
+       "Suggs"
+      ]
+     },
+     {
+      "display": "Leonard Miller",
+      "accept": [
+       "Leonard",
+       "Leonard Miller",
+       "Miller"
+      ]
+     },
+     {
+      "display": "Michael Porter Jr.",
+      "accept": [
+       "Michael",
+       "Michael Porter",
+       "Michael Porter Jr.",
+       "Porter"
+      ]
+     },
+     {
+      "display": "Nic Claxton",
+      "accept": [
+       "Claxton",
+       "Nic",
+       "Nic Claxton"
+      ]
+     },
+     {
+      "display": "Shaedon Sharpe",
+      "accept": [
+       "Shaedon",
+       "Shaedon Sharpe",
+       "Sharpe"
+      ]
+     },
+     {
+      "display": "Tidjane Salaün",
+      "accept": [
+       "Salaün",
+       "Tidjane",
+       "Tidjane Salaün"
+      ]
+     },
+     {
+      "display": "Tyrese Haliburton",
+      "accept": [
+       "Haliburton",
+       "Tyrese Haliburton"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "8a62e918",
+    "text": "Name one of the first five players 2057 Champs (Shueiro) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Alperen Şengün",
+      "accept": [
+       "Alperen",
+       "Alperen Şengün",
+       "Şengün"
+      ]
+     },
+     {
+      "display": "Cade Cunningham",
+      "accept": [
+       "Cade",
+       "Cade Cunningham",
+       "Cunningham"
+      ]
+     },
+     {
+      "display": "Chet Holmgren",
+      "accept": [
+       "Chet",
+       "Chet Holmgren",
+       "Holmgren"
+      ]
+     },
+     {
+      "display": "Darius Garland",
+      "accept": [
+       "Darius Garland",
+       "Garland"
+      ]
+     },
+     {
+      "display": "Jalen Green",
+      "accept": [
+       "Green",
+       "Jalen Green"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "014430f4",
+    "text": "Name a team that missed the 2025-2026 playoffs.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "manager": "verdeja"
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor"
+     },
+     {
+      "display": "MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky"
+     },
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo"
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "88e52e4d",
+    "text": "Name a player taken in the first round of the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Anthony Edwards",
+      "accept": [
+       "Anthony Edwards",
+       "Edwards"
+      ]
+     },
+     {
+      "display": "Chet Holmgren",
+      "accept": [
+       "Chet",
+       "Chet Holmgren",
+       "Holmgren"
+      ]
+     },
+     {
+      "display": "Domantas Sabonis",
+      "accept": [
+       "Domantas",
+       "Domantas Sabonis",
+       "Sabonis"
+      ]
+     },
+     {
+      "display": "Giannis Antetokounmpo",
+      "accept": [
+       "Antetokounmpo",
+       "Giannis",
+       "Giannis Antetokounmpo"
+      ]
+     },
+     {
+      "display": "Jayson Tatum",
+      "accept": [
+       "Jayson",
+       "Jayson Tatum",
+       "Tatum"
+      ]
+     },
+     {
+      "display": "Joel Embiid",
+      "accept": [
+       "Embiid",
+       "Joel",
+       "Joel Embiid"
+      ]
+     },
+     {
+      "display": "LaMelo Ball",
+      "accept": [
+       "Ball",
+       "LaMelo",
+       "LaMelo Ball"
+      ]
+     },
+     {
+      "display": "Luka Dončić",
+      "accept": [
+       "Dončić",
+       "Luka",
+       "Luka Dončić"
+      ]
+     },
+     {
+      "display": "Nikola Jokić",
+      "accept": [
+       "Jokić",
+       "Nikola Jokić"
+      ]
+     },
+     {
+      "display": "Shai Gilgeous-Alexander",
+      "accept": [
+       "Gilgeous-Alexander",
+       "Shai",
+       "Shai Gilgeous-Alexander"
+      ]
+     },
+     {
+      "display": "Tyrese Haliburton",
+      "accept": [
+       "Haliburton",
+       "Tyrese Haliburton"
+      ]
+     },
+     {
+      "display": "Victor Wembanyama",
+      "accept": [
+       "Victor",
+       "Victor Wembanyama",
+       "Wembanyama"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "8475570c",
+    "text": "Which team put up the lowest single-week score of the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "MoonUnit (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky"
+     }
+    ],
+    "note": "Just 243 points in week 16.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "7409edfd",
+    "text": "Name a team that finished the 2025-2026 regular season with a winning record.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro"
+     },
+     {
+      "display": "LeBong James 👑 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "7aead655",
+    "text": "Name a player who has been traded at least 6 times in Das League.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "Brandon Ingram",
+       "Ingram"
+      ]
+     },
+     {
+      "display": "Chris Paul",
+      "accept": [
+       "Chris Paul",
+       "Paul"
+      ]
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "Derrick",
+       "Derrick White",
+       "White"
+      ]
+     },
+     {
+      "display": "Jalen Suggs",
+      "accept": [
+       "Jalen Suggs",
+       "Suggs"
+      ]
+     },
+     {
+      "display": "Jimmy Butler III",
+      "accept": [
+       "Butler",
+       "Jimmy",
+       "Jimmy Butler",
+       "Jimmy Butler III"
+      ]
+     },
+     {
+      "display": "Julius Randle",
+      "accept": [
+       "Julius",
+       "Julius Randle",
+       "Randle"
+      ]
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ]
+     },
+     {
+      "display": "Michael Porter Jr.",
+      "accept": [
+       "Michael",
+       "Michael Porter",
+       "Michael Porter Jr.",
+       "Porter"
+      ]
+     },
+     {
+      "display": "Mikal Bridges",
+      "accept": [
+       "Bridges",
+       "Mikal",
+       "Mikal Bridges"
+      ]
+     },
+     {
+      "display": "Miles Bridges",
+      "accept": [
+       "Bridges",
+       "Miles",
+       "Miles Bridges"
+      ]
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ]
+     },
+     {
+      "display": "Paul George",
+      "accept": [
+       "George",
+       "Paul George"
+      ]
+     },
+     {
+      "display": "Stephen Curry",
+      "accept": [
+       "Curry",
+       "Stephen",
+       "Stephen Curry"
+      ]
+     },
+     {
+      "display": "Tyrese Haliburton",
+      "accept": [
+       "Haliburton",
+       "Tyrese Haliburton"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "d1dfa910",
+    "text": "Name one of the first five players Rabbi BT69 (Blandon) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ]
+     },
+     {
+      "display": "Giannis Antetokounmpo",
+      "accept": [
+       "Antetokounmpo",
+       "Giannis",
+       "Giannis Antetokounmpo"
+      ]
+     },
+     {
+      "display": "Jalen Williams",
+      "accept": [
+       "Jalen Williams",
+       "Williams"
+      ]
+     },
+     {
+      "display": "Karl-Anthony Towns",
+      "accept": [
+       "Karl-Anthony",
+       "Karl-Anthony Towns",
+       "Towns"
+      ]
+     },
+     {
+      "display": "OG Anunoby",
+      "accept": [
+       "Anunoby",
+       "OG",
+       "OG Anunoby"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "blandon"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "91e22676",
+    "text": "Who won the 2024-2025 championship?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Joel Embong? 😓 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "1cacfaa6",
+    "text": "Who was the first overall pick of the 2024 rookie draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Alex Sarr",
+      "accept": [
+       "Alex Sarr",
+       "Sarr"
+      ]
+     }
+    ],
+    "note": "Taken by Los Chigüires (Libguel).",
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "553cb6fc",
+    "text": "Which team scored the most points in a loss during the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     }
+    ],
+    "note": "533 points in week 15, and still lost to Luka Deez Nuts (Papo).",
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "816e6f1d",
+    "text": "Name one of the three highest-scoring teams of the 2024-2025 regular season.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Joel Embong? 😓 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     },
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela"
+     },
+     {
+      "display": "Equipo Winchenzo 2X (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "82483ad7",
+    "text": "Name a player 2057 Champs (Shueiro) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Alperen Şengün",
+      "accept": [
+       "Alperen",
+       "Alperen Şengün",
+       "Şengün"
+      ]
+     },
+     {
+      "display": "Amen Thompson",
+      "accept": [
+       "Amen",
+       "Amen Thompson",
+       "Thompson"
+      ]
+     },
+     {
+      "display": "Anthony Black",
+      "accept": [
+       "Anthony Black",
+       "Black"
+      ]
+     },
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ]
+     },
+     {
+      "display": "Bobby Portis Jr.",
+      "accept": [
+       "Bobby",
+       "Bobby Portis",
+       "Bobby Portis Jr.",
+       "Portis"
+      ]
+     },
+     {
+      "display": "Bradley Beal",
+      "accept": [
+       "Beal",
+       "Bradley",
+       "Bradley Beal"
+      ]
+     },
+     {
+      "display": "Brandin Podziemski",
+      "accept": [
+       "Brandin",
+       "Brandin Podziemski",
+       "Podziemski"
+      ]
+     },
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "Brandon Ingram",
+       "Ingram"
+      ]
+     },
+     {
+      "display": "Brandon Miller",
+      "accept": [
+       "Brandon Miller",
+       "Miller"
+      ]
+     },
+     {
+      "display": "Cameron Johnson",
+      "accept": [
+       "Cameron Johnson",
+       "Johnson"
+      ]
+     },
+     {
+      "display": "Chet Holmgren",
+      "accept": [
+       "Chet",
+       "Chet Holmgren",
+       "Holmgren"
+      ]
+     },
+     {
+      "display": "Christian Braun",
+      "accept": [
+       "Braun",
+       "Christian Braun"
+      ]
+     },
+     {
+      "display": "Deni Avdija",
+      "accept": [
+       "Avdija",
+       "Deni",
+       "Deni Avdija"
+      ]
+     },
+     {
+      "display": "Giannis Antetokounmpo",
+      "accept": [
+       "Antetokounmpo",
+       "Giannis",
+       "Giannis Antetokounmpo"
+      ]
+     },
+     {
+      "display": "Immanuel Quickley",
+      "accept": [
+       "Immanuel",
+       "Immanuel Quickley",
+       "Quickley"
+      ]
+     },
+     {
+      "display": "Jaden McDaniels",
+      "accept": [
+       "Jaden McDaniels",
+       "McDaniels"
+      ]
+     },
+     {
+      "display": "Jaime Jaquez Jr.",
+      "accept": [
+       "Jaime",
+       "Jaime Jaquez",
+       "Jaime Jaquez Jr.",
+       "Jaquez"
+      ]
+     },
+     {
+      "display": "Jalen Suggs",
+      "accept": [
+       "Jalen Suggs",
+       "Suggs"
+      ]
+     },
+     {
+      "display": "Jalen Williams",
+      "accept": [
+       "Jalen Williams",
+       "Williams"
+      ]
+     },
+     {
+      "display": "Jimmy Butler III",
+      "accept": [
+       "Butler",
+       "Jimmy",
+       "Jimmy Butler",
+       "Jimmy Butler III"
+      ]
+     },
+     {
+      "display": "Jonathan Kuminga",
+      "accept": [
+       "Jonathan Kuminga",
+       "Kuminga"
+      ]
+     },
+     {
+      "display": "Klay Thompson",
+      "accept": [
+       "Klay",
+       "Klay Thompson",
+       "Thompson"
+      ]
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ]
+     },
+     {
+      "display": "Mikal Bridges",
+      "accept": [
+       "Bridges",
+       "Mikal",
+       "Mikal Bridges"
+      ]
+     },
+     {
+      "display": "Miles Bridges",
+      "accept": [
+       "Bridges",
+       "Miles",
+       "Miles Bridges"
+      ]
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ]
+     },
+     {
+      "display": "Onyeka Okongwu",
+      "accept": [
+       "Okongwu",
+       "Onyeka",
+       "Onyeka Okongwu"
+      ]
+     },
+     {
+      "display": "P.J. Washington",
+      "accept": [
+       "P.J.",
+       "P.J. Washington",
+       "Washington"
+      ]
+     },
+     {
+      "display": "Payton Pritchard",
+      "accept": [
+       "Payton",
+       "Payton Pritchard",
+       "Pritchard"
+      ]
+     },
+     {
+      "display": "Ronald Holland II",
+      "accept": [
+       "Holland",
+       "Ronald",
+       "Ronald Holland",
+       "Ronald Holland II"
+      ]
+     },
+     {
+      "display": "Stephon Castle",
+      "accept": [
+       "Castle",
+       "Stephon",
+       "Stephon Castle"
+      ]
+     },
+     {
+      "display": "Tari Eason",
+      "accept": [
+       "Eason",
+       "Tari",
+       "Tari Eason"
+      ]
+     },
+     {
+      "display": "Victor Wembanyama",
+      "accept": [
+       "Victor",
+       "Victor Wembanyama",
+       "Wembanyama"
+      ]
+     },
+     {
+      "display": "Walter Clayton Jr.",
+      "accept": [
+       "Clayton",
+       "Walter",
+       "Walter Clayton",
+       "Walter Clayton Jr."
+      ]
+     },
+     {
+      "display": "Zaccharie Risacher",
+      "accept": [
+       "Risacher",
+       "Zaccharie",
+       "Zaccharie Risacher"
+      ]
+     },
+     {
+      "display": "Zach Edey",
+      "accept": [
+       "Edey",
+       "Zach Edey"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "766fb303",
+    "text": "Name one of the first five players Equipito PapoChullo (Chalela) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Desmond Bane",
+      "accept": [
+       "Bane",
+       "Desmond",
+       "Desmond Bane"
+      ]
+     },
+     {
+      "display": "Jabari Smith Jr.",
+      "accept": [
+       "Jabari",
+       "Jabari Smith",
+       "Jabari Smith Jr.",
+       "Smith"
+      ]
+     },
+     {
+      "display": "Jalen Brunson",
+      "accept": [
+       "Brunson",
+       "Jalen Brunson"
+      ]
+     },
+     {
+      "display": "Shai Gilgeous-Alexander",
+      "accept": [
+       "Gilgeous-Alexander",
+       "Shai",
+       "Shai Gilgeous-Alexander"
+      ]
+     },
+     {
+      "display": "Trae Young",
+      "accept": [
+       "Trae",
+       "Trae Young",
+       "Young"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "c07a7d0d",
+    "text": "Name a manager who has lost a championship final.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "2d1ec91f",
+    "text": "Name a top-five pick of the 2026 rookie draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "AJ Dybantsa",
+      "accept": [
+       "AJ Dybantsa",
+       "Dybantsa"
+      ]
+     },
+     {
+      "display": "Caleb Wilson",
+      "accept": [
+       "Caleb",
+       "Caleb Wilson",
+       "Wilson"
+      ]
+     },
+     {
+      "display": "Cameron Boozer",
+      "accept": [
+       "Boozer",
+       "Cameron Boozer"
+      ]
+     },
+     {
+      "display": "Darius Acuff Jr.",
+      "accept": [
+       "Acuff",
+       "Darius Acuff",
+       "Darius Acuff Jr."
+      ]
+     },
+     {
+      "display": "Darryn Peterson",
+      "accept": [
+       "Darryn",
+       "Darryn Peterson",
+       "Peterson"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "35d43704",
+    "text": "Which manager has traded for Derrick White 5 separate times?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "cb7136c2",
+    "text": "Which team posted the highest single-week score of the 2024-2025 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Joel Embong? 😓 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     }
+    ],
+    "note": "601 points in week 9.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "0e89ea09",
+    "text": "Name a player Antetokounmpers (Verdeja) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Andrew Wiggins",
+      "accept": [
+       "Andrew Wiggins",
+       "Wiggins"
+      ]
+     },
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ]
+     },
+     {
+      "display": "Brook Lopez",
+      "accept": [
+       "Brook",
+       "Brook Lopez",
+       "Lopez"
+      ]
+     },
+     {
+      "display": "Cam Whitmore",
+      "accept": [
+       "Cam Whitmore",
+       "Whitmore"
+      ]
+     },
+     {
+      "display": "Cameron Johnson",
+      "accept": [
+       "Cameron Johnson",
+       "Johnson"
+      ]
+     },
+     {
+      "display": "Chris Paul",
+      "accept": [
+       "Chris Paul",
+       "Paul"
+      ]
+     },
+     {
+      "display": "DeMar DeRozan",
+      "accept": [
+       "DeMar",
+       "DeMar DeRozan",
+       "DeRozan"
+      ]
+     },
+     {
+      "display": "Deandre Ayton",
+      "accept": [
+       "Ayton",
+       "Deandre",
+       "Deandre Ayton"
+      ]
+     },
+     {
+      "display": "Donovan Mitchell",
+      "accept": [
+       "Donovan Mitchell",
+       "Mitchell"
+      ]
+     },
+     {
+      "display": "Donte DiVincenzo",
+      "accept": [
+       "DiVincenzo",
+       "Donte",
+       "Donte DiVincenzo"
+      ]
+     },
+     {
+      "display": "Giannis Antetokounmpo",
+      "accept": [
+       "Antetokounmpo",
+       "Giannis",
+       "Giannis Antetokounmpo"
+      ]
+     },
+     {
+      "display": "Jaime Jaquez Jr.",
+      "accept": [
+       "Jaime",
+       "Jaime Jaquez",
+       "Jaime Jaquez Jr.",
+       "Jaquez"
+      ]
+     },
+     {
+      "display": "Jalen Duren",
+      "accept": [
+       "Duren",
+       "Jalen Duren"
+      ]
+     },
+     {
+      "display": "Jimmy Butler III",
+      "accept": [
+       "Butler",
+       "Jimmy",
+       "Jimmy Butler",
+       "Jimmy Butler III"
+      ]
+     },
+     {
+      "display": "John Collins",
+      "accept": [
+       "Collins",
+       "John",
+       "John Collins"
+      ]
+     },
+     {
+      "display": "Jordan Poole",
+      "accept": [
+       "Jordan Poole",
+       "Poole"
+      ]
+     },
+     {
+      "display": "Keyonte George",
+      "accept": [
+       "George",
+       "Keyonte",
+       "Keyonte George"
+      ]
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ]
+     },
+     {
+      "display": "Nickeil Alexander-Walker",
+      "accept": [
+       "Alexander-Walker",
+       "Nickeil",
+       "Nickeil Alexander-Walker"
+      ]
+     },
+     {
+      "display": "Paul George",
+      "accept": [
+       "George",
+       "Paul George"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "72beee10",
+    "text": "Name one of the first five players MoonUnit (Ricky) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Anfernee Simons",
+      "accept": [
+       "Anfernee",
+       "Anfernee Simons",
+       "Simons"
+      ]
+     },
+     {
+      "display": "De'Aaron Fox",
+      "accept": [
+       "De'Aaron",
+       "De'Aaron Fox",
+       "Fox"
+      ]
+     },
+     {
+      "display": "Jaylen Brown",
+      "accept": [
+       "Brown",
+       "Jaylen Brown"
+      ]
+     },
+     {
+      "display": "Tyler Herro",
+      "accept": [
+       "Herro",
+       "Tyler Herro"
+      ]
+     },
+     {
+      "display": "Victor Wembanyama",
+      "accept": [
+       "Victor",
+       "Victor Wembanyama",
+       "Wembanyama"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "a37510d7",
+    "text": "Name a team that made the 2024-2025 playoffs.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo 2X (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     },
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela"
+     },
+     {
+      "display": "Rabbi Repeat BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     },
+     {
+      "display": "Joel Embong? 😓 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor"
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "d7971039",
+    "text": "Who made the first overall pick of the 2024 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     }
+    ],
+    "note": "The pick was Alex Sarr.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "c57775d0",
+    "text": "Which team scored the most points in a loss during the 2024-2025 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Joel Embong? 😓 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     }
+    ],
+    "note": "549 points in week 14, and still lost to I Love Dragić (Victor).",
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "14d590f4",
+    "text": "Who scored the fewest points in the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "712f859a",
+    "text": "Name a player Lochte & Associates (Chalela) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Caris LeVert",
+      "accept": [
+       "Caris",
+       "Caris LeVert",
+       "LeVert"
+      ]
+     },
+     {
+      "display": "Dennis Schröder",
+      "accept": [
+       "Dennis",
+       "Dennis Schröder",
+       "Schröder"
+      ]
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "Derrick",
+       "Derrick White",
+       "White"
+      ]
+     },
+     {
+      "display": "Goga Bitadze",
+      "accept": [
+       "Bitadze",
+       "Goga",
+       "Goga Bitadze"
+      ]
+     },
+     {
+      "display": "Kyle Kuzma",
+      "accept": [
+       "Kuzma",
+       "Kyle Kuzma"
+      ]
+     },
+     {
+      "display": "Max Christie",
+      "accept": [
+       "Christie",
+       "Max Christie"
+      ]
+     },
+     {
+      "display": "Neemias Queta",
+      "accept": [
+       "Neemias",
+       "Neemias Queta",
+       "Queta"
+      ]
+     },
+     {
+      "display": "Rui Hachimura",
+      "accept": [
+       "Hachimura",
+       "Rui",
+       "Rui Hachimura"
+      ]
+     },
+     {
+      "display": "Scotty Pippen Jr.",
+      "accept": [
+       "Pippen",
+       "Scotty",
+       "Scotty Pippen",
+       "Scotty Pippen Jr."
+      ]
+     },
+     {
+      "display": "Stephen Curry",
+      "accept": [
+       "Curry",
+       "Stephen",
+       "Stephen Curry"
+      ]
+     },
+     {
+      "display": "Tobias Harris",
+      "accept": [
+       "Harris",
+       "Tobias",
+       "Tobias Harris"
+      ]
+     },
+     {
+      "display": "Tre Jones",
+      "accept": [
+       "Jones",
+       "Tre Jones"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "93792bfd",
+    "text": "Name one of the first five players Equipo Winchenzo (Winch) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Devin Booker",
+      "accept": [
+       "Booker",
+       "Devin Booker"
+      ]
+     },
+     {
+      "display": "James Harden",
+      "accept": [
+       "Harden",
+       "James Harden"
+      ]
+     },
+     {
+      "display": "Jayson Tatum",
+      "accept": [
+       "Jayson",
+       "Jayson Tatum",
+       "Tatum"
+      ]
+     },
+     {
+      "display": "Kawhi Leonard",
+      "accept": [
+       "Kawhi",
+       "Kawhi Leonard",
+       "Leonard"
+      ]
+     },
+     {
+      "display": "Stephen Curry",
+      "accept": [
+       "Curry",
+       "Stephen",
+       "Stephen Curry"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "92148ca1",
+    "text": "Who won the 2023-2024 championship?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "2c9c2033",
+    "text": "Name a first-round pick of the 2025 rookie draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Ace Bailey",
+      "accept": [
+       "Ace",
+       "Ace Bailey",
+       "Bailey"
+      ]
+     },
+     {
+      "display": "Cedric Coward",
+      "accept": [
+       "Cedric",
+       "Cedric Coward",
+       "Coward"
+      ]
+     },
+     {
+      "display": "Collin Murray-Boyles",
+      "accept": [
+       "Collin Murray-Boyles",
+       "Murray-Boyles"
+      ]
+     },
+     {
+      "display": "Cooper Flagg",
+      "accept": [
+       "Cooper",
+       "Cooper Flagg",
+       "Flagg"
+      ]
+     },
+     {
+      "display": "Dylan Harper",
+      "accept": [
+       "Dylan",
+       "Dylan Harper",
+       "Harper"
+      ]
+     },
+     {
+      "display": "Egor Dëmin",
+      "accept": [
+       "Dëmin",
+       "Egor",
+       "Egor Dëmin"
+      ]
+     },
+     {
+      "display": "Jeremiah Fears",
+      "accept": [
+       "Fears",
+       "Jeremiah",
+       "Jeremiah Fears"
+      ]
+     },
+     {
+      "display": "Kasparas Jakučionis",
+      "accept": [
+       "Jakučionis",
+       "Kasparas",
+       "Kasparas Jakučionis"
+      ]
+     },
+     {
+      "display": "Khaman Maluach",
+      "accept": [
+       "Khaman",
+       "Khaman Maluach",
+       "Maluach"
+      ]
+     },
+     {
+      "display": "Kon Knueppel",
+      "accept": [
+       "Knueppel",
+       "Kon",
+       "Kon Knueppel"
+      ]
+     },
+     {
+      "display": "Tre Johnson",
+      "accept": [
+       "Johnson",
+       "Tre Johnson"
+      ]
+     },
+     {
+      "display": "VJ Edgecombe",
+      "accept": [
+       "Edgecombe",
+       "VJ",
+       "VJ Edgecombe"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "bd46da39",
+    "text": "Whose team was once called \"Saboners\"?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "manager": "verdeja"
+     }
+    ],
+    "note": "That was the name in 2023-2024.",
+    "about": [],
+    "sources": [
+     "managers.json"
+    ]
+   },
+   {
+    "id": "4940ff20",
+    "text": "Who finished with the best regular-season record in 2023-2024?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     }
+    ],
+    "note": "15-3",
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "87bd404b",
+    "text": "Name a player hotrelish (Jacobo) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Anthony Edwards",
+      "accept": [
+       "Anthony Edwards",
+       "Edwards"
+      ]
+     },
+     {
+      "display": "Bobby Portis Jr.",
+      "accept": [
+       "Bobby",
+       "Bobby Portis",
+       "Bobby Portis Jr.",
+       "Portis"
+      ]
+     },
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "Brandon Ingram",
+       "Ingram"
+      ]
+     },
+     {
+      "display": "Bruce Brown",
+      "accept": [
+       "Brown",
+       "Bruce",
+       "Bruce Brown"
+      ]
+     },
+     {
+      "display": "Clint Capela",
+      "accept": [
+       "Capela",
+       "Clint",
+       "Clint Capela"
+      ]
+     },
+     {
+      "display": "Dalano Banton",
+      "accept": [
+       "Banton",
+       "Dalano",
+       "Dalano Banton"
+      ]
+     },
+     {
+      "display": "Dalton Knecht",
+      "accept": [
+       "Dalton",
+       "Dalton Knecht",
+       "Knecht"
+      ]
+     },
+     {
+      "display": "De'Anthony Melton",
+      "accept": [
+       "De'Anthony",
+       "De'Anthony Melton",
+       "Melton"
+      ]
+     },
+     {
+      "display": "Deni Avdija",
+      "accept": [
+       "Avdija",
+       "Deni",
+       "Deni Avdija"
+      ]
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "Derrick",
+       "Derrick White",
+       "White"
+      ]
+     },
+     {
+      "display": "Dillon Brooks",
+      "accept": [
+       "Brooks",
+       "Dillon",
+       "Dillon Brooks"
+      ]
+     },
+     {
+      "display": "Donovan Clingan",
+      "accept": [
+       "Clingan",
+       "Donovan Clingan"
+      ]
+     },
+     {
+      "display": "Franz Wagner",
+      "accept": [
+       "Franz",
+       "Franz Wagner",
+       "Wagner"
+      ]
+     },
+     {
+      "display": "Isaiah Hartenstein",
+      "accept": [
+       "Hartenstein",
+       "Isaiah Hartenstein"
+      ]
+     },
+     {
+      "display": "Jakob Poeltl",
+      "accept": [
+       "Jakob",
+       "Jakob Poeltl",
+       "Poeltl"
+      ]
+     },
+     {
+      "display": "Jalen Green",
+      "accept": [
+       "Green",
+       "Jalen Green"
+      ]
+     },
+     {
+      "display": "Jamal Shead",
+      "accept": [
+       "Jamal Shead",
+       "Shead"
+      ]
+     },
+     {
+      "display": "Jerami Grant",
+      "accept": [
+       "Grant",
+       "Jerami",
+       "Jerami Grant"
+      ]
+     },
+     {
+      "display": "Jordan Poole",
+      "accept": [
+       "Jordan Poole",
+       "Poole"
+      ]
+     },
+     {
+      "display": "Julius Randle",
+      "accept": [
+       "Julius",
+       "Julius Randle",
+       "Randle"
+      ]
+     },
+     {
+      "display": "Jusuf Nurkić",
+      "accept": [
+       "Jusuf",
+       "Jusuf Nurkić",
+       "Nurkić"
+      ]
+     },
+     {
+      "display": "Keldon Johnson",
+      "accept": [
+       "Johnson",
+       "Keldon",
+       "Keldon Johnson"
+      ]
+     },
+     {
+      "display": "Klay Thompson",
+      "accept": [
+       "Klay",
+       "Klay Thompson",
+       "Thompson"
+      ]
+     },
+     {
+      "display": "Kyle Filipowski",
+      "accept": [
+       "Filipowski",
+       "Kyle Filipowski"
+      ]
+     },
+     {
+      "display": "LaMelo Ball",
+      "accept": [
+       "Ball",
+       "LaMelo",
+       "LaMelo Ball"
+      ]
+     },
+     {
+      "display": "LiAngelo Ball",
+      "accept": [
+       "Ball",
+       "LiAngelo",
+       "LiAngelo Ball"
+      ]
+     },
+     {
+      "display": "Luka Dončić",
+      "accept": [
+       "Dončić",
+       "Luka",
+       "Luka Dončić"
+      ]
+     },
+     {
+      "display": "Matas Buzelis",
+      "accept": [
+       "Buzelis",
+       "Matas Buzelis"
+      ]
+     },
+     {
+      "display": "Michael Porter Jr.",
+      "accept": [
+       "Michael",
+       "Michael Porter",
+       "Michael Porter Jr.",
+       "Porter"
+      ]
+     },
+     {
+      "display": "Mitchell Robinson",
+      "accept": [
+       "Mitchell",
+       "Mitchell Robinson",
+       "Robinson"
+      ]
+     },
+     {
+      "display": "Nikola Jović",
+      "accept": [
+       "Jović",
+       "Nikola Jović"
+      ]
+     },
+     {
+      "display": "Nikola Topić",
+      "accept": [
+       "Nikola Topić",
+       "Topić"
+      ]
+     },
+     {
+      "display": "OG Anunoby",
+      "accept": [
+       "Anunoby",
+       "OG",
+       "OG Anunoby"
+      ]
+     },
+     {
+      "display": "Paul George",
+      "accept": [
+       "George",
+       "Paul George"
+      ]
+     },
+     {
+      "display": "Rob Dillingham",
+      "accept": [
+       "Dillingham",
+       "Rob",
+       "Rob Dillingham"
+      ]
+     },
+     {
+      "display": "Scottie Barnes",
+      "accept": [
+       "Barnes",
+       "Scottie",
+       "Scottie Barnes"
+      ]
+     },
+     {
+      "display": "Sergio De Larrea",
+      "accept": [
+       "Larrea",
+       "Sergio",
+       "Sergio De Larrea"
+      ]
+     },
+     {
+      "display": "Shaedon Sharpe",
+      "accept": [
+       "Shaedon",
+       "Shaedon Sharpe",
+       "Sharpe"
+      ]
+     },
+     {
+      "display": "Tidjane Salaün",
+      "accept": [
+       "Salaün",
+       "Tidjane",
+       "Tidjane Salaün"
+      ]
+     },
+     {
+      "display": "Toumani Camara",
+      "accept": [
+       "Camara",
+       "Toumani",
+       "Toumani Camara"
+      ]
+     },
+     {
+      "display": "Tyrese Haliburton",
+      "accept": [
+       "Haliburton",
+       "Tyrese Haliburton"
+      ]
+     },
+     {
+      "display": "Victor Wembanyama",
+      "accept": [
+       "Victor",
+       "Victor Wembanyama",
+       "Wembanyama"
+      ]
+     },
+     {
+      "display": "Zach Edey",
+      "accept": [
+       "Edey",
+       "Zach Edey"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "79214879",
+    "text": "Name one of the first five players Fidel’s Accumulators (Joey) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Anthony Davis",
+      "accept": [
+       "Anthony Davis",
+       "Davis"
+      ]
+     },
+     {
+      "display": "Evan Mobley",
+      "accept": [
+       "Evan",
+       "Evan Mobley",
+       "Mobley"
+      ]
+     },
+     {
+      "display": "Jarrett Allen",
+      "accept": [
+       "Allen",
+       "Jarrett",
+       "Jarrett Allen"
+      ]
+     },
+     {
+      "display": "Julius Randle",
+      "accept": [
+       "Julius",
+       "Julius Randle",
+       "Randle"
+      ]
+     },
+     {
+      "display": "Tyrese Haliburton",
+      "accept": [
+       "Haliburton",
+       "Tyrese Haliburton"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "f0cff585",
+    "text": "Name a manager who has won a Das League championship.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "988c603d",
+    "text": "Which team was on the wrong end of the biggest blowout of the 2024-2025 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "The Edey and Matas Show (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": "Lost 164-485 to I Love Dragić (Victor) in week 17.",
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "62e82b5a",
+    "text": "Name a team that finished the 2024-2025 regular season with a winning record.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo 2X (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     },
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela"
+     },
+     {
+      "display": "Rabbi Repeat BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     },
+     {
+      "display": "Joel Embong? 😓 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "81d7ea0b",
+    "text": "Name a player Rabbi BT69 (Blandon) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Alperen Şengün",
+      "accept": [
+       "Alperen",
+       "Alperen Şengün",
+       "Şengün"
+      ]
+     },
+     {
+      "display": "Amen Thompson",
+      "accept": [
+       "Amen",
+       "Amen Thompson",
+       "Thompson"
+      ]
+     },
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ]
+     },
+     {
+      "display": "Bilal Coulibaly",
+      "accept": [
+       "Bilal",
+       "Bilal Coulibaly",
+       "Coulibaly"
+      ]
+     },
+     {
+      "display": "Brandon Miller",
+      "accept": [
+       "Brandon Miller",
+       "Miller"
+      ]
+     },
+     {
+      "display": "D'Angelo Russell",
+      "accept": [
+       "D'Angelo",
+       "D'Angelo Russell",
+       "Russell"
+      ]
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "Derrick",
+       "Derrick White",
+       "White"
+      ]
+     },
+     {
+      "display": "Immanuel Quickley",
+      "accept": [
+       "Immanuel",
+       "Immanuel Quickley",
+       "Quickley"
+      ]
+     },
+     {
+      "display": "Jaime Jaquez Jr.",
+      "accept": [
+       "Jaime",
+       "Jaime Jaquez",
+       "Jaime Jaquez Jr.",
+       "Jaquez"
+      ]
+     },
+     {
+      "display": "Jakob Poeltl",
+      "accept": [
+       "Jakob",
+       "Jakob Poeltl",
+       "Poeltl"
+      ]
+     },
+     {
+      "display": "Jalen Williams",
+      "accept": [
+       "Jalen Williams",
+       "Williams"
+      ]
+     },
+     {
+      "display": "Jaren Jackson Jr.",
+      "accept": [
+       "Jackson",
+       "Jaren",
+       "Jaren Jackson",
+       "Jaren Jackson Jr."
+      ]
+     },
+     {
+      "display": "Jeremy Sochan",
+      "accept": [
+       "Jeremy",
+       "Jeremy Sochan",
+       "Sochan"
+      ]
+     },
+     {
+      "display": "Jonathan Kuminga",
+      "accept": [
+       "Jonathan Kuminga",
+       "Kuminga"
+      ]
+     },
+     {
+      "display": "Jusuf Nurkić",
+      "accept": [
+       "Jusuf",
+       "Jusuf Nurkić",
+       "Nurkić"
+      ]
+     },
+     {
+      "display": "Keldon Johnson",
+      "accept": [
+       "Johnson",
+       "Keldon",
+       "Keldon Johnson"
+      ]
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ]
+     },
+     {
+      "display": "Miles Bridges",
+      "accept": [
+       "Bridges",
+       "Miles",
+       "Miles Bridges"
+      ]
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ]
+     },
+     {
+      "display": "Nic Claxton",
+      "accept": [
+       "Claxton",
+       "Nic",
+       "Nic Claxton"
+      ]
+     },
+     {
+      "display": "Onyeka Okongwu",
+      "accept": [
+       "Okongwu",
+       "Onyeka",
+       "Onyeka Okongwu"
+      ]
+     },
+     {
+      "display": "Ryan Kalkbrenner",
+      "accept": [
+       "Kalkbrenner",
+       "Ryan Kalkbrenner"
+      ]
+     },
+     {
+      "display": "Stephon Castle",
+      "accept": [
+       "Castle",
+       "Stephon",
+       "Stephon Castle"
+      ]
+     },
+     {
+      "display": "Tari Eason",
+      "accept": [
+       "Eason",
+       "Tari",
+       "Tari Eason"
+      ]
+     },
+     {
+      "display": "Trey Murphy III",
+      "accept": [
+       "Murphy",
+       "Trey",
+       "Trey Murphy",
+       "Trey Murphy III"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "blandon"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "a5f813f4",
+    "text": "Name one of the first five players Los Chigüires (Libguel) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Anthony Edwards",
+      "accept": [
+       "Anthony Edwards",
+       "Edwards"
+      ]
+     },
+     {
+      "display": "Ja Morant",
+      "accept": [
+       "Ja",
+       "Ja Morant",
+       "Morant"
+      ]
+     },
+     {
+      "display": "Jamal Murray",
+      "accept": [
+       "Jamal Murray",
+       "Murray"
+      ]
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ]
+     },
+     {
+      "display": "Scottie Barnes",
+      "accept": [
+       "Barnes",
+       "Scottie",
+       "Scottie Barnes"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "7d950d9e",
+    "text": "Name a manager who has reached the playoffs but never played in a final.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey"
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor"
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro"
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "0ac6af2d",
+    "text": "Which team scored the most points in a loss during the 2025-2026 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     }
+    ],
+    "note": "515 points in week 7, and still lost to 2057 Champs (Shueiro).",
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "c4d016a9",
+    "text": "Who scored the fewest points in the 2024-2025 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "The Edey and Matas Show (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "7be4ed3e",
+    "text": "Name a player Equipo Winchenzo (Winch) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Bobby Portis Jr.",
+      "accept": [
+       "Bobby",
+       "Bobby Portis",
+       "Bobby Portis Jr.",
+       "Portis"
+      ]
+     },
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "Brandon Ingram",
+       "Ingram"
+      ]
+     },
+     {
+      "display": "Chris Paul",
+      "accept": [
+       "Chris Paul",
+       "Paul"
+      ]
+     },
+     {
+      "display": "Clint Capela",
+      "accept": [
+       "Capela",
+       "Clint",
+       "Clint Capela"
+      ]
+     },
+     {
+      "display": "GG Jackson",
+      "accept": [
+       "GG",
+       "GG Jackson",
+       "Jackson"
+      ]
+     },
+     {
+      "display": "Ivica Zubac",
+      "accept": [
+       "Ivica",
+       "Ivica Zubac",
+       "Zubac"
+      ]
+     },
+     {
+      "display": "Jaime Jaquez Jr.",
+      "accept": [
+       "Jaime",
+       "Jaime Jaquez",
+       "Jaime Jaquez Jr.",
+       "Jaquez"
+      ]
+     },
+     {
+      "display": "Jakob Poeltl",
+      "accept": [
+       "Jakob",
+       "Jakob Poeltl",
+       "Poeltl"
+      ]
+     },
+     {
+      "display": "Jarrett Allen",
+      "accept": [
+       "Allen",
+       "Jarrett",
+       "Jarrett Allen"
+      ]
+     },
+     {
+      "display": "Jimmy Butler III",
+      "accept": [
+       "Butler",
+       "Jimmy",
+       "Jimmy Butler",
+       "Jimmy Butler III"
+      ]
+     },
+     {
+      "display": "Karlo Matković",
+      "accept": [
+       "Karlo",
+       "Karlo Matković",
+       "Matković"
+      ]
+     },
+     {
+      "display": "LaMelo Ball",
+      "accept": [
+       "Ball",
+       "LaMelo",
+       "LaMelo Ball"
+      ]
+     },
+     {
+      "display": "Luka Dončić",
+      "accept": [
+       "Dončić",
+       "Luka",
+       "Luka Dončić"
+      ]
+     },
+     {
+      "display": "Marvin Bagley III",
+      "accept": [
+       "Bagley",
+       "Marvin",
+       "Marvin Bagley",
+       "Marvin Bagley III"
+      ]
+     },
+     {
+      "display": "Nikola Jović",
+      "accept": [
+       "Jović",
+       "Nikola Jović"
+      ]
+     },
+     {
+      "display": "OG Anunoby",
+      "accept": [
+       "Anunoby",
+       "OG",
+       "OG Anunoby"
+      ]
+     },
+     {
+      "display": "Pascal Siakam",
+      "accept": [
+       "Pascal",
+       "Pascal Siakam",
+       "Siakam"
+      ]
+     },
+     {
+      "display": "Paul George",
+      "accept": [
+       "George",
+       "Paul George"
+      ]
+     },
+     {
+      "display": "Pelle Larsson",
+      "accept": [
+       "Larsson",
+       "Pelle",
+       "Pelle Larsson"
+      ]
+     },
+     {
+      "display": "Quenton Jackson",
+      "accept": [
+       "Jackson",
+       "Quenton",
+       "Quenton Jackson"
+      ]
+     },
+     {
+      "display": "RJ Barrett",
+      "accept": [
+       "Barrett",
+       "RJ Barrett"
+      ]
+     },
+     {
+      "display": "Rob Dillingham",
+      "accept": [
+       "Dillingham",
+       "Rob",
+       "Rob Dillingham"
+      ]
+     },
+     {
+      "display": "Stephen Curry",
+      "accept": [
+       "Curry",
+       "Stephen",
+       "Stephen Curry"
+      ]
+     },
+     {
+      "display": "Tyrese Haliburton",
+      "accept": [
+       "Haliburton",
+       "Tyrese Haliburton"
+      ]
+     },
+     {
+      "display": "Zach LaVine",
+      "accept": [
+       "LaVine",
+       "Zach LaVine"
+      ]
+     },
+     {
+      "display": "Zion Williamson",
+      "accept": [
+       "Williamson",
+       "Zion",
+       "Zion Williamson"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "29abd131",
+    "text": "Who did Saboners (Verdeja) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Domantas Sabonis",
+      "accept": [
+       "Domantas",
+       "Domantas Sabonis",
+       "Sabonis"
+      ]
+     }
+    ],
+    "note": "Round 1, pick 12 overall.",
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "d36db472",
+    "text": "Name a team that lost in the 2024-2025 semifinals.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo 2X (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     },
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "5077928e",
+    "text": "Whose team was once called \"Joel Embong? 😓\"?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     }
+    ],
+    "note": "That was the name in 2024-2025.",
+    "about": [],
+    "sources": [
+     "managers.json"
+    ]
+   },
+   {
+    "id": "67343418",
+    "text": "Name one of the three highest-scoring teams of the 2023-2024 regular season.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch"
+     },
+     {
+      "display": "Kareem Abdul-Jabong (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     },
+     {
+      "display": "Luka Deez Nuts (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "ad0a6725",
+    "text": "Name a player LeBong James (Melo) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ]
+     },
+     {
+      "display": "Bogdan Bogdanović",
+      "accept": [
+       "Bogdan",
+       "Bogdan Bogdanović",
+       "Bogdanović"
+      ]
+     },
+     {
+      "display": "Chris Paul",
+      "accept": [
+       "Chris Paul",
+       "Paul"
+      ]
+     },
+     {
+      "display": "Damian Lillard",
+      "accept": [
+       "Damian",
+       "Damian Lillard",
+       "Lillard"
+      ]
+     },
+     {
+      "display": "Dejounte Murray",
+      "accept": [
+       "Dejounte",
+       "Dejounte Murray",
+       "Murray"
+      ]
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "Derrick",
+       "Derrick White",
+       "White"
+      ]
+     },
+     {
+      "display": "Giannis Antetokounmpo",
+      "accept": [
+       "Antetokounmpo",
+       "Giannis",
+       "Giannis Antetokounmpo"
+      ]
+     },
+     {
+      "display": "Ivica Zubac",
+      "accept": [
+       "Ivica",
+       "Ivica Zubac",
+       "Zubac"
+      ]
+     },
+     {
+      "display": "James Harden",
+      "accept": [
+       "Harden",
+       "James Harden"
+      ]
+     },
+     {
+      "display": "Jarrett Allen",
+      "accept": [
+       "Allen",
+       "Jarrett",
+       "Jarrett Allen"
+      ]
+     },
+     {
+      "display": "Jerami Grant",
+      "accept": [
+       "Grant",
+       "Jerami",
+       "Jerami Grant"
+      ]
+     },
+     {
+      "display": "John Collins",
+      "accept": [
+       "Collins",
+       "John",
+       "John Collins"
+      ]
+     },
+     {
+      "display": "Jrue Holiday",
+      "accept": [
+       "Holiday",
+       "Jrue",
+       "Jrue Holiday"
+      ]
+     },
+     {
+      "display": "Julius Randle",
+      "accept": [
+       "Julius",
+       "Julius Randle",
+       "Randle"
+      ]
+     },
+     {
+      "display": "Karl-Anthony Towns",
+      "accept": [
+       "Karl-Anthony",
+       "Karl-Anthony Towns",
+       "Towns"
+      ]
+     },
+     {
+      "display": "Kevin Durant",
+      "accept": [
+       "Durant",
+       "Kevin Durant"
+      ]
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ]
+     },
+     {
+      "display": "LeBron James",
+      "accept": [
+       "James",
+       "LeBron",
+       "LeBron James"
+      ]
+     },
+     {
+      "display": "Miles Bridges",
+      "accept": [
+       "Bridges",
+       "Miles",
+       "Miles Bridges"
+      ]
+     },
+     {
+      "display": "Nikola Topić",
+      "accept": [
+       "Nikola Topić",
+       "Topić"
+      ]
+     },
+     {
+      "display": "Stephen Curry",
+      "accept": [
+       "Curry",
+       "Stephen",
+       "Stephen Curry"
+      ]
+     },
+     {
+      "display": "Yves Missi",
+      "accept": [
+       "Missi",
+       "Yves",
+       "Yves Missi"
+      ]
+     },
+     {
+      "display": "Zach LaVine",
+      "accept": [
+       "LaVine",
+       "Zach LaVine"
+      ]
+     },
+     {
+      "display": "Zion Williamson",
+      "accept": [
+       "Williamson",
+       "Zion",
+       "Zion Williamson"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "15c18426",
+    "text": "Who did hotrelish (Jacobo) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "LaMelo Ball",
+      "accept": [
+       "Ball",
+       "LaMelo",
+       "LaMelo Ball"
+      ]
+     }
+    ],
+    "note": "Round 1, pick 5 overall.",
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "531e248f",
+    "text": "Name a team that missed the 2023-2024 playoffs.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela"
+     },
+     {
+      "display": "Saboners (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "manager": "verdeja"
+     },
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo"
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro"
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     },
+     {
+      "display": "MoonUnit (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "6ecf4d2a",
+    "text": "Which team was on the wrong end of the biggest blowout of the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "MoonUnit (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky"
+     }
+    ],
+    "note": "Lost 243-492 to I Love Dragić (Victor) in week 16.",
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "d94c6f7c",
+    "text": "Name one of the three highest-scoring teams of the 2025-2026 regular season.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel"
+     },
+     {
+      "display": "LeBong James 👑 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo"
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "b87cd10d",
+    "text": "Name one of the first five players Kareem Abdul-Jabong (Melo) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "Brandon Ingram",
+       "Ingram"
+      ]
+     },
+     {
+      "display": "Dejounte Murray",
+      "accept": [
+       "Dejounte",
+       "Dejounte Murray",
+       "Murray"
+      ]
+     },
+     {
+      "display": "Donovan Mitchell",
+      "accept": [
+       "Donovan Mitchell",
+       "Mitchell"
+      ]
+     },
+     {
+      "display": "Joel Embiid",
+      "accept": [
+       "Embiid",
+       "Joel",
+       "Joel Embiid"
+      ]
+     },
+     {
+      "display": "Pascal Siakam",
+      "accept": [
+       "Pascal",
+       "Pascal Siakam",
+       "Siakam"
+      ]
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "f1e704f9",
+    "text": "Who lost in the 2023-2024 championship final?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Luka Deez Nuts (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "ce987ff5",
+    "text": "Which team lost the closest game of the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela"
+     },
+     {
+      "display": "MoonUnit (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky"
+     }
+    ],
+    "note": "2 games that season were decided by 1.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "5bef8237",
+    "text": "Who scored the fewest points in the 2025-2026 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon"
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "ab031009",
+    "text": "Who did Equipo Winchenzo (Winch) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Jayson Tatum",
+      "accept": [
+       "Jayson",
+       "Jayson Tatum",
+       "Tatum"
+      ]
+     }
+    ],
+    "note": "Round 1, pick 10 overall.",
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   }
+  ]
+ ],
+ "entities": [
+  "2057 Champs",
+  "AJ Dybantsa",
+  "AJ Griffin",
+  "Aaron",
+  "Aaron Gordon",
+  "Ace",
+  "Ace Bailey",
+  "Achalela",
+  "Achiuwa",
+  "Acuff",
+  "Adams",
+  "Aday",
+  "Aday Mara",
+  "Adebayo",
+  "Adou",
+  "Adou Thiero",
+  "Al",
+  "Al Horford",
+  "Aleksej",
+  "Aleksej Pokuševski",
+  "Alex Karaban",
+  "Alex Sarr",
+  "Alexander-Walker",
+  "Allen",
+  "Allen Graves",
+  "Alperen",
+  "Alperen Şengün",
+  "Amen",
+  "Amen Thompson",
+  "Ament",
+  "Anderson",
+  "Andre",
+  "Andre Jackson",
+  "Andre Jackson Jr.",
+  "Andres",
+  "Andrew Nembhard",
+  "Andrew Wiggins",
+  "Anfernee",
+  "Anfernee Simons",
+  "Antetokounmpers",
+  "Antetokounmpo",
+  "Anthony",
+  "Anthony Black",
+  "Anthony Davis",
+  "Anthony Edwards",
+  "Anunoby",
+  "Asa",
+  "Asa Newell",
+  "Ausar",
+  "Ausar Thompson",
+  "Austin",
+  "Austin Reaves",
+  "Avdija",
+  "Ayton",
+  "BT",
+  "BT69",
+  "Baba",
+  "Baba Miller",
+  "Bagley",
+  "Bailey",
+  "Ball",
+  "Bam",
+  "Bam Adebayo",
+  "Banchero",
+  "Bane",
+  "Banton",
+  "Barnes",
+  "Barrett",
+  "Bates",
+  "Beal",
+  "Ben Saraf",
+  "Ben Simmons",
+  "Bennedict",
+  "Bennedict Mathurin",
+  "Bennett",
+  "Bennett Stirtz",
+  "Beringer",
+  "Bey",
+  "Bilal",
+  "Bilal Coulibaly",
+  "Bitadze",
+  "Black",
+  "Blandon",
+  "Bobby",
+  "Bobby Portis",
+  "Bobby Portis Jr.",
+  "Bobi",
+  "Bobi Klintman",
+  "Bogdan",
+  "Bogdan Bogdanović",
+  "Bogdanović",
+  "Bojan",
+  "Bojan Bogdanović",
+  "Bones",
+  "Bones Hyland",
+  "Booker",
+  "Boozer",
+  "Bradley",
+  "Bradley Beal",
+  "Brandin",
+  "Brandin Podziemski",
+  "Brandon",
+  "Brandon Ingram",
+  "Brandon Miller",
+  "Braun",
+  "Brayden",
+  "Brayden Burries",
+  "Brea",
+  "Brice",
+  "Brice Sensabaugh",
+  "Bridges",
+  "Brogdon",
+  "Bronny",
+  "Bronny James",
+  "Brook",
+  "Brook Lopez",
+  "Brooks",
+  "Broome",
+  "Brown",
+  "Bruce",
+  "Bruce Brown",
+  "Brunson",
+  "Bryant",
+  "Bub",
+  "Bub Carrington",
+  "Buddy",
+  "Buddy Hield",
+  "Bufkin",
+  "Burries",
+  "Butler",
+  "Buzelis",
+  "CJ",
+  "CJ McCollum",
+  "Cade",
+  "Cade Cunningham",
+  "Caleb",
+  "Caleb Wilson",
+  "Cam Christie",
+  "Cam Reddish",
+  "Cam Thomas",
+  "Cam Whitmore",
+  "Camara",
+  "Cameron Boozer",
+  "Cameron Carr",
+  "Cameron Johnson",
+  "Capela",
+  "Caris",
+  "Caris LeVert",
+  "Carr",
+  "Carrington",
+  "Carter",
+  "Carter Bryant",
+  "Cason",
+  "Cason Wallace",
+  "Castle",
+  "Cedric",
+  "Cedric Coward",
+  "Cenac",
+  "Chab",
+  "Chalela",
+  "Chet",
+  "Chet Holmgren",
+  "Chris",
+  "Chris Cenac",
+  "Chris Cenac Jr.",
+  "Chris Paul",
+  "Christian Anderson",
+  "Christian Braun",
+  "Christian Wood",
+  "Christie",
+  "Cissoko",
+  "Clarkson",
+  "Claxton",
+  "Clayton",
+  "Clifford",
+  "Clingan",
+  "Clint",
+  "Clint Capela",
+  "Clowney",
+  "Cody",
+  "Cody Williams",
+  "Cole",
+  "Cole Anthony",
+  "Collier",
+  "Collin Murray-Boyles",
+  "Collin Sexton",
+  "Collins",
+  "Conley",
+  "Conwell",
+  "Cooper",
+  "Cooper Flagg",
+  "Corey",
+  "Corey Kispert",
+  "Coulibaly",
+  "Coward",
+  "Cunningham",
+  "Curry",
+  "D'Angelo",
+  "D'Angelo Russell",
+  "DaRon",
+  "DaRon Holmes",
+  "DaRon Holmes II",
+  "Dadiet",
+  "Dailyn",
+  "Dailyn Swain",
+  "Dalano",
+  "Dalano Banton",
+  "Dalton",
+  "Dalton Knecht",
+  "Damian",
+  "Damian Lillard",
+  "Dan",
+  "Daniel",
+  "Daniel Gafford",
+  "Daniels",
+  "Danny",
+  "Danny Wolf",
+  "Dariq",
+  "Dariq Whitehead",
+  "Darius Acuff",
+  "Darius Acuff Jr.",
+  "Darius Garland",
+  "Darryn",
+  "Darryn Peterson",
+  "DasMelo",
+  "Davis",
+  "De Aguiar",
+  "De'Aaron",
+  "De'Aaron Fox",
+  "De'Andre",
+  "De'Andre Hunter",
+  "De'Anthony",
+  "De'Anthony Melton",
+  "DeMar",
+  "DeMar DeRozan",
+  "DeRozan",
+  "Deandre",
+  "Deandre Ayton",
+  "Dejounte",
+  "Dejounte Murray",
+  "Deni",
+  "Deni Avdija",
+  "Dennis",
+  "Dennis Schröder",
+  "Dereck",
+  "Dereck Lively",
+  "Dereck Lively II",
+  "Derik",
+  "Derik Queen",
+  "Derrick",
+  "Derrick White",
+  "Desmond",
+  "Desmond Bane",
+  "Devin Booker",
+  "Devin Carter",
+  "Devin Vassell",
+  "DiVincenzo",
+  "Dick",
+  "Dillingham",
+  "Dillon",
+  "Dillon Brooks",
+  "Dinwiddie",
+  "Doctor",
+  "Domantas",
+  "Domantas Sabonis",
+  "Donovan Clingan",
+  "Donovan Mitchell",
+  "Donte",
+  "Donte DiVincenzo",
+  "Dončić",
+  "Drake",
+  "Drake Powell",
+  "Draymond",
+  "Draymond Green",
+  "Drew",
+  "Drew Timme",
+  "Dunn",
+  "Duop",
+  "Duop Reath",
+  "Durant",
+  "Duren",
+  "Dybantsa",
+  "Dylan",
+  "Dylan Harper",
+  "Dyson",
+  "Dyson Daniels",
+  "Dëmin",
+  "Eason",
+  "Ebuka",
+  "Ebuka Okorie",
+  "Edey",
+  "Edgecombe",
+  "Edwards",
+  "Egor",
+  "Egor Dëmin",
+  "Ejiofor",
+  "ElWinchenzo",
+  "Embiid",
+  "Emoni",
+  "Emoni Bates",
+  "Equipito PapoChullo",
+  "Equipo",
+  "Equipo Winchenzo",
+  "Equipo Winchenzo 2X",
+  "Essengue",
+  "Evan",
+  "Evan Mobley",
+  "Evans",
+  "Fear the Brow",
+  "Fears",
+  "Fidel’s Accumulators",
+  "Filipowski",
+  "Flagg",
+  "Fleming",
+  "Flemings",
+  "Fox",
+  "Francisco",
+  "Frank",
+  "Franz",
+  "Franz Wagner",
+  "Fred",
+  "Fred VanVleet",
+  "Fultz",
+  "Furphy",
+  "GG",
+  "GG Jackson",
+  "Gafford",
+  "Garland",
+  "Gary",
+  "Gary Trent",
+  "Gary Trent Jr.",
+  "George",
+  "Giannis",
+  "Giannis Antetokounmpo",
+  "Giddey",
+  "Gilgeous-Alexander",
+  "Gillespie",
+  "Gobert",
+  "Goga",
+  "Goga Bitadze",
+  "González",
+  "Gordon",
+  "Gordon Hayward",
+  "Gradey",
+  "Gradey Dick",
+  "Grant",
+  "Grant Williams",
+  "Graves",
+  "Green",
+  "Griffin",
+  "Grimes",
+  "Hachimura",
+  "Haliburton",
+  "Hampton",
+  "Hannes",
+  "Hannes Steinbach",
+  "Hansen",
+  "Harden",
+  "Hardy",
+  "Harper",
+  "Harris",
+  "Harrison",
+  "Harrison Barnes",
+  "Hart",
+  "Hartenstein",
+  "Hawkins",
+  "Hayward",
+  "Henderson",
+  "Hendricks",
+  "Herbert",
+  "Herbert Jones",
+  "Herro",
+  "Hield",
+  "Holiday",
+  "Holland",
+  "Holmes",
+  "Holmgren",
+  "Hood-Schifino",
+  "Horford",
+  "Horton-Tucker",
+  "Howard",
+  "Huerter",
+  "Huff",
+  "Hugo",
+  "Hugo González",
+  "Hunter",
+  "Hyland",
+  "I Love Dragić",
+  "Immanuel",
+  "Immanuel Quickley",
+  "Ingram",
+  "Irving",
+  "Isaiah Collier",
+  "Isaiah Evans",
+  "Isaiah Hartenstein",
+  "Isaiah Stewart",
+  "Ivey",
+  "Ivica",
+  "Ivica Zubac",
+  "Ja",
+  "Ja Morant",
+  "Ja'Kobe",
+  "Ja'Kobe Walter",
+  "Ja'Kobi",
+  "Ja'Kobi Gillespie",
+  "Jabari",
+  "Jabari Smith",
+  "Jabari Smith Jr.",
+  "Jackson",
+  "Jacob",
+  "Jacobo",
+  "Jaden Hardy",
+  "Jaden Ivey",
+  "Jaden McDaniels",
+  "Jaime",
+  "Jaime Jaquez",
+  "Jaime Jaquez Jr.",
+  "Jake",
+  "Jakob",
+  "Jakob Poeltl",
+  "Jakučionis",
+  "Jalen Brunson",
+  "Jalen Duren",
+  "Jalen Green",
+  "Jalen Hood-Schifino",
+  "Jalen Johnson",
+  "Jalen Smith",
+  "Jalen Suggs",
+  "Jalen Williams",
+  "Jamal Murray",
+  "Jamal Shead",
+  "James",
+  "James Harden",
+  "James Nnaji",
+  "James Wiseman",
+  "Jaquez",
+  "Jarace",
+  "Jarace Walker",
+  "Jared",
+  "Jared McCain",
+  "Jaren",
+  "Jaren Jackson",
+  "Jaren Jackson Jr.",
+  "Jarrett",
+  "Jarrett Allen",
+  "Jase",
+  "Jase Richardson",
+  "Jay",
+  "Jay Huff",
+  "Jayden",
+  "Jayden Quaintance",
+  "Jaylen Brown",
+  "Jaylen Wells",
+  "Jaylon",
+  "Jaylon Tyson",
+  "Jayson",
+  "Jayson Tatum",
+  "Jefferson",
+  "Jerami",
+  "Jerami Grant",
+  "Jeremiah",
+  "Jeremiah Fears",
+  "Jeremy",
+  "Jeremy Sochan",
+  "Jett",
+  "Jett Howard",
+  "Jimmy",
+  "Jimmy Butler",
+  "Jimmy Butler III",
+  "Joan",
+  "Joan Beringer",
+  "Joe",
+  "Joel",
+  "Joel Embiid",
+  "Joel Embong? 😓",
+  "Joey",
+  "John",
+  "John Collins",
+  "Johni",
+  "Johni Broome",
+  "Johnny",
+  "Johnny Furphy",
+  "Johnson",
+  "Jokić",
+  "Jonas",
+  "Jonas Valančiūnas",
+  "Jonathan Kuminga",
+  "Jonathan Mogbo",
+  "Jones",
+  "Jordan Clarkson",
+  "Jordan Hawkins",
+  "Jordan Miller",
+  "Jordan Poole",
+  "Jordan Walsh",
+  "Joseph",
+  "Josh Giddey",
+  "Josh Hart",
+  "Joshua",
+  "Joshua Jefferson",
+  "Jović",
+  "Jrue",
+  "Jrue Holiday",
+  "Julius",
+  "Julius Randle",
+  "Justin",
+  "Justin Edwards",
+  "Jusuf",
+  "Jusuf Nurkić",
+  "Kalkbrenner",
+  "Karaban",
+  "Kareem Abdul-Jabong",
+  "Karim",
+  "Karim Lopez",
+  "Karl-Anthony",
+  "Karl-Anthony Towns",
+  "Karlo",
+  "Karlo Matković",
+  "Kasparas",
+  "Kasparas Jakučionis",
+  "Kawhi",
+  "Kawhi Leonard",
+  "Keaton",
+  "Keaton Wagler",
+  "Keegan",
+  "Keegan Murray",
+  "Kel'el",
+  "Kel'el Ware",
+  "Keldon",
+  "Keldon Johnson",
+  "Kelly",
+  "Kelly Oubre",
+  "Kelly Oubre Jr.",
+  "Kessler",
+  "Kevin Durant",
+  "Kevin Huerter",
+  "Kevin Porter",
+  "Kevin Porter Jr.",
+  "Kevon",
+  "Kevon Looney",
+  "Keyonte",
+  "Keyonte George",
+  "Khaman",
+  "Khaman Maluach",
+  "Khris",
+  "Khris Middleton",
+  "Kingston",
+  "Kingston Flemings",
+  "Kispert",
+  "Klay",
+  "Klay Thompson",
+  "Klintman",
+  "Knecht",
+  "Knueppel",
+  "Koa",
+  "Koa Peat",
+  "Kobe",
+  "Kobe Bufkin",
+  "Koby",
+  "Koby Brea",
+  "Kon",
+  "Kon Knueppel",
+  "Kris",
+  "Kris Murray",
+  "Kristaps",
+  "Kristaps Porziņģis",
+  "Kuminga",
+  "Kuzma",
+  "Kyle Filipowski",
+  "Kyle Kuzma",
+  "Kyrie",
+  "Kyrie Irving",
+  "Kyshawn",
+  "Kyshawn George",
+  "LaMelo",
+  "LaMelo Ball",
+  "LaVine",
+  "Labaron",
+  "Labaron Philon",
+  "Labaron Philon Jr.",
+  "Larrea",
+  "Larsson",
+  "Lauri",
+  "Lauri Markkanen",
+  "LeBong James",
+  "LeBong James 👑",
+  "LeBron",
+  "LeBron James",
+  "LeVert",
+  "Lendeborg",
+  "Leonard",
+  "Leonard Miller",
+  "LiAngelo",
+  "LiAngelo Ball",
+  "Libguel",
+  "Lillard",
+  "Lively",
+  "Lochte & Associates",
+  "Lonzo",
+  "Lonzo Ball",
+  "Looney",
+  "Lopez",
+  "Los Chigüires",
+  "Luka",
+  "Luka Deez Nuts",
+  "Luka Dončić",
+  "Malcolm",
+  "Malcolm Brogdon",
+  "Malik",
+  "Malik Monk",
+  "Maluach",
+  "Mann",
+  "Mara",
+  "Marcus Sasser",
+  "Marcus Smart",
+  "Mark",
+  "Mark Williams",
+  "Markelle",
+  "Markelle Fultz",
+  "Markkanen",
+  "Marvin",
+  "Marvin Bagley",
+  "Marvin Bagley III",
+  "Mason",
+  "Mason Plumlee",
+  "Matas Buzelis",
+  "Mathurin",
+  "Matković",
+  "Max Christie",
+  "Max Strus",
+  "Maxey",
+  "Maxime",
+  "Maxime Raynaud",
+  "McCain",
+  "McCollum",
+  "McDaniels",
+  "Meleek",
+  "Meleek Thomas",
+  "Melo",
+  "Melton",
+  "Micah",
+  "Micah Peavy",
+  "Michael",
+  "Michael Porter",
+  "Michael Porter Jr.",
+  "Middleton",
+  "Mig",
+  "Migue",
+  "Miguel",
+  "Mikal",
+  "Mikal Bridges",
+  "Mike",
+  "Mike Conley",
+  "Mikel",
+  "Mikel Brown",
+  "Mikel Brown Jr.",
+  "Miles",
+  "Miles Bridges",
+  "Miller",
+  "Missi",
+  "Mitchell",
+  "Mitchell Robinson",
+  "Mobley",
+  "Mogbo",
+  "Monk",
+  "MoonUnit",
+  "MoonUnit 🦬",
+  "MoonUnit11",
+  "Morant",
+  "Morez",
+  "Morez Johnson",
+  "Morez Johnson Jr.",
+  "Moritz",
+  "Moritz Wagner",
+  "Murphy",
+  "Murray",
+  "Murray-Boyles",
+  "Myles",
+  "Myles Turner",
+  "Nate",
+  "Nate Ament",
+  "Naz",
+  "Naz Reid",
+  "Neemias",
+  "Neemias Queta",
+  "Nembhard",
+  "Newell",
+  "Nic",
+  "Nic Claxton",
+  "Nick",
+  "Nick Smith",
+  "Nick Smith Jr.",
+  "Nickeil",
+  "Nickeil Alexander-Walker",
+  "Nikola Jokić",
+  "Nikola Jović",
+  "Nikola Topić",
+  "Nikola Vučević",
+  "Nikola Đurišić",
+  "Nique",
+  "Nique Clifford",
+  "Nnaji",
+  "Noa",
+  "Noa Essengue",
+  "Noah",
+  "Noah Clowney",
+  "Nolan",
+  "Nolan Traore",
+  "Nurkić",
+  "OG",
+  "OG Anunoby",
+  "Obi",
+  "Obi Toppin",
+  "Okongwu",
+  "Okorie",
+  "Olivier-Maxence",
+  "Olivier-Maxence Prosper",
+  "Onyeka",
+  "Onyeka Okongwu",
+  "Oubre",
+  "P.J.",
+  "P.J. Washington",
+  "Pacôme",
+  "Pacôme Dadiet",
+  "Paolo",
+  "Paolo Banchero",
+  "Papo",
+  "Papochullo6969",
+  "Pascal",
+  "Pascal Siakam",
+  "Patrick",
+  "Patrick Williams",
+  "Paul",
+  "Paul George",
+  "Paul Reed",
+  "Payton",
+  "Payton Pritchard",
+  "Peat",
+  "Peavy",
+  "Pedro",
+  "Pelle",
+  "Pelle Larsson",
+  "Peterson",
+  "Peyton",
+  "Peyton Watson",
+  "Philon",
+  "Pippen",
+  "Plumlee",
+  "Podziemski",
+  "Poeltl",
+  "Pokuševski",
+  "Poole",
+  "Porter",
+  "Portis",
+  "Porziņģis",
+  "Powell",
+  "Precious",
+  "Precious Achiuwa",
+  "Prieto",
+  "Pritchard",
+  "Proctor",
+  "Prosper",
+  "Quaintance",
+  "Queen",
+  "Quentin",
+  "Quentin Grimes",
+  "Quenton",
+  "Quenton Jackson",
+  "Queta",
+  "Quickley",
+  "RJ Barrett",
+  "RJ Hampton",
+  "Rabbi",
+  "Rabbi BT69",
+  "Rabbi Repeat BT69",
+  "RabbiBT69",
+  "Randle",
+  "Rasheer",
+  "Rasheer Fleming",
+  "Raynaud",
+  "Reath",
+  "Reaves",
+  "Reddish",
+  "Reed",
+  "Reed Sheppard",
+  "Reid",
+  "Richardson",
+  "Richie",
+  "Richie Saunders",
+  "Rick",
+  "Ricky",
+  "Risacher",
+  "Rob",
+  "Rob Dillingham",
+  "Robert",
+  "Robert Williams",
+  "Robert Williams III",
+  "Robinson",
+  "Ron",
+  "Ron Holland",
+  "Ronald",
+  "Ronald Holland",
+  "Ronald Holland II",
+  "Rozier",
+  "Rudy",
+  "Rudy Gobert",
+  "Rui",
+  "Rui Hachimura",
+  "Russell",
+  "Russell Westbrook",
+  "Ryan Conwell",
+  "Ryan Dunn",
+  "Ryan Kalkbrenner",
+  "Saboners",
+  "Sabonis",
+  "Saddiq",
+  "Saddiq Bey",
+  "Salaün",
+  "Saraf",
+  "Sarr",
+  "Sasser",
+  "Saunders",
+  "Schröder",
+  "Scoot",
+  "Scoot Henderson",
+  "Scottie",
+  "Scottie Barnes",
+  "Scotty",
+  "Scotty Pippen",
+  "Scotty Pippen Jr.",
+  "Sensabaugh",
+  "Sergio",
+  "Sergio De Larrea",
+  "Sexton",
+  "Shaedon",
+  "Shaedon Sharpe",
+  "Shai",
+  "Shai Gilgeous-Alexander",
+  "Shannon",
+  "Sharpe",
+  "Shead",
+  "Sheppard",
+  "Shueiro",
+  "Siakam",
+  "Sidy",
+  "Sidy Cissoko",
+  "Silva",
+  "Simmons",
+  "Simons",
+  "Smart",
+  "Smith",
+  "Sochan",
+  "Sorber",
+  "Spencer",
+  "Spencer Dinwiddie",
+  "Steinbach",
+  "Stephen",
+  "Stephen Curry",
+  "Stephon",
+  "Stephon Castle",
+  "Steven",
+  "Steven Adams",
+  "Stewart",
+  "Stirtz",
+  "Strus",
+  "Sueiro",
+  "Suggs",
+  "Swain",
+  "Sway",
+  "Talen",
+  "Talen Horton-Tucker",
+  "Tari",
+  "Tari Eason",
+  "Tarris",
+  "Tarris Reed",
+  "Tarris Reed Jr.",
+  "Tatum",
+  "Taylor",
+  "Taylor Hendricks",
+  "Terance",
+  "Terance Mann",
+  "Terrence",
+  "Terrence Shannon",
+  "Terrence Shannon Jr.",
+  "Terry",
+  "Terry Rozier",
+  "The Edey and Matas Show",
+  "Thiero",
+  "Thomas",
+  "Thomas Sorber",
+  "Thompson",
+  "Tidjane",
+  "Tidjane Salaün",
+  "Timme",
+  "Tobias",
+  "Tobias Harris",
+  "Topić",
+  "Toppin",
+  "Toumani",
+  "Toumani Camara",
+  "Towns",
+  "Trae",
+  "Trae Young",
+  "Traore",
+  "Tre Johnson",
+  "Tre Jones",
+  "Tre Mann",
+  "Trent",
+  "Trey",
+  "Trey Murphy",
+  "Trey Murphy III",
+  "Tristan Vukcevic",
+  "Tristan da Silva",
+  "Turner",
+  "Tyler Herro",
+  "Tyler Smith",
+  "Tyrese Haliburton",
+  "Tyrese Maxey",
+  "Tyrese Proctor",
+  "Tyson",
+  "Tyus",
+  "Tyus Jones",
+  "VJ",
+  "VJ Edgecombe",
+  "Valančiūnas",
+  "VanVleet",
+  "Vassell",
+  "Verd",
+  "Verdeja",
+  "Verdy",
+  "Verdy11",
+  "Vic",
+  "Victor",
+  "Victor Wembanyama",
+  "Vukcevic",
+  "Vučević",
+  "Wagler",
+  "Wagner",
+  "Walker",
+  "Walker Kessler",
+  "Wallace",
+  "Walsh",
+  "Walter",
+  "Walter Clayton",
+  "Walter Clayton Jr.",
+  "Ware",
+  "Washington",
+  "Watson",
+  "Wells",
+  "Wembanyama",
+  "Wendell",
+  "Wendell Carter",
+  "Wendell Carter Jr.",
+  "Westbrook",
+  "White",
+  "Whitehead",
+  "Whitmore",
+  "Wiggins",
+  "Williams",
+  "Williamson",
+  "Wilson",
+  "Winch",
+  "Winchenzo",
+  "Wiseman",
+  "Wolf",
+  "Wood",
+  "Yang",
+  "Yang Hansen",
+  "Yaxel",
+  "Yaxel Lendeborg",
+  "Young",
+  "Yves",
+  "Yves Missi",
+  "Zaccharie",
+  "Zaccharie Risacher",
+  "Zach Collins",
+  "Zach Edey",
+  "Zach LaVine",
+  "Zion",
+  "Zion Williamson",
+  "Zubac",
+  "Zuby",
+  "Zuby Ejiofor",
+  "hotrelish",
+  "hughjasnuts",
+  "miguelhern99",
+  "msway21",
+  "papochullo7979",
+  "victorprieto",
+  "Đurišić",
+  "Şengün"
+ ]
+}

@@ -1,0 +1,3482 @@
+[
+ {
+  "season": "2023-2024",
+  "week": 1,
+  "winner": "joey",
+  "winner_points": 489.0,
+  "loser": "melo",
+  "loser_points": 463.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 1,
+  "winner": "papo",
+  "winner_points": 479.0,
+  "loser": "libguel",
+  "loser_points": 427.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 1,
+  "winner": "winch",
+  "winner_points": 530.0,
+  "loser": "ricky",
+  "loser_points": 446.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 1,
+  "winner": "shueiro",
+  "winner_points": 405.0,
+  "loser": "victor",
+  "loser_points": 400.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 1,
+  "winner": "verdeja",
+  "winner_points": 419.0,
+  "loser": "chalela",
+  "loser_points": 391.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 1,
+  "winner": "blandon",
+  "winner_points": 403.0,
+  "loser": "jacobo",
+  "loser_points": 332.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 2,
+  "winner": "joey",
+  "winner_points": 488.0,
+  "loser": "libguel",
+  "loser_points": 462.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 2,
+  "winner": "winch",
+  "winner_points": 564.0,
+  "loser": "verdeja",
+  "loser_points": 424.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 2,
+  "winner": "victor",
+  "winner_points": 513.0,
+  "loser": "blandon",
+  "loser_points": 422.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 2,
+  "winner": "jacobo",
+  "winner_points": 475.0,
+  "loser": "shueiro",
+  "loser_points": 398.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 2,
+  "winner": "melo",
+  "winner_points": 508.0,
+  "loser": "papo",
+  "loser_points": 500.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 2,
+  "winner": "chalela",
+  "winner_points": 419.0,
+  "loser": "ricky",
+  "loser_points": 418.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 3,
+  "winner": "papo",
+  "winner_points": 456.0,
+  "loser": "joey",
+  "loser_points": 443.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 3,
+  "winner": "melo",
+  "winner_points": 455.0,
+  "loser": "libguel",
+  "loser_points": 350.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 3,
+  "winner": "chalela",
+  "winner_points": 490.0,
+  "loser": "winch",
+  "loser_points": 353.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 3,
+  "winner": "jacobo",
+  "winner_points": 463.0,
+  "loser": "victor",
+  "loser_points": 451.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 3,
+  "winner": "blandon",
+  "winner_points": 457.0,
+  "loser": "shueiro",
+  "loser_points": 438.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 3,
+  "winner": "verdeja",
+  "winner_points": 447.0,
+  "loser": "ricky",
+  "loser_points": 379.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 4,
+  "winner": "joey",
+  "winner_points": 545.0,
+  "loser": "chalela",
+  "loser_points": 455.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 4,
+  "winner": "jacobo",
+  "winner_points": 497.0,
+  "loser": "libguel",
+  "loser_points": 468.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 4,
+  "winner": "winch",
+  "winner_points": 495.0,
+  "loser": "victor",
+  "loser_points": 413.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 4,
+  "winner": "shueiro",
+  "winner_points": 434.0,
+  "loser": "ricky",
+  "loser_points": 423.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 4,
+  "winner": "blandon",
+  "winner_points": 498.0,
+  "loser": "papo",
+  "loser_points": 434.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 4,
+  "winner": "melo",
+  "winner_points": 594.0,
+  "loser": "verdeja",
+  "loser_points": 394.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 5,
+  "winner": "joey",
+  "winner_points": 497.0,
+  "loser": "verdeja",
+  "loser_points": 472.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 5,
+  "winner": "blandon",
+  "winner_points": 449.0,
+  "loser": "libguel",
+  "loser_points": 367.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 5,
+  "winner": "shueiro",
+  "winner_points": 447.0,
+  "loser": "winch",
+  "loser_points": 437.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 5,
+  "winner": "victor",
+  "winner_points": 527.0,
+  "loser": "ricky",
+  "loser_points": 400.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 5,
+  "winner": "jacobo",
+  "winner_points": 462.0,
+  "loser": "papo",
+  "loser_points": 401.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 5,
+  "winner": "chalela",
+  "winner_points": 481.0,
+  "loser": "melo",
+  "loser_points": 456.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 6,
+  "winner": "joey",
+  "winner_points": 568.0,
+  "loser": "shueiro",
+  "loser_points": 513.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 6,
+  "winner": "chalela",
+  "winner_points": 501.0,
+  "loser": "libguel",
+  "loser_points": 391.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 6,
+  "winner": "winch",
+  "winner_points": 474.0,
+  "loser": "blandon",
+  "loser_points": 442.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 6,
+  "winner": "melo",
+  "winner_points": 585.0,
+  "loser": "victor",
+  "loser_points": 470.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 6,
+  "winner": "papo",
+  "winner_points": 558.0,
+  "loser": "verdeja",
+  "loser_points": 365.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 6,
+  "winner": "jacobo",
+  "winner_points": 409.0,
+  "loser": "ricky",
+  "loser_points": 359.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 7,
+  "winner": "joey",
+  "winner_points": 450.0,
+  "loser": "victor",
+  "loser_points": 406.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 7,
+  "winner": "verdeja",
+  "winner_points": 420.0,
+  "loser": "libguel",
+  "loser_points": 353.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 7,
+  "winner": "winch",
+  "winner_points": 437.0,
+  "loser": "jacobo",
+  "loser_points": 358.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 7,
+  "winner": "melo",
+  "winner_points": 479.0,
+  "loser": "shueiro",
+  "loser_points": 419.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 7,
+  "winner": "chalela",
+  "winner_points": 487.0,
+  "loser": "papo",
+  "loser_points": 430.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 7,
+  "winner": "blandon",
+  "winner_points": 454.0,
+  "loser": "ricky",
+  "loser_points": 393.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 8,
+  "winner": "jacobo",
+  "winner_points": 453.0,
+  "loser": "joey",
+  "loser_points": 409.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 8,
+  "winner": "ricky",
+  "winner_points": 549.0,
+  "loser": "libguel",
+  "loser_points": 467.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 8,
+  "winner": "winch",
+  "winner_points": 539.0,
+  "loser": "papo",
+  "loser_points": 497.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 8,
+  "winner": "victor",
+  "winner_points": 497.0,
+  "loser": "verdeja",
+  "loser_points": 413.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 8,
+  "winner": "chalela",
+  "winner_points": 503.0,
+  "loser": "shueiro",
+  "loser_points": 466.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 8,
+  "winner": "blandon",
+  "winner_points": 570.0,
+  "loser": "melo",
+  "loser_points": 443.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 9,
+  "winner": "joey",
+  "winner_points": 455.0,
+  "loser": "blandon",
+  "loser_points": 414.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 9,
+  "winner": "winch",
+  "winner_points": 572.0,
+  "loser": "libguel",
+  "loser_points": 532.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 9,
+  "winner": "victor",
+  "winner_points": 526.0,
+  "loser": "chalela",
+  "loser_points": 502.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 9,
+  "winner": "verdeja",
+  "winner_points": 487.0,
+  "loser": "shueiro",
+  "loser_points": 416.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 9,
+  "winner": "papo",
+  "winner_points": 566.0,
+  "loser": "ricky",
+  "loser_points": 451.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 9,
+  "winner": "melo",
+  "winner_points": 561.0,
+  "loser": "jacobo",
+  "loser_points": 417.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 10,
+  "winner": "joey",
+  "winner_points": 464.0,
+  "loser": "ricky",
+  "loser_points": 461.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 10,
+  "winner": "libguel",
+  "winner_points": 447.0,
+  "loser": "shueiro",
+  "loser_points": 456.0,
+  "tie": false,
+  "result_differs_from_score": true
+ },
+ {
+  "season": "2023-2024",
+  "week": 10,
+  "winner": "winch",
+  "winner_points": 528.0,
+  "loser": "melo",
+  "loser_points": 523.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 10,
+  "winner": "papo",
+  "winner_points": 626.0,
+  "loser": "victor",
+  "loser_points": 527.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 10,
+  "winner": "blandon",
+  "winner_points": 486.0,
+  "loser": "verdeja",
+  "loser_points": 439.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 10,
+  "winner": "jacobo",
+  "winner_points": 491.0,
+  "loser": "chalela",
+  "loser_points": 437.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 11,
+  "winner": "winch",
+  "winner_points": 562.0,
+  "loser": "joey",
+  "loser_points": 505.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 11,
+  "winner": "victor",
+  "winner_points": 519.0,
+  "loser": "libguel",
+  "loser_points": 440.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 11,
+  "winner": "papo",
+  "winner_points": 493.0,
+  "loser": "shueiro",
+  "loser_points": 435.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 11,
+  "winner": "melo",
+  "winner_points": 482.0,
+  "loser": "ricky",
+  "loser_points": 429.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 11,
+  "winner": "verdeja",
+  "winner_points": 505.0,
+  "loser": "jacobo",
+  "loser_points": 289.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 11,
+  "winner": "blandon",
+  "winner_points": 486.0,
+  "loser": "chalela",
+  "loser_points": 408.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 12,
+  "winner": "melo",
+  "winner_points": 521.0,
+  "loser": "joey",
+  "loser_points": 505.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 12,
+  "winner": "papo",
+  "winner_points": 472.0,
+  "loser": "libguel",
+  "loser_points": 383.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 12,
+  "winner": "winch",
+  "winner_points": 548.0,
+  "loser": "ricky",
+  "loser_points": 410.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 12,
+  "winner": "shueiro",
+  "winner_points": 481.0,
+  "loser": "victor",
+  "loser_points": 467.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 12,
+  "winner": "verdeja",
+  "winner_points": 518.0,
+  "loser": "chalela",
+  "loser_points": 428.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 12,
+  "winner": "blandon",
+  "winner_points": 518.0,
+  "loser": "jacobo",
+  "loser_points": 401.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 13,
+  "winner": "joey",
+  "winner_points": 469.0,
+  "loser": "libguel",
+  "loser_points": 403.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 13,
+  "winner": "winch",
+  "winner_points": 493.0,
+  "loser": "verdeja",
+  "loser_points": 466.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 13,
+  "winner": "victor",
+  "winner_points": 580.0,
+  "loser": "blandon",
+  "loser_points": 436.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 13,
+  "winner": "jacobo",
+  "winner_points": 457.0,
+  "loser": "shueiro",
+  "loser_points": 380.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 13,
+  "winner": "melo",
+  "winner_points": 648.0,
+  "loser": "papo",
+  "loser_points": 525.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 13,
+  "winner": "chalela",
+  "winner_points": 499.0,
+  "loser": "ricky",
+  "loser_points": 495.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 14,
+  "winner": "joey",
+  "winner_points": 520.0,
+  "loser": "papo",
+  "loser_points": 515.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 14,
+  "winner": "melo",
+  "winner_points": 605.0,
+  "loser": "libguel",
+  "loser_points": 514.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 14,
+  "winner": "winch",
+  "winner_points": 624.0,
+  "loser": "chalela",
+  "loser_points": 415.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 14,
+  "winner": "victor",
+  "winner_points": 442.0,
+  "loser": "jacobo",
+  "loser_points": 393.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 14,
+  "winner": "blandon",
+  "winner_points": 519.0,
+  "loser": "shueiro",
+  "loser_points": 416.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 14,
+  "winner": "verdeja",
+  "winner_points": 436.0,
+  "loser": "ricky",
+  "loser_points": 390.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 15,
+  "winner": "chalela",
+  "winner_points": 479.0,
+  "loser": "joey",
+  "loser_points": 435.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 15,
+  "winner": "libguel",
+  "winner_points": 449.0,
+  "loser": "jacobo",
+  "loser_points": 394.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 15,
+  "winner": "winch",
+  "winner_points": 554.0,
+  "loser": "victor",
+  "loser_points": 506.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 15,
+  "winner": "shueiro",
+  "winner_points": 488.0,
+  "loser": "ricky",
+  "loser_points": 437.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 15,
+  "winner": "papo",
+  "winner_points": 558.0,
+  "loser": "blandon",
+  "loser_points": 533.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 15,
+  "winner": "verdeja",
+  "winner_points": 522.0,
+  "loser": "melo",
+  "loser_points": 510.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 16,
+  "winner": "joey",
+  "winner_points": 510.0,
+  "loser": "verdeja",
+  "loser_points": 424.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 16,
+  "winner": "blandon",
+  "winner_points": 556.0,
+  "loser": "libguel",
+  "loser_points": 525.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 16,
+  "winner": "winch",
+  "winner_points": 590.0,
+  "loser": "shueiro",
+  "loser_points": 435.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 16,
+  "winner": "victor",
+  "winner_points": 492.0,
+  "loser": "ricky",
+  "loser_points": 243.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 16,
+  "winner": "papo",
+  "winner_points": 556.0,
+  "loser": "jacobo",
+  "loser_points": 366.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 16,
+  "winner": "chalela",
+  "winner_points": 472.0,
+  "loser": "melo",
+  "loser_points": 462.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 17,
+  "winner": "joey",
+  "winner_points": 474.0,
+  "loser": "shueiro",
+  "loser_points": 474.0,
+  "tie": true,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 17,
+  "winner": "libguel",
+  "winner_points": 470.0,
+  "loser": "chalela",
+  "loser_points": 469.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 17,
+  "winner": "blandon",
+  "winner_points": 514.0,
+  "loser": "winch",
+  "loser_points": 510.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 17,
+  "winner": "melo",
+  "winner_points": 428.0,
+  "loser": "victor",
+  "loser_points": 379.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 17,
+  "winner": "papo",
+  "winner_points": 471.0,
+  "loser": "verdeja",
+  "loser_points": 348.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 17,
+  "winner": "ricky",
+  "winner_points": 421.0,
+  "loser": "jacobo",
+  "loser_points": 350.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 18,
+  "winner": "victor",
+  "winner_points": 506.0,
+  "loser": "joey",
+  "loser_points": 469.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 18,
+  "winner": "libguel",
+  "winner_points": 414.0,
+  "loser": "verdeja",
+  "loser_points": 299.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 18,
+  "winner": "winch",
+  "winner_points": 387.0,
+  "loser": "jacobo",
+  "loser_points": 361.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 18,
+  "winner": "melo",
+  "winner_points": 416.0,
+  "loser": "shueiro",
+  "loser_points": 404.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 18,
+  "winner": "papo",
+  "winner_points": 497.0,
+  "loser": "chalela",
+  "loser_points": 448.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2023-2024",
+  "week": 18,
+  "winner": "ricky",
+  "winner_points": 473.0,
+  "loser": "blandon",
+  "loser_points": 442.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 1,
+  "winner": "verdeja",
+  "winner_points": 531.0,
+  "loser": "joey",
+  "loser_points": 482.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 1,
+  "winner": "libguel",
+  "winner_points": 491.0,
+  "loser": "victor",
+  "loser_points": 412.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 1,
+  "winner": "winch",
+  "winner_points": 512.0,
+  "loser": "shueiro",
+  "loser_points": 475.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 1,
+  "winner": "blandon",
+  "winner_points": 437.0,
+  "loser": "papo",
+  "loser_points": 405.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 1,
+  "winner": "melo",
+  "winner_points": 407.0,
+  "loser": "jacobo",
+  "loser_points": 302.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 1,
+  "winner": "chalela",
+  "winner_points": 460.0,
+  "loser": "ricky",
+  "loser_points": 375.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 2,
+  "winner": "joey",
+  "winner_points": 460.0,
+  "loser": "shueiro",
+  "loser_points": 346.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 2,
+  "winner": "melo",
+  "winner_points": 538.0,
+  "loser": "libguel",
+  "loser_points": 511.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 2,
+  "winner": "winch",
+  "winner_points": 551.0,
+  "loser": "verdeja",
+  "loser_points": 458.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 2,
+  "winner": "victor",
+  "winner_points": 502.0,
+  "loser": "jacobo",
+  "loser_points": 308.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 2,
+  "winner": "papo",
+  "winner_points": 452.0,
+  "loser": "ricky",
+  "loser_points": 370.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 2,
+  "winner": "chalela",
+  "winner_points": 526.0,
+  "loser": "blandon",
+  "loser_points": 492.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 3,
+  "winner": "joey",
+  "winner_points": 437.0,
+  "loser": "winch",
+  "loser_points": 435.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 3,
+  "winner": "libguel",
+  "winner_points": 473.0,
+  "loser": "jacobo",
+  "loser_points": 301.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 3,
+  "winner": "victor",
+  "winner_points": 558.0,
+  "loser": "melo",
+  "loser_points": 519.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 3,
+  "winner": "verdeja",
+  "winner_points": 493.0,
+  "loser": "shueiro",
+  "loser_points": 473.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 3,
+  "winner": "chalela",
+  "winner_points": 533.0,
+  "loser": "papo",
+  "loser_points": 419.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 3,
+  "winner": "blandon",
+  "winner_points": 539.0,
+  "loser": "ricky",
+  "loser_points": 414.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 4,
+  "winner": "joey",
+  "winner_points": 536.0,
+  "loser": "papo",
+  "loser_points": 413.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 4,
+  "winner": "winch",
+  "winner_points": 550.0,
+  "loser": "libguel",
+  "loser_points": 448.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 4,
+  "winner": "victor",
+  "winner_points": 455.0,
+  "loser": "shueiro",
+  "loser_points": 450.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 4,
+  "winner": "melo",
+  "winner_points": 550.0,
+  "loser": "chalela",
+  "loser_points": 517.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 4,
+  "winner": "blandon",
+  "winner_points": 590.0,
+  "loser": "verdeja",
+  "loser_points": 435.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 4,
+  "winner": "ricky",
+  "winner_points": 473.0,
+  "loser": "jacobo",
+  "loser_points": 447.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 5,
+  "winner": "blandon",
+  "winner_points": 526.0,
+  "loser": "joey",
+  "loser_points": 475.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 5,
+  "winner": "libguel",
+  "winner_points": 471.0,
+  "loser": "shueiro",
+  "loser_points": 441.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 5,
+  "winner": "winch",
+  "winner_points": 523.0,
+  "loser": "victor",
+  "loser_points": 448.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 5,
+  "winner": "papo",
+  "winner_points": 468.0,
+  "loser": "verdeja",
+  "loser_points": 431.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 5,
+  "winner": "melo",
+  "winner_points": 483.0,
+  "loser": "ricky",
+  "loser_points": 396.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 5,
+  "winner": "chalela",
+  "winner_points": 549.0,
+  "loser": "jacobo",
+  "loser_points": 363.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 6,
+  "winner": "joey",
+  "winner_points": 518.0,
+  "loser": "ricky",
+  "loser_points": 407.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 6,
+  "winner": "blandon",
+  "winner_points": 539.0,
+  "loser": "libguel",
+  "loser_points": 512.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 6,
+  "winner": "winch",
+  "winner_points": 534.0,
+  "loser": "melo",
+  "loser_points": 452.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 6,
+  "winner": "victor",
+  "winner_points": 507.0,
+  "loser": "papo",
+  "loser_points": 430.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 6,
+  "winner": "jacobo",
+  "winner_points": 446.0,
+  "loser": "shueiro",
+  "loser_points": 441.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 6,
+  "winner": "chalela",
+  "winner_points": 490.0,
+  "loser": "verdeja",
+  "loser_points": 451.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 7,
+  "winner": "joey",
+  "winner_points": 538.0,
+  "loser": "chalela",
+  "loser_points": 528.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 7,
+  "winner": "libguel",
+  "winner_points": 502.0,
+  "loser": "papo",
+  "loser_points": 378.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 7,
+  "winner": "winch",
+  "winner_points": 473.0,
+  "loser": "jacobo",
+  "loser_points": 327.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 7,
+  "winner": "blandon",
+  "winner_points": 523.0,
+  "loser": "victor",
+  "loser_points": 477.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 7,
+  "winner": "shueiro",
+  "winner_points": 484.0,
+  "loser": "melo",
+  "loser_points": 441.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 7,
+  "winner": "verdeja",
+  "winner_points": 426.0,
+  "loser": "ricky",
+  "loser_points": 418.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 8,
+  "winner": "joey",
+  "winner_points": 468.0,
+  "loser": "jacobo",
+  "loser_points": 399.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 8,
+  "winner": "chalela",
+  "winner_points": 494.0,
+  "loser": "libguel",
+  "loser_points": 342.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 8,
+  "winner": "blandon",
+  "winner_points": 432.0,
+  "loser": "winch",
+  "loser_points": 401.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 8,
+  "winner": "victor",
+  "winner_points": 358.0,
+  "loser": "ricky",
+  "loser_points": 322.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 8,
+  "winner": "shueiro",
+  "winner_points": 449.0,
+  "loser": "papo",
+  "loser_points": 140.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 8,
+  "winner": "melo",
+  "winner_points": 433.0,
+  "loser": "verdeja",
+  "loser_points": 339.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 9,
+  "winner": "melo",
+  "winner_points": 601.0,
+  "loser": "joey",
+  "loser_points": 445.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 9,
+  "winner": "ricky",
+  "winner_points": 383.0,
+  "loser": "libguel",
+  "loser_points": 380.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 9,
+  "winner": "winch",
+  "winner_points": 465.0,
+  "loser": "papo",
+  "loser_points": 345.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 9,
+  "winner": "chalela",
+  "winner_points": 493.0,
+  "loser": "victor",
+  "loser_points": 420.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 9,
+  "winner": "shueiro",
+  "winner_points": 535.0,
+  "loser": "blandon",
+  "loser_points": 418.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 9,
+  "winner": "verdeja",
+  "winner_points": 451.0,
+  "loser": "jacobo",
+  "loser_points": 364.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 10,
+  "winner": "victor",
+  "winner_points": 543.0,
+  "loser": "joey",
+  "loser_points": 379.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 10,
+  "winner": "verdeja",
+  "winner_points": 468.0,
+  "loser": "libguel",
+  "loser_points": 417.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 10,
+  "winner": "winch",
+  "winner_points": 557.0,
+  "loser": "chalela",
+  "loser_points": 508.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 10,
+  "winner": "shueiro",
+  "winner_points": 527.0,
+  "loser": "ricky",
+  "loser_points": 386.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 10,
+  "winner": "jacobo",
+  "winner_points": 492.0,
+  "loser": "papo",
+  "loser_points": 322.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 10,
+  "winner": "melo",
+  "winner_points": 554.0,
+  "loser": "blandon",
+  "loser_points": 418.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 11,
+  "winner": "libguel",
+  "winner_points": 550.0,
+  "loser": "joey",
+  "loser_points": 467.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 11,
+  "winner": "winch",
+  "winner_points": 422.0,
+  "loser": "ricky",
+  "loser_points": 318.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 11,
+  "winner": "victor",
+  "winner_points": 458.0,
+  "loser": "verdeja",
+  "loser_points": 336.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 11,
+  "winner": "chalela",
+  "winner_points": 539.0,
+  "loser": "shueiro",
+  "loser_points": 400.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 11,
+  "winner": "melo",
+  "winner_points": 549.0,
+  "loser": "papo",
+  "loser_points": 351.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 11,
+  "winner": "blandon",
+  "winner_points": 466.0,
+  "loser": "jacobo",
+  "loser_points": 431.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 12,
+  "winner": "joey",
+  "winner_points": 488.0,
+  "loser": "verdeja",
+  "loser_points": 429.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 12,
+  "winner": "victor",
+  "winner_points": 487.0,
+  "loser": "libguel",
+  "loser_points": 462.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 12,
+  "winner": "winch",
+  "winner_points": 561.0,
+  "loser": "shueiro",
+  "loser_points": 528.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 12,
+  "winner": "blandon",
+  "winner_points": 557.0,
+  "loser": "papo",
+  "loser_points": 331.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 12,
+  "winner": "melo",
+  "winner_points": 512.0,
+  "loser": "jacobo",
+  "loser_points": 451.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 12,
+  "winner": "chalela",
+  "winner_points": 466.0,
+  "loser": "ricky",
+  "loser_points": 414.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 13,
+  "winner": "shueiro",
+  "winner_points": 444.0,
+  "loser": "joey",
+  "loser_points": 421.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 13,
+  "winner": "libguel",
+  "winner_points": 499.0,
+  "loser": "melo",
+  "loser_points": 490.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 13,
+  "winner": "winch",
+  "winner_points": 505.0,
+  "loser": "verdeja",
+  "loser_points": 481.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 13,
+  "winner": "victor",
+  "winner_points": 479.0,
+  "loser": "jacobo",
+  "loser_points": 366.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 13,
+  "winner": "papo",
+  "winner_points": 480.0,
+  "loser": "ricky",
+  "loser_points": 438.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 13,
+  "winner": "chalela",
+  "winner_points": 569.0,
+  "loser": "blandon",
+  "loser_points": 515.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 14,
+  "winner": "winch",
+  "winner_points": 507.0,
+  "loser": "joey",
+  "loser_points": 467.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 14,
+  "winner": "libguel",
+  "winner_points": 499.0,
+  "loser": "jacobo",
+  "loser_points": 454.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 14,
+  "winner": "victor",
+  "winner_points": 552.0,
+  "loser": "melo",
+  "loser_points": 549.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 14,
+  "winner": "verdeja",
+  "winner_points": 427.0,
+  "loser": "shueiro",
+  "loser_points": 410.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 14,
+  "winner": "papo",
+  "winner_points": 460.0,
+  "loser": "chalela",
+  "loser_points": 430.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 14,
+  "winner": "blandon",
+  "winner_points": 501.0,
+  "loser": "ricky",
+  "loser_points": 383.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 15,
+  "winner": "joey",
+  "winner_points": 508.0,
+  "loser": "papo",
+  "loser_points": 341.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 15,
+  "winner": "winch",
+  "winner_points": 551.0,
+  "loser": "libguel",
+  "loser_points": 453.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 15,
+  "winner": "shueiro",
+  "winner_points": 489.0,
+  "loser": "victor",
+  "loser_points": 414.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 15,
+  "winner": "chalela",
+  "winner_points": 545.0,
+  "loser": "melo",
+  "loser_points": 496.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 15,
+  "winner": "blandon",
+  "winner_points": 507.0,
+  "loser": "verdeja",
+  "loser_points": 388.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 15,
+  "winner": "ricky",
+  "winner_points": 498.0,
+  "loser": "jacobo",
+  "loser_points": 454.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 16,
+  "winner": "blandon",
+  "winner_points": 462.0,
+  "loser": "joey",
+  "loser_points": 348.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 16,
+  "winner": "shueiro",
+  "winner_points": 579.0,
+  "loser": "libguel",
+  "loser_points": 548.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 16,
+  "winner": "winch",
+  "winner_points": 518.0,
+  "loser": "victor",
+  "loser_points": 418.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 16,
+  "winner": "papo",
+  "winner_points": 345.0,
+  "loser": "verdeja",
+  "loser_points": 392.0,
+  "tie": false,
+  "result_differs_from_score": true
+ },
+ {
+  "season": "2024-2025",
+  "week": 16,
+  "winner": "melo",
+  "winner_points": 557.0,
+  "loser": "ricky",
+  "loser_points": 405.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 16,
+  "winner": "chalela",
+  "winner_points": 506.0,
+  "loser": "jacobo",
+  "loser_points": 421.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 17,
+  "winner": "ricky",
+  "winner_points": 407.0,
+  "loser": "joey",
+  "loser_points": 235.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 17,
+  "winner": "blandon",
+  "winner_points": 512.0,
+  "loser": "libguel",
+  "loser_points": 461.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 17,
+  "winner": "melo",
+  "winner_points": 581.0,
+  "loser": "winch",
+  "loser_points": 479.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 17,
+  "winner": "victor",
+  "winner_points": 485.0,
+  "loser": "papo",
+  "loser_points": 164.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 17,
+  "winner": "jacobo",
+  "winner_points": 463.0,
+  "loser": "shueiro",
+  "loser_points": 431.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2024-2025",
+  "week": 17,
+  "winner": "chalela",
+  "winner_points": 500.0,
+  "loser": "verdeja",
+  "loser_points": 349.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 1,
+  "winner": "papo",
+  "winner_points": 449.0,
+  "loser": "joey",
+  "loser_points": 425.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 1,
+  "winner": "winch",
+  "winner_points": 536.0,
+  "loser": "libguel",
+  "loser_points": 422.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 1,
+  "winner": "victor",
+  "winner_points": 408.0,
+  "loser": "shueiro",
+  "loser_points": 406.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 1,
+  "winner": "melo",
+  "winner_points": 500.0,
+  "loser": "ricky",
+  "loser_points": 451.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 1,
+  "winner": "verdeja",
+  "winner_points": 446.0,
+  "loser": "jacobo",
+  "loser_points": 343.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 1,
+  "winner": "chalela",
+  "winner_points": 438.0,
+  "loser": "blandon",
+  "loser_points": 328.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 2,
+  "winner": "blandon",
+  "winner_points": 430.0,
+  "loser": "joey",
+  "loser_points": 406.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 2,
+  "winner": "libguel",
+  "winner_points": 513.0,
+  "loser": "victor",
+  "loser_points": 488.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 2,
+  "winner": "winch",
+  "winner_points": 555.0,
+  "loser": "shueiro",
+  "loser_points": 468.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 2,
+  "winner": "papo",
+  "winner_points": 506.0,
+  "loser": "chalela",
+  "loser_points": 334.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 2,
+  "winner": "verdeja",
+  "winner_points": 502.0,
+  "loser": "melo",
+  "loser_points": 482.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 2,
+  "winner": "ricky",
+  "winner_points": 441.0,
+  "loser": "jacobo",
+  "loser_points": 399.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 3,
+  "winner": "chalela",
+  "winner_points": 533.0,
+  "loser": "joey",
+  "loser_points": 437.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 3,
+  "winner": "libguel",
+  "winner_points": 524.0,
+  "loser": "shueiro",
+  "loser_points": 394.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 3,
+  "winner": "winch",
+  "winner_points": 476.0,
+  "loser": "victor",
+  "loser_points": 454.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 3,
+  "winner": "papo",
+  "winner_points": 504.0,
+  "loser": "blandon",
+  "loser_points": 382.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 3,
+  "winner": "melo",
+  "winner_points": 489.0,
+  "loser": "jacobo",
+  "loser_points": 434.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 3,
+  "winner": "verdeja",
+  "winner_points": 544.0,
+  "loser": "ricky",
+  "loser_points": 485.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 4,
+  "winner": "victor",
+  "winner_points": 521.0,
+  "loser": "joey",
+  "loser_points": 438.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 4,
+  "winner": "libguel",
+  "winner_points": 533.0,
+  "loser": "ricky",
+  "loser_points": 438.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 4,
+  "winner": "melo",
+  "winner_points": 577.0,
+  "loser": "winch",
+  "loser_points": 426.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 4,
+  "winner": "shueiro",
+  "winner_points": 583.0,
+  "loser": "papo",
+  "loser_points": 458.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 4,
+  "winner": "chalela",
+  "winner_points": 528.0,
+  "loser": "verdeja",
+  "loser_points": 488.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 4,
+  "winner": "blandon",
+  "winner_points": 430.0,
+  "loser": "jacobo",
+  "loser_points": 416.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 5,
+  "winner": "shueiro",
+  "winner_points": 435.0,
+  "loser": "joey",
+  "loser_points": 416.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 5,
+  "winner": "libguel",
+  "winner_points": 551.0,
+  "loser": "melo",
+  "loser_points": 459.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 5,
+  "winner": "ricky",
+  "winner_points": 463.0,
+  "loser": "winch",
+  "loser_points": 438.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 5,
+  "winner": "papo",
+  "winner_points": 497.0,
+  "loser": "victor",
+  "loser_points": 485.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 5,
+  "winner": "verdeja",
+  "winner_points": 433.0,
+  "loser": "blandon",
+  "loser_points": 251.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 5,
+  "winner": "chalela",
+  "winner_points": 482.0,
+  "loser": "jacobo",
+  "loser_points": 409.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 6,
+  "winner": "ricky",
+  "winner_points": 444.0,
+  "loser": "joey",
+  "loser_points": 443.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 6,
+  "winner": "libguel",
+  "winner_points": 526.0,
+  "loser": "jacobo",
+  "loser_points": 427.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 6,
+  "winner": "verdeja",
+  "winner_points": 413.0,
+  "loser": "winch",
+  "loser_points": 407.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 6,
+  "winner": "victor",
+  "winner_points": 518.0,
+  "loser": "blandon",
+  "loser_points": 391.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 6,
+  "winner": "chalela",
+  "winner_points": 538.0,
+  "loser": "shueiro",
+  "loser_points": 512.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 6,
+  "winner": "papo",
+  "winner_points": 514.0,
+  "loser": "melo",
+  "loser_points": 496.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 7,
+  "winner": "melo",
+  "winner_points": 557.0,
+  "loser": "joey",
+  "loser_points": 415.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 7,
+  "winner": "libguel",
+  "winner_points": 610.0,
+  "loser": "verdeja",
+  "loser_points": 397.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 7,
+  "winner": "winch",
+  "winner_points": 479.0,
+  "loser": "jacobo",
+  "loser_points": 464.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 7,
+  "winner": "victor",
+  "winner_points": 520.0,
+  "loser": "chalela",
+  "loser_points": 468.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 7,
+  "winner": "shueiro",
+  "winner_points": 548.0,
+  "loser": "blandon",
+  "loser_points": 515.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 7,
+  "winner": "papo",
+  "winner_points": 518.0,
+  "loser": "ricky",
+  "loser_points": 388.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 8,
+  "winner": "libguel",
+  "winner_points": 419.0,
+  "loser": "joey",
+  "loser_points": 405.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 8,
+  "winner": "papo",
+  "winner_points": 460.0,
+  "loser": "winch",
+  "loser_points": 442.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 8,
+  "winner": "victor",
+  "winner_points": 445.0,
+  "loser": "jacobo",
+  "loser_points": 328.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 8,
+  "winner": "shueiro",
+  "winner_points": 406.0,
+  "loser": "verdeja",
+  "loser_points": 334.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 8,
+  "winner": "melo",
+  "winner_points": 484.0,
+  "loser": "chalela",
+  "loser_points": 480.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 8,
+  "winner": "blandon",
+  "winner_points": 453.0,
+  "loser": "ricky",
+  "loser_points": 375.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 9,
+  "winner": "joey",
+  "winner_points": 584.0,
+  "loser": "winch",
+  "loser_points": 485.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 9,
+  "winner": "libguel",
+  "winner_points": 480.0,
+  "loser": "papo",
+  "loser_points": 320.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 9,
+  "winner": "victor",
+  "winner_points": 546.0,
+  "loser": "verdeja",
+  "loser_points": 511.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 9,
+  "winner": "shueiro",
+  "winner_points": 475.0,
+  "loser": "jacobo",
+  "loser_points": 439.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 9,
+  "winner": "blandon",
+  "winner_points": 494.0,
+  "loser": "melo",
+  "loser_points": 438.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 9,
+  "winner": "chalela",
+  "winner_points": 445.0,
+  "loser": "ricky",
+  "loser_points": 415.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 10,
+  "winner": "jacobo",
+  "winner_points": 473.0,
+  "loser": "joey",
+  "loser_points": 414.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 10,
+  "winner": "libguel",
+  "winner_points": 532.0,
+  "loser": "blandon",
+  "loser_points": 436.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 10,
+  "winner": "winch",
+  "winner_points": 511.0,
+  "loser": "chalela",
+  "loser_points": 450.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 10,
+  "winner": "victor",
+  "winner_points": 583.0,
+  "loser": "ricky",
+  "loser_points": 362.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 10,
+  "winner": "shueiro",
+  "winner_points": 490.0,
+  "loser": "melo",
+  "loser_points": 457.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 10,
+  "winner": "papo",
+  "winner_points": 494.0,
+  "loser": "verdeja",
+  "loser_points": 389.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 11,
+  "winner": "verdeja",
+  "winner_points": 559.0,
+  "loser": "joey",
+  "loser_points": 434.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 11,
+  "winner": "libguel",
+  "winner_points": 575.0,
+  "loser": "chalela",
+  "loser_points": 495.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 11,
+  "winner": "winch",
+  "winner_points": 470.0,
+  "loser": "blandon",
+  "loser_points": 447.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 11,
+  "winner": "melo",
+  "winner_points": 515.0,
+  "loser": "victor",
+  "loser_points": 451.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 11,
+  "winner": "shueiro",
+  "winner_points": 414.0,
+  "loser": "ricky",
+  "loser_points": 410.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 11,
+  "winner": "papo",
+  "winner_points": 573.0,
+  "loser": "jacobo",
+  "loser_points": 436.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 12,
+  "winner": "papo",
+  "winner_points": 476.0,
+  "loser": "joey",
+  "loser_points": 377.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 12,
+  "winner": "libguel",
+  "winner_points": 515.0,
+  "loser": "winch",
+  "loser_points": 477.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 12,
+  "winner": "shueiro",
+  "winner_points": 507.0,
+  "loser": "victor",
+  "loser_points": 286.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 12,
+  "winner": "melo",
+  "winner_points": 497.0,
+  "loser": "ricky",
+  "loser_points": 350.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 12,
+  "winner": "jacobo",
+  "winner_points": 472.0,
+  "loser": "verdeja",
+  "loser_points": 407.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 12,
+  "winner": "chalela",
+  "winner_points": 456.0,
+  "loser": "blandon",
+  "loser_points": 442.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 13,
+  "winner": "blandon",
+  "winner_points": 443.0,
+  "loser": "joey",
+  "loser_points": 415.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 13,
+  "winner": "libguel",
+  "winner_points": 454.0,
+  "loser": "victor",
+  "loser_points": 251.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 13,
+  "winner": "shueiro",
+  "winner_points": 499.0,
+  "loser": "winch",
+  "loser_points": 455.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 13,
+  "winner": "papo",
+  "winner_points": 519.0,
+  "loser": "chalela",
+  "loser_points": 333.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 13,
+  "winner": "melo",
+  "winner_points": 556.0,
+  "loser": "verdeja",
+  "loser_points": 381.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 13,
+  "winner": "jacobo",
+  "winner_points": 450.0,
+  "loser": "ricky",
+  "loser_points": 441.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 14,
+  "winner": "chalela",
+  "winner_points": 491.0,
+  "loser": "joey",
+  "loser_points": 411.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 14,
+  "winner": "libguel",
+  "winner_points": 563.0,
+  "loser": "shueiro",
+  "loser_points": 450.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 14,
+  "winner": "winch",
+  "winner_points": 427.0,
+  "loser": "victor",
+  "loser_points": 288.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 14,
+  "winner": "papo",
+  "winner_points": 479.0,
+  "loser": "blandon",
+  "loser_points": 468.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 14,
+  "winner": "melo",
+  "winner_points": 462.0,
+  "loser": "jacobo",
+  "loser_points": 432.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 14,
+  "winner": "verdeja",
+  "winner_points": 451.0,
+  "loser": "ricky",
+  "loser_points": 370.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 15,
+  "winner": "joey",
+  "winner_points": 467.0,
+  "loser": "victor",
+  "loser_points": 229.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 15,
+  "winner": "libguel",
+  "winner_points": 461.0,
+  "loser": "ricky",
+  "loser_points": 348.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 15,
+  "winner": "winch",
+  "winner_points": 489.0,
+  "loser": "melo",
+  "loser_points": 481.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 15,
+  "winner": "papo",
+  "winner_points": 532.0,
+  "loser": "shueiro",
+  "loser_points": 509.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 15,
+  "winner": "verdeja",
+  "winner_points": 531.0,
+  "loser": "chalela",
+  "loser_points": 415.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 15,
+  "winner": "jacobo",
+  "winner_points": 446.0,
+  "loser": "blandon",
+  "loser_points": 398.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 16,
+  "winner": "shueiro",
+  "winner_points": 385.0,
+  "loser": "joey",
+  "loser_points": 212.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 16,
+  "winner": "libguel",
+  "winner_points": 502.0,
+  "loser": "melo",
+  "loser_points": 493.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 16,
+  "winner": "ricky",
+  "winner_points": 414.0,
+  "loser": "winch",
+  "loser_points": 410.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 16,
+  "winner": "papo",
+  "winner_points": 455.0,
+  "loser": "victor",
+  "loser_points": 404.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 16,
+  "winner": "verdeja",
+  "winner_points": 380.0,
+  "loser": "blandon",
+  "loser_points": 367.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 16,
+  "winner": "chalela",
+  "winner_points": 481.0,
+  "loser": "jacobo",
+  "loser_points": 325.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 17,
+  "winner": "ricky",
+  "winner_points": 371.0,
+  "loser": "joey",
+  "loser_points": 233.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 17,
+  "winner": "libguel",
+  "winner_points": 456.0,
+  "loser": "jacobo",
+  "loser_points": 147.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 17,
+  "winner": "winch",
+  "winner_points": 430.0,
+  "loser": "verdeja",
+  "loser_points": 336.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 17,
+  "winner": "victor",
+  "winner_points": 280.0,
+  "loser": "blandon",
+  "loser_points": 175.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 17,
+  "winner": "shueiro",
+  "winner_points": 467.0,
+  "loser": "chalela",
+  "loser_points": 441.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 17,
+  "winner": "melo",
+  "winner_points": 478.0,
+  "loser": "papo",
+  "loser_points": 408.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 18,
+  "winner": "melo",
+  "winner_points": 446.0,
+  "loser": "joey",
+  "loser_points": 443.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 18,
+  "winner": "verdeja",
+  "winner_points": 358.0,
+  "loser": "libguel",
+  "loser_points": 340.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 18,
+  "winner": "jacobo",
+  "winner_points": 464.0,
+  "loser": "winch",
+  "loser_points": 416.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 18,
+  "winner": "chalela",
+  "winner_points": 363.0,
+  "loser": "victor",
+  "loser_points": 288.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 18,
+  "winner": "shueiro",
+  "winner_points": 429.0,
+  "loser": "blandon",
+  "loser_points": 352.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 18,
+  "winner": "ricky",
+  "winner_points": 443.0,
+  "loser": "papo",
+  "loser_points": 408.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 19,
+  "winner": "libguel",
+  "winner_points": 503.0,
+  "loser": "joey",
+  "loser_points": 438.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 19,
+  "winner": "papo",
+  "winner_points": 475.0,
+  "loser": "winch",
+  "loser_points": 459.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 19,
+  "winner": "jacobo",
+  "winner_points": 341.0,
+  "loser": "victor",
+  "loser_points": 318.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 19,
+  "winner": "shueiro",
+  "winner_points": 547.0,
+  "loser": "verdeja",
+  "loser_points": 398.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 19,
+  "winner": "chalela",
+  "winner_points": 468.0,
+  "loser": "melo",
+  "loser_points": 454.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 19,
+  "winner": "ricky",
+  "winner_points": 357.0,
+  "loser": "blandon",
+  "loser_points": 328.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 20,
+  "winner": "winch",
+  "winner_points": 488.0,
+  "loser": "joey",
+  "loser_points": 405.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 20,
+  "winner": "libguel",
+  "winner_points": 460.0,
+  "loser": "papo",
+  "loser_points": 399.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 20,
+  "winner": "victor",
+  "winner_points": 437.0,
+  "loser": "verdeja",
+  "loser_points": 418.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 20,
+  "winner": "jacobo",
+  "winner_points": 429.0,
+  "loser": "shueiro",
+  "loser_points": 379.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 20,
+  "winner": "melo",
+  "winner_points": 530.0,
+  "loser": "blandon",
+  "loser_points": 336.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2025-2026",
+  "week": 20,
+  "winner": "chalela",
+  "winner_points": 371.0,
+  "loser": "ricky",
+  "loser_points": 320.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 1,
+  "winner": "jacobo",
+  "winner_points": 421.0,
+  "loser": "joey",
+  "loser_points": 277.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 1,
+  "winner": "libguel",
+  "winner_points": 517.0,
+  "loser": "melo",
+  "loser_points": 455.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 1,
+  "winner": "victor",
+  "winner_points": 410.0,
+  "loser": "winch",
+  "loser_points": 383.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 1,
+  "winner": "ricky",
+  "winner_points": 424.0,
+  "loser": "shueiro",
+  "loser_points": 323.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 1,
+  "winner": "papo",
+  "winner_points": 508.0,
+  "loser": "blandon",
+  "loser_points": 422.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 1,
+  "winner": "verdeja",
+  "winner_points": 445.0,
+  "loser": "chalela",
+  "loser_points": 357.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 2,
+  "winner": "blandon",
+  "winner_points": 432.0,
+  "loser": "joey",
+  "loser_points": 420.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 2,
+  "winner": "libguel",
+  "winner_points": 470.0,
+  "loser": "ricky",
+  "loser_points": 320.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 2,
+  "winner": "winch",
+  "winner_points": 360.0,
+  "loser": "verdeja",
+  "loser_points": 253.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 2,
+  "winner": "victor",
+  "winner_points": 377.0,
+  "loser": "chalela",
+  "loser_points": 326.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 2,
+  "winner": "shueiro",
+  "winner_points": 498.0,
+  "loser": "melo",
+  "loser_points": 441.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 2,
+  "winner": "jacobo",
+  "winner_points": 464.0,
+  "loser": "papo",
+  "loser_points": 345.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 3,
+  "winner": "joey",
+  "winner_points": 414.0,
+  "loser": "papo",
+  "loser_points": 389.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 3,
+  "winner": "shueiro",
+  "winner_points": 493.0,
+  "loser": "libguel",
+  "loser_points": 405.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 3,
+  "winner": "winch",
+  "winner_points": 408.0,
+  "loser": "chalela",
+  "loser_points": 372.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 3,
+  "winner": "verdeja",
+  "winner_points": 448.0,
+  "loser": "victor",
+  "loser_points": 408.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 3,
+  "winner": "ricky",
+  "winner_points": 482.0,
+  "loser": "melo",
+  "loser_points": 463.0,
+  "tie": false,
+  "result_differs_from_score": false
+ },
+ {
+  "season": "2026-2027",
+  "week": 3,
+  "winner": "jacobo",
+  "winner_points": 462.0,
+  "loser": "blandon",
+  "loser_points": 387.0,
+  "tie": false,
+  "result_differs_from_score": false
+ }
+]

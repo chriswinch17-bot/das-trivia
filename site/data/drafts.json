@@ -1,0 +1,2622 @@
+[
+ {
+  "season": "2023-2024",
+  "kind": "startup",
+  "rounds": 18,
+  "picks": [
+   {
+    "round": 1,
+    "pick": 1,
+    "manager": "victor",
+    "player": "Nikola Jokić",
+    "position": "C",
+    "nba_team": "DEN"
+   },
+   {
+    "round": 1,
+    "pick": 2,
+    "manager": "papo",
+    "player": "Luka Dončić",
+    "position": "PG",
+    "nba_team": "DAL"
+   },
+   {
+    "round": 1,
+    "pick": 3,
+    "manager": "ricky",
+    "player": "Victor Wembanyama",
+    "position": "C",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 1,
+    "pick": 4,
+    "manager": "joey",
+    "player": "Tyrese Haliburton",
+    "position": "PG",
+    "nba_team": "IND"
+   },
+   {
+    "round": 1,
+    "pick": 5,
+    "manager": "jacobo",
+    "player": "LaMelo Ball",
+    "position": "PG",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 1,
+    "pick": 6,
+    "manager": "blandon",
+    "player": "Giannis Antetokounmpo",
+    "position": "PF",
+    "nba_team": "MIL"
+   },
+   {
+    "round": 1,
+    "pick": 7,
+    "manager": "melo",
+    "player": "Joel Embiid",
+    "position": "C",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 1,
+    "pick": 8,
+    "manager": "libguel",
+    "player": "Anthony Edwards",
+    "position": "SG",
+    "nba_team": "MIN"
+   },
+   {
+    "round": 1,
+    "pick": 9,
+    "manager": "chalela",
+    "player": "Shai Gilgeous-Alexander",
+    "position": "PG",
+    "nba_team": "OKC"
+   },
+   {
+    "round": 1,
+    "pick": 10,
+    "manager": "winch",
+    "player": "Jayson Tatum",
+    "position": "SF",
+    "nba_team": "BOS"
+   },
+   {
+    "round": 1,
+    "pick": 11,
+    "manager": "shueiro",
+    "player": "Chet Holmgren",
+    "position": "PF",
+    "nba_team": "OKC"
+   },
+   {
+    "round": 1,
+    "pick": 12,
+    "manager": "verdeja",
+    "player": "Domantas Sabonis",
+    "position": "PF",
+    "nba_team": "SAC"
+   },
+   {
+    "round": 2,
+    "pick": 13,
+    "manager": "verdeja",
+    "player": "Paolo Banchero",
+    "position": "PF",
+    "nba_team": "ORL"
+   },
+   {
+    "round": 2,
+    "pick": 14,
+    "manager": "shueiro",
+    "player": "Cade Cunningham",
+    "position": "SF",
+    "nba_team": "DET"
+   },
+   {
+    "round": 2,
+    "pick": 15,
+    "manager": "winch",
+    "player": "Devin Booker",
+    "position": "SG",
+    "nba_team": "PHX"
+   },
+   {
+    "round": 2,
+    "pick": 16,
+    "manager": "chalela",
+    "player": "Trae Young",
+    "position": "PG",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 2,
+    "pick": 17,
+    "manager": "libguel",
+    "player": "Ja Morant",
+    "position": "PG",
+    "nba_team": "MEM"
+   },
+   {
+    "round": 2,
+    "pick": 18,
+    "manager": "melo",
+    "player": "Donovan Mitchell",
+    "position": "SG",
+    "nba_team": "CLE"
+   },
+   {
+    "round": 2,
+    "pick": 19,
+    "manager": "blandon",
+    "player": "Karl-Anthony Towns",
+    "position": "C",
+    "nba_team": "MIN"
+   },
+   {
+    "round": 2,
+    "pick": 20,
+    "manager": "jacobo",
+    "player": "Scoot Henderson",
+    "position": "PG",
+    "nba_team": "POR"
+   },
+   {
+    "round": 2,
+    "pick": 21,
+    "manager": "joey",
+    "player": "Evan Mobley",
+    "position": "C",
+    "nba_team": "CLE"
+   },
+   {
+    "round": 2,
+    "pick": 22,
+    "manager": "ricky",
+    "player": "Jaylen Brown",
+    "position": "SF",
+    "nba_team": "BOS"
+   },
+   {
+    "round": 2,
+    "pick": 23,
+    "manager": "shueiro",
+    "player": "Alperen Şengün",
+    "position": "C",
+    "nba_team": "HOU"
+   },
+   {
+    "round": 2,
+    "pick": 24,
+    "manager": "victor",
+    "player": "Jaren Jackson Jr.",
+    "position": "C",
+    "nba_team": "MEM"
+   },
+   {
+    "round": 3,
+    "pick": 25,
+    "manager": "victor",
+    "player": "Josh Giddey",
+    "position": "SG",
+    "nba_team": "OKC"
+   },
+   {
+    "round": 3,
+    "pick": 26,
+    "manager": "shueiro",
+    "player": "Darius Garland",
+    "position": "PG",
+    "nba_team": "CLE"
+   },
+   {
+    "round": 3,
+    "pick": 27,
+    "manager": "ricky",
+    "player": "De'Aaron Fox",
+    "position": "PG",
+    "nba_team": "SAC"
+   },
+   {
+    "round": 3,
+    "pick": 28,
+    "manager": "jacobo",
+    "player": "Zion Williamson",
+    "position": "PF",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 3,
+    "pick": 29,
+    "manager": "joey",
+    "player": "Anthony Davis",
+    "position": "PF",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 3,
+    "pick": 30,
+    "manager": "blandon",
+    "player": "Bam Adebayo",
+    "position": "C",
+    "nba_team": "MIA"
+   },
+   {
+    "round": 3,
+    "pick": 31,
+    "manager": "melo",
+    "player": "Brandon Ingram",
+    "position": "SF",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 3,
+    "pick": 32,
+    "manager": "verdeja",
+    "player": "Mikal Bridges",
+    "position": "SF",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 3,
+    "pick": 33,
+    "manager": "chalela",
+    "player": "Jalen Brunson",
+    "position": "PG",
+    "nba_team": "NYK"
+   },
+   {
+    "round": 3,
+    "pick": 34,
+    "manager": "winch",
+    "player": "Stephen Curry",
+    "position": "PG",
+    "nba_team": "GSW"
+   },
+   {
+    "round": 3,
+    "pick": 35,
+    "manager": "papo",
+    "player": "Kevin Durant",
+    "position": "SF",
+    "nba_team": "PHX"
+   },
+   {
+    "round": 3,
+    "pick": 36,
+    "manager": "libguel",
+    "player": "Jamal Murray",
+    "position": "PG",
+    "nba_team": "DEN"
+   },
+   {
+    "round": 4,
+    "pick": 37,
+    "manager": "libguel",
+    "player": "Lauri Markkanen",
+    "position": "PF",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 4,
+    "pick": 38,
+    "manager": "papo",
+    "player": "Damian Lillard",
+    "position": "PG",
+    "nba_team": "MIL"
+   },
+   {
+    "round": 4,
+    "pick": 39,
+    "manager": "winch",
+    "player": "James Harden",
+    "position": "SG",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 4,
+    "pick": 40,
+    "manager": "chalela",
+    "player": "Desmond Bane",
+    "position": "SG",
+    "nba_team": "MEM"
+   },
+   {
+    "round": 4,
+    "pick": 41,
+    "manager": "verdeja",
+    "player": "Tyrese Maxey",
+    "position": "SG",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 4,
+    "pick": 42,
+    "manager": "melo",
+    "player": "Dejounte Murray",
+    "position": "PG",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 4,
+    "pick": 43,
+    "manager": "blandon",
+    "player": "Jalen Williams",
+    "position": "PG",
+    "nba_team": "OKC"
+   },
+   {
+    "round": 4,
+    "pick": 44,
+    "manager": "joey",
+    "player": "Julius Randle",
+    "position": "PF",
+    "nba_team": "NYK"
+   },
+   {
+    "round": 4,
+    "pick": 45,
+    "manager": "jacobo",
+    "player": "Jordan Poole",
+    "position": "SG",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 4,
+    "pick": 46,
+    "manager": "ricky",
+    "player": "Tyler Herro",
+    "position": "SG",
+    "nba_team": "MIA"
+   },
+   {
+    "round": 4,
+    "pick": 47,
+    "manager": "papo",
+    "player": "Deandre Ayton",
+    "position": "C",
+    "nba_team": "POR"
+   },
+   {
+    "round": 4,
+    "pick": 48,
+    "manager": "victor",
+    "player": "Kyrie Irving",
+    "position": "PG",
+    "nba_team": "DAL"
+   },
+   {
+    "round": 5,
+    "pick": 49,
+    "manager": "victor",
+    "player": "Walker Kessler",
+    "position": "C",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 5,
+    "pick": 50,
+    "manager": "shueiro",
+    "player": "Jalen Green",
+    "position": "SG",
+    "nba_team": "HOU"
+   },
+   {
+    "round": 5,
+    "pick": 51,
+    "manager": "ricky",
+    "player": "Anfernee Simons",
+    "position": "SG",
+    "nba_team": "POR"
+   },
+   {
+    "round": 5,
+    "pick": 52,
+    "manager": "jacobo",
+    "player": "LeBron James",
+    "position": "PF",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 5,
+    "pick": 53,
+    "manager": "joey",
+    "player": "Jarrett Allen",
+    "position": "C",
+    "nba_team": "CLE"
+   },
+   {
+    "round": 5,
+    "pick": 54,
+    "manager": "blandon",
+    "player": "OG Anunoby",
+    "position": "SF",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 5,
+    "pick": 55,
+    "manager": "melo",
+    "player": "Pascal Siakam",
+    "position": "PF",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 5,
+    "pick": 56,
+    "manager": "verdeja",
+    "player": "Zach LaVine",
+    "position": "SG",
+    "nba_team": "CHI"
+   },
+   {
+    "round": 5,
+    "pick": 57,
+    "manager": "chalela",
+    "player": "Jabari Smith Jr.",
+    "position": "PF",
+    "nba_team": "HOU"
+   },
+   {
+    "round": 5,
+    "pick": 58,
+    "manager": "winch",
+    "player": "Kawhi Leonard",
+    "position": "SF",
+    "nba_team": "LAC"
+   },
+   {
+    "round": 5,
+    "pick": 59,
+    "manager": "papo",
+    "player": "Kristaps Porziņģis",
+    "position": "C",
+    "nba_team": "BOS"
+   },
+   {
+    "round": 5,
+    "pick": 60,
+    "manager": "libguel",
+    "player": "Scottie Barnes",
+    "position": "SF",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 6,
+    "pick": 61,
+    "manager": "libguel",
+    "player": "Franz Wagner",
+    "position": "SF",
+    "nba_team": "ORL"
+   },
+   {
+    "round": 6,
+    "pick": 62,
+    "manager": "papo",
+    "player": "Paul George",
+    "position": "SF",
+    "nba_team": "LAC"
+   },
+   {
+    "round": 6,
+    "pick": 63,
+    "manager": "winch",
+    "player": "Fred VanVleet",
+    "position": "PG",
+    "nba_team": "HOU"
+   },
+   {
+    "round": 6,
+    "pick": 64,
+    "manager": "chalela",
+    "player": "Myles Turner",
+    "position": "C",
+    "nba_team": "IND"
+   },
+   {
+    "round": 6,
+    "pick": 65,
+    "manager": "verdeja",
+    "player": "Jaden Ivey",
+    "position": "PG",
+    "nba_team": "DET"
+   },
+   {
+    "round": 6,
+    "pick": 66,
+    "manager": "melo",
+    "player": "Jimmy Butler III",
+    "position": "SF",
+    "nba_team": "MIA"
+   },
+   {
+    "round": 6,
+    "pick": 67,
+    "manager": "blandon",
+    "player": "Amen Thompson",
+    "position": "PG",
+    "nba_team": "HOU"
+   },
+   {
+    "round": 6,
+    "pick": 68,
+    "manager": "joey",
+    "player": "Ben Simmons",
+    "position": "PG",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 6,
+    "pick": 69,
+    "manager": "jacobo",
+    "player": "Ausar Thompson",
+    "position": "PG",
+    "nba_team": "DET"
+   },
+   {
+    "round": 6,
+    "pick": 70,
+    "manager": "ricky",
+    "player": "DeMar DeRozan",
+    "position": "SG",
+    "nba_team": "CHI"
+   },
+   {
+    "round": 6,
+    "pick": 71,
+    "manager": "shueiro",
+    "player": "Bradley Beal",
+    "position": "SG",
+    "nba_team": "PHX"
+   },
+   {
+    "round": 6,
+    "pick": 72,
+    "manager": "victor",
+    "player": "Keegan Murray",
+    "position": "PF",
+    "nba_team": "SAC"
+   },
+   {
+    "round": 7,
+    "pick": 73,
+    "manager": "victor",
+    "player": "Kyle Kuzma",
+    "position": "PF",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 7,
+    "pick": 74,
+    "manager": "shueiro",
+    "player": "Devin Vassell",
+    "position": "SG",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 7,
+    "pick": 75,
+    "manager": "ricky",
+    "player": "Bennedict Mathurin",
+    "position": "PG",
+    "nba_team": "IND"
+   },
+   {
+    "round": 7,
+    "pick": 76,
+    "manager": "jacobo",
+    "player": "Nic Claxton",
+    "position": "C",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 7,
+    "pick": 77,
+    "manager": "joey",
+    "player": "John Collins",
+    "position": "PF",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 7,
+    "pick": 78,
+    "manager": "blandon",
+    "player": "Brandon Miller",
+    "position": "PF",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 7,
+    "pick": 79,
+    "manager": "melo",
+    "player": "Andrew Wiggins",
+    "position": "SF",
+    "nba_team": "GSW"
+   },
+   {
+    "round": 7,
+    "pick": 80,
+    "manager": "verdeja",
+    "player": "Wendell Carter Jr.",
+    "position": "C",
+    "nba_team": "ORL"
+   },
+   {
+    "round": 7,
+    "pick": 81,
+    "manager": "chalela",
+    "player": "Nikola Vučević",
+    "position": "C",
+    "nba_team": "CHI"
+   },
+   {
+    "round": 7,
+    "pick": 82,
+    "manager": "winch",
+    "player": "Rudy Gobert",
+    "position": "C",
+    "nba_team": "MIN"
+   },
+   {
+    "round": 7,
+    "pick": 83,
+    "manager": "papo",
+    "player": "RJ Barrett",
+    "position": "SF",
+    "nba_team": "NYK"
+   },
+   {
+    "round": 7,
+    "pick": 84,
+    "manager": "libguel",
+    "player": "Jrue Holiday",
+    "position": "PG",
+    "nba_team": "BOS"
+   },
+   {
+    "round": 8,
+    "pick": 85,
+    "manager": "libguel",
+    "player": "Jalen Duren",
+    "position": "C",
+    "nba_team": "DET"
+   },
+   {
+    "round": 8,
+    "pick": 86,
+    "manager": "papo",
+    "player": "Jerami Grant",
+    "position": "PF",
+    "nba_team": "POR"
+   },
+   {
+    "round": 8,
+    "pick": 87,
+    "manager": "winch",
+    "player": "CJ McCollum",
+    "position": "SG",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 8,
+    "pick": 88,
+    "manager": "chalela",
+    "player": "Austin Reaves",
+    "position": "SG",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 8,
+    "pick": 89,
+    "manager": "verdeja",
+    "player": "Jakob Poeltl",
+    "position": "C",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 8,
+    "pick": 90,
+    "manager": "melo",
+    "player": "Michael Porter Jr.",
+    "position": "SF",
+    "nba_team": "DEN"
+   },
+   {
+    "round": 8,
+    "pick": 91,
+    "manager": "blandon",
+    "player": "Onyeka Okongwu",
+    "position": "C",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 8,
+    "pick": 92,
+    "manager": "joey",
+    "player": "P.J. Washington",
+    "position": "PF",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 8,
+    "pick": 93,
+    "manager": "jacobo",
+    "player": "Jarace Walker",
+    "position": "PF",
+    "nba_team": "IND"
+   },
+   {
+    "round": 8,
+    "pick": 94,
+    "manager": "ricky",
+    "player": "Cameron Johnson",
+    "position": "PF",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 8,
+    "pick": 95,
+    "manager": "shueiro",
+    "player": "Shaedon Sharpe",
+    "position": "PG",
+    "nba_team": "POR"
+   },
+   {
+    "round": 8,
+    "pick": 96,
+    "manager": "victor",
+    "player": "Spencer Dinwiddie",
+    "position": "SG",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 9,
+    "pick": 97,
+    "manager": "victor",
+    "player": "Terry Rozier",
+    "position": "PG",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 9,
+    "pick": 98,
+    "manager": "shueiro",
+    "player": "Daniel Gafford",
+    "position": "C",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 9,
+    "pick": 99,
+    "manager": "ricky",
+    "player": "Jusuf Nurkić",
+    "position": "C",
+    "nba_team": "PHX"
+   },
+   {
+    "round": 9,
+    "pick": 100,
+    "manager": "jacobo",
+    "player": "Mark Williams",
+    "position": "C",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 9,
+    "pick": 101,
+    "manager": "joey",
+    "player": "Keldon Johnson",
+    "position": "SF",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 9,
+    "pick": 102,
+    "manager": "blandon",
+    "player": "Miles Bridges",
+    "position": "SF",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 9,
+    "pick": 103,
+    "manager": "melo",
+    "player": "Khris Middleton",
+    "position": "SF",
+    "nba_team": "MIL"
+   },
+   {
+    "round": 9,
+    "pick": 104,
+    "manager": "verdeja",
+    "player": "Bilal Coulibaly",
+    "position": "PF",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 9,
+    "pick": 105,
+    "manager": "chalela",
+    "player": "Gradey Dick",
+    "position": "PG",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 9,
+    "pick": 106,
+    "manager": "winch",
+    "player": "Aaron Gordon",
+    "position": "PF",
+    "nba_team": "DEN"
+   },
+   {
+    "round": 9,
+    "pick": 107,
+    "manager": "papo",
+    "player": "Clint Capela",
+    "position": "C",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 9,
+    "pick": 108,
+    "manager": "libguel",
+    "player": "Klay Thompson",
+    "position": "SG",
+    "nba_team": "GSW"
+   },
+   {
+    "round": 10,
+    "pick": 109,
+    "manager": "libguel",
+    "player": "Anthony Black",
+    "position": "PG",
+    "nba_team": "ORL"
+   },
+   {
+    "round": 10,
+    "pick": 110,
+    "manager": "papo",
+    "player": "Russell Westbrook",
+    "position": "PG",
+    "nba_team": "LAC"
+   },
+   {
+    "round": 10,
+    "pick": 111,
+    "manager": "winch",
+    "player": "Jonas Valančiūnas",
+    "position": "C",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 10,
+    "pick": 112,
+    "manager": "chalela",
+    "player": "Draymond Green",
+    "position": "PF",
+    "nba_team": "GSW"
+   },
+   {
+    "round": 10,
+    "pick": 113,
+    "manager": "verdeja",
+    "player": "Markelle Fultz",
+    "position": "SG",
+    "nba_team": "ORL"
+   },
+   {
+    "round": 10,
+    "pick": 114,
+    "manager": "melo",
+    "player": "Tobias Harris",
+    "position": "PF",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 10,
+    "pick": 115,
+    "manager": "blandon",
+    "player": "Buddy Hield",
+    "position": "SG",
+    "nba_team": "IND"
+   },
+   {
+    "round": 10,
+    "pick": 116,
+    "manager": "joey",
+    "player": "Cam Whitmore",
+    "position": "PF",
+    "nba_team": "HOU"
+   },
+   {
+    "round": 10,
+    "pick": 117,
+    "manager": "jacobo",
+    "player": "Jeremy Sochan",
+    "position": "PF",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 10,
+    "pick": 118,
+    "manager": "ricky",
+    "player": "Trey Murphy III",
+    "position": "SF",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 10,
+    "pick": 119,
+    "manager": "shueiro",
+    "player": "D'Angelo Russell",
+    "position": "PG",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 10,
+    "pick": 120,
+    "manager": "victor",
+    "player": "Dereck Lively II",
+    "position": "C",
+    "nba_team": "DAL"
+   },
+   {
+    "round": 11,
+    "pick": 121,
+    "manager": "victor",
+    "player": "Marcus Smart",
+    "position": "PG",
+    "nba_team": "MEM"
+   },
+   {
+    "round": 11,
+    "pick": 122,
+    "manager": "shueiro",
+    "player": "Keyonte George",
+    "position": "PG",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 11,
+    "pick": 123,
+    "manager": "ricky",
+    "player": "James Wiseman",
+    "position": "C",
+    "nba_team": "DET"
+   },
+   {
+    "round": 11,
+    "pick": 124,
+    "manager": "jacobo",
+    "player": "Saddiq Bey",
+    "position": "SF",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 11,
+    "pick": 125,
+    "manager": "joey",
+    "player": "Mitchell Robinson",
+    "position": "C",
+    "nba_team": "NYK"
+   },
+   {
+    "round": 11,
+    "pick": 126,
+    "manager": "blandon",
+    "player": "Tari Eason",
+    "position": "PF",
+    "nba_team": "HOU"
+   },
+   {
+    "round": 11,
+    "pick": 127,
+    "manager": "melo",
+    "player": "Brook Lopez",
+    "position": "C",
+    "nba_team": "MIL"
+   },
+   {
+    "round": 11,
+    "pick": 128,
+    "manager": "verdeja",
+    "player": "Christian Wood",
+    "position": "PF",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 11,
+    "pick": 129,
+    "manager": "chalela",
+    "player": "Chris Paul",
+    "position": "PG",
+    "nba_team": "GSW"
+   },
+   {
+    "round": 11,
+    "pick": 130,
+    "manager": "winch",
+    "player": "Bobby Portis Jr.",
+    "position": "PF",
+    "nba_team": "MIL"
+   },
+   {
+    "round": 11,
+    "pick": 131,
+    "manager": "papo",
+    "player": "Derrick White",
+    "position": "SG",
+    "nba_team": "BOS"
+   },
+   {
+    "round": 11,
+    "pick": 132,
+    "manager": "libguel",
+    "player": "Jaden McDaniels",
+    "position": "PF",
+    "nba_team": "MIN"
+   },
+   {
+    "round": 12,
+    "pick": 133,
+    "manager": "libguel",
+    "player": "Taylor Hendricks",
+    "position": "PF",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 12,
+    "pick": 134,
+    "manager": "papo",
+    "player": "Lonzo Ball",
+    "position": "PG",
+    "nba_team": "CHI"
+   },
+   {
+    "round": 12,
+    "pick": 135,
+    "manager": "winch",
+    "player": "Ivica Zubac",
+    "position": "C",
+    "nba_team": "LAC"
+   },
+   {
+    "round": 12,
+    "pick": 136,
+    "manager": "chalela",
+    "player": "Tyus Jones",
+    "position": "PG",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 12,
+    "pick": 137,
+    "manager": "verdeja",
+    "player": "Bruce Brown",
+    "position": "PF",
+    "nba_team": "IND"
+   },
+   {
+    "round": 12,
+    "pick": 138,
+    "manager": "melo",
+    "player": "Tre Jones",
+    "position": "PG",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 12,
+    "pick": 139,
+    "manager": "blandon",
+    "player": "Jonathan Kuminga",
+    "position": "PF",
+    "nba_team": "GSW"
+   },
+   {
+    "round": 12,
+    "pick": 140,
+    "manager": "joey",
+    "player": "Kevin Huerter",
+    "position": "SG",
+    "nba_team": "SAC"
+   },
+   {
+    "round": 12,
+    "pick": 141,
+    "manager": "jacobo",
+    "player": "Deni Avdija",
+    "position": "SF",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 12,
+    "pick": 142,
+    "manager": "ricky",
+    "player": "Jordan Clarkson",
+    "position": "SG",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 12,
+    "pick": 143,
+    "manager": "shueiro",
+    "player": "AJ Griffin",
+    "position": "PF",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 12,
+    "pick": 144,
+    "manager": "victor",
+    "player": "Gary Trent Jr.",
+    "position": "SG",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 13,
+    "pick": 145,
+    "manager": "victor",
+    "player": "Cason Wallace",
+    "position": "PG",
+    "nba_team": "OKC"
+   },
+   {
+    "round": 13,
+    "pick": 146,
+    "manager": "shueiro",
+    "player": "Isaiah Stewart",
+    "position": "C",
+    "nba_team": "DET"
+   },
+   {
+    "round": 13,
+    "pick": 147,
+    "manager": "ricky",
+    "player": "Emoni Bates",
+    "position": "PF",
+    "nba_team": "CLE"
+   },
+   {
+    "round": 13,
+    "pick": 148,
+    "manager": "jacobo",
+    "player": "Jaime Jaquez Jr.",
+    "position": "PG",
+    "nba_team": "MIA"
+   },
+   {
+    "round": 13,
+    "pick": 149,
+    "manager": "libguel",
+    "player": "Immanuel Quickley",
+    "position": "PG",
+    "nba_team": "NYK"
+   },
+   {
+    "round": 13,
+    "pick": 150,
+    "manager": "blandon",
+    "player": "Rui Hachimura",
+    "position": "PF",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 13,
+    "pick": 151,
+    "manager": "melo",
+    "player": "Robert Williams III",
+    "position": "C",
+    "nba_team": "POR"
+   },
+   {
+    "round": 13,
+    "pick": 152,
+    "manager": "verdeja",
+    "player": "Bojan Bogdanović",
+    "position": "SF",
+    "nba_team": "DET"
+   },
+   {
+    "round": 13,
+    "pick": 153,
+    "manager": "chalela",
+    "player": "Gordon Hayward",
+    "position": "SF",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 13,
+    "pick": 154,
+    "manager": "winch",
+    "player": "Kelly Oubre Jr.",
+    "position": "SF",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 13,
+    "pick": 155,
+    "manager": "winch",
+    "player": "Obi Toppin",
+    "position": "PF",
+    "nba_team": "IND"
+   },
+   {
+    "round": 13,
+    "pick": 156,
+    "manager": "verdeja",
+    "player": "Harrison Barnes",
+    "position": "SF",
+    "nba_team": "SAC"
+   },
+   {
+    "round": 14,
+    "pick": 157,
+    "manager": "joey",
+    "player": "RJ Hampton",
+    "position": "PG",
+    "nba_team": "MIA"
+   },
+   {
+    "round": 14,
+    "pick": 158,
+    "manager": "papo",
+    "player": "Steven Adams",
+    "position": "C",
+    "nba_team": "MEM"
+   },
+   {
+    "round": 14,
+    "pick": 159,
+    "manager": "papo",
+    "player": "Dennis Schröder",
+    "position": "PG",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 14,
+    "pick": 160,
+    "manager": "chalela",
+    "player": "Josh Hart",
+    "position": "SG",
+    "nba_team": "NYK"
+   },
+   {
+    "round": 14,
+    "pick": 161,
+    "manager": "verdeja",
+    "player": "Cam Thomas",
+    "position": "SG",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 14,
+    "pick": 162,
+    "manager": "melo",
+    "player": "Talen Horton-Tucker",
+    "position": "SG",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 14,
+    "pick": 163,
+    "manager": "blandon",
+    "player": "Collin Sexton",
+    "position": "SG",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 14,
+    "pick": 164,
+    "manager": "joey",
+    "player": "Marvin Bagley III",
+    "position": "PF",
+    "nba_team": "DET"
+   },
+   {
+    "round": 14,
+    "pick": 165,
+    "manager": "jacobo",
+    "player": "De'Anthony Melton",
+    "position": "PG",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 14,
+    "pick": 166,
+    "manager": "ricky",
+    "player": "Bones Hyland",
+    "position": "PG",
+    "nba_team": "LAC"
+   },
+   {
+    "round": 14,
+    "pick": 167,
+    "manager": "shueiro",
+    "player": "Dyson Daniels",
+    "position": "PG",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 14,
+    "pick": 168,
+    "manager": "victor",
+    "player": "Malcolm Brogdon",
+    "position": "PG",
+    "nba_team": "POR"
+   },
+   {
+    "round": 15,
+    "pick": 169,
+    "manager": "victor",
+    "player": "Jalen Johnson",
+    "position": "PF",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 15,
+    "pick": 170,
+    "manager": "shueiro",
+    "player": "Paul Reed",
+    "position": "PF",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 15,
+    "pick": 171,
+    "manager": "ricky",
+    "player": "Christian Braun",
+    "position": "PG",
+    "nba_team": "DEN"
+   },
+   {
+    "round": 15,
+    "pick": 172,
+    "manager": "jacobo",
+    "player": "Brandin Podziemski",
+    "position": "PG",
+    "nba_team": "GSW"
+   },
+   {
+    "round": 15,
+    "pick": 173,
+    "manager": "joey",
+    "player": "Nikola Jović",
+    "position": "PF",
+    "nba_team": "MIA"
+   },
+   {
+    "round": 15,
+    "pick": 174,
+    "manager": "blandon",
+    "player": "Cole Anthony",
+    "position": "PG",
+    "nba_team": "ORL"
+   },
+   {
+    "round": 15,
+    "pick": 175,
+    "manager": "melo",
+    "player": "Jalen Hood-Schifino",
+    "position": "PG",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 15,
+    "pick": 176,
+    "manager": "verdeja",
+    "player": "Grant Williams",
+    "position": "PF",
+    "nba_team": "DAL"
+   },
+   {
+    "round": 15,
+    "pick": 177,
+    "manager": "chalela",
+    "player": "Jett Howard",
+    "position": "PG",
+    "nba_team": "ORL"
+   },
+   {
+    "round": 15,
+    "pick": 178,
+    "manager": "papo",
+    "player": "Malik Monk",
+    "position": "SG",
+    "nba_team": "SAC"
+   },
+   {
+    "round": 15,
+    "pick": 179,
+    "manager": "papo",
+    "player": "Andre Jackson Jr.",
+    "position": "PG",
+    "nba_team": "MIL"
+   },
+   {
+    "round": 15,
+    "pick": 180,
+    "manager": "libguel",
+    "player": "Kobe Bufkin",
+    "position": "PG",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 16,
+    "pick": 181,
+    "manager": "joey",
+    "player": "Terance Mann",
+    "position": "SG",
+    "nba_team": "LAC"
+   },
+   {
+    "round": 16,
+    "pick": 182,
+    "manager": "papo",
+    "player": "Leonard Miller",
+    "position": "SF",
+    "nba_team": "MIN"
+   },
+   {
+    "round": 16,
+    "pick": 183,
+    "manager": "winch",
+    "player": "Kevin Porter Jr.",
+    "position": "SG",
+    "nba_team": null
+   },
+   {
+    "round": 16,
+    "pick": 184,
+    "manager": "chalela",
+    "player": "Dariq Whitehead",
+    "position": "PF",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 16,
+    "pick": 185,
+    "manager": "verdeja",
+    "player": "Precious Achiuwa",
+    "position": "C",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 16,
+    "pick": 186,
+    "manager": "melo",
+    "player": "Drew Timme",
+    "position": "PF",
+    "nba_team": "MIL"
+   },
+   {
+    "round": 16,
+    "pick": 187,
+    "manager": "blandon",
+    "player": "Patrick Williams",
+    "position": "PF",
+    "nba_team": "CHI"
+   },
+   {
+    "round": 16,
+    "pick": 188,
+    "manager": "joey",
+    "player": "Herbert Jones",
+    "position": "SF",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 16,
+    "pick": 189,
+    "manager": "jacobo",
+    "player": "Quentin Grimes",
+    "position": "SG",
+    "nba_team": "NYK"
+   },
+   {
+    "round": 16,
+    "pick": 190,
+    "manager": "ricky",
+    "player": "De'Andre Hunter",
+    "position": "SF",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 16,
+    "pick": 191,
+    "manager": "shueiro",
+    "player": "Jalen Suggs",
+    "position": "SG",
+    "nba_team": "ORL"
+   },
+   {
+    "round": 16,
+    "pick": 192,
+    "manager": "victor",
+    "player": "Mike Conley",
+    "position": "PG",
+    "nba_team": "MIN"
+   },
+   {
+    "round": 17,
+    "pick": 193,
+    "manager": "victor",
+    "player": "Jaden Hardy",
+    "position": "PG",
+    "nba_team": "DAL"
+   },
+   {
+    "round": 17,
+    "pick": 194,
+    "manager": "shueiro",
+    "player": "Olivier-Maxence Prosper",
+    "position": "PF",
+    "nba_team": "DAL"
+   },
+   {
+    "round": 17,
+    "pick": 195,
+    "manager": "ricky",
+    "player": "Corey Kispert",
+    "position": "SF",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 17,
+    "pick": 196,
+    "manager": "jacobo",
+    "player": "Naz Reid",
+    "position": "C",
+    "nba_team": "MIN"
+   },
+   {
+    "round": 17,
+    "pick": 197,
+    "manager": "joey",
+    "player": "Aleksej Pokuševski",
+    "position": "PF",
+    "nba_team": "OKC"
+   },
+   {
+    "round": 17,
+    "pick": 198,
+    "manager": "blandon",
+    "player": "Dillon Brooks",
+    "position": "SG",
+    "nba_team": "HOU"
+   },
+   {
+    "round": 17,
+    "pick": 199,
+    "manager": "melo",
+    "player": "Nick Smith Jr.",
+    "position": "PG",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 17,
+    "pick": 200,
+    "manager": "verdeja",
+    "player": "Max Strus",
+    "position": "SF",
+    "nba_team": "CLE"
+   },
+   {
+    "round": 17,
+    "pick": 201,
+    "manager": "chalela",
+    "player": "Jordan Hawkins",
+    "position": "PG",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 17,
+    "pick": 202,
+    "manager": "winch",
+    "player": "Kris Murray",
+    "position": "PF",
+    "nba_team": "POR"
+   },
+   {
+    "round": 17,
+    "pick": 203,
+    "manager": "papo",
+    "player": "James Nnaji",
+    "position": "C",
+    "nba_team": null
+   },
+   {
+    "round": 17,
+    "pick": 204,
+    "manager": "libguel",
+    "player": "Zach Collins",
+    "position": "PF",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 18,
+    "pick": 205,
+    "manager": "libguel",
+    "player": "Al Horford",
+    "position": "C",
+    "nba_team": "BOS"
+   },
+   {
+    "round": 18,
+    "pick": 206,
+    "manager": "papo",
+    "player": "Sidy Cissoko",
+    "position": "SF",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 18,
+    "pick": 207,
+    "manager": "winch",
+    "player": "Jordan Walsh",
+    "position": "PG",
+    "nba_team": "BOS"
+   },
+   {
+    "round": 18,
+    "pick": 208,
+    "manager": "chalela",
+    "player": "Brice Sensabaugh",
+    "position": "PF",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 18,
+    "pick": 209,
+    "manager": "verdeja",
+    "player": "Moritz Wagner",
+    "position": "C",
+    "nba_team": "ORL"
+   },
+   {
+    "round": 18,
+    "pick": 210,
+    "manager": "melo",
+    "player": "Noah Clowney",
+    "position": "PF",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 18,
+    "pick": 211,
+    "manager": "blandon",
+    "player": "Kevon Looney",
+    "position": "C",
+    "nba_team": "GSW"
+   },
+   {
+    "round": 18,
+    "pick": 212,
+    "manager": "joey",
+    "player": "Jordan Miller",
+    "position": "PG",
+    "nba_team": "LAC"
+   },
+   {
+    "round": 18,
+    "pick": 213,
+    "manager": "jacobo",
+    "player": "Peyton Watson",
+    "position": "SF",
+    "nba_team": "DEN"
+   },
+   {
+    "round": 18,
+    "pick": 214,
+    "manager": "ricky",
+    "player": "Cam Reddish",
+    "position": "SF",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 18,
+    "pick": 215,
+    "manager": "shueiro",
+    "player": "Marcus Sasser",
+    "position": "PG",
+    "nba_team": "DET"
+   },
+   {
+    "round": 18,
+    "pick": 216,
+    "manager": "victor",
+    "player": "Tre Mann",
+    "position": "PG",
+    "nba_team": "OKC"
+   }
+  ]
+ },
+ {
+  "season": "2024-2025",
+  "kind": "rookie",
+  "rounds": 3,
+  "picks": [
+   {
+    "round": 1,
+    "pick": 1,
+    "manager": "libguel",
+    "player": "Alex Sarr",
+    "position": "PF",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 1,
+    "pick": 2,
+    "manager": "ricky",
+    "player": "Ron Holland",
+    "position": "PF",
+    "nba_team": "DET"
+   },
+   {
+    "round": 1,
+    "pick": 3,
+    "manager": "papo",
+    "player": "Stephon Castle",
+    "position": "PG",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 1,
+    "pick": 4,
+    "manager": "papo",
+    "player": "Zaccharie Risacher",
+    "position": "PF",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 1,
+    "pick": 5,
+    "manager": "papo",
+    "player": "Donovan Clingan",
+    "position": "C",
+    "nba_team": "POR"
+   },
+   {
+    "round": 1,
+    "pick": 6,
+    "manager": "papo",
+    "player": "Matas Buzelis",
+    "position": "PF",
+    "nba_team": "CHI"
+   },
+   {
+    "round": 1,
+    "pick": 7,
+    "manager": "victor",
+    "player": "Reed Sheppard",
+    "position": "PG",
+    "nba_team": "HOU"
+   },
+   {
+    "round": 1,
+    "pick": 8,
+    "manager": "ricky",
+    "player": "Rob Dillingham",
+    "position": "PG",
+    "nba_team": "MIN"
+   },
+   {
+    "round": 1,
+    "pick": 9,
+    "manager": "papo",
+    "player": "Zach Edey",
+    "position": "C",
+    "nba_team": "MEM"
+   },
+   {
+    "round": 1,
+    "pick": 10,
+    "manager": "shueiro",
+    "player": "Cody Williams",
+    "position": "PF",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 1,
+    "pick": 11,
+    "manager": "ricky",
+    "player": "Tidjane Salaün",
+    "position": "PF",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 1,
+    "pick": 12,
+    "manager": "papo",
+    "player": "Kel'el Ware",
+    "position": "C",
+    "nba_team": "MIA"
+   },
+   {
+    "round": 2,
+    "pick": 13,
+    "manager": "ricky",
+    "player": "Nikola Topić",
+    "position": "PG",
+    "nba_team": "OKC"
+   },
+   {
+    "round": 2,
+    "pick": 14,
+    "manager": "joey",
+    "player": "Jared McCain",
+    "position": "PG",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 2,
+    "pick": 15,
+    "manager": "libguel",
+    "player": "Bub Carrington",
+    "position": "PG",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 2,
+    "pick": 16,
+    "manager": "victor",
+    "player": "Devin Carter",
+    "position": "PG",
+    "nba_team": "SAC"
+   },
+   {
+    "round": 2,
+    "pick": 17,
+    "manager": "joey",
+    "player": "Bronny James",
+    "position": "PG",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 2,
+    "pick": 18,
+    "manager": "jacobo",
+    "player": "Yves Missi",
+    "position": "C",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 2,
+    "pick": 19,
+    "manager": "shueiro",
+    "player": "Isaiah Collier",
+    "position": "PG",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 2,
+    "pick": 20,
+    "manager": "jacobo",
+    "player": "DaRon Holmes II",
+    "position": "PF",
+    "nba_team": "DEN"
+   },
+   {
+    "round": 2,
+    "pick": 21,
+    "manager": "papo",
+    "player": "Dalton Knecht",
+    "position": "PG",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 2,
+    "pick": 22,
+    "manager": "verdeja",
+    "player": "Kyshawn George",
+    "position": "PG",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 2,
+    "pick": 23,
+    "manager": "melo",
+    "player": "Ja'Kobe Walter",
+    "position": "PG",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 2,
+    "pick": 24,
+    "manager": "shueiro",
+    "player": "Kyle Filipowski",
+    "position": "C",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 3,
+    "pick": 25,
+    "manager": "ricky",
+    "player": "Nikola Đurišić",
+    "position": "PF",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 3,
+    "pick": 26,
+    "manager": "melo",
+    "player": "Tristan da Silva",
+    "position": "PF",
+    "nba_team": "ORL"
+   },
+   {
+    "round": 3,
+    "pick": 27,
+    "manager": "papo",
+    "player": "Jaylon Tyson",
+    "position": "PG",
+    "nba_team": "CLE"
+   },
+   {
+    "round": 3,
+    "pick": 28,
+    "manager": "chalela",
+    "player": "Ryan Dunn",
+    "position": "PG",
+    "nba_team": "PHX"
+   },
+   {
+    "round": 3,
+    "pick": 29,
+    "manager": "verdeja",
+    "player": "Jonathan Mogbo",
+    "position": "PF",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 3,
+    "pick": 30,
+    "manager": "chalela",
+    "player": "Terrence Shannon Jr.",
+    "position": "PG",
+    "nba_team": "MIN"
+   },
+   {
+    "round": 3,
+    "pick": 31,
+    "manager": "victor",
+    "player": "Tyler Smith",
+    "position": "PF",
+    "nba_team": "MIL"
+   },
+   {
+    "round": 3,
+    "pick": 32,
+    "manager": "joey",
+    "player": "Pacôme Dadiet",
+    "position": "PG",
+    "nba_team": "NYK"
+   },
+   {
+    "round": 3,
+    "pick": 33,
+    "manager": "chalela",
+    "player": "Bobi Klintman",
+    "position": "PF",
+    "nba_team": "DET"
+   },
+   {
+    "round": 3,
+    "pick": 34,
+    "manager": "ricky",
+    "player": "Justin Edwards",
+    "position": "PG",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 3,
+    "pick": 35,
+    "manager": "melo",
+    "player": "Johnny Furphy",
+    "position": "PG",
+    "nba_team": "IND"
+   },
+   {
+    "round": 3,
+    "pick": 36,
+    "manager": "joey",
+    "player": "Cam Christie",
+    "position": "PG",
+    "nba_team": "LAC"
+   }
+  ]
+ },
+ {
+  "season": "2025-2026",
+  "kind": "rookie",
+  "rounds": 3,
+  "picks": [
+   {
+    "round": 1,
+    "pick": 1,
+    "manager": "jacobo",
+    "player": "Cooper Flagg",
+    "position": "SF",
+    "nba_team": "DAL"
+   },
+   {
+    "round": 1,
+    "pick": 2,
+    "manager": "blandon",
+    "player": "Dylan Harper",
+    "position": "SG",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 1,
+    "pick": 3,
+    "manager": "libguel",
+    "player": "VJ Edgecombe",
+    "position": "SG",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 1,
+    "pick": 4,
+    "manager": "jacobo",
+    "player": "Ace Bailey",
+    "position": "SF",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 1,
+    "pick": 5,
+    "manager": "joey",
+    "player": "Tre Johnson",
+    "position": "SG",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 1,
+    "pick": 6,
+    "manager": "jacobo",
+    "player": "Khaman Maluach",
+    "position": "C",
+    "nba_team": "PHX"
+   },
+   {
+    "round": 1,
+    "pick": 7,
+    "manager": "jacobo",
+    "player": "Kon Knueppel",
+    "position": "SF",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 1,
+    "pick": 8,
+    "manager": "blandon",
+    "player": "Egor Dëmin",
+    "position": "PG",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 1,
+    "pick": 9,
+    "manager": "papo",
+    "player": "Jeremiah Fears",
+    "position": "PG",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 1,
+    "pick": 10,
+    "manager": "shueiro",
+    "player": "Collin Murray-Boyles",
+    "position": "PF",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 1,
+    "pick": 11,
+    "manager": "blandon",
+    "player": "Cedric Coward",
+    "position": "PG",
+    "nba_team": "MEM"
+   },
+   {
+    "round": 1,
+    "pick": 12,
+    "manager": "shueiro",
+    "player": "Kasparas Jakučionis",
+    "position": "PG",
+    "nba_team": "MIA"
+   },
+   {
+    "round": 2,
+    "pick": 13,
+    "manager": "joey",
+    "player": "Yang Hansen",
+    "position": "C",
+    "nba_team": "POR"
+   },
+   {
+    "round": 2,
+    "pick": 14,
+    "manager": "papo",
+    "player": "Danny Wolf",
+    "position": "C",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 2,
+    "pick": 15,
+    "manager": "joey",
+    "player": "Derik Queen",
+    "position": "C",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 2,
+    "pick": 16,
+    "manager": "papo",
+    "player": "Walter Clayton Jr.",
+    "position": "PG",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 2,
+    "pick": 17,
+    "manager": "blandon",
+    "player": "Thomas Sorber",
+    "position": "C",
+    "nba_team": "OKC"
+   },
+   {
+    "round": 2,
+    "pick": 18,
+    "manager": "joey",
+    "player": "Noa Essengue",
+    "position": "PF",
+    "nba_team": "CHI"
+   },
+   {
+    "round": 2,
+    "pick": 19,
+    "manager": "victor",
+    "player": "Carter Bryant",
+    "position": "PF",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 2,
+    "pick": 20,
+    "manager": "victor",
+    "player": "Joan Beringer",
+    "position": "C",
+    "nba_team": "MIN"
+   },
+   {
+    "round": 2,
+    "pick": 21,
+    "manager": "winch",
+    "player": "Nolan Traore",
+    "position": "PG",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 2,
+    "pick": 22,
+    "manager": "blandon",
+    "player": "Nique Clifford",
+    "position": "PG",
+    "nba_team": "SAC"
+   },
+   {
+    "round": 2,
+    "pick": 23,
+    "manager": "verdeja",
+    "player": "Johni Broome",
+    "position": "C",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 2,
+    "pick": 24,
+    "manager": "libguel",
+    "player": "Ryan Kalkbrenner",
+    "position": "C",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 3,
+    "pick": 25,
+    "manager": "jacobo",
+    "player": "Maxime Raynaud",
+    "position": "PF",
+    "nba_team": "SAC"
+   },
+   {
+    "round": 3,
+    "pick": 26,
+    "manager": "jacobo",
+    "player": "Rasheer Fleming",
+    "position": "PF",
+    "nba_team": "PHX"
+   },
+   {
+    "round": 3,
+    "pick": 27,
+    "manager": "jacobo",
+    "player": "Adou Thiero",
+    "position": "PF",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 3,
+    "pick": 28,
+    "manager": "verdeja",
+    "player": "Jase Richardson",
+    "position": "PG",
+    "nba_team": "ORL"
+   },
+   {
+    "round": 3,
+    "pick": 29,
+    "manager": "shueiro",
+    "player": "Ben Saraf",
+    "position": "PG",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 3,
+    "pick": 30,
+    "manager": "chalela",
+    "player": "Duop Reath",
+    "position": "C",
+    "nba_team": "POR"
+   },
+   {
+    "round": 3,
+    "pick": 31,
+    "manager": "ricky",
+    "player": "Micah Peavy",
+    "position": "SG",
+    "nba_team": "NOP"
+   },
+   {
+    "round": 3,
+    "pick": 32,
+    "manager": "victor",
+    "player": "Asa Newell",
+    "position": "PF",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 3,
+    "pick": 33,
+    "manager": "joey",
+    "player": "Tyrese Proctor",
+    "position": "PG",
+    "nba_team": "CLE"
+   },
+   {
+    "round": 3,
+    "pick": 34,
+    "manager": "joey",
+    "player": "Hugo González",
+    "position": "PF",
+    "nba_team": "BOS"
+   },
+   {
+    "round": 3,
+    "pick": 35,
+    "manager": "blandon",
+    "player": "Drake Powell",
+    "position": "PG",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 3,
+    "pick": 36,
+    "manager": "verdeja",
+    "player": "Koby Brea",
+    "position": "SG",
+    "nba_team": "PHX"
+   }
+  ]
+ },
+ {
+  "season": "2026-2027",
+  "kind": "rookie",
+  "rounds": 3,
+  "picks": [
+   {
+    "round": 1,
+    "pick": 1,
+    "manager": "blandon",
+    "player": "Cameron Boozer",
+    "position": "C",
+    "nba_team": "MEM"
+   },
+   {
+    "round": 1,
+    "pick": 2,
+    "manager": "jacobo",
+    "player": "Darius Acuff Jr.",
+    "position": "PG",
+    "nba_team": "SAC"
+   },
+   {
+    "round": 1,
+    "pick": 3,
+    "manager": "jacobo",
+    "player": "Caleb Wilson",
+    "position": "PF",
+    "nba_team": "CHI"
+   },
+   {
+    "round": 1,
+    "pick": 4,
+    "manager": "jacobo",
+    "player": "Darryn Peterson",
+    "position": "PG",
+    "nba_team": "UTA"
+   },
+   {
+    "round": 1,
+    "pick": 5,
+    "manager": "jacobo",
+    "player": "AJ Dybantsa",
+    "position": "PF",
+    "nba_team": "WAS"
+   },
+   {
+    "round": 1,
+    "pick": 6,
+    "manager": "victor",
+    "player": "Keaton Wagler",
+    "position": "PG",
+    "nba_team": "LAC"
+   },
+   {
+    "round": 1,
+    "pick": 7,
+    "manager": "joey",
+    "player": "Kingston Flemings",
+    "position": "PG",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 1,
+    "pick": 8,
+    "manager": "joey",
+    "player": "Aday Mara",
+    "position": "C",
+    "nba_team": "OKC"
+   },
+   {
+    "round": 1,
+    "pick": 9,
+    "manager": "libguel",
+    "player": "Mikel Brown Jr.",
+    "position": "PG",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 1,
+    "pick": 10,
+    "manager": "joey",
+    "player": "Yaxel Lendeborg",
+    "position": "PF",
+    "nba_team": "GSW"
+   },
+   {
+    "round": 1,
+    "pick": 11,
+    "manager": "melo",
+    "player": "Nate Ament",
+    "position": "PF",
+    "nba_team": "MIL"
+   },
+   {
+    "round": 1,
+    "pick": 12,
+    "manager": "libguel",
+    "player": "Brayden Burries",
+    "position": "PG",
+    "nba_team": "MIL"
+   },
+   {
+    "round": 2,
+    "pick": 13,
+    "manager": "shueiro",
+    "player": "Hannes Steinbach",
+    "position": "C",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 2,
+    "pick": 14,
+    "manager": "joey",
+    "player": "Dailyn Swain",
+    "position": "PF",
+    "nba_team": "CHI"
+   },
+   {
+    "round": 2,
+    "pick": 15,
+    "manager": "papo",
+    "player": "Labaron Philon Jr.",
+    "position": "PG",
+    "nba_team": "PHI"
+   },
+   {
+    "round": 2,
+    "pick": 16,
+    "manager": "ricky",
+    "player": "Cameron Carr",
+    "position": "PG",
+    "nba_team": "LAL"
+   },
+   {
+    "round": 2,
+    "pick": 17,
+    "manager": "libguel",
+    "player": "Morez Johnson Jr.",
+    "position": "C",
+    "nba_team": "DAL"
+   },
+   {
+    "round": 2,
+    "pick": 18,
+    "manager": "joey",
+    "player": "Jayden Quaintance",
+    "position": "C",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 2,
+    "pick": 19,
+    "manager": "joey",
+    "player": "Ebuka Okorie",
+    "position": "PG",
+    "nba_team": "DET"
+   },
+   {
+    "round": 2,
+    "pick": 20,
+    "manager": "blandon",
+    "player": "Bennett Stirtz",
+    "position": "PG",
+    "nba_team": "OKC"
+   },
+   {
+    "round": 2,
+    "pick": 21,
+    "manager": "chalela",
+    "player": "Chris Cenac Jr.",
+    "position": "C",
+    "nba_team": "BOS"
+   },
+   {
+    "round": 2,
+    "pick": 22,
+    "manager": "blandon",
+    "player": "Christian Anderson",
+    "position": "PG",
+    "nba_team": "CHA"
+   },
+   {
+    "round": 2,
+    "pick": 23,
+    "manager": "shueiro",
+    "player": "Isaiah Evans",
+    "position": "SG",
+    "nba_team": "MIN"
+   },
+   {
+    "round": 2,
+    "pick": 24,
+    "manager": "joey",
+    "player": "Allen Graves",
+    "position": "PF",
+    "nba_team": "TOR"
+   },
+   {
+    "round": 3,
+    "pick": 25,
+    "manager": "joey",
+    "player": "Zuby Ejiofor",
+    "position": "C",
+    "nba_team": "ATL"
+   },
+   {
+    "round": 3,
+    "pick": 26,
+    "manager": "joey",
+    "player": "Joshua Jefferson",
+    "position": "PF",
+    "nba_team": "BKN"
+   },
+   {
+    "round": 3,
+    "pick": 27,
+    "manager": "jacobo",
+    "player": "Ryan Conwell",
+    "position": "SG",
+    "nba_team": "MIA"
+   },
+   {
+    "round": 3,
+    "pick": 28,
+    "manager": "jacobo",
+    "player": "Sergio De Larrea",
+    "position": "PG",
+    "nba_team": "DAL"
+   },
+   {
+    "round": 3,
+    "pick": 29,
+    "manager": "victor",
+    "player": "Karim Lopez",
+    "position": "PF",
+    "nba_team": "MEM"
+   },
+   {
+    "round": 3,
+    "pick": 30,
+    "manager": "verdeja",
+    "player": "Koa Peat",
+    "position": "PF",
+    "nba_team": "PHX"
+   },
+   {
+    "round": 3,
+    "pick": 31,
+    "manager": "joey",
+    "player": "Meleek Thomas",
+    "position": "SG",
+    "nba_team": "CLE"
+   },
+   {
+    "round": 3,
+    "pick": 32,
+    "manager": "victor",
+    "player": "Tarris Reed Jr.",
+    "position": "C",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 3,
+    "pick": 33,
+    "manager": "joey",
+    "player": "Richie Saunders",
+    "position": "SG",
+    "nba_team": "MEM"
+   },
+   {
+    "round": 3,
+    "pick": 34,
+    "manager": "joey",
+    "player": "Alex Karaban",
+    "position": "PF",
+    "nba_team": "SAC"
+   },
+   {
+    "round": 3,
+    "pick": 35,
+    "manager": "verdeja",
+    "player": "Ja'Kobi Gillespie",
+    "position": "PG",
+    "nba_team": "SAS"
+   },
+   {
+    "round": 3,
+    "pick": 36,
+    "manager": "ricky",
+    "player": "Baba Miller",
+    "position": "SF",
+    "nba_team": "LAC"
+   }
+  ]
+ }
+]

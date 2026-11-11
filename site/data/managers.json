@@ -1,0 +1,291 @@
+[
+ {
+  "id": "winch",
+  "name": "Winch",
+  "sleeper_usernames": [
+   "ElWinchenzo"
+  ],
+  "aliases": [
+   "Winchenzo",
+   "Equipo",
+   "Chris"
+  ],
+  "team_names": [
+   "Equipo Winchenzo",
+   "Equipo Winchenzo 2X"
+  ],
+  "current_team_name": "Equipo Winchenzo",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": []
+ },
+ {
+  "id": "libguel",
+  "name": "Libguel",
+  "sleeper_usernames": [
+   "miguelhern99"
+  ],
+  "aliases": [
+   "Miguel",
+   "Mig",
+   "Migue"
+  ],
+  "team_names": [
+   "Los Chigüires"
+  ],
+  "current_team_name": "Los Chigüires",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": [
+   "2025-2026"
+  ]
+ },
+ {
+  "id": "joey",
+  "name": "Joey",
+  "sleeper_usernames": [
+   "hughjasnuts"
+  ],
+  "aliases": [
+   "Joe",
+   "Doctor",
+   "Joseph"
+  ],
+  "team_names": [
+   "Fidel’s Accumulators"
+  ],
+  "current_team_name": "Fidel’s Accumulators",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": []
+ },
+ {
+  "id": "ricky",
+  "name": "Ricky",
+  "sleeper_usernames": [
+   "MoonUnit11"
+  ],
+  "aliases": [
+   "Rick",
+   "De Aguiar"
+  ],
+  "team_names": [
+   "MoonUnit",
+   "MoonUnit 🦬"
+  ],
+  "current_team_name": "MoonUnit 🦬",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": []
+ },
+ {
+  "id": "victor",
+  "name": "Victor",
+  "sleeper_usernames": [
+   "victorprieto"
+  ],
+  "aliases": [
+   "Vic",
+   "Prieto"
+  ],
+  "team_names": [
+   "I Love Dragić"
+  ],
+  "current_team_name": "I Love Dragić",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": []
+ },
+ {
+  "id": "melo",
+  "name": "Melo",
+  "sleeper_usernames": [
+   "DasMelo"
+  ],
+  "aliases": [
+   "Frank",
+   "Francisco"
+  ],
+  "team_names": [
+   "Kareem Abdul-Jabong",
+   "Joel Embong? 😓",
+   "LeBong James 👑",
+   "LeBong James"
+  ],
+  "current_team_name": "LeBong James",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": [
+   "2024-2025"
+  ]
+ },
+ {
+  "id": "shueiro",
+  "name": "Shueiro",
+  "sleeper_usernames": [
+   "msway21"
+  ],
+  "aliases": [
+   "Mike",
+   "Sueiro",
+   "Michael",
+   "Sway"
+  ],
+  "team_names": [
+   "2057 Champs"
+  ],
+  "current_team_name": "2057 Champs",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": []
+ },
+ {
+  "id": "jacobo",
+  "name": "Jacobo",
+  "sleeper_usernames": [
+   "hotrelish"
+  ],
+  "aliases": [
+   "Jake",
+   "Jacob"
+  ],
+  "team_names": [
+   "hotrelish"
+  ],
+  "current_team_name": "hotrelish",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": []
+ },
+ {
+  "id": "papo",
+  "name": "Papo",
+  "sleeper_usernames": [
+   "Papochullo6969",
+   "papochullo7979"
+  ],
+  "aliases": [
+   "Pedro"
+  ],
+  "team_names": [
+   "Luka Deez Nuts",
+   "The Edey and Matas Show",
+   "Fear the Brow"
+  ],
+  "current_team_name": "Fear the Brow",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": []
+ },
+ {
+  "id": "chalela",
+  "name": "Chalela",
+  "sleeper_usernames": [
+   "Achalela"
+  ],
+  "aliases": [
+   "Chab",
+   "Andres"
+  ],
+  "team_names": [
+   "Equipito PapoChullo",
+   "Lochte & Associates"
+  ],
+  "current_team_name": "Lochte & Associates",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": []
+ },
+ {
+  "id": "blandon",
+  "name": "Blandon",
+  "sleeper_usernames": [
+   "RabbiBT69"
+  ],
+  "aliases": [
+   "Rabbi",
+   "Brandon",
+   "BT",
+   "BT69"
+  ],
+  "team_names": [
+   "Rabbi BT69",
+   "Rabbi Repeat BT69"
+  ],
+  "current_team_name": "Rabbi BT69",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": [
+   "2023-2024"
+  ]
+ },
+ {
+  "id": "verdeja",
+  "name": "Verdeja",
+  "sleeper_usernames": [
+   "Verdy11"
+  ],
+  "aliases": [
+   "Verd",
+   "Daniel",
+   "Dan",
+   "Verdy"
+  ],
+  "team_names": [
+   "Saboners",
+   "Antetokounmpers"
+  ],
+  "current_team_name": "Antetokounmpers",
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "championships": []
+ }
+]
