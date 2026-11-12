@@ -14,19 +14,32 @@
   const online = Boolean(config.supabaseUrl && config.supabaseKey);
   const PLAYER_KEY = "das-trivia:player";
   const TIME_ZONE = "America/New_York";
-  const PROVISIONAL_UNDER = 10;       // fewer answers than this on a square: rarity is marked provisional
 
-  // HoopGrids-style rarity tiers: the share of people who picked the same player for that square
-  const TIERS = [
-    { name: "Unicorn", max: 0.05, cls: "unicorn", box: "🦄" },
-    { name: "Galaxy", max: 0.1, cls: "galaxy", box: "🟪" },
-    { name: "Blue", max: 1, cls: "blue", box: "🟦" },
-    { name: "Gold", max: 5, cls: "gold", box: "🟨" },
-    { name: "Silver", max: 10, cls: "silver", box: "🔘" },
-    { name: "Bronze", max: 15, cls: "bronze", box: "🟫" },
-    { name: "Common", max: Infinity, cls: "common", box: "⬜" },
-  ];
-  const tierOf = (pct) => TIERS.find((t) => pct <= t.max);
+  /*
+    RARITY FOR A 12-PERSON LEAGUE (the owner's request)
+    The percentage is the share of the LEAGUE that picked the same player for that square:
+    picks ÷ the bigger of (people who answered it, 12). A first answer is 1 of 12 = 8.33%, not 100%.
+    HoopGrids' tiers (Common above 15% ... Unicorn at 0.05%) can't happen with 12 people, so the tiers
+    go by how many people made the same pick. "Only you" gets rarer the more people answered the square.
+  */
+  const TIERS = {
+    unicorn: { name: "Unicorn", cls: "unicorn", box: "🦄" },   // only you, and 9+ people answered the square
+    galaxy: { name: "Galaxy", cls: "galaxy", box: "🟪" },      // only you, and 6-8 answered
+    blue: { name: "Blue", cls: "blue", box: "🟦" },            // only you so far (fewer than 6 answered)
+    gold: { name: "Gold", cls: "gold", box: "🟨" },            // 2 people picked him
+    silver: { name: "Silver", cls: "silver", box: "🔘" },      // 3 people
+    bronze: { name: "Bronze", cls: "bronze", box: "🟫" },      // 4 or 5 people
+    common: { name: "Common", cls: "common", box: "⬜" },      // 6 or more
+  };
+  function tierOf(pick) {
+    if (pick.count <= 1) return pick.total >= 9 ? TIERS.unicorn : pick.total >= 6 ? TIERS.galaxy : TIERS.blue;
+    if (pick.count === 2) return TIERS.gold;
+    if (pick.count === 3) return TIERS.silver;
+    if (pick.count <= 5) return TIERS.bronze;
+    return TIERS.common;
+  }
+  const leagueSize = () => (data && data.league_size) || 12;
+  const pctOf = (count, total) => Math.round((10000 * count) / Math.max(total, leagueSize())) / 100;
 
   let data, puzzle, kind, number, state, search, openSquare = null;
 
@@ -159,14 +172,14 @@
           ? `${pick.name}, ${pick.pct}% picked. Change the player for ${teamOf(r).name} and ${teamOf(c).name}`
           : `Pick a player who was on both ${teamOf(r).name}'s and ${teamOf(c).name}'s rosters`);
         if (pick) {
-          const tier = tierOf(pick.pct);
+          const tier = tierOf(pick);
           button.classList.add("filled", tier.cls);
           if (pick.justAdded) { button.classList.add("pop"); delete pick.justAdded; }
           button.append(el("span", "sq-name", pick.name));
           const meta = el("span", "sq-meta", `${tier.name} · ${fmt(pick.pct)}%`);
           button.append(meta);
           const badges = el("span", "sq-badges");
-          if (pick.total < PROVISIONAL_UNDER) badges.append(el("i", "prov", `${pick.total} ${pick.total === 1 ? "answer" : "answers"}`));
+          badges.append(el("i", "prov", `${pick.count} of ${pick.total} ${pick.total === 1 ? "answer" : "answers"}`));
           if (pick.first) badges.append(el("i", "first", "First pick"));
           if (pick.deep) badges.append(el("i", "deep", "Deep cut"));
           button.append(badges);
@@ -178,7 +191,7 @@
       });
     });
     const done = Object.keys(state.picks).length;
-    $("grid-score").textContent = fmt(state.finished ? state.finished.score : score());
+    $("grid-score").textContent = fmt(score());
     $("grid-progress").textContent = `${done}/9`;
     $("grid-results").hidden = done < 9;
     if (done === 9) drawResults();
@@ -283,7 +296,7 @@
   function boxes() {
     return [0, 1, 2].map((r) => [0, 1, 2].map((c) => {
       const p = state.picks[r * 3 + c];
-      return p ? tierOf(p.pct).box : "⬛";
+      return p ? tierOf(p).box : "⬛";
     }).join("")).join("\n");
   }
 
@@ -309,7 +322,7 @@
     return location.origin + location.pathname + `?mode=grids&puzzle=${puzzle.id}`;
   }
   function shareText() {
-    const total = state.finished ? state.finished.score : score();
+    const total = score();
     const lines = [`🏀 ${title()}`, boxes(), `${Object.keys(state.picks).length}/9 · Rarity ${fmt(total)} (lower is better)`];
     if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) lines.push(link());
     return lines.join("\n");
@@ -317,16 +330,17 @@
 
   function drawResults() {
     $("res-title").textContent = title();
-    $("res-score").textContent = fmt(state.finished ? state.finished.score : score());
-    $("res-note").textContent = state.finished
-      ? `Locked in when you finished${state.finished.seconds != null ? ` in ${clock(state.finished.seconds)}` : ""}. Lower is better.`
-      : testMode ? "Practice mode: this grid isn't saved to the leaderboard." : "Lower is better.";
+    $("res-score").textContent = fmt(score());
+    $("res-note").textContent = testMode ? "Practice mode: this grid isn't saved to the leaderboard."
+      : closed() ? "This grid is closed. Archive play is practice and doesn't count."
+      : kind === "daily" ? "Lower is better. Your score moves as the rest of the league plays, and is final when this grid closes at 8 PM ET."
+      : "Lower is better. Your score moves as more people play this grid.";
     const mini = $("res-grid");
     mini.replaceChildren();
     for (let sq = 0; sq < 9; sq++) {
       const p = state.picks[sq];
-      const cell = el("div", `res-cell ${p ? tierOf(p.pct).cls : ""}`);
-      if (p) cell.append(el("b", null, p.name), el("small", null, `${tierOf(p.pct).name} · ${fmt(p.pct)}%`));
+      const cell = el("div", `res-cell ${p ? tierOf(p).cls : ""}`);
+      if (p) cell.append(el("b", null, p.name), el("small", null, `${tierOf(p).name} · ${fmt(p.pct)}%`));
       mini.append(cell);
     }
   }
@@ -371,19 +385,17 @@
     list.replaceChildren();
     if (!online) { status.textContent = "The leaderboard isn't connected yet."; return; }
     try {
-      const response = await fetch(`${config.supabaseUrl}/rest/v1/grid_results?puzzle_id=eq.${puzzle.id}&select=player,score,completed,seconds,completed_at&order=score.asc,completed_at.asc&limit=50`, {
-        headers: { apikey: config.supabaseKey, Authorization: `Bearer ${config.supabaseKey}` },
-      });
-      if (!response.ok) throw new Error(String(response.status));
-      const rows = await response.json();
+      const rows = (await rpc("grid_board", { p_puzzle: puzzle.id })).filter((row) => !row.player.startsWith("zz-"));
       rows.forEach((row, i) => {
         const item = el("li", row.player === playerName ? "me" : "");
         item.append(el("span", "lr", i + 1), el("span", "ln", row.player), el("span", "lc", `${row.completed}/9`),
           el("span", "lt", clock(row.seconds)), el("span", "ls", fmt(Number(row.score))));
         list.append(item);
       });
-      status.textContent = rows.length ? "Lowest rarity score wins. Scores lock when a grid is finished."
-        : "Nobody has finished this grid yet.";
+      status.textContent = !rows.length ? "Nobody has played this grid yet."
+        : rows[0].final ? "Final. Most squares first, then the lowest rarity score."
+        : kind === "daily" ? "Live: scores move as the league plays, and are final at 8 PM ET. Most squares first, then the lowest score."
+        : "Live: most squares first, then the lowest rarity score.";
     } catch (e) {
       status.textContent = "Couldn't load the leaderboard right now.";
     }
@@ -398,12 +410,17 @@
         const pick = state.picks[row.square];
         if (pick && pick.id === row.nba && row.total) {
           pick.count = row.count; pick.total = row.total;
-          pick.pct = Math.round((10000 * row.count) / row.total) / 100;
+          pick.pct = pctOf(row.count, row.total);
         }
       });
       saveState();
       draw();
     } catch (e) { /* keep the saved numbers */ }
+  }
+
+  // a daily grid closes at 8 PM ET on its day; after that it's archive practice
+  function closed() {
+    return kind === "daily" && number < Math.max(1, daysBetween(data.start_date, gridDate()) + 1);
   }
 
   /* ---------- archive and switching grids ---------- */
@@ -478,7 +495,8 @@
     $("res-copy").onclick = copyResults;
     $("res-again").onclick = () => go(randomUnlimited());
     $("res-board").onclick = () => $("grid-leaders-title").scrollIntoView({ behavior: "smooth" });
-    $("grid-test-note").hidden = !testMode;
+    $("grid-test-note").hidden = !(testMode || closed());
+    if (closed() && !testMode) $("grid-test-note").textContent = "This daily grid is closed. You can still play it, but it doesn't count toward the leaderboard or anyone's rarity.";
     // the share video's buttons (the other games set these up in game.js, which doesn't run here)
     const closeVideo = () => { $("share-video-player").pause(); $("share-video").hidden = true; };
     $("video-close").onclick = closeVideo;

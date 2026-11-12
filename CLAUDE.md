@@ -123,7 +123,10 @@ The owner has essentially no coding or web development experience.
   `admin/grids.html` (local admin page). The private files are gitignored. Answers are checked only by the
   database; picks are hidden; `grid_results` is the public leaderboard (first finish locks the score).
   Daily grid flips at 8 PM ET (D1 = 2026-11-12); 400 unlimited grids (U1...); custom daily grids in
-  `data/grids_custom.json`. Rarity = share of people picking that player for that square (HoopGrids tiers);
+  `data/grids_custom.json`. Rarity is tuned for the 12-person league (owner's request, 2026-11-12): % = picks /
+  max(people answering the square, 12); tiers by how many made the same pick (only you: Blue/Galaxy/Unicorn as
+  more people answer; 2 Gold, 3 Silver, 4-5 Bronze, 6+ Common). Scores are live until a daily closes at 8 PM ET
+  (`grid_board`), then final; archive dailies don't save picks. (Was: HoopGrids % tiers, lock on finish;
   "Deep cut" = on both rosters for at most 1 weekly lineup combined (separate from rarity).
   Tests: `python -m unittest discover tests`.
 - Trades undone the same day (the exact same assets sent straight back) are fake and are dropped in

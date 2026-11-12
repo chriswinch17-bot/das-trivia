@@ -57,6 +57,7 @@ window.EFFECTS = {
   */
   teamReveal: {
     joey: { image: "images/team/joey.webp", song: "sounds/joey.mp3" },   // first 30 s of "Sprinter"
+    blandon: { image: "images/team/blandon.webp", song: null },        // waiting for the owner's picture
   },
 
   managers: {

@@ -37,6 +37,7 @@ START_DATE = "2026-11-12"   # DAS GRIDS daily #1. A new daily grid starts at 8:0
 DAILY_COUNT = 365
 UNLIMITED_COUNT = 400
 MIN_ANSWERS = 2
+LEAGUE_SIZE = 12            # rarity is "share of the league": picks / max(people who answered, LEAGUE_SIZE)
 REPEAT_WINDOW = 60
 TEST_PUZZLE = "T1"          # used only by the automated live check; never shown in the game
 
@@ -137,6 +138,7 @@ def main():
         "search": [[pid, names[pid]] for pid in rostered + others],
         "players": [{"id": m, "name": managers[m]["name"]} for m in ids],
         "deep_cut_weeks": DEEP_CUT_WEEKS,
+        "league_size": LEAGUE_SIZE,
     }, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     # ---------- the database file ----------
@@ -147,7 +149,8 @@ def main():
         "('%s',array[%s],array[%s])" % (p["id"], ",".join(f"'{t}'" for t in p["rows"]), ",".join(f"'{t}'" for t in p["cols"]))
         for p in puzzles)
     OUT_SQL.write_text(SQL_TEMPLATE.replace("{{HISTORY}}", history_rows).replace("{{PUZZLES}}", puzzle_rows)
-                       .replace("{{DEEP}}", str(DEEP_CUT_WEEKS)), encoding="utf-8")
+                       .replace("{{DEEP}}", str(DEEP_CUT_WEEKS)).replace("{{LEAGUE}}", str(LEAGUE_SIZE))
+                       .replace("{{START}}", START_DATE), encoding="utf-8")
 
     # ---------- the local admin page ----------
     OUT_ADMIN.parent.mkdir(exist_ok=True)
@@ -260,10 +263,24 @@ alter table public.grid_results enable row level security;
 drop policy if exists "read grid results" on public.grid_results;
 create policy "read grid results" on public.grid_results for select using (true);
 
+-- A daily grid is open until 8 PM Eastern on its day; after that it's an archive grid and picks
+-- no longer count, so the day's final scores never change. Unlimited grids never close.
+create or replace function public.grid_open(p_puzzle text)
+returns boolean language sql stable as $$
+  select case when p_puzzle ~ '^D[0-9]+$' then
+    now() < ((date '{{START}}' + (substring(p_puzzle from 2)::int - 1)) + time '20:00') at time zone 'America/New_York'
+  else true end;
+$$;
+
+-- Rarity for a {{LEAGUE}}-person league: the share of the league that picked the same player for that square,
+-- i.e. picks / greatest(people who answered the square, {{LEAGUE}}). A first answer is 1 of {{LEAGUE}}, not 100%.
+create or replace function public.grid_pct(cnt bigint, total bigint)
+returns numeric language sql immutable as $$ select round(100.0 * cnt / greatest(total, {{LEAGUE}}), 2) $$;
+
 -- Check a guess. With p_save it also records the vote (one per person per square).
 create or replace function public.grid_guess(p_puzzle text, p_square int, p_player text, p_nba text, p_save boolean default true)
 returns json language plpgsql security definer set search_path = public as $$
-declare a text; b text; wa int; wb int; total int; cnt int; is_first boolean;
+declare a text; b text; wa int; wb int; total int; cnt int; is_first boolean; is_open boolean;
 begin
   p_player := trim(coalesce(p_player, ''));
   if p_square is null or p_square < 0 or p_square > 8 or char_length(p_player) not between 1 and 20 then
@@ -280,15 +297,16 @@ begin
     return json_build_object('ok', false, 'reason', 'used');
   end if;
   is_first := not exists (select 1 from grid_picks where puzzle_id = p_puzzle and square = p_square and nba_player = p_nba and player <> p_player);
-  if p_save then
+  is_open := grid_open(p_puzzle);
+  if p_save and is_open then
     insert into grid_picks (puzzle_id, square, player, nba_player) values (p_puzzle, p_square, p_player, p_nba)
     on conflict (puzzle_id, square, player) do update set nba_player = excluded.nba_player, updated_at = now();
   end if;
   select count(*) into total from grid_picks where puzzle_id = p_puzzle and square = p_square and player <> p_player;
   select count(*) into cnt   from grid_picks where puzzle_id = p_puzzle and square = p_square and player <> p_player and nba_player = p_nba;
   total := total + 1; cnt := cnt + 1;       -- this person's own pick, counted once
-  return json_build_object('ok', true, 'count', cnt, 'total', total, 'pct', round(100.0 * cnt / total, 2),
-                           'first', is_first, 'deep_cut', (wa + wb) <= {{DEEP}});
+  return json_build_object('ok', true, 'count', cnt, 'total', total, 'pct', grid_pct(cnt, total),
+                           'first', is_first, 'deep_cut', (wa + wb) <= {{DEEP}}, 'open', is_open);
 end $$;
 
 -- Current crowd rarity of each of one person's picks.
@@ -301,7 +319,8 @@ returns json language sql security definer set search_path = public as $$
   from grid_picks m where m.puzzle_id = p_puzzle and m.player = trim(p_player);
 $$;
 
--- Lock in a finished grid. The score is worked out here from the saved picks, not sent by the phone.
+-- Record when someone finishes (for the time on the leaderboard). Scores themselves stay live until the
+-- grid closes: see grid_board. Worked out here from the saved picks, never sent by the phone.
 create or replace function public.grid_finish(p_puzzle text, p_player text, p_seconds int, p_boxes text)
 returns json language plpgsql security definer set search_path = public as $$
 declare n int; total_score numeric; existing grid_results;
@@ -309,10 +328,11 @@ begin
   p_player := trim(coalesce(p_player, ''));
   select * into existing from grid_results where puzzle_id = p_puzzle and player = p_player;
   if found then return row_to_json(existing); end if;
+  if not grid_open(p_puzzle) then return json_build_object('ok', false, 'reason', 'closed'); end if;
   select count(*) into n from grid_picks where puzzle_id = p_puzzle and player = p_player;
   if n < 9 then return json_build_object('ok', false, 'reason', 'not finished'); end if;
-  select sum(100.0 * (select count(*) from grid_picks x where x.puzzle_id = m.puzzle_id and x.square = m.square and x.nba_player = m.nba_player)
-                   / (select count(*) from grid_picks y where y.puzzle_id = m.puzzle_id and y.square = m.square))
+  select sum(grid_pct((select count(*) from grid_picks x where x.puzzle_id = m.puzzle_id and x.square = m.square and x.nba_player = m.nba_player),
+                      (select count(*) from grid_picks y where y.puzzle_id = m.puzzle_id and y.square = m.square)))
     into total_score from grid_picks m where m.puzzle_id = p_puzzle and m.player = p_player;
   insert into grid_results (puzzle_id, player, score, completed, seconds, boxes)
   values (p_puzzle, p_player, round(total_score, 2), 9, greatest(0, least(p_seconds, 864000)), left(coalesce(p_boxes, ''), 60))
@@ -320,6 +340,21 @@ begin
   select * into existing from grid_results where puzzle_id = p_puzzle and player = p_player;
   return row_to_json(existing);
 end $$;
+
+-- The leaderboard: everyone who has played a grid, with their live score (final once a daily grid closes).
+-- Shows names and totals only, never anyone's answers.
+create or replace function public.grid_board(p_puzzle text)
+returns json language sql security definer set search_path = public as $$
+  select coalesce(json_agg(r order by r.completed desc, r.score asc, r.finished_at asc nulls last), '[]'::json) from (
+    select m.player,
+           count(*) as completed,
+           sum(grid_pct((select count(*) from grid_picks x where x.puzzle_id = m.puzzle_id and x.square = m.square and x.nba_player = m.nba_player),
+                        (select count(*) from grid_picks y where y.puzzle_id = m.puzzle_id and y.square = m.square))) as score,
+           max(res.seconds) as seconds, max(res.completed_at) as finished_at, not grid_open(p_puzzle) as final
+    from grid_picks m left join grid_results res on res.puzzle_id = m.puzzle_id and res.player = m.player
+    where m.puzzle_id = p_puzzle group by m.player
+  ) r;
+$$;
 
 -- Roster history and puzzles (refreshed every time this file runs).
 delete from public.grid_history;
