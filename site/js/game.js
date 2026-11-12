@@ -18,6 +18,8 @@
   // Each game mode has its own question file, saved progress and leaderboard.
   // Papo Trade or NOT scores are stored as game number 50000 + its day number, so the two never mix.
   // What team am I? scores use 60000 + day.
+  // No mode on the address = the home page with the list of games.
+  const home = !params.get("mode");
   const mode = ["papo", "team"].includes(params.get("mode")) ? params.get("mode") : "trivia";
   const MODES = {
     trivia: { file: "data/game.json", key: "game", board: 0, startScreen: "start", play: "btn-play", label: "Game", tag: "Game", icon: "🏀", seconds: 25 },
@@ -413,7 +415,7 @@
       marks(),
       `Score: ${score}`,
     ];
-    if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) lines.push(location.origin + location.pathname + (mode === "trivia" ? "" : `?mode=${mode}`));
+    if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) lines.push(location.origin + location.pathname + `?mode=${mode}`);
     return lines.join("\n");
   }
 
@@ -530,7 +532,7 @@
     const right = state.answers.filter((a) => a.result === "correct").length;
     $("final-score").textContent = score;
     $("final-sub").textContent = `${right} of ${questions.length} correct · ${M.label} #${gameNumber}`;
-    $("other-mode").href = keepTest(mode === "trivia" ? "?mode=papo" : "./");
+    $("other-mode").href = keepTest(mode === "trivia" ? "?mode=papo" : "?mode=trivia");
     $("other-mode").textContent = mode === "trivia" ? "Play today's Papo Trade or NOT" : "Play today's Das Trivia";
 
     const grid = $("final-grid");
@@ -600,7 +602,16 @@
   /* ---------- start ---------- */
 
   async function start() {
+    // the Home button on every game screen; every link back home keeps practice mode on
+    for (const a of document.querySelectorAll('a[href="./"]')) a.href = keepTest("./");
+    $("home-link").hidden = home;
     if (params.get("mode") === "grids") return;   // DAS GRIDS runs from js/grids.js
+    if (home) {
+      $("home-date").textContent = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
+      $("to-trivia-game").href = keepTest("?mode=trivia");
+      for (const [id, m] of [["to-papo", "papo"], ["to-team", "team"], ["to-grids", "grids"]]) $(id).href = keepTest(`?mode=${m}`);
+      return show("home");
+    }
     try {
       const response = await fetch(M.file, { cache: "no-cache" });
       if (!response.ok) throw new Error(`${M.file} returned ${response.status}`);
@@ -621,9 +632,7 @@
     const dateText = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
     $("start-date").textContent = $("papo-date").textContent = $("team-date").textContent = dateText;
     if (mode !== "trivia") document.title = `${M.label} · Das Trivia`;
-    $("to-team").href = keepTest("?mode=team");
     $("team-back").href = keepTest("./");
-    $("to-papo").href = keepTest("?mode=papo");
     $("to-trivia").href = keepTest("./");
 
     $("btn-play").addEventListener("click", tipOff);

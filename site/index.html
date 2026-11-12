@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=39">
+  <link rel="stylesheet" href="css/style.css?v=40">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -36,14 +36,17 @@
       </svg>
       <span class="brand-text"><span class="brand-name">Das <b>Trivia</b></span><span class="brand-by">Brought to you by EquipoGPT</span></span>
     </div>
-    <div class="game-tag" id="game-tag"></div>
+    <div class="topbar-right">
+      <a class="home-link" id="home-link" href="./" hidden>⌂ Home</a>
+      <div class="game-tag" id="game-tag"></div>
+    </div>
   </header>
 
   <main>
-    <!-- Start screen -->
-    <section class="screen card" id="screen-start" hidden>
-      <p class="eyebrow" id="start-date"></p>
-      <h1>Today's game</h1>
+    <!-- Home screen: the host and the list of games -->
+    <section class="screen card" id="screen-home" hidden>
+      <p class="eyebrow" id="home-date"></p>
+      <h1>Today's games</h1>
       <!-- The game-show stage: the host in front of a survey board. The board is a running joke. -->
       <div class="stage">
         <figure class="stage-host">
@@ -62,16 +65,14 @@
           </ol>
         </div>
       </div>
-      <ul class="rules">
-        <li><b>7 questions</b> from Das League history</li>
-        <li><b>25 seconds</b> each. Type your answer</li>
-        <li><b>One guess</b> per question. Small typos are fine</li>
-        <li>Number questions: a <b>close</b> guess earns half points</li>
-        <li>Some questions have several right answers. Any one counts</li>
-        <li>Every right answer moves you <b>up a step</b>. Get all 7 for the slam dunk</li>
-      </ul>
-      <button class="btn primary" id="btn-play">Tip off</button>
-      <p class="fine playing-as" id="playing-as" hidden>Playing as <b id="player-name"></b> · <a href="#" id="change-player">change</a></p>
+      <a class="bonus trivia" id="to-trivia-game" href="?mode=trivia">
+        <img src="images/host.webp" alt="">
+        <span class="bonus-text">
+          <small>Daily · 7 questions</small>
+          <b>Das <i>Trivia</i></b>
+          <em>Das League history, 25 seconds a question.</em>
+        </span>
+      </a>
       <a class="bonus" id="to-papo" href="?mode=papo">
         <img src="images/papo-mode.webp" alt="">
         <span class="bonus-text">
@@ -96,8 +97,25 @@
           <em>Name a player who was on both teams. Rarest answers win.</em>
         </span>
       </a>
+    </section>
+
+    <!-- Das Trivia start screen -->
+    <section class="screen card" id="screen-start" hidden>
+      <p class="eyebrow" id="start-date"></p>
+      <h1>Das Trivia</h1>
+      <ul class="rules">
+        <li><b>7 questions</b> from Das League history</li>
+        <li><b>25 seconds</b> each. Type your answer</li>
+        <li><b>One guess</b> per question. Small typos are fine</li>
+        <li>Number questions: a <b>close</b> guess earns half points</li>
+        <li>Some questions have several right answers. Any one counts</li>
+        <li>Every right answer moves you <b>up a step</b>. Get all 7 for the slam dunk</li>
+      </ul>
+      <button class="btn primary" id="btn-play">Tip off</button>
+      <p class="fine playing-as" id="playing-as" hidden>Playing as <b id="player-name"></b> · <a href="#" id="change-player">change</a></p>
       <p class="fine">Prototype scoring: 100 points for a correct answer plus a speed bonus.
         Rarity scoring arrives with the leaderboard.</p>
+      <p class="fine center"><a class="home-back" href="./">← Back to all games</a></p>
     </section>
 
     <!-- Bonus game start screen: Papo Trade or NOT -->
@@ -112,7 +130,7 @@
         <li>Trades undone the same day don't count</li>
       </ul>
       <button class="btn primary" id="btn-play-papo">Tip off</button>
-      <p class="fine center"><a id="to-trivia" href="./">← Back to today's Das Trivia</a></p>
+      <p class="fine center"><a id="to-trivia" href="./">← Back to all games</a></p>
     </section>
 
     <!-- Bonus game start screen: What team am I? -->
@@ -127,7 +145,7 @@
         <li>Get it on clue 1 for <b>100 points</b>, then 80, 60, 40, 20</li>
       </ul>
       <button class="btn primary" id="btn-play-team">Tip off</button>
-      <p class="fine center"><a id="team-back" href="./">← Back to today's Das Trivia</a></p>
+      <p class="fine center"><a id="team-back" href="./">← Back to all games</a></p>
     </section>
 
     <!-- DAS GRIDS (js/grids.js) -->
@@ -171,7 +189,7 @@
         <ol class="leaders grid-leaders" id="grid-leaders"></ol>
         <p class="fine" id="grid-leaders-status"></p>
       </div>
-      <p class="fine center"><a href="./">← Back to Das Trivia</a></p>
+      <p class="fine center"><a href="./">← Back to all games</a></p>
     </section>
 
     <!-- Name screen: asked once, after Tip off and before the first question -->
@@ -247,6 +265,7 @@
       <h3>Your answers</h3>
       <ol class="recap" id="recap"></ol>
       <a class="btn ghost other-mode" id="other-mode" href="./"></a>
+      <a class="btn ghost other-mode" href="./">⌂ Back to all games</a>
       <p class="fine">A new game starts every day at midnight Eastern.</p>
     </section>
 
@@ -279,10 +298,10 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=39"></script>
-  <script src="js/effects.js?v=39"></script>
-  <script src="js/cutscene.js?v=39"></script>
-  <script src="js/game.js?v=39"></script>
-  <script src="js/grids.js?v=39"></script>
+  <script src="js/config.js?v=40"></script>
+  <script src="js/effects.js?v=40"></script>
+  <script src="js/cutscene.js?v=40"></script>
+  <script src="js/game.js?v=40"></script>
+  <script src="js/grids.js?v=40"></script>
 </body>
 </html>

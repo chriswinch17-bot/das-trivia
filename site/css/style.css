@@ -453,3 +453,10 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; }
 }
+
+/* home page and the Home button */
+.topbar-right { display: flex; align-items: center; gap: 10px; }
+.home-link { font: 700 15px var(--head); letter-spacing: .5px; text-transform: uppercase; color: #0a1a5c; background: #ffc53d; border-radius: 999px; padding: 5px 11px; text-decoration: none; white-space: nowrap; }
+.bonus.trivia { margin-top: 0; background: linear-gradient(135deg, #5a2a07, #1d2d6e); border-color: var(--orange); }
+.bonus.trivia small { color: #ffc89a; }
+.bonus.trivia img { object-position: 30% 20%; }
