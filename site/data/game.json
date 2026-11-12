@@ -120,7 +120,7 @@
       "detail": "Papo went 5-12 in the 2024-2025 regular season (10th of 12) with 6,352 points and missed the playoffs."
      }
     ],
-    "note": "52 trades.",
+    "note": "50 trades.",
     "about": [],
     "sources": [
      "trades.json"
@@ -138,7 +138,7 @@
        "Tyrese",
        "Tyrese Haliburton"
       ],
-      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 6 times in Das League."
+      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
     "note": null,
@@ -381,7 +381,7 @@
        "papochullo7979"
       ],
       "manager": "papo",
-      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 114 trades in all."
      }
     ],
     "note": "That was the name in 2024-2025.",
@@ -736,7 +736,7 @@
        "papochullo7979"
       ],
       "manager": "papo",
-      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 114 trades in all."
      }
     ],
     "note": "That was the name in 2023-2024.",
@@ -1379,7 +1379,7 @@
        "Luka",
        "Luka Dončić"
       ],
-      "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 4 times in Das League."
+      "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
     "note": null,
@@ -1705,7 +1705,7 @@
        "Winchenzo"
       ],
       "manager": "winch",
-      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips and 0 titles. Winch has made 39 trades in all."
+      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips and 0 titles. Winch has made 33 trades in all."
      },
      {
       "display": "LeBong James (Melo)",
@@ -1800,7 +1800,7 @@
        "hotrelish"
       ],
       "manager": "jacobo",
-      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips and 0 titles. Jacobo has made 66 trades in all."
+      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips and 0 titles. Jacobo has made 60 trades in all."
      },
      {
       "display": "Los Chigüires (Libguel)",
@@ -1826,7 +1826,7 @@
        "Ricky"
       ],
       "manager": "ricky",
-      "detail": "Through 2025-2026, Ricky is 14-41 in the regular season with 0 playoff trips and 0 titles. Ricky has made 12 trades in all."
+      "detail": "Through 2025-2026, Ricky is 14-41 in the regular season with 0 playoff trips and 0 titles. Ricky has made 10 trades in all."
      }
     ],
     "note": "9 straight losses (regular season).",
@@ -2084,6 +2084,19 @@
     "kind": "manager",
     "answers": [
      {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey",
+      "detail": "Through 2025-2026, Joey is 21-33 in the regular season with 2 playoff trips and 0 titles. Joey has made 34 trades in all."
+     },
+     {
       "display": "Fear the Brow (Papo)",
       "accept": [
        "Fear the Brow",
@@ -2095,7 +2108,7 @@
        "papochullo7979"
       ],
       "manager": "papo",
-      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 114 trades in all."
      },
      {
       "display": "hotrelish (Jacobo)",
@@ -2106,21 +2119,7 @@
        "hotrelish"
       ],
       "manager": "jacobo",
-      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips and 0 titles. Jacobo has made 66 trades in all."
-     },
-     {
-      "display": "Equipo Winchenzo (Winch)",
-      "accept": [
-       "Chris",
-       "ElWinchenzo",
-       "Equipo",
-       "Equipo Winchenzo",
-       "Equipo Winchenzo 2X",
-       "Winch",
-       "Winchenzo"
-      ],
-      "manager": "winch",
-      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips and 0 titles. Winch has made 39 trades in all."
+      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips and 0 titles. Jacobo has made 60 trades in all."
      }
     ],
     "note": null,
@@ -2172,7 +2171,7 @@
        "RabbiBT69"
       ],
       "manager": "blandon",
-      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips and 1 title. Blandon has made 30 trades in all."
+      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips and 1 title. Blandon has made 28 trades in all."
      },
      {
       "display": "Los Chigüires (Libguel)",
@@ -2214,7 +2213,7 @@
        "papochullo7979"
       ],
       "manager": "papo",
-      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 114 trades in all."
      }
     ],
     "note": null,
@@ -2364,15 +2363,6 @@
       "detail": "Ricky got Clint Capela in a trade with Papo on November 30, 2023."
      },
      {
-      "display": "Deni Avdija",
-      "accept": [
-       "Avdija",
-       "Deni",
-       "Deni Avdija"
-      ],
-      "detail": "Ricky got Deni Avdija in a trade with Jacobo on July 22, 2024."
-     },
-     {
       "display": "Franz Wagner",
       "accept": [
        "Franz",
@@ -2407,15 +2397,6 @@
        "Poole"
       ],
       "detail": "Ricky got Jordan Poole in a trade with Jacobo on May 15, 2025."
-     },
-     {
-      "display": "LaMelo Ball",
-      "accept": [
-       "Ball",
-       "LaMelo",
-       "LaMelo Ball"
-      ],
-      "detail": "Ricky got LaMelo Ball in a trade with Jacobo on July 22, 2024."
      },
      {
       "display": "Lauri Markkanen",
@@ -2479,24 +2460,6 @@
        "Vukcevic"
       ],
       "detail": "Ricky got Tristan Vukcevic in a trade with Jacobo on May 15, 2025."
-     },
-     {
-      "display": "Tyrese Haliburton",
-      "accept": [
-       "Haliburton",
-       "Tyrese",
-       "Tyrese Haliburton"
-      ],
-      "detail": "Ricky got Tyrese Haliburton in a trade with Jacobo on July 22, 2024."
-     },
-     {
-      "display": "Victor Wembanyama",
-      "accept": [
-       "Victor",
-       "Victor Wembanyama",
-       "Wembanyama"
-      ],
-      "detail": "Ricky got Victor Wembanyama in a trade with Jacobo on July 22, 2024."
      }
     ],
     "note": null,
@@ -3267,15 +3230,6 @@
       "detail": "Papo got LeBron James in a trade with Joey on February 10, 2025."
      },
      {
-      "display": "Luka Dončić",
-      "accept": [
-       "Dončić",
-       "Luka",
-       "Luka Dončić"
-      ],
-      "detail": "Papo got Luka Dončić in a trade with Winch on July 22, 2024."
-     },
-     {
       "display": "Mason Plumlee",
       "accept": [
        "Mason",
@@ -3430,15 +3384,6 @@
       "detail": "Papo got Precious Achiuwa in a trade with Victor on October 4, 2024."
      },
      {
-      "display": "Quenton Jackson",
-      "accept": [
-       "Jackson",
-       "Quenton",
-       "Quenton Jackson"
-      ],
-      "detail": "Papo got Quenton Jackson in a trade with Winch on March 2, 2026."
-     },
-     {
       "display": "RJ Barrett",
       "accept": [
        "Barrett",
@@ -3528,7 +3473,7 @@
        "Stephen",
        "Stephen Curry"
       ],
-      "detail": "Papo got Stephen Curry in a trade with Winch on July 22, 2024. Papo has traded for Stephen Curry 3 times in all."
+      "detail": "Papo got Stephen Curry in a trade with Winch on October 4, 2024. Papo has traded for Stephen Curry 2 times in all."
      },
      {
       "display": "Stephon Castle",
@@ -3687,7 +3632,7 @@
        "Luka",
        "Luka Dončić"
       ],
-      "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 4 times in Das League."
+      "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
     "note": null,
@@ -3714,7 +3659,7 @@
        "Ricky"
       ],
       "manager": "ricky",
-      "detail": "Through 2025-2026, Ricky is 14-41 in the regular season with 0 playoff trips and 0 titles. Ricky has made 12 trades in all."
+      "detail": "Through 2025-2026, Ricky is 14-41 in the regular season with 0 playoff trips and 0 titles. Ricky has made 10 trades in all."
      },
      {
       "display": "hotrelish (Jacobo)",
@@ -3725,7 +3670,7 @@
        "hotrelish"
       ],
       "manager": "jacobo",
-      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips and 0 titles. Jacobo has made 66 trades in all."
+      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips and 0 titles. Jacobo has made 60 trades in all."
      },
      {
       "display": "Antetokounmpers (Verdeja)",
@@ -3854,7 +3799,7 @@
       "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
      }
     ],
-    "note": "30 trades.",
+    "note": "28 trades.",
     "about": [],
     "sources": [
      "trades.json"
@@ -4463,7 +4408,7 @@
        "LaMelo",
        "LaMelo Ball"
       ],
-      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 4 times in Das League."
+      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Luka Dončić",
@@ -4472,7 +4417,7 @@
        "Luka",
        "Luka Dončić"
       ],
-      "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 4 times in Das League."
+      "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Nikola Jokić",
@@ -4501,7 +4446,7 @@
        "Tyrese",
        "Tyrese Haliburton"
       ],
-      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 6 times in Das League."
+      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Victor Wembanyama",
@@ -4510,7 +4455,7 @@
        "Victor Wembanyama",
        "Wembanyama"
       ],
-      "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 4 times in Das League."
+      "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
     "note": null,
@@ -4741,24 +4686,6 @@
        "Paul George"
       ],
       "detail": "Taken 62nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 7 times in Das League."
-     },
-     {
-      "display": "Stephen Curry",
-      "accept": [
-       "Curry",
-       "Stephen",
-       "Stephen Curry"
-      ],
-      "detail": "Taken 34th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Traded 6 times in Das League."
-     },
-     {
-      "display": "Tyrese Haliburton",
-      "accept": [
-       "Haliburton",
-       "Tyrese",
-       "Tyrese Haliburton"
-      ],
-      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 6 times in Das League."
      }
     ],
     "note": null,
@@ -5384,7 +5311,7 @@
        "RabbiBT69"
       ],
       "manager": "blandon",
-      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips and 1 title. Blandon has made 30 trades in all."
+      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips and 1 title. Blandon has made 28 trades in all."
      },
      {
       "display": "Fear the Brow (Papo)",
@@ -5398,7 +5325,7 @@
        "papochullo7979"
       ],
       "manager": "papo",
-      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 114 trades in all."
      }
     ],
     "note": null,
@@ -5482,7 +5409,7 @@
        "papochullo7979"
       ],
       "manager": "papo",
-      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 118 trades in all."
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 114 trades in all."
      }
     ],
     "note": null,
@@ -5764,7 +5691,7 @@
        "Victor Wembanyama",
        "Wembanyama"
       ],
-      "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 4 times in Das League."
+      "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
     "note": null,
@@ -6119,7 +6046,7 @@
        "Stephen",
        "Stephen Curry"
       ],
-      "detail": "Taken 34th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Traded 6 times in Das League."
+      "detail": "Taken 34th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Traded 4 times in Das League."
      }
     ],
     "note": null,
@@ -6419,7 +6346,7 @@
        "Deni",
        "Deni Avdija"
       ],
-      "detail": "Jacobo got Deni Avdija in a trade with Ricky on July 22, 2024. Jacobo has traded for Deni Avdija 2 times in all."
+      "detail": "Jacobo got Deni Avdija in a trade with Joey and Papo on August 17, 2024."
      },
      {
       "display": "Derrick White",
@@ -6555,15 +6482,6 @@
        "Kyle Filipowski"
       ],
       "detail": "Jacobo got Kyle Filipowski in a trade with Winch on November 1, 2024."
-     },
-     {
-      "display": "LaMelo Ball",
-      "accept": [
-       "Ball",
-       "LaMelo",
-       "LaMelo Ball"
-      ],
-      "detail": "Jacobo got LaMelo Ball in a trade with Ricky on July 22, 2024."
      },
      {
       "display": "LiAngelo Ball",
@@ -6708,7 +6626,7 @@
        "Tyrese",
        "Tyrese Haliburton"
       ],
-      "detail": "Jacobo got Tyrese Haliburton in a trade with Joey on January 6, 2024. Jacobo has traded for Tyrese Haliburton 3 times in all."
+      "detail": "Jacobo got Tyrese Haliburton in a trade with Joey on January 6, 2024."
      },
      {
       "display": "Victor Wembanyama",
@@ -6717,7 +6635,7 @@
        "Victor Wembanyama",
        "Wembanyama"
       ],
-      "detail": "Jacobo got Victor Wembanyama in a trade with Ricky on July 22, 2024. Jacobo has traded for Victor Wembanyama 2 times in all."
+      "detail": "Jacobo got Victor Wembanyama in a trade with Ricky on December 22, 2024."
      },
      {
       "display": "Zach Edey",
@@ -6785,7 +6703,7 @@
        "Tyrese",
        "Tyrese Haliburton"
       ],
-      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 6 times in Das League."
+      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
     "note": null,
@@ -6814,7 +6732,7 @@
        "RabbiBT69"
       ],
       "manager": "blandon",
-      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips and 1 title. Blandon has made 30 trades in all."
+      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips and 1 title. Blandon has made 28 trades in all."
      },
      {
       "display": "Los Chigüires (Libguel)",
@@ -7280,7 +7198,7 @@
        "Winchenzo"
       ],
       "manager": "winch",
-      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips and 0 titles. Winch has made 39 trades in all."
+      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips and 0 titles. Winch has made 33 trades in all."
      },
      {
       "display": "Fidel’s Accumulators (Joey)",
@@ -7513,15 +7431,6 @@
       "detail": "Winch got LaMelo Ball in a trade with Papo on October 4, 2024."
      },
      {
-      "display": "Luka Dončić",
-      "accept": [
-       "Dončić",
-       "Luka",
-       "Luka Dončić"
-      ],
-      "detail": "Winch got Luka Dončić in a trade with Papo on July 22, 2024."
-     },
-     {
       "display": "Marvin Bagley III",
       "accept": [
        "Bagley",
@@ -7577,15 +7486,6 @@
       "detail": "Winch got Pelle Larsson in a trade with Papo and Blandon on February 26, 2026."
      },
      {
-      "display": "Quenton Jackson",
-      "accept": [
-       "Jackson",
-       "Quenton",
-       "Quenton Jackson"
-      ],
-      "detail": "Winch got Quenton Jackson in a trade with Papo on March 2, 2026."
-     },
-     {
       "display": "RJ Barrett",
       "accept": [
        "Barrett",
@@ -7602,24 +7502,6 @@
        "Rob Dillingham"
       ],
       "detail": "Winch got Rob Dillingham in a trade with Jacobo on October 10, 2025."
-     },
-     {
-      "display": "Stephen Curry",
-      "accept": [
-       "Curry",
-       "Stephen",
-       "Stephen Curry"
-      ],
-      "detail": "Winch got Stephen Curry in a trade with Papo on July 22, 2024."
-     },
-     {
-      "display": "Tyrese Haliburton",
-      "accept": [
-       "Haliburton",
-       "Tyrese",
-       "Tyrese Haliburton"
-      ],
-      "detail": "Winch got Tyrese Haliburton in a trade with Jacobo on November 13, 2024."
      },
      {
       "display": "Zach LaVine",
@@ -8036,7 +7918,7 @@
        "LaMelo",
        "LaMelo Ball"
       ],
-      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 4 times in Das League."
+      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
     "note": null,

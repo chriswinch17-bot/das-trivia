@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=28">
+  <link rel="stylesheet" href="css/style.css?v=30">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -72,8 +72,31 @@
       </ul>
       <button class="btn primary" id="btn-play">Tip off</button>
       <p class="fine playing-as" id="playing-as" hidden>Playing as <b id="player-name"></b> · <a href="#" id="change-player">change</a></p>
+      <a class="bonus" id="to-papo" href="?mode=papo">
+        <img src="images/managers/papo/2.webp" alt="">
+        <span class="bonus-text">
+          <small>Bonus game · 5 a day</small>
+          <b>Papo Trade <i>or NOT</i></b>
+          <em>Real trades, teams hidden. Was Papo in it?</em>
+        </span>
+      </a>
       <p class="fine">Prototype scoring: 100 points for a correct answer plus a speed bonus.
         Rarity scoring arrives with the leaderboard.</p>
+    </section>
+
+    <!-- Bonus game start screen: Papo Trade or NOT -->
+    <section class="screen card" id="screen-papo-start" hidden>
+      <p class="eyebrow" id="papo-date"></p>
+      <h1 class="papo-title">Papo Trade <i>or NOT</i></h1>
+      <img class="papo-hero" src="images/managers/papo/2.webp" alt="Papo holding his Most Trades in a Season card">
+      <ul class="rules">
+        <li><b>5 real trades</b> from Das League history, with the teams hidden</li>
+        <li><b>Yes or no:</b> was Papo in the trade?</li>
+        <li><b>25 seconds</b> each. Draft picks and FAAB count</li>
+        <li>Trades undone the same day don't count</li>
+      </ul>
+      <button class="btn primary" id="btn-play-papo">Tip off</button>
+      <p class="fine center"><a id="to-trivia" href="./">← Back to today's Das Trivia</a></p>
     </section>
 
     <!-- Name screen: asked once, after Tip off and before the first question -->
@@ -98,6 +121,12 @@
       </div>
       <p class="eyebrow" id="q-count"></p>
       <h2 class="question" id="q-text"></h2>
+
+      <div class="trade" id="trade" hidden></div>
+      <div class="yesno" id="yesno" hidden>
+        <button class="btn yes" id="btn-yes" type="button">Yes</button>
+        <button class="btn no" id="btn-no" type="button">No</button>
+      </div>
 
       <form id="answer-form" autocomplete="off">
         <input id="answer" type="text" inputmode="text" enterkeyhint="go" placeholder="Type your answer"
@@ -141,6 +170,7 @@
       <p class="fine" id="leaders-status"></p>
       <h3>Your answers</h3>
       <ol class="recap" id="recap"></ol>
+      <a class="btn ghost other-mode" id="other-mode" href="./"></a>
       <p class="fine">A new game starts every day at midnight Eastern.</p>
     </section>
 
@@ -150,9 +180,9 @@
     </section>
   </main>
 
-  <script src="js/config.js?v=28"></script>
-  <script src="js/effects.js?v=28"></script>
-  <script src="js/cutscene.js?v=28"></script>
-  <script src="js/game.js?v=28"></script>
+  <script src="js/config.js?v=30"></script>
+  <script src="js/effects.js?v=30"></script>
+  <script src="js/cutscene.js?v=30"></script>
+  <script src="js/game.js?v=30"></script>
 </body>
 </html>

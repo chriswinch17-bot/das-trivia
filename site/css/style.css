@@ -270,6 +270,33 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .leaders .lb { font-size: 9px; letter-spacing: -1px; white-space: nowrap; }
 .leaders .ls { font-family: var(--head); font-size: 22px; font-weight: 800; color: var(--orange); min-width: 2.2em; text-align: right; }
 
+/* bonus game: Papo Trade or NOT */
+.bonus {
+  display: flex; align-items: center; gap: 12px; margin-top: 16px; padding: 10px; border-radius: 14px;
+  text-decoration: none; color: var(--text); background: linear-gradient(135deg, #3a1d6e, #1d2d6e);
+  border: 1px solid #8b6cff;
+}
+.bonus:hover { filter: brightness(1.1); }
+.bonus img { width: 64px; height: 64px; object-fit: cover; object-position: 50% 15%; border-radius: 10px; flex: none; }
+.bonus-text { display: flex; flex-direction: column; line-height: 1.15; }
+.bonus-text small { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: #c9b8ff; }
+.bonus-text b { font-family: var(--head); font-size: 26px; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; }
+.bonus-text i, .papo-title i { font-style: normal; color: var(--orange); }
+.bonus-text em { font-style: normal; font-size: 13px; color: #d5dbea; }
+.papo-hero { display: block; width: 100%; max-height: 300px; object-fit: cover; object-position: 50% 25%; border-radius: 14px; margin: 4px 0 16px; border: 2px solid #8b6cff; }
+.center { text-align: center; }
+.center a, .other-mode { color: var(--orange); }
+
+.trade { margin: 0 0 16px; padding: 12px; border-radius: 14px; background: #0d1220; border: 1px solid var(--card-edge); }
+.trade-date { margin: 0 0 8px; font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); text-align: center; }
+.trade-who { margin: 0 0 6px; font-family: var(--head); font-size: 18px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--orange); }
+.trade-side .chips { justify-content: flex-start; }
+.trade-swap { text-align: center; font-size: 20px; color: var(--muted); line-height: 1; margin: 6px 0; }
+.yesno { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.btn.yes { background: linear-gradient(180deg, #34d27f, #219a5a); }
+.btn.no { background: linear-gradient(180deg, #f26363, #c73636); color: #fff; }
+.other-mode { display: block; margin-top: 22px; text-decoration: none; text-align: center; }
+
 /* results */
 #screen-results { text-align: center; }
 .score { font-family: var(--head); font-size: 96px; font-weight: 800; line-height: 1; color: var(--orange); }

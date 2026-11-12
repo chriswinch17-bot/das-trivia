@@ -100,6 +100,13 @@ The owner has essentially no coding or web development experience.
   table `scores` (`docs/leaderboard_setup.sql`); the connection values go in `site/js/config.js`.
   While those are empty the name screen and leaderboard are switched off entirely; preview them with `?test&board`. Practice mode never saves a score.
   It is an honor system: anyone can pick any name, and the first score per name per day counts.
+- **Papo Trade or NOT** (bonus mode, `?mode=papo`): 5 yes-or-no questions a day. Each shows a real
+  trade with the teams hidden ("Team A got / Team B got"); the player says whether Papo was in it.
+  Picks and FAAB count. `python scripts/build_papo.py` writes `site/data/papo.json` (2 or 3 Papo trades
+  per day, trades over 10 items skipped, scheduled days kept). Game #1 was 2026-11-12. Its leaderboard
+  rows use game number 50000 + day, so they never mix with the main game. No cutscene in this mode.
+- Trades undone the same day (the exact same assets sent straight back) are fake and are dropped in
+  `build_data.py`, so they count nowhere (owner's rule, 2026-11-12). There were 5 such pairs.
 - Testing: open the site with `?test` on the address to replay without saving; `?test&day=3` plays Game #3.
 - Local preview: `python -m http.server 8123 --bind 127.0.0.1 --directory site`, then http://localhost:8123.
 - Scoring is a stand-in (100 + 2 per second left) until rarity scoring arrives in Phase 4.

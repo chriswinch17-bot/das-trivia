@@ -1,5 +1,6 @@
 /* Das Trivia: game logic.
-   Add ?test to the address to replay freely (nothing is saved); ?test&day=3 plays Game #3. */
+   Add ?test to the address to replay freely (nothing is saved); ?test&day=3 plays Game #3.
+   ?mode=papo plays the bonus game "Papo Trade or NOT" (5 yes-or-no trade questions a day). */
 (() => {
   "use strict";
 
@@ -14,6 +15,16 @@
   const $ = (id) => document.getElementById(id);
   const params = new URLSearchParams(location.search);
   const testMode = params.has("test");
+
+  // Each game mode has its own question file, saved progress and leaderboard.
+  // Papo Trade or NOT scores are stored as game number 50000 + its day number, so the two never mix.
+  const mode = params.get("mode") === "papo" ? "papo" : "trivia";
+  const MODES = {
+    trivia: { file: "data/game.json", key: "game", board: 0, startScreen: "start", play: "btn-play", label: "Game" },
+    papo: { file: "data/papo.json", key: "papo", board: 50000, startScreen: "papo-start", play: "btn-play-papo", label: "Papo Trade or NOT" },
+  };
+  const M = MODES[mode];
+  const keepTest = (address) => (testMode ? address + (address.includes("?") ? "&" : "?") + "test" : address);
 
   let game, questions, gameNumber, state, known, timerId = null;
 
@@ -91,7 +102,7 @@
     return Math.round((utc(to) - utc(from)) / 86400000);
   }
 
-  const storageKey = () => `das-league-trivia:game:${gameNumber}`;
+  const storageKey = () => `das-league-trivia:${M.key}:${gameNumber}`;
   function loadState() {
     if (!testMode) {
       try {
@@ -138,7 +149,11 @@
     const card = $("screen-question");
     card.classList.remove("result-correct", "result-close", "result-wrong", "result-timeout");
     $("feedback").hidden = true;
-    $("answer-form").hidden = false;
+    const yesno = question.kind === "yesno";
+    $("answer-form").hidden = yesno;
+    $("yesno").hidden = !yesno;
+    $("trade").hidden = !yesno;
+    if (yesno) drawTrade(question);
     $("q-count").textContent = `Question ${index + 1} of ${questions.length}`;
     $("q-text").textContent = question.text;
     drawProgress(index);
@@ -146,7 +161,7 @@
     const input = $("answer");
     input.value = "";
     input.inputMode = question.kind === "number" ? "numeric" : "text";
-    input.focus();
+    if (!yesno) input.focus();
 
     // The clock keeps running through a page refresh.
     if (!state.startedAt) { state.startedAt = Date.now(); saveState(); }
@@ -164,10 +179,43 @@
     tick();
   }
 
+  // Papo Trade or NOT: the trade, with the teams hidden as Team A and Team B.
+  function drawTrade(question) {
+    const box = $("trade");
+    box.replaceChildren();
+    const date = document.createElement("p");
+    date.className = "trade-date";
+    date.textContent = `Trade · ${question.date}`;
+    box.append(date);
+    question.sides.forEach((items, i) => {
+      if (i) {
+        const swap = document.createElement("div");
+        swap.className = "trade-swap";
+        swap.textContent = "⇅";
+        box.append(swap);
+      }
+      const side = document.createElement("div");
+      side.className = "trade-side";
+      const who = document.createElement("p");
+      who.className = "trade-who";
+      who.textContent = `Team ${"ABC"[i]} got`;
+      const list = document.createElement("div");
+      list.className = "chips";
+      (items.length ? items : ["Nothing"]).forEach((text) => {
+        const chip = document.createElement("span");
+        chip.className = "chip";
+        chip.textContent = text;
+        list.append(chip);
+      });
+      side.append(who, list);
+      box.append(side);
+    });
+  }
+
   // After a correct answer, play the cutscene for the step just reached, then carry on.
   function nextStep() {
     const last = state.answers[state.answers.length - 1];
-    if (!last || last.result !== "correct" || !window.Cutscene) return showQuestion();
+    if (mode !== "trivia" || !last || last.result !== "correct" || !window.Cutscene) return showQuestion();
     const step = state.answers.filter((a) => a.result === "correct").length;
     show("cutscene");
     window.Cutscene.play(step, showQuestion);
@@ -185,7 +233,7 @@
     state.answers.push({
       result, typed, points,
       matched: answer ? answer.display : null,
-      question: question.text,
+      question: question.recap || question.text,
       answer: question.answers.length === 1 ? question.answers[0].display : null,
     });
     state.startedAt = null;
@@ -258,7 +306,10 @@
 
     $("btn-next").textContent = index + 1 < questions.length ? "Next question" : "See my score";
     $("answer-form").hidden = true;
+    $("yesno").hidden = true;
     $("feedback").hidden = false;
+    // the trade stays on screen above the answer, so bring the answer into view on phones
+    if (question.kind === "yesno") $("feedback").scrollIntoView({ behavior: "smooth", block: "start" });
     $("btn-next").focus();
   }
 
@@ -266,11 +317,11 @@
   function shareText() {
     const score = state.answers.reduce((sum, a) => sum + a.points, 0);
     const lines = [
-      `🏀 ${game.title} #${gameNumber}`,
+      `${mode === "papo" ? "🔄" : "🏀"} ${game.title} #${gameNumber}`,
       state.answers.map((a) => (a.result === "correct" ? "🟩" : a.result === "close" ? "🟧" : "🟥")).join(""),
       `Score: ${score}`,
     ];
-    if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) lines.push(location.origin + location.pathname);
+    if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) lines.push(location.origin + location.pathname + (mode === "papo" ? "?mode=papo" : ""));
     return lines.join("\n");
   }
 
@@ -367,12 +418,12 @@
         await database("scores?on_conflict=game,player", {
           method: "POST",
           headers: { Prefer: "resolution=ignore-duplicates,return=minimal" },
-          body: JSON.stringify({ game: gameNumber, ...mine }),
+          body: JSON.stringify({ game: M.board + gameNumber, ...mine }),
         });
         state.submitted = true;
         saveState();
       }
-      const rows = await database(`scores?game=eq.${gameNumber}&select=player,score,correct,boxes&order=score.desc,created_at.asc&limit=50`);
+      const rows = await database(`scores?game=eq.${M.board + gameNumber}&select=player,score,correct,boxes&order=score.desc,created_at.asc&limit=50`);
       const everyone = testMode && !rows.some((r) => r.player === mine.player) ? [...rows, mine].sort((a, b) => b.score - a.score) : rows;
       draw(everyone, testMode ? "Practice mode: your score isn't saved to the leaderboard." : "First score counts. One game per player per day.");
     } catch (error) {
@@ -385,7 +436,9 @@
     const score = state.answers.reduce((sum, a) => sum + a.points, 0);
     const right = state.answers.filter((a) => a.result === "correct").length;
     $("final-score").textContent = score;
-    $("final-sub").textContent = `${right} of ${questions.length} correct · Game #${gameNumber}`;
+    $("final-sub").textContent = `${right} of ${questions.length} correct · ${M.label} #${gameNumber}`;
+    $("other-mode").href = keepTest(mode === "papo" ? "./" : "?mode=papo");
+    $("other-mode").textContent = mode === "papo" ? "Play today's Das Trivia" : "Play today's Papo Trade or NOT";
 
     const grid = $("final-grid");
     grid.replaceChildren();
@@ -429,8 +482,8 @@
 
   async function start() {
     try {
-      const response = await fetch("data/game.json", { cache: "no-cache" });
-      if (!response.ok) throw new Error(`data/game.json returned ${response.status}`);
+      const response = await fetch(M.file, { cache: "no-cache" });
+      if (!response.ok) throw new Error(`${M.file} returned ${response.status}`);
       game = await response.json();
     } catch (error) {
       $("error-text").textContent = "The question file didn't load. " + error.message;
@@ -441,14 +494,25 @@
     if (testMode && params.get("day")) dayIndex = Math.max(0, Number(params.get("day")) - 1 || 0);
     gameNumber = dayIndex + 1;
     questions = game.days[dayIndex % game.days.length];
-    known = new Set(game.entities.map(normalize));
+    known = new Set((game.entities || []).map(normalize));
     state = loadState();
 
-    $("game-tag").textContent = `Game #${gameNumber}` + (testMode ? " · test" : "");
-    $("start-date").textContent = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
+    $("game-tag").textContent = `${mode === "papo" ? "Papo" : "Game"} #${gameNumber}` + (testMode ? " · test" : "");
+    const dateText = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
+    $("start-date").textContent = $("papo-date").textContent = dateText;
+    if (mode === "papo") document.title = "Papo Trade or NOT · Das Trivia";
+    $("to-papo").href = keepTest("?mode=papo");
+    $("to-trivia").href = keepTest("./");
 
     $("btn-play").addEventListener("click", tipOff);
-    $("change-player").addEventListener("click", (event) => { event.preventDefault(); askName(() => show("start")); });
+    $("btn-play-papo").addEventListener("click", tipOff);
+    [["btn-yes", "Yes"], ["btn-no", "No"]].forEach(([id, said]) => $(id).addEventListener("click", () => {
+      const question = questions[state.answers.length];
+      if (!question || question.kind !== "yesno" || !$("feedback").hidden) return;
+      const right = (said === "Yes") === question.yes;
+      finish(right ? "correct" : "wrong", said, right ? question.answers[0] : null);
+    }));
+    $("change-player").addEventListener("click", (event) => { event.preventDefault(); askName(() => show(M.startScreen)); });
     $("other-form").addEventListener("submit", (event) => { event.preventDefault(); chooseName($("other-name").value); });
     drawPlayer();
     $("btn-next").addEventListener("click", nextStep);
@@ -467,7 +531,7 @@
     });
 
     // testing: ?test&scene=3 plays cutscene 3; ?test&scene=all plays all seven in a row
-    if (testMode && params.get("scene") && window.Cutscene) {
+    if (mode === "trivia" && testMode && params.get("scene") && window.Cutscene) {
       const wanted = params.get("scene") === "all" ? [1, 2, 3, 4, 5, 6, 7] : [Number(params.get("scene")) || 1];
       const playNext = () => {
         if (!wanted.length) return show("start");
@@ -480,8 +544,8 @@
     if (state.answers.length >= questions.length) showResults();
     else if (state.startedAt) showQuestion();   // refreshed mid-question: the clock kept running
     else {
-      if (state.answers.length) $("btn-play").textContent = "Resume game";
-      show("start");
+      if (state.answers.length) $(M.play).textContent = "Resume game";
+      show(M.startScreen);
     }
   }
 

@@ -244,6 +244,29 @@ def main():
                 })
 
     trades.sort(key=lambda t: (t["date"], t["id"]))
+
+    # A trade sent straight back on the same day (the exact same players, picks and FAAB) was not a
+    # real trade, so both halves are dropped everywhere. The owner asked for this on 2026-11-12.
+    def holdings(t):
+        return {s["manager"]: (tuple(s["receives_players"]),
+                               tuple(sorted((p["draft_year"], p["round"], p["original_team"]) for p in s["receives_picks"])),
+                               s["receives_faab"]) for s in t["sides"]}
+
+    undone = []
+    for i, a in enumerate(trades):
+        for b in trades[i + 1:]:
+            if b["date"] != a["date"] or len(a["managers"]) != 2 or set(b["managers"]) != set(a["managers"]):
+                continue
+            if any(t in undone for t in (a, b)):
+                continue
+            first, second = holdings(a), holdings(b)
+            m1, m2 = a["managers"]
+            if first[m1] == second[m2] and first[m2] == second[m1]:
+                undone += [a, b]
+    trades = [t for t in trades if t not in undone]
+    for t in undone[::2]:
+        got = "; ".join(f"{s['manager']} got {', '.join(s['receives_players']) or 'picks/FAAB only'}" for s in t["sides"])
+        print(f"  Not counted (undone the same day): {t['date']} {got}")
     managers = [{
         "id": m["id"], "name": m["name"],
         "sleeper_usernames": m["sleeper_usernames"],
