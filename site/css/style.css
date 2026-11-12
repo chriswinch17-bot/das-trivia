@@ -287,6 +287,21 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .center { text-align: center; }
 .center a, .other-mode { color: var(--orange); }
 
+.bonus.team { margin-top: 10px; background: linear-gradient(135deg, #0f3d3a, #1d2d6e); border-color: #2fbf9f; }
+.bonus.team small { color: #9ff0dc; }
+.team-hero { max-height: 260px; object-fit: cover; object-position: 30% 20%; border-color: #2fbf9f; }
+
+.clues { display: flex; flex-direction: column; gap: 6px; margin: 0 0 16px; }
+.clue { padding: 9px 12px; border-radius: 10px; background: #0d1220; border: 1px solid var(--card-edge); }
+.clue.new { border: 2px solid var(--orange); animation: pop .35s; }
+.clue.locked { border-style: dashed; background: transparent; }
+.clue-label { margin: 0; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); }
+.clue.new .clue-label { color: var(--orange); }
+.clue.locked .clue-label::before { content: "🔒 "; }
+.clue-text { margin: 3px 0 0; font-size: 16px; font-weight: 600; line-height: 1.35; }
+.guesses { justify-content: flex-start; margin-top: 4px; }
+.chip.wrong-guess { color: var(--red); border-color: var(--red); text-decoration: line-through; }
+
 .trade { margin: 0 0 16px; padding: 12px; border-radius: 14px; background: #0d1220; border: 1px solid var(--card-edge); }
 .trade-date { margin: 0 0 8px; font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); text-align: center; }
 .trade-who { margin: 0 0 6px; font-family: var(--head); font-size: 18px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--orange); }

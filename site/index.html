@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=32">
+  <link rel="stylesheet" href="css/style.css?v=33">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -80,6 +80,14 @@
           <em>Real trades, teams hidden. Was Papo in it?</em>
         </span>
       </a>
+      <a class="bonus team" id="to-team" href="?mode=team">
+        <img src="images/host.webp" alt="">
+        <span class="bonus-text">
+          <small>Bonus game · 2 a day</small>
+          <b>What team <i>am I?</i></b>
+          <em>5 clues, hardest first. Name the manager.</em>
+        </span>
+      </a>
       <p class="fine">Prototype scoring: 100 points for a correct answer plus a speed bonus.
         Rarity scoring arrives with the leaderboard.</p>
     </section>
@@ -97,6 +105,21 @@
       </ul>
       <button class="btn primary" id="btn-play-papo">Tip off</button>
       <p class="fine center"><a id="to-trivia" href="./">← Back to today's Das Trivia</a></p>
+    </section>
+
+    <!-- Bonus game start screen: What team am I? -->
+    <section class="screen card" id="screen-team-start" hidden>
+      <p class="eyebrow" id="team-date"></p>
+      <h1 class="papo-title">What team <i>am I?</i></h1>
+      <img class="papo-hero team-hero" src="images/host.webp" alt="EquipoGPT, the host">
+      <ul class="rules">
+        <li><b>2 mystery teams</b> a day. Name the manager</li>
+        <li><b>5 clues</b> each, from hardest to easiest</li>
+        <li><b>40 seconds</b> per clue. A wrong guess or the clock running out opens the next clue</li>
+        <li>Get it on clue 1 for <b>100 points</b>, then 80, 60, 40, 20</li>
+      </ul>
+      <button class="btn primary" id="btn-play-team">Tip off</button>
+      <p class="fine center"><a id="team-back" href="./">← Back to today's Das Trivia</a></p>
     </section>
 
     <!-- Name screen: asked once, after Tip off and before the first question -->
@@ -123,6 +146,7 @@
       <h2 class="question" id="q-text"></h2>
 
       <div class="trade" id="trade" hidden></div>
+      <div class="clues" id="clues" hidden></div>
       <div class="yesno" id="yesno" hidden>
         <button class="btn yes" id="btn-yes" type="button">Yes</button>
         <button class="btn no" id="btn-no" type="button">No</button>
@@ -189,9 +213,9 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=32"></script>
-  <script src="js/effects.js?v=32"></script>
-  <script src="js/cutscene.js?v=32"></script>
-  <script src="js/game.js?v=32"></script>
+  <script src="js/config.js?v=33"></script>
+  <script src="js/effects.js?v=33"></script>
+  <script src="js/cutscene.js?v=33"></script>
+  <script src="js/game.js?v=33"></script>
 </body>
 </html>

@@ -4,7 +4,6 @@
 (() => {
   "use strict";
 
-  const SECONDS = 25;
   const BASE_POINTS = 100;        // prototype scoring; replaced by rarity scoring later
   const SPEED_BONUS_PER_SECOND = 2;
   const CLOSE_NUMBER_RANGE = 2;   // number questions: this near the answer counts as "close"
@@ -18,10 +17,12 @@
 
   // Each game mode has its own question file, saved progress and leaderboard.
   // Papo Trade or NOT scores are stored as game number 50000 + its day number, so the two never mix.
-  const mode = params.get("mode") === "papo" ? "papo" : "trivia";
+  // What team am I? scores use 60000 + day.
+  const mode = ["papo", "team"].includes(params.get("mode")) ? params.get("mode") : "trivia";
   const MODES = {
-    trivia: { file: "data/game.json", key: "game", board: 0, startScreen: "start", play: "btn-play", label: "Game" },
-    papo: { file: "data/papo.json", key: "papo", board: 50000, startScreen: "papo-start", play: "btn-play-papo", label: "Papo Trade or NOT" },
+    trivia: { file: "data/game.json", key: "game", board: 0, startScreen: "start", play: "btn-play", label: "Game", tag: "Game", icon: "🏀", seconds: 25 },
+    papo: { file: "data/papo.json", key: "papo", board: 50000, startScreen: "papo-start", play: "btn-play-papo", label: "Papo Trade or NOT", tag: "Papo", icon: "🔄", seconds: 25 },
+    team: { file: "data/team.json", key: "team", board: 60000, startScreen: "team-start", play: "btn-play-team", label: "What team am I?", tag: "Team", icon: "🕵️", seconds: 40 },
   };
   const M = MODES[mode];
   const keepTest = (address) => (testMode ? address + (address.includes("?") ? "&" : "?") + "test" : address);
@@ -144,6 +145,9 @@
     const index = state.answers.length;
     if (index >= questions.length) return showResults();
     const question = questions[index];
+    stopSong();
+    const clueMode = question.kind === "clues";
+    if (clueMode && !state.startedAt) { state.clue = 0; state.guesses = []; }
 
     show("question");
     const card = $("screen-question");
@@ -154,13 +158,18 @@
     $("yesno").hidden = !yesno;
     $("trade").hidden = !yesno;
     if (yesno) drawTrade(question);
-    $("q-count").textContent = `Question ${index + 1} of ${questions.length}`;
+    $("clues").hidden = !clueMode;
+    if (clueMode) drawClues(question);
+    $("q-count").textContent = clueMode
+      ? `Team ${index + 1} of ${questions.length} · worth ${question.points[state.clue]} points`
+      : `Question ${index + 1} of ${questions.length}`;
     $("q-text").textContent = question.text;
     drawProgress(index);
 
     const input = $("answer");
     input.value = "";
     input.inputMode = question.kind === "number" ? "numeric" : "text";
+    input.placeholder = clueMode ? "Type a manager or team name" : "Type your answer";
     if (!yesno) input.focus();
 
     // The clock keeps running through a page refresh.
@@ -168,11 +177,15 @@
     const timer = document.querySelector(".timer");
     timer.classList.remove("stopped");
     const tick = () => {
-      const left = SECONDS - (Date.now() - state.startedAt) / 1000;
-      $("timer-fill").style.transform = `scaleX(${Math.max(0, left / SECONDS)})`;
+      const left = M.seconds - (Date.now() - state.startedAt) / 1000;
+      $("timer-fill").style.transform = `scaleX(${Math.max(0, left / M.seconds)})`;
       $("timer-num").textContent = Math.max(0, Math.ceil(left));
       timer.classList.toggle("low", left <= 5);
-      if (left <= 0) finish("timeout", "", null);
+      if (left <= 0) {
+        // What team am I?: running out of time on a clue just reveals the next one
+        if (clueMode && state.clue < question.clues.length - 1) return nextClue(null);
+        finish("timeout", "", null);
+      }
     };
     clearInterval(timerId);
     timerId = setInterval(tick, 100);
@@ -212,6 +225,70 @@
     });
   }
 
+  // What team am I?: the clue ladder. Revealed clues stay on screen; the rest show a lock.
+  function drawClues(question) {
+    const box = $("clues");
+    box.replaceChildren();
+    question.clues.forEach((text, i) => {
+      const card = document.createElement("div");
+      const open = i <= state.clue;
+      card.className = "clue" + (open ? "" : " locked") + (i === state.clue ? " new" : "");
+      const label = document.createElement("p");
+      label.className = "clue-label";
+      label.textContent = `Clue ${i + 1}` + (i === 0 ? " · hardest" : i === question.clues.length - 1 ? " · easiest" : "")
+        + ` · ${question.points[i]} pts`;
+      card.append(label);
+      if (open) {
+        const body = document.createElement("p");
+        body.className = "clue-text";
+        body.textContent = text;
+        card.append(body);
+      }
+      box.append(card);
+    });
+    if (state.guesses && state.guesses.length) {
+      const tried = document.createElement("div");
+      tried.className = "chips guesses";
+      state.guesses.forEach((g) => {
+        const chip = document.createElement("span");
+        chip.className = "chip wrong-guess";
+        chip.textContent = g || "Time ran out";
+        tried.append(chip);
+      });
+      box.append(tried);
+    }
+  }
+
+  // A wrong guess (or the clock running out) on a clue that isn't the last: open the next clue.
+  function nextClue(guess) {
+    clearInterval(timerId);
+    state.guesses = [...(state.guesses || []), guess];
+    state.clue += 1;
+    state.startedAt = Date.now();
+    saveState();
+    showQuestion();
+    const input = $("answer");
+    input.classList.remove("nudge"); void input.offsetWidth; input.classList.add("nudge");
+    $("clues").querySelector(".clue.new").scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  // What team am I?: the song for a correct guess (effects.js teamReveal). Stops on Next.
+  let song = null;
+  function playSong(setting) {
+    stopSong();
+    if (!setting) return;
+    const file = typeof setting === "string" ? setting : setting.file;
+    if (!file) return;
+    try {
+      song = new Audio(file);
+      if (setting.start) song.currentTime = setting.start;
+      song.play().catch(() => {});
+    } catch (e) { /* the song is optional */ }
+  }
+  function stopSong() {
+    if (song) { song.pause(); song = null; }
+  }
+
   // After a correct answer, play the cutscene for the step just reached, then carry on.
   function nextStep() {
     const last = state.answers[state.answers.length - 1];
@@ -225,8 +302,8 @@
     clearInterval(timerId);
     const index = state.answers.length;
     const question = questions[index];
-    const secondsLeft = Math.max(0, SECONDS - (Date.now() - state.startedAt) / 1000);
-    const full = BASE_POINTS + Math.round(secondsLeft * SPEED_BONUS_PER_SECOND);
+    const secondsLeft = Math.max(0, M.seconds - (Date.now() - state.startedAt) / 1000);
+    const full = question.kind === "clues" ? question.points[state.clue] : BASE_POINTS + Math.round(secondsLeft * SPEED_BONUS_PER_SECOND);
     const points = result === "correct" ? full : result === "close" ? Math.round(full * CLOSE_SHARE) : 0;
 
     // the question is saved with the answer, so the recap stays right even if the question list changes later
@@ -235,6 +312,7 @@
       matched: answer ? answer.display : null,
       question: question.recap || question.text,
       answer: question.answers.length === 1 ? question.answers[0].display : null,
+      clue: question.kind === "clues" ? state.clue + 1 : undefined,
     });
     state.startedAt = null;
     saveState();
@@ -250,7 +328,12 @@
       question.answers.length === 1 && question.answers[0].manager,
       ...(question.about || []),
     ].filter((id) => id && gallery[id] && gallery[id].length);
-    const image = involved.length ? pick(gallery[involved[0]]) : pick(fx.image);
+    // What team am I?: a guessed team can have its own picture and song (effects.js teamReveal)
+    const reveal = question.kind === "clues" && result === "correct"
+      ? ((window.EFFECTS || {}).teamReveal || {})[question.answers[0].manager] : null;
+    const image = reveal && reveal.image ? pick(reveal.image)
+      : involved.length ? pick(gallery[involved[0]]) : pick(fx.image);
+    if (reveal && reveal.song) playSong(reveal.song);
     // swap in a fresh picture element so the previous question's picture can never linger
     const fresh = document.createElement("img");
     fresh.id = "fx-image"; fresh.className = "fx-image"; fresh.alt = ""; fresh.hidden = true;
@@ -259,7 +342,7 @@
       fresh.onload = () => { fresh.hidden = false; };
       fresh.src = image;
     }
-    const sound = pick(fx.sound);
+    const sound = reveal && reveal.song ? null : pick(fx.sound);
     if (sound) { try { new Audio(sound).play().catch(() => {}); } catch (e) { /* sound is optional */ } }
 
     const card = $("screen-question");
@@ -309,19 +392,25 @@
     $("yesno").hidden = true;
     $("feedback").hidden = false;
     // the trade stays on screen above the answer, so bring the answer into view on phones
-    if (question.kind === "yesno") $("feedback").scrollIntoView({ behavior: "smooth", block: "start" });
+    if (question.kind === "yesno" || question.kind === "clues") $("feedback").scrollIntoView({ behavior: "smooth", block: "start" });
     $("btn-next").focus();
   }
 
-  // What gets pasted into the group chat: title, seven green/red boxes, then the score.
+  // The boxes for the share text and leaderboard. What team am I? also says which clue cracked it.
+  function marks() {
+    if (mode === "team") return state.answers.map((a) => (a.result === "correct" ? `🟩 clue ${a.clue}` : "🟥")).join("  ");
+    return state.answers.map((a) => (a.result === "correct" ? "🟩" : a.result === "close" ? "🟧" : "🟥")).join("");
+  }
+
+  // What gets pasted into the group chat: title, the boxes, then the score.
   function shareText() {
     const score = state.answers.reduce((sum, a) => sum + a.points, 0);
     const lines = [
-      `${mode === "papo" ? "🔄" : "🏀"} ${game.title} #${gameNumber}`,
-      state.answers.map((a) => (a.result === "correct" ? "🟩" : a.result === "close" ? "🟧" : "🟥")).join(""),
+      `${M.icon} ${game.title} #${gameNumber}`,
+      marks(),
       `Score: ${score}`,
     ];
-    if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) lines.push(location.origin + location.pathname + (mode === "papo" ? "?mode=papo" : ""));
+    if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) lines.push(location.origin + location.pathname + (mode === "trivia" ? "" : `?mode=${mode}`));
     return lines.join("\n");
   }
 
@@ -389,7 +478,7 @@
 
   // Sends this player's score once, then shows everyone's scores for today's game.
   async function showLeaderboard(score, right) {
-    const boxes = state.answers.map((a) => (a.result === "correct" ? "🟩" : a.result === "close" ? "🟧" : "🟥")).join("");
+    const boxes = marks();
     const mine = { player: getPlayer() || "You", score, correct: right, boxes };
     const list = $("leaders"), status = $("leaders-status");
     $("leaders-title").hidden = list.hidden = !boardOn;
@@ -432,13 +521,14 @@
   }
 
   function showResults() {
+    stopSong();
     show("results");
     const score = state.answers.reduce((sum, a) => sum + a.points, 0);
     const right = state.answers.filter((a) => a.result === "correct").length;
     $("final-score").textContent = score;
     $("final-sub").textContent = `${right} of ${questions.length} correct · ${M.label} #${gameNumber}`;
-    $("other-mode").href = keepTest(mode === "papo" ? "./" : "?mode=papo");
-    $("other-mode").textContent = mode === "papo" ? "Play today's Das Trivia" : "Play today's Papo Trade or NOT";
+    $("other-mode").href = keepTest(mode === "trivia" ? "?mode=papo" : "./");
+    $("other-mode").textContent = mode === "trivia" ? "Play today's Papo Trade or NOT" : "Play today's Das Trivia";
 
     const grid = $("final-grid");
     grid.replaceChildren();
@@ -454,7 +544,7 @@
       const pts = document.createElement("span"); pts.className = "rp"; pts.textContent = a.points ? `+${a.points}` : "0";
       const q = document.createElement("div"); q.className = "rq"; q.textContent = a.question || questions[i].text;
       const r = document.createElement("div"); r.className = "ra";
-      r.textContent = a.result === "correct" ? `✓ ${a.matched}`
+      r.textContent = a.result === "correct" ? `✓ ${a.matched}` + (a.clue ? ` · on clue ${a.clue}` : "")
         : a.result === "close" ? `≈ Close! You said "${a.typed}"`
         : a.result === "wrong" ? `✗ You said "${a.typed}"` : "Ran out of time";
       if (a.result !== "correct" && a.answer) r.textContent += ` · Answer: ${a.answer}`;
@@ -523,15 +613,18 @@
     known = new Set((game.entities || []).map(normalize));
     state = loadState();
 
-    $("game-tag").textContent = `${mode === "papo" ? "Papo" : "Game"} #${gameNumber}` + (testMode ? " · test" : "");
+    $("game-tag").textContent = `${M.tag} #${gameNumber}` + (testMode ? " · test" : "");
     const dateText = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
-    $("start-date").textContent = $("papo-date").textContent = dateText;
-    if (mode === "papo") document.title = "Papo Trade or NOT · Das Trivia";
+    $("start-date").textContent = $("papo-date").textContent = $("team-date").textContent = dateText;
+    if (mode !== "trivia") document.title = `${M.label} · Das Trivia`;
+    $("to-team").href = keepTest("?mode=team");
+    $("team-back").href = keepTest("./");
     $("to-papo").href = keepTest("?mode=papo");
     $("to-trivia").href = keepTest("./");
 
     $("btn-play").addEventListener("click", tipOff);
     $("btn-play-papo").addEventListener("click", tipOff);
+    $("btn-play-team").addEventListener("click", tipOff);
     [["btn-yes", "Yes"], ["btn-no", "No"]].forEach(([id, said]) => $(id).addEventListener("click", () => {
       const question = questions[state.answers.length];
       if (!question || question.kind !== "yesno" || !$("feedback").hidden) return;
@@ -560,6 +653,7 @@
       }
       const answer = findAnswer(questions[state.answers.length], typed);
       const question = questions[state.answers.length];
+      if (question.kind === "clues" && !answer && state.clue < question.clues.length - 1) return nextClue(typed);
       finish(answer ? "correct" : isCloseNumber(question, typed) ? "close" : "wrong", typed, answer);
     });
 

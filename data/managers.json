@@ -2,7 +2,7 @@
   "_note": "Real names supplied by the league owner. 'sleeper_usernames' links each person to their Sleeper account(s). Add nicknames to 'aliases' so players can type them as answers.",
   "managers": [
     {"id": "winch", "name": "Winch", "sleeper_usernames": ["ElWinchenzo"], "aliases": ["Winchenzo", "Equipo", "Chris"]},
-    {"id": "libguel", "name": "Libguel", "sleeper_usernames": ["miguelhern99"], "aliases": ["Miguel", "Mig", "Migue"]},
+    {"id": "libguel", "name": "Libguel", "sleeper_usernames": ["miguelhern99"], "aliases": ["Miguel", "Mig", "Migue", "Mich"]},
     {"id": "joey", "name": "Joey", "sleeper_usernames": ["hughjasnuts"], "aliases": ["Joe", "Doctor", "Joseph"]},
     {"id": "ricky", "name": "Ricky", "sleeper_usernames": ["MoonUnit11"], "aliases": ["Rick", "De Aguiar"]},
     {"id": "victor", "name": "Victor", "sleeper_usernames": ["victorprieto"], "aliases": ["Vic", "Prieto"]},

@@ -1,0 +1,1814 @@
+{
+ "title": "What team am I?",
+ "start_date": "2026-11-12",
+ "days": [
+  [
+   {
+    "id": "team-joey-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Aleksej Pokuševski in round 17 (pick 197 overall).",
+     "On July 14, 2026, I traded for Labaron Philon Jr.",
+     "In the 2026 rookie draft, I picked Allen Graves (24th overall).",
+     "Through 2025-2026, my regular-season record is 21-33, with 2 playoff trips.",
+     "My team name today looks like this: \"F____’_ A___________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey",
+      "detail": "Through 2025-2026, Joey is 21-33 in the regular season with 2 playoff trips, 0 titles and 34 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-blandon-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Miles Bridges in round 9 (pick 102 overall).",
+     "On February 24, 2026, I traded for Ryan Kalkbrenner.",
+     "In the 2025 rookie draft, I picked Drake Powell (35th overall).",
+     "Through 2025-2026, my regular-season record is 30-25, with 2 playoff trips.",
+     "My team name today looks like this: \"R____ B___\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips, 1 title and 28 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "blandon"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-ricky-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took De'Andre Hunter in round 16 (pick 190 overall).",
+     "On July 20, 2026, I traded for Cade Cunningham.",
+     "In the 2025 rookie draft, I picked Micah Peavy (31st overall).",
+     "Through 2025-2026, my regular-season record is 14-41, with 0 playoff trips.",
+     "My team name today looks like this: \"M_______ 🦬\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky",
+      "detail": "Through 2025-2026, Ricky is 14-41 in the regular season with 0 playoff trips, 0 titles and 10 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-libguel-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Immanuel Quickley in round 13 (pick 149 overall).",
+     "On July 23, 2024, I traded for Devin Vassell.",
+     "In the 2025 rookie draft, I picked VJ Edgecombe (3rd overall).",
+     "Through 2025-2026, my regular-season record is 29-26, with 1 playoff trip.",
+     "My team name today looks like this: \"L__ C________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel",
+      "detail": "Through 2025-2026, Libguel is 29-26 in the regular season with 1 playoff trip, 1 title and 22 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-chalela-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Dariq Whitehead in round 16 (pick 184 overall).",
+     "On July 2, 2025, I traded for Max Christie.",
+     "In the 2024 rookie draft, I picked Terrence Shannon Jr. (30th overall).",
+     "Through 2025-2026, my regular-season record is 34-21, with 2 playoff trips.",
+     "My team name today looks like this: \"L_____ & A_________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela",
+      "detail": "Through 2025-2026, Chalela is 34-21 in the regular season with 2 playoff trips, 0 titles and 11 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-victor-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Tre Mann in round 18 (pick 216 overall).",
+     "On October 10, 2025, I traded for Kobe Bufkin.",
+     "In the 2025 rookie draft, I picked Joan Beringer (20th overall).",
+     "Through 2025-2026, my regular-season record is 29-26, with 2 playoff trips.",
+     "My team name today looks like this: \"I L___ D_____\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor",
+      "detail": "Through 2025-2026, Victor is 29-26 in the regular season with 2 playoff trips, 0 titles and 6 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-papo-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Malik Monk in round 15 (pick 178 overall).",
+     "On February 10, 2025, I traded for Anthony Davis.",
+     "In the 2024 rookie draft, I picked Donovan Clingan (5th overall).",
+     "Through 2025-2026, my regular-season record is 31-24, with 2 playoff trips.",
+     "My team name today looks like this: \"F___ t__ B___\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips, 0 titles and 114 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-shueiro-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Isaiah Stewart in round 13 (pick 146 overall).",
+     "On July 12, 2025, I traded for Walter Clayton Jr.",
+     "In the 2026 rookie draft, I picked Hannes Steinbach (13th overall).",
+     "Through 2025-2026, my regular-season record is 25-29, with 1 playoff trip.",
+     "My team name today looks like this: \"2___ C_____\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro",
+      "detail": "Through 2025-2026, Shueiro is 25-29 in the regular season with 1 playoff trip, 0 titles and 23 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-winch-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Kevin Porter Jr. in round 16 (pick 183 overall).",
+     "On February 26, 2026, I traded for Pelle Larsson.",
+     "In the 2025 rookie draft, I picked Nolan Traore (21st overall).",
+     "Through 2025-2026, my regular-season record is 39-16, with 3 playoff trips.",
+     "My team name today looks like this: \"E_____ W________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch",
+      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips, 0 titles and 33 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-melo-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Robert Williams III in round 13 (pick 151 overall).",
+     "On January 14, 2025, I traded for Nikola Topić.",
+     "In the 2024 rookie draft, I picked Tristan da Silva (26th overall).",
+     "Through 2025-2026, my regular-season record is 35-20, with 3 playoff trips.",
+     "My team name today looks like this: \"L_____ J____\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo",
+      "detail": "Through 2025-2026, Melo is 35-20 in the regular season with 3 playoff trips, 1 title and 21 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-jacobo-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Deni Avdija in round 12 (pick 141 overall).",
+     "On July 5, 2024, I traded for De'Anthony Melton.",
+     "In the 2025 rookie draft, I picked Adou Thiero (27th overall).",
+     "Through 2025-2026, my regular-season record is 18-37, with 0 playoff trips.",
+     "My team name today looks like this: \"h________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips, 0 titles and 60 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-verdeja-1",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Grant Williams in round 15 (pick 176 overall).",
+     "On April 27, 2025, I traded for Cam Whitmore.",
+     "In the 2025 rookie draft, I picked Johni Broome (23rd overall).",
+     "Through 2025-2026, my regular-season record is 24-31, with 0 playoff trips.",
+     "My team name today looks like this: \"A______________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 1)",
+    "answers": [
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "manager": "verdeja",
+      "detail": "Through 2025-2026, Verdeja is 24-31 in the regular season with 0 playoff trips, 0 titles and 16 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-chalela-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Josh Hart in round 14 (pick 160 overall).",
+     "On February 3, 2026, I traded for Neemias Queta.",
+     "In the 2025 rookie draft, I picked Duop Reath (30th overall).",
+     "My best regular season was 13-4 in 2024-2025, 2nd of 12.",
+     "My team name today looks like this: \"L_____ & A_________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela",
+      "detail": "Through 2025-2026, Chalela is 34-21 in the regular season with 2 playoff trips, 0 titles and 11 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-shueiro-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Dyson Daniels in round 14 (pick 167 overall).",
+     "On December 28, 2023, I traded for Anthony Black.",
+     "In the 2024 rookie draft, I picked Isaiah Collier (19th overall).",
+     "My best regular season was 13-7 in 2025-2026, 3rd of 12.",
+     "My team name today looks like this: \"2___ C_____\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro",
+      "detail": "Through 2025-2026, Shueiro is 25-29 in the regular season with 1 playoff trip, 0 titles and 23 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-papo-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Clint Capela in round 9 (pick 107 overall).",
+     "On April 2, 2025, I traded for Joel Embiid.",
+     "In the 2024 rookie draft, I picked Kel'el Ware (12th overall).",
+     "My best regular season was 15-5 in 2025-2026, 2nd of 12.",
+     "My team name today looks like this: \"F___ t__ B___\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips, 0 titles and 114 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-ricky-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Cameron Johnson in round 8 (pick 94 overall).",
+     "On July 20, 2026, I traded for Hannes Steinbach.",
+     "In the 2026 rookie draft, I picked Baba Miller (36th overall).",
+     "My best regular season was 7-13 in 2025-2026, 9th of 12.",
+     "My team name today looks like this: \"M_______ 🦬\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky",
+      "detail": "Through 2025-2026, Ricky is 14-41 in the regular season with 0 playoff trips, 0 titles and 10 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-melo-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Noah Clowney in round 18 (pick 210 overall).",
+     "On April 15, 2026, I traded for Julius Randle.",
+     "In the 2024 rookie draft, I picked Ja'Kobe Walter (23rd overall).",
+     "My best regular season was 12-6 in 2023-2024, 2nd of 12.",
+     "My team name today looks like this: \"L_____ J____\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo",
+      "detail": "Through 2025-2026, Melo is 35-20 in the regular season with 3 playoff trips, 1 title and 21 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-winch-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Kris Murray in round 17 (pick 202 overall).",
+     "On July 21, 2024, I traded for Marvin Bagley III.",
+     "In the 2025 rookie draft, I picked Nolan Traore (21st overall).",
+     "My best regular season was 15-3 in 2023-2024, 1st of 12.",
+     "My team name today looks like this: \"E_____ W________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch",
+      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips, 0 titles and 33 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-victor-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Cason Wallace in round 13 (pick 145 overall).",
+     "On February 10, 2025, I traded for Draymond Green.",
+     "In the 2024 rookie draft, I picked Tyler Smith (31st overall).",
+     "My best regular season was 11-6 in 2024-2025, 5th of 12.",
+     "My team name today looks like this: \"I L___ D_____\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor",
+      "detail": "Through 2025-2026, Victor is 29-26 in the regular season with 2 playoff trips, 0 titles and 6 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-jacobo-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Saddiq Bey in round 11 (pick 124 overall).",
+     "On November 1, 2024, I traded for Jamal Shead.",
+     "In the 2025 rookie draft, I picked Kon Knueppel (7th overall).",
+     "My best regular season was 8-10 in 2023-2024, 9th of 12.",
+     "My team name today looks like this: \"h________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips, 0 titles and 60 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-libguel-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Anthony Black in round 10 (pick 109 overall).",
+     "On January 17, 2024, I traded for Leonard Miller.",
+     "In the 2026 rookie draft, I picked Brayden Burries (12th overall).",
+     "My best regular season was 18-2 in 2025-2026, 1st of 12.",
+     "My team name today looks like this: \"L__ C________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel",
+      "detail": "Through 2025-2026, Libguel is 29-26 in the regular season with 1 playoff trip, 1 title and 22 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-blandon-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Cole Anthony in round 15 (pick 174 overall).",
+     "On January 30, 2024, I traded for Tari Eason.",
+     "In the 2026 rookie draft, I picked Cameron Boozer (1st overall).",
+     "My best regular season was 13-4 in 2024-2025, 3rd of 12.",
+     "My team name today looks like this: \"R____ B___\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips, 1 title and 28 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "blandon"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-joey-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Terance Mann in round 16 (pick 181 overall).",
+     "On January 6, 2026, I traded for Jeremiah Fears.",
+     "In the 2025 rookie draft, I picked Noa Essengue (18th overall).",
+     "My best regular season was 11-6 in 2023-2024, 4th of 12.",
+     "My team name today looks like this: \"F____’_ A___________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey",
+      "detail": "Through 2025-2026, Joey is 21-33 in the regular season with 2 playoff trips, 0 titles and 34 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-verdeja-2",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Bruce Brown in round 12 (pick 137 overall).",
+     "On January 17, 2025, I traded for Jalen Duren.",
+     "In the 2024 rookie draft, I picked Jonathan Mogbo (29th overall).",
+     "My best regular season was 10-10 in 2025-2026, 7th of 12.",
+     "My team name today looks like this: \"A______________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 2)",
+    "answers": [
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "manager": "verdeja",
+      "detail": "Through 2025-2026, Verdeja is 24-31 in the regular season with 0 playoff trips, 0 titles and 16 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-papo-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took James Nnaji in round 17 (pick 203 overall).",
+     "On July 14, 2026, I traded for Zuby Ejiofor.",
+     "In the 2025 rookie draft, I picked Jeremiah Fears (9th overall).",
+     "I've made 114 trades in Das League.",
+     "My team name today looks like this: \"F___ t__ B___\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips, 0 titles and 114 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-jacobo-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Quentin Grimes in round 16 (pick 189 overall).",
+     "On April 6, 2025, I traded for Toumani Camara.",
+     "In the 2026 rookie draft, I picked Ryan Conwell (27th overall).",
+     "I've made 60 trades in Das League.",
+     "My team name today looks like this: \"h________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips, 0 titles and 60 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-shueiro-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Jalen Suggs in round 16 (pick 191 overall).",
+     "On July 23, 2024, I traded for Brandin Podziemski.",
+     "In the 2024 rookie draft, I picked Cody Williams (10th overall).",
+     "I've made 23 trades in Das League.",
+     "My team name today looks like this: \"2___ C_____\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro",
+      "detail": "Through 2025-2026, Shueiro is 25-29 in the regular season with 1 playoff trip, 0 titles and 23 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-joey-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Jordan Miller in round 18 (pick 212 overall).",
+     "On January 6, 2024, I traded for Collin Sexton.",
+     "In the 2025 rookie draft, I picked Derik Queen (15th overall).",
+     "I've made 34 trades in Das League.",
+     "My team name today looks like this: \"F____’_ A___________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey",
+      "detail": "Through 2025-2026, Joey is 21-33 in the regular season with 2 playoff trips, 0 titles and 34 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-chalela-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Jett Howard in round 15 (pick 177 overall).",
+     "On February 6, 2024, I traded for Scotty Pippen Jr.",
+     "In the 2024 rookie draft, I picked Bobi Klintman (33rd overall).",
+     "I've made 11 trades in Das League.",
+     "My team name today looks like this: \"L_____ & A_________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela",
+      "detail": "Through 2025-2026, Chalela is 34-21 in the regular season with 2 playoff trips, 0 titles and 11 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-melo-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Michael Porter Jr. in round 8 (pick 90 overall).",
+     "On February 3, 2024, I traded for Zach LaVine.",
+     "In the 2026 rookie draft, I picked Nate Ament (11th overall).",
+     "I've made 21 trades in Das League.",
+     "My team name today looks like this: \"L_____ J____\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo",
+      "detail": "Through 2025-2026, Melo is 35-20 in the regular season with 3 playoff trips, 1 title and 21 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-verdeja-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Markelle Fultz in round 10 (pick 113 overall).",
+     "On February 2, 2026, I traded for Nickeil Alexander-Walker.",
+     "In the 2025 rookie draft, I picked Koby Brea (36th overall).",
+     "I've made 16 trades in Das League.",
+     "My team name today looks like this: \"A______________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "manager": "verdeja",
+      "detail": "Through 2025-2026, Verdeja is 24-31 in the regular season with 0 playoff trips, 0 titles and 16 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-ricky-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Christian Braun in round 15 (pick 171 overall).",
+     "On May 15, 2025, I traded for Mark Williams.",
+     "In the 2024 rookie draft, I picked Justin Edwards (34th overall).",
+     "I've made 10 trades in Das League.",
+     "My team name today looks like this: \"M_______ 🦬\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky",
+      "detail": "Through 2025-2026, Ricky is 14-41 in the regular season with 0 playoff trips, 0 titles and 10 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-winch-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Kelly Oubre Jr. in round 13 (pick 154 overall).",
+     "On October 10, 2025, I traded for GG Jackson.",
+     "In the 2025 rookie draft, I picked Nolan Traore (21st overall).",
+     "I've made 33 trades in Das League.",
+     "My team name today looks like this: \"E_____ W________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch",
+      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips, 0 titles and 33 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-libguel-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Kobe Bufkin in round 15 (pick 180 overall).",
+     "On July 23, 2024, I traded for Darius Garland.",
+     "In the 2024 rookie draft, I picked Bub Carrington (15th overall).",
+     "I've made 22 trades in Das League.",
+     "My team name today looks like this: \"L__ C________\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel",
+      "detail": "Through 2025-2026, Libguel is 29-26 in the regular season with 1 playoff trip, 1 title and 22 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "team-victor-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Dereck Lively II in round 10 (pick 120 overall).",
+     "On October 4, 2024, I traded for Jonas Valančiūnas.",
+     "In the 2026 rookie draft, I picked Karim Lopez (29th overall).",
+     "I've made 6 trades in Das League.",
+     "My team name today looks like this: \"I L___ D_____\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor",
+      "detail": "Through 2025-2026, Victor is 29-26 in the regular season with 2 playoff trips, 0 titles and 6 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   },
+   {
+    "id": "team-blandon-3",
+    "text": "What team am I?",
+    "kind": "clues",
+    "clues": [
+     "In the 2023 startup draft, I took Collin Sexton in round 14 (pick 163 overall).",
+     "On July 22, 2024, I traded for Jaime Jaquez Jr.",
+     "In the 2026 rookie draft, I picked Christian Anderson (22nd overall).",
+     "I've made 28 trades in Das League.",
+     "My team name today looks like this: \"R____ B___\""
+    ],
+    "points": [
+     100,
+     80,
+     60,
+     40,
+     20
+    ],
+    "recap": "What team am I? (round 3)",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Through 2025-2026, Blandon is 30-25 in the regular season with 2 playoff trips, 1 title and 28 trades."
+     }
+    ],
+    "note": null,
+    "about": [
+     "blandon"
+    ],
+    "sources": [
+     "drafts.json",
+     "trades.json",
+     "seasons.json",
+     "managers.json"
+    ]
+   }
+  ]
+ ],
+ "players": [
+  {
+   "id": "winch",
+   "name": "Winch"
+  },
+  {
+   "id": "libguel",
+   "name": "Libguel"
+  },
+  {
+   "id": "joey",
+   "name": "Joey"
+  },
+  {
+   "id": "ricky",
+   "name": "Ricky"
+  },
+  {
+   "id": "victor",
+   "name": "Victor"
+  },
+  {
+   "id": "melo",
+   "name": "Melo"
+  },
+  {
+   "id": "shueiro",
+   "name": "Shueiro"
+  },
+  {
+   "id": "jacobo",
+   "name": "Jacobo"
+  },
+  {
+   "id": "papo",
+   "name": "Papo"
+  },
+  {
+   "id": "chalela",
+   "name": "Chalela"
+  },
+  {
+   "id": "blandon",
+   "name": "Blandon"
+  },
+  {
+   "id": "verdeja",
+   "name": "Verdeja"
+  }
+ ],
+ "entities": [
+  "2057 Champs",
+  "Achalela",
+  "Andres",
+  "Antetokounmpers",
+  "BT",
+  "BT69",
+  "Blandon",
+  "Brandon",
+  "Chab",
+  "Chalela",
+  "Chris",
+  "Dan",
+  "Daniel",
+  "DasMelo",
+  "De Aguiar",
+  "Doctor",
+  "ElWinchenzo",
+  "Equipito PapoChullo",
+  "Equipo",
+  "Equipo Winchenzo",
+  "Equipo Winchenzo 2X",
+  "Fear the Brow",
+  "Fidel’s Accumulators",
+  "Francisco",
+  "Frank",
+  "I Love Dragić",
+  "Jacob",
+  "Jacobo",
+  "Jake",
+  "Joe",
+  "Joel Embong? 😓",
+  "Joey",
+  "Joseph",
+  "Kareem Abdul-Jabong",
+  "LeBong James",
+  "LeBong James 👑",
+  "Libguel",
+  "Lochte & Associates",
+  "Los Chigüires",
+  "Luka Deez Nuts",
+  "Melo",
+  "Mich",
+  "Michael",
+  "Mig",
+  "Migue",
+  "Miguel",
+  "Mike",
+  "MoonUnit",
+  "MoonUnit 🦬",
+  "MoonUnit11",
+  "Papo",
+  "Papochullo6969",
+  "Pedro",
+  "Prieto",
+  "Rabbi",
+  "Rabbi BT69",
+  "Rabbi Repeat BT69",
+  "RabbiBT69",
+  "Rick",
+  "Ricky",
+  "Saboners",
+  "Shueiro",
+  "Sueiro",
+  "Sway",
+  "The Edey and Matas Show",
+  "Verd",
+  "Verdeja",
+  "Verdy",
+  "Verdy11",
+  "Vic",
+  "Victor",
+  "Winch",
+  "Winchenzo",
+  "hotrelish",
+  "hughjasnuts",
+  "miguelhern99",
+  "msway21",
+  "papochullo7979",
+  "victorprieto"
+ ]
+}

@@ -106,6 +106,13 @@ The owner has essentially no coding or web development experience.
   Picks and FAAB count. `python scripts/build_papo.py` writes `site/data/papo.json` (2 or 3 Papo trades
   per day, trades over 10 items skipped, scheduled days kept). Game #1 was 2026-11-12. Its leaderboard
   rows use game number 50000 + day, so they never mix with the main game. No cutscene in this mode.
+- **What team am I?** (bonus mode, `?mode=team`): 2 mystery managers a day, 5 clues each from hardest
+  to easiest (late startup pick, a player they alone traded for, a rookie pick, a career line, the team
+  name with letters hidden). Typed answers; a wrong guess or the 40-second clock opens the next clue.
+  Points 100/80/60/40/20 by clue. `python scripts/build_team.py` writes `site/data/team.json` (3 rounds
+  of all 12 managers = 18 days; Game #1 opens with Joey, as the owner asked). Leaderboard game = 60000 + day.
+  A correct guess can show a picture and play a song per manager: `teamReveal` in `effects.js`
+  (Joey's picture: `site/images/team/joey.webp`; songs go in `site/sounds/`).
 - Trades undone the same day (the exact same assets sent straight back) are fake and are dropped in
   `build_data.py`, so they count nowhere (owner's rule, 2026-11-12). There were 5 such pairs.
 - Tapping **Share result** copies the score and then plays the owner's video full screen

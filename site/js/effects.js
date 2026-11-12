@@ -47,7 +47,17 @@ window.EFFECTS = {
     Put the file in site/videos/ as an .mp4. Set this to null to switch the video off.
     "modes" picks which games show it: "trivia" is Das Trivia, "papo" is Papo Trade or NOT.
   */
-  shareVideo: { file: "videos/share.mp4", modes: ["trivia", "papo"] },
+  shareVideo: { file: "videos/share.mp4", modes: ["trivia", "papo", "team"] },
+
+  /*
+    WHAT TEAM AM I? — picture and song when a mystery team is guessed right
+    Listed by manager. image: a picture in site/images/team/. song: an .mp3 in site/sounds/,
+    e.g. song: { file: "sounds/joey.mp3", start: 42 } starts it 42 seconds in.
+    The song stops when the player taps Next. Leave song as null for no song.
+  */
+  teamReveal: {
+    joey: { image: "images/team/joey.webp", song: null },
+  },
 
   managers: {
     victor: [
