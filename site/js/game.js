@@ -333,7 +333,10 @@
       ? ((window.EFFECTS || {}).teamReveal || {})[question.answers[0].manager] : null;
     const image = reveal && reveal.image ? pick(reveal.image)
       : involved.length ? pick(gallery[involved[0]]) : pick(fx.image);
-    if (reveal && reveal.song) playSong(reveal.song);
+    // a song tied to the picture (effects.js pictureSongs) plays wherever that picture shows up
+    const pictureSong = image && ((window.EFFECTS || {}).pictureSongs || {})[image];
+    const songToPlay = (reveal && reveal.song) || pictureSong;
+    if (songToPlay) playSong(songToPlay);
     // swap in a fresh picture element so the previous question's picture can never linger
     const fresh = document.createElement("img");
     fresh.id = "fx-image"; fresh.className = "fx-image"; fresh.alt = ""; fresh.hidden = true;
@@ -342,7 +345,7 @@
       fresh.onload = () => { fresh.hidden = false; };
       fresh.src = image;
     }
-    const sound = reveal && reveal.song ? null : pick(fx.sound);
+    const sound = songToPlay ? null : pick(fx.sound);
     if (sound) { try { new Audio(sound).play().catch(() => {}); } catch (e) { /* sound is optional */ } }
 
     const card = $("screen-question");

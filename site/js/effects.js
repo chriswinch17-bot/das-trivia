@@ -57,10 +57,21 @@ window.EFFECTS = {
   */
   teamReveal: {
     joey: { image: "images/team/joey.webp", song: "sounds/joey.mp3" },   // first 30 s of "Sprinter"
-    blandon: { image: "images/team/blandon.webp", song: null },        // waiting for the owner's picture
+    blandon: { image: "images/team/blandon.webp", song: "sounds/blandon.mp3" },   // first 30 s of "Hava Nagila"
+  },
+
+  /*
+    SONG WITH A PICTURE
+    Whenever one of these pictures pops up, in any game, its song plays (and stops on Next).
+  */
+  pictureSongs: {
+    "images/team/blandon.webp": "sounds/blandon.mp3",
   },
 
   managers: {
+    blandon: [
+      "images/team/blandon.webp",
+    ],
     victor: [
       "images/managers/victor/1.webp",
       "images/managers/victor/2.webp",

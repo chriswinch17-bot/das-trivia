@@ -112,6 +112,8 @@ The owner has essentially no coding or web development experience.
   Points 100/80/60/40/20 by clue. `python scripts/build_team.py` writes `site/data/team.json` (3 rounds
   of all 12 managers = 18 days; Game #1 opens with Joey, as the owner asked). Leaderboard game = 60000 + day.
   A correct guess can show a picture and play a song per manager: `teamReveal` in `effects.js`
+  Blandon: `site/images/team/blandon.webp` + `site/sounds/blandon.mp3` (Hava Nagila, first 30 s); his song plays
+  whenever that picture shows in ANY game (`pictureSongs` in `effects.js`).
   (Joey's picture: `site/images/team/joey.webp`, also in his main-game gallery; his song: `site/sounds/joey.mp3`,
   the first 30 s of the owner's MP3, cut with a frame-by-frame copy, no re-encoding). Songs go in `site/sounds/`.
 - **DAS GRIDS** (`?mode=grids`, `site/js/grids.js`): HoopGrids-style 3×3 grid of franchises; name a player
