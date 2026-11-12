@@ -114,6 +114,18 @@ The owner has essentially no coding or web development experience.
   A correct guess can show a picture and play a song per manager: `teamReveal` in `effects.js`
   (Joey's picture: `site/images/team/joey.webp`, also in his main-game gallery; his song: `site/sounds/joey.mp3`,
   the first 30 s of the owner's MP3, cut with a frame-by-frame copy, no re-encoding). Songs go in `site/sounds/`.
+- **DAS GRIDS** (`?mode=grids`, `site/js/grids.js`): HoopGrids-style 3×3 grid of franchises; name a player
+  rostered by both at any point. History (`scripts/grids_history.py`) = weekly lineups + every add
+  (free agent, waiver, trade, commissioner) and drop + draft picks + end-of-season rosters incl. taxi/IR,
+  by manager id; undone trades ignored; fixes in `data/grids_corrections.json`. `python scripts/build_grids.py`
+  writes `site/data/grids.json` (puzzles = teams only), `data/private/grids_setup.sql` (paste into Supabase
+  after every rebuild: hidden history + puzzles + functions `grid_guess`, `grid_rarity`, `grid_finish`) and
+  `admin/grids.html` (local admin page). The private files are gitignored. Answers are checked only by the
+  database; picks are hidden; `grid_results` is the public leaderboard (first finish locks the score).
+  Daily grid flips at 8 PM ET (D1 = 2026-11-12); 400 unlimited grids (U1...); custom daily grids in
+  `data/grids_custom.json`. Rarity = share of people picking that player for that square (HoopGrids tiers);
+  "Deep cut" = on both rosters for at most 1 weekly lineup combined (separate from rarity).
+  Tests: `python -m unittest discover tests`.
 - Trades undone the same day (the exact same assets sent straight back) are fake and are dropped in
   `build_data.py`, so they count nowhere (owner's rule, 2026-11-12). There were 5 such pairs.
 - Tapping **Share result** copies the score and then plays the owner's video full screen

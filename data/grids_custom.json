@@ -1,0 +1,4 @@
+{
+  "_note": "Pick the teams for a future daily DAS GRIDS yourself. Example: \"daily\": {\"10\": {\"rows\": [\"papo\", \"joey\", \"winch\"], \"cols\": [\"melo\", \"victor\", \"jacobo\"]}}. Manager ids: winch, libguel, joey, ricky, victor, melo, shueiro, jacobo, papo, chalela, blandon, verdeja. The build checks the grid can be solved.",
+  "daily": {}
+}

@@ -597,6 +597,7 @@
   /* ---------- start ---------- */
 
   async function start() {
+    if (params.get("mode") === "grids") return;   // DAS GRIDS runs from js/grids.js
     try {
       const response = await fetch(M.file, { cache: "no-cache" });
       if (!response.ok) throw new Error(`${M.file} returned ${response.status}`);

@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=35">
+  <link rel="stylesheet" href="css/style.css?v=36">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -88,6 +88,14 @@
           <em>5 clues, hardest first. Name the manager.</em>
         </span>
       </a>
+      <a class="bonus grids" id="to-grids" href="?mode=grids">
+        <span class="grids-thumb" aria-hidden="true"></span>
+        <span class="bonus-text">
+          <small>New · daily at 8 PM ET + unlimited</small>
+          <b>Das <i>Grids</i></b>
+          <em>Name a player who was on both teams. Rarest answers win.</em>
+        </span>
+      </a>
       <p class="fine">Prototype scoring: 100 points for a correct answer plus a speed bonus.
         Rarity scoring arrives with the leaderboard.</p>
     </section>
@@ -120,6 +128,49 @@
       </ul>
       <button class="btn primary" id="btn-play-team">Tip off</button>
       <p class="fine center"><a id="team-back" href="./">← Back to today's Das Trivia</a></p>
+    </section>
+
+    <!-- DAS GRIDS (js/grids.js) -->
+    <section class="screen grids" id="screen-grids" hidden>
+      <h1 class="grids-logo"><span class="sr-only">Das Grids</span></h1>
+      <nav class="grid-tabs">
+        <button type="button" class="tab" id="tab-daily">Daily</button>
+        <button type="button" class="tab" id="tab-unlimited">Unlimited</button>
+        <button type="button" class="tab" id="tab-archive">Archive</button>
+      </nav>
+      <div class="grid-archive" id="grid-archive" hidden><div id="grid-archive-list"></div></div>
+      <div class="grid-scorebar">
+        <div><small>Rarity score</small><b id="grid-score">0.00</b></div>
+        <div><small>Completed</small><b id="grid-progress">0/9</b></div>
+      </div>
+      <p class="fine grid-who">Playing as <b id="grid-player"></b> · <a href="#" id="grid-change-player">change</a></p>
+      <p class="fine grid-test" id="grid-test-note" hidden>Practice mode: your picks are checked but don't count toward anyone's rarity.</p>
+      <div class="grid-board" id="grid-board"></div>
+      <p class="fine grid-how">Tap a square and name an NBA player who was on <b>both</b> teams' rosters at any point
+        in Das League history: drafted, traded for, picked up, even for a few days. Each player once per grid.
+        Rarity is the share of league members who picked the same player for that square. Lower total wins.</p>
+
+      <div class="grid-results card" id="grid-results" hidden>
+        <p class="eyebrow" id="res-title"></p>
+        <p class="res-label">9/9 completed · Total rarity</p>
+        <div class="score" id="res-score">0.00</div>
+        <p class="fine" id="res-note"></p>
+        <div class="res-grid" id="res-grid"></div>
+        <div class="res-buttons">
+          <button class="btn primary" id="res-share" type="button">Share results</button>
+          <button class="btn ghost" id="res-copy" type="button">Copy results</button>
+          <button class="btn ghost" id="res-again" type="button">Play again</button>
+          <button class="btn ghost" id="res-board" type="button">View leaderboard</button>
+        </div>
+        <p class="fine" id="res-status"></p>
+      </div>
+
+      <div class="card grid-board-card">
+        <h3 id="grid-leaders-title">Leaderboard</h3>
+        <ol class="leaders grid-leaders" id="grid-leaders"></ol>
+        <p class="fine" id="grid-leaders-status"></p>
+      </div>
+      <p class="fine center"><a href="./">← Back to Das Trivia</a></p>
     </section>
 
     <!-- Name screen: asked once, after Tip off and before the first question -->
@@ -204,6 +255,20 @@
     </section>
   </main>
 
+  <!-- DAS GRIDS player search -->
+  <div class="grid-modal" id="grid-modal" hidden>
+    <div class="grid-modal-box" role="dialog" aria-modal="true" aria-labelledby="pick-teams">
+      <button class="pick-close" id="pick-close" type="button" aria-label="Close">×</button>
+      <p class="eyebrow">On both rosters</p>
+      <p class="pick-teams" id="pick-teams"></p>
+      <p class="fine" id="pick-current" hidden></p>
+      <input id="pick-input" type="text" placeholder="Search for a player" autocomplete="off" autocorrect="off"
+             autocapitalize="off" spellcheck="false" maxlength="40">
+      <p class="pick-error" id="pick-error" role="alert" hidden></p>
+      <div class="pick-list" id="pick-list"></div>
+    </div>
+  </div>
+
   <!-- Video that plays after Share result is tapped (set in js/effects.js) -->
   <div class="video-overlay" id="share-video" hidden>
     <div class="video-box">
@@ -213,9 +278,10 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=35"></script>
-  <script src="js/effects.js?v=35"></script>
-  <script src="js/cutscene.js?v=35"></script>
-  <script src="js/game.js?v=35"></script>
+  <script src="js/config.js?v=36"></script>
+  <script src="js/effects.js?v=36"></script>
+  <script src="js/cutscene.js?v=36"></script>
+  <script src="js/game.js?v=36"></script>
+  <script src="js/grids.js?v=36"></script>
 </body>
 </html>

@@ -1,0 +1,5 @@
+{
+  "_note": "Manual fixes to the DAS GRIDS roster history. Each entry: {\"manager\": \"joey\", \"player\": \"Exact Player Name\" or Sleeper id, \"season\": \"2024-2025\", \"note\": \"why\"}. 'add' puts a player on a franchise's history; 'remove' takes one off. Rebuild with python scripts/build_grids.py and paste the database file again.",
+  "add": [],
+  "remove": []
+}

@@ -47,7 +47,7 @@ window.EFFECTS = {
     Put the file in site/videos/ as an .mp4. Set this to null to switch the video off.
     "modes" picks which games show it: "trivia" is Das Trivia, "papo" is Papo Trade or NOT.
   */
-  shareVideo: { file: "videos/share.mp4", modes: ["trivia", "papo", "team"] },
+  shareVideo: { file: "videos/share.mp4", modes: ["trivia", "papo", "team", "grids"] },
 
   /*
     WHAT TEAM AM I? — picture and song when a mystery team is guessed right

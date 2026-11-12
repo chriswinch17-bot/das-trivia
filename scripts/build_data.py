@@ -264,6 +264,10 @@ def main():
             if first[m1] == second[m2] and first[m2] == second[m1]:
                 undone += [a, b]
     trades = [t for t in trades if t not in undone]
+    # DAS GRIDS reads the raw transactions too, so it needs to know which trades were undone
+    derived = ROOT / "data" / "derived"
+    derived.mkdir(exist_ok=True)
+    (derived / "undone_trades.json").write_text(json.dumps(sorted(t["id"] for t in undone), indent=1), encoding="utf-8")
     for t in undone[::2]:
         got = "; ".join(f"{s['manager']} got {', '.join(s['receives_players']) or 'picks/FAAB only'}" for s in t["sides"])
         print(f"  Not counted (undone the same day): {t['date']} {got}")

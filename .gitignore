@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .env
+# DAS GRIDS: answers and the admin page stay on this computer
+data/private/
+admin/
