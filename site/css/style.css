@@ -297,6 +297,16 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .btn.no { background: linear-gradient(180deg, #f26363, #c73636); color: #fff; }
 .other-mode { display: block; margin-top: 22px; text-decoration: none; text-align: center; }
 
+/* video after Share result */
+.video-overlay {
+  position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 16px;
+  background: rgba(5, 8, 18, .9);
+}
+.video-box { display: flex; flex-direction: column; align-items: center; gap: 10px; width: min(420px, 100%); }
+.video-box video { display: block; width: 100%; max-height: 74vh; object-fit: contain; border-radius: 14px; background: #000; border: 2px solid var(--orange); }
+.video-box .btn { width: 100%; margin-top: 0; }
+.video-box .video-sound { color: var(--text); border-color: var(--orange); }
+
 /* results */
 #screen-results { text-align: center; }
 .score { font-family: var(--head); font-size: 96px; font-weight: 800; line-height: 1; color: var(--orange); }

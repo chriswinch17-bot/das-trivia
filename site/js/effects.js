@@ -41,6 +41,14 @@ window.EFFECTS = {
     shown (picked at random) instead of the general image above. Put the files in
     site/images/managers/<name>/ and list them here.
   */
+  /*
+    VIDEO AFTER "SHARE RESULT"
+    Plays full screen right after a player taps Share result (their score is copied first).
+    Put the file in site/videos/ as an .mp4. Set this to null to switch the video off.
+    "modes" picks which games show it: "trivia" is Das Trivia, "papo" is Papo Trade or NOT.
+  */
+  shareVideo: { file: "videos/share.mp4", modes: ["trivia", "papo"] },
+
   managers: {
     victor: [
       "images/managers/victor/1.webp",

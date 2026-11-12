@@ -464,7 +464,33 @@
     showLeaderboard(score, right);
   }
 
+  // The video from effects.js, shown full screen after Share result is tapped.
+  function playShareVideo() {
+    const setting = (window.EFFECTS || {}).shareVideo;
+    if (!setting || !setting.file || !(setting.modes || ["trivia", "papo"]).includes(mode)) return;
+    const video = $("share-video-player");
+    if (video.getAttribute("src") !== setting.file) video.src = setting.file;
+    video.muted = false;
+    $("video-sound").hidden = true;
+    $("share-video").hidden = false;
+    try { video.currentTime = 0; } catch (e) { /* not loaded yet: it starts at 0 anyway */ }
+    // Phones only allow sound right after a tap; if they still refuse, play muted with a "Tap for sound" button.
+    const started = video.play();
+    if (started) {
+      started.catch(() => {
+        video.muted = true;
+        $("video-sound").hidden = false;
+        video.play().catch(() => {});
+      });
+    }
+  }
+  function closeShareVideo() {
+    $("share-video-player").pause();
+    $("share-video").hidden = true;
+  }
+
   async function copyShare() {
+    playShareVideo();      // first, while the tap still counts, so the video may play with sound
     const text = shareText();
     let ok = false;
     try { await navigator.clipboard.writeText(text); ok = true; } catch (e) {
@@ -517,6 +543,13 @@
     drawPlayer();
     $("btn-next").addEventListener("click", nextStep);
     $("btn-share").addEventListener("click", copyShare);
+    $("video-close").addEventListener("click", closeShareVideo);
+    $("share-video-player").addEventListener("ended", closeShareVideo);
+    $("share-video").addEventListener("click", (event) => { if (event.target === $("share-video")) closeShareVideo(); });
+    $("video-sound").addEventListener("click", () => {
+      $("share-video-player").muted = false;
+      $("video-sound").hidden = true;
+    });
     $("answer-form").addEventListener("submit", (event) => {
       event.preventDefault();
       const input = $("answer");
