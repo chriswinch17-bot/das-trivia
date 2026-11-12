@@ -479,6 +479,12 @@
     $("res-again").onclick = () => go(randomUnlimited());
     $("res-board").onclick = () => $("grid-leaders-title").scrollIntoView({ behavior: "smooth" });
     $("grid-test-note").hidden = !testMode;
+    // the share video's buttons (the other games set these up in game.js, which doesn't run here)
+    const closeVideo = () => { $("share-video-player").pause(); $("share-video").hidden = true; };
+    $("video-close").onclick = closeVideo;
+    $("share-video-player").onended = closeVideo;
+    $("share-video").onclick = (event) => { if (event.target === $("share-video")) closeVideo(); };
+    $("video-sound").onclick = () => { $("share-video-player").muted = false; $("video-sound").hidden = true; };
 
     state = loadState();
     drawPlayer();

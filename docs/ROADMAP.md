@@ -42,3 +42,10 @@ Each phase ends with something you can see and try. Nothing is published until y
 - [ ] Streaks, personal stats, an archive of past games
 - [ ] New game modes
 - [ ] An easy routine for adding each new season's data
+
+## Bonus games (built 2026-11-12)
+- [x] Papo Trade or NOT (published)
+- [ ] What team am I? (built locally, waiting for approval)
+- [ ] DAS GRIDS: roster history, 365 daily + 400 unlimited solvable grids, database checking, rarity,
+      leaderboard, local admin page, 14 automated tests (built locally, database set up, waiting for approval)
+
