@@ -289,7 +289,8 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 
 .bonus.team { margin-top: 10px; background: linear-gradient(135deg, #0f3d3a, #1d2d6e); border-color: #2fbf9f; }
 .bonus.team small { color: #9ff0dc; }
-.team-hero { max-height: 260px; object-fit: cover; object-position: 30% 20%; border-color: #2fbf9f; }
+.team-hero { border-color: #2fbf9f; }
+.bonus.team img { object-position: 36% 50%; }
 
 .clues { display: flex; flex-direction: column; gap: 6px; margin: 0 0 16px; }
 .clue { padding: 9px 12px; border-radius: 10px; background: #0d1220; border: 1px solid var(--card-edge); }

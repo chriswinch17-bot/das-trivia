@@ -106,7 +106,7 @@ The owner has essentially no coding or web development experience.
   Picks and FAAB count. `python scripts/build_papo.py` writes `site/data/papo.json` (2 or 3 Papo trades
   per day, trades over 10 items skipped, scheduled days kept). Game #1 was 2026-11-12. Its leaderboard
   rows use game number 50000 + day, so they never mix with the main game. No cutscene in this mode.
-- **What team am I?** (bonus mode, `?mode=team`): 2 mystery managers a day, 5 clues each from hardest
+- **What team am I?** (bonus mode, `?mode=team`; theme picture `site/images/team-mode.webp`): 2 mystery managers a day, 5 clues each from hardest
   to easiest (late startup pick, a player they alone traded for, a rookie pick, a career line, the team
   name with letters hidden). Typed answers; a wrong guess or the 40-second clock opens the next clue.
   Points 100/80/60/40/20 by clue. `python scripts/build_team.py` writes `site/data/team.json` (3 rounds
