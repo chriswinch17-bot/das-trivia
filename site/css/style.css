@@ -277,13 +277,13 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
   border: 1px solid #8b6cff;
 }
 .bonus:hover { filter: brightness(1.1); }
-.bonus img { width: 64px; height: 64px; object-fit: cover; object-position: 50% 15%; border-radius: 10px; flex: none; }
+.bonus img { width: 64px; height: 64px; object-fit: cover; object-position: 62% 46%; border-radius: 10px; flex: none; }
 .bonus-text { display: flex; flex-direction: column; line-height: 1.15; }
 .bonus-text small { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: #c9b8ff; }
 .bonus-text b { font-family: var(--head); font-size: 26px; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; }
 .bonus-text i, .papo-title i { font-style: normal; color: var(--orange); }
 .bonus-text em { font-style: normal; font-size: 13px; color: #d5dbea; }
-.papo-hero { display: block; width: 100%; max-height: 300px; object-fit: cover; object-position: 50% 25%; border-radius: 14px; margin: 4px 0 16px; border: 2px solid #8b6cff; }
+.papo-hero { display: block; width: 100%; height: auto; border-radius: 14px; margin: 4px 0 16px; border: 2px solid #8b6cff; }
 .center { text-align: center; }
 .center a, .other-mode { color: var(--orange); }
 

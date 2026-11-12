@@ -100,7 +100,8 @@ The owner has essentially no coding or web development experience.
   table `scores` (`docs/leaderboard_setup.sql`); the connection values go in `site/js/config.js`.
   While those are empty the name screen and leaderboard are switched off entirely; preview them with `?test&board`. Practice mode never saves a score.
   It is an honor system: anyone can pick any name, and the first score per name per day counts.
-- **Papo Trade or NOT** (bonus mode, `?mode=papo`): 5 yes-or-no questions a day. Each shows a real
+- **Papo Trade or NOT** (bonus mode, `?mode=papo`): 5 yes-or-no questions a day.
+  Its theme picture is `site/images/papo-mode.webp` ("Mr. Trade Man"), on its start screen and the bonus banner. Each shows a real
   trade with the teams hidden ("Team A got / Team B got"); the player says whether Papo was in it.
   Picks and FAAB count. `python scripts/build_papo.py` writes `site/data/papo.json` (2 or 3 Papo trades
   per day, trades over 10 items skipped, scheduled days kept). Game #1 was 2026-11-12. Its leaderboard
