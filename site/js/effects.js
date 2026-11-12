@@ -56,7 +56,7 @@ window.EFFECTS = {
     The song stops when the player taps Next. Leave song as null for no song.
   */
   teamReveal: {
-    joey: { image: "images/team/joey.webp", song: null },
+    joey: { image: "images/team/joey.webp", song: "sounds/joey.mp3" },   // first 30 s of "Sprinter"
   },
 
   managers: {
@@ -84,6 +84,7 @@ window.EFFECTS = {
     ],
     joey: [
       "images/managers/joey/1.webp",
+      "images/team/joey.webp",
     ],
     chalela: [
       "images/managers/chalela/1.webp",

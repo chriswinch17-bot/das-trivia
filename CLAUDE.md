@@ -112,7 +112,8 @@ The owner has essentially no coding or web development experience.
   Points 100/80/60/40/20 by clue. `python scripts/build_team.py` writes `site/data/team.json` (3 rounds
   of all 12 managers = 18 days; Game #1 opens with Joey, as the owner asked). Leaderboard game = 60000 + day.
   A correct guess can show a picture and play a song per manager: `teamReveal` in `effects.js`
-  (Joey's picture: `site/images/team/joey.webp`; songs go in `site/sounds/`).
+  (Joey's picture: `site/images/team/joey.webp`, also in his main-game gallery; his song: `site/sounds/joey.mp3`,
+  the first 30 s of the owner's MP3, cut with a frame-by-frame copy, no re-encoding). Songs go in `site/sounds/`.
 - Trades undone the same day (the exact same assets sent straight back) are fake and are dropped in
   `build_data.py`, so they count nowhere (owner's rule, 2026-11-12). There were 5 such pairs.
 - Tapping **Share result** copies the score and then plays the owner's video full screen
