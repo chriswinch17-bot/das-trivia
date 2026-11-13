@@ -496,3 +496,6 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .rw-fpg span { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); }
 .rw-line { margin: 8px 0 0; text-align: center; font-weight: 600; }
 .rw-teams { margin: 6px 0 0; text-align: center; font-size: 13px; color: var(--muted); }
+
+/* the survey board's second answer flips over after the first */
+.board-list .revealed.second { animation-delay: 1.6s; }
