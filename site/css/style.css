@@ -500,3 +500,4 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 /* the survey board's second answer flips over after the first */
 .board-list .revealed.second { animation-delay: 1.6s; }
 .board-list .revealed.third { animation-delay: 2.6s; }
+.board-list .revealed.fourth { animation-delay: 3.6s; }
