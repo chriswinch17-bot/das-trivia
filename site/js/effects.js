@@ -68,9 +68,13 @@ window.EFFECTS = {
   */
   pictureSongs: {
     "images/team/blandon.webp": "sounds/blandon.mp3",
+    "images/managers/ricky/1.webp": "sounds/fart.wav",   // Ricky's Poopy Cup picture (sound made by scripts/make_fart.py)
   },
 
   managers: {
+    ricky: [
+      "images/managers/ricky/1.webp",
+    ],
     blandon: [
       "images/team/blandon.webp",
     ],
