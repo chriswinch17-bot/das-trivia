@@ -261,7 +261,8 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 
 /* daily leaderboard */
 .leaders { list-style: none; margin: 0; padding: 0; text-align: left; }
-.leaders li { display: flex; align-items: center; gap: 8px; padding: 9px 10px; border-radius: 10px; }
+.leaders > li { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 9px 10px; border-radius: 10px; }
+.leaders > li.tap { cursor: pointer; }
 .leaders li:nth-child(odd) { background: rgba(255, 255, 255, .03); }
 .leaders li.me { background: rgba(255, 122, 26, .16); outline: 1px solid var(--orange); }
 .leaders .lr { width: 1.6em; font-family: var(--head); font-size: 20px; font-weight: 800; color: var(--muted); }
@@ -460,3 +461,24 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .bonus.trivia { margin-top: 0; background: linear-gradient(135deg, #5a2a07, #1d2d6e); border-color: var(--orange); }
 .bonus.trivia small { color: #ffc89a; }
 .bonus.trivia img { object-position: 30% 20%; }
+
+/* leaderboard: tap a name to see their answers */
+.leaders > li.tap .ln::after { content: " ▸"; color: var(--muted); font-weight: 400; }
+.leaders > li.tap.open .ln::after { content: " ▾"; }
+.leaders > li:focus-visible { outline: 2px solid #fff; }
+.lans { flex-basis: 100%; list-style: none; margin: 6px 0 0; padding: 0; cursor: default; }
+.lans li { padding: 7px 10px; margin-top: 4px; border-radius: 8px; background: #0d1220; border-left: 4px solid var(--gray); text-align: left; }
+.lans li.correct { border-left-color: var(--green); }
+.lans li.close { border-left-color: var(--close); }
+.lans li.wrong { border-left-color: var(--red); }
+.la-q { font-size: 13px; font-weight: 600; }
+.la-a { font-size: 13px; color: var(--muted); margin-top: 2px; overflow-wrap: anywhere; }
+
+/* past results */
+.arc-tabs { flex-wrap: wrap; }
+.arc-days { display: flex; gap: 6px; overflow-x: auto; padding: 4px 0 8px; }
+.arc-day { appearance: none; cursor: pointer; flex: none; display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 7px 11px; border-radius: 10px; border: 1px solid var(--card-edge); background: #0d1220; color: var(--text); }
+.arc-day b { font: 800 18px var(--head); }
+.arc-day span { font-size: 11px; color: var(--muted); }
+.arc-day.on { border-color: #ffc53d; background: rgba(255, 197, 61, .14); }
+#screen-archive h3 { margin-top: 14px; }

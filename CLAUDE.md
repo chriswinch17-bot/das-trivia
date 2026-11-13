@@ -136,6 +136,9 @@ The owner has essentially no coding or web development experience.
 - Tapping **Share result** copies the score and then plays the owner's video full screen
   (`site/videos/share.mp4`, 30 s, 7.3 MB). Set in `effects.js` (`shareVideo`): file, and which modes
   show it. It loads only when tapped (`preload="none"`), so it costs nothing for players who don't share.
+- Leaderboards (trivia, papo, team) save each player's answers in `scores.answers` (jsonb; added by
+  `docs/leaderboard_answers.sql`); tapping a name shows them. **Past results** (`?mode=archive`, linked from
+  home and results) lists every earlier day's board per game; today's is left out so nobody sees answers early.
 - Testing: open the site with `?test` on the address to replay without saving; `?test&day=3` plays Game #3.
 - Local preview: `python -m http.server 8123 --bind 127.0.0.1 --directory site`, then http://localhost:8123.
 - Scoring is a stand-in (100 + 2 per second left) until rarity scoring arrives in Phase 4.

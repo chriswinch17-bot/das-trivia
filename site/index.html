@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=40">
+  <link rel="stylesheet" href="css/style.css?v=41">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -97,6 +97,21 @@
           <em>Name a player who was on both teams. Rarest answers win.</em>
         </span>
       </a>
+      <a class="btn ghost other-mode" id="to-archive" href="?mode=archive">📜 Past results &amp; answers</a>
+    </section>
+
+    <!-- Past results: every earlier day's leaderboard, with everyone's answers -->
+    <section class="screen card" id="screen-archive" hidden>
+      <p class="eyebrow">Past results</p>
+      <h1>Archive</h1>
+      <nav class="grid-tabs arc-tabs" id="arc-tabs"></nav>
+      <div class="arc-days" id="arc-days"></div>
+      <p class="fine" id="arc-today"></p>
+      <h3 id="arc-title"></h3>
+      <ol class="leaders" id="arc-leaders"></ol>
+      <p class="fine" id="arc-status"></p>
+      <p class="fine center">Das Grids keeps its own archive: open Das Grids and tap Archive.</p>
+      <p class="fine center"><a href="./">← Back to all games</a></p>
     </section>
 
     <!-- Das Trivia start screen -->
@@ -266,6 +281,7 @@
       <ol class="recap" id="recap"></ol>
       <a class="btn ghost other-mode" id="other-mode" href="./"></a>
       <a class="btn ghost other-mode" href="./">⌂ Back to all games</a>
+      <a class="btn ghost other-mode" href="?mode=archive">📜 Past results</a>
       <p class="fine">A new game starts every day at midnight Eastern.</p>
     </section>
 
@@ -298,10 +314,10 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=40"></script>
-  <script src="js/effects.js?v=40"></script>
-  <script src="js/cutscene.js?v=40"></script>
-  <script src="js/game.js?v=40"></script>
-  <script src="js/grids.js?v=40"></script>
+  <script src="js/config.js?v=41"></script>
+  <script src="js/effects.js?v=41"></script>
+  <script src="js/cutscene.js?v=41"></script>
+  <script src="js/game.js?v=41"></script>
+  <script src="js/grids.js?v=41"></script>
 </body>
 </html>

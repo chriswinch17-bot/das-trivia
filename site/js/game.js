@@ -481,26 +481,73 @@
     return response.status === 200 ? response.json() : null;
   }
 
+  // A leaderboard where tapping a name opens that person's answers for each question.
+  function renderBoard(list, rows, me) {
+    list.replaceChildren();
+    rows.forEach((row, i) => {
+      const item = document.createElement("li");
+      item.className = "tap";
+      if (row.player === me) item.classList.add("me");
+      const add = (cls, text) => { const s = document.createElement("span"); s.className = cls; s.textContent = text; item.append(s); };
+      add("lr", i + 1); add("ln", row.player); add("lb", row.boxes || ""); add("ls", row.score);
+      const details = document.createElement("ol");
+      details.className = "lans";
+      details.hidden = true;
+      if (Array.isArray(row.answers) && row.answers.length) {
+        row.answers.forEach((a) => {
+          const line = document.createElement("li");
+          line.className = a.r;
+          const q = document.createElement("div"); q.className = "la-q"; q.textContent = a.q;
+          const r = document.createElement("div"); r.className = "la-a";
+          r.textContent = a.r === "timeout" ? "⏱ Ran out of time" + (a.a ? ` · Answer: ${a.a}` : "")
+            : a.r === "correct" ? `✓ ${a.a || a.t}` + (a.c ? ` · on clue ${a.c}` : "") + ` · +${a.p}`
+            : (a.r === "close" ? `≈ "${a.t}" · close, +${a.p}` : `✗ "${a.t}"`) + (a.a ? ` · Answer: ${a.a}` : "");
+          line.append(q, r);
+          details.append(line);
+        });
+      } else {
+        const line = document.createElement("li");
+        line.textContent = "Answers weren't saved for this game (it was played before answers were kept).";
+        details.append(line);
+      }
+      item.append(details);
+      item.tabIndex = 0;
+      item.setAttribute("role", "button");
+      item.setAttribute("aria-expanded", "false");
+      item.title = "Show answers";
+      const toggle = () => {
+        details.hidden = !details.hidden;
+        item.classList.toggle("open", !details.hidden);
+        item.setAttribute("aria-expanded", String(!details.hidden));
+      };
+      item.addEventListener("click", (event) => { if (!details.contains(event.target)) toggle(); });
+      item.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); toggle(); } });
+      list.append(item);
+    });
+  }
+
+  // Each answer, saved with the score so others can see it on the leaderboard.
+  const answersForBoard = () => state.answers.map((a) => ({
+    q: a.question, t: a.typed, r: a.result, p: a.points,
+    a: a.result === "correct" ? a.matched : a.answer, c: a.clue,
+  }));
+
+  // Read a leaderboard, with answers if the database keeps them (older setups don't).
+  async function boardRows(game) {
+    const base = `scores?game=eq.${game}&order=score.desc,created_at.asc&limit=50&select=player,score,correct,boxes`;
+    try { return await database(base + ",answers"); } catch (e) { return database(base); }
+  }
+
   // Sends this player's score once, then shows everyone's scores for today's game.
   async function showLeaderboard(score, right) {
     const boxes = marks();
-    const mine = { player: getPlayer() || "You", score, correct: right, boxes };
+    const mine = { player: getPlayer() || "You", score, correct: right, boxes, answers: answersForBoard() };
     const list = $("leaders"), status = $("leaders-status");
     $("leaders-title").hidden = list.hidden = !boardOn;
     if (!boardOn) { status.hidden = true; return; }
 
     const draw = (rows, note) => {
-      list.replaceChildren();
-      rows.forEach((row, i) => {
-        const item = document.createElement("li");
-        if (row.player === mine.player) item.className = "me";
-        const rank = document.createElement("span"); rank.className = "lr"; rank.textContent = i + 1;
-        const name = document.createElement("span"); name.className = "ln"; name.textContent = row.player;
-        const marks = document.createElement("span"); marks.className = "lb"; marks.textContent = row.boxes || "";
-        const points = document.createElement("span"); points.className = "ls"; points.textContent = row.score;
-        item.append(rank, name, marks, points);
-        list.append(item);
-      });
+      renderBoard(list, rows, mine.player);
       status.textContent = note;
       status.hidden = !note;
     };
@@ -509,17 +556,20 @@
     draw([mine], "Loading the leaderboard…");
     try {
       if (!testMode && !state.submitted) {
-        await database("scores?on_conflict=game,player", {
+        const send = (row) => database("scores?on_conflict=game,player", {
           method: "POST",
           headers: { Prefer: "resolution=ignore-duplicates,return=minimal" },
-          body: JSON.stringify({ game: M.board + gameNumber, ...mine }),
+          body: JSON.stringify({ game: M.board + gameNumber, ...row }),
         });
+        // if the database doesn't keep answers yet, still save the score
+        try { await send(mine); } catch (e) { const { answers, ...scoreOnly } = mine; await send(scoreOnly); }
         state.submitted = true;
         saveState();
       }
-      const rows = await database(`scores?game=eq.${M.board + gameNumber}&select=player,score,correct,boxes&order=score.desc,created_at.asc&limit=50`);
+      const rows = await boardRows(M.board + gameNumber);
       const everyone = testMode && !rows.some((r) => r.player === mine.player) ? [...rows, mine].sort((a, b) => b.score - a.score) : rows;
-      draw(everyone, testMode ? "Practice mode: your score isn't saved to the leaderboard." : "First score counts. One game per player per day.");
+      draw(everyone, testMode ? "Practice mode: your score isn't saved to the leaderboard. Tap a name to see their answers."
+        : "Tap a name to see their answers. First score counts, one game per player per day.");
     } catch (error) {
       draw([mine], "Couldn't reach the leaderboard right now, so only your score shows here.");
     }
@@ -601,12 +651,84 @@
 
   /* ---------- start ---------- */
 
+  /* ---------- Past results: every earlier day's leaderboard ---------- */
+
+  async function openArchive() {
+    show("archive");
+    document.title = "Past results · Das Trivia";
+    $("game-tag").textContent = "Past results" + (testMode ? " · test" : "");
+    const kinds = ["trivia", "papo", "team"];
+    const files = {};
+    try {
+      await Promise.all(kinds.map(async (k) => { files[k] = await (await fetch(MODES[k].file, { cache: "no-cache" })).json(); }));
+    } catch (e) {
+      $("arc-status").textContent = "Couldn't load the games. Refresh to try again.";
+      return;
+    }
+    const names = { trivia: "Das Trivia", papo: "Papo Trade or NOT", team: "What team am I?" };
+    let current = kinds.includes(params.get("game")) ? params.get("game") : "trivia";
+    const dateOf = (k, n) => {
+      const [y, m, d] = files[k].start_date.split("-").map(Number);
+      return new Intl.DateTimeFormat("en-US", { timeZone: "UTC", weekday: "short", month: "short", day: "numeric" }).format(new Date(Date.UTC(y, m - 1, d + n - 1, 12)));
+    };
+
+    async function showDay(n) {
+      for (const b of $("arc-days").children) b.classList.toggle("on", Number(b.dataset.n) === n);
+      $("arc-title").textContent = `${names[current]} #${n} · ${dateOf(current, n)}`;
+      $("arc-leaders").replaceChildren();
+      if (!online) { $("arc-status").textContent = "The leaderboard isn't connected."; return; }
+      $("arc-status").textContent = "Loading…";
+      try {
+        const rows = await boardRows(MODES[current].board + n);
+        renderBoard($("arc-leaders"), rows, getPlayer());
+        $("arc-status").textContent = rows.length ? "Tap a name to see their answers." : "Nobody played this one.";
+      } catch (e) {
+        $("arc-status").textContent = "Couldn't load that day right now.";
+      }
+    }
+
+    function showGame(k) {
+      current = k;
+      for (const b of $("arc-tabs").children) b.classList.toggle("on", b.dataset.k === k);
+      const todayN = Math.max(1, daysBetween(files[k].start_date, today()) + 1);
+      const box = $("arc-days");
+      box.replaceChildren();
+      for (let n = todayN - 1; n >= 1; n--) {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "arc-day";
+        b.dataset.n = n;
+        b.innerHTML = `<b>#${n}</b><span></span>`;
+        b.querySelector("span").textContent = dateOf(k, n);
+        b.addEventListener("click", () => showDay(n));
+        box.append(b);
+      }
+      $("arc-today").textContent = `Today's game (#${todayN}) isn't here until tomorrow, so nobody sees today's answers early.`;
+      if (todayN > 1) showDay(todayN - 1);
+      else { $("arc-title").textContent = ""; $("arc-leaders").replaceChildren(); $("arc-status").textContent = "No past games yet."; }
+    }
+
+    $("arc-tabs").replaceChildren();
+    kinds.forEach((k) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "tab";
+      b.dataset.k = k;
+      b.textContent = names[k];
+      b.addEventListener("click", () => showGame(k));
+      $("arc-tabs").append(b);
+    });
+    showGame(current);
+  }
+
   async function start() {
     // the Home button on every game screen; every link back home keeps practice mode on
     for (const a of document.querySelectorAll('a[href="./"]')) a.href = keepTest("./");
     $("home-link").hidden = home;
     if (params.get("mode") === "grids") return;   // DAS GRIDS runs from js/grids.js
+    if (params.get("mode") === "archive") return openArchive();
     if (home) {
+      $("to-archive").href = keepTest("?mode=archive");
       $("home-date").textContent = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
       $("to-trivia-game").href = keepTest("?mode=trivia");
       for (const [id, m] of [["to-papo", "papo"], ["to-team", "team"], ["to-grids", "grids"]]) $(id).href = keepTest(`?mode=${m}`);
