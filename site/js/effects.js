@@ -14,7 +14,7 @@
 */
 window.EFFECTS = {
   correct: {
-    messages: ["Swish!", "Bucket!", "Nothing but net!", "And one!"],
+    messages: ["Good job Faggot", "Bucket!", "Nothing but net!", "And one!"],
     image: null,
     sound: null,
   },
@@ -25,7 +25,7 @@ window.EFFECTS = {
     sound: null,
   },
   wrong: {
-    messages: ["Brick!", "Airball!", "Rejected!", "Off the rim!"],
+    messages: ["Brick!", "Airball!", "Rejected!", "No Retard!"],
     image: null,
     sound: null,
   },
