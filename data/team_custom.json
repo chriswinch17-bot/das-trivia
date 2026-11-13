@@ -1,0 +1,12 @@
+{
+  "_note": "What team am I? days set by hand. Key = game number; list = the teams in order (null keeps the scheduled one). hard: true makes clues 1 and 2 deep cuts. Rebuild with python scripts/build_team.py.",
+  "days": {
+    "3": [
+      {
+        "manager": "libguel",
+        "hard": true
+      },
+      null
+    ]
+  }
+}

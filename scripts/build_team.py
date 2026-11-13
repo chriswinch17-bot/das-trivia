@@ -21,9 +21,15 @@ import random
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from grids_history import build_history  # noqa: E402
 
 DATA = Path(__file__).resolve().parent.parent / "site" / "data"
-START_DATE = "2026-11-12"   # the day What team am I? #1 is played
+START_DATE = "2026-11-11"   # the day What team am I? #1 falls on. Moved back a day on 2026-11-13 so that day
+                            # got a fresh set (#3, Miguel first) after #2 had already been played.
+CUSTOM = Path(__file__).resolve().parent.parent / "data" / "team_custom.json"
 PER_DAY = 2
 ROUNDS = 3
 FIRST = "joey"              # the owner asked for Joey's team to open the game
@@ -156,14 +162,50 @@ def main():
         rng.shuffle(mids)
         order += [question(m, k) for m in ([FIRST] if k == 0 else []) + mids]
 
+    # ---------- days the owner set by hand (data/team_custom.json) ----------
+    links, _, gnames = build_history()
+    custom = json.loads(CUSTOM.read_text(encoding="utf-8")).get("days", {}) if CUSTOM.exists() else {}
+
+    def custom_question(mid, n, hard):
+        """A one-off mystery team for day n. hard=True makes clues 1 and 2 deep cuts."""
+        q = question(mid, 3)                      # a 4th set of clues, different from the 3 regular rounds
+        q["id"] = f"team-{mid}-day{n}"
+        q["recap"] = "What team am I?"
+        if hard:
+            crng = random.Random(f"{mid}-{n}")
+            very_late = sorted((p for p in startup["picks"] if p["manager"] == mid and p["round"] >= 15),
+                               key=lambda p: p["pick"])
+            sp = crng.choice(very_late)
+            # a free agent only this franchise ever rostered, for at most one weekly lineup
+            brief = sorted(pid for (m, pid), link in links.items()
+                           if m == mid and "free agent pickup" in link["sources"] and len(link["weeks"]) <= 1
+                           and not any(other != mid and (other, pid) in links for other in managers))
+            pid = crng.choice(brief)
+            season = sorted(links[(mid, pid)]["seasons"])[0]
+            q["clues"][0] = f"In the 2023 startup draft, I took {sp['player']} in round {sp['round']} (pick {sp['pick']} overall)."
+            q["clues"][1] = f"In the {season} season, I picked up {gnames[pid]} as a free agent. No other team has ever had him."
+            q["clues"] = [c.replace("..", ".") for c in q["clues"]]
+        return q
+
+    custom_questions = {}
+    for n, slots in custom.items():
+        for slot in slots:
+            if slot:
+                cq = custom_question(slot["manager"], n, slot.get("hard", False))
+                custom_questions[cq["id"]] = (int(n), slots.index(slot), cq)
+
     out = DATA / "team.json"
     scheduled = [[q["id"] for q in day] for day in json.loads(out.read_text(encoding="utf-8"))["days"]] if out.exists() else []
     by_id = {q["id"]: q for q in order}
+    by_id.update({qid: v[2] for qid, v in custom_questions.items()})
     days = [[by_id[i] for i in day] for day in scheduled if all(i in by_id for i in day)]
     used = {q["id"] for day in days for q in day}
     spare = [q for q in order if q["id"] not in used]
     while len(spare) >= PER_DAY:
         days.append([spare.pop(0) for _ in range(PER_DAY)])
+    for qid, (n, pos, cq) in custom_questions.items():
+        if days[n - 1][pos]["id"] != qid:
+            days[n - 1][pos] = cq      # the regular question it replaces comes back as a spare on a later rebuild
 
     entities = sorted({a for q in order for a in q["answers"][0]["accept"]})
     out.write_text(json.dumps({

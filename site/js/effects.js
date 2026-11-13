@@ -57,7 +57,8 @@ window.EFFECTS = {
   */
   teamReveal: {
     joey: { image: "images/team/joey.webp", song: "sounds/joey.mp3" },   // first 30 s of "Sprinter"
-    blandon: { image: "images/team/blandon.webp", song: "sounds/blandon.mp3" },   // first 30 s of "Hava Nagila"
+    blandon: { image: "images/team/blandon.webp", song: "sounds/blandon.mp3" },
+    libguel: { image: "images/team/libguel.png", song: "sounds/libguel.mp3" },   // Jay-Z & Kanye West, 0:17 to 1:00   // first 30 s of "Hava Nagila"
   },
 
   /*

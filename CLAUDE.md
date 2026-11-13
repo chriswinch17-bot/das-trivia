@@ -114,6 +114,9 @@ The owner has essentially no coding or web development experience.
   A correct guess can show a picture and play a song per manager: `teamReveal` in `effects.js`
   Blandon: `site/images/team/blandon.webp` + `site/sounds/blandon.mp3` (Hava Nagila, first 30 s); his song plays
   whenever that picture shows in ANY game (`pictureSongs` in `effects.js`).
+  Libguel: `site/images/team/libguel.png` + `site/sounds/libguel.mp3` (0:17 to 1:00 of the owner's MP3), What team am I? only.
+  Hand-set days: `data/team_custom.json` (game #3 = Libguel with hard clues 1-2; second slot waiting for the owner).
+  START_DATE moved to 2026-11-11 on 2026-11-13 so that day became #3 (#2 had already been played).
   (Joey's picture: `site/images/team/joey.webp`, also in his main-game gallery; his song: `site/sounds/joey.mp3`,
   the first 30 s of the owner's MP3, cut with a frame-by-frame copy, no re-encoding). Songs go in `site/sounds/`.
 - **DAS GRIDS** (`?mode=grids`, `site/js/grids.js`): HoopGrids-style 3×3 grid of franchises; name a player
