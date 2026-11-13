@@ -6,7 +6,9 @@
         "manager": "libguel",
         "hard": true
       },
-      null
+      {
+        "manager": "chalela"
+      }
     ]
   }
 }

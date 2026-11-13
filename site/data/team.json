@@ -237,15 +237,15 @@
     ]
    },
    {
-    "id": "team-victor-1",
+    "id": "team-chalela-day3",
     "text": "What team am I?",
     "kind": "clues",
     "clues": [
-     "In the 2023 startup draft, I took Tre Mann in round 18 (pick 216 overall).",
-     "On October 10, 2025, I traded for Kobe Bufkin.",
-     "In the 2025 rookie draft, I picked Joan Beringer (20th overall).",
-     "Through 2025-2026, my regular-season record is 29-26, with 2 playoff trips.",
-     "My team name today looks like this: \"I L___ D_____\""
+     "In the 2023 startup draft, I took Jordan Hawkins in round 17 (pick 201 overall).",
+     "On July 2, 2025, I traded for Rui Hachimura.",
+     "In the 2026 rookie draft, I picked Chris Cenac Jr. (21st overall).",
+     "Through 2025-2026, my regular-season record is 34-21, with 2 playoff trips.",
+     "My team name today looks like this: \"L_____ & A_________\""
     ],
     "points": [
      100,
@@ -254,24 +254,25 @@
      40,
      20
     ],
-    "recap": "What team am I? (round 1)",
+    "recap": "What team am I?",
     "answers": [
      {
-      "display": "I Love Dragić (Victor)",
+      "display": "Lochte & Associates (Chalela)",
       "accept": [
-       "I Love Dragić",
-       "Prieto",
-       "Vic",
-       "Victor",
-       "victorprieto"
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
       ],
-      "manager": "victor",
-      "detail": "Through 2025-2026, Victor is 29-26 in the regular season with 2 playoff trips, 0 titles and 6 trades."
+      "manager": "chalela",
+      "detail": "Through 2025-2026, Chalela is 34-21 in the regular season with 2 playoff trips, 0 titles and 11 trades."
      }
     ],
     "note": null,
     "about": [
-     "victor"
+     "chalela"
     ],
     "sources": [
      "drafts.json",
