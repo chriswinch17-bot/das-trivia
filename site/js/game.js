@@ -20,11 +20,13 @@
   // What team am I? scores use 60000 + day.
   // No mode on the address = the home page with the list of games.
   const home = !params.get("mode");
-  const mode = ["papo", "team"].includes(params.get("mode")) ? params.get("mode") : "trivia";
+  const mode = ["papo", "team", "rorw"].includes(params.get("mode")) ? params.get("mode") : "trivia";
   const MODES = {
     trivia: { file: "data/game.json", key: "game", board: 0, startScreen: "start", play: "btn-play", label: "Game", tag: "Game", icon: "🏀", seconds: 25 },
     papo: { file: "data/papo.json", key: "papo", board: 50000, startScreen: "papo-start", play: "btn-play-papo", label: "Papo Trade or NOT", tag: "Papo", icon: "🔄", seconds: 25 },
     team: { file: "data/team.json", key: "team", board: 60000, startScreen: "team-start", play: "btn-play-team", label: "What team am I?", tag: "Team", icon: "🕵️", seconds: 40 },
+    // Rostered or Waiver: built every morning from Sleeper's live rosters (scripts/build_rorw.py). Scores: 70000 + day.
+    rorw: { file: "data/rorw.json", key: "rorw", board: 70000, startScreen: "rorw-start", play: "btn-play-rorw", label: "Rostered or Waiver", tag: "R/W", icon: "🗑️", seconds: 20 },
   };
   const M = MODES[mode];
   const keepTest = (address) => (testMode ? address + (address.includes("?") ? "&" : "?") + "test" : address);
@@ -155,11 +157,12 @@
     const card = $("screen-question");
     card.classList.remove("result-correct", "result-close", "result-wrong", "result-timeout");
     $("feedback").hidden = true;
-    const yesno = question.kind === "yesno";
+    const yesno = question.kind === "yesno" || question.kind === "rw";
     $("answer-form").hidden = yesno;
     $("yesno").hidden = !yesno;
     $("trade").hidden = !yesno;
-    if (yesno) drawTrade(question);
+    if (question.kind === "yesno") drawTrade(question);
+    if (question.kind === "rw") drawPlayerCard(question);
     $("clues").hidden = !clueMode;
     if (clueMode) drawClues(question);
     $("q-count").textContent = clueMode
@@ -291,6 +294,22 @@
     if (song) { song.pause(); song = null; }
   }
 
+  // Rostered or Waiver: the player card (stats only, no team).
+  function drawPlayerCard(question) {
+    const p = question.player;
+    const box = $("trade");
+    box.replaceChildren();
+    const add = (tag, cls, text) => { const n = document.createElement(tag); n.className = cls; n.textContent = text; box.append(n); return n; };
+    add("p", "trade-date", "This season · " + (game.as_of && game.as_of[gameNumber - 1] ? `rosters as of ${game.as_of[gameNumber - 1]}` : ""));
+    add("p", "rw-name", p.name);
+    add("p", "rw-sub", `${p.pos} · ${p.nba} · ${p.gp} games`);
+    const big = add("div", "rw-fpg", "");
+    big.append(Object.assign(document.createElement("b"), { textContent: p.fpg.toFixed(1) }),
+      Object.assign(document.createElement("span"), { textContent: "fantasy points a game" }));
+    add("p", "rw-line", p.line);
+    add("p", "rw-teams", `Has been on ${p.teams} Das League ${p.teams === 1 ? "team" : "teams"}`);
+  }
+
   // After a correct answer, play the cutscene for the step just reached, then carry on.
   function nextStep() {
     const last = state.answers[state.answers.length - 1];
@@ -397,7 +416,7 @@
     $("yesno").hidden = true;
     $("feedback").hidden = false;
     // the trade stays on screen above the answer, so bring the answer into view on phones
-    if (question.kind === "yesno" || question.kind === "clues") $("feedback").scrollIntoView({ behavior: "smooth", block: "start" });
+    if (["yesno", "clues", "rw"].includes(question.kind)) $("feedback").scrollIntoView({ behavior: "smooth", block: "start" });
     $("btn-next").focus();
   }
 
@@ -657,7 +676,7 @@
     show("archive");
     document.title = "Past results · Das Trivia";
     $("game-tag").textContent = "Past results" + (testMode ? " · test" : "");
-    const kinds = ["trivia", "papo", "team"];
+    const kinds = ["trivia", "papo", "team", "rorw"];
     const files = {};
     try {
       await Promise.all(kinds.map(async (k) => { files[k] = await (await fetch(MODES[k].file, { cache: "no-cache" })).json(); }));
@@ -665,7 +684,7 @@
       $("arc-status").textContent = "Couldn't load the games. Refresh to try again.";
       return;
     }
-    const names = { trivia: "Das Trivia", papo: "Papo Trade or NOT", team: "What team am I?" };
+    const names = { trivia: "Das Trivia", papo: "Papo Trade or NOT", team: "What team am I?", rorw: "Rostered or Waiver" };
     let current = kinds.includes(params.get("game")) ? params.get("game") : "trivia";
     const dateOf = (k, n) => {
       const [y, m, d] = files[k].start_date.split("-").map(Number);
@@ -731,7 +750,7 @@
       $("to-archive").href = keepTest("?mode=archive");
       $("home-date").textContent = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
       $("to-trivia-game").href = keepTest("?mode=trivia");
-      for (const [id, m] of [["to-papo", "papo"], ["to-team", "team"], ["to-grids", "grids"]]) $(id).href = keepTest(`?mode=${m}`);
+      for (const [id, m] of [["to-papo", "papo"], ["to-team", "team"], ["to-rorw", "rorw"], ["to-grids", "grids"]]) $(id).href = keepTest(`?mode=${m}`);
       return show("home");
     }
     try {
@@ -745,6 +764,11 @@
 
     let dayIndex = Math.max(0, daysBetween(game.start_date, today()));
     if (testMode && params.get("day")) dayIndex = Math.max(0, Number(params.get("day")) - 1 || 0);
+    if (mode === "rorw" && !game.days[dayIndex]) {
+      // today's rosters haven't been downloaded yet (the morning job): show the most recent game
+      while (dayIndex > 0 && !game.days[dayIndex]) dayIndex -= 1;
+      $("rorw-wait").hidden = false;
+    }
     gameNumber = dayIndex + 1;
     questions = game.days[dayIndex % game.days.length];
     known = new Set((game.entities || []).map(normalize));
@@ -752,7 +776,12 @@
 
     $("game-tag").textContent = `${M.tag} #${gameNumber}` + (testMode ? " · test" : "");
     const dateText = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
-    $("start-date").textContent = $("papo-date").textContent = $("team-date").textContent = dateText;
+    $("start-date").textContent = $("papo-date").textContent = $("team-date").textContent = $("rorw-date").textContent = dateText;
+    if (mode === "rorw") {
+      $("rorw-asof").textContent = game.as_of[gameNumber - 1] || "";
+      $("btn-yes").textContent = "Rostered";
+      $("btn-no").textContent = "Waiver";
+    }
     if (mode !== "trivia") document.title = `${M.label} · Das Trivia`;
     $("team-back").href = keepTest("./");
     $("to-trivia").href = keepTest("./");
@@ -760,11 +789,12 @@
     $("btn-play").addEventListener("click", tipOff);
     $("btn-play-papo").addEventListener("click", tipOff);
     $("btn-play-team").addEventListener("click", tipOff);
-    [["btn-yes", "Yes"], ["btn-no", "No"]].forEach(([id, said]) => $(id).addEventListener("click", () => {
+    $("btn-play-rorw").addEventListener("click", tipOff);
+    ["btn-yes", "btn-no"].forEach((id) => $(id).addEventListener("click", () => {
       const question = questions[state.answers.length];
-      if (!question || question.kind !== "yesno" || !$("feedback").hidden) return;
-      const right = (said === "Yes") === question.yes;
-      finish(right ? "correct" : "wrong", said, right ? question.answers[0] : null);
+      if (!question || !["yesno", "rw"].includes(question.kind) || !$("feedback").hidden) return;
+      const right = (id === "btn-yes") === question.yes;
+      finish(right ? "correct" : "wrong", $(id).textContent, right ? question.answers[0] : null);
     }));
     $("change-player").addEventListener("click", (event) => { event.preventDefault(); askName(() => show(M.startScreen)); });
     $("other-form").addEventListener("submit", (event) => { event.preventDefault(); chooseName($("other-name").value); });

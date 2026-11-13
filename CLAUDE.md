@@ -143,6 +143,14 @@ The owner has essentially no coding or web development experience.
 - Leaderboards (trivia, papo, team) save each player's answers in `scores.answers` (jsonb; added by
   `docs/leaderboard_answers.sql`); tapping a name shows them. **Past results** (`?mode=archive`, linked from
   home and results) lists every earlier day's board per game; today's is left out so nobody sees answers early.
+- **Rostered or Waiver** (`?mode=rorw`): 7 players a day, 20-second timer, buttons Rostered / Waiver. Each card shows
+  name, position, NBA team, games, fantasy points per game (season stats x this league's scoring), a stat line and
+  how many Das League teams he's been on; never the team. Mix: 2 worst rostered + 1-2 so-so rostered, 2 most-passed-
+  around free agents + decent free agents (3-4 rostered). `scripts/build_rorw.py` downloads Sleeper LIVE (rosters,
+  this season's transactions, stats, players) and freezes today's answers as of that moment ("rosters as of ...").
+  `.github/workflows/rorw-refresh.yml` runs it every day at 11:00 UTC (6 AM ET winter / 7 AM summer), commits
+  `site/data/rorw.json` and republishes. Before that runs, the game shows the previous day's. Board = 70000 + day.
+  **Because that job commits to `main` every morning, always `git pull --rebase` before pushing.**
 - Testing: open the site with `?test` on the address to replay without saving; `?test&day=3` plays Game #3.
 - Local preview: `python -m http.server 8123 --bind 127.0.0.1 --directory site`, then http://localhost:8123.
 - Scoring is a stand-in (100 + 2 per second left) until rarity scoring arrives in Phase 4.

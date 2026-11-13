@@ -1,0 +1,296 @@
+{
+ "title": "Rostered or Waiver",
+ "start_date": "2026-11-13",
+ "days": [
+  [
+   {
+    "id": "rw-2026-11-13-2012",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2012",
+     "name": "Jordan Poole",
+     "pos": "PG",
+     "nba": "NOP",
+     "gp": 6,
+     "fpg": 17.7,
+     "line": "7.5 pts · 1.8 reb · 2.5 ast",
+     "teams": 4
+    },
+    "recap": "Jordan Poole (PG, NOP): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "MoonUnit 🦬 (Ricky) has had him since before this season. He's averaging 17.7 fantasy points a game, the 17th lowest of the 174 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-13-1525",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1525",
+     "name": "Andrew Wiggins",
+     "pos": "SF",
+     "nba": "MIA",
+     "gp": 11,
+     "fpg": 18.6,
+     "line": "8.7 pts · 2.8 reb · 1.5 ast",
+     "teams": 6
+    },
+    "recap": "Andrew Wiggins (SF, MIA): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by 2057 Champs (Shueiro)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "2057 Champs (Shueiro) has had him since Nov 12. He's averaging 18.6 fantasy points a game, the 20th lowest of the 174 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-13-1975",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1975",
+     "name": "Mikal Bridges",
+     "pos": "SF",
+     "nba": "NYK",
+     "gp": 11,
+     "fpg": 17.5,
+     "line": "5.9 pts · 3.2 reb · 2.1 ast",
+     "teams": 5
+    },
+    "recap": "Mikal Bridges (SF, NYK): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "MoonUnit 🦬 (Ricky) has had him since before this season. He's averaging 17.5 fantasy points a game, the 15th lowest of the 174 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-13-2578",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2578",
+     "name": "Gradey Dick",
+     "pos": "SF",
+     "nba": "LAC",
+     "gp": 10,
+     "fpg": 15.8,
+     "line": "7.3 pts · 3.0 reb · 0.7 ast",
+     "teams": 1
+    },
+    "recap": "Gradey Dick (SF, LAC): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Lochte & Associates (Chalela)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Lochte & Associates (Chalela) has had him since before this season. He's averaging 15.8 fantasy points a game, the 14th lowest of the 174 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-13-2065",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2065",
+     "name": "Keldon Johnson",
+     "pos": "PF",
+     "nba": "SAS",
+     "gp": 12,
+     "fpg": 18.9,
+     "line": "8.0 pts · 5.7 reb · 2.2 ast",
+     "teams": 9
+    },
+    "recap": "Keldon Johnson (PF, SAS): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 9 Das League teams. Papo dropped him on Nov 10. He's averaging 18.9 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-13-2317",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2317",
+     "name": "Jock Landale",
+     "pos": "C",
+     "nba": "ATL",
+     "gp": 8,
+     "fpg": 16.0,
+     "line": "6.1 pts · 4.9 reb · 1.9 ast",
+     "teams": 7
+    },
+    "recap": "Jock Landale (C, ATL): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 7 Das League teams. Victor dropped him on Oct 24. He's averaging 16.0 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-13-2341",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2341",
+     "name": "Jordan Goodwin",
+     "pos": "SG",
+     "nba": "PHX",
+     "gp": 7,
+     "fpg": 26.9,
+     "line": "9.0 pts · 3.6 reb · 2.3 ast",
+     "teams": 7
+    },
+    "recap": "Jordan Goodwin (SG, PHX): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 7 Das League teams. He's averaging 26.9 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   }
+  ]
+ ],
+ "as_of": [
+  "Fri Nov 13, 3:15 PM EST"
+ ],
+ "dates": [
+  "2026-11-13"
+ ],
+ "players": [
+  {
+   "id": "winch",
+   "name": "Winch"
+  },
+  {
+   "id": "libguel",
+   "name": "Libguel"
+  },
+  {
+   "id": "joey",
+   "name": "Joey"
+  },
+  {
+   "id": "ricky",
+   "name": "Ricky"
+  },
+  {
+   "id": "victor",
+   "name": "Victor"
+  },
+  {
+   "id": "melo",
+   "name": "Melo"
+  },
+  {
+   "id": "shueiro",
+   "name": "Shueiro"
+  },
+  {
+   "id": "jacobo",
+   "name": "Jacobo"
+  },
+  {
+   "id": "papo",
+   "name": "Papo"
+  },
+  {
+   "id": "chalela",
+   "name": "Chalela"
+  },
+  {
+   "id": "blandon",
+   "name": "Blandon"
+  },
+  {
+   "id": "verdeja",
+   "name": "Verdeja"
+  }
+ ]
+}

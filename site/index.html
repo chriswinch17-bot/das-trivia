@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=44">
+  <link rel="stylesheet" href="css/style.css?v=45">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -89,6 +89,14 @@
           <em>5 clues, hardest first. Name the manager.</em>
         </span>
       </a>
+      <a class="bonus rorw" id="to-rorw" href="?mode=rorw">
+        <span class="rorw-thumb" aria-hidden="true">🗑️</span>
+        <span class="bonus-text">
+          <small>Daily · 7 players · fresh rosters every morning</small>
+          <b>Rostered <i>or Waiver</i></b>
+          <em>Is somebody actually rostering this guy?</em>
+        </span>
+      </a>
       <a class="bonus grids" id="to-grids" href="?mode=grids">
         <span class="grids-thumb" aria-hidden="true"></span>
         <span class="bonus-text">
@@ -146,6 +154,22 @@
       </ul>
       <button class="btn primary" id="btn-play-papo">Tip off</button>
       <p class="fine center"><a id="to-trivia" href="./">← Back to all games</a></p>
+    </section>
+
+    <!-- Start screen: Rostered or Waiver -->
+    <section class="screen card" id="screen-rorw-start" hidden>
+      <p class="eyebrow" id="rorw-date"></p>
+      <h1 class="papo-title">Rostered <i>or Waiver</i></h1>
+      <div class="rorw-hero" aria-hidden="true"><span>📋</span><b>or</b><span>🗑️</span></div>
+      <ul class="rules">
+        <li><b>7 players</b> a day, with their stats this season and no team</li>
+        <li><b>Rostered or waiver?</b> Is somebody in Das League actually rostering him?</li>
+        <li><b>20 seconds</b> each</li>
+        <li>Rosters as of <b id="rorw-asof"></b>. Moves after that count tomorrow</li>
+      </ul>
+      <p class="fine" id="rorw-wait" hidden>Today's rosters download around 6 AM Eastern. Until then, this is the last game.</p>
+      <button class="btn primary" id="btn-play-rorw">Tip off</button>
+      <p class="fine center"><a href="./">← Back to all games</a></p>
     </section>
 
     <!-- Bonus game start screen: What team am I? -->
@@ -314,10 +338,10 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=44"></script>
-  <script src="js/effects.js?v=44"></script>
-  <script src="js/cutscene.js?v=44"></script>
-  <script src="js/game.js?v=44"></script>
-  <script src="js/grids.js?v=44"></script>
+  <script src="js/config.js?v=45"></script>
+  <script src="js/effects.js?v=45"></script>
+  <script src="js/cutscene.js?v=45"></script>
+  <script src="js/game.js?v=45"></script>
+  <script src="js/grids.js?v=45"></script>
 </body>
 </html>

@@ -482,3 +482,17 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .arc-day span { font-size: 11px; color: var(--muted); }
 .arc-day.on { border-color: #ffc53d; background: rgba(255, 197, 61, .14); }
 #screen-archive h3 { margin-top: 14px; }
+
+/* Rostered or Waiver */
+.bonus.rorw { margin-top: 10px; background: linear-gradient(135deg, #3d1414, #1d2d6e); border-color: #ef4b4b; }
+.bonus.rorw small { color: #ffb4b4; }
+.rorw-thumb { width: 64px; height: 64px; flex: none; border-radius: 10px; display: grid; place-items: center; font-size: 34px; background: #0d1220; border: 1px solid #ef4b4b; }
+.rorw-hero { display: flex; align-items: center; justify-content: center; gap: 18px; margin: 6px 0 16px; padding: 18px; border-radius: 14px; background: #0d1220; border: 2px solid #ef4b4b; font-size: 56px; }
+.rorw-hero b { font: 800 26px var(--head); text-transform: uppercase; color: var(--muted); }
+.rw-name { margin: 2px 0 0; text-align: center; font: 800 30px var(--head); text-transform: uppercase; letter-spacing: .5px; line-height: 1.05; }
+.rw-sub { margin: 4px 0 8px; text-align: center; color: var(--muted); font-size: 14px; }
+.rw-fpg { display: flex; flex-direction: column; align-items: center; margin: 4px 0; }
+.rw-fpg b { font: 800 46px var(--head); color: var(--orange); line-height: 1; }
+.rw-fpg span { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); }
+.rw-line { margin: 8px 0 0; text-align: center; font-weight: 600; }
+.rw-teams { margin: 6px 0 0; text-align: center; font-size: 13px; color: var(--muted); }

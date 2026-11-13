@@ -1,0 +1,48 @@
+# Every morning: download Sleeper's live rosters, build today's Rostered or Waiver game, save it, and
+# republish the site. Runs at 11:00 UTC = 6 AM Eastern in winter (7 AM in summer). It can also be
+# started by hand from the repository's Actions tab ("Run workflow").
+name: Morning roster refresh
+
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Build today's game from this morning's rosters
+        run: python scripts/build_rorw.py
+      - name: Save it to the repository
+        run: |
+          git config user.name "das-trivia-bot"
+          git config user.email "das-trivia-bot@users.noreply.github.com"
+          git add site/data/rorw.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Rostered or Waiver: today's game from this morning's rosters"
+            git push
+          fi
+      # A save made by this job doesn't start the normal publish job, so publish here.
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
