@@ -1937,34 +1937,35 @@
   ],
   [
    {
-    "id": "89c21508",
-    "text": "Who did Equipito PapoChullo (Chalela) take with their first pick of the 2023 startup draft?",
-    "kind": "player",
+    "id": "6ecf4d2a",
+    "text": "Which team was on the wrong end of the biggest blowout of the 2023-2024 regular season?",
+    "kind": "manager",
     "answers": [
      {
-      "display": "Shai Gilgeous-Alexander",
+      "display": "MoonUnit (Ricky)",
       "accept": [
-       "Alexander",
-       "Gilgeous",
-       "Gilgeous-Alexander",
-       "SGA",
-       "Shai",
-       "Shai Gilgeous-Alexander"
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
       ],
-      "detail": "Taken 9th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
+      "manager": "ricky",
+      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
      }
     ],
-    "note": null,
+    "note": "Lost 243-492 to I Love Dragić (Victor) in week 16.",
     "about": [
-     "chalela"
+     "victor"
     ],
     "sources": [
-     "drafts.json"
+     "matchups.json"
     ]
    },
    {
-    "id": "94afa254",
-    "text": "Name a team that made the 2025-2026 playoffs.",
+    "id": "d94c6f7c",
+    "text": "Name one of the three highest-scoring teams of the 2025-2026 regular season.",
     "kind": "manager",
     "answers": [
      {
@@ -1980,34 +1981,6 @@
       ],
       "manager": "libguel",
       "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
-     },
-     {
-      "display": "Fear the Brow (Papo)",
-      "accept": [
-       "Fear the Brow",
-       "Luka Deez Nuts",
-       "Papo",
-       "Papochullo6969",
-       "Pedro",
-       "The Edey and Matas Show",
-       "papochullo7979"
-      ],
-      "manager": "papo",
-      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
-     },
-     {
-      "display": "2057 Champs (Shueiro)",
-      "accept": [
-       "2057 Champs",
-       "Michael",
-       "Mike",
-       "Shueiro",
-       "Sueiro",
-       "Sway",
-       "msway21"
-      ],
-      "manager": "shueiro",
-      "detail": "Shueiro went 13-7 in the 2025-2026 regular season (3rd of 12) with 9,303 points, then lost in the first round of the playoffs."
      },
      {
       "display": "LeBong James 👑 (Melo)",
@@ -2025,131 +1998,6 @@
       "detail": "Melo went 12-8 in the 2025-2026 regular season (4th of 12) with 9,857 points, then lost in the first round of the playoffs."
      },
      {
-      "display": "Lochte & Associates (Chalela)",
-      "accept": [
-       "Achalela",
-       "Andres",
-       "Chab",
-       "Chalela",
-       "Equipito PapoChullo",
-       "Lochte & Associates"
-      ],
-      "manager": "chalela",
-      "detail": "Chalela went 12-8 in the 2025-2026 regular season (5th of 12) with 9,010 points, then finished fourth."
-     },
-     {
-      "display": "Equipo Winchenzo (Winch)",
-      "accept": [
-       "Chris",
-       "ElWinchenzo",
-       "Equipo",
-       "Equipo Winchenzo",
-       "Equipo Winchenzo 2X",
-       "Winch",
-       "Winchenzo"
-      ],
-      "manager": "winch",
-      "detail": "Winch went 10-10 in the 2025-2026 regular season (6th of 12) with 9,276 points, then finished third."
-     }
-    ],
-    "note": null,
-    "about": [],
-    "sources": [
-     "seasons.json"
-    ]
-   },
-   {
-    "id": "4254c936",
-    "text": "Who made the first overall pick of the 2023 startup draft?",
-    "kind": "manager",
-    "answers": [
-     {
-      "display": "I Love Dragić (Victor)",
-      "accept": [
-       "I Love Dragić",
-       "Prieto",
-       "Vic",
-       "Victor",
-       "victorprieto"
-      ],
-      "manager": "victor",
-      "detail": "Victor went 9-9 in the 2023-2024 regular season (6th of 12) with 8,621 points, then lost in the first round of the playoffs."
-     }
-    ],
-    "note": "The pick was Nikola Jokić.",
-    "about": [],
-    "sources": [
-     "drafts.json"
-    ]
-   },
-   {
-    "id": "7bf8e137",
-    "text": "Who was the very last pick of the 2023 startup draft?",
-    "kind": "player",
-    "answers": [
-     {
-      "display": "Tre Mann",
-      "accept": [
-       "Mann",
-       "Tre",
-       "Tre Mann"
-      ],
-      "detail": "Taken 216th overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
-     }
-    ],
-    "note": "Pick 216, taken by I Love Dragić (Victor).",
-    "about": [
-     "victor"
-    ],
-    "sources": [
-     "drafts.json"
-    ]
-   },
-   {
-    "id": "0bc322ce",
-    "text": "Who finished with the best regular-season record in 2025-2026?",
-    "kind": "manager",
-    "answers": [
-     {
-      "display": "Los Chigüires (Libguel)",
-      "accept": [
-       "Libguel",
-       "Los Chigüires",
-       "Mich",
-       "Mig",
-       "Migue",
-       "Miguel",
-       "miguelhern99"
-      ],
-      "manager": "libguel",
-      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
-     }
-    ],
-    "note": null,
-    "about": [],
-    "sources": [
-     "seasons.json"
-    ]
-   },
-   {
-    "id": "48c6f16a",
-    "text": "Name one of the three managers with the most trades in Das League history.",
-    "kind": "manager",
-    "answers": [
-     {
-      "display": "Fidel’s Accumulators (Joey)",
-      "accept": [
-       "Doctor",
-       "Fidel’s Accumulators",
-       "Joe",
-       "Joey",
-       "Joseph",
-       "hughjasnuts"
-      ],
-      "manager": "joey",
-      "detail": "Through 2025-2026, Joey is 21-33 in the regular season with 2 playoff trips and 0 titles. Joey has made 34 trades in all."
-     },
-     {
       "display": "Fear the Brow (Papo)",
       "accept": [
        "Fear the Brow",
@@ -2161,31 +2009,49 @@
        "papochullo7979"
       ],
       "manager": "papo",
-      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 114 trades in all."
-     },
-     {
-      "display": "hotrelish (Jacobo)",
-      "accept": [
-       "Jacob",
-       "Jacobo",
-       "Jake",
-       "hotrelish"
-      ],
-      "manager": "jacobo",
-      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips and 0 titles. Jacobo has made 60 trades in all."
+      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
      }
     ],
     "note": null,
     "about": [],
     "sources": [
-     "trades.json"
+     "seasons.json"
     ]
    },
    {
-    "id": "46ab5d05",
-    "text": "Who did Kareem Abdul-Jabong (Melo) take with their first pick of the 2023 startup draft?",
+    "id": "b87cd10d",
+    "text": "Name one of the first five players Kareem Abdul-Jabong (Melo) took in the 2023 startup draft.",
     "kind": "player",
     "answers": [
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "BI",
+       "Brandon",
+       "Brandon Ingram",
+       "Ingram"
+      ],
+      "detail": "Taken 31st overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 8 times in Das League."
+     },
+     {
+      "display": "Dejounte Murray",
+      "accept": [
+       "Dejounte",
+       "Dejounte Murray",
+       "Murray"
+      ],
+      "detail": "Taken 42nd overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 3 times in Das League."
+     },
+     {
+      "display": "Donovan Mitchell",
+      "accept": [
+       "Donovan",
+       "Donovan Mitchell",
+       "Mitchell",
+       "Spida"
+      ],
+      "detail": "Taken 18th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
+     },
      {
       "display": "Joel Embiid",
       "accept": [
@@ -2196,11 +2062,136 @@
        "The Process"
       ],
       "detail": "Taken 7th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
+     },
+     {
+      "display": "Pascal Siakam",
+      "accept": [
+       "Pascal",
+       "Pascal Siakam",
+       "Siakam",
+       "Spicy P"
+      ],
+      "detail": "Taken 55th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
     "note": null,
     "about": [
      "melo"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "f1e704f9",
+    "text": "Who lost in the 2023-2024 championship final?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Luka Deez Nuts (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 11-7 in the 2023-2024 regular season (5th of 12) with 9,052 points, then lost in the final."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "ce987ff5",
+    "text": "Which team lost the closest game of the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela",
+      "detail": "Chalela went 9-9 in the 2023-2024 regular season (7th of 12) with 8,286 points and missed the playoffs."
+     },
+     {
+      "display": "MoonUnit (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky",
+      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
+     }
+    ],
+    "note": "2 games that season were decided by 1.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "5bef8237",
+    "text": "Who scored the fewest points in the 2025-2026 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Blandon went 5-15 in the 2025-2026 regular season (11th of 12) with 7,866 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "ab031009",
+    "text": "Who did Equipo Winchenzo (Winch) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Jayson Tatum",
+      "accept": [
+       "JT",
+       "Jayson",
+       "Jayson Tatum",
+       "Tatum"
+      ],
+      "detail": "Taken 10th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
     ],
     "sources": [
      "drafts.json"
@@ -8297,35 +8288,34 @@
   ],
   [
    {
-    "id": "6ecf4d2a",
-    "text": "Which team was on the wrong end of the biggest blowout of the 2023-2024 regular season?",
-    "kind": "manager",
+    "id": "89c21508",
+    "text": "Who did Equipito PapoChullo (Chalela) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
     "answers": [
      {
-      "display": "MoonUnit (Ricky)",
+      "display": "Shai Gilgeous-Alexander",
       "accept": [
-       "De Aguiar",
-       "MoonUnit",
-       "MoonUnit 🦬",
-       "MoonUnit11",
-       "Rick",
-       "Ricky"
+       "Alexander",
+       "Gilgeous",
+       "Gilgeous-Alexander",
+       "SGA",
+       "Shai",
+       "Shai Gilgeous-Alexander"
       ],
-      "manager": "ricky",
-      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
+      "detail": "Taken 9th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
      }
     ],
-    "note": "Lost 243-492 to I Love Dragić (Victor) in week 16.",
+    "note": null,
     "about": [
-     "victor"
+     "chalela"
     ],
     "sources": [
-     "matchups.json"
+     "drafts.json"
     ]
    },
    {
-    "id": "d94c6f7c",
-    "text": "Name one of the three highest-scoring teams of the 2025-2026 regular season.",
+    "id": "94afa254",
+    "text": "Name a team that made the 2025-2026 playoffs.",
     "kind": "manager",
     "answers": [
      {
@@ -8343,6 +8333,34 @@
       "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
      },
      {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro",
+      "detail": "Shueiro went 13-7 in the 2025-2026 regular season (3rd of 12) with 9,303 points, then lost in the first round of the playoffs."
+     },
+     {
       "display": "LeBong James 👑 (Melo)",
       "accept": [
        "DasMelo",
@@ -8358,6 +8376,131 @@
       "detail": "Melo went 12-8 in the 2025-2026 regular season (4th of 12) with 9,857 points, then lost in the first round of the playoffs."
      },
      {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela",
+      "detail": "Chalela went 12-8 in the 2025-2026 regular season (5th of 12) with 9,010 points, then finished fourth."
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch",
+      "detail": "Winch went 10-10 in the 2025-2026 regular season (6th of 12) with 9,276 points, then finished third."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "4254c936",
+    "text": "Who made the first overall pick of the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor",
+      "detail": "Victor went 9-9 in the 2023-2024 regular season (6th of 12) with 8,621 points, then lost in the first round of the playoffs."
+     }
+    ],
+    "note": "The pick was Nikola Jokić.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "7bf8e137",
+    "text": "Who was the very last pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Tre Mann",
+      "accept": [
+       "Mann",
+       "Tre",
+       "Tre Mann"
+      ],
+      "detail": "Taken 216th overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
+     }
+    ],
+    "note": "Pick 216, taken by I Love Dragić (Victor).",
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "0bc322ce",
+    "text": "Who finished with the best regular-season record in 2025-2026?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel",
+      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "48c6f16a",
+    "text": "Name one of the three managers with the most trades in Das League history.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey",
+      "detail": "Through 2025-2026, Joey is 21-33 in the regular season with 2 playoff trips and 0 titles. Joey has made 34 trades in all."
+     },
+     {
       "display": "Fear the Brow (Papo)",
       "accept": [
        "Fear the Brow",
@@ -8369,49 +8512,31 @@
        "papochullo7979"
       ],
       "manager": "papo",
-      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 114 trades in all."
+     },
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Through 2025-2026, Jacobo is 18-37 in the regular season with 0 playoff trips and 0 titles. Jacobo has made 60 trades in all."
      }
     ],
     "note": null,
     "about": [],
     "sources": [
-     "seasons.json"
+     "trades.json"
     ]
    },
    {
-    "id": "b87cd10d",
-    "text": "Name one of the first five players Kareem Abdul-Jabong (Melo) took in the 2023 startup draft.",
+    "id": "46ab5d05",
+    "text": "Who did Kareem Abdul-Jabong (Melo) take with their first pick of the 2023 startup draft?",
     "kind": "player",
     "answers": [
-     {
-      "display": "Brandon Ingram",
-      "accept": [
-       "BI",
-       "Brandon",
-       "Brandon Ingram",
-       "Ingram"
-      ],
-      "detail": "Taken 31st overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 8 times in Das League."
-     },
-     {
-      "display": "Dejounte Murray",
-      "accept": [
-       "Dejounte",
-       "Dejounte Murray",
-       "Murray"
-      ],
-      "detail": "Taken 42nd overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 3 times in Das League."
-     },
-     {
-      "display": "Donovan Mitchell",
-      "accept": [
-       "Donovan",
-       "Donovan Mitchell",
-       "Mitchell",
-       "Spida"
-      ],
-      "detail": "Taken 18th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
-     },
      {
       "display": "Joel Embiid",
       "accept": [
@@ -8422,136 +8547,11 @@
        "The Process"
       ],
       "detail": "Taken 7th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
-     },
-     {
-      "display": "Pascal Siakam",
-      "accept": [
-       "Pascal",
-       "Pascal Siakam",
-       "Siakam",
-       "Spicy P"
-      ],
-      "detail": "Taken 55th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 2 times in Das League."
      }
     ],
     "note": null,
     "about": [
      "melo"
-    ],
-    "sources": [
-     "drafts.json"
-    ]
-   },
-   {
-    "id": "f1e704f9",
-    "text": "Who lost in the 2023-2024 championship final?",
-    "kind": "manager",
-    "answers": [
-     {
-      "display": "Luka Deez Nuts (Papo)",
-      "accept": [
-       "Fear the Brow",
-       "Luka Deez Nuts",
-       "Papo",
-       "Papochullo6969",
-       "Pedro",
-       "The Edey and Matas Show",
-       "papochullo7979"
-      ],
-      "manager": "papo",
-      "detail": "Papo went 11-7 in the 2023-2024 regular season (5th of 12) with 9,052 points, then lost in the final."
-     }
-    ],
-    "note": null,
-    "about": [],
-    "sources": [
-     "seasons.json"
-    ]
-   },
-   {
-    "id": "ce987ff5",
-    "text": "Which team lost the closest game of the 2023-2024 regular season?",
-    "kind": "manager",
-    "answers": [
-     {
-      "display": "Equipito PapoChullo (Chalela)",
-      "accept": [
-       "Achalela",
-       "Andres",
-       "Chab",
-       "Chalela",
-       "Equipito PapoChullo",
-       "Lochte & Associates"
-      ],
-      "manager": "chalela",
-      "detail": "Chalela went 9-9 in the 2023-2024 regular season (7th of 12) with 8,286 points and missed the playoffs."
-     },
-     {
-      "display": "MoonUnit (Ricky)",
-      "accept": [
-       "De Aguiar",
-       "MoonUnit",
-       "MoonUnit 🦬",
-       "MoonUnit11",
-       "Rick",
-       "Ricky"
-      ],
-      "manager": "ricky",
-      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
-     }
-    ],
-    "note": "2 games that season were decided by 1.",
-    "about": [],
-    "sources": [
-     "matchups.json"
-    ]
-   },
-   {
-    "id": "5bef8237",
-    "text": "Who scored the fewest points in the 2025-2026 regular season?",
-    "kind": "manager",
-    "answers": [
-     {
-      "display": "Rabbi BT69 (Blandon)",
-      "accept": [
-       "BT",
-       "BT69",
-       "Blandon",
-       "Brandon",
-       "Rabbi",
-       "Rabbi BT69",
-       "Rabbi Repeat BT69",
-       "RabbiBT69"
-      ],
-      "manager": "blandon",
-      "detail": "Blandon went 5-15 in the 2025-2026 regular season (11th of 12) with 7,866 points and missed the playoffs."
-     }
-    ],
-    "note": null,
-    "about": [],
-    "sources": [
-     "seasons.json"
-    ]
-   },
-   {
-    "id": "ab031009",
-    "text": "Who did Equipo Winchenzo (Winch) take with their first pick of the 2023 startup draft?",
-    "kind": "player",
-    "answers": [
-     {
-      "display": "Jayson Tatum",
-      "accept": [
-       "JT",
-       "Jayson",
-       "Jayson Tatum",
-       "Tatum"
-      ],
-      "detail": "Taken 10th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
-     }
-    ],
-    "note": null,
-    "about": [
-     "winch"
     ],
     "sources": [
      "drafts.json"

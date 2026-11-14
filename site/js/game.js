@@ -107,7 +107,11 @@
     return Math.round((utc(to) - utc(from)) / 86400000);
   }
 
-  const storageKey = () => `das-league-trivia:${M.key}:${gameNumber}`;
+  // Days the owner reset (new questions, scores wiped): browsers forget their saved game for that day.
+  // Add  gameNumber: 1  under a mode to reset that day; raise to 2 to reset it again.
+  const RESETS = { game: { 6: 1 } };   // "game" = Das Trivia
+  const resetTag = () => ((RESETS[M.key] || {})[gameNumber] ? `:r${RESETS[M.key][gameNumber]}` : "");
+  const storageKey = () => `das-league-trivia:${M.key}:${gameNumber}${resetTag()}`;
   function loadState() {
     if (!testMode) {
       try {
