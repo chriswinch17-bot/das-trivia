@@ -57,6 +57,8 @@ The owner has essentially no coding or web development experience.
 - 25-second timer per question.
 - The owner wants matching to be generous: a player's first name alone or last name alone counts,
   and near-misses of either count too. When in doubt, accept.
+- NBA player nicknames count too (owner, 2026-11-14): `data/player_nicknames.json` (owner-editable; checked by
+  `scripts/nicknames.py`, one player per nickname). Used in Das Trivia answers and the Das Grids search.
 - Typed text answers, not multiple choice. Matching is forgiving: ignore case, punctuation and
   accents; accept listed aliases and nicknames; tolerate small typos.
 - Number questions only: a guess within 2 of the answer (or 10% for big numbers) is "close":

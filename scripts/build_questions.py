@@ -20,6 +20,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from daily import extend_schedule, fill_missing  # noqa: E402
+from nicknames import load_nicknames  # noqa: E402
 
 DATA = Path(__file__).resolve().parent.parent / "site" / "data"
 START_DATE = "2026-11-09"      # the day Game #1 falls on. Moved back a day on 2026-11-11 at the owner's
@@ -105,6 +106,8 @@ def main():
         return {"display": show(mid, season), "accept": sorted(accept), "manager": mid,
                 "detail": season_fact(mid, season) if season else career_fact(mid)}
 
+    nicknames = load_nicknames({p["name"] for p in players.values()})
+
     def player_answer(name):
         parts = name.split()
         while len(parts) > 1 and parts[-1].lower() in NAME_SUFFIXES:
@@ -116,6 +119,7 @@ def main():
             for piece in parts[-1].split("-"):          # and either half of a double-barrelled last name
                 if len(piece) >= 4:
                     accept.add(piece)
+        accept.update(nicknames.get(name, []))          # e.g. "Wemby" (data/player_nicknames.json)
         return {"display": name, "accept": sorted(accept), "detail": player_fact(name)}
 
     groups = defaultdict(list)

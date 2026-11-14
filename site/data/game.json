@@ -38,6 +38,8 @@
      {
       "display": "Nikola Jokić",
       "accept": [
+       "Joker",
+       "Jokic",
        "Jokić",
        "Nikola",
        "Nikola Jokić"
@@ -134,6 +136,7 @@
      {
       "display": "Tyrese Haliburton",
       "accept": [
+       "Hali",
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
@@ -254,6 +257,7 @@
       "accept": [
        "Alperen",
        "Alperen Şengün",
+       "Baby Jokic",
        "Şengün"
       ],
       "detail": "Taken 23rd overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 3 times in Das League."
@@ -270,6 +274,7 @@
      {
       "display": "Devin Booker",
       "accept": [
+       "Book",
        "Booker",
        "Devin",
        "Devin Booker"
@@ -281,7 +286,8 @@
       "accept": [
        "Donovan",
        "Donovan Mitchell",
-       "Mitchell"
+       "Mitchell",
+       "Spida"
       ],
       "detail": "Taken 18th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      },
@@ -306,10 +312,12 @@
      {
       "display": "Jaren Jackson Jr.",
       "accept": [
+       "JJJ",
        "Jackson",
        "Jaren",
        "Jaren Jackson",
-       "Jaren Jackson Jr."
+       "Jaren Jackson Jr.",
+       "Triple J"
       ],
       "detail": "Taken 24th overall by I Love Dragić (Victor) in the 2023 startup draft. Traded 2 times in Das League."
      },
@@ -317,6 +325,7 @@
       "display": "Jaylen Brown",
       "accept": [
        "Brown",
+       "JB",
        "Jaylen",
        "Jaylen Brown"
       ],
@@ -325,6 +334,7 @@
      {
       "display": "Karl-Anthony Towns",
       "accept": [
+       "KAT",
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
@@ -352,6 +362,7 @@
      {
       "display": "Trae Young",
       "accept": [
+       "Ice Trae",
        "Trae",
        "Trae Young",
        "Young"
@@ -482,6 +493,7 @@
      {
       "display": "Derrick White",
       "accept": [
+       "D White",
        "Derrick",
        "Derrick White",
        "White"
@@ -505,10 +517,12 @@
      {
       "display": "Jaren Jackson Jr.",
       "accept": [
+       "JJJ",
        "Jackson",
        "Jaren",
        "Jaren Jackson",
-       "Jaren Jackson Jr."
+       "Jaren Jackson Jr.",
+       "Triple J"
       ],
       "detail": "Taken 24th overall by I Love Dragić (Victor) in the 2023 startup draft. Traded 2 times in Das League."
      },
@@ -526,13 +540,16 @@
       "accept": [
        "Irving",
        "Kyrie",
-       "Kyrie Irving"
+       "Kyrie Irving",
+       "Uncle Drew"
       ],
       "detail": "Taken 48th overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Nikola Jokić",
       "accept": [
+       "Joker",
+       "Jokic",
        "Jokić",
        "Nikola",
        "Nikola Jokić"
@@ -790,13 +807,15 @@
       "accept": [
        "Andrew",
        "Andrew Wiggins",
-       "Wiggins"
+       "Wiggins",
+       "Wiggs"
       ],
       "detail": "Joey got Andrew Wiggins in a trade with Papo on July 1, 2025."
      },
      {
       "display": "Brandon Ingram",
       "accept": [
+       "BI",
        "Brandon",
        "Brandon Ingram",
        "Ingram"
@@ -826,7 +845,8 @@
       "accept": [
        "Collin",
        "Collin Sexton",
-       "Sexton"
+       "Sexton",
+       "Young Bull"
       ],
       "detail": "Joey got Collin Sexton in a trade with Jacobo on January 6, 2024."
      },
@@ -853,6 +873,7 @@
       "accept": [
        "Dennis",
        "Dennis Schröder",
+       "Schroder",
        "Schröder"
       ],
       "detail": "Joey got Dennis Schröder in a trade with Libguel on December 30, 2023."
@@ -860,6 +881,7 @@
      {
       "display": "Derrick White",
       "accept": [
+       "D White",
        "Derrick",
        "Derrick White",
        "White"
@@ -924,9 +946,11 @@
      {
       "display": "James Harden",
       "accept": [
+       "Beard",
        "Harden",
        "James",
-       "James Harden"
+       "James Harden",
+       "The Beard"
       ],
       "detail": "Joey got James Harden in a trade with Papo on November 23, 2024."
      },
@@ -962,6 +986,7 @@
       "accept": [
        "Butler",
        "Jimmy",
+       "Jimmy Buckets",
        "Jimmy Butler",
        "Jimmy Butler III"
       ],
@@ -988,6 +1013,7 @@
      {
       "display": "Jusuf Nurkić",
       "accept": [
+       "Bosnian Beast",
        "Jusuf",
        "Jusuf Nurkić",
        "Nurkić"
@@ -997,6 +1023,7 @@
      {
       "display": "Karl-Anthony Towns",
       "accept": [
+       "KAT",
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
@@ -1033,9 +1060,11 @@
      {
       "display": "Kristaps Porziņģis",
       "accept": [
+       "KP",
        "Kristaps",
        "Kristaps Porziņģis",
-       "Porziņģis"
+       "Porziņģis",
+       "Unicorn"
       ],
       "detail": "Joey got Kristaps Porziņģis in a trade with Papo on June 13, 2024."
      },
@@ -1061,9 +1090,13 @@
      {
       "display": "LeBron James",
       "accept": [
+       "Bron",
        "James",
+       "King James",
+       "LBJ",
        "LeBron",
-       "LeBron James"
+       "LeBron James",
+       "The King"
       ],
       "detail": "Joey got LeBron James in a trade with Jacobo on January 6, 2024."
      },
@@ -1072,7 +1105,8 @@
       "accept": [
        "Ball",
        "Lonzo",
-       "Lonzo Ball"
+       "Lonzo Ball",
+       "Zo"
       ],
       "detail": "Joey got Lonzo Ball in a trade with Papo on October 17, 2023."
      },
@@ -1081,13 +1115,15 @@
       "accept": [
        "Dončić",
        "Luka",
-       "Luka Dončić"
+       "Luka Dončić",
+       "Luka Magic"
       ],
       "detail": "Joey got Luka Dončić in a trade with Papo on July 22, 2024."
      },
      {
       "display": "Michael Porter Jr.",
       "accept": [
+       "MPJ",
        "Michael",
        "Michael Porter",
        "Michael Porter Jr.",
@@ -1116,6 +1152,8 @@
      {
       "display": "Russell Westbrook",
       "accept": [
+       "Brodie",
+       "Russ",
        "Russell",
        "Russell Westbrook",
        "Westbrook"
@@ -1175,6 +1213,9 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Ant",
+       "Ant Man",
+       "Ant-Man",
        "Anthony",
        "Anthony Edwards",
        "Edwards"
@@ -1378,7 +1419,8 @@
       "accept": [
        "Dončić",
        "Luka",
-       "Luka Dončić"
+       "Luka Dončić",
+       "Luka Magic"
       ],
       "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
      }
@@ -1608,6 +1650,7 @@
      {
       "display": "Draymond Green",
       "accept": [
+       "Dray",
        "Draymond",
        "Draymond Green",
        "Green"
@@ -1617,8 +1660,10 @@
      {
       "display": "Fred VanVleet",
       "accept": [
+       "FVV",
        "Fred",
        "Fred VanVleet",
+       "Steady Freddy",
        "VanVleet"
       ],
       "detail": "Victor got Fred VanVleet in a trade with Papo on October 4, 2024."
@@ -1635,6 +1680,7 @@
      {
       "display": "Jonas Valančiūnas",
       "accept": [
+       "JV",
        "Jonas",
        "Jonas Valančiūnas",
        "Valančiūnas"
@@ -1901,6 +1947,7 @@
        "Alexander",
        "Gilgeous",
        "Gilgeous-Alexander",
+       "SGA",
        "Shai",
        "Shai Gilgeous-Alexander"
       ],
@@ -2144,7 +2191,9 @@
       "accept": [
        "Embiid",
        "Joel",
-       "Joel Embiid"
+       "Joel Embiid",
+       "Jojo",
+       "The Process"
       ],
       "detail": "Taken 7th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      }
@@ -2320,6 +2369,7 @@
       "accept": [
        "Alperen",
        "Alperen Şengün",
+       "Baby Jokic",
        "Şengün"
       ],
       "detail": "Ricky got Alperen Şengün in a trade with Shueiro on July 20, 2026."
@@ -2327,6 +2377,9 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Ant",
+       "Ant Man",
+       "Ant-Man",
        "Anthony",
        "Anthony Edwards",
        "Edwards"
@@ -2485,6 +2538,8 @@
      {
       "display": "Nikola Jokić",
       "accept": [
+       "Joker",
+       "Jokic",
        "Jokić",
        "Nikola",
        "Nikola Jokić"
@@ -2616,16 +2671,19 @@
       "accept": [
        "Andrew",
        "Andrew Wiggins",
-       "Wiggins"
+       "Wiggins",
+       "Wiggs"
       ],
       "detail": "Papo got Andrew Wiggins in a trade with Melo on October 20, 2023. Papo has traded for Andrew Wiggins 3 times in all."
      },
      {
       "display": "Anthony Davis",
       "accept": [
+       "AD",
        "Anthony",
        "Anthony Davis",
-       "Davis"
+       "Davis",
+       "The Brow"
       ],
       "detail": "Papo got Anthony Davis in a trade with Joey on February 10, 2025."
      },
@@ -2653,6 +2711,7 @@
        "Bobby",
        "Bobby Portis",
        "Bobby Portis Jr.",
+       "Crazy Eyes",
        "Portis"
       ],
       "detail": "Papo got Bobby Portis Jr. in a trade with Winch on August 20, 2024."
@@ -2662,7 +2721,8 @@
       "accept": [
        "Bogdan",
        "Bogdan Bogdanović",
-       "Bogdanović"
+       "Bogdanović",
+       "Bogi"
       ],
       "detail": "Papo got Bogdan Bogdanović in a trade with Blandon on January 25, 2024."
      },
@@ -2670,6 +2730,7 @@
       "display": "Bradley Beal",
       "accept": [
        "Beal",
+       "Big Panda",
        "Bradley",
        "Bradley Beal"
       ],
@@ -2678,6 +2739,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "BI",
        "Brandon",
        "Brandon Ingram",
        "Ingram"
@@ -2741,9 +2803,11 @@
      {
       "display": "Chris Paul",
       "accept": [
+       "CP3",
        "Chris",
        "Chris Paul",
-       "Paul"
+       "Paul",
+       "Point God"
       ],
       "detail": "Papo got Chris Paul in a trade with Winch on July 1, 2024. Papo has traded for Chris Paul 3 times in all."
      },
@@ -2761,6 +2825,8 @@
       "accept": [
        "D'Angelo",
        "D'Angelo Russell",
+       "D-Lo",
+       "DLo",
        "Russell"
       ],
       "detail": "Papo got D'Angelo Russell in a trade with Shueiro on January 30, 2024."
@@ -2824,6 +2890,7 @@
       "accept": [
        "Dennis",
        "Dennis Schröder",
+       "Schroder",
        "Schröder"
       ],
       "detail": "Papo got Dennis Schröder in a trade with Blandon on August 24, 2024. Papo has traded for Dennis Schröder 2 times in all."
@@ -2831,6 +2898,7 @@
      {
       "display": "Derrick White",
       "accept": [
+       "D White",
        "Derrick",
        "Derrick White",
        "White"
@@ -2842,6 +2910,8 @@
       "accept": [
        "Domantas",
        "Domantas Sabonis",
+       "Domas",
+       "Sabo",
        "Sabonis"
       ],
       "detail": "Papo got Domantas Sabonis in a trade with Verdeja on June 27, 2025."
@@ -2858,6 +2928,7 @@
      {
       "display": "Draymond Green",
       "accept": [
+       "Dray",
        "Draymond",
        "Draymond Green",
        "Green"
@@ -2867,8 +2938,10 @@
      {
       "display": "Fred VanVleet",
       "accept": [
+       "FVV",
        "Fred",
        "Fred VanVleet",
+       "Steady Freddy",
        "VanVleet"
       ],
       "detail": "Papo got Fred VanVleet in a trade with Winch on October 4, 2024."
@@ -2878,7 +2951,8 @@
       "accept": [
        "Antetokounmpo",
        "Giannis",
-       "Giannis Antetokounmpo"
+       "Giannis Antetokounmpo",
+       "Greek Freak"
       ],
       "detail": "Papo got Giannis Antetokounmpo in a trade with Blandon on March 31, 2025."
      },
@@ -3013,9 +3087,11 @@
      {
       "display": "James Harden",
       "accept": [
+       "Beard",
        "Harden",
        "James",
-       "James Harden"
+       "James Harden",
+       "The Beard"
       ],
       "detail": "Papo got James Harden in a trade with Winch on October 4, 2024. Papo has traded for James Harden 2 times in all."
      },
@@ -3031,10 +3107,12 @@
      {
       "display": "Jaren Jackson Jr.",
       "accept": [
+       "JJJ",
        "Jackson",
        "Jaren",
        "Jaren Jackson",
-       "Jaren Jackson Jr."
+       "Jaren Jackson Jr.",
+       "Triple J"
       ],
       "detail": "Papo got Jaren Jackson Jr. in a trade with Victor on October 4, 2024."
      },
@@ -3061,6 +3139,7 @@
       "accept": [
        "Butler",
        "Jimmy",
+       "Jimmy Buckets",
        "Jimmy Butler",
        "Jimmy Butler III"
       ],
@@ -3071,7 +3150,9 @@
       "accept": [
        "Embiid",
        "Joel",
-       "Joel Embiid"
+       "Joel Embiid",
+       "Jojo",
+       "The Process"
       ],
       "detail": "Papo got Joel Embiid in a trade with Melo on April 2, 2025."
      },
@@ -3087,6 +3168,7 @@
      {
       "display": "Jonas Valančiūnas",
       "accept": [
+       "JV",
        "Jonas",
        "Jonas Valančiūnas",
        "Valančiūnas"
@@ -3123,6 +3205,7 @@
      {
       "display": "Jusuf Nurkić",
       "accept": [
+       "Bosnian Beast",
        "Jusuf",
        "Jusuf Nurkić",
        "Nurkić"
@@ -3132,6 +3215,7 @@
      {
       "display": "Karl-Anthony Towns",
       "accept": [
+       "KAT",
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
@@ -3186,9 +3270,11 @@
      {
       "display": "Kristaps Porziņģis",
       "accept": [
+       "KP",
        "Kristaps",
        "Kristaps Porziņģis",
-       "Porziņģis"
+       "Porziņģis",
+       "Unicorn"
       ],
       "detail": "Papo got Kristaps Porziņģis in a trade with Joey on February 10, 2025."
      },
@@ -3204,6 +3290,7 @@
      {
       "display": "Kyle Kuzma",
       "accept": [
+       "Kuz",
        "Kuzma",
        "Kyle",
        "Kyle Kuzma"
@@ -3215,7 +3302,8 @@
       "accept": [
        "Ball",
        "LaMelo",
-       "LaMelo Ball"
+       "LaMelo Ball",
+       "Melo Ball"
       ],
       "detail": "Papo got LaMelo Ball in a trade with Jacobo on August 2, 2024."
      },
@@ -3231,9 +3319,13 @@
      {
       "display": "LeBron James",
       "accept": [
+       "Bron",
        "James",
+       "King James",
+       "LBJ",
        "LeBron",
-       "LeBron James"
+       "LeBron James",
+       "The King"
       ],
       "detail": "Papo got LeBron James in a trade with Joey on February 10, 2025."
      },
@@ -3258,6 +3350,7 @@
      {
       "display": "Michael Porter Jr.",
       "accept": [
+       "MPJ",
        "Michael",
        "Michael Porter",
        "Michael Porter Jr.",
@@ -3360,7 +3453,8 @@
       "accept": [
        "Pascal",
        "Pascal Siakam",
-       "Siakam"
+       "Siakam",
+       "Spicy P"
       ],
       "detail": "Papo got Pascal Siakam in a trade with Melo on August 20, 2024."
      },
@@ -3368,8 +3462,11 @@
       "display": "Paul George",
       "accept": [
        "George",
+       "PG",
+       "PG13",
        "Paul",
-       "Paul George"
+       "Paul George",
+       "Playoff P"
       ],
       "detail": "Papo got Paul George in a trade with Verdeja on February 5, 2025. Papo has traded for Paul George 3 times in all."
      },
@@ -3412,9 +3509,12 @@
      {
       "display": "Robert Williams III",
       "accept": [
+       "Rob Williams",
        "Robert",
        "Robert Williams",
        "Robert Williams III",
+       "Time Lord",
+       "Timelord",
        "Williams"
       ],
       "detail": "Papo got Robert Williams III in a trade with Melo on February 3, 2024."
@@ -3432,6 +3532,8 @@
      {
       "display": "Russell Westbrook",
       "accept": [
+       "Brodie",
+       "Russ",
        "Russell",
        "Russell Westbrook",
        "Westbrook"
@@ -3477,7 +3579,9 @@
      {
       "display": "Stephen Curry",
       "accept": [
+       "Chef Curry",
        "Curry",
+       "Steph",
        "Stephen",
        "Stephen Curry"
       ],
@@ -3600,6 +3704,8 @@
      {
       "display": "Damian Lillard",
       "accept": [
+       "Dame",
+       "Dame Time",
        "Damian",
        "Damian Lillard",
        "Lillard"
@@ -3619,17 +3725,22 @@
       "display": "Kevin Durant",
       "accept": [
        "Durant",
+       "Durantula",
+       "KD",
        "Kevin",
-       "Kevin Durant"
+       "Kevin Durant",
+       "Slim Reaper"
       ],
       "detail": "Taken 35th overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Kristaps Porziņģis",
       "accept": [
+       "KP",
        "Kristaps",
        "Kristaps Porziņģis",
-       "Porziņģis"
+       "Porziņģis",
+       "Unicorn"
       ],
       "detail": "Taken 59th overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
      },
@@ -3638,7 +3749,8 @@
       "accept": [
        "Dončić",
        "Luka",
-       "Luka Dončić"
+       "Luka Dončić",
+       "Luka Magic"
       ],
       "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
      }
@@ -3823,6 +3935,8 @@
       "accept": [
        "Domantas",
        "Domantas Sabonis",
+       "Domas",
+       "Sabo",
        "Sabonis"
       ],
       "detail": "Taken 12th overall by Saboners (Verdeja) in the 2023 startup draft. Traded 2 times in Das League."
@@ -4048,6 +4162,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "BI",
        "Brandon",
        "Brandon Ingram",
        "Ingram"
@@ -4075,6 +4190,7 @@
      {
       "display": "Darius Garland",
       "accept": [
+       "DG",
        "Darius",
        "Darius Garland",
        "Garland"
@@ -4095,6 +4211,8 @@
       "accept": [
        "Domantas",
        "Domantas Sabonis",
+       "Domas",
+       "Sabo",
        "Sabonis"
       ],
       "detail": "Libguel got Domantas Sabonis in a trade with Papo on July 3, 2025."
@@ -4148,6 +4266,7 @@
      {
       "display": "Michael Porter Jr.",
       "accept": [
+       "MPJ",
        "Michael",
        "Michael Porter",
        "Michael Porter Jr.",
@@ -4185,6 +4304,7 @@
      {
       "display": "Tyrese Haliburton",
       "accept": [
+       "Hali",
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
@@ -4210,6 +4330,7 @@
       "accept": [
        "Alperen",
        "Alperen Şengün",
+       "Baby Jokic",
        "Şengün"
       ],
       "detail": "Taken 23rd overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 3 times in Das League."
@@ -4235,6 +4356,7 @@
      {
       "display": "Darius Garland",
       "accept": [
+       "DG",
        "Darius",
        "Darius Garland",
        "Garland"
@@ -4358,6 +4480,9 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Ant",
+       "Ant Man",
+       "Ant-Man",
        "Anthony",
        "Anthony Edwards",
        "Edwards"
@@ -4378,6 +4503,8 @@
       "accept": [
        "Domantas",
        "Domantas Sabonis",
+       "Domas",
+       "Sabo",
        "Sabonis"
       ],
       "detail": "Taken 12th overall by Saboners (Verdeja) in the 2023 startup draft. Traded 2 times in Das League."
@@ -4387,13 +4514,15 @@
       "accept": [
        "Antetokounmpo",
        "Giannis",
-       "Giannis Antetokounmpo"
+       "Giannis Antetokounmpo",
+       "Greek Freak"
       ],
       "detail": "Taken 6th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 4 times in Das League."
      },
      {
       "display": "Jayson Tatum",
       "accept": [
+       "JT",
        "Jayson",
        "Jayson Tatum",
        "Tatum"
@@ -4405,7 +4534,9 @@
       "accept": [
        "Embiid",
        "Joel",
-       "Joel Embiid"
+       "Joel Embiid",
+       "Jojo",
+       "The Process"
       ],
       "detail": "Taken 7th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      },
@@ -4414,7 +4545,8 @@
       "accept": [
        "Ball",
        "LaMelo",
-       "LaMelo Ball"
+       "LaMelo Ball",
+       "Melo Ball"
       ],
       "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 2 times in Das League."
      },
@@ -4423,13 +4555,16 @@
       "accept": [
        "Dončić",
        "Luka",
-       "Luka Dončić"
+       "Luka Dončić",
+       "Luka Magic"
       ],
       "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "Nikola Jokić",
       "accept": [
+       "Joker",
+       "Jokic",
        "Jokić",
        "Nikola",
        "Nikola Jokić"
@@ -4442,6 +4577,7 @@
        "Alexander",
        "Gilgeous",
        "Gilgeous-Alexander",
+       "SGA",
        "Shai",
        "Shai Gilgeous-Alexander"
       ],
@@ -4450,6 +4586,7 @@
      {
       "display": "Tyrese Haliburton",
       "accept": [
+       "Hali",
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
@@ -4459,9 +4596,12 @@
      {
       "display": "Victor Wembanyama",
       "accept": [
+       "Alien",
        "Victor",
        "Victor Wembanyama",
-       "Wembanyama"
+       "Wemb",
+       "Wembanyama",
+       "Wemby"
       ],
       "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 2 times in Das League."
      }
@@ -4589,6 +4729,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "BI",
        "Brandon",
        "Brandon Ingram",
        "Ingram"
@@ -4598,15 +4739,18 @@
      {
       "display": "Chris Paul",
       "accept": [
+       "CP3",
        "Chris",
        "Chris Paul",
-       "Paul"
+       "Paul",
+       "Point God"
       ],
       "detail": "Taken 129th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Traded 7 times in Das League."
      },
      {
       "display": "Derrick White",
       "accept": [
+       "D White",
        "Derrick",
        "Derrick White",
        "White"
@@ -4627,6 +4771,7 @@
       "accept": [
        "Butler",
        "Jimmy",
+       "Jimmy Buckets",
        "Jimmy Butler",
        "Jimmy Butler III"
       ],
@@ -4653,6 +4798,7 @@
      {
       "display": "Michael Porter Jr.",
       "accept": [
+       "MPJ",
        "Michael",
        "Michael Porter",
        "Michael Porter Jr.",
@@ -4691,8 +4837,11 @@
       "display": "Paul George",
       "accept": [
        "George",
+       "PG",
+       "PG13",
        "Paul",
-       "Paul George"
+       "Paul George",
+       "Playoff P"
       ],
       "detail": "Taken 62nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 7 times in Das League."
      }
@@ -4722,13 +4871,17 @@
       "accept": [
        "Antetokounmpo",
        "Giannis",
-       "Giannis Antetokounmpo"
+       "Giannis Antetokounmpo",
+       "Greek Freak"
       ],
       "detail": "Taken 6th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 4 times in Das League."
      },
      {
       "display": "Jalen Williams",
       "accept": [
+       "J-Dub",
+       "JDub",
+       "JWill",
        "Jalen",
        "Jalen Williams",
        "Williams"
@@ -4738,6 +4891,7 @@
      {
       "display": "Karl-Anthony Towns",
       "accept": [
+       "KAT",
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
@@ -4905,6 +5059,7 @@
       "accept": [
        "Alperen",
        "Alperen Şengün",
+       "Baby Jokic",
        "Şengün"
       ],
       "detail": "Shueiro got Alperen Şengün in a trade with Blandon on January 30, 2024."
@@ -4942,6 +5097,7 @@
        "Bobby",
        "Bobby Portis",
        "Bobby Portis Jr.",
+       "Crazy Eyes",
        "Portis"
       ],
       "detail": "Shueiro got Bobby Portis Jr. in a trade with Papo on August 21, 2024."
@@ -4950,6 +5106,7 @@
       "display": "Bradley Beal",
       "accept": [
        "Beal",
+       "Big Panda",
        "Bradley",
        "Bradley Beal"
       ],
@@ -4967,6 +5124,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "BI",
        "Brandon",
        "Brandon Ingram",
        "Ingram"
@@ -5023,13 +5181,15 @@
       "accept": [
        "Antetokounmpo",
        "Giannis",
-       "Giannis Antetokounmpo"
+       "Giannis Antetokounmpo",
+       "Greek Freak"
       ],
       "detail": "Shueiro got Giannis Antetokounmpo in a trade with Blandon on January 30, 2024."
      },
      {
       "display": "Immanuel Quickley",
       "accept": [
+       "IQ",
        "Immanuel",
        "Immanuel Quickley",
        "Quickley"
@@ -5067,6 +5227,9 @@
      {
       "display": "Jalen Williams",
       "accept": [
+       "J-Dub",
+       "JDub",
+       "JWill",
        "Jalen",
        "Jalen Williams",
        "Williams"
@@ -5078,6 +5241,7 @@
       "accept": [
        "Butler",
        "Jimmy",
+       "Jimmy Buckets",
        "Jimmy Butler",
        "Jimmy Butler III"
       ],
@@ -5195,9 +5359,12 @@
      {
       "display": "Victor Wembanyama",
       "accept": [
+       "Alien",
        "Victor",
        "Victor Wembanyama",
-       "Wembanyama"
+       "Wemb",
+       "Wembanyama",
+       "Wemby"
       ],
       "detail": "Shueiro got Victor Wembanyama in a trade with Ricky on July 20, 2026."
      },
@@ -5279,6 +5446,7 @@
        "Alexander",
        "Gilgeous",
        "Gilgeous-Alexander",
+       "SGA",
        "Shai",
        "Shai Gilgeous-Alexander"
       ],
@@ -5287,6 +5455,7 @@
      {
       "display": "Trae Young",
       "accept": [
+       "Ice Trae",
        "Trae",
        "Trae Young",
        "Young"
@@ -5464,7 +5633,8 @@
       "accept": [
        "Andrew",
        "Andrew Wiggins",
-       "Wiggins"
+       "Wiggins",
+       "Wiggs"
       ],
       "detail": "Verdeja got Andrew Wiggins in a trade with Papo on April 12, 2024."
      },
@@ -5507,9 +5677,11 @@
      {
       "display": "Chris Paul",
       "accept": [
+       "CP3",
        "Chris",
        "Chris Paul",
-       "Paul"
+       "Paul",
+       "Point God"
       ],
       "detail": "Verdeja got Chris Paul in a trade with Papo on April 27, 2025."
      },
@@ -5536,7 +5708,8 @@
       "accept": [
        "Donovan",
        "Donovan Mitchell",
-       "Mitchell"
+       "Mitchell",
+       "Spida"
       ],
       "detail": "Verdeja got Donovan Mitchell in a trade with Melo on September 4, 2026."
      },
@@ -5554,7 +5727,8 @@
       "accept": [
        "Antetokounmpo",
        "Giannis",
-       "Giannis Antetokounmpo"
+       "Giannis Antetokounmpo",
+       "Greek Freak"
       ],
       "detail": "Verdeja got Giannis Antetokounmpo in a trade with Papo on June 27, 2025."
      },
@@ -5582,6 +5756,7 @@
       "accept": [
        "Butler",
        "Jimmy",
+       "Jimmy Buckets",
        "Jimmy Butler",
        "Jimmy Butler III"
       ],
@@ -5638,8 +5813,11 @@
       "display": "Paul George",
       "accept": [
        "George",
+       "PG",
+       "PG13",
        "Paul",
-       "Paul George"
+       "Paul George",
+       "Playoff P"
       ],
       "detail": "Verdeja got Paul George in a trade with Papo on January 4, 2024."
      }
@@ -5671,7 +5849,8 @@
       "accept": [
        "De'Aaron",
        "De'Aaron Fox",
-       "Fox"
+       "Fox",
+       "Swipa"
       ],
       "detail": "Taken 27th overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
      },
@@ -5679,6 +5858,7 @@
       "display": "Jaylen Brown",
       "accept": [
        "Brown",
+       "JB",
        "Jaylen",
        "Jaylen Brown"
       ],
@@ -5696,9 +5876,12 @@
      {
       "display": "Victor Wembanyama",
       "accept": [
+       "Alien",
        "Victor",
        "Victor Wembanyama",
-       "Wembanyama"
+       "Wemb",
+       "Wembanyama",
+       "Wemby"
       ],
       "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 2 times in Das League."
      }
@@ -5904,6 +6087,7 @@
       "accept": [
        "Dennis",
        "Dennis Schröder",
+       "Schroder",
        "Schröder"
       ],
       "detail": "Chalela got Dennis Schröder in a trade with Papo on November 3, 2024. Chalela has traded for Dennis Schröder 2 times in all."
@@ -5911,6 +6095,7 @@
      {
       "display": "Derrick White",
       "accept": [
+       "D White",
        "Derrick",
        "Derrick White",
        "White"
@@ -5929,6 +6114,7 @@
      {
       "display": "Kyle Kuzma",
       "accept": [
+       "Kuz",
        "Kuzma",
        "Kyle",
        "Kyle Kuzma"
@@ -5975,7 +6161,9 @@
      {
       "display": "Stephen Curry",
       "accept": [
+       "Chef Curry",
        "Curry",
+       "Steph",
        "Stephen",
        "Stephen Curry"
       ],
@@ -6016,6 +6204,7 @@
      {
       "display": "Devin Booker",
       "accept": [
+       "Book",
        "Booker",
        "Devin",
        "Devin Booker"
@@ -6025,15 +6214,18 @@
      {
       "display": "James Harden",
       "accept": [
+       "Beard",
        "Harden",
        "James",
-       "James Harden"
+       "James Harden",
+       "The Beard"
       ],
       "detail": "Taken 39th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Traded 4 times in Das League."
      },
      {
       "display": "Jayson Tatum",
       "accept": [
+       "JT",
        "Jayson",
        "Jayson Tatum",
        "Tatum"
@@ -6045,14 +6237,18 @@
       "accept": [
        "Kawhi",
        "Kawhi Leonard",
-       "Leonard"
+       "Klaw",
+       "Leonard",
+       "The Klaw"
       ],
       "detail": "Taken 58th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Stephen Curry",
       "accept": [
+       "Chef Curry",
        "Curry",
+       "Steph",
        "Stephen",
        "Stephen Curry"
       ],
@@ -6279,6 +6475,9 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Ant",
+       "Ant Man",
+       "Ant-Man",
        "Anthony",
        "Anthony Edwards",
        "Edwards"
@@ -6291,6 +6490,7 @@
        "Bobby",
        "Bobby Portis",
        "Bobby Portis Jr.",
+       "Crazy Eyes",
        "Portis"
       ],
       "detail": "Jacobo got Bobby Portis Jr. in a trade with Winch on July 27, 2024."
@@ -6298,6 +6498,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "BI",
        "Brandon",
        "Brandon Ingram",
        "Ingram"
@@ -6361,6 +6562,7 @@
      {
       "display": "Derrick White",
       "accept": [
+       "D White",
        "Derrick",
        "Derrick White",
        "White"
@@ -6460,6 +6662,7 @@
      {
       "display": "Jusuf Nurkić",
       "accept": [
+       "Bosnian Beast",
        "Jusuf",
        "Jusuf Nurkić",
        "Nurkić"
@@ -6507,7 +6710,8 @@
       "accept": [
        "Dončić",
        "Luka",
-       "Luka Dončić"
+       "Luka Dončić",
+       "Luka Magic"
       ],
       "detail": "Jacobo got Luka Dončić in a trade with Joey on April 8, 2026."
      },
@@ -6523,6 +6727,7 @@
      {
       "display": "Michael Porter Jr.",
       "accept": [
+       "MPJ",
        "Michael",
        "Michael Porter",
        "Michael Porter Jr.",
@@ -6570,8 +6775,11 @@
       "display": "Paul George",
       "accept": [
        "George",
+       "PG",
+       "PG13",
        "Paul",
-       "Paul George"
+       "Paul George",
+       "Playoff P"
       ],
       "detail": "Jacobo got Paul George in a trade with Papo on February 12, 2026. Jacobo has traded for Paul George 2 times in all."
      },
@@ -6632,6 +6840,7 @@
      {
       "display": "Tyrese Haliburton",
       "accept": [
+       "Hali",
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
@@ -6641,9 +6850,12 @@
      {
       "display": "Victor Wembanyama",
       "accept": [
+       "Alien",
        "Victor",
        "Victor Wembanyama",
-       "Wembanyama"
+       "Wemb",
+       "Wembanyama",
+       "Wemby"
       ],
       "detail": "Jacobo got Victor Wembanyama in a trade with Ricky on December 22, 2024."
      },
@@ -6673,9 +6885,11 @@
      {
       "display": "Anthony Davis",
       "accept": [
+       "AD",
        "Anthony",
        "Anthony Davis",
-       "Davis"
+       "Davis",
+       "The Brow"
       ],
       "detail": "Taken 29th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 1 time in Das League."
      },
@@ -6709,6 +6923,7 @@
      {
       "display": "Tyrese Haliburton",
       "accept": [
+       "Hali",
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
@@ -6901,6 +7116,7 @@
       "accept": [
        "Alperen",
        "Alperen Şengün",
+       "Baby Jokic",
        "Şengün"
       ],
       "detail": "Blandon got Alperen Şengün in a trade with Shueiro on January 30, 2024."
@@ -6946,6 +7162,8 @@
       "accept": [
        "D'Angelo",
        "D'Angelo Russell",
+       "D-Lo",
+       "DLo",
        "Russell"
       ],
       "detail": "Blandon got D'Angelo Russell in a trade with Papo on January 28, 2025."
@@ -6953,6 +7171,7 @@
      {
       "display": "Derrick White",
       "accept": [
+       "D White",
        "Derrick",
        "Derrick White",
        "White"
@@ -6962,6 +7181,7 @@
      {
       "display": "Immanuel Quickley",
       "accept": [
+       "IQ",
        "Immanuel",
        "Immanuel Quickley",
        "Quickley"
@@ -6990,6 +7210,9 @@
      {
       "display": "Jalen Williams",
       "accept": [
+       "J-Dub",
+       "JDub",
+       "JWill",
        "Jalen",
        "Jalen Williams",
        "Williams"
@@ -6999,10 +7222,12 @@
      {
       "display": "Jaren Jackson Jr.",
       "accept": [
+       "JJJ",
        "Jackson",
        "Jaren",
        "Jaren Jackson",
-       "Jaren Jackson Jr."
+       "Jaren Jackson Jr.",
+       "Triple J"
       ],
       "detail": "Blandon got Jaren Jackson Jr. in a trade with Papo on November 1, 2024."
      },
@@ -7027,6 +7252,7 @@
      {
       "display": "Jusuf Nurkić",
       "accept": [
+       "Bosnian Beast",
        "Jusuf",
        "Jusuf Nurkić",
        "Nurkić"
@@ -7141,6 +7367,9 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Ant",
+       "Ant Man",
+       "Ant-Man",
        "Anthony",
        "Anthony Edwards",
        "Edwards"
@@ -7159,6 +7388,7 @@
      {
       "display": "Jamal Murray",
       "accept": [
+       "Blue Arrow",
        "Jamal",
        "Jamal Murray",
        "Murray"
@@ -7336,6 +7566,7 @@
        "Bobby",
        "Bobby Portis",
        "Bobby Portis Jr.",
+       "Crazy Eyes",
        "Portis"
       ],
       "detail": "Winch got Bobby Portis Jr. in a trade with Jacobo on July 27, 2024."
@@ -7343,6 +7574,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "BI",
        "Brandon",
        "Brandon Ingram",
        "Ingram"
@@ -7352,9 +7584,11 @@
      {
       "display": "Chris Paul",
       "accept": [
+       "CP3",
        "Chris",
        "Chris Paul",
-       "Paul"
+       "Paul",
+       "Point God"
       ],
       "detail": "Winch got Chris Paul in a trade with Chalela on January 23, 2024."
      },
@@ -7418,6 +7652,7 @@
       "accept": [
        "Butler",
        "Jimmy",
+       "Jimmy Buckets",
        "Jimmy Butler",
        "Jimmy Butler III"
       ],
@@ -7437,7 +7672,8 @@
       "accept": [
        "Ball",
        "LaMelo",
-       "LaMelo Ball"
+       "LaMelo Ball",
+       "Melo Ball"
       ],
       "detail": "Winch got LaMelo Ball in a trade with Papo on October 4, 2024."
      },
@@ -7474,7 +7710,8 @@
       "accept": [
        "Pascal",
        "Pascal Siakam",
-       "Siakam"
+       "Siakam",
+       "Spicy P"
       ],
       "detail": "Winch got Pascal Siakam in a trade with Papo on August 20, 2024."
      },
@@ -7482,8 +7719,11 @@
       "display": "Paul George",
       "accept": [
        "George",
+       "PG",
+       "PG13",
        "Paul",
-       "Paul George"
+       "Paul George",
+       "Playoff P"
       ],
       "detail": "Winch got Paul George in a trade with Papo on February 10, 2025."
      },
@@ -7553,6 +7793,8 @@
       "accept": [
        "Domantas",
        "Domantas Sabonis",
+       "Domas",
+       "Sabo",
        "Sabonis"
       ],
       "detail": "Taken 12th overall by Saboners (Verdeja) in the 2023 startup draft. Traded 2 times in Das League."
@@ -7706,22 +7948,27 @@
       "accept": [
        "Bogdan",
        "Bogdan Bogdanović",
-       "Bogdanović"
+       "Bogdanović",
+       "Bogi"
       ],
       "detail": "Melo got Bogdan Bogdanović in a trade with Papo on February 2, 2024."
      },
      {
       "display": "Chris Paul",
       "accept": [
+       "CP3",
        "Chris",
        "Chris Paul",
-       "Paul"
+       "Paul",
+       "Point God"
       ],
       "detail": "Melo got Chris Paul in a trade with Papo on January 14, 2025. Melo has traded for Chris Paul 2 times in all."
      },
      {
       "display": "Damian Lillard",
       "accept": [
+       "Dame",
+       "Dame Time",
        "Damian",
        "Damian Lillard",
        "Lillard"
@@ -7740,6 +7987,7 @@
      {
       "display": "Derrick White",
       "accept": [
+       "D White",
        "Derrick",
        "Derrick White",
        "White"
@@ -7751,7 +7999,8 @@
       "accept": [
        "Antetokounmpo",
        "Giannis",
-       "Giannis Antetokounmpo"
+       "Giannis Antetokounmpo",
+       "Greek Freak"
       ],
       "detail": "Melo got Giannis Antetokounmpo in a trade with Verdeja on September 4, 2026."
      },
@@ -7767,9 +8016,11 @@
      {
       "display": "James Harden",
       "accept": [
+       "Beard",
        "Harden",
        "James",
-       "James Harden"
+       "James Harden",
+       "The Beard"
       ],
       "detail": "Melo got James Harden in a trade with Papo on February 11, 2025."
      },
@@ -7821,6 +8072,7 @@
      {
       "display": "Karl-Anthony Towns",
       "accept": [
+       "KAT",
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
@@ -7831,8 +8083,11 @@
       "display": "Kevin Durant",
       "accept": [
        "Durant",
+       "Durantula",
+       "KD",
        "Kevin",
-       "Kevin Durant"
+       "Kevin Durant",
+       "Slim Reaper"
       ],
       "detail": "Melo got Kevin Durant in a trade with Papo on May 6, 2024."
      },
@@ -7848,9 +8103,13 @@
      {
       "display": "LeBron James",
       "accept": [
+       "Bron",
        "James",
+       "King James",
+       "LBJ",
        "LeBron",
-       "LeBron James"
+       "LeBron James",
+       "The King"
       ],
       "detail": "Melo got LeBron James in a trade with Papo on April 2, 2025."
      },
@@ -7875,7 +8134,9 @@
      {
       "display": "Stephen Curry",
       "accept": [
+       "Chef Curry",
        "Curry",
+       "Steph",
        "Stephen",
        "Stephen Curry"
       ],
@@ -7927,7 +8188,8 @@
       "accept": [
        "Ball",
        "LaMelo",
-       "LaMelo Ball"
+       "LaMelo Ball",
+       "Melo Ball"
       ],
       "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 2 times in Das League."
      }
@@ -8124,6 +8386,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "BI",
        "Brandon",
        "Brandon Ingram",
        "Ingram"
@@ -8144,7 +8407,8 @@
       "accept": [
        "Donovan",
        "Donovan Mitchell",
-       "Mitchell"
+       "Mitchell",
+       "Spida"
       ],
       "detail": "Taken 18th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      },
@@ -8153,7 +8417,9 @@
       "accept": [
        "Embiid",
        "Joel",
-       "Joel Embiid"
+       "Joel Embiid",
+       "Jojo",
+       "The Process"
       ],
       "detail": "Taken 7th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      },
@@ -8162,7 +8428,8 @@
       "accept": [
        "Pascal",
        "Pascal Siakam",
-       "Siakam"
+       "Siakam",
+       "Spicy P"
       ],
       "detail": "Taken 55th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 2 times in Das League."
      }
@@ -8274,6 +8541,7 @@
      {
       "display": "Jayson Tatum",
       "accept": [
+       "JT",
        "Jayson",
        "Jayson Tatum",
        "Tatum"
@@ -8327,7 +8595,8 @@
       "accept": [
        "Antetokounmpo",
        "Giannis",
-       "Giannis Antetokounmpo"
+       "Giannis Antetokounmpo",
+       "Greek Freak"
       ],
       "detail": "Taken 6th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 4 times in Das League."
      }
@@ -8386,16 +8655,21 @@
       "accept": [
        "Ball",
        "LaMelo",
-       "LaMelo Ball"
+       "LaMelo Ball",
+       "Melo Ball"
       ],
       "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 2 times in Das League."
      },
      {
       "display": "LeBron James",
       "accept": [
+       "Bron",
        "James",
+       "King James",
+       "LBJ",
        "LeBron",
-       "LeBron James"
+       "LeBron James",
+       "The King"
       ],
       "detail": "Taken 52nd overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 3 times in Das League."
      },
@@ -8434,9 +8708,12 @@
      {
       "display": "Victor Wembanyama",
       "accept": [
+       "Alien",
        "Victor",
        "Victor Wembanyama",
-       "Wembanyama"
+       "Wemb",
+       "Wembanyama",
+       "Wemby"
       ],
       "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 2 times in Das League."
      }
@@ -8604,6 +8881,8 @@
      {
       "display": "Nikola Jokić",
       "accept": [
+       "Joker",
+       "Jokic",
        "Jokić",
        "Nikola",
        "Nikola Jokić"
@@ -8627,6 +8906,7 @@
      {
       "display": "Tyrese Haliburton",
       "accept": [
+       "Hali",
        "Haliburton",
        "Tyrese",
        "Tyrese Haliburton"
@@ -8764,10 +9044,12 @@
      {
       "display": "Jaren Jackson Jr.",
       "accept": [
+       "JJJ",
        "Jackson",
        "Jaren",
        "Jaren Jackson",
-       "Jaren Jackson Jr."
+       "Jaren Jackson Jr.",
+       "Triple J"
       ],
       "detail": "Taken 24th overall by I Love Dragić (Victor) in the 2023 startup draft. Traded 2 times in Das League."
      },
@@ -8785,13 +9067,16 @@
       "accept": [
        "Irving",
        "Kyrie",
-       "Kyrie Irving"
+       "Kyrie Irving",
+       "Uncle Drew"
       ],
       "detail": "Taken 48th overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
      },
      {
       "display": "Nikola Jokić",
       "accept": [
+       "Joker",
+       "Jokic",
        "Jokić",
        "Nikola",
        "Nikola Jokić"
@@ -8851,6 +9136,7 @@
       "accept": [
        "Alperen",
        "Alperen Şengün",
+       "Baby Jokic",
        "Şengün"
       ],
       "detail": "Taken 23rd overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 3 times in Das League."
@@ -8867,6 +9153,7 @@
      {
       "display": "Devin Booker",
       "accept": [
+       "Book",
        "Booker",
        "Devin",
        "Devin Booker"
@@ -8878,7 +9165,8 @@
       "accept": [
        "Donovan",
        "Donovan Mitchell",
-       "Mitchell"
+       "Mitchell",
+       "Spida"
       ],
       "detail": "Taken 18th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      },
@@ -8903,10 +9191,12 @@
      {
       "display": "Jaren Jackson Jr.",
       "accept": [
+       "JJJ",
        "Jackson",
        "Jaren",
        "Jaren Jackson",
-       "Jaren Jackson Jr."
+       "Jaren Jackson Jr.",
+       "Triple J"
       ],
       "detail": "Taken 24th overall by I Love Dragić (Victor) in the 2023 startup draft. Traded 2 times in Das League."
      },
@@ -8914,6 +9204,7 @@
       "display": "Jaylen Brown",
       "accept": [
        "Brown",
+       "JB",
        "Jaylen",
        "Jaylen Brown"
       ],
@@ -8922,6 +9213,7 @@
      {
       "display": "Karl-Anthony Towns",
       "accept": [
+       "KAT",
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
@@ -8949,6 +9241,7 @@
      {
       "display": "Trae Young",
       "accept": [
+       "Ice Trae",
        "Trae",
        "Trae Young",
        "Young"
@@ -9092,6 +9385,7 @@
      {
       "display": "Derrick White",
       "accept": [
+       "D White",
        "Derrick",
        "Derrick White",
        "White"
@@ -9228,7 +9522,8 @@
       "accept": [
        "Dončić",
        "Luka",
-       "Luka Dončić"
+       "Luka Dončić",
+       "Luka Magic"
       ],
       "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
      }
@@ -9341,6 +9636,9 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Ant",
+       "Ant Man",
+       "Ant-Man",
        "Anthony",
        "Anthony Edwards",
        "Edwards"
@@ -9432,13 +9730,15 @@
       "accept": [
        "Andrew",
        "Andrew Wiggins",
-       "Wiggins"
+       "Wiggins",
+       "Wiggs"
       ],
       "detail": "Joey got Andrew Wiggins in a trade with Papo on July 1, 2025."
      },
      {
       "display": "Brandon Ingram",
       "accept": [
+       "BI",
        "Brandon",
        "Brandon Ingram",
        "Ingram"
@@ -9468,7 +9768,8 @@
       "accept": [
        "Collin",
        "Collin Sexton",
-       "Sexton"
+       "Sexton",
+       "Young Bull"
       ],
       "detail": "Joey got Collin Sexton in a trade with Jacobo on January 6, 2024."
      },
@@ -9495,6 +9796,7 @@
       "accept": [
        "Dennis",
        "Dennis Schröder",
+       "Schroder",
        "Schröder"
       ],
       "detail": "Joey got Dennis Schröder in a trade with Libguel on December 30, 2023."
@@ -9502,6 +9804,7 @@
      {
       "display": "Derrick White",
       "accept": [
+       "D White",
        "Derrick",
        "Derrick White",
        "White"
@@ -9566,9 +9869,11 @@
      {
       "display": "James Harden",
       "accept": [
+       "Beard",
        "Harden",
        "James",
-       "James Harden"
+       "James Harden",
+       "The Beard"
       ],
       "detail": "Joey got James Harden in a trade with Papo on November 23, 2024."
      },
@@ -9604,6 +9909,7 @@
       "accept": [
        "Butler",
        "Jimmy",
+       "Jimmy Buckets",
        "Jimmy Butler",
        "Jimmy Butler III"
       ],
@@ -9630,6 +9936,7 @@
      {
       "display": "Jusuf Nurkić",
       "accept": [
+       "Bosnian Beast",
        "Jusuf",
        "Jusuf Nurkić",
        "Nurkić"
@@ -9639,6 +9946,7 @@
      {
       "display": "Karl-Anthony Towns",
       "accept": [
+       "KAT",
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
@@ -9675,9 +9983,11 @@
      {
       "display": "Kristaps Porziņģis",
       "accept": [
+       "KP",
        "Kristaps",
        "Kristaps Porziņģis",
-       "Porziņģis"
+       "Porziņģis",
+       "Unicorn"
       ],
       "detail": "Joey got Kristaps Porziņģis in a trade with Papo on June 13, 2024."
      },
@@ -9703,9 +10013,13 @@
      {
       "display": "LeBron James",
       "accept": [
+       "Bron",
        "James",
+       "King James",
+       "LBJ",
        "LeBron",
-       "LeBron James"
+       "LeBron James",
+       "The King"
       ],
       "detail": "Joey got LeBron James in a trade with Jacobo on January 6, 2024."
      },
@@ -9714,7 +10028,8 @@
       "accept": [
        "Ball",
        "Lonzo",
-       "Lonzo Ball"
+       "Lonzo Ball",
+       "Zo"
       ],
       "detail": "Joey got Lonzo Ball in a trade with Papo on October 17, 2023."
      },
@@ -9723,13 +10038,15 @@
       "accept": [
        "Dončić",
        "Luka",
-       "Luka Dončić"
+       "Luka Dončić",
+       "Luka Magic"
       ],
       "detail": "Joey got Luka Dončić in a trade with Papo on July 22, 2024."
      },
      {
       "display": "Michael Porter Jr.",
       "accept": [
+       "MPJ",
        "Michael",
        "Michael Porter",
        "Michael Porter Jr.",
@@ -9758,6 +10075,8 @@
      {
       "display": "Russell Westbrook",
       "accept": [
+       "Brodie",
+       "Russ",
        "Russell",
        "Russell Westbrook",
        "Westbrook"
@@ -9828,6 +10147,7 @@
      {
       "display": "Draymond Green",
       "accept": [
+       "Dray",
        "Draymond",
        "Draymond Green",
        "Green"
@@ -9837,8 +10157,10 @@
      {
       "display": "Fred VanVleet",
       "accept": [
+       "FVV",
        "Fred",
        "Fred VanVleet",
+       "Steady Freddy",
        "VanVleet"
       ],
       "detail": "Victor got Fred VanVleet in a trade with Papo on October 4, 2024."
@@ -9855,6 +10177,7 @@
      {
       "display": "Jonas Valančiūnas",
       "accept": [
+       "JV",
        "Jonas",
        "Jonas Valančiūnas",
        "Valančiūnas"
@@ -10150,6 +10473,7 @@
        "Alexander",
        "Gilgeous",
        "Gilgeous-Alexander",
+       "SGA",
        "Shai",
        "Shai Gilgeous-Alexander"
       ],
@@ -10591,7 +10915,9 @@
       "accept": [
        "Embiid",
        "Joel",
-       "Joel Embiid"
+       "Joel Embiid",
+       "Jojo",
+       "The Process"
       ],
       "detail": "Taken 7th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
      }
@@ -10614,6 +10940,7 @@
       "accept": [
        "Alperen",
        "Alperen Şengün",
+       "Baby Jokic",
        "Şengün"
       ],
       "detail": "Ricky got Alperen Şengün in a trade with Shueiro on July 20, 2026."
@@ -10621,6 +10948,9 @@
      {
       "display": "Anthony Edwards",
       "accept": [
+       "Ant",
+       "Ant Man",
+       "Ant-Man",
        "Anthony",
        "Anthony Edwards",
        "Edwards"
@@ -10809,6 +11139,8 @@
      {
       "display": "Damian Lillard",
       "accept": [
+       "Dame",
+       "Dame Time",
        "Damian",
        "Damian Lillard",
        "Lillard"
@@ -10828,17 +11160,22 @@
       "display": "Kevin Durant",
       "accept": [
        "Durant",
+       "Durantula",
+       "KD",
        "Kevin",
-       "Kevin Durant"
+       "Kevin Durant",
+       "Slim Reaper"
       ],
       "detail": "Taken 35th overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 1 time in Das League."
      },
      {
       "display": "Kristaps Porziņģis",
       "accept": [
+       "KP",
        "Kristaps",
        "Kristaps Porziņģis",
-       "Porziņģis"
+       "Porziņģis",
+       "Unicorn"
       ],
       "detail": "Taken 59th overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
      },
@@ -10847,7 +11184,8 @@
       "accept": [
        "Dončić",
        "Luka",
-       "Luka Dončić"
+       "Luka Dončić",
+       "Luka Magic"
       ],
       "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
      }
@@ -11014,6 +11352,8 @@
      {
       "display": "Nikola Jokić",
       "accept": [
+       "Joker",
+       "Jokic",
        "Jokić",
        "Nikola",
        "Nikola Jokić"
@@ -11208,6 +11548,8 @@
       "accept": [
        "Domantas",
        "Domantas Sabonis",
+       "Domas",
+       "Sabo",
        "Sabonis"
       ],
       "detail": "Taken 12th overall by Saboners (Verdeja) in the 2023 startup draft. Traded 2 times in Das League."
@@ -11327,16 +11669,19 @@
       "accept": [
        "Andrew",
        "Andrew Wiggins",
-       "Wiggins"
+       "Wiggins",
+       "Wiggs"
       ],
       "detail": "Papo got Andrew Wiggins in a trade with Melo on October 20, 2023. Papo has traded for Andrew Wiggins 3 times in all."
      },
      {
       "display": "Anthony Davis",
       "accept": [
+       "AD",
        "Anthony",
        "Anthony Davis",
-       "Davis"
+       "Davis",
+       "The Brow"
       ],
       "detail": "Papo got Anthony Davis in a trade with Joey on February 10, 2025."
      },
@@ -11364,6 +11709,7 @@
        "Bobby",
        "Bobby Portis",
        "Bobby Portis Jr.",
+       "Crazy Eyes",
        "Portis"
       ],
       "detail": "Papo got Bobby Portis Jr. in a trade with Winch on August 20, 2024."
@@ -11373,7 +11719,8 @@
       "accept": [
        "Bogdan",
        "Bogdan Bogdanović",
-       "Bogdanović"
+       "Bogdanović",
+       "Bogi"
       ],
       "detail": "Papo got Bogdan Bogdanović in a trade with Blandon on January 25, 2024."
      },
@@ -11381,6 +11728,7 @@
       "display": "Bradley Beal",
       "accept": [
        "Beal",
+       "Big Panda",
        "Bradley",
        "Bradley Beal"
       ],
@@ -11389,6 +11737,7 @@
      {
       "display": "Brandon Ingram",
       "accept": [
+       "BI",
        "Brandon",
        "Brandon Ingram",
        "Ingram"
@@ -11452,9 +11801,11 @@
      {
       "display": "Chris Paul",
       "accept": [
+       "CP3",
        "Chris",
        "Chris Paul",
-       "Paul"
+       "Paul",
+       "Point God"
       ],
       "detail": "Papo got Chris Paul in a trade with Winch on July 1, 2024. Papo has traded for Chris Paul 3 times in all."
      },
@@ -11472,6 +11823,8 @@
       "accept": [
        "D'Angelo",
        "D'Angelo Russell",
+       "D-Lo",
+       "DLo",
        "Russell"
       ],
       "detail": "Papo got D'Angelo Russell in a trade with Shueiro on January 30, 2024."
@@ -11535,6 +11888,7 @@
       "accept": [
        "Dennis",
        "Dennis Schröder",
+       "Schroder",
        "Schröder"
       ],
       "detail": "Papo got Dennis Schröder in a trade with Blandon on August 24, 2024. Papo has traded for Dennis Schröder 2 times in all."
@@ -11542,6 +11896,7 @@
      {
       "display": "Derrick White",
       "accept": [
+       "D White",
        "Derrick",
        "Derrick White",
        "White"
@@ -11553,6 +11908,8 @@
       "accept": [
        "Domantas",
        "Domantas Sabonis",
+       "Domas",
+       "Sabo",
        "Sabonis"
       ],
       "detail": "Papo got Domantas Sabonis in a trade with Verdeja on June 27, 2025."
@@ -11569,6 +11926,7 @@
      {
       "display": "Draymond Green",
       "accept": [
+       "Dray",
        "Draymond",
        "Draymond Green",
        "Green"
@@ -11578,8 +11936,10 @@
      {
       "display": "Fred VanVleet",
       "accept": [
+       "FVV",
        "Fred",
        "Fred VanVleet",
+       "Steady Freddy",
        "VanVleet"
       ],
       "detail": "Papo got Fred VanVleet in a trade with Winch on October 4, 2024."
@@ -11589,7 +11949,8 @@
       "accept": [
        "Antetokounmpo",
        "Giannis",
-       "Giannis Antetokounmpo"
+       "Giannis Antetokounmpo",
+       "Greek Freak"
       ],
       "detail": "Papo got Giannis Antetokounmpo in a trade with Blandon on March 31, 2025."
      },
@@ -11724,9 +12085,11 @@
      {
       "display": "James Harden",
       "accept": [
+       "Beard",
        "Harden",
        "James",
-       "James Harden"
+       "James Harden",
+       "The Beard"
       ],
       "detail": "Papo got James Harden in a trade with Winch on October 4, 2024. Papo has traded for James Harden 2 times in all."
      },
@@ -11742,10 +12105,12 @@
      {
       "display": "Jaren Jackson Jr.",
       "accept": [
+       "JJJ",
        "Jackson",
        "Jaren",
        "Jaren Jackson",
-       "Jaren Jackson Jr."
+       "Jaren Jackson Jr.",
+       "Triple J"
       ],
       "detail": "Papo got Jaren Jackson Jr. in a trade with Victor on October 4, 2024."
      },
@@ -11772,6 +12137,7 @@
       "accept": [
        "Butler",
        "Jimmy",
+       "Jimmy Buckets",
        "Jimmy Butler",
        "Jimmy Butler III"
       ],
@@ -11782,7 +12148,9 @@
       "accept": [
        "Embiid",
        "Joel",
-       "Joel Embiid"
+       "Joel Embiid",
+       "Jojo",
+       "The Process"
       ],
       "detail": "Papo got Joel Embiid in a trade with Melo on April 2, 2025."
      },
@@ -11798,6 +12166,7 @@
      {
       "display": "Jonas Valančiūnas",
       "accept": [
+       "JV",
        "Jonas",
        "Jonas Valančiūnas",
        "Valančiūnas"
@@ -11834,6 +12203,7 @@
      {
       "display": "Jusuf Nurkić",
       "accept": [
+       "Bosnian Beast",
        "Jusuf",
        "Jusuf Nurkić",
        "Nurkić"
@@ -11843,6 +12213,7 @@
      {
       "display": "Karl-Anthony Towns",
       "accept": [
+       "KAT",
        "Karl-Anthony",
        "Karl-Anthony Towns",
        "Towns"
@@ -11897,9 +12268,11 @@
      {
       "display": "Kristaps Porziņģis",
       "accept": [
+       "KP",
        "Kristaps",
        "Kristaps Porziņģis",
-       "Porziņģis"
+       "Porziņģis",
+       "Unicorn"
       ],
       "detail": "Papo got Kristaps Porziņģis in a trade with Joey on February 10, 2025."
      },
@@ -11915,6 +12288,7 @@
      {
       "display": "Kyle Kuzma",
       "accept": [
+       "Kuz",
        "Kuzma",
        "Kyle",
        "Kyle Kuzma"
@@ -11926,7 +12300,8 @@
       "accept": [
        "Ball",
        "LaMelo",
-       "LaMelo Ball"
+       "LaMelo Ball",
+       "Melo Ball"
       ],
       "detail": "Papo got LaMelo Ball in a trade with Jacobo on August 2, 2024."
      },
@@ -11942,9 +12317,13 @@
      {
       "display": "LeBron James",
       "accept": [
+       "Bron",
        "James",
+       "King James",
+       "LBJ",
        "LeBron",
-       "LeBron James"
+       "LeBron James",
+       "The King"
       ],
       "detail": "Papo got LeBron James in a trade with Joey on February 10, 2025."
      },
@@ -11969,6 +12348,7 @@
      {
       "display": "Michael Porter Jr.",
       "accept": [
+       "MPJ",
        "Michael",
        "Michael Porter",
        "Michael Porter Jr.",
@@ -12071,7 +12451,8 @@
       "accept": [
        "Pascal",
        "Pascal Siakam",
-       "Siakam"
+       "Siakam",
+       "Spicy P"
       ],
       "detail": "Papo got Pascal Siakam in a trade with Melo on August 20, 2024."
      },
@@ -12079,8 +12460,11 @@
       "display": "Paul George",
       "accept": [
        "George",
+       "PG",
+       "PG13",
        "Paul",
-       "Paul George"
+       "Paul George",
+       "Playoff P"
       ],
       "detail": "Papo got Paul George in a trade with Verdeja on February 5, 2025. Papo has traded for Paul George 3 times in all."
      },
@@ -12123,9 +12507,12 @@
      {
       "display": "Robert Williams III",
       "accept": [
+       "Rob Williams",
        "Robert",
        "Robert Williams",
        "Robert Williams III",
+       "Time Lord",
+       "Timelord",
        "Williams"
       ],
       "detail": "Papo got Robert Williams III in a trade with Melo on February 3, 2024."
@@ -12143,6 +12530,8 @@
      {
       "display": "Russell Westbrook",
       "accept": [
+       "Brodie",
+       "Russ",
        "Russell",
        "Russell Westbrook",
        "Westbrook"
@@ -12188,7 +12577,9 @@
      {
       "display": "Stephen Curry",
       "accept": [
+       "Chef Curry",
        "Curry",
+       "Steph",
        "Stephen",
        "Stephen Curry"
       ],
@@ -12630,9 +13021,11 @@
  ],
  "entities": [
   "2057 Champs",
+  "AD",
   "AJ",
   "AJ Dybantsa",
   "AJ Griffin",
+  "AR15",
   "Aaron",
   "Aaron Gordon",
   "Ace",
@@ -12655,6 +13048,7 @@
   "Alex Sarr",
   "Alexander",
   "Alexander-Walker",
+  "Alien",
   "Allen",
   "Allen Graves",
   "Alperen",
@@ -12672,6 +13066,9 @@
   "Andrew Wiggins",
   "Anfernee",
   "Anfernee Simons",
+  "Ant",
+  "Ant Man",
+  "Ant-Man",
   "Antetokounmpers",
   "Antetokounmpo",
   "Anthony",
@@ -12687,10 +13084,12 @@
   "Austin Reaves",
   "Avdija",
   "Ayton",
+  "BI",
   "BT",
   "BT69",
   "Baba",
   "Baba Miller",
+  "Baby Jokic",
   "Bagley",
   "Bailey",
   "Ball",
@@ -12703,20 +13102,26 @@
   "Barrett",
   "Bates",
   "Beal",
+  "Beard",
   "Ben",
   "Ben Saraf",
   "Ben Simmons",
+  "Benn",
   "Bennedict",
   "Bennedict Mathurin",
   "Bennett",
   "Bennett Stirtz",
   "Beringer",
   "Bey",
+  "Big Al",
+  "Big Kiwi",
+  "Big Panda",
   "Bilal",
   "Bilal Coulibaly",
   "Bitadze",
   "Black",
   "Blandon",
+  "Blue Arrow",
   "Bobby",
   "Bobby Portis",
   "Bobby Portis Jr.",
@@ -12725,12 +13130,15 @@
   "Bogdan",
   "Bogdan Bogdanović",
   "Bogdanović",
+  "Bogi",
   "Bojan",
   "Bojan Bogdanović",
   "Bones",
   "Bones Hyland",
+  "Book",
   "Booker",
   "Boozer",
+  "Bosnian Beast",
   "Boyles",
   "Bradley",
   "Bradley Beal",
@@ -12746,7 +13154,9 @@
   "Brice",
   "Brice Sensabaugh",
   "Bridges",
+  "Brodie",
   "Brogdon",
+  "Bron",
   "Bronny",
   "Bronny James",
   "Brook",
@@ -12768,6 +13178,7 @@
   "Buzelis",
   "CJ",
   "CJ McCollum",
+  "CP3",
   "Cade",
   "Cade Cunningham",
   "Caleb",
@@ -12797,6 +13208,7 @@
   "Cenac",
   "Chab",
   "Chalela",
+  "Chef Curry",
   "Chet",
   "Chet Holmgren",
   "Chris",
@@ -12834,10 +13246,15 @@
   "Corey Kispert",
   "Coulibaly",
   "Coward",
+  "Crazy Eyes",
   "Cunningham",
   "Curry",
+  "D White",
   "D'Angelo",
   "D'Angelo Russell",
+  "D-Lo",
+  "DG",
+  "DLo",
   "DaRon",
   "DaRon Holmes",
   "DaRon Holmes II",
@@ -12848,6 +13265,8 @@
   "Dalano Banton",
   "Dalton",
   "Dalton Knecht",
+  "Dame",
+  "Dame Time",
   "Damian",
   "Damian Lillard",
   "Dan",
@@ -12906,6 +13325,7 @@
   "Doctor",
   "Domantas",
   "Domantas Sabonis",
+  "Domas",
   "Donovan",
   "Donovan Clingan",
   "Donovan Mitchell",
@@ -12914,6 +13334,7 @@
   "Dončić",
   "Drake",
   "Drake Powell",
+  "Dray",
   "Draymond",
   "Draymond Green",
   "Drew",
@@ -12922,6 +13343,7 @@
   "Duop",
   "Duop Reath",
   "Durant",
+  "Durantula",
   "Duren",
   "Dybantsa",
   "Dylan",
@@ -12950,6 +13372,7 @@
   "Evan",
   "Evan Mobley",
   "Evans",
+  "FVV",
   "Fear the Brow",
   "Fears",
   "Fidel’s Accumulators",
@@ -12991,10 +13414,12 @@
   "Grant",
   "Grant Williams",
   "Graves",
+  "Greek Freak",
   "Green",
   "Griffin",
   "Grimes",
   "Hachimura",
+  "Hali",
   "Haliburton",
   "Hampton",
   "Hannes",
@@ -13012,10 +13437,13 @@
   "Hayward",
   "Henderson",
   "Hendricks",
+  "Herb",
+  "Herb Jones",
   "Herbert",
   "Herbert Jones",
   "Herro",
   "Hield",
+  "Hillbilly Kobe",
   "Holiday",
   "Holland",
   "Holmes",
@@ -13033,6 +13461,8 @@
   "Hunter",
   "Hyland",
   "I Love Dragić",
+  "IQ",
+  "Ice Trae",
   "Immanuel",
   "Immanuel Quickley",
   "Ingram",
@@ -13045,6 +13475,13 @@
   "Ivey",
   "Ivica",
   "Ivica Zubac",
+  "J-Dub",
+  "JB",
+  "JDub",
+  "JJJ",
+  "JT",
+  "JV",
+  "JWill",
   "Ja",
   "Ja Morant",
   "Ja'Kobe",
@@ -13117,6 +13554,7 @@
   "Jett",
   "Jett Howard",
   "Jimmy",
+  "Jimmy Buckets",
   "Jimmy Butler",
   "Jimmy Butler III",
   "Joan",
@@ -13133,6 +13571,9 @@
   "Johnny",
   "Johnny Furphy",
   "Johnson",
+  "Jojo",
+  "Joker",
+  "Jokic",
   "Jokić",
   "Jonas",
   "Jonas Valančiūnas",
@@ -13161,6 +13602,9 @@
   "Justin Edwards",
   "Jusuf",
   "Jusuf Nurkić",
+  "KAT",
+  "KD",
+  "KP",
   "Kalkbrenner",
   "Karaban",
   "Kareem Abdul-Jabong",
@@ -13199,9 +13643,11 @@
   "Khaman Maluach",
   "Khris",
   "Khris Middleton",
+  "King James",
   "Kingston",
   "Kingston Flemings",
   "Kispert",
+  "Klaw",
   "Klay",
   "Klay Thompson",
   "Klintman",
@@ -13220,6 +13666,7 @@
   "Kristaps",
   "Kristaps Porziņģis",
   "Kuminga",
+  "Kuz",
   "Kuzma",
   "Kyle",
   "Kyle Filipowski",
@@ -13228,6 +13675,7 @@
   "Kyrie Irving",
   "Kyshawn",
   "Kyshawn George",
+  "LBJ",
   "LaMelo",
   "LaMelo Ball",
   "LaVine",
@@ -13260,6 +13708,8 @@
   "Luka",
   "Luka Deez Nuts",
   "Luka Dončić",
+  "Luka Magic",
+  "MPJ",
   "Malcolm",
   "Malcolm Brogdon",
   "Malik",
@@ -13296,6 +13746,7 @@
   "Meleek",
   "Meleek Thomas",
   "Melo",
+  "Melo Ball",
   "Melton",
   "Micah",
   "Micah Peavy",
@@ -13381,6 +13832,8 @@
   "Oubre",
   "P.J.",
   "P.J. Washington",
+  "PG",
+  "PG13",
   "Pacôme",
   "Pacôme Dadiet",
   "Paolo",
@@ -13406,9 +13859,11 @@
   "Peyton Watson",
   "Philon",
   "Pippen",
+  "Playoff P",
   "Plumlee",
   "Podziemski",
   "Poeltl",
+  "Point God",
   "Pokuševski",
   "Poole",
   "Porter",
@@ -13454,6 +13909,7 @@
   "Risacher",
   "Rob",
   "Rob Dillingham",
+  "Rob Williams",
   "Robert",
   "Robert Williams",
   "Robert Williams III",
@@ -13468,12 +13924,15 @@
   "Rudy Gobert",
   "Rui",
   "Rui Hachimura",
+  "Russ",
   "Russell",
   "Russell Westbrook",
   "Ryan",
   "Ryan Conwell",
   "Ryan Dunn",
   "Ryan Kalkbrenner",
+  "SGA",
+  "Sabo",
   "Saboners",
   "Sabonis",
   "Saddiq",
@@ -13484,6 +13943,7 @@
   "Sasser",
   "Saunders",
   "Schifino",
+  "Schroder",
   "Schröder",
   "Scoot",
   "Scoot Henderson",
@@ -13511,13 +13971,18 @@
   "Silva",
   "Simmons",
   "Simons",
+  "Slim Reaper",
   "Smart",
   "Smith",
   "Sochan",
   "Sorber",
   "Spencer",
   "Spencer Dinwiddie",
+  "Spicy P",
+  "Spida",
+  "Steady Freddy",
   "Steinbach",
+  "Steph",
   "Stephen",
   "Stephen Curry",
   "Stephon",
@@ -13525,12 +13990,14 @@
   "Steven",
   "Steven Adams",
   "Stewart",
+  "Stifle Tower",
   "Stirtz",
   "Strus",
   "Sueiro",
   "Suggs",
   "Swain",
   "Sway",
+  "Swipa",
   "Talen",
   "Talen Horton-Tucker",
   "Tari",
@@ -13548,13 +14015,20 @@
   "Terrence Shannon Jr.",
   "Terry",
   "Terry Rozier",
+  "The Beard",
+  "The Brow",
   "The Edey and Matas Show",
+  "The King",
+  "The Klaw",
+  "The Process",
   "Thiero",
   "Thomas",
   "Thomas Sorber",
   "Thompson",
   "Tidjane",
   "Tidjane Salaün",
+  "Time Lord",
+  "Timelord",
   "Timme",
   "Tobias",
   "Tobias Harris",
@@ -13574,6 +14048,7 @@
   "Trey",
   "Trey Murphy",
   "Trey Murphy III",
+  "Triple J",
   "Tristan",
   "Tristan Vukcevic",
   "Tristan da Silva",
@@ -13589,6 +14064,8 @@
   "Tyson",
   "Tyus",
   "Tyus Jones",
+  "Uncle Drew",
+  "Unicorn",
   "VJ",
   "VJ Edgecombe",
   "Valančiūnas",
@@ -13601,6 +14078,7 @@
   "Vic",
   "Victor",
   "Victor Wembanyama",
+  "Vooch",
   "Vukcevic",
   "Vučević",
   "Wagler",
@@ -13616,7 +14094,9 @@
   "Washington",
   "Watson",
   "Wells",
+  "Wemb",
   "Wembanyama",
+  "Wemby",
   "Wendell",
   "Wendell Carter",
   "Wendell Carter Jr.",
@@ -13625,6 +14105,7 @@
   "Whitehead",
   "Whitmore",
   "Wiggins",
+  "Wiggs",
   "Williams",
   "Williamson",
   "Wilson",
@@ -13638,6 +14119,7 @@
   "Yaxel",
   "Yaxel Lendeborg",
   "Young",
+  "Young Bull",
   "Yves",
   "Yves Missi",
   "Zaccharie",
@@ -13648,6 +14130,7 @@
   "Zach LaVine",
   "Zion",
   "Zion Williamson",
+  "Zo",
   "Zubac",
   "Zuby",
   "Zuby Ejiofor",

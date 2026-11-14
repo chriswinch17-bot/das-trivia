@@ -1,0 +1,253 @@
+{
+  "_note": "NBA player nicknames accepted as answers in Das Trivia and found by the Das Grids search. Use the player's exact name as Sleeper spells it (accents and Jr./III included). Add or remove freely, then rebuild (or wait for the nightly refresh). A nickname may belong to one player only; the build stops and says so if two players share one.",
+  "nicknames": {
+    "Victor Wembanyama": [
+      "Wemby",
+      "Wemb",
+      "Alien"
+    ],
+    "Nikola Jokić": [
+      "Joker",
+      "Jokic"
+    ],
+    "Giannis Antetokounmpo": [
+      "Greek Freak",
+      "Giannis"
+    ],
+    "Shai Gilgeous-Alexander": [
+      "SGA",
+      "Shai"
+    ],
+    "Kevin Durant": [
+      "KD",
+      "Durantula",
+      "Slim Reaper"
+    ],
+    "LeBron James": [
+      "Bron",
+      "LBJ",
+      "King James",
+      "The King"
+    ],
+    "Stephen Curry": [
+      "Steph",
+      "Chef Curry"
+    ],
+    "Anthony Edwards": [
+      "Ant",
+      "Ant Man",
+      "Ant-Man"
+    ],
+    "Anthony Davis": [
+      "AD",
+      "The Brow"
+    ],
+    "Luka Dončić": [
+      "Luka Magic"
+    ],
+    "Jaren Jackson Jr.": [
+      "JJJ",
+      "Triple J"
+    ],
+    "Karl-Anthony Towns": [
+      "KAT"
+    ],
+    "Devin Booker": [
+      "Book",
+      "Booker"
+    ],
+    "Kawhi Leonard": [
+      "The Klaw",
+      "Klaw"
+    ],
+    "Paul George": [
+      "PG",
+      "PG13",
+      "Playoff P"
+    ],
+    "James Harden": [
+      "The Beard",
+      "Beard"
+    ],
+    "Russell Westbrook": [
+      "Russ",
+      "Brodie"
+    ],
+    "Damian Lillard": [
+      "Dame",
+      "Dame Time"
+    ],
+    "Joel Embiid": [
+      "Jojo",
+      "The Process"
+    ],
+    "Kyrie Irving": [
+      "Uncle Drew"
+    ],
+    "Chris Paul": [
+      "CP3",
+      "Point God"
+    ],
+    "Jimmy Butler III": [
+      "Jimmy Buckets"
+    ],
+    "Draymond Green": [
+      "Dray"
+    ],
+    "Tyrese Haliburton": [
+      "Hali"
+    ],
+    "Domantas Sabonis": [
+      "Sabo",
+      "Domas"
+    ],
+    "Alperen Şengün": [
+      "Baby Jokic"
+    ],
+    "Trae Young": [
+      "Ice Trae"
+    ],
+    "Donovan Mitchell": [
+      "Spida"
+    ],
+    "Pascal Siakam": [
+      "Spicy P"
+    ],
+    "Kristaps Porziņģis": [
+      "KP",
+      "Unicorn"
+    ],
+    "Jalen Williams": [
+      "J-Dub",
+      "JDub",
+      "JWill"
+    ],
+    "Fred VanVleet": [
+      "FVV",
+      "Steady Freddy"
+    ],
+    "Lonzo Ball": [
+      "Zo"
+    ],
+    "LaMelo Ball": [
+      "Melo Ball"
+    ],
+    "Jamal Murray": [
+      "Blue Arrow"
+    ],
+    "Michael Porter Jr.": [
+      "MPJ"
+    ],
+    "De'Aaron Fox": [
+      "Swipa"
+    ],
+    "Brandon Ingram": [
+      "BI"
+    ],
+    "Rudy Gobert": [
+      "Stifle Tower"
+    ],
+    "Andrew Wiggins": [
+      "Wiggs"
+    ],
+    "Kyle Kuzma": [
+      "Kuz"
+    ],
+    "Bradley Beal": [
+      "Big Panda"
+    ],
+    "Bogdan Bogdanović": [
+      "Bogi"
+    ],
+    "Nikola Vučević": [
+      "Vooch"
+    ],
+    "Jusuf Nurkić": [
+      "Bosnian Beast"
+    ],
+    "Jonas Valančiūnas": [
+      "JV"
+    ],
+    "Tim Hardaway Jr.": [
+      "THJ"
+    ],
+    "Robert Williams III": [
+      "Timelord",
+      "Time Lord",
+      "Rob Williams"
+    ],
+    "Collin Sexton": [
+      "Young Bull"
+    ],
+    "Bennedict Mathurin": [
+      "Benn"
+    ],
+    "Alex Caruso": [
+      "Bald Mamba"
+    ],
+    "Immanuel Quickley": [
+      "IQ"
+    ],
+    "Zion Williamson": [
+      "Zion"
+    ],
+    "Jayson Tatum": [
+      "JT"
+    ],
+    "Jaylen Brown": [
+      "JB"
+    ],
+    "Jalen Brunson": [
+      "Brunson"
+    ],
+    "Derrick White": [
+      "D White"
+    ],
+    "OG Anunoby": [
+      "OG"
+    ],
+    "Cade Cunningham": [
+      "Cade"
+    ],
+    "Paolo Banchero": [
+      "Paolo"
+    ],
+    "Chet Holmgren": [
+      "Chet"
+    ],
+    "Darius Garland": [
+      "DG"
+    ],
+    "Franz Wagner": [
+      "Franz"
+    ],
+    "Austin Reaves": [
+      "AR15",
+      "Hillbilly Kobe"
+    ],
+    "D'Angelo Russell": [
+      "DLo",
+      "D-Lo"
+    ],
+    "Klay Thompson": [
+      "Klay"
+    ],
+    "Al Horford": [
+      "Big Al"
+    ],
+    "Steven Adams": [
+      "Big Kiwi"
+    ],
+    "Dennis Schröder": [
+      "Schroder"
+    ],
+    "Herbert Jones": [
+      "Herb",
+      "Herb Jones"
+    ],
+    "Bobby Portis Jr.": [
+      "Bobby Portis",
+      "Crazy Eyes"
+    ]
+  }
+}

@@ -113,7 +113,7 @@ class Puzzles(unittest.TestCase):
         self.assertEqual(set(GRIDS), {"title", "start_date", "reset_hour_et", "teams", "daily", "unlimited",
                                       "search", "players", "deep_cut_weeks", "league_size"})
         rostered = {pid for _, pid in LINKS}
-        searchable = {pid for pid, _ in GRIDS["search"]}
+        searchable = {row[0] for row in GRIDS["search"]}
         self.assertTrue(rostered < searchable, "search must also list players nobody rostered")
 
 

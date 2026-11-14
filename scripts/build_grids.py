@@ -26,6 +26,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from grids_history import DEEP_CUT_WEEKS, answers_for, build_history, is_deep_cut  # noqa: E402
+from nicknames import load_nicknames  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_PUBLIC = ROOT / "site" / "data" / "grids.json"
@@ -125,6 +126,7 @@ def main():
 
     # ---------- public file: teams and search names only ----------
     rostered = sorted({pid for (_, pid) in links})
+    nicks = load_nicknames(set(names.values()))
     others = sorted(set(names) - set(rostered))
     teams = {m: {"name": managers[m]["name"], "team": current_team(m)} for m in ids}
     OUT_PUBLIC.write_text(json.dumps({
@@ -135,7 +137,8 @@ def main():
         "daily": daily,
         "unlimited": unlimited,
         # every NBA player Sleeper knows, so the search list never hints at who is a right answer
-        "search": [[pid, names[pid]] for pid in rostered + others],
+        # [id, name] or [id, name, [nicknames]] so "Wemby" finds Victor Wembanyama
+        "search": [[pid, names[pid]] + ([nicks[names[pid]]] if names[pid] in nicks else []) for pid in rostered + others],
         "players": [{"id": m, "name": managers[m]["name"]} for m in ids],
         "deep_cut_weeks": DEEP_CUT_WEEKS,
         "league_size": LEAGUE_SIZE,

@@ -225,7 +225,7 @@
     const found = [];
     for (const p of search) {
       let rank = -1;
-      if (p.key.startsWith(q)) rank = 0;
+      if (p.key.startsWith(q) || p.nicks.some((n) => n.replace(/ /g, "") === q.replace(/ /g, ""))) rank = 0;
       else if (p.words.some((w) => w.startsWith(q))) rank = 1;
       else if (p.key.replace(/ /g, "").includes(q.replace(/ /g, ""))) rank = 2;
       if (rank >= 0) found.push([rank, p]);
@@ -462,9 +462,10 @@
       $("grid-board").replaceChildren(el("p", "fine", "The grids didn't load. Refresh to try again."));
       return;
     }
-    search = data.search.map(([id, name]) => {
+    search = data.search.map(([id, name, nicknames]) => {
       const key = normalize(name);
-      return { id, name, key, words: key.split(" ") };
+      const nicks = (nicknames || []).map(normalize);      // "wemby", "joker", "sga"...
+      return { id, name, key, words: key.split(" ").concat(nicks.flatMap((n) => n.split(" "))), nicks };
     });
 
     const today = Math.min(data.daily.length, Math.max(1, daysBetween(data.start_date, gridDate()) + 1));
