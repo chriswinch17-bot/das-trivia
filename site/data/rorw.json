@@ -238,6 +238,172 @@
   ],
   [
    {
+    "id": "rw-2026-11-14-1950",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1950",
+     "name": "Robert Williams III",
+     "pos": "C",
+     "nba": "POR",
+     "gp": 9,
+     "fpg": 25.2,
+     "line": "7.6 pts · 6.6 reb · 0.9 ast",
+     "teams": 8
+    },
+    "recap": "Robert Williams III (C, POR): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Fear the Brow (Papo)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Fear the Brow (Papo) has had him since Nov 13. He's averaging 25.2 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-14-2329",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2329",
+     "name": "Sam Hauser",
+     "pos": "PF",
+     "nba": "BOS",
+     "gp": 12,
+     "fpg": 18.1,
+     "line": "8.1 pts · 3.6 reb · 1.1 ast",
+     "teams": 7
+    },
+    "recap": "Sam Hauser (PF, BOS): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 7 Das League teams. He's averaging 18.1 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-14-1602",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "1602",
+     "name": "T.J. McConnell",
+     "pos": "PG",
+     "nba": "IND",
+     "gp": 3,
+     "fpg": 15.0,
+     "line": "5.0 pts · 1.7 reb · 3.7 ast",
+     "teams": 9
+    },
+    "recap": "T.J. McConnell (PG, IND): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 9 Das League teams. He's averaging 15.0 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-14-2620",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2620",
+     "name": "Scoot Henderson",
+     "pos": "PG",
+     "nba": "POR",
+     "gp": 11,
+     "fpg": 10.5,
+     "line": "8.4 pts · 2.1 reb · 1.5 ast",
+     "teams": 2
+    },
+    "recap": "Scoot Henderson (PG, POR): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Fear the Brow (Papo)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Fear the Brow (Papo) has had him since Nov 6. He's averaging 10.5 fantasy points a game, the 4th lowest of the 176 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-14-2260",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2260",
+     "name": "Isaiah Jackson",
+     "pos": "C",
+     "nba": "LAC",
+     "gp": 9,
+     "fpg": 25.0,
+     "line": "8.1 pts · 5.9 reb · 2.0 ast",
+     "teams": 8
+    },
+    "recap": "Isaiah Jackson (C, LAC): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Equipo Winchenzo (Winch)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Equipo Winchenzo (Winch) has had him since Nov 13. He's averaging 25.0 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
     "id": "rw-2026-11-14-1932",
     "text": "Rostered or waiver?",
     "kind": "rw",
@@ -270,194 +436,28 @@
     ]
    },
    {
-    "id": "rw-2026-11-14-2095",
+    "id": "rw-2026-11-14-1999",
     "text": "Rostered or waiver?",
     "kind": "rw",
     "yes": false,
     "player": {
-     "id": "2095",
-     "name": "Luguentz Dort",
+     "id": "1999",
+     "name": "Max Strus",
      "pos": "SF",
-     "nba": "ATL",
-     "gp": 12,
-     "fpg": 20.1,
-     "line": "9.3 pts · 3.2 reb · 1.8 ast",
-     "teams": 9
-    },
-    "recap": "Luguentz Dort (SF, ATL): rostered or waiver?",
-    "answers": [
-     {
-      "display": "WAIVER: he's a free agent",
-      "accept": [
-       "waiver"
-      ],
-      "detail": "Nobody has him. He's been on 9 Das League teams. Papo dropped him on Nov 10. He's averaging 20.1 fantasy points a game."
-     }
-    ],
-    "note": null,
-    "about": [],
-    "sources": [
-     "Sleeper live rosters, transactions and season stats",
-     "data/raw/sleeper"
-    ]
-   },
-   {
-    "id": "rw-2026-11-14-2581",
-    "text": "Rostered or waiver?",
-    "kind": "rw",
-    "yes": true,
-    "player": {
-     "id": "2581",
-     "name": "Brice Sensabaugh",
-     "pos": "SF",
-     "nba": "UTA",
-     "gp": 12,
-     "fpg": 15.7,
-     "line": "8.1 pts · 2.9 reb · 1.3 ast",
-     "teams": 1
-    },
-    "recap": "Brice Sensabaugh (SF, UTA): rostered or waiver?",
-    "answers": [
-     {
-      "display": "ROSTERED by Lochte & Associates (Chalela)",
-      "accept": [
-       "rostered"
-      ],
-      "detail": "Lochte & Associates (Chalela) has had him since before this season. He's averaging 15.7 fantasy points a game, the 11th lowest of the 176 rostered players who've played."
-     }
-    ],
-    "note": null,
-    "about": [
-     "chalela"
-    ],
-    "sources": [
-     "Sleeper live rosters, transactions and season stats",
-     "data/raw/sleeper"
-    ]
-   },
-   {
-    "id": "rw-2026-11-14-1585",
-    "text": "Rostered or waiver?",
-    "kind": "rw",
-    "yes": true,
-    "player": {
-     "id": "1585",
-     "name": "Aaron Gordon",
-     "pos": "PF",
-     "nba": "DEN",
-     "gp": 10,
-     "fpg": 24.2,
-     "line": "11.0 pts · 5.0 reb · 2.1 ast",
-     "teams": 1
-    },
-    "recap": "Aaron Gordon (PF, DEN): rostered or waiver?",
-    "answers": [
-     {
-      "display": "ROSTERED by Equipo Winchenzo (Winch)",
-      "accept": [
-       "rostered"
-      ],
-      "detail": "Equipo Winchenzo (Winch) has had him since before this season. He's averaging 24.2 fantasy points a game."
-     }
-    ],
-    "note": null,
-    "about": [
-     "winch"
-    ],
-    "sources": [
-     "Sleeper live rosters, transactions and season stats",
-     "data/raw/sleeper"
-    ]
-   },
-   {
-    "id": "rw-2026-11-14-1486",
-    "text": "Rostered or waiver?",
-    "kind": "rw",
-    "yes": true,
-    "player": {
-     "id": "1486",
-     "name": "Nikola Vučević",
-     "pos": "C",
-     "nba": "ORL",
-     "gp": 11,
-     "fpg": 9.0,
-     "line": "2.7 pts · 2.8 reb · 1.2 ast",
-     "teams": 1
-    },
-    "recap": "Nikola Vučević (C, ORL): rostered or waiver?",
-    "answers": [
-     {
-      "display": "ROSTERED by Lochte & Associates (Chalela)",
-      "accept": [
-       "rostered"
-      ],
-      "detail": "Lochte & Associates (Chalela) has had him since before this season. He's averaging 9.0 fantasy points a game, the 1st lowest of the 176 rostered players who've played."
-     }
-    ],
-    "note": null,
-    "about": [
-     "chalela"
-    ],
-    "sources": [
-     "Sleeper live rosters, transactions and season stats",
-     "data/raw/sleeper"
-    ]
-   },
-   {
-    "id": "rw-2026-11-14-2432",
-    "text": "Rostered or waiver?",
-    "kind": "rw",
-    "yes": false,
-    "player": {
-     "id": "2432",
-     "name": "Keon Ellis",
-     "pos": "PG",
-     "nba": "BKN",
-     "gp": 10,
-     "fpg": 18.9,
-     "line": "5.0 pts · 1.9 reb · 2.1 ast",
-     "teams": 7
-    },
-    "recap": "Keon Ellis (PG, BKN): rostered or waiver?",
-    "answers": [
-     {
-      "display": "WAIVER: he's a free agent",
-      "accept": [
-       "waiver"
-      ],
-      "detail": "Nobody has him. He's been on 7 Das League teams. Papo dropped him on Nov 11. He's averaging 18.9 fantasy points a game."
-     }
-    ],
-    "note": null,
-    "about": [],
-    "sources": [
-     "Sleeper live rosters, transactions and season stats",
-     "data/raw/sleeper"
-    ]
-   },
-   {
-    "id": "rw-2026-11-14-1131",
-    "text": "Rostered or waiver?",
-    "kind": "rw",
-    "yes": false,
-    "player": {
-     "id": "1131",
-     "name": "Andre Drummond",
-     "pos": "C",
-     "nba": "NYK",
-     "gp": 11,
-     "fpg": 17.4,
-     "line": "4.3 pts · 8.0 reb · 1.4 ast",
+     "nba": "LAC",
+     "gp": 4,
+     "fpg": 23.2,
+     "line": "9.8 pts · 4.0 reb · 4.0 ast",
      "teams": 8
     },
-    "recap": "Andre Drummond (C, NYK): rostered or waiver?",
+    "recap": "Max Strus (SF, LAC): rostered or waiver?",
     "answers": [
      {
       "display": "WAIVER: he's a free agent",
       "accept": [
        "waiver"
       ],
-      "detail": "Nobody has him. He's been on 8 Das League teams. Winch dropped him on Oct 26. He's averaging 17.4 fantasy points a game."
+      "detail": "Nobody has him. He's been on 8 Das League teams. Jacobo dropped him on Nov 11. He's averaging 23.2 fantasy points a game."
      }
     ],
     "note": null,
@@ -471,7 +471,7 @@
  ],
  "as_of": [
   "Fri Nov 13, 3:18 PM EST",
-  "Sat Nov 14, 1:14 AM EST"
+  "Sat Nov 14, 1:15 AM EST"
  ],
  "dates": [
   "2026-11-13",

@@ -170,16 +170,26 @@ def main():
         rng.shuffle(pool)
         return pool[:n]
 
+    # HARD MODE (owner's request, 2026-11-14): pick players whose numbers could go either way.
+    # The "line" is the fantasy points per game where rostered and free-agent players overlap: the
+    # middle of the worst rostered players and the best free agents. Players near that line, and players
+    # who've bounced between lots of teams, are the hardest to call.
+    worst_rostered = [fpg(p) for p in rostered[:40]]
+    best_free = sorted((fpg(p) for p in free), reverse=True)[:40]
+    line = (sorted(worst_rostered)[len(worst_rostered) // 2] + sorted(best_free)[len(best_free) // 2]) / 2
+
+    def borderline(pool, limit):
+        """Closest to the line first; being passed around a lot makes a player even more ambiguous."""
+        return sorted(pool, key=lambda p: abs(fpg(p) - line) - 1.5 * min(len(teams_had[p]), 6) - 0.5 * min(pickups[p], 6))[:limit]
+
     chosen = []
-    stinkers = rostered[:15]                                                    # the worst players on rosters
-    churn = sorted(free, key=lambda p: (-len(teams_had[p]), -pickups[p]))[:15]  # passed around, now free
-    so_so = rostered[15:50]                                                     # decoys: meh but rostered
-    good_free = sorted(free, key=lambda p: -fpg(p))[:25]                         # decoys: decent but free
-    n_rostered = rng.choice([3, 4])
-    chosen += take(stinkers, 2)
-    chosen += take(so_so, n_rostered - 2)
-    chosen += take(churn, 2)
-    chosen += take(good_free, PER_DAY - len(chosen))
+    n_rostered = rng.choice([2, 3, 3, 4, 4, 5])          # the split changes every day, so counting doesn't help
+    shockers = rostered[:12]                               # truly awful players somebody is still rostering
+    chosen += take(shockers, 1)
+    chosen += take(borderline(rostered[:80], 20), n_rostered - 1)
+    churn = [p for p in free if len(teams_had[p]) >= 3]    # picked up and dropped by lots of teams
+    chosen += take(borderline(churn, 15), min(2, PER_DAY - len(chosen)))
+    chosen += take(borderline(free, 25), PER_DAY - len(chosen))
     if len(chosen) < PER_DAY:
         chosen += take(free + rostered, PER_DAY - len(chosen))
     rng.shuffle(chosen)
@@ -223,7 +233,7 @@ def main():
         })
 
     assert len(questions) == PER_DAY and len({q["player"]["id"] for q in questions}) == PER_DAY
-    assert 3 <= sum(q["yes"] for q in questions) <= 4
+    assert 2 <= sum(q["yes"] for q in questions) <= 5
 
     while len(days) < number:
         days.append(None)

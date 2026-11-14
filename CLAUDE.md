@@ -147,8 +147,9 @@ The owner has essentially no coding or web development experience.
   home and results) lists every earlier day's board per game; today's is left out so nobody sees answers early.
 - **Rostered or Waiver** (`?mode=rorw`): 7 players a day, 20-second timer, buttons Rostered / Waiver. Each card shows
   name, position, NBA team, games, fantasy points per game (season stats x this league's scoring), a stat line and
-  how many Das League teams he's been on; never the team. Mix: 2 worst rostered + 1-2 so-so rostered, 2 most-passed-
-  around free agents + decent free agents (3-4 rostered). `scripts/build_rorw.py` downloads Sleeper LIVE (rosters,
+  how many Das League teams he's been on; never the team. HARD mix (owner, 2026-11-14): 1 truly awful rostered
+  player, the rest picked closest to the "line" where rostered and free-agent fantasy points overlap, favouring
+  players passed around many teams; 2-5 rostered, varying daily. `scripts/build_rorw.py` downloads Sleeper LIVE (rosters,
   this season's transactions, stats, players) and freezes today's answers as of that moment ("rosters as of ...").
   `.github/workflows/rorw-refresh.yml` runs it just after midnight ET (05:05 UTC winter / 04:05 UTC summer), commits
   `site/data/rorw.json` and republishes. Before that runs, the game shows the previous day's. Board = 70000 + day.
