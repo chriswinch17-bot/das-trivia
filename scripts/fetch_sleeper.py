@@ -93,9 +93,11 @@ def fetch_season(league_id):
 
 
 def main():
-    if len(sys.argv) != 2 or not sys.argv[1].isdigit():
+    if len(sys.argv) < 2 or not sys.argv[1].isdigit():
         sys.exit("Usage: python scripts/fetch_sleeper.py LEAGUE_ID   (the long number in the league's URL)")
 
+    # --current-only: just this season (the nightly job); earlier seasons never change
+    current_only = "--current-only" in sys.argv
     seasons = []
     seen = set()
     league_id = sys.argv[1]
@@ -103,6 +105,12 @@ def main():
         seen.add(league_id)
         summary, league_id = fetch_season(league_id)
         seasons.append(summary)
+        if current_only:
+            old = OUT / "_summary.json"
+            if old.exists():
+                kept = [s for s in json.loads(old.read_text(encoding="utf-8"))["seasons"] if s["season"] != summary["season"]]
+                seasons = kept + seasons
+            break
 
     print("\nDownloading the NBA player list (turns player ID numbers into names)...")
     save(OUT, "players_nba", get("/players/nba"))

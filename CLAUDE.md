@@ -155,6 +155,12 @@ The owner has essentially no coding or web development experience.
   `site/data/rorw.json` and republishes. Before that runs, the game shows the previous day's. Board = 70000 + day.
   **Because that job commits to `main` every morning, always `git pull --rebase` before pushing.**
 - **Every game resets at midnight Eastern** (owner's request, 2026-11-14).
+- **Nightly automation** (owner's request, 2026-11-14): `.github/workflows/rorw-refresh.yml` runs `scripts/nightly.py`
+  just after midnight ET: Sleeper current season (`fetch_sleeper.py --current-only`) -> build_data -> build_questions,
+  build_papo, build_team (each tops itself up to 21 days ahead via `scripts/daily.py`, reusing the least recently
+  asked questions once new ones run out; days never shift) -> tests -> build_rorw. If the refresh or tests fail, those
+  changes are discarded and only Rostered or Waiver is rebuilt. Das Grids is not refreshed nightly (365 grids built;
+  its roster history lives in Supabase and needs the SQL file pasted after `build_grids.py`).
 - Testing: open the site with `?test` on the address to replay without saving; `?test&day=3` plays Game #3.
 - Local preview: `python -m http.server 8123 --bind 127.0.0.1 --directory site`, then http://localhost:8123.
 - Scoring is a stand-in (100 + 2 per second left) until rarity scoring arrives in Phase 4.

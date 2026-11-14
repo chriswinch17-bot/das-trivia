@@ -25,13 +25,14 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from grids_history import build_history  # noqa: E402
+from daily import extend_schedule, fill_missing  # noqa: E402
 
 DATA = Path(__file__).resolve().parent.parent / "site" / "data"
 START_DATE = "2026-11-11"   # the day What team am I? #1 falls on. Moved back a day on 2026-11-13 so that day
                             # got a fresh set (#3, Miguel first) after #2 had already been played.
 CUSTOM = Path(__file__).resolve().parent.parent / "data" / "team_custom.json"
 PER_DAY = 2
-ROUNDS = 3
+ROUNDS = 8                  # clue sets per manager (set 4 is skipped: it's used by the hand-set days)
 FIRST = "joey"              # the owner asked for Joey's team to open the game
 POINTS = [100, 80, 60, 40, 20]
 
@@ -157,7 +158,7 @@ def main():
 
     # Round 1 opens with FIRST; every round has each manager once, in a shuffled order.
     order = []
-    for k in range(ROUNDS):
+    for k in [r for r in range(ROUNDS + 1) if r != 3]:
         mids = [m for m in managers if not (k == 0 and m == FIRST)]
         rng.shuffle(mids)
         order += [question(m, k) for m in ([FIRST] if k == 0 else []) + mids]
@@ -198,7 +199,7 @@ def main():
     scheduled = [[q["id"] for q in day] for day in json.loads(out.read_text(encoding="utf-8"))["days"]] if out.exists() else []
     by_id = {q["id"]: q for q in order}
     by_id.update({qid: v[2] for qid, v in custom_questions.items()})
-    days = [[by_id[i] for i in day] for day in scheduled if all(i in by_id for i in day)]
+    days = [[by_id[i] for i in day if i in by_id] for day in scheduled]   # never dropped: numbers never shift
     used = {q["id"] for day in days for q in day}
     spare = [q for q in order if q["id"] not in used]
     while len(spare) >= PER_DAY:
@@ -206,6 +207,13 @@ def main():
     for qid, (n, pos, cq) in custom_questions.items():
         if days[n - 1][pos]["id"] != qid:
             days[n - 1][pos] = cq      # the regular question it replaces comes back as a spare on a later rebuild
+
+    # two different managers a day, also when reusing clue sets not seen for the longest time
+    def different(day, q):
+        return all(d["answers"][0]["manager"] != q["answers"][0]["manager"] for d in day)
+
+    fill_missing(days, order, PER_DAY, different)
+    extend_schedule(days, order, PER_DAY, START_DATE, "team", different)
 
     entities = sorted({a for q in order for a in q["answers"][0]["accept"]})
     out.write_text(json.dumps({

@@ -15,6 +15,10 @@ import json
 import random
 from datetime import datetime
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from daily import extend_schedule, fill_missing  # noqa: E402
 
 DATA = Path(__file__).resolve().parent.parent / "site" / "data"
 START_DATE = "2026-11-12"   # the day Papo Trade or NOT #1 is played
@@ -86,7 +90,7 @@ def main():
     out = DATA / "papo.json"
     scheduled = [[q["id"] for q in day] for day in json.loads(out.read_text(encoding="utf-8"))["days"]] if out.exists() else []
     by_id = {q["id"]: q for q in questions}
-    days = [[by_id[i] for i in day] for day in scheduled if all(i in by_id for i in day)]
+    days = [[by_id[i] for i in day if i in by_id] for day in scheduled]   # never dropped: numbers never shift
     used = {q["id"] for day in days for q in day}
 
     # new days: 2 or 3 Papo trades in each, so "yes" is never a safe guess
@@ -102,6 +106,14 @@ def main():
         day = [yes_pool.pop() for _ in range(n_yes)] + [no_pool.pop() for _ in range(PER_DAY - n_yes)]
         rng.shuffle(day)
         days.append(day)
+
+    # 2 or 3 Papo trades a day, also when reusing trades not asked for the longest time
+    def balanced(day, q):
+        yes = sum(d["yes"] for d in day)
+        return not (q["yes"] and yes >= 3) and not (not q["yes"] and len(day) - yes >= 3)
+
+    fill_missing(days, questions, PER_DAY, balanced)
+    extend_schedule(days, questions, PER_DAY, START_DATE, "papo", balanced)
 
     out.write_text(json.dumps({
         "title": "Papo Trade or NOT",

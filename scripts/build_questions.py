@@ -16,6 +16,10 @@ import random
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from daily import extend_schedule, fill_missing  # noqa: E402
 
 DATA = Path(__file__).resolve().parent.parent / "site" / "data"
 START_DATE = "2026-11-09"      # the day Game #1 falls on. Moved back a day on 2026-11-11 at the owner's
@@ -378,10 +382,12 @@ def main():
         day = [by_id[qid] for qid in ids if qid in by_id]
         while len(day) < QUESTIONS_PER_DAY and spare:      # a question was reworded or removed
             day.append(spare.pop(0))
-        if len(day) == QUESTIONS_PER_DAY:
-            days.append(day)
+        days.append(day)                                    # never dropped, so game numbers never shift
     while len(spare) >= QUESTIONS_PER_DAY:
         days.append([spare.pop(0) for _ in range(QUESTIONS_PER_DAY)])
+    # every night: keep 3 weeks of games ahead, reusing the questions not asked for the longest time
+    fill_missing(days, order, QUESTIONS_PER_DAY)
+    extend_schedule(days, order, QUESTIONS_PER_DAY, START_DATE, "trivia")
 
     # every name the game knows, so a near-miss that is really a different person isn't accepted as a typo
     entities = set()

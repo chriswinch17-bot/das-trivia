@@ -1,9 +1,9 @@
-# Every morning: download Sleeper's live rosters, build today's Rostered or Waiver game, save it, and
-# republish the site. Runs just after midnight Eastern, so it resets with every other game: 05:05 UTC in
+# Every night: refresh this season from Sleeper, top up every daily game (scripts/nightly.py), build
+# today's Rostered or Waiver from the live rosters, save it all, and republish the site. Runs just after midnight Eastern, so it resets with every other game: 05:05 UTC in
 # winter, 04:05 UTC in summer. Both times are listed; the one that isn't after midnight Eastern finds that
 # day's game already built and does nothing. It can also be
 # started by hand from the repository's Actions tab ("Run workflow").
-name: Morning roster refresh
+name: Nightly refresh (all games)
 
 on:
   schedule:
@@ -31,15 +31,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Build today's game from this morning's rosters
-        run: python scripts/build_rorw.py
+      - name: Refresh the data and build today's games
+        run: python scripts/nightly.py
       - name: Save it to the repository
         run: |
           git config user.name "das-trivia-bot"
           git config user.email "das-trivia-bot@users.noreply.github.com"
-          git add site/data/rorw.json
+          git add data site/data
           if ! git diff --cached --quiet; then
-            git commit -m "Rostered or Waiver: today's game from this morning's rosters"
+            git commit -m "Nightly refresh: Sleeper data, every game topped up, today's Rostered or Waiver"
             git push
           fi
       # A save made by this job doesn't start the normal publish job, so publish here.
