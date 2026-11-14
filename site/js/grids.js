@@ -60,7 +60,7 @@
     }
     return prev[b.length];
   }
-  function gridDate() {      // the Eastern date, rolling over at 8 PM so each daily grid opens at 8 PM ET
+  function gridDate() {      // the Eastern date; reset_hour_et 24 = a new grid at midnight ET
     const later = new Date(Date.now() + (24 - data.reset_hour_et) * 3600 * 1000);
     return new Intl.DateTimeFormat("en-CA", { timeZone: TIME_ZONE, year: "numeric", month: "2-digit", day: "2-digit" }).format(later);
   }
@@ -333,7 +333,7 @@
     $("res-score").textContent = fmt(score());
     $("res-note").textContent = testMode ? "Practice mode: this grid isn't saved to the leaderboard."
       : closed() ? "This grid is closed. Archive play is practice and doesn't count."
-      : kind === "daily" ? "Lower is better. Your score moves as the rest of the league plays, and is final when this grid closes at 8 PM ET."
+      : kind === "daily" ? "Lower is better. Your score moves as the rest of the league plays, and is final when this grid closes at midnight ET."
       : "Lower is better. Your score moves as more people play this grid.";
     const mini = $("res-grid");
     mini.replaceChildren();
@@ -394,7 +394,7 @@
       });
       status.textContent = !rows.length ? "Nobody has played this grid yet."
         : rows[0].final ? "Final. Most squares first, then the lowest rarity score."
-        : kind === "daily" ? "Live: scores move as the league plays, and are final at 8 PM ET. Most squares first, then the lowest score."
+        : kind === "daily" ? "Live: scores move as the league plays, and are final at midnight ET. Most squares first, then the lowest score."
         : "Live: most squares first, then the lowest rarity score.";
     } catch (e) {
       status.textContent = "Couldn't load the leaderboard right now.";
@@ -418,7 +418,7 @@
     } catch (e) { /* keep the saved numbers */ }
   }
 
-  // a daily grid closes at 8 PM ET on its day; after that it's archive practice
+  // a daily grid closes at midnight ET at the end of its day; after that it's archive practice
   function closed() {
     return kind === "daily" && number < Math.max(1, daysBetween(data.start_date, gridDate()) + 1);
   }

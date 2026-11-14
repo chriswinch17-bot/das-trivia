@@ -1,11 +1,14 @@
 # Every morning: download Sleeper's live rosters, build today's Rostered or Waiver game, save it, and
-# republish the site. Runs at 11:00 UTC = 6 AM Eastern in winter (7 AM in summer). It can also be
+# republish the site. Runs just after midnight Eastern, so it resets with every other game: 05:05 UTC in
+# winter, 04:05 UTC in summer. Both times are listed; the one that isn't after midnight Eastern finds that
+# day's game already built and does nothing. It can also be
 # started by hand from the repository's Actions tab ("Run workflow").
 name: Morning roster refresh
 
 on:
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "5 5 * * *"
+    - cron: "5 4 * * *"
   workflow_dispatch:
 
 permissions:

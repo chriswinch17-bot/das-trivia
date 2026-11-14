@@ -130,7 +130,7 @@ The owner has essentially no coding or web development experience.
   after every rebuild: hidden history + puzzles + functions `grid_guess`, `grid_rarity`, `grid_finish`) and
   `admin/grids.html` (local admin page). The private files are gitignored. Answers are checked only by the
   database; picks are hidden; `grid_results` is the public leaderboard (first finish locks the score).
-  Daily grid flips at 8 PM ET (D1 = 2026-11-12); 400 unlimited grids (U1...); custom daily grids in
+  Daily grid flips at midnight ET like every game (was 8 PM until 2026-11-14; D1 = 2026-11-12); 400 unlimited grids (U1...); custom daily grids in
   `data/grids_custom.json`. Rarity is tuned for the 12-person league (owner's request, 2026-11-12): % = picks /
   max(people answering the square, 12); tiers by how many made the same pick (only you: Blue/Galaxy/Unicorn as
   more people answer; 2 Gold, 3 Silver, 4-5 Bronze, 6+ Common). Scores are live until a daily closes at 8 PM ET
@@ -150,9 +150,10 @@ The owner has essentially no coding or web development experience.
   how many Das League teams he's been on; never the team. Mix: 2 worst rostered + 1-2 so-so rostered, 2 most-passed-
   around free agents + decent free agents (3-4 rostered). `scripts/build_rorw.py` downloads Sleeper LIVE (rosters,
   this season's transactions, stats, players) and freezes today's answers as of that moment ("rosters as of ...").
-  `.github/workflows/rorw-refresh.yml` runs it every day at 11:00 UTC (6 AM ET winter / 7 AM summer), commits
+  `.github/workflows/rorw-refresh.yml` runs it just after midnight ET (05:05 UTC winter / 04:05 UTC summer), commits
   `site/data/rorw.json` and republishes. Before that runs, the game shows the previous day's. Board = 70000 + day.
   **Because that job commits to `main` every morning, always `git pull --rebase` before pushing.**
+- **Every game resets at midnight Eastern** (owner's request, 2026-11-14).
 - Testing: open the site with `?test` on the address to replay without saving; `?test&day=3` plays Game #3.
 - Local preview: `python -m http.server 8123 --bind 127.0.0.1 --directory site`, then http://localhost:8123.
 - Scoring is a stand-in (100 + 2 per second left) until rarity scoring arrives in Phase 4.

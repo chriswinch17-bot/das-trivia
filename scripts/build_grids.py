@@ -33,7 +33,7 @@ OUT_SQL = ROOT / "data" / "private" / "grids_setup.sql"
 OUT_ADMIN = ROOT / "admin" / "grids.html"
 CUSTOM = ROOT / "data" / "grids_custom.json"
 
-START_DATE = "2026-11-12"   # DAS GRIDS daily #1. A new daily grid starts at 8:00 PM Eastern.
+START_DATE = "2026-11-12"   # DAS GRIDS daily #1. A new daily grid starts at midnight Eastern (was 8 PM until 2026-11-14).
 DAILY_COUNT = 365
 UNLIMITED_COUNT = 400
 MIN_ANSWERS = 2
@@ -130,7 +130,7 @@ def main():
     OUT_PUBLIC.write_text(json.dumps({
         "title": "DAS GRIDS",
         "start_date": START_DATE,
-        "reset_hour_et": 20,
+        "reset_hour_et": 24,      # midnight, like every other game
         "teams": teams,
         "daily": daily,
         "unlimited": unlimited,
@@ -193,7 +193,7 @@ def admin_page(links, managers, names, pair, daily, unlimited, teams):
     for p in daily[:21]:
         n = int(p["id"][1:])
         day = first + timedelta(days=n - 1)
-        out.append(f"<details><summary><b>Daily #{n}</b> ({day:%a %b %d}, opens 8 PM ET the night before from #2 on): "
+        out.append(f"<details><summary><b>Daily #{n}</b> ({day:%a %b %d}, opens at midnight ET): "
                    f"rows {', '.join(teams[m]['name'] for m in p['rows'])} · columns {', '.join(teams[m]['name'] for m in p['cols'])}"
                    "</summary><table>")
         for r in p["rows"]:
@@ -263,12 +263,12 @@ alter table public.grid_results enable row level security;
 drop policy if exists "read grid results" on public.grid_results;
 create policy "read grid results" on public.grid_results for select using (true);
 
--- A daily grid is open until 8 PM Eastern on its day; after that it's an archive grid and picks
+-- A daily grid is open for its whole day (midnight to midnight Eastern); after that it's an archive grid and picks
 -- no longer count, so the day's final scores never change. Unlimited grids never close.
 create or replace function public.grid_open(p_puzzle text)
 returns boolean language sql stable as $$
   select case when p_puzzle ~ '^D[0-9]+$' then
-    now() < ((date '{{START}}' + (substring(p_puzzle from 2)::int - 1)) + time '20:00') at time zone 'America/New_York'
+    now() < ((date '{{START}}' + substring(p_puzzle from 2)::int)::timestamp) at time zone 'America/New_York'
   else true end;
 $$;
 
