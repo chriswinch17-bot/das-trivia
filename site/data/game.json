@@ -12967,6 +12967,269 @@
      "seasons.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "d94c6f7c",
+    "text": "Name one of the three highest-scoring teams of the 2025-2026 regular season.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel",
+      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
+     },
+     {
+      "display": "LeBong James 👑 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo",
+      "detail": "Melo went 12-8 in the 2025-2026 regular season (4th of 12) with 9,857 points, then lost in the first round of the playoffs."
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "6ecf4d2a",
+    "text": "Which team was on the wrong end of the biggest blowout of the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "MoonUnit (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky",
+      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
+     }
+    ],
+    "note": "Lost 243-492 to I Love Dragić (Victor) in week 16.",
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "ce987ff5",
+    "text": "Which team lost the closest game of the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela",
+      "detail": "Chalela went 9-9 in the 2023-2024 regular season (7th of 12) with 8,286 points and missed the playoffs."
+     },
+     {
+      "display": "MoonUnit (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky",
+      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
+     }
+    ],
+    "note": "2 games that season were decided by 1.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "b87cd10d",
+    "text": "Name one of the first five players Kareem Abdul-Jabong (Melo) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "BI",
+       "Brandon",
+       "Brandon Ingram",
+       "Ingram"
+      ],
+      "detail": "Taken 31st overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 8 times in Das League."
+     },
+     {
+      "display": "Dejounte Murray",
+      "accept": [
+       "Dejounte",
+       "Dejounte Murray",
+       "Murray"
+      ],
+      "detail": "Taken 42nd overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 3 times in Das League."
+     },
+     {
+      "display": "Donovan Mitchell",
+      "accept": [
+       "Donovan",
+       "Donovan Mitchell",
+       "Mitchell",
+       "Spida"
+      ],
+      "detail": "Taken 18th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
+     },
+     {
+      "display": "Joel Embiid",
+      "accept": [
+       "Embiid",
+       "Joel",
+       "Joel Embiid",
+       "Jojo",
+       "The Process"
+      ],
+      "detail": "Taken 7th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
+     },
+     {
+      "display": "Pascal Siakam",
+      "accept": [
+       "Pascal",
+       "Pascal Siakam",
+       "Siakam",
+       "Spicy P"
+      ],
+      "detail": "Taken 55th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 2 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "5bef8237",
+    "text": "Who scored the fewest points in the 2025-2026 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Blandon went 5-15 in the 2025-2026 regular season (11th of 12) with 7,866 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "ab031009",
+    "text": "Who did Equipo Winchenzo (Winch) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Jayson Tatum",
+      "accept": [
+       "JT",
+       "Jayson",
+       "Jayson Tatum",
+       "Tatum"
+      ],
+      "detail": "Taken 10th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "f1e704f9",
+    "text": "Who lost in the 2023-2024 championship final?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Luka Deez Nuts (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 11-7 in the 2023-2024 regular season (5th of 12) with 9,052 points, then lost in the final."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   }
   ]
  ],
  "players": [

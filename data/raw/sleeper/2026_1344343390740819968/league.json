@@ -56,10 +56,8 @@
  "avatar": "7ce9f97322fa539a3dff86b3a900c509",
  "company_id": null,
  "league_id": "1344343390740819968",
- "sport": "nba",
- "season_type": "regular",
- "season": "2026",
  "shard": 358,
+ "season": "2026",
  "scoring_settings": {
   "ast": 2.0,
   "blk": 4.0,
@@ -80,8 +78,9 @@
   "to": -2.0,
   "tpm": 1.0
  },
+ "season_type": "regular",
+ "sport": "nba",
  "last_message_id": "1427537747131785216",
- "draft_id": "1375319805531291648",
  "last_author_avatar": "b3338675f635c2c1f42b469621d38ec6",
  "last_author_display_name": "miguelhern99",
  "last_author_id": "862193547003187200",
@@ -91,7 +90,13 @@
  "last_message_time": 1794714030587,
  "last_pinned_message_id": null,
  "last_read_id": null,
+ "draft_id": "1375319805531291648",
  "previous_league_id": "1212546169230602240",
+ "bracket_id": null,
+ "bracket_overrides_id": null,
+ "group_id": null,
+ "loser_bracket_id": null,
+ "loser_bracket_overrides_id": null,
  "roster_positions": [
   "PG",
   "SG",
@@ -109,10 +114,5 @@
   "BN",
   "BN"
  ],
- "bracket_id": null,
- "bracket_overrides_id": null,
- "group_id": null,
- "loser_bracket_id": null,
- "loser_bracket_overrides_id": null,
  "total_rosters": 12
 }
