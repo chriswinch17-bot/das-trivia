@@ -178,7 +178,7 @@ def main():
         history.append({"manager": mid, "name": managers[mid]["name"], "team": team_now.get(mid), "seasons": points})
 
     names_by_season = {(se["season"], t["manager"]): t["team_name"] for se in seasons for t in se["standings"]}
-    trades, traders, profiles = analytics_more.build(
+    trades, traders, profiles, rivalries = analytics_more.build(
         load(ROOT / "data" / "managers.json")["managers"], seasons, matchups, load(SITE / "trades.json"), history,
         lambda season, mid: names_by_season.get((season, mid), managers[mid]["name"]))
 
@@ -187,7 +187,7 @@ def main():
         "weights": WEIGHTS, "teams": len(ids),
         "rankings": rankings,
         "history": {"seasons": [s["season"] for s in seasons], "teams": history},
-        "trades": trades, "traders": traders, "managers": profiles,
+        "trades": trades, "traders": traders, "managers": profiles, "rivalries": rivalries,
         "sources": ["site/data/matchups.json", "site/data/seasons.json", f"data/raw/sleeper/{folder.name}/matchups"],
     }
     (SITE / "analytics.json").write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")

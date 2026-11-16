@@ -258,8 +258,121 @@
     $("hist-table").innerHTML = head + `<tbody>${rows}</tbody>`;
   }
 
+  /* ---------- rivalries ---------- */
+  let rvA = null, rvB = null;
+  const rvName = (id) => data.rivalries.names[id] || id;
+  const rvShort = (id) => rvName(id).slice(0, 3);
+  function rvPair(a, b) {
+    return data.rivalries.pairs.find((p) => (p.a === a && p.b === b) || (p.a === b && p.b === a));
+  }
+  function rvRecord(p, me) {   // -> [wins, losses, ties] from me's side
+    return p.a === me ? [p.a_wins, p.b_wins, p.ties] : [p.b_wins, p.a_wins, p.ties];
+  }
+  const rvText = ([w, l, t]) => `${w}-${l}${t ? `-${t}` : ""}`;
+
+  function renderRivalGrid() {
+    const ids = data.rivalries.managers;
+    const head = `<thead><tr><th class="corner"></th>${ids.map((c) => `<th scope="col" title="${esc(rvName(c))}">${esc(rvShort(c))}</th>`).join("")}</tr></thead>`;
+    const body = ids.map((r) => `<tr><th scope="row">${esc(rvName(r))}</th>${ids.map((c) => {
+      if (r === c) return `<td class="self"></td>`;
+      const p = rvPair(r, c);
+      if (!p) return `<td class="none">–</td>`;
+      const rec = rvRecord(p, r), diff = rec[0] - rec[1];
+      const cls = diff > 0 ? "lead" : diff < 0 ? "trail" : "even";
+      const strength = Math.min(1, Math.abs(diff) / 4);
+      const on = (r === rvA && c === rvB) || (r === rvB && c === rvA);
+      return `<td class="${cls}${on ? " on" : ""}${rec[2] ? " tie" : ""}" style="--s:${strength.toFixed(2)}"><button type="button" data-a="${r}" data-b="${c}"
+        aria-label="${esc(rvName(r))} ${rvText(rec)} against ${esc(rvName(c))}">${rvText(rec)}</button></td>`;
+    }).join("")}</tr>`).join("");
+    $("rv-grid").innerHTML = head + `<tbody>${body}</tbody>`;
+    for (const b of $("rv-grid").querySelectorAll("button")) b.onclick = () => { pickRivalry(b.dataset.a, b.dataset.b); $("rv-detail").scrollIntoView({ block: "start", behavior: "smooth" }); };
+  }
+
+  function renderRivalHeads() {
+    const h = data.rivalries.headlines;
+    const card = (key, label, line) => {
+      const p = data.rivalries.pairs.find((x) => x.key === key);
+      return p ? `<button type="button" class="rv-head" data-a="${p.a}" data-b="${p.b}"><small>${label}</small><b>${esc(rvName(p.a))} vs ${esc(rvName(p.b))}</b><span>${line(p)}</span></button>` : "";
+    };
+    $("rv-heads").innerHTML =
+      card(h.lopsided, "Most one-sided", (p) => { const lead = p.a_wins >= p.b_wins ? p.a : p.b; return `${esc(rvName(lead))} leads ${rvText(rvRecord(p, lead))}`; }) +
+      card(h.even, "Dead even", (p) => `${rvText(rvRecord(p, p.a))} after ${p.a_wins + p.b_wins + p.ties} meetings`) +
+      card(h.blowout, "Biggest blowout", (p) => { const g = p.blowout; return `${Math.round(Math.abs(g.a_pts - g.b_pts))} points, ${esc(g.season)} wk ${g.week}`; });
+    for (const b of $("rv-heads").querySelectorAll(".rv-head")) b.onclick = () => { pickRivalry(b.dataset.a, b.dataset.b); $("rv-detail").scrollIntoView({ block: "start", behavior: "smooth" }); };
+  }
+
+  function pickRivalry(a, b) {
+    rvA = a; rvB = b;
+    $("rv-a").value = a; $("rv-b").value = b;
+    renderRivalGrid();
+    renderRivalDetail();
+  }
+
+  function renderRivalDetail() {
+    const box = $("rv-detail");
+    if (!rvA || !rvB || rvA === rvB) { box.innerHTML = '<p class="an-note">Pick two different teams.</p>'; return; }
+    const p = rvPair(rvA, rvB);
+    if (!p) { box.innerHTML = `<p class="an-note">${esc(rvName(rvA))} and ${esc(rvName(rvB))} have never played.</p>`; return; }
+    const A = rvA, B = rvB;
+    const [aw, bw, t] = rvRecord(p, A);
+    const ppg = (who) => (p.a === who ? p.a_ppg : p.b_ppg);
+    const ptsOf = (g, who) => (p.a === who ? g.a_pts : g.b_pts);
+    const total = aw + bw + t;
+    const lead = aw === bw ? "All square." : `${esc(rvName(aw > bw ? A : B))} owns this one.`;
+    const game = (g, label) => g ? `<div class="mg-pick"><small>${label}</small><b>${esc(rvName(g.winner || A))} ${Math.round(Math.max(g.a_pts, g.b_pts))}–${Math.round(Math.min(g.a_pts, g.b_pts))}</b>
+      <span>${esc(g.season)}, week ${g.week} · ${Math.round(Math.abs(g.a_pts - g.b_pts))} point${Math.round(Math.abs(g.a_pts - g.b_pts)) === 1 ? "" : "s"}</span></div>` : "";
+    const rows = [
+      ...p.games.map((g) => ({ when: `${shortSeason(g.season)} · wk ${g.week}`, a: ptsOf(g, A), b: ptsOf(g, B), w: g.winner, flag: g.flagged })),
+      ...p.playoffs.map((g) => ({ when: `${shortSeason(g.season)} · ${g.round}`, a: g.winner === A ? g.winner_points : g.loser_points,
+        b: g.winner === B ? g.winner_points : g.loser_points, w: g.winner, playoff: true })),
+    ];
+    box.innerHTML = `
+      <div class="rv-score">
+        <div class="${aw > bw ? "win" : ""}"><span>${esc(rvName(A))}</span><b>${aw}</b></div>
+        <i>${t ? `${t} tie${t > 1 ? "s" : ""}` : "vs"}</i>
+        <div class="${bw > aw ? "win" : ""}"><b>${bw}</b><span>${esc(rvName(B))}</span></div>
+      </div>
+      <div class="tr-share rv-bar" aria-hidden="true"><span style="width:${total ? ((aw + t / 2) / total * 100).toFixed(1) : 50}%"></span></div>
+      <p class="pr-take"><img src="images/host.webp" alt="EquipoGPT says">${lead} ${total} meeting${total === 1 ? "" : "s"}${p.playoffs.length ? `, ${p.playoffs.length} in the playoffs` : ""}.
+        ${p.streak ? (p.streak.n > 1 ? `${esc(rvName(p.streak.who))} has won the last ${p.streak.n} in a row.` : `${esc(rvName(p.streak.who))} won the last meeting.`) : ""}</p>
+      <dl class="pr-stats">
+        <div><dt>${esc(rvName(A))} pts / game</dt><dd>${Math.round(ppg(A))}</dd></div>
+        <div><dt>${esc(rvName(B))} pts / game</dt><dd>${Math.round(ppg(B))}</dd></div>
+        <div><dt>Playoff meetings</dt><dd>${p.playoffs.length}</dd></div>
+      </dl>
+      <div class="mg-picks rv-games">${game(p.blowout, "Biggest blowout")}${game(p.closest, "Closest game")}</div>
+      <table class="hist-table rv-log"><thead><tr><th>When</th><th>${esc(rvShort(A))}</th><th>${esc(rvShort(B))}</th></tr></thead><tbody>
+        ${rows.map((r) => `<tr class="${r.playoff ? "po" : ""}"><td>${r.playoff ? "🏆 " : ""}${esc(r.when)}${r.flag ? " *" : ""}</td>
+          <td class="${r.w === A ? "won" : ""}">${Math.round(r.a)}</td><td class="${r.w === B ? "won" : ""}">${Math.round(r.b)}</td></tr>`).join("")}
+      </tbody></table>
+      ${rows.some((r) => r.flag) ? '<p class="an-note small">* Sleeper\'s official result went the other way after a stat correction.</p>' : ""}
+      ${rows.some((r) => r.playoff) ? '<p class="an-note small">Playoff rounds before 2025-2026 lasted two weeks, so those scores are two-week totals.</p>' : ""}`;
+  }
+
+  function renderRivalPeople() {
+    const rec = (x) => rvText([x.w, x.l, x.t]);
+    $("rv-people").innerHTML = data.rivalries.people.map((p) => `<div class="rv-person">
+      <b>${esc(rvName(p.manager))}</b>
+      <button type="button" class="rv-chip bad" data-a="${p.manager}" data-b="${p.nemesis.vs}">😈 ${esc(rvName(p.nemesis.vs))} <i>${rec(p.nemesis)}</i></button>
+      <button type="button" class="rv-chip good" data-a="${p.manager}" data-b="${p.victim.vs}">🎯 ${esc(rvName(p.victim.vs))} <i>${rec(p.victim)}</i></button>
+    </div>`).join("");
+    for (const b of $("rv-people").querySelectorAll("button")) b.onclick = () => { pickRivalry(b.dataset.a, b.dataset.b); $("rv-detail").scrollIntoView({ block: "start", behavior: "smooth" }); };
+  }
+
+  function setupRivalries() {
+    if (!data.rivalries) return;
+    const opts = data.rivalries.managers.map((m) => `<option value="${m}">${esc(rvName(m))}</option>`).join("");
+    $("rv-a").innerHTML = opts; $("rv-b").innerHTML = opts;
+    $("rv-a").onchange = () => pickRivalry($("rv-a").value, $("rv-b").value);
+    $("rv-b").onchange = () => pickRivalry($("rv-a").value, $("rv-b").value);
+    renderRivalHeads();
+    renderRivalPeople();
+    const h = data.rivalries.pairs.find((x) => x.key === data.rivalries.headlines.lopsided);
+    pickRivalry(h.a, h.b);
+  }
+
   /* ---------- tabs ---------- */
-  const TABS = ["power", "seasons", "trades", "managers", "ask"];
+  const TABS = ["power", "seasons", "trades", "managers", "rivals", "ask"];
   function openTab(name) {
     if (!TABS.includes(name)) name = "power";
     for (const b of $("an-tabs").querySelectorAll("button")) {
@@ -454,6 +567,7 @@
       };
     }
     setupTrades();
+    setupRivalries();
     $("ask-form").onsubmit = (event) => {   // the owner's joke: every question hits the paywall
       event.preventDefault();
       openTab("ask");

@@ -173,6 +173,10 @@ The owner has essentially no coding or web development experience.
   old, < 200 points total. Best traders board = net points vs the trade's average. **Managers**: career record,
   titles, best/worst finish, trading (partner, best/worst trade links to the card), waiver pickups (best by points),
   draft grade = total "value over slot" (points minus the average of the 6 picks either side) ranked A+..F.
+  **Rivalries** tab (`tab=rivals`, `build_rivalries` in analytics_more.py): 12x12 head-to-head grid (row's record vs column,
+  regular season + playoff bracket games from seasons.json), headline cards (most one-sided, dead even, biggest blowout),
+  pair detail (series score, streak, points per game, blowout/closest, game log) and each manager's nemesis/victim
+  (3+ meetings). Flagged stat-correction games count for records but never for blowout/closest picks.
   **Ask EquipoGPT** tab (`tab=ask`) is the owner's joke: a blurred fake chat whose every question hits a paywall
   ("EquipoGPT Pro, $99.99/month, reach out to Co-Founder Jacobo at 305-JACOBO"). No AI, nothing sold or collected.
 - **Every game resets at midnight Eastern** (owner's request, 2026-11-14).

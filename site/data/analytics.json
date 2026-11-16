@@ -18687,6 +18687,5350 @@
    "take": "Still waiting on a first playoff trip, 26-32 all time."
   }
  ],
+ "rivalries": {
+  "managers": [
+   "blandon",
+   "chalela",
+   "jacobo",
+   "joey",
+   "libguel",
+   "melo",
+   "papo",
+   "ricky",
+   "shueiro",
+   "verdeja",
+   "victor",
+   "winch"
+  ],
+  "names": {
+   "winch": "Winch",
+   "libguel": "Libguel",
+   "joey": "Joey",
+   "ricky": "Ricky",
+   "victor": "Victor",
+   "melo": "Melo",
+   "shueiro": "Shueiro",
+   "jacobo": "Jacobo",
+   "papo": "Papo",
+   "chalela": "Chalela",
+   "blandon": "Blandon",
+   "verdeja": "Verdeja"
+  },
+  "pairs": [
+   {
+    "key": "blandon|chalela",
+    "a": "blandon",
+    "b": "chalela",
+    "a_wins": 2,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 452.6,
+    "b_ppg": 479.4,
+    "streak": {
+     "who": "chalela",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 1,
+     "a_pts": 328.0,
+     "b_pts": 438.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 12,
+     "a_pts": 442.0,
+     "b_pts": 456.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 11,
+      "a_pts": 486.0,
+      "b_pts": 408.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 2,
+      "a_pts": 492.0,
+      "b_pts": 526.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 13,
+      "a_pts": 515.0,
+      "b_pts": 569.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 1,
+      "a_pts": 328.0,
+      "b_pts": 438.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 12,
+      "a_pts": 442.0,
+      "b_pts": 456.0,
+      "winner": "chalela",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2024-2025",
+      "round": "Semifinal",
+      "winner": "blandon",
+      "winner_points": 1123.0,
+      "loser_points": 1026.0
+     }
+    ]
+   },
+   {
+    "key": "blandon|jacobo",
+    "a": "blandon",
+    "b": "jacobo",
+    "a_wins": 4,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 432.7,
+    "b_ppg": 413.5,
+    "streak": {
+     "who": "jacobo",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 12,
+     "a_pts": 518.0,
+     "b_pts": 401.0,
+     "winner": "blandon",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 4,
+     "a_pts": 430.0,
+     "b_pts": 416.0,
+     "winner": "blandon",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 1,
+      "a_pts": 403.0,
+      "b_pts": 332.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 12,
+      "a_pts": 518.0,
+      "b_pts": 401.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 11,
+      "a_pts": 466.0,
+      "b_pts": 431.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 4,
+      "a_pts": 430.0,
+      "b_pts": 416.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 15,
+      "a_pts": 398.0,
+      "b_pts": 446.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 3,
+      "a_pts": 381.0,
+      "b_pts": 455.0,
+      "winner": "jacobo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "blandon|joey",
+    "a": "blandon",
+    "b": "joey",
+    "a_wins": 6,
+    "b_wins": 1,
+    "ties": 0,
+    "a_ppg": 447.7,
+    "b_ppg": 412.5,
+    "streak": {
+     "who": "blandon",
+     "n": 6
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 16,
+     "a_pts": 462.0,
+     "b_pts": 348.0,
+     "winner": "blandon",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 2,
+     "a_pts": 430.0,
+     "b_pts": 406.0,
+     "winner": "blandon",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 9,
+      "a_pts": 414.0,
+      "b_pts": 455.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 5,
+      "a_pts": 526.0,
+      "b_pts": 475.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 16,
+      "a_pts": 462.0,
+      "b_pts": 348.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 2,
+      "a_pts": 430.0,
+      "b_pts": 406.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 13,
+      "a_pts": 443.0,
+      "b_pts": 415.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 2,
+      "a_pts": 411.0,
+      "b_pts": 376.0,
+      "winner": "blandon",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2024-2025",
+      "round": "Quarterfinal",
+      "winner": "blandon",
+      "winner_points": 954.0,
+      "loser_points": 768.0
+     }
+    ]
+   },
+   {
+    "key": "blandon|libguel",
+    "a": "blandon",
+    "b": "libguel",
+    "a_wins": 4,
+    "b_wins": 1,
+    "ties": 0,
+    "a_ppg": 498.4,
+    "b_ppg": 479.4,
+    "streak": {
+     "who": "libguel",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 10,
+     "a_pts": 436.0,
+     "b_pts": 532.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 6,
+     "a_pts": 539.0,
+     "b_pts": 512.0,
+     "winner": "blandon",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 5,
+      "a_pts": 449.0,
+      "b_pts": 367.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 16,
+      "a_pts": 556.0,
+      "b_pts": 525.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 6,
+      "a_pts": 539.0,
+      "b_pts": 512.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 17,
+      "a_pts": 512.0,
+      "b_pts": 461.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 10,
+      "a_pts": 436.0,
+      "b_pts": 532.0,
+      "winner": "libguel",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "blandon|melo",
+    "a": "blandon",
+    "b": "melo",
+    "a_wins": 3,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 454.5,
+    "b_ppg": 491.2,
+    "streak": {
+     "who": "melo",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 20,
+     "a_pts": 336.0,
+     "b_pts": 530.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 9,
+     "a_pts": 494.0,
+     "b_pts": 438.0,
+     "winner": "blandon",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 8,
+      "a_pts": 570.0,
+      "b_pts": 443.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 10,
+      "a_pts": 418.0,
+      "b_pts": 554.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 9,
+      "a_pts": 494.0,
+      "b_pts": 438.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 20,
+      "a_pts": 336.0,
+      "b_pts": 530.0,
+      "winner": "melo",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2023-2024",
+      "round": "Semifinal",
+      "winner": "blandon",
+      "winner_points": 989.0,
+      "loser_points": 909.0
+     },
+     {
+      "season": "2024-2025",
+      "round": "Final",
+      "winner": "melo",
+      "winner_points": 972.0,
+      "loser_points": 945.0
+     }
+    ]
+   },
+   {
+    "key": "blandon|papo",
+    "a": "blandon",
+    "b": "papo",
+    "a_wins": 4,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 457.7,
+    "b_ppg": 443.9,
+    "streak": {
+     "who": "papo",
+     "n": 3
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 12,
+     "a_pts": 557.0,
+     "b_pts": 331.0,
+     "winner": "blandon",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 14,
+     "a_pts": 468.0,
+     "b_pts": 479.0,
+     "winner": "papo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 4,
+      "a_pts": 498.0,
+      "b_pts": 434.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 15,
+      "a_pts": 533.0,
+      "b_pts": 558.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 1,
+      "a_pts": 437.0,
+      "b_pts": 405.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 12,
+      "a_pts": 557.0,
+      "b_pts": 331.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 3,
+      "a_pts": 382.0,
+      "b_pts": 504.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 14,
+      "a_pts": 468.0,
+      "b_pts": 479.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 1,
+      "a_pts": 329.0,
+      "b_pts": 396.0,
+      "winner": "papo",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2023-2024",
+      "round": "Final",
+      "winner": "blandon",
+      "winner_points": 1079.0,
+      "loser_points": 1071.0
+     }
+    ]
+   },
+   {
+    "key": "blandon|ricky",
+    "a": "blandon",
+    "b": "ricky",
+    "a_wins": 4,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 452.8,
+    "b_ppg": 399.2,
+    "streak": {
+     "who": "ricky",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 3,
+     "a_pts": 539.0,
+     "b_pts": 414.0,
+     "winner": "blandon",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 19,
+     "a_pts": 328.0,
+     "b_pts": 357.0,
+     "winner": "ricky",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 7,
+      "a_pts": 454.0,
+      "b_pts": 393.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 18,
+      "a_pts": 442.0,
+      "b_pts": 473.0,
+      "winner": "ricky",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 3,
+      "a_pts": 539.0,
+      "b_pts": 414.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 14,
+      "a_pts": 501.0,
+      "b_pts": 383.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 8,
+      "a_pts": 453.0,
+      "b_pts": 375.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 19,
+      "a_pts": 328.0,
+      "b_pts": 357.0,
+      "winner": "ricky",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "blandon|shueiro",
+    "a": "blandon",
+    "b": "shueiro",
+    "a_wins": 2,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 452.2,
+    "b_ppg": 473.2,
+    "streak": {
+     "who": "shueiro",
+     "n": 3
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 9,
+     "a_pts": 418.0,
+     "b_pts": 535.0,
+     "winner": "shueiro",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 3,
+     "a_pts": 457.0,
+     "b_pts": 438.0,
+     "winner": "blandon",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 3,
+      "a_pts": 457.0,
+      "b_pts": 438.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 14,
+      "a_pts": 519.0,
+      "b_pts": 416.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 9,
+      "a_pts": 418.0,
+      "b_pts": 535.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 7,
+      "a_pts": 515.0,
+      "b_pts": 548.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 18,
+      "a_pts": 352.0,
+      "b_pts": 429.0,
+      "winner": "shueiro",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "blandon|verdeja",
+    "a": "blandon",
+    "b": "verdeja",
+    "a_wins": 3,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 440.2,
+    "b_ppg": 415.0,
+    "streak": {
+     "who": "verdeja",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 5,
+     "a_pts": 251.0,
+     "b_pts": 433.0,
+     "winner": "verdeja",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 16,
+     "a_pts": 367.0,
+     "b_pts": 380.0,
+     "winner": "verdeja",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 10,
+      "a_pts": 486.0,
+      "b_pts": 439.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 4,
+      "a_pts": 590.0,
+      "b_pts": 435.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 15,
+      "a_pts": 507.0,
+      "b_pts": 388.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 5,
+      "a_pts": 251.0,
+      "b_pts": 433.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 16,
+      "a_pts": 367.0,
+      "b_pts": 380.0,
+      "winner": "verdeja",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "blandon|victor",
+    "a": "blandon",
+    "b": "victor",
+    "a_wins": 2,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 389.4,
+    "b_ppg": 473.6,
+    "streak": {
+     "who": "victor",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 13,
+     "a_pts": 436.0,
+     "b_pts": 580.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 7,
+     "a_pts": 523.0,
+     "b_pts": 477.0,
+     "winner": "blandon",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 2,
+      "a_pts": 422.0,
+      "b_pts": 513.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 13,
+      "a_pts": 436.0,
+      "b_pts": 580.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 7,
+      "a_pts": 523.0,
+      "b_pts": 477.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 6,
+      "a_pts": 391.0,
+      "b_pts": 518.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 17,
+      "a_pts": 175.0,
+      "b_pts": 280.0,
+      "winner": "victor",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2023-2024",
+      "round": "Quarterfinal",
+      "winner": "blandon",
+      "winner_points": 1139.0,
+      "loser_points": 1041.0
+     }
+    ]
+   },
+   {
+    "key": "blandon|winch",
+    "a": "blandon",
+    "b": "winch",
+    "a_wins": 2,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 458.8,
+    "b_ppg": 463.8,
+    "streak": {
+     "who": "winch",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 6,
+     "a_pts": 442.0,
+     "b_pts": 474.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 17,
+     "a_pts": 514.0,
+     "b_pts": 510.0,
+     "winner": "blandon",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 6,
+      "a_pts": 442.0,
+      "b_pts": 474.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 17,
+      "a_pts": 514.0,
+      "b_pts": 510.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 8,
+      "a_pts": 432.0,
+      "b_pts": 401.0,
+      "winner": "blandon",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 11,
+      "a_pts": 447.0,
+      "b_pts": 470.0,
+      "winner": "winch",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "chalela|jacobo",
+    "a": "chalela",
+    "b": "jacobo",
+    "a_wins": 4,
+    "b_wins": 1,
+    "ties": 0,
+    "a_ppg": 491.0,
+    "b_ppg": 401.8,
+    "streak": {
+     "who": "chalela",
+     "n": 4
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 5,
+     "a_pts": 549.0,
+     "b_pts": 363.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 10,
+     "a_pts": 437.0,
+     "b_pts": 491.0,
+     "winner": "jacobo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 10,
+      "a_pts": 437.0,
+      "b_pts": 491.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 5,
+      "a_pts": 549.0,
+      "b_pts": 363.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 16,
+      "a_pts": 506.0,
+      "b_pts": 421.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 5,
+      "a_pts": 482.0,
+      "b_pts": 409.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 16,
+      "a_pts": 481.0,
+      "b_pts": 325.0,
+      "winner": "chalela",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "chalela|joey",
+    "a": "chalela",
+    "b": "joey",
+    "a_wins": 3,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 497.2,
+    "b_ppg": 473.2,
+    "streak": {
+     "who": "chalela",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 3,
+     "a_pts": 533.0,
+     "b_pts": 437.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 7,
+     "a_pts": 528.0,
+     "b_pts": 538.0,
+     "winner": "joey",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 4,
+      "a_pts": 455.0,
+      "b_pts": 545.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 15,
+      "a_pts": 479.0,
+      "b_pts": 435.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 7,
+      "a_pts": 528.0,
+      "b_pts": 538.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 3,
+      "a_pts": 533.0,
+      "b_pts": 437.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 14,
+      "a_pts": 491.0,
+      "b_pts": 411.0,
+      "winner": "chalela",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "chalela|libguel",
+    "a": "chalela",
+    "b": "libguel",
+    "a_wins": 2,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 489.8,
+    "b_ppg": 444.5,
+    "streak": {
+     "who": "libguel",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 8,
+     "a_pts": 494.0,
+     "b_pts": 342.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 17,
+     "a_pts": 469.0,
+     "b_pts": 470.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 6,
+      "a_pts": 501.0,
+      "b_pts": 391.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 17,
+      "a_pts": 469.0,
+      "b_pts": 470.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 8,
+      "a_pts": 494.0,
+      "b_pts": 342.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 11,
+      "a_pts": 495.0,
+      "b_pts": 575.0,
+      "winner": "libguel",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2025-2026",
+      "round": "Semifinal",
+      "winner": "libguel",
+      "winner_points": 525.0,
+      "loser_points": 467.0
+     }
+    ]
+   },
+   {
+    "key": "chalela|melo",
+    "a": "chalela",
+    "b": "melo",
+    "a_wins": 5,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 493.8,
+    "b_ppg": 483.7,
+    "streak": {
+     "who": "chalela",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 15,
+     "a_pts": 545.0,
+     "b_pts": 496.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 8,
+     "a_pts": 480.0,
+     "b_pts": 484.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 5,
+      "a_pts": 481.0,
+      "b_pts": 456.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 16,
+      "a_pts": 472.0,
+      "b_pts": 462.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 4,
+      "a_pts": 517.0,
+      "b_pts": 550.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 15,
+      "a_pts": 545.0,
+      "b_pts": 496.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 8,
+      "a_pts": 480.0,
+      "b_pts": 484.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 19,
+      "a_pts": 468.0,
+      "b_pts": 454.0,
+      "winner": "chalela",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2025-2026",
+      "round": "Quarterfinal",
+      "winner": "chalela",
+      "winner_points": 570.0,
+      "loser_points": 495.0
+     }
+    ]
+   },
+   {
+    "key": "chalela|papo",
+    "a": "chalela",
+    "b": "papo",
+    "a_wins": 2,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 427.5,
+    "b_ppg": 471.8,
+    "streak": {
+     "who": "papo",
+     "n": 3
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 13,
+     "a_pts": 333.0,
+     "b_pts": 519.0,
+     "winner": "papo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 14,
+     "a_pts": 430.0,
+     "b_pts": 460.0,
+     "winner": "papo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 7,
+      "a_pts": 487.0,
+      "b_pts": 430.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 18,
+      "a_pts": 448.0,
+      "b_pts": 497.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 3,
+      "a_pts": 533.0,
+      "b_pts": 419.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 14,
+      "a_pts": 430.0,
+      "b_pts": 460.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 2,
+      "a_pts": 334.0,
+      "b_pts": 506.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 13,
+      "a_pts": 333.0,
+      "b_pts": 519.0,
+      "winner": "papo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "chalela|ricky",
+    "a": "chalela",
+    "b": "ricky",
+    "a_wins": 6,
+    "b_wins": 0,
+    "ties": 0,
+    "a_ppg": 443.3,
+    "b_ppg": 406.2,
+    "streak": {
+     "who": "chalela",
+     "n": 6
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 1,
+     "a_pts": 460.0,
+     "b_pts": 375.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 2,
+     "a_pts": 419.0,
+     "b_pts": 418.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 2,
+      "a_pts": 419.0,
+      "b_pts": 418.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 13,
+      "a_pts": 499.0,
+      "b_pts": 495.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 1,
+      "a_pts": 460.0,
+      "b_pts": 375.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 12,
+      "a_pts": 466.0,
+      "b_pts": 414.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 9,
+      "a_pts": 445.0,
+      "b_pts": 415.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 20,
+      "a_pts": 371.0,
+      "b_pts": 320.0,
+      "winner": "chalela",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "chalela|shueiro",
+    "a": "chalela",
+    "b": "shueiro",
+    "a_wins": 3,
+    "b_wins": 1,
+    "ties": 0,
+    "a_ppg": 505.2,
+    "b_ppg": 461.2,
+    "streak": {
+     "who": "shueiro",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 11,
+     "a_pts": 539.0,
+     "b_pts": 400.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 6,
+     "a_pts": 538.0,
+     "b_pts": 512.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 8,
+      "a_pts": 503.0,
+      "b_pts": 466.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 11,
+      "a_pts": 539.0,
+      "b_pts": 400.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 6,
+      "a_pts": 538.0,
+      "b_pts": 512.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 17,
+      "a_pts": 441.0,
+      "b_pts": 467.0,
+      "winner": "shueiro",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "chalela|verdeja",
+    "a": "chalela",
+    "b": "verdeja",
+    "a_wins": 3,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 442.6,
+    "b_ppg": 457.1,
+    "streak": {
+     "who": "verdeja",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 17,
+     "a_pts": 500.0,
+     "b_pts": 349.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 1,
+     "a_pts": 391.0,
+     "b_pts": 419.0,
+     "winner": "verdeja",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 1,
+      "a_pts": 391.0,
+      "b_pts": 419.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 12,
+      "a_pts": 428.0,
+      "b_pts": 518.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 6,
+      "a_pts": 490.0,
+      "b_pts": 451.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 17,
+      "a_pts": 500.0,
+      "b_pts": 349.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 4,
+      "a_pts": 528.0,
+      "b_pts": 488.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 15,
+      "a_pts": 415.0,
+      "b_pts": 531.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 1,
+      "a_pts": 346.0,
+      "b_pts": 444.0,
+      "winner": "verdeja",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "chalela|victor",
+    "a": "chalela",
+    "b": "victor",
+    "a_wins": 2,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 430.6,
+    "b_ppg": 412.0,
+    "streak": {
+     "who": "victor",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 18,
+     "a_pts": 363.0,
+     "b_pts": 288.0,
+     "winner": "chalela",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 9,
+     "a_pts": 502.0,
+     "b_pts": 526.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 9,
+      "a_pts": 502.0,
+      "b_pts": 526.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 9,
+      "a_pts": 493.0,
+      "b_pts": 420.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 7,
+      "a_pts": 468.0,
+      "b_pts": 520.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 18,
+      "a_pts": 363.0,
+      "b_pts": 288.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 2,
+      "a_pts": 327.0,
+      "b_pts": 306.0,
+      "winner": "victor",
+      "flagged": true
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "chalela|winch",
+    "a": "chalela",
+    "b": "winch",
+    "a_wins": 2,
+    "b_wins": 5,
+    "ties": 0,
+    "a_ppg": 464.4,
+    "b_ppg": 495.8,
+    "streak": {
+     "who": "winch",
+     "n": 3
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 14,
+     "a_pts": 415.0,
+     "b_pts": 624.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 10,
+     "a_pts": 508.0,
+     "b_pts": 557.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 3,
+      "a_pts": 490.0,
+      "b_pts": 353.0,
+      "winner": "chalela",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 14,
+      "a_pts": 415.0,
+      "b_pts": 624.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 10,
+      "a_pts": 508.0,
+      "b_pts": 557.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 10,
+      "a_pts": 450.0,
+      "b_pts": 511.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 3,
+      "a_pts": 459.0,
+      "b_pts": 434.0,
+      "winner": "winch",
+      "flagged": true
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2024-2025",
+      "round": "3rd-place game",
+      "winner": "chalela",
+      "winner_points": 1111.0,
+      "loser_points": 981.0
+     },
+     {
+      "season": "2025-2026",
+      "round": "3rd-place game",
+      "winner": "winch",
+      "winner_points": 518.0,
+      "loser_points": 413.0
+     }
+    ]
+   },
+   {
+    "key": "jacobo|joey",
+    "a": "jacobo",
+    "b": "joey",
+    "a_wins": 3,
+    "b_wins": 1,
+    "ties": 0,
+    "a_ppg": 445.5,
+    "b_ppg": 399.5,
+    "streak": {
+     "who": "jacobo",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2026-2027",
+     "week": 1,
+     "a_pts": 457.0,
+     "b_pts": 307.0,
+     "winner": "jacobo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 8,
+     "a_pts": 453.0,
+     "b_pts": 409.0,
+     "winner": "jacobo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 8,
+      "a_pts": 453.0,
+      "b_pts": 409.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 8,
+      "a_pts": 399.0,
+      "b_pts": 468.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 10,
+      "a_pts": 473.0,
+      "b_pts": 414.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 1,
+      "a_pts": 457.0,
+      "b_pts": 307.0,
+      "winner": "jacobo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "jacobo|libguel",
+    "a": "jacobo",
+    "b": "libguel",
+    "a_wins": 1,
+    "b_wins": 5,
+    "ties": 0,
+    "a_ppg": 370.0,
+    "b_ppg": 478.5,
+    "streak": {
+     "who": "libguel",
+     "n": 5
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 17,
+     "a_pts": 147.0,
+     "b_pts": 456.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 4,
+     "a_pts": 497.0,
+     "b_pts": 468.0,
+     "winner": "jacobo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 4,
+      "a_pts": 497.0,
+      "b_pts": 468.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 15,
+      "a_pts": 394.0,
+      "b_pts": 449.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 3,
+      "a_pts": 301.0,
+      "b_pts": 473.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 14,
+      "a_pts": 454.0,
+      "b_pts": 499.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 6,
+      "a_pts": 427.0,
+      "b_pts": 526.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 17,
+      "a_pts": 147.0,
+      "b_pts": 456.0,
+      "winner": "libguel",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "jacobo|melo",
+    "a": "jacobo",
+    "b": "melo",
+    "a_wins": 0,
+    "b_wins": 5,
+    "ties": 0,
+    "a_ppg": 407.2,
+    "b_ppg": 486.2,
+    "streak": {
+     "who": "melo",
+     "n": 5
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 9,
+     "a_pts": 417.0,
+     "b_pts": 561.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 14,
+     "a_pts": 432.0,
+     "b_pts": 462.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 9,
+      "a_pts": 417.0,
+      "b_pts": 561.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 1,
+      "a_pts": 302.0,
+      "b_pts": 407.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 12,
+      "a_pts": 451.0,
+      "b_pts": 512.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 3,
+      "a_pts": 434.0,
+      "b_pts": 489.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 14,
+      "a_pts": 432.0,
+      "b_pts": 462.0,
+      "winner": "melo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "jacobo|papo",
+    "a": "jacobo",
+    "b": "papo",
+    "a_wins": 3,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 444.8,
+    "b_ppg": 454.4,
+    "streak": {
+     "who": "jacobo",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 16,
+     "a_pts": 366.0,
+     "b_pts": 556.0,
+     "winner": "papo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2026-2027",
+     "week": 2,
+     "a_pts": 468.0,
+     "b_pts": 420.0,
+     "winner": "jacobo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 5,
+      "a_pts": 462.0,
+      "b_pts": 401.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 16,
+      "a_pts": 366.0,
+      "b_pts": 556.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 10,
+      "a_pts": 492.0,
+      "b_pts": 322.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 11,
+      "a_pts": 436.0,
+      "b_pts": 573.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 2,
+      "a_pts": 468.0,
+      "b_pts": 420.0,
+      "winner": "jacobo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "jacobo|ricky",
+    "a": "jacobo",
+    "b": "ricky",
+    "a_wins": 2,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 418.2,
+    "b_ppg": 438.8,
+    "streak": {
+     "who": "jacobo",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 17,
+     "a_pts": 350.0,
+     "b_pts": 421.0,
+     "winner": "ricky",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 13,
+     "a_pts": 450.0,
+     "b_pts": 441.0,
+     "winner": "jacobo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 6,
+      "a_pts": 409.0,
+      "b_pts": 359.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 17,
+      "a_pts": 350.0,
+      "b_pts": 421.0,
+      "winner": "ricky",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 4,
+      "a_pts": 447.0,
+      "b_pts": 473.0,
+      "winner": "ricky",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 15,
+      "a_pts": 454.0,
+      "b_pts": 498.0,
+      "winner": "ricky",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 2,
+      "a_pts": 399.0,
+      "b_pts": 441.0,
+      "winner": "ricky",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 13,
+      "a_pts": 450.0,
+      "b_pts": 441.0,
+      "winner": "jacobo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "jacobo|shueiro",
+    "a": "jacobo",
+    "b": "shueiro",
+    "a_wins": 5,
+    "b_wins": 1,
+    "ties": 0,
+    "a_ppg": 451.5,
+    "b_ppg": 417.3,
+    "streak": {
+     "who": "jacobo",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 2,
+     "a_pts": 475.0,
+     "b_pts": 398.0,
+     "winner": "jacobo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 6,
+     "a_pts": 446.0,
+     "b_pts": 441.0,
+     "winner": "jacobo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 2,
+      "a_pts": 475.0,
+      "b_pts": 398.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 13,
+      "a_pts": 457.0,
+      "b_pts": 380.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 6,
+      "a_pts": 446.0,
+      "b_pts": 441.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 17,
+      "a_pts": 463.0,
+      "b_pts": 431.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 9,
+      "a_pts": 439.0,
+      "b_pts": 475.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 20,
+      "a_pts": 429.0,
+      "b_pts": 379.0,
+      "winner": "jacobo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "jacobo|verdeja",
+    "a": "jacobo",
+    "b": "verdeja",
+    "a_wins": 1,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 367.0,
+    "b_ppg": 452.2,
+    "streak": {
+     "who": "jacobo",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 11,
+     "a_pts": 289.0,
+     "b_pts": 505.0,
+     "winner": "verdeja",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 12,
+     "a_pts": 472.0,
+     "b_pts": 407.0,
+     "winner": "jacobo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 11,
+      "a_pts": 289.0,
+      "b_pts": 505.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 9,
+      "a_pts": 364.0,
+      "b_pts": 451.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 1,
+      "a_pts": 343.0,
+      "b_pts": 446.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 12,
+      "a_pts": 472.0,
+      "b_pts": 407.0,
+      "winner": "jacobo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "jacobo|victor",
+    "a": "jacobo",
+    "b": "victor",
+    "a_wins": 2,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 366.5,
+    "b_ppg": 439.5,
+    "streak": {
+     "who": "jacobo",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 2,
+     "a_pts": 308.0,
+     "b_pts": 502.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 3,
+     "a_pts": 463.0,
+     "b_pts": 451.0,
+     "winner": "jacobo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 3,
+      "a_pts": 463.0,
+      "b_pts": 451.0,
+      "winner": "jacobo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 14,
+      "a_pts": 393.0,
+      "b_pts": 442.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 2,
+      "a_pts": 308.0,
+      "b_pts": 502.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 13,
+      "a_pts": 366.0,
+      "b_pts": 479.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 8,
+      "a_pts": 328.0,
+      "b_pts": 445.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 19,
+      "a_pts": 341.0,
+      "b_pts": 318.0,
+      "winner": "jacobo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "jacobo|winch",
+    "a": "jacobo",
+    "b": "winch",
+    "a_wins": 1,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 394.8,
+    "b_ppg": 438.4,
+    "streak": {
+     "who": "jacobo",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 7,
+     "a_pts": 327.0,
+     "b_pts": 473.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 7,
+     "a_pts": 464.0,
+     "b_pts": 479.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 7,
+      "a_pts": 358.0,
+      "b_pts": 437.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 18,
+      "a_pts": 361.0,
+      "b_pts": 387.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 7,
+      "a_pts": 327.0,
+      "b_pts": 473.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 7,
+      "a_pts": 464.0,
+      "b_pts": 479.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 18,
+      "a_pts": 464.0,
+      "b_pts": 416.0,
+      "winner": "jacobo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "joey|libguel",
+    "a": "joey",
+    "b": "libguel",
+    "a_wins": 2,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 453.4,
+    "b_ppg": 467.4,
+    "streak": {
+     "who": "libguel",
+     "n": 3
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 11,
+     "a_pts": 467.0,
+     "b_pts": 550.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 8,
+     "a_pts": 405.0,
+     "b_pts": 419.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 2,
+      "a_pts": 488.0,
+      "b_pts": 462.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 13,
+      "a_pts": 469.0,
+      "b_pts": 403.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 11,
+      "a_pts": 467.0,
+      "b_pts": 550.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 8,
+      "a_pts": 405.0,
+      "b_pts": 419.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 19,
+      "a_pts": 438.0,
+      "b_pts": 503.0,
+      "winner": "libguel",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "joey|melo",
+    "a": "joey",
+    "b": "melo",
+    "a_wins": 1,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 459.4,
+    "b_ppg": 517.6,
+    "streak": {
+     "who": "melo",
+     "n": 4
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 9,
+     "a_pts": 445.0,
+     "b_pts": 601.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 18,
+     "a_pts": 443.0,
+     "b_pts": 446.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 1,
+      "a_pts": 489.0,
+      "b_pts": 463.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 12,
+      "a_pts": 505.0,
+      "b_pts": 521.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 9,
+      "a_pts": 445.0,
+      "b_pts": 601.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 7,
+      "a_pts": 415.0,
+      "b_pts": 557.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 18,
+      "a_pts": 443.0,
+      "b_pts": 446.0,
+      "winner": "melo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "joey|papo",
+    "a": "joey",
+    "b": "papo",
+    "a_wins": 4,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 460.4,
+    "b_ppg": 433.6,
+    "streak": {
+     "who": "joey",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 15,
+     "a_pts": 508.0,
+     "b_pts": 341.0,
+     "winner": "joey",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 14,
+     "a_pts": 520.0,
+     "b_pts": 515.0,
+     "winner": "joey",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 3,
+      "a_pts": 443.0,
+      "b_pts": 456.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 14,
+      "a_pts": 520.0,
+      "b_pts": 515.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 4,
+      "a_pts": 536.0,
+      "b_pts": 413.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 15,
+      "a_pts": 508.0,
+      "b_pts": 341.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 1,
+      "a_pts": 425.0,
+      "b_pts": 449.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 12,
+      "a_pts": 377.0,
+      "b_pts": 476.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 3,
+      "a_pts": 414.0,
+      "b_pts": 385.0,
+      "winner": "joey",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2023-2024",
+      "round": "Quarterfinal",
+      "winner": "papo",
+      "winner_points": 1073.0,
+      "loser_points": 989.0
+     }
+    ]
+   },
+   {
+    "key": "joey|ricky",
+    "a": "joey",
+    "b": "ricky",
+    "a_wins": 2,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 378.6,
+    "b_ppg": 418.0,
+    "streak": {
+     "who": "ricky",
+     "n": 3
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 17,
+     "a_pts": 235.0,
+     "b_pts": 407.0,
+     "winner": "ricky",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 6,
+     "a_pts": 443.0,
+     "b_pts": 444.0,
+     "winner": "ricky",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 10,
+      "a_pts": 464.0,
+      "b_pts": 461.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 6,
+      "a_pts": 518.0,
+      "b_pts": 407.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 17,
+      "a_pts": 235.0,
+      "b_pts": 407.0,
+      "winner": "ricky",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 6,
+      "a_pts": 443.0,
+      "b_pts": 444.0,
+      "winner": "ricky",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 17,
+      "a_pts": 233.0,
+      "b_pts": 371.0,
+      "winner": "ricky",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "joey|shueiro",
+    "a": "joey",
+    "b": "shueiro",
+    "a_wins": 2,
+    "b_wins": 3,
+    "ties": 1,
+    "a_ppg": 425.2,
+    "b_ppg": 432.8,
+    "streak": {
+     "who": "shueiro",
+     "n": 3
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 16,
+     "a_pts": 212.0,
+     "b_pts": 385.0,
+     "winner": "shueiro",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 5,
+     "a_pts": 416.0,
+     "b_pts": 435.0,
+     "winner": "shueiro",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 6,
+      "a_pts": 568.0,
+      "b_pts": 513.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 17,
+      "a_pts": 474.0,
+      "b_pts": 474.0,
+      "winner": null,
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 2,
+      "a_pts": 460.0,
+      "b_pts": 346.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 13,
+      "a_pts": 421.0,
+      "b_pts": 444.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 5,
+      "a_pts": 416.0,
+      "b_pts": 435.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 16,
+      "a_pts": 212.0,
+      "b_pts": 385.0,
+      "winner": "shueiro",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "joey|verdeja",
+    "a": "joey",
+    "b": "verdeja",
+    "a_wins": 3,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 482.2,
+    "b_ppg": 483.0,
+    "streak": {
+     "who": "verdeja",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 11,
+     "a_pts": 434.0,
+     "b_pts": 559.0,
+     "winner": "verdeja",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 5,
+     "a_pts": 497.0,
+     "b_pts": 472.0,
+     "winner": "joey",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 5,
+      "a_pts": 497.0,
+      "b_pts": 472.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 16,
+      "a_pts": 510.0,
+      "b_pts": 424.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 1,
+      "a_pts": 482.0,
+      "b_pts": 531.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 12,
+      "a_pts": 488.0,
+      "b_pts": 429.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 11,
+      "a_pts": 434.0,
+      "b_pts": 559.0,
+      "winner": "verdeja",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "joey|victor",
+    "a": "joey",
+    "b": "victor",
+    "a_wins": 2,
+    "b_wins": 5,
+    "ties": 0,
+    "a_ppg": 440.6,
+    "b_ppg": 441.0,
+    "streak": {
+     "who": "joey",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 15,
+     "a_pts": 467.0,
+     "b_pts": 229.0,
+     "winner": "joey",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 18,
+     "a_pts": 469.0,
+     "b_pts": 506.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 7,
+      "a_pts": 450.0,
+      "b_pts": 406.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 18,
+      "a_pts": 469.0,
+      "b_pts": 506.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 10,
+      "a_pts": 379.0,
+      "b_pts": 543.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 4,
+      "a_pts": 438.0,
+      "b_pts": 521.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 15,
+      "a_pts": 467.0,
+      "b_pts": 229.0,
+      "winner": "joey",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2023-2024",
+      "round": "5th-place game",
+      "winner": "victor",
+      "winner_points": 974.0,
+      "loser_points": 898.0
+     },
+     {
+      "season": "2024-2025",
+      "round": "5th-place game",
+      "winner": "victor",
+      "winner_points": 783.0,
+      "loser_points": 636.0
+     }
+    ]
+   },
+   {
+    "key": "joey|winch",
+    "a": "joey",
+    "b": "winch",
+    "a_wins": 2,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 479.6,
+    "b_ppg": 495.4,
+    "streak": {
+     "who": "winch",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 9,
+     "a_pts": 584.0,
+     "b_pts": 485.0,
+     "winner": "joey",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 3,
+     "a_pts": 437.0,
+     "b_pts": 435.0,
+     "winner": "joey",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 11,
+      "a_pts": 505.0,
+      "b_pts": 562.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 3,
+      "a_pts": 437.0,
+      "b_pts": 435.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 14,
+      "a_pts": 467.0,
+      "b_pts": 507.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 9,
+      "a_pts": 584.0,
+      "b_pts": 485.0,
+      "winner": "joey",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 20,
+      "a_pts": 405.0,
+      "b_pts": 488.0,
+      "winner": "winch",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "libguel|melo",
+    "a": "libguel",
+    "b": "melo",
+    "a_wins": 4,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 485.9,
+    "b_ppg": 486.4,
+    "streak": {
+     "who": "libguel",
+     "n": 4
+    },
+    "blowout": {
+     "season": "2026-2027",
+     "week": 1,
+     "a_pts": 474.0,
+     "b_pts": 365.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 13,
+     "a_pts": 499.0,
+     "b_pts": 490.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 3,
+      "a_pts": 350.0,
+      "b_pts": 455.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 14,
+      "a_pts": 514.0,
+      "b_pts": 605.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 2,
+      "a_pts": 511.0,
+      "b_pts": 538.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 13,
+      "a_pts": 499.0,
+      "b_pts": 490.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 5,
+      "a_pts": 551.0,
+      "b_pts": 459.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 16,
+      "a_pts": 502.0,
+      "b_pts": 493.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 1,
+      "a_pts": 474.0,
+      "b_pts": 365.0,
+      "winner": "libguel",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "libguel|papo",
+    "a": "libguel",
+    "b": "papo",
+    "a_wins": 4,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 450.4,
+    "b_ppg": 409.6,
+    "streak": {
+     "who": "libguel",
+     "n": 4
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 9,
+     "a_pts": 480.0,
+     "b_pts": 320.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 1,
+     "a_pts": 427.0,
+     "b_pts": 479.0,
+     "winner": "papo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 1,
+      "a_pts": 427.0,
+      "b_pts": 479.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 12,
+      "a_pts": 383.0,
+      "b_pts": 472.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 7,
+      "a_pts": 502.0,
+      "b_pts": 378.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 9,
+      "a_pts": 480.0,
+      "b_pts": 320.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 20,
+      "a_pts": 460.0,
+      "b_pts": 399.0,
+      "winner": "libguel",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2025-2026",
+      "round": "Final",
+      "winner": "libguel",
+      "winner_points": 541.0,
+      "loser_points": 406.0
+     }
+    ]
+   },
+   {
+    "key": "libguel|ricky",
+    "a": "libguel",
+    "b": "ricky",
+    "a_wins": 3,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 452.0,
+    "b_ppg": 412.8,
+    "streak": {
+     "who": "libguel",
+     "n": 3
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 15,
+     "a_pts": 461.0,
+     "b_pts": 348.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 9,
+     "a_pts": 380.0,
+     "b_pts": 383.0,
+     "winner": "ricky",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 8,
+      "a_pts": 467.0,
+      "b_pts": 549.0,
+      "winner": "ricky",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 9,
+      "a_pts": 380.0,
+      "b_pts": 383.0,
+      "winner": "ricky",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 4,
+      "a_pts": 533.0,
+      "b_pts": 438.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 15,
+      "a_pts": 461.0,
+      "b_pts": 348.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 2,
+      "a_pts": 419.0,
+      "b_pts": 346.0,
+      "winner": "libguel",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "libguel|shueiro",
+    "a": "libguel",
+    "b": "shueiro",
+    "a_wins": 4,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 494.7,
+    "b_ppg": 464.5,
+    "streak": {
+     "who": "shueiro",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 3,
+     "a_pts": 524.0,
+     "b_pts": 394.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 5,
+     "a_pts": 471.0,
+     "b_pts": 441.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 10,
+      "a_pts": 447.0,
+      "b_pts": 456.0,
+      "winner": "libguel",
+      "flagged": true
+     },
+     {
+      "season": "2024-2025",
+      "week": 5,
+      "a_pts": 471.0,
+      "b_pts": 441.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 16,
+      "a_pts": 548.0,
+      "b_pts": 579.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 3,
+      "a_pts": 524.0,
+      "b_pts": 394.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 14,
+      "a_pts": 563.0,
+      "b_pts": 450.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 3,
+      "a_pts": 415.0,
+      "b_pts": 467.0,
+      "winner": "shueiro",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "libguel|verdeja",
+    "a": "libguel",
+    "b": "verdeja",
+    "a_wins": 2,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 426.8,
+    "b_ppg": 388.4,
+    "streak": {
+     "who": "verdeja",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 7,
+     "a_pts": 610.0,
+     "b_pts": 397.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 18,
+     "a_pts": 340.0,
+     "b_pts": 358.0,
+     "winner": "verdeja",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 7,
+      "a_pts": 353.0,
+      "b_pts": 420.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 18,
+      "a_pts": 414.0,
+      "b_pts": 299.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 10,
+      "a_pts": 417.0,
+      "b_pts": 468.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 7,
+      "a_pts": 610.0,
+      "b_pts": 397.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 18,
+      "a_pts": 340.0,
+      "b_pts": 358.0,
+      "winner": "verdeja",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "libguel|victor",
+    "a": "libguel",
+    "b": "victor",
+    "a_wins": 3,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 472.0,
+    "b_ppg": 431.4,
+    "streak": {
+     "who": "libguel",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 13,
+     "a_pts": 454.0,
+     "b_pts": 251.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 12,
+     "a_pts": 462.0,
+     "b_pts": 487.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 11,
+      "a_pts": 440.0,
+      "b_pts": 519.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 1,
+      "a_pts": 491.0,
+      "b_pts": 412.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 12,
+      "a_pts": 462.0,
+      "b_pts": 487.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 2,
+      "a_pts": 513.0,
+      "b_pts": 488.0,
+      "winner": "libguel",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 13,
+      "a_pts": 454.0,
+      "b_pts": 251.0,
+      "winner": "libguel",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "libguel|winch",
+    "a": "libguel",
+    "b": "winch",
+    "a_wins": 1,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 474.0,
+    "b_ppg": 537.2,
+    "streak": {
+     "who": "libguel",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 1,
+     "a_pts": 422.0,
+     "b_pts": 536.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 12,
+     "a_pts": 515.0,
+     "b_pts": 477.0,
+     "winner": "libguel",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 9,
+      "a_pts": 532.0,
+      "b_pts": 572.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 4,
+      "a_pts": 448.0,
+      "b_pts": 550.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 15,
+      "a_pts": 453.0,
+      "b_pts": 551.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 1,
+      "a_pts": 422.0,
+      "b_pts": 536.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 12,
+      "a_pts": 515.0,
+      "b_pts": 477.0,
+      "winner": "libguel",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "melo|papo",
+    "a": "melo",
+    "b": "papo",
+    "a_wins": 4,
+    "b_wins": 1,
+    "ties": 0,
+    "a_ppg": 535.8,
+    "b_ppg": 459.6,
+    "streak": {
+     "who": "melo",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 11,
+     "a_pts": 549.0,
+     "b_pts": 351.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 2,
+     "a_pts": 508.0,
+     "b_pts": 500.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 2,
+      "a_pts": 508.0,
+      "b_pts": 500.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 13,
+      "a_pts": 648.0,
+      "b_pts": 525.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 11,
+      "a_pts": 549.0,
+      "b_pts": 351.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 6,
+      "a_pts": 496.0,
+      "b_pts": 514.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 17,
+      "a_pts": 478.0,
+      "b_pts": 408.0,
+      "winner": "melo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "melo|ricky",
+    "a": "melo",
+    "b": "ricky",
+    "a_wins": 5,
+    "b_wins": 1,
+    "ties": 0,
+    "a_ppg": 485.8,
+    "b_ppg": 415.3,
+    "streak": {
+     "who": "ricky",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 16,
+     "a_pts": 557.0,
+     "b_pts": 405.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 1,
+     "a_pts": 500.0,
+     "b_pts": 451.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 11,
+      "a_pts": 482.0,
+      "b_pts": 429.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 5,
+      "a_pts": 483.0,
+      "b_pts": 396.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 16,
+      "a_pts": 557.0,
+      "b_pts": 405.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 1,
+      "a_pts": 500.0,
+      "b_pts": 451.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 12,
+      "a_pts": 497.0,
+      "b_pts": 350.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 3,
+      "a_pts": 396.0,
+      "b_pts": 461.0,
+      "winner": "ricky",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "melo|shueiro",
+    "a": "melo",
+    "b": "shueiro",
+    "a_wins": 3,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 449.0,
+    "b_ppg": 446.6,
+    "streak": {
+     "who": "shueiro",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 7,
+     "a_pts": 479.0,
+     "b_pts": 419.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 18,
+     "a_pts": 416.0,
+     "b_pts": 404.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 7,
+      "a_pts": 479.0,
+      "b_pts": 419.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 18,
+      "a_pts": 416.0,
+      "b_pts": 404.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 7,
+      "a_pts": 441.0,
+      "b_pts": 484.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 10,
+      "a_pts": 457.0,
+      "b_pts": 490.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 2,
+      "a_pts": 452.0,
+      "b_pts": 436.0,
+      "winner": "shueiro",
+      "flagged": true
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2025-2026",
+      "round": "5th-place game",
+      "winner": "melo",
+      "winner_points": 448.0,
+      "loser_points": 390.0
+     }
+    ]
+   },
+   {
+    "key": "melo|verdeja",
+    "a": "melo",
+    "b": "verdeja",
+    "a_wins": 3,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 515.0,
+    "b_ppg": 427.6,
+    "streak": {
+     "who": "melo",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 4,
+     "a_pts": 594.0,
+     "b_pts": 394.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 15,
+     "a_pts": 510.0,
+     "b_pts": 522.0,
+     "winner": "verdeja",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 4,
+      "a_pts": 594.0,
+      "b_pts": 394.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 15,
+      "a_pts": 510.0,
+      "b_pts": 522.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 8,
+      "a_pts": 433.0,
+      "b_pts": 339.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 2,
+      "a_pts": 482.0,
+      "b_pts": 502.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 13,
+      "a_pts": 556.0,
+      "b_pts": 381.0,
+      "winner": "melo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "melo|victor",
+    "a": "melo",
+    "b": "victor",
+    "a_wins": 4,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 519.2,
+    "b_ppg": 482.0,
+    "streak": {
+     "who": "melo",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 6,
+     "a_pts": 585.0,
+     "b_pts": 470.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 14,
+     "a_pts": 549.0,
+     "b_pts": 552.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 6,
+      "a_pts": 585.0,
+      "b_pts": 470.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 17,
+      "a_pts": 428.0,
+      "b_pts": 379.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 3,
+      "a_pts": 519.0,
+      "b_pts": 558.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 14,
+      "a_pts": 549.0,
+      "b_pts": 552.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 11,
+      "a_pts": 515.0,
+      "b_pts": 451.0,
+      "winner": "melo",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2024-2025",
+      "round": "Quarterfinal",
+      "winner": "melo",
+      "winner_points": 1066.0,
+      "loser_points": 802.0
+     }
+    ]
+   },
+   {
+    "key": "melo|winch",
+    "a": "melo",
+    "b": "winch",
+    "a_wins": 3,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 522.8,
+    "b_ppg": 491.2,
+    "streak": {
+     "who": "winch",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 4,
+     "a_pts": 577.0,
+     "b_pts": 426.0,
+     "winner": "melo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 10,
+     "a_pts": 523.0,
+     "b_pts": 528.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 10,
+      "a_pts": 523.0,
+      "b_pts": 528.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 6,
+      "a_pts": 452.0,
+      "b_pts": 534.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 17,
+      "a_pts": 581.0,
+      "b_pts": 479.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 4,
+      "a_pts": 577.0,
+      "b_pts": 426.0,
+      "winner": "melo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 15,
+      "a_pts": 481.0,
+      "b_pts": 489.0,
+      "winner": "winch",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2023-2024",
+      "round": "3rd-place game",
+      "winner": "winch",
+      "winner_points": 1083.0,
+      "loser_points": 922.0
+     },
+     {
+      "season": "2024-2025",
+      "round": "Semifinal",
+      "winner": "melo",
+      "winner_points": 1134.0,
+      "loser_points": 1028.0
+     }
+    ]
+   },
+   {
+    "key": "papo|ricky",
+    "a": "papo",
+    "b": "ricky",
+    "a_wins": 4,
+    "b_wins": 1,
+    "ties": 0,
+    "a_ppg": 484.8,
+    "b_ppg": 418.0,
+    "streak": {
+     "who": "ricky",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 7,
+     "a_pts": 518.0,
+     "b_pts": 388.0,
+     "winner": "papo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 18,
+     "a_pts": 408.0,
+     "b_pts": 443.0,
+     "winner": "ricky",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 9,
+      "a_pts": 566.0,
+      "b_pts": 451.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 2,
+      "a_pts": 452.0,
+      "b_pts": 370.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 13,
+      "a_pts": 480.0,
+      "b_pts": 438.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 7,
+      "a_pts": 518.0,
+      "b_pts": 388.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 18,
+      "a_pts": 408.0,
+      "b_pts": 443.0,
+      "winner": "ricky",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "papo|shueiro",
+    "a": "papo",
+    "b": "shueiro",
+    "a_wins": 2,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 405.8,
+    "b_ppg": 494.0,
+    "streak": {
+     "who": "papo",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 8,
+     "a_pts": 140.0,
+     "b_pts": 449.0,
+     "winner": "shueiro",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 15,
+     "a_pts": 532.0,
+     "b_pts": 509.0,
+     "winner": "papo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 11,
+      "a_pts": 493.0,
+      "b_pts": 435.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 8,
+      "a_pts": 140.0,
+      "b_pts": 449.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 4,
+      "a_pts": 458.0,
+      "b_pts": 583.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 15,
+      "a_pts": 532.0,
+      "b_pts": 509.0,
+      "winner": "papo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "papo|verdeja",
+    "a": "papo",
+    "b": "verdeja",
+    "a_wins": 5,
+    "b_wins": 0,
+    "ties": 0,
+    "a_ppg": 467.2,
+    "b_ppg": 385.0,
+    "streak": {
+     "who": "papo",
+     "n": 5
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 6,
+     "a_pts": 558.0,
+     "b_pts": 365.0,
+     "winner": "papo",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 5,
+     "a_pts": 468.0,
+     "b_pts": 431.0,
+     "winner": "papo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 6,
+      "a_pts": 558.0,
+      "b_pts": 365.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 17,
+      "a_pts": 471.0,
+      "b_pts": 348.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 5,
+      "a_pts": 468.0,
+      "b_pts": 431.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 16,
+      "a_pts": 345.0,
+      "b_pts": 392.0,
+      "winner": "papo",
+      "flagged": true
+     },
+     {
+      "season": "2025-2026",
+      "week": 10,
+      "a_pts": 494.0,
+      "b_pts": 389.0,
+      "winner": "papo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "papo|victor",
+    "a": "papo",
+    "b": "victor",
+    "a_wins": 3,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 434.4,
+    "b_ppg": 481.6,
+    "streak": {
+     "who": "papo",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 17,
+     "a_pts": 164.0,
+     "b_pts": 485.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 5,
+     "a_pts": 497.0,
+     "b_pts": 485.0,
+     "winner": "papo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 10,
+      "a_pts": 626.0,
+      "b_pts": 527.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 6,
+      "a_pts": 430.0,
+      "b_pts": 507.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 17,
+      "a_pts": 164.0,
+      "b_pts": 485.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 5,
+      "a_pts": 497.0,
+      "b_pts": 485.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 16,
+      "a_pts": 455.0,
+      "b_pts": 404.0,
+      "winner": "papo",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "papo|winch",
+    "a": "papo",
+    "b": "winch",
+    "a_wins": 4,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 444.2,
+    "b_ppg": 476.2,
+    "streak": {
+     "who": "papo",
+     "n": 3
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 9,
+     "a_pts": 345.0,
+     "b_pts": 465.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 19,
+     "a_pts": 475.0,
+     "b_pts": 459.0,
+     "winner": "papo",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 8,
+      "a_pts": 497.0,
+      "b_pts": 539.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 9,
+      "a_pts": 345.0,
+      "b_pts": 465.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 8,
+      "a_pts": 460.0,
+      "b_pts": 442.0,
+      "winner": "papo",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 19,
+      "a_pts": 475.0,
+      "b_pts": 459.0,
+      "winner": "papo",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2023-2024",
+      "round": "Semifinal",
+      "winner": "papo",
+      "winner_points": 1122.0,
+      "loser_points": 1046.0
+     },
+     {
+      "season": "2025-2026",
+      "round": "Semifinal",
+      "winner": "papo",
+      "winner_points": 486.0,
+      "loser_points": 436.0
+     }
+    ]
+   },
+   {
+    "key": "ricky|shueiro",
+    "a": "ricky",
+    "b": "shueiro",
+    "a_wins": 1,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 415.0,
+    "b_ppg": 452.2,
+    "streak": {
+     "who": "ricky",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 10,
+     "a_pts": 386.0,
+     "b_pts": 527.0,
+     "winner": "shueiro",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 11,
+     "a_pts": 410.0,
+     "b_pts": 414.0,
+     "winner": "shueiro",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 4,
+      "a_pts": 423.0,
+      "b_pts": 434.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 15,
+      "a_pts": 437.0,
+      "b_pts": 488.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 10,
+      "a_pts": 386.0,
+      "b_pts": 527.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 11,
+      "a_pts": 410.0,
+      "b_pts": 414.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 1,
+      "a_pts": 419.0,
+      "b_pts": 398.0,
+      "winner": "ricky",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "ricky|verdeja",
+    "a": "ricky",
+    "b": "verdeja",
+    "a_wins": 0,
+    "b_wins": 5,
+    "ties": 0,
+    "a_ppg": 408.4,
+    "b_ppg": 460.8,
+    "streak": {
+     "who": "verdeja",
+     "n": 5
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 14,
+     "a_pts": 370.0,
+     "b_pts": 451.0,
+     "winner": "verdeja",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 7,
+     "a_pts": 418.0,
+     "b_pts": 426.0,
+     "winner": "verdeja",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 3,
+      "a_pts": 379.0,
+      "b_pts": 447.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 14,
+      "a_pts": 390.0,
+      "b_pts": 436.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 7,
+      "a_pts": 418.0,
+      "b_pts": 426.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 3,
+      "a_pts": 485.0,
+      "b_pts": 544.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 14,
+      "a_pts": 370.0,
+      "b_pts": 451.0,
+      "winner": "verdeja",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "ricky|victor",
+    "a": "ricky",
+    "b": "victor",
+    "a_wins": 0,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 331.8,
+    "b_ppg": 490.0,
+    "streak": {
+     "who": "victor",
+     "n": 4
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 16,
+     "a_pts": 243.0,
+     "b_pts": 492.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 8,
+     "a_pts": 322.0,
+     "b_pts": 358.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 5,
+      "a_pts": 400.0,
+      "b_pts": 527.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 16,
+      "a_pts": 243.0,
+      "b_pts": 492.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 8,
+      "a_pts": 322.0,
+      "b_pts": 358.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 10,
+      "a_pts": 362.0,
+      "b_pts": 583.0,
+      "winner": "victor",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "ricky|winch",
+    "a": "ricky",
+    "b": "winch",
+    "a_wins": 2,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 410.2,
+    "b_ppg": 469.6,
+    "streak": {
+     "who": "ricky",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 12,
+     "a_pts": 410.0,
+     "b_pts": 548.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 16,
+     "a_pts": 414.0,
+     "b_pts": 410.0,
+     "winner": "ricky",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 1,
+      "a_pts": 446.0,
+      "b_pts": 530.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 12,
+      "a_pts": 410.0,
+      "b_pts": 548.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 11,
+      "a_pts": 318.0,
+      "b_pts": 422.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 5,
+      "a_pts": 463.0,
+      "b_pts": 438.0,
+      "winner": "ricky",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 16,
+      "a_pts": 414.0,
+      "b_pts": 410.0,
+      "winner": "ricky",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "shueiro|verdeja",
+    "a": "shueiro",
+    "b": "verdeja",
+    "a_wins": 2,
+    "b_wins": 3,
+    "ties": 0,
+    "a_ppg": 450.4,
+    "b_ppg": 427.8,
+    "streak": {
+     "who": "shueiro",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 19,
+     "a_pts": 547.0,
+     "b_pts": 398.0,
+     "winner": "shueiro",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2024-2025",
+     "week": 14,
+     "a_pts": 410.0,
+     "b_pts": 427.0,
+     "winner": "verdeja",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 9,
+      "a_pts": 416.0,
+      "b_pts": 487.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 3,
+      "a_pts": 473.0,
+      "b_pts": 493.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 14,
+      "a_pts": 410.0,
+      "b_pts": 427.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 8,
+      "a_pts": 406.0,
+      "b_pts": 334.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 19,
+      "a_pts": 547.0,
+      "b_pts": 398.0,
+      "winner": "shueiro",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "shueiro|victor",
+    "a": "shueiro",
+    "b": "victor",
+    "a_wins": 4,
+    "b_wins": 2,
+    "ties": 0,
+    "a_ppg": 456.3,
+    "b_ppg": 405.0,
+    "streak": {
+     "who": "shueiro",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 12,
+     "a_pts": 507.0,
+     "b_pts": 286.0,
+     "winner": "shueiro",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 1,
+     "a_pts": 406.0,
+     "b_pts": 408.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 1,
+      "a_pts": 405.0,
+      "b_pts": 400.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 12,
+      "a_pts": 481.0,
+      "b_pts": 467.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 4,
+      "a_pts": 450.0,
+      "b_pts": 455.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 15,
+      "a_pts": 489.0,
+      "b_pts": 414.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 1,
+      "a_pts": 406.0,
+      "b_pts": 408.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 12,
+      "a_pts": 507.0,
+      "b_pts": 286.0,
+      "winner": "shueiro",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "shueiro|winch",
+    "a": "shueiro",
+    "b": "winch",
+    "a_wins": 2,
+    "b_wins": 5,
+    "ties": 0,
+    "a_ppg": 475.3,
+    "b_ppg": 518.3,
+    "streak": {
+     "who": "winch",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2023-2024",
+     "week": 16,
+     "a_pts": 435.0,
+     "b_pts": 590.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2023-2024",
+     "week": 5,
+     "a_pts": 447.0,
+     "b_pts": 437.0,
+     "winner": "shueiro",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 5,
+      "a_pts": 447.0,
+      "b_pts": 437.0,
+      "winner": "shueiro",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 16,
+      "a_pts": 435.0,
+      "b_pts": 590.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 1,
+      "a_pts": 475.0,
+      "b_pts": 512.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 12,
+      "a_pts": 528.0,
+      "b_pts": 561.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 2,
+      "a_pts": 468.0,
+      "b_pts": 555.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 13,
+      "a_pts": 499.0,
+      "b_pts": 455.0,
+      "winner": "shueiro",
+      "flagged": false
+     }
+    ],
+    "playoffs": [
+     {
+      "season": "2025-2026",
+      "round": "Quarterfinal",
+      "winner": "winch",
+      "winner_points": 497.0,
+      "loser_points": 494.0
+     }
+    ]
+   },
+   {
+    "key": "verdeja|victor",
+    "a": "verdeja",
+    "b": "victor",
+    "a_wins": 1,
+    "b_wins": 4,
+    "ties": 0,
+    "a_ppg": 430.0,
+    "b_ppg": 473.8,
+    "streak": {
+     "who": "verdeja",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2024-2025",
+     "week": 11,
+     "a_pts": 336.0,
+     "b_pts": 458.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 20,
+     "a_pts": 418.0,
+     "b_pts": 437.0,
+     "winner": "victor",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 8,
+      "a_pts": 413.0,
+      "b_pts": 497.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 11,
+      "a_pts": 336.0,
+      "b_pts": 458.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 9,
+      "a_pts": 511.0,
+      "b_pts": 546.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 20,
+      "a_pts": 418.0,
+      "b_pts": 437.0,
+      "winner": "victor",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 3,
+      "a_pts": 472.0,
+      "b_pts": 431.0,
+      "winner": "verdeja",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "verdeja|winch",
+    "a": "verdeja",
+    "b": "winch",
+    "a_wins": 1,
+    "b_wins": 6,
+    "ties": 0,
+    "a_ppg": 404.4,
+    "b_ppg": 481.0,
+    "streak": {
+     "who": "winch",
+     "n": 2
+    },
+    "blowout": {
+     "season": "2026-2027",
+     "week": 2,
+     "a_pts": 253.0,
+     "b_pts": 417.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 6,
+     "a_pts": 413.0,
+     "b_pts": 407.0,
+     "winner": "verdeja",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 2,
+      "a_pts": 424.0,
+      "b_pts": 564.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 13,
+      "a_pts": 466.0,
+      "b_pts": 493.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 2,
+      "a_pts": 458.0,
+      "b_pts": 551.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 13,
+      "a_pts": 481.0,
+      "b_pts": 505.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 6,
+      "a_pts": 413.0,
+      "b_pts": 407.0,
+      "winner": "verdeja",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 17,
+      "a_pts": 336.0,
+      "b_pts": 430.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 2,
+      "a_pts": 253.0,
+      "b_pts": 417.0,
+      "winner": "winch",
+      "flagged": false
+     }
+    ],
+    "playoffs": []
+   },
+   {
+    "key": "victor|winch",
+    "a": "victor",
+    "b": "winch",
+    "a_wins": 1,
+    "b_wins": 6,
+    "ties": 0,
+    "a_ppg": 416.4,
+    "b_ppg": 489.4,
+    "streak": {
+     "who": "victor",
+     "n": 1
+    },
+    "blowout": {
+     "season": "2025-2026",
+     "week": 14,
+     "a_pts": 288.0,
+     "b_pts": 427.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "closest": {
+     "season": "2025-2026",
+     "week": 3,
+     "a_pts": 454.0,
+     "b_pts": 476.0,
+     "winner": "winch",
+     "flagged": false
+    },
+    "games": [
+     {
+      "season": "2023-2024",
+      "week": 4,
+      "a_pts": 413.0,
+      "b_pts": 495.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2023-2024",
+      "week": 15,
+      "a_pts": 506.0,
+      "b_pts": 554.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 5,
+      "a_pts": 448.0,
+      "b_pts": 523.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2024-2025",
+      "week": 16,
+      "a_pts": 418.0,
+      "b_pts": 518.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 3,
+      "a_pts": 454.0,
+      "b_pts": 476.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2025-2026",
+      "week": 14,
+      "a_pts": 288.0,
+      "b_pts": 427.0,
+      "winner": "winch",
+      "flagged": false
+     },
+     {
+      "season": "2026-2027",
+      "week": 1,
+      "a_pts": 388.0,
+      "b_pts": 433.0,
+      "winner": "victor",
+      "flagged": true
+     }
+    ],
+    "playoffs": []
+   }
+  ],
+  "people": [
+   {
+    "manager": "blandon",
+    "nemesis": {
+     "vs": "chalela",
+     "w": 2,
+     "l": 4,
+     "t": 0
+    },
+    "victim": {
+     "vs": "joey",
+     "w": 6,
+     "l": 1,
+     "t": 0
+    }
+   },
+   {
+    "manager": "chalela",
+    "nemesis": {
+     "vs": "winch",
+     "w": 2,
+     "l": 5,
+     "t": 0
+    },
+    "victim": {
+     "vs": "ricky",
+     "w": 6,
+     "l": 0,
+     "t": 0
+    }
+   },
+   {
+    "manager": "jacobo",
+    "nemesis": {
+     "vs": "melo",
+     "w": 0,
+     "l": 5,
+     "t": 0
+    },
+    "victim": {
+     "vs": "shueiro",
+     "w": 5,
+     "l": 1,
+     "t": 0
+    }
+   },
+   {
+    "manager": "joey",
+    "nemesis": {
+     "vs": "blandon",
+     "w": 1,
+     "l": 6,
+     "t": 0
+    },
+    "victim": {
+     "vs": "verdeja",
+     "w": 3,
+     "l": 2,
+     "t": 0
+    }
+   },
+   {
+    "manager": "libguel",
+    "nemesis": {
+     "vs": "blandon",
+     "w": 1,
+     "l": 4,
+     "t": 0
+    },
+    "victim": {
+     "vs": "jacobo",
+     "w": 5,
+     "l": 1,
+     "t": 0
+    }
+   },
+   {
+    "manager": "melo",
+    "nemesis": {
+     "vs": "chalela",
+     "w": 2,
+     "l": 5,
+     "t": 0
+    },
+    "victim": {
+     "vs": "jacobo",
+     "w": 5,
+     "l": 0,
+     "t": 0
+    }
+   },
+   {
+    "manager": "papo",
+    "nemesis": {
+     "vs": "melo",
+     "w": 1,
+     "l": 4,
+     "t": 0
+    },
+    "victim": {
+     "vs": "verdeja",
+     "w": 5,
+     "l": 0,
+     "t": 0
+    }
+   },
+   {
+    "manager": "ricky",
+    "nemesis": {
+     "vs": "chalela",
+     "w": 0,
+     "l": 6,
+     "t": 0
+    },
+    "victim": {
+     "vs": "jacobo",
+     "w": 4,
+     "l": 2,
+     "t": 0
+    }
+   },
+   {
+    "manager": "shueiro",
+    "nemesis": {
+     "vs": "jacobo",
+     "w": 1,
+     "l": 5,
+     "t": 0
+    },
+    "victim": {
+     "vs": "ricky",
+     "w": 4,
+     "l": 1,
+     "t": 0
+    }
+   },
+   {
+    "manager": "verdeja",
+    "nemesis": {
+     "vs": "papo",
+     "w": 0,
+     "l": 5,
+     "t": 0
+    },
+    "victim": {
+     "vs": "ricky",
+     "w": 5,
+     "l": 0,
+     "t": 0
+    }
+   },
+   {
+    "manager": "victor",
+    "nemesis": {
+     "vs": "winch",
+     "w": 1,
+     "l": 6,
+     "t": 0
+    },
+    "victim": {
+     "vs": "ricky",
+     "w": 4,
+     "l": 0,
+     "t": 0
+    }
+   },
+   {
+    "manager": "winch",
+    "nemesis": {
+     "vs": "papo",
+     "w": 2,
+     "l": 4,
+     "t": 0
+    },
+    "victim": {
+     "vs": "verdeja",
+     "w": 6,
+     "l": 1,
+     "t": 0
+    }
+   }
+  ],
+  "headlines": {
+   "lopsided": "chalela|ricky",
+   "even": "joey|papo",
+   "blowout": "papo|victor"
+  }
+ },
  "sources": [
   "site/data/matchups.json",
   "site/data/seasons.json",

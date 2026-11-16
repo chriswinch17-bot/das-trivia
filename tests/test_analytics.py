@@ -90,6 +90,28 @@ class ManagerProfiles(unittest.TestCase):
         self.assertEqual(sorted(m["trades"]["rank"] for m in A["managers"]), list(range(1, A["teams"] + 1)))
 
 
+class Rivalries(unittest.TestCase):
+    def test_every_game_counted_once(self):
+        R = A["rivalries"]
+        playoff_games = sum(1 for s in SEASONS for g in s.get("playoffs") or [] if g.get("winner") and g.get("loser"))
+        self.assertEqual(sum(len(p["games"]) for p in R["pairs"]), len(MATCHUPS))
+        self.assertEqual(sum(len(p["playoffs"]) for p in R["pairs"]), playoff_games)
+        self.assertEqual(sum(p["a_wins"] + p["b_wins"] + p["ties"] for p in R["pairs"]), len(MATCHUPS) + playoff_games)
+
+    def test_records_match_official_results(self):
+        for p in A["rivalries"]["pairs"]:
+            a, b = p["a"], p["b"]
+            reg = [m for m in MATCHUPS if {m["winner"], m["loser"]} == {a, b}]
+            po = [g for s in SEASONS for g in s.get("playoffs") or [] if {g.get("winner"), g.get("loser")} == {a, b}]
+            wins = sum(1 for m in reg if m["winner"] == a and not m["tie"]) + sum(1 for g in po if g["winner"] == a)
+            self.assertEqual(p["a_wins"], wins, p["key"])
+
+    def test_blowouts_skip_stat_correction_games(self):
+        for p in A["rivalries"]["pairs"]:
+            for g in (p["blowout"], p["closest"]):
+                self.assertTrue(g is None or not g["flagged"], p["key"])
+
+
 class History(unittest.TestCase):
     def test_champions_match_seasons(self):
         for s in SEASONS:

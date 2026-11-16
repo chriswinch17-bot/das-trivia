@@ -354,4 +354,91 @@ def build(managers_file, seasons, matchups, trades, history, team_name):
     graded = build_trades(lg, trades, team_name, names)
     drafts = build_drafts(lg, names)
     profiles, board = build_managers(lg, managers_file, seasons, graded, drafts, names, history)
-    return graded, board, profiles
+    rivalries = build_rivalries(matchups, seasons, managers_file)
+    return graded, board, profiles, rivalries
+
+
+def build_rivalries(matchups, seasons, managers):
+    """Every head-to-head pair: official results (regular season), playoff meetings, streaks, blowouts.
+    The six games Sleeper flags as "result differs from score" (stat corrections) count for the record but
+    are left out of blowout / closest-game picks, as the owner asked for score-based facts."""
+    names = {m["id"]: m["name"] for m in managers}
+    ids = sorted(names, key=lambda m: names[m])
+    order = {s["season"]: i for i, s in enumerate(seasons)}
+    pairs = {}
+
+    def pair(a, b):
+        key = "|".join(sorted((a, b)))
+        if key not in pairs:
+            x, y = sorted((a, b))
+            pairs[key] = {"a": x, "b": y, "games": [], "playoffs": []}
+        return pairs[key]
+
+    for m in sorted(matchups, key=lambda g: (order[g["season"]], g["week"])):
+        p = pair(m["winner"], m["loser"])
+        pts = {m["winner"]: m["winner_points"], m["loser"]: m["loser_points"]}
+        p["games"].append({"season": m["season"], "week": m["week"], "a_pts": pts[p["a"]], "b_pts": pts[p["b"]],
+                           "winner": None if m["tie"] else m["winner"], "flagged": m["result_differs_from_score"]})
+    for s in seasons:
+        for g in s.get("playoffs") or []:
+            if not g.get("winner") or not g.get("loser"):
+                continue
+            p = pair(g["winner"], g["loser"])
+            p["playoffs"].append({"season": s["season"], "round": g["round"], "winner": g["winner"],
+                                  "winner_points": g["winner_points"], "loser_points": g["loser_points"]})
+
+    out = []
+    for key, p in pairs.items():
+        a, b, games = p["a"], p["b"], p["games"]
+        aw = sum(1 for g in games if g["winner"] == a) + sum(1 for g in p["playoffs"] if g["winner"] == a)
+        bw = sum(1 for g in games if g["winner"] == b) + sum(1 for g in p["playoffs"] if g["winner"] == b)
+        ties = sum(1 for g in games if g["winner"] is None)
+        # current streak, regular season and playoffs in date order (playoffs come after that season's weeks)
+        timeline = [(order[g["season"]], g["week"], g["winner"]) for g in games] + \
+                   [(order[g["season"]], 99, g["winner"]) for g in p["playoffs"]]
+        timeline.sort()
+        streak_who, streak = None, 0
+        for _, _, w in reversed(timeline):
+            if w is None or (streak_who and w != streak_who):
+                break
+            streak_who, streak = w, streak + 1
+        scored = [g for g in games if not g["flagged"]]
+        blow = max(scored, key=lambda g: abs(g["a_pts"] - g["b_pts"]), default=None)
+        close = min((g for g in scored if g["winner"]), key=lambda g: abs(g["a_pts"] - g["b_pts"]), default=None)
+        n = len(games) or 1
+        out.append({
+            "key": key, "a": a, "b": b, "a_wins": aw, "b_wins": bw, "ties": ties,
+            "a_ppg": round(sum(g["a_pts"] for g in games) / n, 1), "b_ppg": round(sum(g["b_pts"] for g in games) / n, 1),
+            "streak": {"who": streak_who, "n": streak} if streak_who else None,
+            "blowout": blow, "closest": close, "games": games, "playoffs": p["playoffs"],
+        })
+
+    # nemesis / victim for every manager (at least 3 meetings)
+    def record_vs(me, them):
+        r = next(x for x in out if {x["a"], x["b"]} == {me, them})
+        w, l = (r["a_wins"], r["b_wins"]) if r["a"] == me else (r["b_wins"], r["a_wins"])
+        return w, l, r["ties"]
+
+    people = []
+    for me in ids:
+        rows = []
+        for them in ids:
+            if them == me or not any({x["a"], x["b"]} == {me, them} for x in out):
+                continue
+            w, l, t = record_vs(me, them)
+            if w + l + t >= 3:
+                rows.append({"vs": them, "w": w, "l": l, "t": t, "pct": (w + t / 2) / (w + l + t)})
+        if not rows:
+            continue
+        nem = min(rows, key=lambda r: (r["pct"], -r["l"]))
+        vic = max(rows, key=lambda r: (r["pct"], r["w"]))
+        people.append({"manager": me, "nemesis": {k: nem[k] for k in ("vs", "w", "l", "t")},
+                       "victim": {k: vic[k] for k in ("vs", "w", "l", "t")}})
+
+    lopsided = max(out, key=lambda r: (abs(r["a_wins"] - r["b_wins"]), r["a_wins"] + r["b_wins"]))
+    played = [r for r in out if r["a_wins"] + r["b_wins"] + r["ties"] >= 4]
+    even = min(played or out, key=lambda r: (abs(r["a_wins"] - r["b_wins"]), -(r["a_wins"] + r["b_wins"] + r["ties"])))
+    blowouts = [(r, r["blowout"]) for r in out if r["blowout"]]
+    biggest = max(blowouts, key=lambda rb: abs(rb[1]["a_pts"] - rb[1]["b_pts"]))
+    return {"managers": ids, "names": names, "pairs": sorted(out, key=lambda r: r["key"]), "people": people,
+            "headlines": {"lopsided": lopsided["key"], "even": even["key"], "blowout": biggest[0]["key"]}}
