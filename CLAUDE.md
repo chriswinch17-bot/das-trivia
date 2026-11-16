@@ -182,6 +182,9 @@ The owner has essentially no coding or web development experience.
   **Matchup Odds** (`tab=odds`, build_odds): this week (live scores as of the nightly refresh) and next week. Projected score =
   60% points/week + 40% top-10 roster strength (scaled); win chance from a normal curve with last season's weekly swing;
   moneyline with a small vig, half-point spread and total; season record re-runs the model before each finished week.
+  Live lines are computed in the browser: it reads Sleeper's current week (`/state/nba`) and live scores
+  (`/league/<id>/matchups/<week>`) when the page opens; share of week played comes from the calendar (week 1 = opening
+  night to Sunday, then Monday-Sunday ET). Final weeks show W/L and the margin; falls back to last night's scores.
   Just for fun, the page says nobody takes bets.
   **Ask EquipoGPT** tab (`tab=ask`) is the owner's joke: a blurred fake chat whose every question hits a paywall
   ("EquipoGPT Pro, $99.99/month, reach out to Co-Founder Jacobo at 305-JACOBO"). No AI, nothing sold or collected.

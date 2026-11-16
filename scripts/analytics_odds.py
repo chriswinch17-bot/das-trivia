@@ -87,9 +87,11 @@ def build_odds(ctx):
             "a_live": live.get(a), "b_live": live.get(b),
         }
 
-    out = {"sd": round(sd, 1), "weeks": []}
+    out = {"sd": round(sd, 1), "weeks": [], "vig": VIG, "league_id": ctx["league_id"],
+           "roster_manager": {str(k): v for k, v in ctx["roster_manager"].items()}}
     # the week in progress and the one after, regular season only
-    current = (weeks[-1] + 1) if weeks else 1
+    # Sleeper's own "current week" (league.json leg); finished weeks may not be scored yet
+    current = max(ctx.get("leg") or 0, (weeks[-1] + 1) if weeks else 1)
     proj = project(weeks[-1], ctx["roster_now"]) if weeks else None
     for w in (current, current + 1):
         if w > ctx["regular_last"] or w not in ctx["schedule"] or not proj:

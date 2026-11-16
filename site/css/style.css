@@ -807,12 +807,20 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .od-team { flex: 1; min-width: 0; line-height: 1.2; }
 .od-team b { display: block; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .od-team small { color: var(--muted); font-size: 11px; }
-.od-cell { width: 58px; flex: none; text-align: center; padding: 4px 0; border-radius: 8px; background: #0b1120; border: 1px solid var(--card-edge);
-  font-weight: 800; font-size: 14px; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.od-cell { width: 62px; flex: none; text-align: center; padding: 3px 0; border-radius: 8px; background: #0b1120; border: 1px solid var(--card-edge);
+  line-height: 1.15; font-variant-numeric: tabular-nums; }
 .od-cell small { display: block; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); }
-.od-row.fav .od-cell.ml { color: var(--green); }
+.od-cell b { display: block; font-size: 14px; }
+.od-cell i { display: block; font-style: normal; font-size: 12px; font-weight: 700; color: #d5dbea; }
+.od-cell.live { border-color: #ef4b4b; }
+.od-cell.live small { color: #ff8a8a; }
+.od-row.fav .od-cell.live i { color: var(--green); }
+.od-was { flex: 1 0 100%; font-size: 11px; }
+.od-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #ef4b4b; margin-right: 4px; animation: od-pulse 1.4s infinite; }
+@keyframes od-pulse { 50% { opacity: .3; } }
 .od-live { font-family: var(--head); font-size: 22px; font-weight: 800; color: #f2c14e; width: 40px; text-align: right; flex: none; }
 .od-foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 10px; padding: 8px 10px; font-size: 12px; color: var(--muted); }
 .od-bar { flex: 1 0 100%; margin: 0 0 2px; background: #d95926; }
 .od-bar span { background: #3987e5; }
 .od-record { margin-top: 6px; }
+.od-cell.final { border-color: var(--card-edge); } .od-cell.final small { color: var(--muted); }

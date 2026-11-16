@@ -402,9 +402,90 @@
     }).join("");
   }
 
-  /* ---------- matchup odds ---------- */
-  let oddsWeek = 0;
-  function setupOdds() {
+  /* ---------- matchup odds ----------
+     "Opening" lines are set before the week (data/analytics.json). "Live" lines are worked out here from the
+     live scores, read straight from Sleeper when the page opens (falls back to last night's scores):
+     final margin = margin now + projected margin x share of the week still to play, and the uncertainty
+     shrinks as the week runs out. The share left is estimated from league-wide points scored vs projected. */
+  let oddsWeek = null;
+  const liveScores = {};   // week -> {manager: points}
+  const liveFetched = {};  // week -> "sleeper" | "nightly"
+  const erf = (x) => {     // Abramowitz-Stegun approximation, plenty for odds
+    const s = Math.sign(x); x = Math.abs(x);
+    const t = 1 / (1 + 0.3275911 * x);
+    return s * (1 - (((((1.061405429 * t - 1.453152027) * t) + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x));
+  };
+  const phiN = (z) => 0.5 * (1 + erf(z / Math.SQRT2));
+  const americanOdds = (p) => {
+    p = Math.min(Math.max(p, 0.02), 0.98);
+    const line = Math.round((p >= 0.5 ? (-100 * p) / (1 - p) : (100 * (1 - p)) / p) / 5) * 5;
+    return line > 0 ? `+${line}` : String(line);
+  };
+  const halfPt = (x) => Math.floor(x) + 0.5;
+  const spreadText = (fav, me, n) => (!fav ? "PK" : fav === me ? `-${n}` : `+${n}`);
+
+  let sleeperState = null;   // {week, season_start_date} from Sleeper, or null if it didn't answer
+  async function loadState() {
+    if (sleeperState !== null) return;
+    try {
+      const r = await fetch("https://api.sleeper.app/v1/state/nba", { cache: "no-store" });
+      sleeperState = r.ok ? await r.json() : false;
+    } catch (e) { sleeperState = false; }
+  }
+  // Sleeper NBA weeks: week 1 = opening night to the first Sunday, then Monday to Sunday (Eastern time)
+  function weekPlayed(week) {
+    if (!sleeperState || !sleeperState.season_start_date) return null;
+    const DAY = 86400000, ET = 5 * 3600000;
+    const open = Date.parse(`${sleeperState.season_start_date}T00:00:00Z`) + ET;
+    const dow = new Date(open - ET).getUTCDay();            // 0 Sunday ... 6 Saturday
+    const firstMonday = open + ((8 - dow) % 7 || 7) * DAY;
+    const start = week <= 1 ? open : firstMonday + (week - 2) * 7 * DAY;
+    const end = week <= 1 ? firstMonday : start + 7 * DAY;
+    return Math.min(1, Math.max(0, (Date.now() - start) / (end - start)));
+  }
+
+  async function loadLive(W) {
+    if (liveFetched[W.week]) return;
+    const O = data.odds;
+    try {
+      const r = await fetch(`https://api.sleeper.app/v1/league/${O.league_id}/matchups/${W.week}`, { cache: "no-store" });
+      if (!r.ok) throw new Error(r.status);
+      const rows = await r.json();
+      liveScores[W.week] = Object.fromEntries(rows.map((e) => [O.roster_manager[String(e.roster_id)], e.points || 0]));
+      liveFetched[W.week] = "sleeper";
+    } catch (e) {
+      const nightly = {};
+      for (const g of W.games) { nightly[g.a] = g.a_live || 0; nightly[g.b] = g.b_live || 0; }
+      liveScores[W.week] = nightly;
+      liveFetched[W.week] = "nightly";
+    }
+  }
+
+  function liveLines(W) {
+    const pts = liveScores[W.week] || {};
+    const scored = Object.values(pts).reduce((a, b) => a + b, 0);
+    if (!scored) return null;
+    const projected = W.games.reduce((a, g) => a + g.a_proj + g.b_proj, 0);
+    const byDate = weekPlayed(W.week);
+    const played = byDate != null ? byDate : Math.min(0.99, scored / projected);
+    const left = 1 - played;
+    const sd = data.odds.sd * Math.SQRT2 * Math.sqrt(left);
+    const lines = {};
+    for (const g of W.games) {
+      const a = pts[g.a] || 0, b = pts[g.b] || 0;
+      const margin = a - b + (g.a_proj - g.b_proj) * left;       // projected final margin, A minus B
+      const p = Math.min(0.999, Math.max(0.001, phiN(margin / Math.max(sd, 1))));
+      const v = data.odds.vig;
+      lines[`${g.a}|${g.b}`] = {
+        a, b, p, a_ml: americanOdds(Math.min(p + v, 0.98)), b_ml: americanOdds(Math.min(1 - p + v, 0.98)),
+        favorite: Math.abs(margin) >= 0.5 ? (margin > 0 ? g.a : g.b) : null, spread: halfPt(Math.abs(margin)),
+        total: halfPt(a + b + (g.a_proj + g.b_proj) * left),
+      };
+    }
+    return { lines, played };
+  }
+
+  async function setupOdds() {
     const O = data.odds;
     if (!O) return;
     $("od-sd").textContent = Math.round(O.sd);
@@ -416,26 +497,45 @@
       $("od-list").innerHTML = '<p class="an-note">No regular-season matchups left to set lines for. Back next season.</p>';
       return;
     }
-    $("od-weeks").innerHTML = O.weeks.map((w, i) => `<button type="button" data-i="${i}" class="${i === oddsWeek ? "on" : ""}">Week ${w.week}${w.in_progress ? " · live" : ""}</button>`).join("");
+    await loadState();
+    const nowWeek = sleeperState && sleeperState.week ? sleeperState.week : O.weeks[0].week;
+    if (oddsWeek === null) oddsWeek = Math.max(0, O.weeks.findIndex((w) => w.week === nowWeek));
+    const label = (w) => (w.week < nowWeek ? "final" : w.week === nowWeek ? "live" : "next");
+    $("od-weeks").innerHTML = O.weeks.map((w, i) => `<button type="button" data-i="${i}" class="${i === oddsWeek ? "on" : ""}">Week ${w.week} · ${label(w)}</button>`).join("");
     for (const b of $("od-weeks").querySelectorAll("button")) b.onclick = () => { oddsWeek = Number(b.dataset.i); setupOdds(); };
     const W = O.weeks[oddsWeek];
-    $("od-live").textContent = W.in_progress ? "This week is already being played. Lines are from before it started; scores are as of the last nightly refresh." : "";
+    const state = label(W);
+    if (state !== "next") await loadLive(W);
+    const live = state !== "next" ? liveLines(W) : null;
+    const src = liveFetched[W.week] === "sleeper" ? "Scores straight from Sleeper, refresh the page for the latest." : "Scores as of last night's refresh (Sleeper didn't answer).";
+    $("od-live").innerHTML = state === "final" ? `Final scores. ${src}`
+      : live ? `<span class="od-dot"></span> Live: about ${Math.round(live.played * 100)}% of the week played. ${src}`
+      : state === "live" ? "This week has just started: no points yet, so the live lines match the opening lines."
+      : "Opening lines for next week. Live lines appear once it starts.";
     $("od-list").innerHTML = W.games.map((g) => {
+      const L = live && live.lines[`${g.a}|${g.b}`];
       const side = (k) => {
-        const fav = g.favorite === g[k];
-        const spread = !g.favorite ? "PK" : fav ? `-${g.spread}` : `+${g.spread}`;
-        const live = g[`${k}_live`];
+        const me = g[k];
+        const pre = `<span class="od-cell"><small>Opening</small><b>${spreadText(g.favorite, me, g.spread)}</b><i>${g[`${k}_ml`]}</i></span>`;
+        const won = L && (k === "a" ? L.a > L.b : L.b > L.a);
+        const now = !L ? "" : state === "final"
+          ? `<span class="od-cell live final"><small>Final</small><b>${won ? "W" : "L"}</b><i>${won ? "+" : "−"}${Math.round(Math.abs(L.a - L.b))}</i></span>`
+          : `<span class="od-cell live"><small>Live</small><b>${spreadText(L.favorite, me, L.spread)}</b><i>${L[`${k}_ml`]}</i></span>`;
+        const fav = (L ? L.favorite : g.favorite) === me;
         return `<div class="od-row${fav ? " fav" : ""}">
           <span class="od-team"><b>${esc(g[`${k}_team`])}</b><small>${esc(g[`${k}_name`])} · proj ${g[`${k}_proj`]}</small></span>
-          ${W.in_progress && live != null ? `<span class="od-live">${Math.round(live)}</span>` : ""}
-          <span class="od-cell"><small>Spread</small>${spread}</span>
-          <span class="od-cell ml"><small>Money</small>${g[`${k}_ml`]}</span>
+          ${L ? `<span class="od-live">${Math.round(L[k])}</span>` : ""}${pre}${now}
         </div>`;
       };
+      const pA = L ? L.p * 100 : g.a_prob;
       return `<article class="od-game">
         ${side("a")}${side("b")}
-        <div class="od-foot"><div class="tr-share od-bar" aria-hidden="true"><span style="width:${g.a_prob}%"></span></div>
-          <span>${esc(g.a_name)} ${Math.round(g.a_prob)}% · ${esc(g.b_name)} ${Math.round(100 - g.a_prob)}%</span><span>O/U ${g.total}</span></div>
+        <div class="od-foot"><div class="tr-share od-bar" aria-hidden="true"><span style="width:${pA.toFixed(1)}%"></span></div>
+          ${state === "final" && L ? `<span>Final: ${esc(L.a > L.b ? g.a_name : g.b_name)} by ${Math.round(Math.abs(L.a - L.b))} · ${(g.favorite === (L.a > L.b ? g.a : g.b)) ? "favourite won" : "upset!"}</span>
+          <span>O/U ${g.total} → ${Math.round(L.a + L.b)} (${L.a + L.b > g.total ? "over" : "under"})</span>`
+          : `<span>${L ? "Live win chance" : "Win chance"}: ${esc(g.a_name)} ${Math.round(pA)}% · ${esc(g.b_name)} ${Math.round(100 - pA)}%</span>
+          <span>O/U ${g.total}${L ? ` → live ${L.total}` : ""}</span>`}
+          ${L ? `<span class="od-was">Before the week: ${esc(g.a_name)} ${Math.round(g.a_prob)}%</span>` : ""}</div>
       </article>`;
     }).join("");
   }

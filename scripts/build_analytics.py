@@ -206,6 +206,8 @@ def main():
         "roster_now": {roster_manager[r["roster_id"]]: r.get("players") or [] for r in load(folder / "rosters.json")},
         "schedule": schedule, "regular_last": (league["settings"].get("playoff_week_start") or 99) - 1,
         "ids": ids, "names": names, "teams": team_now, "sd": sd, "live": live, "results": results,
+        "league_id": folder.name.split("_", 1)[1], "roster_manager": roster_manager,
+        "leg": league["settings"].get("leg"),
     })
 
     names_by_season = {(se["season"], t["manager"]): t["team_name"] for se in seasons for t in se["standings"]}

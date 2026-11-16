@@ -25108,6 +25108,22 @@
     ]
    }
   ],
+  "vig": 0.0225,
+  "league_id": "1344343390740819968",
+  "roster_manager": {
+   "1": "joey",
+   "2": "libguel",
+   "3": "winch",
+   "4": "victor",
+   "5": "shueiro",
+   "6": "papo",
+   "7": "melo",
+   "8": "verdeja",
+   "9": "jacobo",
+   "10": "chalela",
+   "11": "ricky",
+   "12": "blandon"
+  },
   "record": {
    "right": 8,
    "wrong": 4
