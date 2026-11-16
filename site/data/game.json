@@ -13230,6 +13230,569 @@
      "seasons.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "88e52e4d",
+    "text": "Name a player taken in the first round of the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Anthony Edwards",
+      "accept": [
+       "Ant",
+       "Ant Man",
+       "Ant-Man",
+       "Anthony",
+       "Anthony Edwards",
+       "Edwards"
+      ],
+      "detail": "Taken 8th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 2 times in Das League."
+     },
+     {
+      "display": "Chet Holmgren",
+      "accept": [
+       "Chet",
+       "Chet Holmgren",
+       "Holmgren"
+      ],
+      "detail": "Taken 11th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 3 times in Das League."
+     },
+     {
+      "display": "Domantas Sabonis",
+      "accept": [
+       "Domantas",
+       "Domantas Sabonis",
+       "Domas",
+       "Sabo",
+       "Sabonis"
+      ],
+      "detail": "Taken 12th overall by Saboners (Verdeja) in the 2023 startup draft. Traded 2 times in Das League."
+     },
+     {
+      "display": "Giannis Antetokounmpo",
+      "accept": [
+       "Antetokounmpo",
+       "Giannis",
+       "Giannis Antetokounmpo",
+       "Greek Freak"
+      ],
+      "detail": "Taken 6th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 4 times in Das League."
+     },
+     {
+      "display": "Jayson Tatum",
+      "accept": [
+       "JT",
+       "Jayson",
+       "Jayson Tatum",
+       "Tatum"
+      ],
+      "detail": "Taken 10th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Joel Embiid",
+      "accept": [
+       "Embiid",
+       "Joel",
+       "Joel Embiid",
+       "Jojo",
+       "The Process"
+      ],
+      "detail": "Taken 7th overall by Kareem Abdul-Jabong (Melo) in the 2023 startup draft. Traded 1 time in Das League."
+     },
+     {
+      "display": "LaMelo Ball",
+      "accept": [
+       "Ball",
+       "LaMelo",
+       "LaMelo Ball",
+       "Melo Ball"
+      ],
+      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 2 times in Das League."
+     },
+     {
+      "display": "Luka Dončić",
+      "accept": [
+       "Dončić",
+       "Luka",
+       "Luka Dončić",
+       "Luka Magic"
+      ],
+      "detail": "Taken 2nd overall by Luka Deez Nuts (Papo) in the 2023 startup draft. Traded 2 times in Das League."
+     },
+     {
+      "display": "Nikola Jokić",
+      "accept": [
+       "Joker",
+       "Jokic",
+       "Jokić",
+       "Nikola",
+       "Nikola Jokić"
+      ],
+      "detail": "Taken 1st overall by I Love Dragić (Victor) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Shai Gilgeous-Alexander",
+      "accept": [
+       "Alexander",
+       "Gilgeous",
+       "Gilgeous-Alexander",
+       "SGA",
+       "Shai",
+       "Shai Gilgeous-Alexander"
+      ],
+      "detail": "Taken 9th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Tyrese Haliburton",
+      "accept": [
+       "Hali",
+       "Haliburton",
+       "Tyrese",
+       "Tyrese Haliburton"
+      ],
+      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 2 times in Das League."
+     },
+     {
+      "display": "Victor Wembanyama",
+      "accept": [
+       "Alien",
+       "Victor",
+       "Victor Wembanyama",
+       "Wemb",
+       "Wembanyama",
+       "Wemby"
+      ],
+      "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 2 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "d1dfa910",
+    "text": "Name one of the first five players Rabbi BT69 (Blandon) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ],
+      "detail": "Taken 30th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 5 times in Das League."
+     },
+     {
+      "display": "Giannis Antetokounmpo",
+      "accept": [
+       "Antetokounmpo",
+       "Giannis",
+       "Giannis Antetokounmpo",
+       "Greek Freak"
+      ],
+      "detail": "Taken 6th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 4 times in Das League."
+     },
+     {
+      "display": "Jalen Williams",
+      "accept": [
+       "J-Dub",
+       "JDub",
+       "JWill",
+       "Jalen",
+       "Jalen Williams",
+       "Williams"
+      ],
+      "detail": "Taken 43rd overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 2 times in Das League."
+     },
+     {
+      "display": "Karl-Anthony Towns",
+      "accept": [
+       "KAT",
+       "Karl-Anthony",
+       "Karl-Anthony Towns",
+       "Towns"
+      ],
+      "detail": "Taken 19th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 3 times in Das League."
+     },
+     {
+      "display": "OG Anunoby",
+      "accept": [
+       "Anunoby",
+       "OG",
+       "OG Anunoby"
+      ],
+      "detail": "Taken 54th overall by Rabbi BT69 (Blandon) in the 2023 startup draft. Traded 3 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "blandon"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "8a62e918",
+    "text": "Name one of the first five players 2057 Champs (Shueiro) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Alperen Şengün",
+      "accept": [
+       "Alperen",
+       "Alperen Şengün",
+       "Baby Jokic",
+       "Şengün"
+      ],
+      "detail": "Taken 23rd overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 3 times in Das League."
+     },
+     {
+      "display": "Cade Cunningham",
+      "accept": [
+       "Cade",
+       "Cade Cunningham",
+       "Cunningham"
+      ],
+      "detail": "Taken 14th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 1 time in Das League."
+     },
+     {
+      "display": "Chet Holmgren",
+      "accept": [
+       "Chet",
+       "Chet Holmgren",
+       "Holmgren"
+      ],
+      "detail": "Taken 11th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 3 times in Das League."
+     },
+     {
+      "display": "Darius Garland",
+      "accept": [
+       "DG",
+       "Darius",
+       "Darius Garland",
+       "Garland"
+      ],
+      "detail": "Taken 26th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 1 time in Das League."
+     },
+     {
+      "display": "Jalen Green",
+      "accept": [
+       "Green",
+       "Jalen",
+       "Jalen Green"
+      ],
+      "detail": "Taken 50th overall by 2057 Champs (Shueiro) in the 2023 startup draft. Traded 4 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "7409edfd",
+    "text": "Name a team that finished the 2025-2026 regular season with a winning record.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel",
+      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro",
+      "detail": "Shueiro went 13-7 in the 2025-2026 regular season (3rd of 12) with 9,303 points, then lost in the first round of the playoffs."
+     },
+     {
+      "display": "LeBong James 👑 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo",
+      "detail": "Melo went 12-8 in the 2025-2026 regular season (4th of 12) with 9,857 points, then lost in the first round of the playoffs."
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela",
+      "detail": "Chalela went 12-8 in the 2025-2026 regular season (5th of 12) with 9,010 points, then finished fourth."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "57499f79",
+    "text": "Name a player Los Chigüires (Libguel) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "BI",
+       "Brandon",
+       "Brandon Ingram",
+       "Ingram"
+      ],
+      "detail": "Libguel got Brandon Ingram in a trade with Papo on November 7, 2024."
+     },
+     {
+      "display": "Cam Whitmore",
+      "accept": [
+       "Cam",
+       "Cam Whitmore",
+       "Whitmore"
+      ],
+      "detail": "Libguel got Cam Whitmore in a trade with Joey on January 13, 2024."
+     },
+     {
+      "display": "Dalton Knecht",
+      "accept": [
+       "Dalton",
+       "Dalton Knecht",
+       "Knecht"
+      ],
+      "detail": "Libguel got Dalton Knecht in a trade with Papo on February 8, 2025."
+     },
+     {
+      "display": "Darius Garland",
+      "accept": [
+       "DG",
+       "Darius",
+       "Darius Garland",
+       "Garland"
+      ],
+      "detail": "Libguel got Darius Garland in a trade with Shueiro on July 23, 2024."
+     },
+     {
+      "display": "Devin Vassell",
+      "accept": [
+       "Devin",
+       "Devin Vassell",
+       "Vassell"
+      ],
+      "detail": "Libguel got Devin Vassell in a trade with Shueiro on July 23, 2024."
+     },
+     {
+      "display": "Domantas Sabonis",
+      "accept": [
+       "Domantas",
+       "Domantas Sabonis",
+       "Domas",
+       "Sabo",
+       "Sabonis"
+      ],
+      "detail": "Libguel got Domantas Sabonis in a trade with Papo on July 3, 2025."
+     },
+     {
+      "display": "Evan Mobley",
+      "accept": [
+       "Evan",
+       "Evan Mobley",
+       "Mobley"
+      ],
+      "detail": "Libguel got Evan Mobley in a trade with Joey on December 30, 2023."
+     },
+     {
+      "display": "Isaiah Hartenstein",
+      "accept": [
+       "Hartenstein",
+       "Isaiah",
+       "Isaiah Hartenstein"
+      ],
+      "detail": "Libguel got Isaiah Hartenstein in a trade with Papo on April 22, 2025."
+     },
+     {
+      "display": "Jabari Smith Jr.",
+      "accept": [
+       "Jabari",
+       "Jabari Smith",
+       "Jabari Smith Jr.",
+       "Smith"
+      ],
+      "detail": "Libguel got Jabari Smith Jr. in a trade with Papo on February 8, 2025."
+     },
+     {
+      "display": "Jalen Suggs",
+      "accept": [
+       "Jalen",
+       "Jalen Suggs",
+       "Suggs"
+      ],
+      "detail": "Libguel got Jalen Suggs in a trade with Papo on April 22, 2025."
+     },
+     {
+      "display": "Leonard Miller",
+      "accept": [
+       "Leonard",
+       "Leonard Miller",
+       "Miller"
+      ],
+      "detail": "Libguel got Leonard Miller in a trade with Papo on January 17, 2024."
+     },
+     {
+      "display": "Michael Porter Jr.",
+      "accept": [
+       "MPJ",
+       "Michael",
+       "Michael Porter",
+       "Michael Porter Jr.",
+       "Porter"
+      ],
+      "detail": "Libguel got Michael Porter Jr. in a trade with Papo on June 13, 2024."
+     },
+     {
+      "display": "Nic Claxton",
+      "accept": [
+       "Claxton",
+       "Nic",
+       "Nic Claxton"
+      ],
+      "detail": "Libguel got Nic Claxton in a trade with Papo on February 8, 2025."
+     },
+     {
+      "display": "Shaedon Sharpe",
+      "accept": [
+       "Shaedon",
+       "Shaedon Sharpe",
+       "Sharpe"
+      ],
+      "detail": "Libguel got Shaedon Sharpe in a trade with Jacobo on December 22, 2024."
+     },
+     {
+      "display": "Tidjane Salaün",
+      "accept": [
+       "Salaün",
+       "Tidjane",
+       "Tidjane Salaün"
+      ],
+      "detail": "Libguel got Tidjane Salaün in a trade with Papo on February 10, 2025."
+     },
+     {
+      "display": "Tyrese Haliburton",
+      "accept": [
+       "Hali",
+       "Haliburton",
+       "Tyrese",
+       "Tyrese Haliburton"
+      ],
+      "detail": "Libguel got Tyrese Haliburton in a trade with Jacobo on December 22, 2024."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "8475570c",
+    "text": "Which team put up the lowest single-week score of the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "MoonUnit (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "manager": "ricky",
+      "detail": "Ricky went 3-15 in the 2023-2024 regular season (12th of 12) with 7,577 points and missed the playoffs."
+     }
+    ],
+    "note": "Just 243 points in week 16.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "1cacfaa6",
+    "text": "Who was the first overall pick of the 2024 rookie draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Alex Sarr",
+      "accept": [
+       "Alex",
+       "Alex Sarr",
+       "Sarr"
+      ],
+      "detail": "Taken 1st overall by Los Chigüires (Libguel) in the 2024 rookie draft. Never traded in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   }
   ]
  ],
  "players": [
