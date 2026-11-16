@@ -24031,6 +24031,1117 @@
    "blowout": "papo|victor"
   }
  },
+ "ledger": {
+  "years": [
+   2027,
+   2028,
+   2029
+  ],
+  "rounds": 3,
+  "teams": [
+   {
+    "manager": "joey",
+    "name": "Joey",
+    "team": "Fidel’s Accumulators",
+    "picks": {
+     "2027": [
+      {
+       "round": 1,
+       "from": "blandon",
+       "own": false
+      },
+      {
+       "round": 1,
+       "from": "papo",
+       "own": false
+      },
+      {
+       "round": 1,
+       "from": "verdeja",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "joey",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "joey",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "blandon",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "jacobo",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "papo",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "ricky",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "verdeja",
+       "own": false
+      }
+     ],
+     "2028": [
+      {
+       "round": 1,
+       "from": "jacobo",
+       "own": false
+      },
+      {
+       "round": 1,
+       "from": "papo",
+       "own": false
+      },
+      {
+       "round": 1,
+       "from": "shueiro",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "joey",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "jacobo",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "verdeja",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "joey",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "blandon",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "victor",
+       "own": false
+      }
+     ],
+     "2029": [
+      {
+       "round": 1,
+       "from": "joey",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "joey",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "papo",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "joey",
+       "own": true
+      }
+     ]
+    },
+    "count": [
+     7,
+     6,
+     10
+    ],
+    "capital": 66,
+    "own_firsts_gone": [
+     2027,
+     2028
+    ],
+    "power_rank": 12,
+    "rank": 1
+   },
+   {
+    "manager": "libguel",
+    "name": "Libguel",
+    "team": "Los Chigüires",
+    "picks": {
+     "2027": [
+      {
+       "round": 1,
+       "from": "joey",
+       "own": false
+      },
+      {
+       "round": 1,
+       "from": "shueiro",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "libguel",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "melo",
+       "own": false
+      }
+     ],
+     "2028": [
+      {
+       "round": 1,
+       "from": "libguel",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "libguel",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "shueiro",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "libguel",
+       "own": true
+      }
+     ],
+     "2029": [
+      {
+       "round": 1,
+       "from": "libguel",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "libguel",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "libguel",
+       "own": true
+      }
+     ]
+    },
+    "count": [
+     4,
+     5,
+     2
+    ],
+    "capital": 35,
+    "own_firsts_gone": [
+     2027
+    ],
+    "power_rank": 2,
+    "rank": 2
+   },
+   {
+    "manager": "shueiro",
+    "name": "Shueiro",
+    "team": "2057 Champs",
+    "picks": {
+     "2027": [
+      {
+       "round": 1,
+       "from": "winch",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "shueiro",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "jacobo",
+       "own": false
+      }
+     ],
+     "2028": [
+      {
+       "round": 1,
+       "from": "joey",
+       "own": false
+      },
+      {
+       "round": 1,
+       "from": "melo",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "papo",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "shueiro",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "papo",
+       "own": false
+      }
+     ],
+     "2029": [
+      {
+       "round": 1,
+       "from": "shueiro",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "shueiro",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "shueiro",
+       "own": true
+      }
+     ]
+    },
+    "count": [
+     4,
+     4,
+     3
+    ],
+    "capital": 34,
+    "own_firsts_gone": [
+     2027,
+     2028
+    ],
+    "power_rank": 3,
+    "rank": 3
+   },
+   {
+    "manager": "ricky",
+    "name": "Ricky",
+    "team": "MoonUnit 🦬",
+    "picks": {
+     "2027": [
+      {
+       "round": 1,
+       "from": "ricky",
+       "own": true
+      },
+      {
+       "round": 1,
+       "from": "libguel",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "ricky",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "papo",
+       "own": false
+      }
+     ],
+     "2028": [
+      {
+       "round": 1,
+       "from": "ricky",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "ricky",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "ricky",
+       "own": true
+      }
+     ],
+     "2029": [
+      {
+       "round": 1,
+       "from": "ricky",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "ricky",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "ricky",
+       "own": true
+      }
+     ]
+    },
+    "count": [
+     4,
+     4,
+     2
+    ],
+    "capital": 32,
+    "own_firsts_gone": [],
+    "power_rank": 5,
+    "rank": 4
+   },
+   {
+    "manager": "victor",
+    "name": "Victor",
+    "team": "I Love Dragić",
+    "picks": {
+     "2027": [
+      {
+       "round": 1,
+       "from": "victor",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "victor",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "winch",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "victor",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "winch",
+       "own": false
+      }
+     ],
+     "2028": [
+      {
+       "round": 1,
+       "from": "victor",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "victor",
+       "own": true
+      }
+     ],
+     "2029": [
+      {
+       "round": 1,
+       "from": "victor",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "victor",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "victor",
+       "own": true
+      }
+     ]
+    },
+    "count": [
+     3,
+     4,
+     3
+    ],
+    "capital": 30,
+    "own_firsts_gone": [],
+    "power_rank": 9,
+    "rank": 5
+   },
+   {
+    "manager": "verdeja",
+    "name": "Verdeja",
+    "team": "Antetokounmpers",
+    "picks": {
+     "2027": [
+      {
+       "round": 1,
+       "from": "chalela",
+       "own": false
+      },
+      {
+       "round": 1,
+       "from": "melo",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "verdeja",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "libguel",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "melo",
+       "own": false
+      }
+     ],
+     "2028": [
+      {
+       "round": 3,
+       "from": "verdeja",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "melo",
+       "own": false
+      }
+     ],
+     "2029": [
+      {
+       "round": 1,
+       "from": "verdeja",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "verdeja",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "verdeja",
+       "own": true
+      }
+     ]
+    },
+    "count": [
+     3,
+     2,
+     5
+    ],
+    "capital": 28,
+    "own_firsts_gone": [
+     2027,
+     2028
+    ],
+    "power_rank": 6,
+    "rank": 6
+   },
+   {
+    "manager": "chalela",
+    "name": "Chalela",
+    "team": "Lochte & Associates",
+    "picks": {
+     "2027": [
+      {
+       "round": 1,
+       "from": "jacobo",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "chalela",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "blandon",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "chalela",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "shueiro",
+       "own": false
+      }
+     ],
+     "2028": [
+      {
+       "round": 2,
+       "from": "chalela",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "chalela",
+       "own": true
+      }
+     ],
+     "2029": [
+      {
+       "round": 1,
+       "from": "chalela",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "chalela",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "chalela",
+       "own": true
+      }
+     ]
+    },
+    "count": [
+     2,
+     4,
+     4
+    ],
+    "capital": 28,
+    "own_firsts_gone": [
+     2027,
+     2028
+    ],
+    "power_rank": 10,
+    "rank": 7
+   },
+   {
+    "manager": "blandon",
+    "name": "Blandon",
+    "team": "Rabbi BT69",
+    "picks": {
+     "2027": [],
+     "2028": [
+      {
+       "round": 1,
+       "from": "blandon",
+       "own": true
+      },
+      {
+       "round": 1,
+       "from": "chalela",
+       "own": false
+      },
+      {
+       "round": 1,
+       "from": "verdeja",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "blandon",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "winch",
+       "own": false
+      }
+     ],
+     "2029": [
+      {
+       "round": 1,
+       "from": "winch",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "blandon",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "blandon",
+       "own": true
+      }
+     ]
+    },
+    "count": [
+     4,
+     2,
+     2
+    ],
+    "capital": 26,
+    "own_firsts_gone": [
+     2027,
+     2029
+    ],
+    "power_rank": 11,
+    "rank": 8
+   },
+   {
+    "manager": "winch",
+    "name": "Winch",
+    "team": "Equipo Winchenzo",
+    "picks": {
+     "2027": [],
+     "2028": [
+      {
+       "round": 3,
+       "from": "jacobo",
+       "own": false
+      }
+     ],
+     "2029": [
+      {
+       "round": 1,
+       "from": "blandon",
+       "own": false
+      },
+      {
+       "round": 1,
+       "from": "jacobo",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "jacobo",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "winch",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "jacobo",
+       "own": false
+      },
+      {
+       "round": 3,
+       "from": "papo",
+       "own": false
+      }
+     ]
+    },
+    "count": [
+     2,
+     1,
+     4
+    ],
+    "capital": 19,
+    "own_firsts_gone": [
+     2027,
+     2028,
+     2029
+    ],
+    "power_rank": 4,
+    "rank": 9
+   },
+   {
+    "manager": "melo",
+    "name": "Melo",
+    "team": "LeBong James",
+    "picks": {
+     "2027": [],
+     "2028": [
+      {
+       "round": 2,
+       "from": "melo",
+       "own": true
+      }
+     ],
+     "2029": [
+      {
+       "round": 1,
+       "from": "melo",
+       "own": true
+      },
+      {
+       "round": 2,
+       "from": "melo",
+       "own": true
+      },
+      {
+       "round": 3,
+       "from": "melo",
+       "own": true
+      }
+     ]
+    },
+    "count": [
+     1,
+     2,
+     1
+    ],
+    "capital": 12,
+    "own_firsts_gone": [
+     2027,
+     2028
+    ],
+    "power_rank": 7,
+    "rank": 10
+   },
+   {
+    "manager": "jacobo",
+    "name": "Jacobo",
+    "team": "hotrelish",
+    "picks": {
+     "2027": [],
+     "2028": [
+      {
+       "round": 1,
+       "from": "winch",
+       "own": false
+      }
+     ],
+     "2029": [
+      {
+       "round": 1,
+       "from": "papo",
+       "own": false
+      },
+      {
+       "round": 2,
+       "from": "winch",
+       "own": false
+      }
+     ]
+    },
+    "count": [
+     2,
+     1,
+     0
+    ],
+    "capital": 11,
+    "own_firsts_gone": [
+     2027,
+     2028,
+     2029
+    ],
+    "power_rank": 1,
+    "rank": 11
+   },
+   {
+    "manager": "papo",
+    "name": "Papo",
+    "team": "Fear the Brow",
+    "picks": {
+     "2027": [],
+     "2028": [
+      {
+       "round": 2,
+       "from": "winch",
+       "own": false
+      }
+     ],
+     "2029": []
+    },
+    "count": [
+     0,
+     1,
+     0
+    ],
+    "capital": 3,
+    "own_firsts_gone": [
+     2027,
+     2028,
+     2029
+    ],
+    "power_rank": 8,
+    "rank": 12
+   }
+  ],
+  "headlines": {
+   "hoarder": "joey",
+   "sold": "papo"
+  },
+  "traded": 52
+ },
+ "odds": {
+  "sd": 65.8,
+  "weeks": [
+   {
+    "week": 4,
+    "in_progress": true,
+    "games": [
+     {
+      "a": "joey",
+      "b": "ricky",
+      "a_name": "Joey",
+      "b_name": "Ricky",
+      "a_team": "Fidel’s Accumulators",
+      "b_team": "MoonUnit 🦬",
+      "a_proj": 358,
+      "b_proj": 417,
+      "a_prob": 26.2,
+      "a_ml": "+250",
+      "b_ml": "-320",
+      "favorite": "ricky",
+      "spread": 59.5,
+      "total": 775.5,
+      "a_live": 267.0,
+      "b_live": 369.0
+     },
+     {
+      "a": "libguel",
+      "b": "winch",
+      "a_name": "Libguel",
+      "b_name": "Winch",
+      "a_team": "Los Chigüires",
+      "b_team": "Equipo Winchenzo",
+      "a_proj": 445,
+      "b_proj": 426,
+      "a_prob": 58.3,
+      "a_ml": "-155",
+      "b_ml": "+130",
+      "favorite": "libguel",
+      "spread": 19.5,
+      "total": 871.5,
+      "a_live": 422.0,
+      "b_live": 376.0
+     },
+     {
+      "a": "victor",
+      "b": "melo",
+      "a_name": "Victor",
+      "b_name": "Melo",
+      "a_team": "I Love Dragić",
+      "b_team": "LeBong James",
+      "a_proj": 387,
+      "b_proj": 404,
+      "a_prob": 42.6,
+      "a_ml": "+125",
+      "b_ml": "-150",
+      "favorite": "melo",
+      "spread": 17.5,
+      "total": 791.5,
+      "a_live": 395.0,
+      "b_live": 366.0
+     },
+     {
+      "a": "shueiro",
+      "b": "jacobo",
+      "a_name": "Shueiro",
+      "b_name": "Jacobo",
+      "a_team": "2057 Champs",
+      "b_team": "hotrelish",
+      "a_proj": 426,
+      "b_proj": 455,
+      "a_prob": 37.8,
+      "a_ml": "+150",
+      "b_ml": "-180",
+      "favorite": "jacobo",
+      "spread": 29.5,
+      "total": 881.5,
+      "a_live": 467.0,
+      "b_live": 480.0
+     },
+     {
+      "a": "papo",
+      "b": "chalela",
+      "a_name": "Papo",
+      "b_name": "Chalela",
+      "a_team": "Fear the Brow",
+      "b_team": "Lochte & Associates",
+      "a_proj": 383,
+      "b_proj": 389,
+      "a_prob": 47.5,
+      "a_ml": "+100",
+      "b_ml": "-120",
+      "favorite": "chalela",
+      "spread": 5.5,
+      "total": 771.5,
+      "a_live": 273.0,
+      "b_live": 345.0
+     },
+     {
+      "a": "verdeja",
+      "b": "blandon",
+      "a_name": "Verdeja",
+      "b_name": "Blandon",
+      "a_team": "Antetokounmpers",
+      "b_team": "Rabbi BT69",
+      "a_proj": 395,
+      "b_proj": 367,
+      "a_prob": 61.5,
+      "a_ml": "-175",
+      "b_ml": "+145",
+      "favorite": "verdeja",
+      "spread": 27.5,
+      "total": 761.5,
+      "a_live": 357.0,
+      "b_live": 444.0
+     }
+    ]
+   },
+   {
+    "week": 5,
+    "in_progress": false,
+    "games": [
+     {
+      "a": "joey",
+      "b": "shueiro",
+      "a_name": "Joey",
+      "b_name": "Shueiro",
+      "a_team": "Fidel’s Accumulators",
+      "b_team": "2057 Champs",
+      "a_proj": 358,
+      "b_proj": 426,
+      "a_prob": 23.2,
+      "a_ml": "+295",
+      "b_ml": "-375",
+      "favorite": "shueiro",
+      "spread": 68.5,
+      "total": 784.5,
+      "a_live": null,
+      "b_live": null
+     },
+     {
+      "a": "libguel",
+      "b": "victor",
+      "a_name": "Libguel",
+      "b_name": "Victor",
+      "a_team": "Los Chigüires",
+      "b_team": "I Love Dragić",
+      "a_proj": 445,
+      "b_proj": 387,
+      "a_prob": 73.5,
+      "a_ml": "-310",
+      "b_ml": "+245",
+      "favorite": "libguel",
+      "spread": 58.5,
+      "total": 832.5,
+      "a_live": null,
+      "b_live": null
+     },
+     {
+      "a": "winch",
+      "b": "melo",
+      "a_name": "Winch",
+      "b_name": "Melo",
+      "a_team": "Equipo Winchenzo",
+      "b_team": "LeBong James",
+      "a_proj": 426,
+      "b_proj": 404,
+      "a_prob": 59.0,
+      "a_ml": "-160",
+      "b_ml": "+130",
+      "favorite": "winch",
+      "spread": 21.5,
+      "total": 830.5,
+      "a_live": null,
+      "b_live": null
+     },
+     {
+      "a": "papo",
+      "b": "verdeja",
+      "a_name": "Papo",
+      "b_name": "Verdeja",
+      "a_team": "Fear the Brow",
+      "b_team": "Antetokounmpers",
+      "a_proj": 383,
+      "b_proj": 395,
+      "a_prob": 44.9,
+      "a_ml": "+110",
+      "b_ml": "-135",
+      "favorite": "verdeja",
+      "spread": 11.5,
+      "total": 777.5,
+      "a_live": null,
+      "b_live": null
+     },
+     {
+      "a": "jacobo",
+      "b": "ricky",
+      "a_name": "Jacobo",
+      "b_name": "Ricky",
+      "a_team": "hotrelish",
+      "b_team": "MoonUnit 🦬",
+      "a_proj": 455,
+      "b_proj": 417,
+      "a_prob": 65.8,
+      "a_ml": "-215",
+      "b_ml": "+175",
+      "favorite": "jacobo",
+      "spread": 37.5,
+      "total": 872.5,
+      "a_live": null,
+      "b_live": null
+     },
+     {
+      "a": "chalela",
+      "b": "blandon",
+      "a_name": "Chalela",
+      "b_name": "Blandon",
+      "a_team": "Lochte & Associates",
+      "b_team": "Rabbi BT69",
+      "a_proj": 389,
+      "b_proj": 367,
+      "a_prob": 59.1,
+      "a_ml": "-160",
+      "b_ml": "+130",
+      "favorite": "chalela",
+      "spread": 21.5,
+      "total": 755.5,
+      "a_live": null,
+      "b_live": null
+     }
+    ]
+   }
+  ],
+  "record": {
+   "right": 8,
+   "wrong": 4
+  },
+  "upsets": [
+   {
+    "week": 3,
+    "favorite": "papo",
+    "underdog": "joey",
+    "won": false,
+    "prob": 76,
+    "favorite_name": "Papo",
+    "underdog_name": "Joey"
+   },
+   {
+    "week": 3,
+    "favorite": "libguel",
+    "underdog": "shueiro",
+    "won": false,
+    "prob": 63,
+    "favorite_name": "Libguel",
+    "underdog_name": "Shueiro"
+   },
+   {
+    "week": 3,
+    "favorite": "melo",
+    "underdog": "ricky",
+    "won": false,
+    "prob": 61,
+    "favorite_name": "Melo",
+    "underdog_name": "Ricky"
+   }
+  ]
+ },
  "sources": [
   "site/data/matchups.json",
   "site/data/seasons.json",

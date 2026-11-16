@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=57">
+  <link rel="stylesheet" href="css/style.css?v=58">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -212,6 +212,8 @@
         <button type="button" data-tab="trades">Trade Report Cards</button>
         <button type="button" data-tab="managers">Managers</button>
         <button type="button" data-tab="rivals">⚔️ Rivalries</button>
+        <button type="button" data-tab="picks">🧳 Pick Ledger</button>
+        <button type="button" data-tab="odds">🎲 Matchup Odds</button>
         <button type="button" data-tab="ask" class="tab-ask">🤖 Ask EquipoGPT <span class="pro">PRO</span></button>
       </nav>
 
@@ -291,6 +293,33 @@
         <h3 class="an-sub-title">Nemesis &amp; victim</h3>
         <p class="an-note small">The team each manager has the worst and best record against (3+ meetings).</p>
         <div class="rv-people" id="rv-people"></div>
+      </section>
+
+      <section class="an-block" data-panel="picks">
+        <h2 class="an-title">Future <i>Pick Ledger</i></h2>
+        <p class="an-note" id="pk-note"></p>
+        <div class="rv-heads" id="pk-heads"></div>
+        <div class="pk-key"><span class="pk r1">1</span>1st <span class="pk r2">2</span>2nd <span class="pk r3">3</span>3rd
+          <span class="pk r1 got">1<i>Win</i></span>acquired, from that team</div>
+        <div class="pk-list" id="pk-list"></div>
+      </section>
+
+      <section class="an-block" data-panel="odds">
+        <h2 class="an-title">Matchup <i>Odds</i></h2>
+        <p class="an-note">EquipoGPT's lines for every matchup. Just for fun: nobody is taking bets (except maybe Jacobo).</p>
+        <div class="seg" id="od-weeks"></div>
+        <p class="an-note small" id="od-live"></p>
+        <div class="od-list" id="od-list"></div>
+        <div class="od-record" id="od-record"></div>
+        <details class="an-how">
+          <summary>How the odds are made</summary>
+          <p>Each team's projected score = 60% its points per week this season + 40% the points per week of the 10 best players on
+            its roster right now. Weekly scores swing about <b id="od-sd"></b> points around a team's average, so the bigger the
+            projected gap, the bigger the favourite.</p>
+          <p><b>Moneyline:</b> -150 means bet 150 to win 100 (favourite); +130 means bet 100 to win 130 (underdog).
+            <b>Spread:</b> the favourite has to win by more than this. <b>Total:</b> both teams' points added together, over or under.</p>
+          <p>The season record re-runs the model before each finished week, using only what was known then.</p>
+        </details>
       </section>
 
       <!-- The owner's joke: a "premium" AI tab that is always locked. Nothing is sold or collected here. -->
@@ -472,11 +501,11 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=57"></script>
-  <script src="js/effects.js?v=57"></script>
-  <script src="js/cutscene.js?v=57"></script>
-  <script src="js/game.js?v=57"></script>
-  <script src="js/grids.js?v=57"></script>
-  <script src="js/analytics.js?v=57"></script>
+  <script src="js/config.js?v=58"></script>
+  <script src="js/effects.js?v=58"></script>
+  <script src="js/cutscene.js?v=58"></script>
+  <script src="js/game.js?v=58"></script>
+  <script src="js/grids.js?v=58"></script>
+  <script src="js/analytics.js?v=58"></script>
 </body>
 </html>

@@ -177,6 +177,12 @@ The owner has essentially no coding or web development experience.
   regular season + playoff bracket games from seasons.json), headline cards (most one-sided, dead even, biggest blowout),
   pair detail (series score, streak, points per game, blowout/closest, game log) and each manager's nemesis/victim
   (3+ meetings). Flagged stat-correction games count for records but never for blowout/closest picks.
+  **Pick Ledger** (`tab=picks`, `scripts/analytics_odds.py` build_ledger): owner of every rookie pick in the next 3 drafts from
+  the current season's traded_picks.json (untraded picks stay with the original team); capital = 1st 3, 2nd 2, 3rd 1.
+  **Matchup Odds** (`tab=odds`, build_odds): this week (live scores as of the nightly refresh) and next week. Projected score =
+  60% points/week + 40% top-10 roster strength (scaled); win chance from a normal curve with last season's weekly swing;
+  moneyline with a small vig, half-point spread and total; season record re-runs the model before each finished week.
+  Just for fun, the page says nobody takes bets.
   **Ask EquipoGPT** tab (`tab=ask`) is the owner's joke: a blurred fake chat whose every question hits a paywall
   ("EquipoGPT Pro, $99.99/month, reach out to Co-Founder Jacobo at 305-JACOBO"). No AI, nothing sold or collected.
 - **Every game resets at midnight Eastern** (owner's request, 2026-11-14).

@@ -371,8 +371,77 @@
     pickRivalry(h.a, h.b);
   }
 
+  /* ---------- future pick ledger ---------- */
+  function setupLedger() {
+    const L = data.ledger;
+    if (!L) return;
+    const nm = (id) => data.rivalries.names[id] || id;
+    const holder = {};   // "year|round|original" -> current owner
+    for (const t of L.teams) for (const [y, ps] of Object.entries(t.picks)) for (const p of ps) holder[`${y}|${p.round}|${p.from}`] = t.manager;
+    const hoard = L.teams.find((t) => t.manager === L.headlines.hoarder);
+    const sold = L.teams.find((t) => t.manager === L.headlines.sold);
+    $("pk-note").textContent = `Who owns every rookie pick in the next ${L.years.length} drafts (${L.years.join(", ")}). ` +
+      `${L.traded} of ${L.years.length * L.rounds * L.teams.length} picks have already changed hands. Ranked by pick capital (1st = 3, 2nd = 2, 3rd = 1).`;
+    $("pk-heads").innerHTML = `
+      <div class="rv-head"><small>Pick hoarder</small><b>${esc(hoard.team)} (${esc(hoard.name)})</b><span>${hoard.count[0]} firsts across ${L.years.length} drafts</span></div>
+      <div class="rv-head"><small>Sold the future</small><b>${esc(sold.team)} (${esc(sold.name)})</b><span>${sold.count[0] ? `Only ${sold.count[0]} first${sold.count[0] > 1 ? "s" : ""}` : "Zero firsts"} through ${L.years[L.years.length - 1]}</span></div>
+      <div class="rv-head"><small>Picks on the move</small><b>${L.traded} traded picks</b><span>${Math.round(L.traded / (L.years.length * L.rounds * L.teams.length) * 100)}% of all future picks</span></div>`;
+    const maxCap = Math.max(...L.teams.map((t) => t.capital));
+    $("pk-list").innerHTML = L.teams.map((t) => {
+      const gone = t.own_firsts_gone.map((y) => `${y} to ${esc(nm(holder[`${y}|1|${t.manager}`]))}`);
+      return `<article class="pk-team">
+        <header><span class="pr-rank">${t.rank}</span>
+          <span class="pk-name"><b>${esc(t.team)}</b> <span class="pr-mgr">(${esc(t.name)})</span>
+            <small>${t.count.map((c, i) => `${c} ${["1st", "2nd", "3rd"][i] || `R${i + 1}`}${c === 1 ? "" : "s"}`).join(" · ")}${t.power_rank ? ` · #${t.power_rank} in power rankings` : ""}</small></span>
+          <span class="pk-cap"><b>${t.capital}</b><small>capital</small></span></header>
+        <span class="pr-bar"><span style="width:${(t.capital / maxCap * 100).toFixed(1)}%"></span></span>
+        ${L.years.map((y) => `<div class="pk-year"><span class="pk-y">${y}</span><span class="pk-chips">${(t.picks[y] || []).map((p) =>
+          `<span class="pk r${p.round}${p.own ? "" : " got"}" title="${y} round ${p.round}${p.own ? "" : ` from ${esc(nm(p.from))}`}">${p.round}${p.own ? "" : `<i>${esc(nm(p.from).slice(0, 3))}</i>`}</span>`).join("") || '<span class="pk-none">no picks</span>'}</span></div>`).join("")}
+        ${gone.length ? `<p class="pk-gone">Own 1st traded away: ${gone.join(" · ")}</p>` : ""}
+      </article>`;
+    }).join("");
+  }
+
+  /* ---------- matchup odds ---------- */
+  let oddsWeek = 0;
+  function setupOdds() {
+    const O = data.odds;
+    if (!O) return;
+    $("od-sd").textContent = Math.round(O.sd);
+    const r = O.record;
+    $("od-record").innerHTML = r.right + r.wrong ? `<h3 class="an-sub-title">EquipoGPT's picks this season: ${r.right}-${r.wrong}</h3>
+      ${O.upsets.length ? `<p class="an-note small">Biggest upsets: ${O.upsets.map((u) => `week ${u.week}, ${esc(u.underdog_name)} beat ${esc(u.favorite_name)} (${u.prob}% favourite)`).join(" · ")}</p>` : ""}` : "";
+    if (!O.weeks.length) {
+      $("od-weeks").hidden = true;
+      $("od-list").innerHTML = '<p class="an-note">No regular-season matchups left to set lines for. Back next season.</p>';
+      return;
+    }
+    $("od-weeks").innerHTML = O.weeks.map((w, i) => `<button type="button" data-i="${i}" class="${i === oddsWeek ? "on" : ""}">Week ${w.week}${w.in_progress ? " · live" : ""}</button>`).join("");
+    for (const b of $("od-weeks").querySelectorAll("button")) b.onclick = () => { oddsWeek = Number(b.dataset.i); setupOdds(); };
+    const W = O.weeks[oddsWeek];
+    $("od-live").textContent = W.in_progress ? "This week is already being played. Lines are from before it started; scores are as of the last nightly refresh." : "";
+    $("od-list").innerHTML = W.games.map((g) => {
+      const side = (k) => {
+        const fav = g.favorite === g[k];
+        const spread = !g.favorite ? "PK" : fav ? `-${g.spread}` : `+${g.spread}`;
+        const live = g[`${k}_live`];
+        return `<div class="od-row${fav ? " fav" : ""}">
+          <span class="od-team"><b>${esc(g[`${k}_team`])}</b><small>${esc(g[`${k}_name`])} · proj ${g[`${k}_proj`]}</small></span>
+          ${W.in_progress && live != null ? `<span class="od-live">${Math.round(live)}</span>` : ""}
+          <span class="od-cell"><small>Spread</small>${spread}</span>
+          <span class="od-cell ml"><small>Money</small>${g[`${k}_ml`]}</span>
+        </div>`;
+      };
+      return `<article class="od-game">
+        ${side("a")}${side("b")}
+        <div class="od-foot"><div class="tr-share od-bar" aria-hidden="true"><span style="width:${g.a_prob}%"></span></div>
+          <span>${esc(g.a_name)} ${Math.round(g.a_prob)}% · ${esc(g.b_name)} ${Math.round(100 - g.a_prob)}%</span><span>O/U ${g.total}</span></div>
+      </article>`;
+    }).join("");
+  }
+
   /* ---------- tabs ---------- */
-  const TABS = ["power", "seasons", "trades", "managers", "rivals", "ask"];
+  const TABS = ["power", "seasons", "trades", "managers", "rivals", "picks", "odds", "ask"];
   function openTab(name) {
     if (!TABS.includes(name)) name = "power";
     for (const b of $("an-tabs").querySelectorAll("button")) {
@@ -568,6 +637,8 @@
     }
     setupTrades();
     setupRivalries();
+    setupLedger();
+    setupOdds();
     $("ask-form").onsubmit = (event) => {   // the owner's joke: every question hits the paywall
       event.preventDefault();
       openTab("ask");

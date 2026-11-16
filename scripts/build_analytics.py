@@ -20,6 +20,7 @@ import json
 import sys
 
 import analytics_more
+import analytics_odds
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -177,6 +178,36 @@ def main():
             })
         history.append({"manager": mid, "name": managers[mid]["name"], "team": team_now.get(mid), "seasons": points})
 
+    # --- future pick ledger and this week's matchup odds ---
+    league = load(folder / "league.json")
+    draft_years_done = {int(d["season"]) for d in load(folder / "drafts.json") if d.get("status") == "complete"}
+    first_future = max(draft_years_done | {int(year)}) + 1
+    names = {k: managers[k]["name"] for k in ids}
+    ledger = analytics_odds.build_ledger(
+        load(folder / "traded_picks.json"), roster_manager, ids, names, team_now,
+        [first_future, first_future + 1, first_future + 2], league["settings"].get("draft_rounds") or 3,
+        {r["manager"]: r["rank"] for r in rankings})
+
+    schedule, live = {}, {}
+    for f in sorted((folder / "matchups").glob("week_*.json")):
+        w = int(f.stem.split("_")[1])
+        games = {}
+        for e in load(f):
+            if e.get("matchup_id") is not None:
+                games.setdefault(e["matchup_id"], []).append(roster_manager[e["roster_id"]])
+            if e.get("points") and w not in weeks:
+                live.setdefault(w, {})[roster_manager[e["roster_id"]]] = e["points"]
+        schedule[w] = [tuple(g) for g in games.values() if len(g) == 2]
+    results = {(w, mid): r[0] for (w, mid), r in week_result.items()}
+    prev = seasons[-2]["season"] if len(seasons) > 1 else label
+    sd = analytics_odds.swing(matchups, prev) or analytics_odds.swing(matchups, label) or 55.0
+    odds = analytics_odds.build_odds({
+        "weeks": weeks, "week_points": week_points, "player_weeks": player_weeks, "lineup": lineup,
+        "roster_now": {roster_manager[r["roster_id"]]: r.get("players") or [] for r in load(folder / "rosters.json")},
+        "schedule": schedule, "regular_last": (league["settings"].get("playoff_week_start") or 99) - 1,
+        "ids": ids, "names": names, "teams": team_now, "sd": sd, "live": live, "results": results,
+    })
+
     names_by_season = {(se["season"], t["manager"]): t["team_name"] for se in seasons for t in se["standings"]}
     trades, traders, profiles, rivalries = analytics_more.build(
         load(ROOT / "data" / "managers.json")["managers"], seasons, matchups, load(SITE / "trades.json"), history,
@@ -188,6 +219,7 @@ def main():
         "rankings": rankings,
         "history": {"seasons": [s["season"] for s in seasons], "teams": history},
         "trades": trades, "traders": traders, "managers": profiles, "rivalries": rivalries,
+        "ledger": ledger, "odds": odds,
         "sources": ["site/data/matchups.json", "site/data/seasons.json", f"data/raw/sleeper/{folder.name}/matchups"],
     }
     (SITE / "analytics.json").write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")

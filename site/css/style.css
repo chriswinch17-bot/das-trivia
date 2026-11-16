@@ -689,7 +689,7 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 
 /* Ask EquipoGPT: the always-locked "Pro" tab (owner's joke) */
 .an-tabs .tab-ask { background: linear-gradient(135deg, #3b2a06, #1d2d6e); border-color: #f2c14e; }
-@media (min-width: 560px) { .an-tabs { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 560px) { .an-tabs { grid-template-columns: repeat(4, 1fr); } }
 .an-tabs .tab-ask.on { background: #f2c14e; }
 .pro { display: inline-block; margin-left: 4px; padding: 1px 5px; border-radius: 5px; font-size: 10px; font-weight: 800; letter-spacing: .8px;
   background: #f2c14e; color: #1d1503; vertical-align: 2px; }
@@ -774,3 +774,45 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .rv-chip.good i { color: var(--green); }
 .rv-grid td button { white-space: nowrap; overflow: hidden; }
 .rv-grid td.tie button { font-size: 8px; letter-spacing: -.5px; }
+
+/* Future Pick Ledger */
+.pk-key { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; margin-bottom: 10px; font-size: 12px; color: var(--muted); }
+.pk-key .pk { margin-left: 6px; }
+.pk { display: inline-flex; align-items: center; gap: 3px; height: 24px; min-width: 24px; padding: 0 6px; border-radius: 999px;
+  font-family: var(--head); font-size: 15px; font-weight: 800; color: #0b1120; justify-content: center; }
+.pk.r1 { background: #f2c14e; } .pk.r2 { background: #c9d1de; } .pk.r3 { background: #cd8a4f; }
+.pk.got { box-shadow: 0 0 0 2px #3987e5; }
+.pk i { font-family: var(--body); font-style: normal; font-size: 10px; font-weight: 700; text-transform: uppercase; opacity: .8; }
+.pk-list { display: grid; gap: 8px; }
+@media (min-width: 560px) { .pk-list { grid-template-columns: 1fr 1fr; } }
+.pk-team { border-radius: 14px; background: #10172a; border: 1px solid var(--card-edge); padding: 10px; display: grid; gap: 6px; }
+.pk-team header { display: flex; align-items: center; gap: 8px; }
+.pk-team .pr-rank { font-size: 30px; width: 1.1em; }
+.pk-name { flex: 1; min-width: 0; line-height: 1.2; overflow-wrap: anywhere; }
+.pk-name small { display: block; color: var(--muted); font-size: 11px; }
+.pk-cap { text-align: right; line-height: 1; }
+.pk-cap b { font-family: var(--head); font-size: 26px; }
+.pk-cap small { display: block; font-size: 10px; color: var(--muted); }
+.pk-year { display: flex; align-items: flex-start; gap: 8px; }
+.pk-y { font-family: var(--head); font-size: 15px; color: var(--muted); width: 36px; flex: none; padding-top: 3px; }
+.pk-chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.pk-none { font-size: 12px; color: var(--red); padding-top: 4px; }
+.pk-gone { margin: 0; font-size: 12px; color: #ffb4b4; }
+
+/* Matchup Odds */
+.od-list { display: grid; gap: 10px; }
+.od-game { border-radius: 14px; background: #10172a; border: 1px solid var(--card-edge); overflow: hidden; }
+.od-row { display: flex; align-items: center; gap: 6px; padding: 8px 10px; border-bottom: 1px solid #1a2238; }
+.od-row.fav { background: linear-gradient(90deg, rgba(47, 191, 113, .12), transparent 70%); }
+.od-team { flex: 1; min-width: 0; line-height: 1.2; }
+.od-team b { display: block; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.od-team small { color: var(--muted); font-size: 11px; }
+.od-cell { width: 58px; flex: none; text-align: center; padding: 4px 0; border-radius: 8px; background: #0b1120; border: 1px solid var(--card-edge);
+  font-weight: 800; font-size: 14px; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.od-cell small { display: block; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); }
+.od-row.fav .od-cell.ml { color: var(--green); }
+.od-live { font-family: var(--head); font-size: 22px; font-weight: 800; color: #f2c14e; width: 40px; text-align: right; flex: none; }
+.od-foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 10px; padding: 8px 10px; font-size: 12px; color: var(--muted); }
+.od-bar { flex: 1 0 100%; margin: 0 0 2px; background: #d95926; }
+.od-bar span { background: #3987e5; }
+.od-record { margin-top: 6px; }

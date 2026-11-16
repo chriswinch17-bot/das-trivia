@@ -112,6 +112,34 @@ class Rivalries(unittest.TestCase):
                 self.assertTrue(g is None or not g["flagged"], p["key"])
 
 
+class PickLedger(unittest.TestCase):
+    def test_every_future_pick_has_exactly_one_owner(self):
+        L = A["ledger"]
+        for y in map(str, L["years"]):
+            for r in range(1, L["rounds"] + 1):
+                owners = [(t["manager"], p["from"]) for t in L["teams"] for p in t["picks"][y] if p["round"] == r]
+                self.assertEqual(sorted(f for _, f in owners), sorted(t["manager"] for t in L["teams"]), f"{y} round {r}")
+
+    def test_counts_match_picks(self):
+        for t in A["ledger"]["teams"]:
+            for r, c in enumerate(t["count"], 1):
+                self.assertEqual(c, sum(1 for ps in t["picks"].values() for p in ps if p["round"] == r))
+
+
+class MatchupOdds(unittest.TestCase):
+    def test_probabilities_and_lines_agree(self):
+        for w in A["odds"]["weeks"]:
+            seen = set()
+            for g in w["games"]:
+                self.assertTrue(0 < g["a_prob"] < 100)
+                seen |= {g["a"], g["b"]}
+                if g["favorite"]:
+                    fav_ml = g["a_ml"] if g["favorite"] == g["a"] else g["b_ml"]
+                    self.assertTrue(fav_ml.startswith("-"), g)
+                    self.assertEqual(g["favorite"] == g["a"], g["a_proj"] >= g["b_proj"])
+            self.assertEqual(len(seen), len(w["games"]) * 2, "a team plays twice in one week")
+
+
 class History(unittest.TestCase):
     def test_champions_match_seasons(self):
         for s in SEASONS:
