@@ -824,3 +824,14 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .od-bar span { background: #3987e5; }
 .od-record { margin-top: 6px; }
 .od-cell.final { border-color: var(--card-edge); } .od-cell.final small { color: var(--muted); }
+/* Home box thumbnail for EquipoGPT Analytics: a gold chart with the host's face as a badge */
+.an-thumb { position: relative; width: 64px; height: 64px; flex: none; border-radius: 10px; overflow: hidden;
+  background: radial-gradient(circle at 30% 20%, #2a3a6e, #0b1120 75%); border: 1px solid #f2c14e; }
+.an-thumb svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.an-thumb .ax { stroke: #5b6788; stroke-width: 1.5; }
+.an-thumb rect { fill: #f2c14e; }
+.an-thumb .b1 { opacity: .55; } .an-thumb .b2 { opacity: .7; } .an-thumb .b3 { opacity: .85; }
+.an-thumb .tr { fill: none; stroke: #ff7a1a; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.an-thumb .ar { fill: #ff7a1a; }
+.bonus .an-thumb img { position: absolute; left: 3px; top: 3px; width: 22px; height: 22px; border-radius: 50%;
+  object-fit: cover; object-position: 50% 28%; border: 1.5px solid #f2c14e; }
