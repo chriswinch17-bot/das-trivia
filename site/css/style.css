@@ -686,3 +686,34 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .mg-draft summary span { margin-left: 6px; font-weight: 700; }
 .pos { color: var(--green); }
 .neg { color: var(--red); }
+
+/* Ask EquipoGPT: the always-locked "Pro" tab (owner's joke) */
+.an-tabs .tab-ask { grid-column: 1 / -1; background: linear-gradient(135deg, #3b2a06, #1d2d6e); border-color: #f2c14e; }
+@media (min-width: 560px) { .an-tabs .tab-ask { grid-column: auto; } .an-tabs { grid-template-columns: repeat(5, 1fr); } }
+.an-tabs .tab-ask.on { background: #f2c14e; }
+.pro { display: inline-block; margin-left: 4px; padding: 1px 5px; border-radius: 5px; font-size: 10px; font-weight: 800; letter-spacing: .8px;
+  background: #f2c14e; color: #1d1503; vertical-align: 2px; }
+.tab-ask.on .pro { background: #1d1503; color: #f2c14e; }
+.ask { position: relative; overflow: hidden; }
+.ask-chat { display: grid; gap: 8px; filter: blur(3px); opacity: .55; user-select: none; pointer-events: none; }
+.ask-msg { max-width: 85%; padding: 9px 12px; border-radius: 14px; font-size: 14px; }
+.ask-msg.me { justify-self: end; background: var(--orange); color: #1a0d02; border-bottom-right-radius: 4px; }
+.ask-msg.bot { display: flex; gap: 8px; align-items: flex-start; background: #0b1120; border: 1px solid var(--card-edge); border-bottom-left-radius: 4px; }
+.ask-msg.bot img { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; object-position: 50% 28%; flex: none; }
+.ask-form { display: flex; gap: 6px; margin-top: 12px; }
+.ask-form input { flex: 1; min-width: 0; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--card-edge); background: #0b1120;
+  color: var(--text); font: inherit; font-size: 16px; }
+.ask-form .btn { width: auto; padding: 0 18px; margin: 0; }
+.paywall { margin-top: 16px; padding: 22px 16px; border-radius: 16px; text-align: center;
+  background: radial-gradient(circle at 50% 0%, rgba(242, 193, 78, .25), transparent 65%), #0b1120; border: 2px solid #f2c14e;
+  box-shadow: 0 0 0 6px rgba(242, 193, 78, .08); }
+.paywall.shake { animation: paywall-shake .5s; }
+@keyframes paywall-shake { 20%, 60% { transform: translateX(-6px); } 40%, 80% { transform: translateX(6px); } }
+@media (prefers-reduced-motion: reduce) { .paywall.shake { animation: none; } }
+.paywall-lock { font-size: 44px; line-height: 1; }
+.paywall-badge { margin: 6px 0 2px; font-family: var(--head); font-size: 16px; letter-spacing: 3px; text-transform: uppercase; color: #f2c14e; }
+.paywall h3 { margin: 4px 0 10px; font-size: 26px; color: var(--text); }
+.paywall p { margin: 6px 0; color: #d5dbea; }
+.paywall-price b { font-family: var(--head); font-size: 54px; line-height: 1; color: #f2c14e; }
+.paywall-price span { margin-left: 4px; color: var(--muted); }
+.paywall-phone { font-family: var(--head); font-size: 34px; font-weight: 800; letter-spacing: 1px; color: var(--text) !important; }

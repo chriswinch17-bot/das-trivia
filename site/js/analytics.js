@@ -259,7 +259,7 @@
   }
 
   /* ---------- tabs ---------- */
-  const TABS = ["power", "seasons", "trades", "managers"];
+  const TABS = ["power", "seasons", "trades", "managers", "ask"];
   function openTab(name) {
     if (!TABS.includes(name)) name = "power";
     for (const b of $("an-tabs").querySelectorAll("button")) {
@@ -271,6 +271,7 @@
     url.searchParams.set("tab", name);
     history.replaceState(null, "", url);
     if (name === "seasons") renderChart();   // needs to be visible to measure its width
+    if (name === "ask") { const w = $("paywall"); w.classList.remove("shake"); void w.offsetWidth; w.classList.add("shake"); }
   }
 
   /* ---------- trade report cards ---------- */
@@ -453,6 +454,11 @@
       };
     }
     setupTrades();
+    $("ask-form").onsubmit = (event) => {   // the owner's joke: every question hits the paywall
+      event.preventDefault();
+      openTab("ask");
+      $("paywall").scrollIntoView({ block: "center", behavior: "smooth" });
+    };
     manager = (data.rankings[0] || data.managers[0]).manager;
     renderManagerChips();
     renderProfile();

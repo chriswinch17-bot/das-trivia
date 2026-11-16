@@ -173,6 +173,8 @@ The owner has essentially no coding or web development experience.
   old, < 200 points total. Best traders board = net points vs the trade's average. **Managers**: career record,
   titles, best/worst finish, trading (partner, best/worst trade links to the card), waiver pickups (best by points),
   draft grade = total "value over slot" (points minus the average of the 6 picks either side) ranked A+..F.
+  **Ask EquipoGPT** tab (`tab=ask`) is the owner's joke: a blurred fake chat whose every question hits a paywall
+  ("EquipoGPT Pro, $99.99/month, reach out to Co-Founder Jacobo at 305-JACOBO"). No AI, nothing sold or collected.
 - **Every game resets at midnight Eastern** (owner's request, 2026-11-14).
 - **Nightly automation** (owner's request, 2026-11-14): `.github/workflows/rorw-refresh.yml` runs `scripts/nightly.py`
   just after midnight ET: Sleeper current season (`fetch_sleeper.py --current-only`) -> build_data -> build_questions,
