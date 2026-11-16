@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=54">
+  <link rel="stylesheet" href="css/style.css?v=55">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -206,7 +206,14 @@
         </div>
       </header>
 
-      <section class="an-block">
+      <nav class="an-tabs" id="an-tabs" role="tablist">
+        <button type="button" data-tab="power">Power Rankings</button>
+        <button type="button" data-tab="seasons">Season by Season</button>
+        <button type="button" data-tab="trades">Trade Report Cards</button>
+        <button type="button" data-tab="managers">Managers</button>
+      </nav>
+
+      <section class="an-block" data-panel="power">
         <h2 class="an-title">Power <i>Rankings</i></h2>
         <details class="an-how">
           <summary>How the power score works</summary>
@@ -219,7 +226,7 @@
         <p class="fine center" id="pr-empty" hidden>Power rankings start once week 1 is finished.</p>
       </section>
 
-      <section class="an-block">
+      <section class="an-block" data-panel="seasons">
         <h2 class="an-title">Season by <i>Season</i></h2>
         <p class="an-note">Every team's path through Das League since it went dynasty. Tap teams to highlight them (up to 3).</p>
         <div class="seg" id="hist-metric" role="tablist">
@@ -234,6 +241,38 @@
           <summary>Show as a table</summary>
           <div class="hist-table-wrap"><table class="hist-table" id="hist-table"></table></div>
         </details>
+      </section>
+
+      <section class="an-block" data-panel="trades">
+        <h2 class="an-title">Trade <i>Report Cards</i></h2>
+        <details class="an-how">
+          <summary>How trades are graded</summary>
+          <p>Each side gets the fantasy points its new players scored <b>for that team</b>, from the week they arrived until they
+            left (traded, dropped, or still there 🔒). A draft pick is worth the points of the player taken with it.
+            The grade compares each side's share of the points with an even split.</p>
+          <p>Not graded yet: trades with future picks (⏳ waiting on the draft), trades less than 4 weeks old, and tiny trades
+            where under 200 points changed hands. "↪ moved on" means the player left before playing a week for them.</p>
+        </details>
+        <h3 class="an-sub-title">Best traders</h3>
+        <ol class="traders" id="traders"></ol>
+        <h3 class="an-sub-title">Every trade</h3>
+        <div class="tr-filters">
+          <select id="tr-season" aria-label="Season"></select>
+          <select id="tr-manager" aria-label="Manager"></select>
+          <select id="tr-sort" aria-label="Sort">
+            <option value="new">Newest first</option>
+            <option value="fleece">Biggest fleeces</option>
+          </select>
+        </div>
+        <p class="an-note small" id="tr-count"></p>
+        <div class="tr-list" id="tr-list"></div>
+        <button type="button" class="btn ghost" id="tr-more" hidden>Show more trades</button>
+      </section>
+
+      <section class="an-block" data-panel="managers">
+        <h2 class="an-title">Manager <i>Profiles</i></h2>
+        <div class="hist-chips" id="mg-chips"></div>
+        <div id="mg-profile"></div>
       </section>
       <p class="fine center"><a href="./">← Back to all games</a></p>
     </section>
@@ -389,11 +428,11 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=54"></script>
-  <script src="js/effects.js?v=54"></script>
-  <script src="js/cutscene.js?v=54"></script>
-  <script src="js/game.js?v=54"></script>
-  <script src="js/grids.js?v=54"></script>
-  <script src="js/analytics.js?v=54"></script>
+  <script src="js/config.js?v=55"></script>
+  <script src="js/effects.js?v=55"></script>
+  <script src="js/cutscene.js?v=55"></script>
+  <script src="js/game.js?v=55"></script>
+  <script src="js/grids.js?v=55"></script>
+  <script src="js/analytics.js?v=55"></script>
 </body>
 </html>

@@ -43,6 +43,53 @@ class PowerRankings(unittest.TestCase):
             self.assertTrue(r["take"].strip(), r["manager"])
 
 
+TRADES = json.loads((SITE / "trades.json").read_text(encoding="utf-8"))
+
+
+class TradeReportCards(unittest.TestCase):
+    def test_every_trade_is_listed_once(self):
+        self.assertEqual(sorted(t["id"] for t in A["trades"]), sorted(t["id"] for t in TRADES))
+
+    def test_sides_match_the_trade(self):
+        by_id = {t["id"]: t for t in TRADES}
+        for t in A["trades"]:
+            src = by_id[t["id"]]
+            for side in t["sides"]:
+                got = next(s for s in src["sides"] if s["manager"] == side["manager"])
+                self.assertEqual(sorted(p["name"] for p in side["players"]), sorted(got["receives_players"]), t["id"])
+                self.assertEqual(len(side["picks"]), len(got["receives_picks"]), t["id"])
+                self.assertAlmostEqual(side["total"], sum(p["pts"] for p in side["players"] + side["picks"]), places=0)
+
+    def test_only_settled_trades_get_grades(self):
+        for t in A["trades"]:
+            for s in t["sides"]:
+                self.assertEqual(s["grade"] is not None, t["status"] == "graded", t["id"])
+            if any(p["status"] == "pending" for s in t["sides"] for p in s["picks"]):
+                self.assertEqual(t["status"], "pending")
+
+    def test_winner_never_gets_the_worse_grade(self):
+        order = ["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "D", "F"]
+        for t in A["trades"]:
+            if t["status"] != "graded":
+                continue
+            ranked = sorted(t["sides"], key=lambda s: -s["total"])
+            self.assertLessEqual(order.index(ranked[0]["grade"]), order.index(ranked[-1]["grade"]), t["id"])
+
+
+class ManagerProfiles(unittest.TestCase):
+    def test_trade_counts_match(self):
+        for m in A["managers"]:
+            self.assertEqual(m["trades"]["count"], sum(1 for t in TRADES if m["manager"] in t["managers"]), m["manager"])
+
+    def test_titles_match_seasons(self):
+        for m in A["managers"]:
+            self.assertEqual(sorted(m["titles"]), sorted(s["season"] for s in SEASONS if s["champion"] == m["manager"]))
+
+    def test_draft_ranks_and_trade_ranks_are_unique(self):
+        self.assertEqual(sorted(m["drafts"]["rank"] for m in A["managers"]), list(range(1, A["teams"] + 1)))
+        self.assertEqual(sorted(m["trades"]["rank"] for m in A["managers"]), list(range(1, A["teams"] + 1)))
+
+
 class History(unittest.TestCase):
     def test_champions_match_seasons(self):
         for s in SEASONS:

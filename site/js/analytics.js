@@ -258,6 +258,174 @@
     $("hist-table").innerHTML = head + `<tbody>${rows}</tbody>`;
   }
 
+  /* ---------- tabs ---------- */
+  const TABS = ["power", "seasons", "trades", "managers"];
+  function openTab(name) {
+    if (!TABS.includes(name)) name = "power";
+    for (const b of $("an-tabs").querySelectorAll("button")) {
+      b.classList.toggle("on", b.dataset.tab === name);
+      b.setAttribute("aria-selected", String(b.dataset.tab === name));
+    }
+    for (const p of document.querySelectorAll("[data-panel]")) p.hidden = p.dataset.panel !== name;
+    const url = new URL(location.href);
+    url.searchParams.set("tab", name);
+    history.replaceState(null, "", url);
+    if (name === "seasons") renderChart();   // needs to be visible to measure its width
+  }
+
+  /* ---------- trade report cards ---------- */
+  const GRADE_CLASS = (g) => (!g ? "none" : g[0] === "A" ? "a" : g[0] === "B" ? "b" : g[0] === "C" ? "c" : g[0] === "D" ? "d" : "f");
+  const STATUS = {
+    pending: "⏳ Waiting on future picks",
+    early: "🕒 Too early to grade",
+    minor: "🤏 Too small to grade",
+  };
+  const fmtDate = (d) => new Date(`${d}T12:00:00`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  const pts = (n) => Math.round(n).toLocaleString("en-US");
+  let tradeLimit = 20;
+
+  function tradeCard(t) {
+    const sides = t.sides.map((s) => {
+      const items = [
+        ...s.players.map((p) => `<li><span>${esc(p.name)}${p.kept ? " 🔒" : ""}${!p.weeks ? ' <em class="moved">↪ moved on</em>' : ""}</span><b>${pts(p.pts)}</b></li>`),
+        ...s.picks.map((p) => `<li><span>${esc(p.label)}${p.player ? ` <em>→ ${esc(p.player)}${p.kept ? " 🔒" : ""}</em>` : ""}` +
+          `${p.status === "pending" ? ' <em class="moved">⏳ not drafted yet</em>' : p.status === "flipped" ? ' <em class="moved">↪ traded on</em>' : ""}</span><b>${p.status === "drafted" ? pts(p.pts) : "–"}</b></li>`),
+        ...(s.faab ? [`<li><span>$${s.faab} FAAB</span><b>–</b></li>`] : []),
+      ];
+      if (!items.length) items.push(`<li><span class="moved">Nothing listed</span><b>–</b></li>`);
+      return `<div class="tr-side">
+        <div class="tr-side-head">
+          <span class="grade g-${GRADE_CLASS(s.grade)}">${s.grade || "–"}</span>
+          <span><b>${esc(s.team)}</b> <span class="pr-mgr">(${esc(s.name)})</span><small>got · ${pts(s.total)} pts</small></span>
+        </div>
+        <ul class="tr-items">${items.join("")}</ul>
+      </div>`;
+    }).join("");
+    const share = t.sides.length === 2 && t.sides[0].total + t.sides[1].total > 0
+      ? `<div class="tr-share" aria-hidden="true"><span style="width:${(t.sides[0].share * 100).toFixed(1)}%"></span></div>` : "";
+    return `<article class="tr-card${t.status === "graded" ? "" : " ungraded"}" id="trade-${t.id}">
+      <header><span>${fmtDate(t.date)} · ${esc(t.season)}</span>${STATUS[t.status] ? `<span class="tr-status">${STATUS[t.status]}</span>` : ""}</header>
+      <div class="tr-sides">${sides}</div>
+      ${share}
+      <p class="pr-take"><img src="images/host.webp" alt="EquipoGPT says">${esc(t.take)}</p>
+    </article>`;
+  }
+
+  function renderTraders() {
+    $("traders").innerHTML = data.traders.map((b) => `<li class="${b.net >= 0 ? "plus" : "minus"}">
+      <span class="tdr-rank">${b.rank}</span><span class="tdr-name">${esc(b.name)}</span>
+      <span class="tdr-rec">${esc(b.record)}<small>${b.trades} trades</small></span>
+      <span class="tdr-net">${b.net >= 0 ? "+" : "−"}${pts(Math.abs(b.net))}<small>pts net</small></span></li>`).join("");
+  }
+
+  function renderTrades() {
+    const season = $("tr-season").value, who = $("tr-manager").value, sort = $("tr-sort").value;
+    let list = data.trades.filter((t) => (!season || t.season === season) && (!who || t.sides.some((s) => s.manager === who)));
+    if (sort === "fleece") list = list.filter((t) => t.status === "graded").sort((a, b) => b.edge - a.edge || b.margin - a.margin);
+    $("tr-count").textContent = `${list.length} trade${list.length === 1 ? "" : "s"}${sort === "fleece" ? " (graded only)" : ""}`;
+    $("tr-list").innerHTML = list.slice(0, tradeLimit).map(tradeCard).join("") || '<p class="an-note">No trades match.</p>';
+    $("tr-more").hidden = list.length <= tradeLimit;
+  }
+
+  function setupTrades() {
+    const seasons = [...new Set(data.trades.map((t) => t.season))].sort().reverse();
+    $("tr-season").innerHTML = `<option value="">All seasons</option>` + seasons.map((s) => `<option>${s}</option>`).join("");
+    $("tr-manager").innerHTML = `<option value="">All managers</option>` +
+      data.managers.slice().sort((a, b) => a.name.localeCompare(b.name)).map((m) => `<option value="${m.manager}">${esc(m.name)}</option>`).join("");
+    for (const id of ["tr-season", "tr-manager", "tr-sort"]) $(id).onchange = () => { tradeLimit = 20; renderTrades(); };
+    $("tr-more").onclick = () => { tradeLimit += 20; renderTrades(); };
+    renderTraders();
+    renderTrades();
+  }
+
+  function showTrade(id) {   // from a manager profile: open that trade in the Trades tab
+    $("tr-season").value = ""; $("tr-manager").value = ""; $("tr-sort").value = "new";
+    const i = data.trades.findIndex((t) => t.id === id);
+    tradeLimit = Math.max(20, i + 1);
+    renderTrades();
+    openTab("trades");
+    const card = $(`trade-${id}`);
+    if (card) { card.scrollIntoView({ block: "center" }); card.classList.add("flash"); setTimeout(() => card.classList.remove("flash"), 1600); }
+  }
+
+  /* ---------- manager profiles ---------- */
+  let manager = null;
+  function renderManagerChips() {
+    $("mg-chips").innerHTML = data.managers.slice().sort((a, b) => a.name.localeCompare(b.name)).map((m) =>
+      `<button type="button" class="chip${m.manager === manager ? " on" : ""}" data-m="${m.manager}" style="--c:#ff7a1a"><span class="dot"></span>${esc(m.name)}</button>`).join("");
+    for (const b of $("mg-chips").querySelectorAll(".chip")) b.onclick = () => { manager = b.dataset.m; renderManagerChips(); renderProfile(); };
+  }
+
+  function miniPath(seasons) {
+    const W = 260, H = 70, n = seasons.length;
+    if (!n) return "";
+    const x = (i) => 14 + (n === 1 ? 0 : (i / (n - 1)) * (W - 28));
+    const y = (f) => 8 + ((f - 1) / 11) * (H - 26);
+    const solid = seasons.filter((s) => s.final);
+    const line = (arr) => arr.map((s) => `${x(seasons.indexOf(s)).toFixed(1)},${y(s.finish).toFixed(1)}`).join(" ");
+    const live = seasons.filter((s) => !s.final);
+    return `<svg class="mini-path" viewBox="0 0 ${W} ${H}" role="img" aria-label="Finish by season: ${esc(seasons.map((s) => `${s.season} ${ordinal(s.finish)}`).join(", "))}">
+      <line class="pl" x1="6" x2="${W - 6}" y1="${((y(6) + y(7)) / 2).toFixed(1)}" y2="${((y(6) + y(7)) / 2).toFixed(1)}"/>
+      ${solid.length > 1 ? `<polyline points="${line(solid)}"/>` : ""}
+      ${live.length && solid.length ? `<polyline class="live" points="${line([solid[solid.length - 1], ...live])}"/>` : ""}
+      ${seasons.map((s, i) => `${s.champion ? `<circle class="champ" cx="${x(i)}" cy="${y(s.finish)}" r="8"/>` : ""}<circle class="${s.final ? "" : "open"}" cx="${x(i)}" cy="${y(s.finish)}" r="4.5"/>` +
+        `<text x="${x(i)}" y="${(y(s.finish) - 9).toFixed(1)}">${ordinal(s.finish)}</text><text class="yr" x="${x(i)}" y="${H - 2}">${shortSeason(s.season)}${s.final ? "" : "*"}</text>`).join("")}
+    </svg>`;
+  }
+
+  function tradeLink(t, label) {
+    if (!t) return "";
+    return `<button type="button" class="mg-trade" data-trade="${t.id}"><span class="grade g-${GRADE_CLASS(t.grade)}">${t.grade}</span>
+      <span><small>${label} · ${fmtDate(t.date)} with ${esc(t.with)}</small>${esc(t.got.join(", ") || "nothing listed")} · ${pts(t.pts)} pts</span></button>`;
+  }
+
+  function renderProfile() {
+    const m = data.managers.find((x) => x.manager === manager);
+    if (!m) return;
+    const tr = m.trades, dr = m.drafts, wv = m.waivers;
+    const pick = (p, label) => p ? `<div class="mg-pick"><small>${label}</small><b>${esc(p.player)}</b>
+      <span>${esc(p.draft)}, pick ${esc(p.pick)} · ${pts(p.pts)} pts (${p.voe >= 0 ? "+" : "−"}${pts(Math.abs(p.voe))} vs slot)</span></div>` : "";
+    $("mg-profile").innerHTML = `
+      <div class="mg-head">
+        <div><h3>${esc(m.team)} <span class="pr-mgr">(${esc(m.name)})</span></h3>
+          <p class="mg-names">${m.team_names.length > 1 ? `Also known as ${m.team_names.filter((n) => n !== m.team).map(esc).join(", ")}` : `${m.seasons_played} seasons in Das League`}</p></div>
+        <div class="mg-trophies">${m.titles.map((s) => `<span title="Champion ${s}">🏆</span>`).join("")}${m.runner_ups.map((s) => `<span title="Runner-up ${s}">🥈</span>`).join("")}</div>
+      </div>
+      <p class="pr-take"><img src="images/host.webp" alt="EquipoGPT says">${esc(m.take)}</p>
+      <dl class="pr-stats mg-stats">
+        <div><dt>All-time record</dt><dd>${esc(m.record)}</dd></div>
+        <div><dt>Win %</dt><dd>${Math.round(m.win_pct)}%</dd></div>
+        <div><dt>Playoff trips</dt><dd>${m.playoffs}</dd></div>
+        <div><dt>Titles</dt><dd>${m.titles.length}</dd></div>
+        <div><dt>Best finish</dt><dd>${m.best_season ? ordinal(m.best_season.finish) : "–"}</dd></div>
+        <div><dt>Worst finish</dt><dd>${m.worst_season ? ordinal(m.worst_season.finish) : "–"}</dd></div>
+      </dl>
+      ${miniPath(m.seasons)}
+
+      <h4 class="mg-h">🔄 Trading <span>#${tr.rank} of ${data.managers.length} by points gained</span></h4>
+      <dl class="pr-stats mg-stats">
+        <div><dt>Trades</dt><dd>${tr.count}</dd></div>
+        <div><dt>Graded W-L</dt><dd>${esc(tr.record)}</dd></div>
+        <div><dt>Net points</dt><dd>${tr.net >= 0 ? "+" : "−"}${pts(Math.abs(tr.net))}</dd></div>
+      </dl>
+      ${tr.partner ? `<p class="mg-line">Favourite trade partner: <b>${esc(tr.partner.name)}</b> (${tr.partner.count} trades)</p>` : ""}
+      ${tradeLink(tr.best, "Best trade")}${tradeLink(tr.worst, "Worst trade")}
+
+      <h4 class="mg-h">📋 Waiver wire</h4>
+      <p class="mg-line"><b>${wv.count}</b> pickups.${wv.best ? ` Best ever: <b>${esc(wv.best.player)}</b> (${esc(wv.best.season)}), ${pts(wv.best.pts)} points over ${wv.best.weeks} weeks.` : ""}</p>
+
+      <h4 class="mg-h">🎯 Draft grade <span class="grade g-${GRADE_CLASS(dr.grade)}">${dr.grade}</span> <span>#${dr.rank} of ${data.managers.length}</span></h4>
+      <div class="mg-picks">${pick(dr.steal, "Biggest steal")}${pick(dr.bust, "Biggest bust (top 36 picks)")}</div>
+      ${dr.by_draft.map((d) => `<details class="an-how mg-draft"><summary>${esc(d.draft)} <span class="${d.voe >= 0 ? "pos" : "neg"}">${d.voe >= 0 ? "+" : "−"}${pts(Math.abs(d.voe))} vs slot</span></summary>
+        <table class="hist-table"><thead><tr><th>Pick</th><th>Player</th><th>Pts</th><th>vs slot</th></tr></thead><tbody>
+        ${d.picks.map((p) => `<tr><td>${esc(p.pick)}</td><td>${esc(p.player)}${p.kept ? " 🔒" : ""}</td><td>${pts(p.pts)}</td>` +
+          `<td class="${p.voe >= 0 ? "pos" : "neg"}">${p.voe >= 0 ? "+" : "−"}${pts(Math.abs(p.voe))}</td></tr>`).join("")}
+        </tbody></table></details>`).join("")}
+      <p class="an-note small">Points = what each player scored for ${esc(m.name)} while on the roster. 🔒 still there. "vs slot" compares a pick with the
+        picks made around the same spot in that draft.</p>`;
+    for (const b of $("mg-profile").querySelectorAll(".mg-trade")) b.onclick = () => showTrade(b.dataset.trade);
+  }
+
   async function start() {
     show();
     try {
@@ -284,6 +452,12 @@
         renderChart();
       };
     }
+    setupTrades();
+    manager = (data.rankings[0] || data.managers[0]).manager;
+    renderManagerChips();
+    renderProfile();
+    for (const b of $("an-tabs").querySelectorAll("button")) b.onclick = () => openTab(b.dataset.tab);
+    openTab(params.get("tab"));
     let wide = window.innerWidth;
     window.addEventListener("resize", () => { if (Math.abs(window.innerWidth - wide) > 30) { wide = window.innerWidth; renderChart(); } });
   }

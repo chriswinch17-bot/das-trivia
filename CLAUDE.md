@@ -165,6 +165,14 @@ The owner has essentially no coding or web development experience.
   colour-blind-safe colours, the rest grey, table view). `python scripts/build_analytics.py` writes
   `site/data/analytics.json` (also in the nightly job). The live season uses finished weeks only (Sleeper's
   points_for includes the week in progress). Tests: `tests/test_analytics.py`.
+  Tabs (`?mode=analytics&tab=power|seasons|trades|managers`). `scripts/analytics_more.py` (called by build_analytics):
+  one rule everywhere = a player is worth the points he scored FOR THE TEAM THAT GOT HIM, from arrival until he left
+  that roster (weekly rosters + players_points in raw matchups, bench included). **Trade Report Cards**: all trades,
+  picks = points of the player drafted with them (if the receiver made the pick; else "traded on"); grade = share of
+  the trade's points vs an even split (A+ at +35 points of share ... F); not graded: future picks pending, < 4 weeks
+  old, < 200 points total. Best traders board = net points vs the trade's average. **Managers**: career record,
+  titles, best/worst finish, trading (partner, best/worst trade links to the card), waiver pickups (best by points),
+  draft grade = total "value over slot" (points minus the average of the 6 picks either side) ranked A+..F.
 - **Every game resets at midnight Eastern** (owner's request, 2026-11-14).
 - **Nightly automation** (owner's request, 2026-11-14): `.github/workflows/rorw-refresh.yml` runs `scripts/nightly.py`
   just after midnight ET: Sleeper current season (`fetch_sleeper.py --current-only`) -> build_data -> build_questions,

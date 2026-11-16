@@ -18,6 +18,8 @@ Rankings are worked out after every finished week, so the arrows show the move s
 
 import json
 import sys
+
+import analytics_more
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -175,15 +177,22 @@ def main():
             })
         history.append({"manager": mid, "name": managers[mid]["name"], "team": team_now.get(mid), "seasons": points})
 
+    names_by_season = {(se["season"], t["manager"]): t["team_name"] for se in seasons for t in se["standings"]}
+    trades, traders, profiles = analytics_more.build(
+        load(ROOT / "data" / "managers.json")["managers"], seasons, matchups, load(SITE / "trades.json"), history,
+        lambda season, mid: names_by_season.get((season, mid), managers[mid]["name"]))
+
     out = {
         "season": label, "through_week": weeks[-1] if weeks else 0,
         "weights": WEIGHTS, "teams": len(ids),
         "rankings": rankings,
         "history": {"seasons": [s["season"] for s in seasons], "teams": history},
+        "trades": trades, "traders": traders, "managers": profiles,
         "sources": ["site/data/matchups.json", "site/data/seasons.json", f"data/raw/sleeper/{folder.name}/matchups"],
     }
     (SITE / "analytics.json").write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
-    print(f"Wrote analytics: {label} power rankings through week {out['through_week']}, {len(history)} team histories.")
+    print(f"Wrote analytics: {label} power rankings through week {out['through_week']}, {len(history)} team histories, "
+          f"{len(trades)} graded trades, {len(profiles)} manager profiles.")
 
 
 def ordinal(n):
