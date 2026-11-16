@@ -156,10 +156,19 @@ The owner has essentially no coding or web development experience.
   `.github/workflows/rorw-refresh.yml` runs it just after midnight ET (05:05 UTC winter / 04:05 UTC summer), commits
   `site/data/rorw.json` and republishes. Before that runs, the game shows the previous day's. Board = 70000 + day.
   **Because that job commits to `main` every morning, always `git pull --rebase` before pushing.**
+- **EquipoGPT Analytics** (`?mode=analytics`, `site/js/analytics.js`; not a game, a gold box on home). Power rankings for
+  the current season: score 0-100 = record 20% + points/week 20% + all-play 20% + roster strength 25% (10 best
+  players' points/week, from weekly lineups) + form 15% (last 2 weeks), each scaled best = 100 / worst = 0; worked out
+  after every finished week so arrows show the move. Lineup efficiency left out (NBA lineups change daily).
+  Each team gets an EquipoGPT "take" built from true superlatives (`write_takes`). Tap a card: radar + stats.
+  Below: "Season by Season" chart (finish / win % / points per week per season, up to 3 teams highlighted in
+  colour-blind-safe colours, the rest grey, table view). `python scripts/build_analytics.py` writes
+  `site/data/analytics.json` (also in the nightly job). The live season uses finished weeks only (Sleeper's
+  points_for includes the week in progress). Tests: `tests/test_analytics.py`.
 - **Every game resets at midnight Eastern** (owner's request, 2026-11-14).
 - **Nightly automation** (owner's request, 2026-11-14): `.github/workflows/rorw-refresh.yml` runs `scripts/nightly.py`
   just after midnight ET: Sleeper current season (`fetch_sleeper.py --current-only`) -> build_data -> build_questions,
-  build_papo, build_team (each tops itself up to 21 days ahead via `scripts/daily.py`, reusing the least recently
+  build_papo, build_team, build_analytics (each tops itself up to 21 days ahead via `scripts/daily.py`, reusing the least recently
   asked questions once new ones run out; days never shift) -> tests -> build_rorw. If the refresh or tests fail, those
   changes are discarded and only Rostered or Waiver is rebuilt. Das Grids is not refreshed nightly (365 grids built;
   its roster history lives in Supabase and needs the SQL file pasted after `build_grids.py`).

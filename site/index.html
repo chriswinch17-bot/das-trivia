@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=53">
+  <link rel="stylesheet" href="css/style.css?v=54">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -103,6 +103,14 @@
           <small>New · daily + unlimited</small>
           <b>Das <i>Grids</i></b>
           <em>Name a player who was on both teams. Rarest answers win.</em>
+        </span>
+      </a>
+      <a class="bonus analytics" id="to-analytics" href="?mode=analytics">
+        <img src="images/host.webp" alt="">
+        <span class="bonus-text">
+          <small>Not a game · updated every night</small>
+          <b>EquipoGPT <i>Analytics</i></b>
+          <em>Power rankings and every team's story, year by year.</em>
         </span>
       </a>
       <a class="btn ghost other-mode" id="to-archive" href="?mode=archive">📜 Past results &amp; answers</a>
@@ -185,6 +193,49 @@
       </ul>
       <button class="btn primary" id="btn-play-team">Tip off</button>
       <p class="fine center"><a id="team-back" href="./">← Back to all games</a></p>
+    </section>
+
+    <!-- EquipoGPT Analytics (js/analytics.js) -->
+    <section class="screen an" id="screen-analytics" hidden>
+      <header class="an-head">
+        <img src="images/host.webp" alt="">
+        <div>
+          <p class="an-eyebrow">EquipoGPT</p>
+          <h1>Analytics</h1>
+          <p class="an-sub" id="an-sub"></p>
+        </div>
+      </header>
+
+      <section class="an-block">
+        <h2 class="an-title">Power <i>Rankings</i></h2>
+        <details class="an-how">
+          <summary>How the power score works</summary>
+          <p>Not just the standings. Every team gets a score from 0 to 100, mixing:</p>
+          <ul id="an-weights"></ul>
+          <p>Each part is scaled so the best team in the league scores 100 and the worst 0. Arrows show the move since last week.
+            <b>All-play</b> is your record if you played all 11 teams every week. <b>Luck</b> is real wins minus all-play wins.</p>
+        </details>
+        <ol class="pr-list" id="pr-list"></ol>
+        <p class="fine center" id="pr-empty" hidden>Power rankings start once week 1 is finished.</p>
+      </section>
+
+      <section class="an-block">
+        <h2 class="an-title">Season by <i>Season</i></h2>
+        <p class="an-note">Every team's path through Das League since it went dynasty. Tap teams to highlight them (up to 3).</p>
+        <div class="seg" id="hist-metric" role="tablist">
+          <button type="button" data-metric="finish" class="on">Finish</button>
+          <button type="button" data-metric="win_pct">Win %</button>
+          <button type="button" data-metric="ppw">Points / week</button>
+        </div>
+        <div class="hist-chips" id="hist-chips"></div>
+        <div class="hist-chart" id="hist-chart"></div>
+        <p class="an-note small" id="hist-foot"></p>
+        <details class="an-how">
+          <summary>Show as a table</summary>
+          <div class="hist-table-wrap"><table class="hist-table" id="hist-table"></table></div>
+        </details>
+      </section>
+      <p class="fine center"><a href="./">← Back to all games</a></p>
     </section>
 
     <!-- DAS GRIDS (js/grids.js) -->
@@ -338,10 +389,11 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=53"></script>
-  <script src="js/effects.js?v=53"></script>
-  <script src="js/cutscene.js?v=53"></script>
-  <script src="js/game.js?v=53"></script>
-  <script src="js/grids.js?v=53"></script>
+  <script src="js/config.js?v=54"></script>
+  <script src="js/effects.js?v=54"></script>
+  <script src="js/cutscene.js?v=54"></script>
+  <script src="js/game.js?v=54"></script>
+  <script src="js/grids.js?v=54"></script>
+  <script src="js/analytics.js?v=54"></script>
 </body>
 </html>

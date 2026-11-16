@@ -1,0 +1,1181 @@
+{
+ "season": "2026-2027",
+ "through_week": 3,
+ "weights": {
+  "record": 0.2,
+  "points": 0.2,
+  "allplay": 0.2,
+  "roster": 0.25,
+  "form": 0.15
+ },
+ "teams": 12,
+ "rankings": [
+  {
+   "rank": 1,
+   "prev_rank": 1,
+   "manager": "jacobo",
+   "name": "Jacobo",
+   "team": "hotrelish",
+   "score": 97.4,
+   "tier": "Contenders",
+   "tier_icon": "🏆",
+   "record": "3-0",
+   "allplay": "28-5",
+   "ppw": 460.0,
+   "form": 461.5,
+   "roster": 486.0,
+   "luck": 0.5,
+   "sos": 379.9,
+   "weekly": [
+    457.0,
+    468.0,
+    455.0
+   ],
+   "parts": {
+    "record": 100,
+    "points": 100,
+    "allplay": 100,
+    "roster": 90,
+    "form": 100,
+    "luck": 74
+   },
+   "top_players": [
+    {
+     "name": "Luka Dončić",
+     "avg": 78.0
+    },
+    {
+     "name": "Cooper Flagg",
+     "avg": 65.7
+    },
+    {
+     "name": "Caleb Wilson",
+     "avg": 53.0
+    }
+   ],
+   "take": "Still unbeaten at 3-0. Scoring 460 a week, the most in Das League."
+  },
+  {
+   "rank": 2,
+   "prev_rank": 2,
+   "manager": "libguel",
+   "name": "Libguel",
+   "team": "Los Chigüires",
+   "score": 76.0,
+   "tier": "Contenders",
+   "tier_icon": "🏆",
+   "record": "2-1",
+   "allplay": "22-11",
+   "ppw": 436.0,
+   "form": 417.0,
+   "roster": 498.5,
+   "luck": 0.0,
+   "sos": 415.6,
+   "weekly": [
+    474.0,
+    419.0,
+    415.0
+   ],
+   "parts": {
+    "record": 67,
+    "points": 75,
+    "allplay": 73,
+    "roster": 100,
+    "form": 55,
+    "luck": 56
+   },
+   "top_players": [
+    {
+     "name": "Anthony Edwards",
+     "avg": 81.0
+    },
+    {
+     "name": "Jamal Murray",
+     "avg": 64.7
+    },
+    {
+     "name": "Scottie Barnes",
+     "avg": 57.0
+    }
+   ],
+   "take": "Best top 10 in the league: their 10 best players put up 498 a week. Would be 22-11 playing everyone every week, 3rd best in the league."
+  },
+  {
+   "rank": 3,
+   "prev_rank": 4,
+   "manager": "shueiro",
+   "name": "Shueiro",
+   "team": "2057 Champs",
+   "score": 73.6,
+   "tier": "Contenders",
+   "tier_icon": "🏆",
+   "record": "2-1",
+   "allplay": "25-8",
+   "ppw": 433.7,
+   "form": 451.5,
+   "roster": 450.2,
+   "luck": -0.3,
+   "sos": 416.3,
+   "weekly": [
+    398.0,
+    436.0,
+    467.0
+   ],
+   "parts": {
+    "record": 67,
+    "points": 72,
+    "allplay": 86,
+    "roster": 61,
+    "form": 90,
+    "luck": 44
+   },
+   "top_players": [
+    {
+     "name": "Victor Wembanyama",
+     "avg": 88.0
+    },
+    {
+     "name": "Yves Missi",
+     "avg": 63.0
+    },
+    {
+     "name": "Anthony Black",
+     "avg": 46.3
+    }
+   ],
+   "take": "Would be 25-8 playing everyone every week, 2nd best in the league. Led by Victor Wembanyama at 88 a week."
+  },
+  {
+   "rank": 4,
+   "prev_rank": 3,
+   "manager": "winch",
+   "name": "Winch",
+   "team": "Equipo Winchenzo",
+   "score": 67.1,
+   "tier": "In the Mix",
+   "tier_icon": "⚔️",
+   "record": "2-1",
+   "allplay": "20-13",
+   "ppw": 428.0,
+   "form": 425.5,
+   "roster": 465.3,
+   "luck": 0.2,
+   "sos": 380.7,
+   "weekly": [
+    433.0,
+    417.0,
+    434.0
+   ],
+   "parts": {
+    "record": 67,
+    "points": 66,
+    "allplay": 64,
+    "roster": 73,
+    "form": 64,
+    "luck": 63
+   },
+   "top_players": [
+    {
+     "name": "Jayson Tatum",
+     "avg": 68.3
+    },
+    {
+     "name": "Ayo Dosunmu",
+     "avg": 55.0
+    },
+    {
+     "name": "Devin Booker",
+     "avg": 53.0
+    }
+   ],
+   "take": "Would be 20-13 playing everyone every week, tied 4th best in the league. Led by Jayson Tatum at 68 a week."
+  },
+  {
+   "rank": 5,
+   "prev_rank": 7,
+   "manager": "ricky",
+   "name": "Ricky",
+   "team": "MoonUnit 🦬",
+   "score": 54.4,
+   "tier": "In the Mix",
+   "tier_icon": "⚔️",
+   "record": "2-1",
+   "allplay": "19-14",
+   "ppw": 408.7,
+   "form": 403.5,
+   "roster": 444.0,
+   "luck": 0.3,
+   "sos": 424.7,
+   "weekly": [
+    419.0,
+    346.0,
+    461.0
+   ],
+   "parts": {
+    "record": 67,
+    "points": 46,
+    "allplay": 59,
+    "roster": 56,
+    "form": 41,
+    "luck": 67
+   },
+   "top_players": [
+    {
+     "name": "Alperen Şengün",
+     "avg": 67.3
+    },
+    {
+     "name": "Cade Cunningham",
+     "avg": 62.3
+    },
+    {
+     "name": "Chet Holmgren",
+     "avg": 53.0
+    }
+   ],
+   "take": "Would be 19-14 playing everyone every week, 6th best in the league. Led by Alperen Şengün at 67 a week."
+  },
+  {
+   "rank": 6,
+   "prev_rank": 10,
+   "manager": "verdeja",
+   "name": "Verdeja",
+   "team": "Antetokounmpers",
+   "score": 43.4,
+   "tier": "Fading",
+   "tier_icon": "🫠",
+   "record": "2-1",
+   "allplay": "20-13",
+   "ppw": 389.7,
+   "form": 362.5,
+   "roster": 436.0,
+   "luck": 0.2,
+   "sos": 393.4,
+   "weekly": [
+    444.0,
+    253.0,
+    472.0
+   ],
+   "parts": {
+    "record": 67,
+    "points": 25,
+    "allplay": 64,
+    "roster": 49,
+    "form": 0,
+    "luck": 63
+   },
+   "top_players": [
+    {
+     "name": "Paolo Banchero",
+     "avg": 66.0
+    },
+    {
+     "name": "Tyrese Maxey",
+     "avg": 58.7
+    },
+    {
+     "name": "Bam Adebayo",
+     "avg": 48.7
+    }
+   ],
+   "take": "Up 4 spots this week. Somebody woke up. Would be 20-13 playing everyone every week, tied 4th best in the league."
+  },
+  {
+   "rank": 7,
+   "prev_rank": 6,
+   "manager": "melo",
+   "name": "Melo",
+   "team": "LeBong James",
+   "score": 38.6,
+   "tier": "Fading",
+   "tier_icon": "🫠",
+   "record": "0-3",
+   "allplay": "15-18",
+   "ppw": 404.3,
+   "form": 424.0,
+   "roster": 439.2,
+   "luck": -1.4,
+   "sos": 426.1,
+   "weekly": [
+    365.0,
+    452.0,
+    396.0
+   ],
+   "parts": {
+    "record": 0,
+    "points": 41,
+    "allplay": 41,
+    "roster": 52,
+    "form": 62,
+    "luck": 0
+   },
+   "top_players": [
+    {
+     "name": "Giannis Antetokounmpo",
+     "avg": 70.0
+    },
+    {
+     "name": "Karl-Anthony Towns",
+     "avg": 54.0
+    },
+    {
+     "name": "LeBron James",
+     "avg": 50.5
+    }
+   ],
+   "take": "Still looking for win #1 at 0-3. Most robbed team in the league: 15-18 against everyone, but 0-3 for real."
+  },
+  {
+   "rank": 8,
+   "prev_rank": 5,
+   "manager": "papo",
+   "name": "Papo",
+   "team": "Fear the Brow",
+   "score": 34.5,
+   "tier": "Fading",
+   "tier_icon": "🫠",
+   "record": "1-2",
+   "allplay": "14-19",
+   "ppw": 400.3,
+   "form": 402.5,
+   "roster": 411.0,
+   "luck": -0.3,
+   "sos": 399.8,
+   "weekly": [
+    396.0,
+    420.0,
+    385.0
+   ],
+   "parts": {
+    "record": 33,
+    "points": 37,
+    "allplay": 36,
+    "roster": 29,
+    "form": 40,
+    "luck": 44
+   },
+   "top_players": [
+    {
+     "name": "Anthony Davis",
+     "avg": 59.3
+    },
+    {
+     "name": "Miles Bridges",
+     "avg": 49.3
+    },
+    {
+     "name": "Dejounte Murray",
+     "avg": 47.0
+    }
+   ],
+   "take": "Down 3 spots this week. EquipoGPT is concerned. Would be 14-19 playing everyone every week, 8th best in the league."
+  },
+  {
+   "rank": 9,
+   "prev_rank": 8,
+   "manager": "victor",
+   "name": "Victor",
+   "team": "I Love Dragić",
+   "score": 32.8,
+   "tier": "Fading",
+   "tier_icon": "🫠",
+   "record": "2-1",
+   "allplay": "10-23",
+   "ppw": 375.0,
+   "form": 368.5,
+   "roster": 439.5,
+   "luck": 1.1,
+   "sos": 398.3,
+   "weekly": [
+    388.0,
+    306.0,
+    431.0
+   ],
+   "parts": {
+    "record": 67,
+    "points": 10,
+    "allplay": 18,
+    "roster": 52,
+    "form": 6,
+    "luck": 100
+   },
+   "top_players": [
+    {
+     "name": "Nikola Jokić",
+     "avg": 81.7
+    },
+    {
+     "name": "Walker Kessler",
+     "avg": 51.7
+    },
+    {
+     "name": "Kyrie Irving",
+     "avg": 48.7
+    }
+   ],
+   "take": "Luckiest team in the league: about 1.1 more wins than their scoring has earned. Would be 10-23 playing everyone every week, 10th best in the league."
+  },
+  {
+   "rank": 10,
+   "prev_rank": 11,
+   "manager": "chalela",
+   "name": "Chalela",
+   "team": "Lochte & Associates",
+   "score": 25.6,
+   "tier": "Tank Watch",
+   "tier_icon": "🗑️",
+   "record": "0-3",
+   "allplay": "12-21",
+   "ppw": 377.3,
+   "form": 393.0,
+   "roster": 440.0,
+   "luck": -1.1,
+   "sos": 397.6,
+   "weekly": [
+    346.0,
+    327.0,
+    459.0
+   ],
+   "parts": {
+    "record": 0,
+    "points": 12,
+    "allplay": 27,
+    "roster": 52,
+    "form": 31,
+    "luck": 11
+   },
+   "top_players": [
+    {
+     "name": "Stephen Curry",
+     "avg": 62.5
+    },
+    {
+     "name": "Shai Gilgeous-Alexander",
+     "avg": 58.7
+    },
+    {
+     "name": "Jalen Brunson",
+     "avg": 51.7
+    }
+   ],
+   "take": "Still looking for win #1 at 0-3. Would be 12-21 playing everyone every week, 9th best in the league."
+  },
+  {
+   "rank": 11,
+   "prev_rank": 9,
+   "manager": "blandon",
+   "name": "Blandon",
+   "team": "Rabbi BT69",
+   "score": 18.7,
+   "tier": "Tank Watch",
+   "tier_icon": "🗑️",
+   "record": "1-2",
+   "allplay": "6-27",
+   "ppw": 373.7,
+   "form": 396.0,
+   "roster": 401.8,
+   "luck": 0.5,
+   "sos": 408.7,
+   "weekly": [
+    329.0,
+    411.0,
+    381.0
+   ],
+   "parts": {
+    "record": 33,
+    "points": 8,
+    "allplay": 0,
+    "roster": 21,
+    "form": 34,
+    "luck": 74
+   },
+   "top_players": [
+    {
+     "name": "Ty Jerome",
+     "avg": 59.5
+    },
+    {
+     "name": "Dylan Harper",
+     "avg": 43.3
+    },
+    {
+     "name": "Kris Dunn",
+     "avg": 42.0
+    }
+   ],
+   "take": "Would be 6-27 playing everyone every week, last in the league. Led by Ty Jerome at 60 a week."
+  },
+  {
+   "rank": 12,
+   "prev_rank": 12,
+   "manager": "joey",
+   "name": "Joey",
+   "team": "Fidel’s Accumulators",
+   "score": 12.5,
+   "tier": "Tank Watch",
+   "tier_icon": "🗑️",
+   "record": "1-2",
+   "allplay": "7-26",
+   "ppw": 365.7,
+   "form": 395.0,
+   "roster": 376.0,
+   "luck": 0.4,
+   "sos": 411.3,
+   "weekly": [
+    307.0,
+    376.0,
+    414.0
+   ],
+   "parts": {
+    "record": 33,
+    "points": 0,
+    "allplay": 5,
+    "roster": 0,
+    "form": 33,
+    "luck": 70
+   },
+   "top_players": [
+    {
+     "name": "Jabari Smith Jr.",
+     "avg": 51.7
+    },
+    {
+     "name": "Yaxel Lendeborg",
+     "avg": 48.7
+    },
+    {
+     "name": "Jalen Smith",
+     "avg": 39.3
+    }
+   ],
+   "take": "366 a week is the lowest scoring in the league. Yikes. Would be 7-26 playing everyone every week, 11th best in the league."
+  }
+ ],
+ "history": {
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026",
+   "2026-2027"
+  ],
+  "teams": [
+   {
+    "manager": "blandon",
+    "name": "Blandon",
+    "team": "Rabbi BT69",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "Rabbi BT69",
+      "final": true,
+      "finish": 1,
+      "record": "12-6",
+      "win_pct": 66.7,
+      "ppw": 477.6,
+      "playoffs": true,
+      "champion": true
+     },
+     {
+      "season": "2024-2025",
+      "team": "Rabbi Repeat BT69",
+      "final": true,
+      "finish": 2,
+      "record": "13-4",
+      "win_pct": 76.5,
+      "ppw": 496.1,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2025-2026",
+      "team": "Rabbi BT69",
+      "final": true,
+      "finish": 11,
+      "record": "5-15",
+      "win_pct": 25.0,
+      "ppw": 393.3,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2026-2027",
+      "team": "Rabbi BT69",
+      "final": false,
+      "finish": 9,
+      "record": "1-2",
+      "win_pct": 33.3,
+      "ppw": 373.7,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   },
+   {
+    "manager": "chalela",
+    "name": "Chalela",
+    "team": "Lochte & Associates",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "Equipito PapoChullo",
+      "final": true,
+      "finish": 7,
+      "record": "9-9",
+      "win_pct": 50.0,
+      "ppw": 460.3,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2024-2025",
+      "team": "Equipito PapoChullo",
+      "final": true,
+      "finish": 3,
+      "record": "13-4",
+      "win_pct": 76.5,
+      "ppw": 509.0,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2025-2026",
+      "team": "Lochte & Associates",
+      "final": true,
+      "finish": 4,
+      "record": "12-8",
+      "win_pct": 60.0,
+      "ppw": 450.5,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2026-2027",
+      "team": "Lochte & Associates",
+      "final": false,
+      "finish": 12,
+      "record": "0-3",
+      "win_pct": 0.0,
+      "ppw": 377.3,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   },
+   {
+    "manager": "jacobo",
+    "name": "Jacobo",
+    "team": "hotrelish",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "hotrelish",
+      "final": true,
+      "finish": 9,
+      "record": "8-10",
+      "win_pct": 44.4,
+      "ppw": 414.3,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2024-2025",
+      "team": "hotrelish",
+      "final": true,
+      "finish": 12,
+      "record": "3-14",
+      "win_pct": 17.6,
+      "ppw": 399.4,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2025-2026",
+      "team": "hotrelish",
+      "final": true,
+      "finish": 10,
+      "record": "7-13",
+      "win_pct": 35.0,
+      "ppw": 403.7,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2026-2027",
+      "team": "hotrelish",
+      "final": false,
+      "finish": 1,
+      "record": "3-0",
+      "win_pct": 100.0,
+      "ppw": 460.0,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   },
+   {
+    "manager": "joey",
+    "name": "Joey",
+    "team": "Fidel’s Accumulators",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "Fidel’s Accumulators",
+      "final": true,
+      "finish": 6,
+      "record": "11-6-1",
+      "win_pct": 63.9,
+      "ppw": 483.1,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2024-2025",
+      "team": "Fidel’s Accumulators",
+      "final": true,
+      "finish": 6,
+      "record": "8-9",
+      "win_pct": 47.1,
+      "ppw": 451.3,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2025-2026",
+      "team": "Fidel’s Accumulators",
+      "final": true,
+      "finish": 12,
+      "record": "2-18",
+      "win_pct": 10.0,
+      "ppw": 410.9,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2026-2027",
+      "team": "Fidel’s Accumulators",
+      "final": false,
+      "finish": 10,
+      "record": "1-2",
+      "win_pct": 33.3,
+      "ppw": 365.7,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   },
+   {
+    "manager": "libguel",
+    "name": "Libguel",
+    "team": "Los Chigüires",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "Los Chigüires",
+      "final": true,
+      "finish": 11,
+      "record": "4-14",
+      "win_pct": 22.2,
+      "ppw": 442.4,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2024-2025",
+      "team": "Los Chigüires",
+      "final": true,
+      "finish": 7,
+      "record": "7-10",
+      "win_pct": 41.2,
+      "ppw": 471.7,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2025-2026",
+      "team": "Los Chigüires",
+      "final": true,
+      "finish": 1,
+      "record": "18-2",
+      "win_pct": 90.0,
+      "ppw": 496.9,
+      "playoffs": true,
+      "champion": true
+     },
+     {
+      "season": "2026-2027",
+      "team": "Los Chigüires",
+      "final": false,
+      "finish": 2,
+      "record": "2-1",
+      "win_pct": 66.7,
+      "ppw": 436.0,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   },
+   {
+    "manager": "melo",
+    "name": "Melo",
+    "team": "LeBong James",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "Kareem Abdul-Jabong",
+      "final": true,
+      "finish": 4,
+      "record": "12-6",
+      "win_pct": 66.7,
+      "ppw": 507.7,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2024-2025",
+      "team": "Joel Embong? 😓",
+      "final": true,
+      "finish": 1,
+      "record": "11-6",
+      "win_pct": 64.7,
+      "ppw": 513.1,
+      "playoffs": true,
+      "champion": true
+     },
+     {
+      "season": "2025-2026",
+      "team": "LeBong James 👑",
+      "final": true,
+      "finish": 5,
+      "record": "12-8",
+      "win_pct": 60.0,
+      "ppw": 492.9,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2026-2027",
+      "team": "LeBong James",
+      "final": false,
+      "finish": 11,
+      "record": "0-3",
+      "win_pct": 0.0,
+      "ppw": 404.3,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   },
+   {
+    "manager": "papo",
+    "name": "Papo",
+    "team": "Fear the Brow",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "Luka Deez Nuts",
+      "final": true,
+      "finish": 2,
+      "record": "11-7",
+      "win_pct": 61.1,
+      "ppw": 502.9,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2024-2025",
+      "team": "The Edey and Matas Show",
+      "final": true,
+      "finish": 10,
+      "record": "5-12",
+      "win_pct": 29.4,
+      "ppw": 373.6,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2025-2026",
+      "team": "Fear the Brow",
+      "final": true,
+      "finish": 2,
+      "record": "15-5",
+      "win_pct": 75.0,
+      "ppw": 473.0,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2026-2027",
+      "team": "Fear the Brow",
+      "final": false,
+      "finish": 8,
+      "record": "1-2",
+      "win_pct": 33.3,
+      "ppw": 400.3,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   },
+   {
+    "manager": "ricky",
+    "name": "Ricky",
+    "team": "MoonUnit 🦬",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "MoonUnit",
+      "final": true,
+      "finish": 12,
+      "record": "3-15",
+      "win_pct": 16.7,
+      "ppw": 420.9,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2024-2025",
+      "team": "MoonUnit",
+      "final": true,
+      "finish": 11,
+      "record": "4-13",
+      "win_pct": 23.5,
+      "ppw": 400.4,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2025-2026",
+      "team": "MoonUnit 🦬",
+      "final": true,
+      "finish": 9,
+      "record": "7-13",
+      "win_pct": 35.0,
+      "ppw": 404.3,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2026-2027",
+      "team": "MoonUnit 🦬",
+      "final": false,
+      "finish": 6,
+      "record": "2-1",
+      "win_pct": 66.7,
+      "ppw": 408.7,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   },
+   {
+    "manager": "shueiro",
+    "name": "Shueiro",
+    "team": "2057 Champs",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "2057 Champs",
+      "final": true,
+      "finish": 10,
+      "record": "5-12-1",
+      "win_pct": 30.6,
+      "ppw": 439.2,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2024-2025",
+      "team": "2057 Champs",
+      "final": true,
+      "finish": 8,
+      "record": "7-10",
+      "win_pct": 41.2,
+      "ppw": 464.8,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2025-2026",
+      "team": "2057 Champs",
+      "final": true,
+      "finish": 6,
+      "record": "13-7",
+      "win_pct": 65.0,
+      "ppw": 465.1,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2026-2027",
+      "team": "2057 Champs",
+      "final": false,
+      "finish": 3,
+      "record": "2-1",
+      "win_pct": 66.7,
+      "ppw": 433.7,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   },
+   {
+    "manager": "verdeja",
+    "name": "Verdeja",
+    "team": "Antetokounmpers",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "Saboners",
+      "final": true,
+      "finish": 8,
+      "record": "8-10",
+      "win_pct": 44.4,
+      "ppw": 433.4,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2024-2025",
+      "team": "Saboners",
+      "final": true,
+      "finish": 9,
+      "record": "6-11",
+      "win_pct": 35.3,
+      "ppw": 428.1,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2025-2026",
+      "team": "Antetokounmpers",
+      "final": true,
+      "finish": 7,
+      "record": "10-10",
+      "win_pct": 50.0,
+      "ppw": 433.8,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2026-2027",
+      "team": "Antetokounmpers",
+      "final": false,
+      "finish": 5,
+      "record": "2-1",
+      "win_pct": 66.7,
+      "ppw": 389.7,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   },
+   {
+    "manager": "victor",
+    "name": "Victor",
+    "team": "I Love Dragić",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "I Love Dragić",
+      "final": true,
+      "finish": 5,
+      "record": "9-9",
+      "win_pct": 50.0,
+      "ppw": 478.9,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2024-2025",
+      "team": "I Love Dragić",
+      "final": true,
+      "finish": 5,
+      "record": "11-6",
+      "win_pct": 64.7,
+      "ppw": 469.0,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2025-2026",
+      "team": "I Love Dragić",
+      "final": true,
+      "finish": 8,
+      "record": "9-11",
+      "win_pct": 45.0,
+      "ppw": 410.0,
+      "playoffs": false,
+      "champion": false
+     },
+     {
+      "season": "2026-2027",
+      "team": "I Love Dragić",
+      "final": false,
+      "finish": 4,
+      "record": "2-1",
+      "win_pct": 66.7,
+      "ppw": 375.0,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   },
+   {
+    "manager": "winch",
+    "name": "Winch",
+    "team": "Equipo Winchenzo",
+    "seasons": [
+     {
+      "season": "2023-2024",
+      "team": "Equipo Winchenzo",
+      "final": true,
+      "finish": 3,
+      "record": "15-3",
+      "win_pct": 83.3,
+      "ppw": 510.9,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2024-2025",
+      "team": "Equipo Winchenzo 2X",
+      "final": true,
+      "finish": 4,
+      "record": "14-3",
+      "win_pct": 82.4,
+      "ppw": 502.6,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2025-2026",
+      "team": "Equipo Winchenzo",
+      "final": true,
+      "finish": 3,
+      "record": "10-10",
+      "win_pct": 50.0,
+      "ppw": 463.8,
+      "playoffs": true,
+      "champion": false
+     },
+     {
+      "season": "2026-2027",
+      "team": "Equipo Winchenzo",
+      "final": false,
+      "finish": 7,
+      "record": "2-1",
+      "win_pct": 66.7,
+      "ppw": 428.0,
+      "playoffs": null,
+      "champion": false
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  "site/data/matchups.json",
+  "site/data/seasons.json",
+  "data/raw/sleeper/2026_1344343390740819968/matchups"
+ ]
+}

@@ -749,12 +749,13 @@
     for (const a of document.querySelectorAll('a[href="./"]')) a.href = keepTest("./");
     $("home-link").hidden = home;
     if (params.get("mode") === "grids") return;   // DAS GRIDS runs from js/grids.js
+    if (params.get("mode") === "analytics") return;   // EquipoGPT Analytics runs from js/analytics.js
     if (params.get("mode") === "archive") return openArchive();
     if (home) {
       $("to-archive").href = keepTest("?mode=archive");
       $("home-date").textContent = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
       $("to-trivia-game").href = keepTest("?mode=trivia");
-      for (const [id, m] of [["to-papo", "papo"], ["to-team", "team"], ["to-rorw", "rorw"], ["to-grids", "grids"]]) $(id).href = keepTest(`?mode=${m}`);
+      for (const [id, m] of [["to-papo", "papo"], ["to-team", "team"], ["to-rorw", "rorw"], ["to-grids", "grids"], ["to-analytics", "analytics"]]) $(id).href = keepTest(`?mode=${m}`);
       return show("home");
     }
     try {
