@@ -71,7 +71,8 @@
     const n = data.rankings.length;
     list.innerHTML = data.rankings.map((t, i) => {
       const luck = t.luck > 0.25 ? `+${t.luck} 🍀` : t.luck < -0.25 ? `${t.luck} 😤` : `${t.luck}`;
-      return `<li class="pr rank-${t.rank} tier-${t.tier.split(" ")[0].toLowerCase()}" style="animation-delay:${(n - 1 - i) * 70}ms">
+      return `<li class="pr rank-${t.rank} tier-${t.tier.split(" ")[0].toLowerCase()}${t.fraud ? " is-fraud" : ""}" id="pr-${t.manager}" style="animation-delay:${(n - 1 - i) * 70}ms">
+        ${t.fraud ? '<span class="fraud-stamp" aria-label="Fraud alert">🚨 FRAUD</span>' : ""}
         <button type="button" class="pr-top" aria-expanded="false">
           <span class="pr-rank">${t.rank}</span>
           <span class="pr-main">
@@ -96,6 +97,19 @@
         </div>
       </li>`;
     }).join("");
+    // Fraud Watch: teams winning more than their scoring has earned
+    const frauds = data.rankings.filter((t) => t.fraud);
+    const fw = $("fraud-watch");
+    fw.hidden = data.through_week < 3;
+    fw.innerHTML = `<div class="fw-title">🚨 Fraud Watch <small>week ${data.through_week}</small></div>` + (frauds.length
+      ? frauds.map((t) => `<button type="button" class="fw-row" data-m="${t.manager}"><b>${esc(t.team)} (${esc(t.name)})</b>
+          <span>${esc(t.record)} for real, but ${esc(t.allplay)} against everyone. About ${t.luck} wins they haven't earned.</span></button>`).join("")
+      : `<p class="fw-none">No frauds this week. Suspicious. EquipoGPT is still watching.</p>`);
+    for (const b of fw.querySelectorAll(".fw-row")) b.onclick = () => {
+      const card = $(`pr-${b.dataset.m}`);
+      card.scrollIntoView({ block: "center", behavior: "smooth" });
+      card.classList.add("flash"); setTimeout(() => card.classList.remove("flash"), 1600);
+    };
     for (const btn of list.querySelectorAll(".pr-top")) {
       btn.onclick = () => {
         const more = btn.parentElement.querySelector(".pr-more");

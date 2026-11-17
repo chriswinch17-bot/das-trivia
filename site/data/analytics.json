@@ -53,7 +53,8 @@
      "avg": 53.0
     }
    ],
-   "take": "Still unbeaten at 3-0. Scoring 460 a week, the most in Das League."
+   "take": "Still unbeaten at 3-0. Scoring 460 a week, the most in Das League.",
+   "fraud": false
   },
   {
    "rank": 2,
@@ -98,7 +99,8 @@
      "avg": 57.0
     }
    ],
-   "take": "Best top 10 in the league: their 10 best players put up 498 a week. Would be 22-11 playing everyone every week, 3rd best in the league."
+   "take": "Best top 10 in the league: their 10 best players put up 498 a week. Would be 22-11 playing everyone every week, 3rd best in the league.",
+   "fraud": false
   },
   {
    "rank": 3,
@@ -143,7 +145,8 @@
      "avg": 46.3
     }
    ],
-   "take": "Would be 25-8 playing everyone every week, 2nd best in the league. Led by Victor Wembanyama at 88 a week."
+   "take": "Would be 25-8 playing everyone every week, 2nd best in the league. Led by Victor Wembanyama at 88 a week.",
+   "fraud": false
   },
   {
    "rank": 4,
@@ -188,7 +191,8 @@
      "avg": 53.0
     }
    ],
-   "take": "Would be 20-13 playing everyone every week, tied 4th best in the league. Led by Jayson Tatum at 68 a week."
+   "take": "Would be 20-13 playing everyone every week, tied 4th best in the league. Led by Jayson Tatum at 68 a week.",
+   "fraud": false
   },
   {
    "rank": 5,
@@ -233,7 +237,8 @@
      "avg": 53.0
     }
    ],
-   "take": "Would be 19-14 playing everyone every week, 6th best in the league. Led by Alperen Şengün at 67 a week."
+   "take": "Would be 19-14 playing everyone every week, 6th best in the league. Led by Alperen Şengün at 67 a week.",
+   "fraud": false
   },
   {
    "rank": 6,
@@ -278,7 +283,8 @@
      "avg": 48.7
     }
    ],
-   "take": "Up 4 spots this week. Somebody woke up. Would be 20-13 playing everyone every week, tied 4th best in the league."
+   "take": "Up 4 spots this week. Somebody woke up. Would be 20-13 playing everyone every week, tied 4th best in the league.",
+   "fraud": false
   },
   {
    "rank": 7,
@@ -323,7 +329,8 @@
      "avg": 50.5
     }
    ],
-   "take": "Still looking for win #1 at 0-3. Most robbed team in the league: 15-18 against everyone, but 0-3 for real."
+   "take": "Still looking for win #1 at 0-3. Most robbed team in the league: 15-18 against everyone, but 0-3 for real.",
+   "fraud": false
   },
   {
    "rank": 8,
@@ -368,7 +375,8 @@
      "avg": 47.0
     }
    ],
-   "take": "Down 3 spots this week. EquipoGPT is concerned. Would be 14-19 playing everyone every week, 8th best in the league."
+   "take": "Down 3 spots this week. EquipoGPT is concerned. Would be 14-19 playing everyone every week, 8th best in the league.",
+   "fraud": false
   },
   {
    "rank": 9,
@@ -413,7 +421,8 @@
      "avg": 48.7
     }
    ],
-   "take": "Luckiest team in the league: about 1.1 more wins than their scoring has earned. Would be 10-23 playing everyone every week, 10th best in the league."
+   "take": "Luckiest team in the league: about 1.1 more wins than their scoring has earned. Would be 10-23 playing everyone every week, 10th best in the league.",
+   "fraud": true
   },
   {
    "rank": 10,
@@ -458,7 +467,8 @@
      "avg": 51.7
     }
    ],
-   "take": "Still looking for win #1 at 0-3. Would be 12-21 playing everyone every week, 9th best in the league."
+   "take": "Still looking for win #1 at 0-3. Would be 12-21 playing everyone every week, 9th best in the league.",
+   "fraud": false
   },
   {
    "rank": 11,
@@ -503,7 +513,8 @@
      "avg": 42.0
     }
    ],
-   "take": "Would be 6-27 playing everyone every week, last in the league. Led by Ty Jerome at 60 a week."
+   "take": "Would be 6-27 playing everyone every week, last in the league. Led by Ty Jerome at 60 a week.",
+   "fraud": false
   },
   {
    "rank": 12,
@@ -548,7 +559,8 @@
      "avg": 39.3
     }
    ],
-   "take": "366 a week is the lowest scoring in the league. Yikes. Would be 7-26 playing everyone every week, 11th best in the league."
+   "take": "366 a week is the lowest scoring in the league. Yikes. Would be 7-26 playing everyone every week, 11th best in the league.",
+   "fraud": false
   }
  ],
  "history": {

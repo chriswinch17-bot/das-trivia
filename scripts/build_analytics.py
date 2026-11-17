@@ -30,6 +30,8 @@ RAW = ROOT / "data" / "raw" / "sleeper"
 WEIGHTS = {"record": 0.20, "points": 0.20, "allplay": 0.20, "roster": 0.25, "form": 0.15}
 ROSTER_CORE = 10          # starting lineup size (PG SG G SF PF F C UTIL UTIL UTIL)
 FORM_WEEKS = 2
+FRAUD_LUCK = 0.75         # Fraud Watch: at least this many more wins than the team's scoring has earned
+FRAUD_MIN_WEEKS = 3       # ...and only once there are enough weeks to judge
 TIERS = [(70, "Contenders", "🏆"), (50, "In the Mix", "⚔️"), (30, "Fading", "🫠"), (-1, "Tank Watch", "🗑️")]
 
 
@@ -155,6 +157,7 @@ def main():
                 "ppw": round(r["ppw"], 1), "form": round(r["form"], 1), "roster": round(r["roster"], 1),
                 "luck": round(r["luck"], 1), "sos": round(r["sos"], 1),
                 "weekly": r["weekly"], "parts": r["parts"], "top_players": r["top"], "take": takes[k],
+                "fraud": len(weeks) >= FRAUD_MIN_WEEKS and r["luck"] >= FRAUD_LUCK,
             })
 
     # --- every team, every season: where they finished, win % and points per week ---

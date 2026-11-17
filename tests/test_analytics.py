@@ -38,6 +38,10 @@ class PowerRankings(unittest.TestCase):
             self.assertAlmostEqual(r["ppw"], round(sum(pts) / len(pts), 1), places=1)
             self.assertEqual(sorted(r["weekly"]), sorted(pts))
 
+    def test_fraud_stamp_only_for_teams_winning_beyond_their_scoring(self):
+        for r in A["rankings"]:
+            self.assertEqual(r["fraud"], A["through_week"] >= 3 and r["luck"] >= 0.75, r["manager"])
+
     def test_every_team_has_a_take(self):
         for r in A["rankings"]:
             self.assertTrue(r["take"].strip(), r["manager"])

@@ -161,6 +161,8 @@ The owner has essentially no coding or web development experience.
   players' points/week, from weekly lineups) + form 15% (last 2 weeks), each scaled best = 100 / worst = 0; worked out
   after every finished week so arrows show the move. Lineup efficiency left out (NBA lineups change daily).
   Each team gets an EquipoGPT "take" built from true superlatives (`write_takes`). Tap a card: radar + stats.
+  **Fraud Watch** (owner, 2026-11-16; no "robbed" stamp): from week 3, a team with luck >= 0.75 wins (real wins minus
+  all-play wins) gets a red tilted "FRAUD" stamp on its card and a line in the Fraud Watch strip above the rankings.
   Below: "Season by Season" chart (finish / win % / points per week per season, up to 3 teams highlighted in
   colour-blind-safe colours, the rest grey, table view). `python scripts/build_analytics.py` writes
   `site/data/analytics.json` (also in the nightly job). The live season uses finished weeks only (Sleeper's
