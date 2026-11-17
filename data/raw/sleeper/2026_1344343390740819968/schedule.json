@@ -19161,7 +19161,7 @@
   "week": 5,
   "game_id": "1393301044678647808",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -19183,7 +19183,7 @@
   "status": "pre_game",
   "date": "2026-11-20",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 5,
@@ -19866,18 +19866,18 @@
   }
  },
  {
-  "status": "in_game",
+  "status": "complete",
   "date": "2026-11-16",
   "home": {
    "on_court": [
     "4922",
     "2091",
     "1747",
-    "2833",
-    "1986"
+    "2457",
+    "1658"
    ],
-   "points": 88,
-   "record": "7-4",
+   "points": 105,
+   "record": "7-5",
    "scoring": [
     {
      "number": 1,
@@ -19899,7 +19899,7 @@
     },
     {
      "number": 4,
-     "points": 6,
+     "points": 23,
      "sequence": 4,
      "type": "quarter"
     }
@@ -19918,13 +19918,13 @@
   "away": {
    "on_court": [
     "2341",
+    "1648",
     "2422",
     "1792",
-    "1777",
-    "4761"
+    "1913"
    ],
-   "points": 104,
-   "record": "5-7",
+   "points": 117,
+   "record": "6-7",
    "scoring": [
     {
      "number": 1,
@@ -19946,7 +19946,7 @@
     },
     {
      "number": 4,
-     "points": 14,
+     "points": 27,
      "sequence": 4,
      "type": "quarter"
     }
@@ -20147,7 +20147,7 @@
   "status": "pre_game",
   "date": "2026-11-18",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 5,
@@ -20181,7 +20181,7 @@
   "week": 5,
   "game_id": "1393723901904683008",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -20377,7 +20377,7 @@
   "week": 5,
   "game_id": "1393723914659561472",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -20497,7 +20497,7 @@
   "status": "pre_game",
   "date": "2026-11-24",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 6,
@@ -20601,7 +20601,7 @@
   "week": 6,
   "game_id": "1393301054598176768",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -20707,7 +20707,7 @@
   "status": "pre_game",
   "date": "2026-11-27",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 6,
@@ -20727,7 +20727,7 @@
   "week": 6,
   "game_id": "1393301062949036032",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -20839,7 +20839,7 @@
   "week": 6,
   "game_id": "1393723922939117568",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -21007,7 +21007,7 @@
   "week": 6,
   "game_id": "1393723933823336448",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -21049,7 +21049,7 @@
   "week": 6,
   "game_id": "1393723936331530240",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -21133,7 +21133,7 @@
   "week": 7,
   "game_id": "1393723941205311488",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -21281,7 +21281,7 @@
   "status": "pre_game",
   "date": "2026-12-01",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 7,
@@ -21329,7 +21329,7 @@
   "week": 7,
   "game_id": "1393723952857088001",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -21421,7 +21421,7 @@
   "status": "pre_game",
   "date": "2026-12-02",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 7,
@@ -21589,7 +21589,7 @@
   "status": "pre_game",
   "date": "2026-12-12",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 8,
@@ -21609,7 +21609,7 @@
   "week": 8,
   "game_id": "1393723970607382528",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -21841,7 +21841,7 @@
   "status": "pre_game",
   "date": "2026-12-14",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 9,
@@ -21889,7 +21889,7 @@
   "week": 9,
   "game_id": "1393723987464290304",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -21917,7 +21917,7 @@
   "week": 9,
   "game_id": "1393723989485944832",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -22107,7 +22107,7 @@
   "status": "pre_game",
   "date": "2026-12-17",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 9,
@@ -22267,7 +22267,7 @@
   "week": 9,
   "game_id": "1393724012265209856",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -22331,7 +22331,7 @@
   "status": "pre_game",
   "date": "2026-12-19",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 9,
@@ -22379,7 +22379,7 @@
   "week": 9,
   "game_id": "1393724019311640576",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -22547,7 +22547,7 @@
   "week": 10,
   "game_id": "1392938582234107904",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -22631,7 +22631,7 @@
   "week": 10,
   "game_id": "1393724028723658752",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -22687,7 +22687,7 @@
   "week": 10,
   "game_id": "1393724031907135488",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -22891,7 +22891,7 @@
   "status": "pre_game",
   "date": "2026-12-23",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 10,
@@ -22911,7 +22911,7 @@
   "week": 10,
   "game_id": "1393724046423621632",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -23023,7 +23023,7 @@
   "week": 10,
   "game_id": "1393724055378460672",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -23171,7 +23171,7 @@
   "status": "pre_game",
   "date": "2026-12-27",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 10,
@@ -23255,7 +23255,7 @@
   "status": "pre_game",
   "date": "2026-12-28",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 11,
@@ -23283,7 +23283,7 @@
   "status": "pre_game",
   "date": "2026-12-28",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 11,
@@ -23465,7 +23465,7 @@
   "status": "pre_game",
   "date": "2026-12-30",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 11,
@@ -23569,7 +23569,7 @@
   "week": 11,
   "game_id": "1393724085761998848",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -23605,7 +23605,7 @@
   "status": "pre_game",
   "date": "2026-12-31",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 11,
@@ -23717,7 +23717,7 @@
   "status": "pre_game",
   "date": "2027-01-02",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 11,
@@ -23815,7 +23815,7 @@
   "status": "pre_game",
   "date": "2027-01-02",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 11,
@@ -23829,7 +23829,7 @@
   "status": "pre_game",
   "date": "2027-01-03",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 11,
@@ -24011,7 +24011,7 @@
   "status": "pre_game",
   "date": "2027-01-04",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 12,
@@ -24151,13 +24151,13 @@
   "status": "pre_game",
   "date": "2027-01-05",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 12,
   "game_id": "1393724119962353664",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -24241,7 +24241,7 @@
   "week": 12,
   "game_id": "1393724125880516608",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -24493,7 +24493,7 @@
   "week": 12,
   "game_id": "1393724141290389504",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -24521,7 +24521,7 @@
   "week": 12,
   "game_id": "1393724142921973760",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -24669,7 +24669,7 @@
   "status": "pre_game",
   "date": "2027-01-10",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 12,
@@ -24787,7 +24787,7 @@
   "week": 13,
   "game_id": "1393724158893883392",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -24843,7 +24843,7 @@
   "week": 13,
   "game_id": "1393724163188850688",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -24997,7 +24997,7 @@
   "week": 13,
   "game_id": "1393724170939924480",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -25117,7 +25117,7 @@
   "status": "pre_game",
   "date": "2027-01-14",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 13,
@@ -25151,7 +25151,7 @@
   "week": 13,
   "game_id": "1393724181559902208",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -25327,7 +25327,7 @@
   "status": "pre_game",
   "date": "2027-01-16",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 13,
@@ -25411,7 +25411,7 @@
   "status": "pre_game",
   "date": "2027-01-17",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 13,
@@ -25529,7 +25529,7 @@
   "week": 14,
   "game_id": "1393724201575120896",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -25621,7 +25621,7 @@
   "status": "pre_game",
   "date": "2027-01-19",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 14,
@@ -25733,7 +25733,7 @@
   "status": "pre_game",
   "date": "2027-01-20",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 14,
@@ -25803,7 +25803,7 @@
   "status": "pre_game",
   "date": "2027-01-21",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 14,
@@ -25915,7 +25915,7 @@
   "status": "pre_game",
   "date": "2027-01-22",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 14,
@@ -26055,7 +26055,7 @@
   "status": "pre_game",
   "date": "2027-01-23",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 14,
@@ -26083,7 +26083,7 @@
   "status": "pre_game",
   "date": "2027-01-24",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 14,
@@ -26265,7 +26265,7 @@
   "status": "pre_game",
   "date": "2027-01-25",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 15,
@@ -26313,7 +26313,7 @@
   "week": 15,
   "game_id": "1393724253731291136",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -26453,7 +26453,7 @@
   "week": 15,
   "game_id": "1393724263411744768",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -26481,7 +26481,7 @@
   "week": 15,
   "game_id": "1393724265286598656",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -26635,7 +26635,7 @@
   "week": 15,
   "game_id": "1393724276737048576",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -26719,7 +26719,7 @@
   "week": 15,
   "game_id": "1393724282814595072",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -26859,7 +26859,7 @@
   "week": 15,
   "game_id": "1393724293682036736",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -26895,7 +26895,7 @@
   "status": "pre_game",
   "date": "2027-01-31",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 15,
@@ -27077,7 +27077,7 @@
   "status": "pre_game",
   "date": "2027-02-02",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 16,
@@ -27175,7 +27175,7 @@
   "status": "pre_game",
   "date": "2027-02-03",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 16,
@@ -27343,7 +27343,7 @@
   "status": "pre_game",
   "date": "2027-02-04",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 16,
@@ -27399,7 +27399,7 @@
   "status": "pre_game",
   "date": "2027-02-05",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 16,
@@ -27413,7 +27413,7 @@
   "status": "pre_game",
   "date": "2027-02-05",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 16,
@@ -27559,7 +27559,7 @@
   "week": 16,
   "game_id": "1393724341161558016",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -27587,7 +27587,7 @@
   "week": 16,
   "game_id": "1393724342864445440",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -27749,7 +27749,7 @@
   "status": "pre_game",
   "date": "2027-02-08",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 17,
@@ -27811,7 +27811,7 @@
   "week": 17,
   "game_id": "1393724358718914560",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -27987,7 +27987,7 @@
   "status": "pre_game",
   "date": "2027-02-10",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 17,
@@ -28085,7 +28085,7 @@
   "status": "pre_game",
   "date": "2027-02-11",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 17,
@@ -28133,7 +28133,7 @@
   "week": 17,
   "game_id": "1393724379539439616",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -28217,7 +28217,7 @@
   "week": 17,
   "game_id": "1393724384711016448",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -28371,7 +28371,7 @@
   "week": 17,
   "game_id": "1393724394727014400",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -28385,7 +28385,7 @@
   "week": 17,
   "game_id": "1393724395003838464",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -28483,7 +28483,7 @@
   "week": 18,
   "game_id": "1393724398208286720",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -28637,7 +28637,7 @@
   "week": 18,
   "game_id": "1393724406517202944",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -28715,7 +28715,7 @@
   "status": "pre_game",
   "date": "2027-02-17",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 18,
@@ -28931,7 +28931,7 @@
   "week": 19,
   "game_id": "1393724427870404608",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -29051,7 +29051,7 @@
   "status": "pre_game",
   "date": "2027-02-26",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 19,
@@ -29155,7 +29155,7 @@
   "week": 19,
   "game_id": "1393724442634354688",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -29163,7 +29163,7 @@
   "status": "pre_game",
   "date": "2027-02-27",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 19,
@@ -29345,7 +29345,7 @@
   "status": "pre_game",
   "date": "2027-03-01",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 20,
@@ -29359,7 +29359,7 @@
   "status": "pre_game",
   "date": "2027-03-01",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 20,
@@ -29569,7 +29569,7 @@
   "status": "pre_game",
   "date": "2027-03-03",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 20,
@@ -29583,7 +29583,7 @@
   "status": "pre_game",
   "date": "2027-03-03",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 20,
@@ -29765,7 +29765,7 @@
   "status": "pre_game",
   "date": "2027-03-05",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 20,
@@ -29905,7 +29905,7 @@
   "status": "pre_game",
   "date": "2027-03-07",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 20,
@@ -29995,7 +29995,7 @@
   "week": 21,
   "game_id": "1393724499387482112",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -30065,7 +30065,7 @@
   "week": 21,
   "game_id": "1393724503468539904",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -30093,7 +30093,7 @@
   "week": 21,
   "game_id": "1393724505519554560",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -30289,7 +30289,7 @@
   "week": 21,
   "game_id": "1393724518849052672",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -30373,7 +30373,7 @@
   "week": 21,
   "game_id": "1393724524117098496",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -30479,7 +30479,7 @@
   "status": "pre_game",
   "date": "2027-03-12",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 21,
@@ -30569,7 +30569,7 @@
   "week": 21,
   "game_id": "1393724537526288384",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -30675,7 +30675,7 @@
   "status": "pre_game",
   "date": "2027-03-14",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 21,
@@ -30765,7 +30765,7 @@
   "week": 22,
   "game_id": "1393724551103250432",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -30919,7 +30919,7 @@
   "week": 22,
   "game_id": "1393724562381733888",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -31031,7 +31031,7 @@
   "week": 22,
   "game_id": "1393724568803213312",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -31109,7 +31109,7 @@
   "status": "pre_game",
   "date": "2027-03-18",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 22,
@@ -31235,7 +31235,7 @@
   "status": "pre_game",
   "date": "2027-03-19",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 22,
@@ -31269,7 +31269,7 @@
   "week": 22,
   "game_id": "1393724586008248320",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -31375,7 +31375,7 @@
   "status": "pre_game",
   "date": "2027-03-21",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 22,
@@ -31409,7 +31409,7 @@
   "week": 22,
   "game_id": "1393724595357351936",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -31627,7 +31627,7 @@
   "status": "pre_game",
   "date": "2027-03-23",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 23,
@@ -31661,7 +31661,7 @@
   "week": 23,
   "game_id": "1393724609869643776",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -31739,7 +31739,7 @@
   "status": "pre_game",
   "date": "2027-03-24",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 23,
@@ -31857,7 +31857,7 @@
   "week": 23,
   "game_id": "1393724621882130432",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -31949,7 +31949,7 @@
   "status": "pre_game",
   "date": "2027-03-26",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 23,
@@ -32173,7 +32173,7 @@
   "status": "pre_game",
   "date": "2027-03-28",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 23,
@@ -32187,7 +32187,7 @@
   "status": "pre_game",
   "date": "2027-03-28",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 23,
@@ -32291,7 +32291,7 @@
   "week": 24,
   "game_id": "1393724647677100032",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -32305,7 +32305,7 @@
   "week": 24,
   "game_id": "1393724648021032960",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -32501,7 +32501,7 @@
   "week": 24,
   "game_id": "1393724659995770880",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -32515,7 +32515,7 @@
   "week": 24,
   "game_id": "1393724661505720320",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -32733,13 +32733,13 @@
   "status": "pre_game",
   "date": "2027-04-02",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 24,
   "game_id": "1393724674126381056",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -32893,7 +32893,7 @@
   "week": 24,
   "game_id": "1393724683836194816",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -32915,7 +32915,7 @@
   "status": "pre_game",
   "date": "2027-04-04",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 24,
@@ -33111,7 +33111,7 @@
   "status": "pre_game",
   "date": "2027-04-06",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 25,
@@ -33159,7 +33159,7 @@
   "week": 25,
   "game_id": "1393724702177886208",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },
@@ -33321,7 +33321,7 @@
   "status": "pre_game",
   "date": "2027-04-08",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 25,
@@ -33495,7 +33495,7 @@
   "week": 25,
   "game_id": "1393724722637701120",
   "away": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   }
  },
@@ -33545,7 +33545,7 @@
   "status": "pre_game",
   "date": "2027-04-09",
   "home": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   },
   "week": 25,
@@ -33685,7 +33685,7 @@
   "status": "pre_game",
   "date": "2027-04-11",
   "home": {
-   "record": "7-4",
+   "record": "7-5",
    "team": "DEN"
   },
   "week": 25,
@@ -33719,7 +33719,7 @@
   "week": 25,
   "game_id": "1393724735648432128",
   "away": {
-   "record": "5-7",
+   "record": "6-7",
    "team": "PHX"
   }
  },

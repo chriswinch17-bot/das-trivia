@@ -54,12 +54,8 @@
   "daily_waivers_last_ran": 16
  },
  "avatar": "7ce9f97322fa539a3dff86b3a900c509",
- "league_id": "1344343390740819968",
  "company_id": null,
- "shard": 358,
- "season": "2026",
- "season_type": "regular",
- "sport": "nba",
+ "league_id": "1344343390740819968",
  "scoring_settings": {
   "ast": 2.0,
   "blk": 4.0,
@@ -80,6 +76,10 @@
   "to": -2.0,
   "tpm": 1.0
  },
+ "season": "2026",
+ "season_type": "regular",
+ "shard": 358,
+ "sport": "nba",
  "last_message_id": "1428265087755382784",
  "last_author_avatar": null,
  "last_author_display_name": "sys",
@@ -96,6 +96,7 @@
  "bracket_overrides_id": null,
  "group_id": null,
  "loser_bracket_id": null,
+ "loser_bracket_overrides_id": null,
  "roster_positions": [
   "PG",
   "SG",
@@ -113,6 +114,5 @@
   "BN",
   "BN"
  ],
- "loser_bracket_overrides_id": null,
  "total_rosters": 12
 }

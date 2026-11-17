@@ -933,19 +933,251 @@
      "data/raw/sleeper"
     ]
    }
+  ],
+  [
+   {
+    "id": "rw-2026-11-17-2563",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2563",
+     "name": "Jarace Walker",
+     "pos": "PF",
+     "nba": "IND",
+     "gp": 13,
+     "fpg": 16.5,
+     "line": "6.5 pts · 5.3 reb · 1.7 ast",
+     "teams": 5
+    },
+    "recap": "Jarace Walker (PF, IND): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 5 Das League teams. Papo dropped him on Nov 6. He's averaging 16.5 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-17-2095",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2095",
+     "name": "Luguentz Dort",
+     "pos": "SF",
+     "nba": "ATL",
+     "gp": 14,
+     "fpg": 19.1,
+     "line": "8.9 pts · 3.1 reb · 1.6 ast",
+     "teams": 9
+    },
+    "recap": "Luguentz Dort (SF, ATL): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 9 Das League teams. Blandon dropped him on Nov 16. He's averaging 19.1 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-17-2771",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2771",
+     "name": "Oso Ighodaro",
+     "pos": "C",
+     "nba": "PHX",
+     "gp": 10,
+     "fpg": 19.3,
+     "line": "5.8 pts · 4.8 reb · 3.5 ast",
+     "teams": 6
+    },
+    "recap": "Oso Ighodaro (C, PHX): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 6 Das League teams. Libguel dropped him on Nov 16. He's averaging 19.3 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-17-1589",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1589",
+     "name": "Bobby Portis Jr.",
+     "pos": "C",
+     "nba": "MIA",
+     "gp": 13,
+     "fpg": 19.9,
+     "line": "6.7 pts · 5.5 reb · 1.8 ast",
+     "teams": 5
+    },
+    "recap": "Bobby Portis Jr. (C, MIA): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by I Love Dragić (Victor)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "I Love Dragić (Victor) has had him since before this season. He's averaging 19.9 fantasy points a game, the 20th lowest of the 176 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-17-2581",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2581",
+     "name": "Brice Sensabaugh",
+     "pos": "SF",
+     "nba": "UTA",
+     "gp": 14,
+     "fpg": 15.5,
+     "line": "8.4 pts · 3.2 reb · 1.4 ast",
+     "teams": 1
+    },
+    "recap": "Brice Sensabaugh (SF, UTA): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Lochte & Associates (Chalela)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Lochte & Associates (Chalela) has had him since before this season. He's averaging 15.5 fantasy points a game, the 11th lowest of the 176 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-17-2494",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2494",
+     "name": "Julian Champagnie",
+     "pos": "SF",
+     "nba": "SAS",
+     "gp": 14,
+     "fpg": 23.9,
+     "line": "9.6 pts · 4.1 reb · 1.5 ast",
+     "teams": 7
+    },
+    "recap": "Julian Champagnie (SF, SAS): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 7 Das League teams. Shueiro dropped him on Nov 12. He's averaging 23.9 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-17-2119",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2119",
+     "name": "Obi Toppin",
+     "pos": "PF",
+     "nba": "IND",
+     "gp": 11,
+     "fpg": 21.9,
+     "line": "11.7 pts · 4.4 reb · 1.5 ast",
+     "teams": 6
+    },
+    "recap": "Obi Toppin (PF, IND): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 6 Das League teams. Victor dropped him on Nov 12. He's averaging 21.9 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   }
   ]
  ],
  "as_of": [
   "Fri Nov 13, 3:18 PM EST",
   "Sat Nov 14, 1:19 AM EST",
   "Sun Nov 15, 12:51 AM EST",
-  "Mon Nov 16, 12:28 AM EST"
+  "Mon Nov 16, 12:28 AM EST",
+  "Tue Nov 17, 12:58 AM EST"
  ],
  "dates": [
   "2026-11-13",
   "2026-11-14",
   "2026-11-15",
-  "2026-11-16"
+  "2026-11-16",
+  "2026-11-17"
  ],
  "players": [
   {
