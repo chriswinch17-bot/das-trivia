@@ -206,6 +206,10 @@ The owner has essentially no coding or web development experience.
   Needs `data/raw/sleeper/<season>/schedule.json` (Sleeper's NBA schedule; `fetch_sleeper.py` saves it).
   WARNING: re-fetching OLD seasons from Sleeper (without --current-only) returned different weekly points than the
   originals on 2026-11-16 and broke build_data; the original files were restored. Only refetch the current season.
+  The original past-season files match Sleeper's official season points exactly. This season's finished-week scores
+  from the matchups API kept changing between fetches on 2026-11-16 (winners unchanged): asked the owner about it.
+  Roster strength (power rankings, this week) leaves out Out/IR/IR-slot players. Trades, drafts and waiver pickups
+  count only weeks in the starting lineup (owner, 2026-11-16).
   **What changed since yesterday** banner (`scripts/analytics_changes.py`): every build stores a small `snapshot`; the first
   build of a new ET day moves the old one to `previous`, so the banner always compares with yesterday's last build (rank
   moves 2+, playoff odds 5+ points, new FRAUD/ROBBED, new or newly graded trades, picks changing hands, new week).

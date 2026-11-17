@@ -1,9 +1,10 @@
 """Trade Report Cards and Manager Profiles for EquipoGPT Analytics (called by build_analytics.py).
 
-THE ONE RULE: a player is worth the fantasy points he scored FOR THE TEAM THAT GOT HIM, from the week
-he arrived until he left that roster (traded, dropped, or still there today). Sleeper records every
-team's full roster and every player's points each week (data/raw/sleeper/<season>/matchups), so this
-is exact, bench weeks included.
+THE ONE RULE: a player is worth the fantasy points he scored FOR THE TEAM THAT GOT HIM, counting only the
+weeks he was in that team's starting lineup (bench points don't count in a Das League matchup), from the
+week he arrived until he left that roster (traded, dropped, or still there today). Sleeper records every
+team's roster, starters and every player's points each week (data/raw/sleeper/<season>/matchups), so this
+is exact. (Owner's choice, 2026-11-16: only points that actually counted.)
   - Trades: each side gets the points of the players it received. A traded draft pick is worth the
     points of the player taken with it, if the team that got the pick made the selection. A pick that
     was traded on again counts in that later trade instead; a pick for a draft not yet held is pending.
@@ -55,6 +56,7 @@ class League:
             finished.setdefault(m["season"], set()).add(m["week"])
         self.timeline = []                  # [(season label, week)] in order
         self.roster = {}                    # (index, manager) -> set of player ids
+        self.starters = {}                  # (index, manager) -> the ids in that week's starting lineup
         self.points = {}                    # (index, player id) -> points that week
         self.season_start = {}              # season label -> first index
         self.roster_manager = {}            # season label -> {roster id: manager}
@@ -88,6 +90,7 @@ class League:
                 for e in load(f):
                     mid = rm[e["roster_id"]]
                     self.roster[(i, mid)] = set(e.get("players") or [])
+                    self.starters[(i, mid)] = set(e.get("starters") or [])
                     for pid, pts in (e.get("players_points") or {}).items():
                         self.points[(i, pid)] = pts or 0
             for details in (folder / "drafts").glob("*_details.json"):
@@ -122,7 +125,8 @@ class League:
             return 0.0, 0, False
         pts = weeks = 0
         while i <= last and pid in self.roster.get((i, manager), ()):
-            pts += self.points.get((i, pid), 0)
+            if pid in self.starters.get((i, manager), ()):     # only lineup weeks count
+                pts += self.points.get((i, pid), 0)
             weeks += 1
             i += 1
         return round(pts, 1), weeks, i > last

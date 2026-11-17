@@ -10,7 +10,7 @@
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const SVG = "http://www.w3.org/2000/svg";
-  const PART_NAMES = { record: "Record", points: "Points per week", allplay: "All-play record", roster: "Roster strength (top 10 players)", form: "Form (last 2 weeks)" };
+  const PART_NAMES = { record: "Record", points: "Points per week", allplay: "All-play record", roster: "Roster strength (top 10 healthy players; Out / IR left out)", form: "Form (last 2 weeks)" };
   // up to 3 highlighted teams; these three colours stay apart for colour-blind eyes too
   const HIGHLIGHT = ["#3987e5", "#d95926", "#199e70"];
   const ordinal = (n) => n + (n % 100 >= 11 && n % 100 <= 13 ? "th" : { 1: "st", 2: "nd", 3: "rd" }[n % 10] || "th");
@@ -991,7 +991,7 @@
         ${d.picks.map((p) => `<tr><td>${esc(p.pick)}</td><td>${esc(p.player)}${p.kept ? " 🔒" : ""}</td><td>${pts(p.pts)}</td>` +
           `<td class="${p.voe >= 0 ? "pos" : "neg"}">${p.voe >= 0 ? "+" : "−"}${pts(Math.abs(p.voe))}</td></tr>`).join("")}
         </tbody></table></details>`).join("")}
-      <p class="an-note small">Points = what each player scored for ${esc(m.name)} while on the roster. 🔒 still there. "vs slot" compares a pick with the
+      <p class="an-note small">Points = what each player scored in ${esc(m.name)}'s starting lineup (bench weeks don't count). 🔒 still there. "vs slot" compares a pick with the
         picks made around the same spot in that draft.</p>`;
     for (const b of $("mg-profile").querySelectorAll(".mg-trade")) b.onclick = () => showTrade(b.dataset.trade);
   }

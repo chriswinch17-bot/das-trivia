@@ -71,6 +71,10 @@ def main():
     users = {u["user_id"]: u["display_name"].lower() for u in load(folder / "users.json")}
     roster_manager = {r["roster_id"]: by_username[users[r["owner_id"]]] for r in load(folder / "rosters.json")}
     all_players = load(RAW / "players_nba.json")
+    rosters_json = load(folder / "rosters.json")
+    # players Sleeper lists as Out or on IR, or sitting in an IR slot: left out of roster strength and the odds
+    injured = {pid for pid, p in all_players.items() if p.get("injury_status") in ("Out", "IR")}
+    injured |= {pid for r in rosters_json for pid in (r.get("reserve") or [])}
 
     def player_name(pid):
         info = all_players.get(str(pid)) or {}
@@ -95,7 +99,7 @@ def main():
 
     ids = sorted(managers)
 
-    def standing_after(w):
+    def standing_after(w, unavailable=()):
         """Every team's numbers using weeks 1..w."""
         done = [x for x in weeks if x <= w]
         rows = {}
@@ -107,6 +111,8 @@ def main():
             played_all = sum(len([o for o in ids if o != mid and (x, o) in week_points]) for x in done if (x, mid) in week_points)
             avg = {}
             for pid in lineup.get((w, mid), []):
+                if pid in unavailable:
+                    continue
                 scores = [p for x, p in player_weeks.get(pid, {}).items() if x <= w and p]
                 if scores:
                     avg[pid] = sum(scores) / len(scores)
@@ -146,7 +152,7 @@ def main():
 
     rankings = []
     if weeks:
-        now, order = standing_after(weeks[-1])
+        now, order = standing_after(weeks[-1], injured)    # this week's rankings: injured players don't count
         before = standing_after(weeks[-2])[0] if len(weeks) > 1 else None
         takes = write_takes(now, order, before)
         for k in order:
@@ -216,9 +222,6 @@ def main():
     gm = analytics_model.GamesModel(mlg, all_players)
     rows = analytics_model.backtest(gm, matchups, seasons)
     tuned = analytics_model.tune(rows) if rows else None
-    rosters_json = load(folder / "rosters.json")
-    injured = {pid for pid, p in all_players.items() if p.get("injury_status") in ("Out", "IR")}
-    injured |= {pid for r in rosters_json for pid in (r.get("reserve") or [])}
     team_ppw = lambda upto, mid: (lambda pts: sum(pts) / len(pts) if pts else None)(
         [week_points[(x, mid)] for x in weeks if x <= upto and (x, mid) in week_points])
 
