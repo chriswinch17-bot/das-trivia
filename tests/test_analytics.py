@@ -62,6 +62,21 @@ class PowerRankings(unittest.TestCase):
 TRADES = json.loads((SITE / "trades.json").read_text(encoding="utf-8"))
 
 
+class WhatChanged(unittest.TestCase):
+    def test_changes_point_at_real_items(self):
+        ids = {m["manager"] for m in A["managers"]} | {t["id"] for t in A["trades"]}
+        for c in A.get("changes", []):
+            self.assertIn(c["tab"], {"power", "trades", "picks", "managers", "rivals", "odds"})
+            self.assertTrue(c["item"] is None or c["item"] in ids, c)
+            self.assertTrue(c["text"].strip())
+
+    def test_snapshot_matches_rankings(self):
+        snap = A["snapshot"]
+        self.assertEqual(snap["through_week"], A["through_week"])
+        for r in A["rankings"]:
+            self.assertEqual(snap["teams"][r["manager"]]["rank"], r["rank"])
+
+
 class TradeReportCards(unittest.TestCase):
     def test_every_trade_is_listed_once(self):
         self.assertEqual(sorted(t["id"] for t in A["trades"]), sorted(t["id"] for t in TRADES))

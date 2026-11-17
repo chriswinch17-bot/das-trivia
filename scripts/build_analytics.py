@@ -19,8 +19,10 @@ Rankings are worked out after every finished week, so the arrows show the move s
 import json
 import sys
 
+import analytics_changes
 import analytics_more
 import analytics_odds
+from daily import eastern_now
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -245,7 +247,19 @@ def main():
         "ledger": ledger, "odds": odds,
         "sources": ["site/data/matchups.json", "site/data/seasons.json", f"data/raw/sleeper/{folder.name}/matchups"],
     }
-    (SITE / "analytics.json").write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
+    # --- what changed since yesterday's last build ---
+    target = SITE / "analytics.json"
+    old = json.loads(target.read_text(encoding="utf-8")) if target.exists() else None
+    if len(sys.argv) > 2 and sys.argv[1] == "--previous":       # one-off: compare with an older analytics file
+        seed = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8"))
+        old = {"snapshot": analytics_changes.snapshot(seed), "built_on": "seed"}
+    today = eastern_now()[0].date().isoformat()
+    previous, previous_on = analytics_changes.carry_previous(old, today)
+    out["snapshot"] = analytics_changes.snapshot(out)
+    out["built_on"], out["previous"], out["previous_on"] = today, previous, previous_on
+    out["changes"] = analytics_changes.changes(previous, out["snapshot"], out)
+
+    target.write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"Wrote analytics: {label} power rankings through week {out['through_week']}, {len(history)} team histories, "
           f"{len(trades)} graded trades, {len(profiles)} manager profiles.")
 

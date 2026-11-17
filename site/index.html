@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=64">
+  <link rel="stylesheet" href="css/style.css?v=65">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -228,6 +228,8 @@
         </div>
       </header>
 
+      <div class="an-changes" id="an-changes" hidden></div>
+
       <nav class="an-tabs" id="an-tabs" role="tablist">
         <button type="button" data-tab="power">Power Rankings</button>
         <button type="button" data-tab="seasons">Season by Season</button>
@@ -380,6 +382,21 @@
       <p class="fine center"><a href="./">← Back to all games</a></p>
     </section>
 
+    <!-- Share card sheet for EquipoGPT Analytics (js/analytics.js) -->
+    <div class="share-sheet" id="share-sheet" hidden>
+      <div class="ss-box" role="dialog" aria-label="Share card">
+        <button type="button" class="ss-x" id="ss-close" aria-label="Close">✕</button>
+        <img id="ss-img" alt="Share card preview">
+        <p class="ss-status" id="ss-status"></p>
+        <div class="ss-actions">
+          <button type="button" class="btn primary" id="ss-share" hidden>📤 Share</button>
+          <button type="button" class="btn ghost" id="ss-save">⬇️ Save image</button>
+          <button type="button" class="btn ghost" id="ss-link">🔗 Copy link</button>
+          <button type="button" class="btn ghost" id="ss-text">📋 Copy text</button>
+        </div>
+      </div>
+    </div>
+
     <!-- DAS GRIDS (js/grids.js) -->
     <section class="screen grids" id="screen-grids" hidden>
       <h1 class="grids-logo"><span class="sr-only">Das Grids</span></h1>
@@ -531,11 +548,11 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=64"></script>
-  <script src="js/effects.js?v=64"></script>
-  <script src="js/cutscene.js?v=64"></script>
-  <script src="js/game.js?v=64"></script>
-  <script src="js/grids.js?v=64"></script>
-  <script src="js/analytics.js?v=64"></script>
+  <script src="js/config.js?v=65"></script>
+  <script src="js/effects.js?v=65"></script>
+  <script src="js/cutscene.js?v=65"></script>
+  <script src="js/game.js?v=65"></script>
+  <script src="js/grids.js?v=65"></script>
+  <script src="js/analytics.js?v=65"></script>
 </body>
 </html>

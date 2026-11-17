@@ -866,3 +866,40 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
   animation-name: stamp-in-r; }
 @keyframes stamp-in-r { from { transform: translateY(-50%) rotate(8deg) scale(2.2); opacity: 0; } }
 .fw-title.robbed { color: #6aa8f0; margin-top: 8px; }
+
+/* What changed banner, share buttons, share sheet (EquipoGPT Analytics) */
+.an-changes { padding: 12px 14px; border-radius: 16px; background: linear-gradient(135deg, rgba(47, 191, 113, .14), rgba(57, 135, 229, .1)), var(--card);
+  border: 1px solid #2fbf71; }
+.ch-title { font-family: var(--head); font-size: 20px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #7fe0a8; margin-bottom: 4px; }
+.an-changes ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.an-changes li button { all: unset; box-sizing: border-box; cursor: pointer; display: block; width: 100%; padding: 4px 0 4px 14px; position: relative;
+  font-size: 14px; color: #e3e8f0; line-height: 1.35; }
+.an-changes li button::before { content: "›"; position: absolute; left: 0; color: #2fbf71; font-weight: 800; }
+.an-changes li button:hover { color: #fff; text-decoration: underline; }
+.ch-more { all: unset; cursor: pointer; margin-top: 4px; font-size: 13px; font-weight: 700; color: #7fe0a8; }
+.ch-none { margin: 0; font-size: 14px; color: #d5dbea; }
+.flash { box-shadow: 0 0 0 3px #f2c14e !important; transition: box-shadow .3s; }
+
+.share-btn { all: unset; cursor: pointer; flex: none; display: inline-grid; place-items: center; width: 34px; height: 30px; border-radius: 9px;
+  background: #0b1120; border: 1px solid var(--card-edge); font-size: 15px; font-style: normal; }
+.share-btn:hover { border-color: var(--orange); }
+.share-btn:focus-visible { outline: 2px solid var(--orange); }
+.share-btn.wide { width: auto; padding: 0 12px; font-size: 13px; font-weight: 700; color: #d5dbea; }
+.share-row { display: flex; justify-content: flex-end; }
+.pr-take span { flex: 1; }
+.pr-take .share-btn { margin-left: 4px; }
+.tr-card header { align-items: center; }
+.tr-card header .share-btn { margin-left: auto; }
+.pk-team header .share-btn, .mg-trophies .share-btn { margin-left: 6px; vertical-align: middle; }
+.od-foot .share-btn { margin-left: auto; }
+
+.share-sheet { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 16px; background: rgba(5, 8, 15, .78); }
+.ss-box { position: relative; width: min(100%, 460px); max-height: 100%; overflow: auto; padding: 14px; border-radius: 18px; background: var(--card);
+  border: 1px solid var(--card-edge); box-shadow: 0 20px 60px rgba(0, 0, 0, .6); }
+.ss-x { all: unset; cursor: pointer; position: absolute; right: 10px; top: 8px; z-index: 1; width: 32px; height: 32px; display: grid; place-items: center;
+  border-radius: 50%; background: #0b1120; color: var(--text); font-size: 16px; }
+.ss-box img { display: block; width: 100%; aspect-ratio: 1; border-radius: 12px; background: #0b1120; }
+.ss-status { min-height: 1.2em; margin: 8px 0; font-size: 13px; color: #7fe0a8; text-align: center; }
+.ss-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.ss-actions .btn { margin: 0; width: 100%; padding: 10px 8px; font-size: 14px; }
+.ss-actions #ss-share { grid-column: 1 / -1; }

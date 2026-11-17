@@ -86,7 +86,8 @@
           </span>
           <span class="pr-right"><b>${Math.round(t.score)}</b>${sparkline(t.weekly)}</span>
         </button>
-        <p class="pr-take"><img src="images/host.webp" alt="EquipoGPT says">${esc(t.take)}</p>
+        <p class="pr-take"><img src="images/host.webp" alt="EquipoGPT says"><span>${esc(t.take)}</span>
+          <button type="button" class="share-btn" data-share="power|${t.manager}" aria-label="Share ${esc(t.name)}'s card">📤</button></p>
         <div class="pr-more" hidden>
           ${radar(t.parts)}
           <dl class="pr-stats">
@@ -355,6 +356,7 @@
         <div class="${bw > aw ? "win" : ""}"><b>${bw}</b><span>${esc(rvName(B))}</span></div>
       </div>
       <div class="tr-share rv-bar" aria-hidden="true"><span style="width:${total ? ((aw + t / 2) / total * 100).toFixed(1) : 50}%"></span></div>
+      <div class="share-row"><button type="button" class="share-btn wide" data-share="rivals|${A}~${B}">📤 Share this rivalry</button></div>
       <p class="pr-take"><img src="images/host.webp" alt="EquipoGPT says">${lead} ${total} meeting${total === 1 ? "" : "s"}${p.playoffs.length ? `, ${p.playoffs.length} in the playoffs` : ""}.
         ${p.streak ? (p.streak.n > 1 ? `${esc(rvName(p.streak.who))} has won the last ${p.streak.n} in a row.` : `${esc(rvName(p.streak.who))} won the last meeting.`) : ""}</p>
       <dl class="pr-stats">
@@ -411,11 +413,12 @@
     const maxCap = Math.max(...L.teams.map((t) => t.capital));
     $("pk-list").innerHTML = L.teams.map((t) => {
       const gone = t.own_firsts_gone.map((y) => `${y} to ${esc(nm(holder[`${y}|1|${t.manager}`]))}`);
-      return `<article class="pk-team">
+      return `<article class="pk-team" id="pk-${t.manager}">
         <header><span class="pr-rank">${t.rank}</span>
           <span class="pk-name"><b>${esc(t.team)}</b> <span class="pr-mgr">(${esc(t.name)})</span>
             <small>${t.count.map((c, i) => `${c} ${["1st", "2nd", "3rd"][i] || `R${i + 1}`}${c === 1 ? "" : "s"}`).join(" · ")}${t.power_rank ? ` · #${t.power_rank} in power rankings` : ""}</small></span>
-          <span class="pk-cap"><b>${t.capital}</b><small>capital</small></span></header>
+          <span class="pk-cap"><b>${t.capital}</b><small>capital</small></span>
+          <button type="button" class="share-btn" data-share="picks|${t.manager}" aria-label="Share ${esc(t.name)}'s picks">📤</button></header>
         <span class="pr-bar"><span style="width:${(t.capital / maxCap * 100).toFixed(1)}%"></span></span>
         ${L.years.map((y) => `<div class="pk-year"><span class="pk-y">${y}</span><span class="pk-chips">${(t.picks[y] || []).map((p) =>
           `<span class="pk r${p.round}${p.own ? "" : " got"}" title="${y} round ${p.round}${p.own ? "" : ` from ${esc(nm(p.from))}`}">${p.round}${p.own ? "" : `<i>${esc(nm(p.from).slice(0, 3))}</i>`}</span>`).join("") || '<span class="pk-none">no picks</span>'}</span></div>`).join("")}
@@ -550,16 +553,264 @@
         </div>`;
       };
       const pA = L ? L.p * 100 : g.a_prob;
-      return `<article class="od-game">
+      return `<article class="od-game" id="od-${g.a}-${g.b}">
         ${side("a")}${side("b")}
         <div class="od-foot"><div class="tr-share od-bar" aria-hidden="true"><span style="width:${pA.toFixed(1)}%"></span></div>
           ${state === "final" && L ? `<span>Final: ${esc(L.a > L.b ? g.a_name : g.b_name)} by ${Math.round(Math.abs(L.a - L.b))} · ${(g.favorite === (L.a > L.b ? g.a : g.b)) ? "favourite won" : "upset!"}</span>
           <span>O/U ${g.total} → ${Math.round(L.a + L.b)} (${L.a + L.b > g.total ? "over" : "under"})</span>`
           : `<span>${L ? "Live win chance" : "Win chance"}: ${esc(g.a_name)} ${Math.round(pA)}% · ${esc(g.b_name)} ${Math.round(100 - pA)}%</span>
           <span>O/U ${g.total}${L ? ` → live ${L.total}` : ""}</span>`}
-          ${L ? `<span class="od-was">Before the week: ${esc(g.a_name)} ${Math.round(g.a_prob)}%</span>` : ""}</div>
+          ${L ? `<span class="od-was">Before the week: ${esc(g.a_name)} ${Math.round(g.a_prob)}%</span>` : ""}
+          <button type="button" class="share-btn" data-share="odds|${W.week}~${g.a}~${g.b}" aria-label="Share this matchup">📤</button></div>
       </article>`;
     }).join("");
+  }
+
+  /* ---------- links to one item, the What changed banner, share cards ----------
+     A link looks like ?mode=analytics&tab=trades&item=<id>. Items with two parts use "~":
+     rivals a~b, odds week~a~b. Share cards are drawn on a canvas (1080 x 1080) from the same data. */
+  function itemLink(tab, item) {
+    const url = new URL(location.origin + location.pathname);
+    url.searchParams.set("mode", "analytics");
+    url.searchParams.set("tab", tab);
+    if (item) url.searchParams.set("item", item);
+    return url.toString();
+  }
+  function flash(el) {
+    if (!el) return;
+    el.scrollIntoView({ block: "center", behavior: "smooth" });
+    el.classList.add("flash");
+    setTimeout(() => el.classList.remove("flash"), 1800);
+  }
+  async function focusItem(tab, item) {
+    if (!item) return openTab(tab);
+    if (tab === "trades") return showTrade(item);
+    openTab(tab);
+    if (tab === "power") flash($(`pr-${item}`));
+    if (tab === "picks") flash($(`pk-${item}`));
+    if (tab === "rivals") {
+      const [a, b] = item.split("~");
+      if (a && b) { pickRivalry(a, b); $("rv-detail").scrollIntoView({ block: "start", behavior: "smooth" }); }
+    }
+    if (tab === "managers" && data.managers.some((m) => m.manager === item)) {
+      manager = item; renderManagerChips(); renderProfile();
+      $("mg-profile").scrollIntoView({ block: "start", behavior: "smooth" });
+    }
+    if (tab === "odds") {
+      const [w, a, b] = item.split("~");
+      const i = data.odds.weeks.findIndex((x) => String(x.week) === w);
+      if (i >= 0) { oddsWeek = i; await setupOdds(); flash($(`od-${a}-${b}`) || $(`od-${b}-${a}`)); }
+    }
+  }
+
+  function renderChanges() {
+    const box = $("an-changes");
+    const list = data.changes || [];
+    if (!data.previous_on) { box.hidden = true; return; }
+    box.hidden = false;
+    const shown = 4;
+    box.innerHTML = `<div class="ch-title">🆕 What changed since yesterday</div>` + (list.length
+      ? `<ul>${list.map((c, i) => `<li${i >= shown ? ' class="more" hidden' : ""}><button type="button" data-tab="${c.tab}" data-item="${esc(c.item || "")}">${esc(c.text)}</button></li>`).join("")}</ul>
+        ${list.length > shown ? `<button type="button" class="ch-more">Show ${list.length - shown} more</button>` : ""}`
+      : `<p class="ch-none">Quiet day. Nothing moved since yesterday.</p>`);
+    for (const b of box.querySelectorAll("li button")) b.onclick = () => focusItem(b.dataset.tab, b.dataset.item);
+    const more = box.querySelector(".ch-more");
+    if (more) more.onclick = () => { for (const li of box.querySelectorAll("li.more")) li.hidden = false; more.remove(); };
+  }
+
+  // what goes on each share card
+  function cardSpec(kind, item) {
+    const nm = (id) => data.rivalries.names[id] || id;
+    if (kind === "power") {
+      const t = data.rankings.find((r) => r.manager === item);
+      const mv = t.prev_rank == null ? "" : t.prev_rank > t.rank ? `▲ up ${t.prev_rank - t.rank} this week` : t.prev_rank < t.rank ? `▼ down ${t.rank - t.prev_rank} this week` : "no change this week";
+      return { kicker: `Power Rankings · week ${data.through_week}`, title: `#${t.rank} ${t.team} (${t.name})`,
+        big: String(Math.round(t.score)), bigLabel: "power score",
+        lines: [`Record ${t.record} · all-play ${t.allplay}`,
+          t.playoff_pct != null ? `Playoffs ${pctText(t.playoff_pct)} · bye ${pctText(t.bye_pct)} · title ${pctText(t.title_pct)}` : "", mv].filter(Boolean),
+        take: t.take, stamp: t.fraud ? "FRAUD" : t.robbed ? "ROBBED" : null, link: itemLink("power", t.manager) };
+    }
+    if (kind === "trades") {
+      const t = data.trades.find((x) => x.id === item);
+      return { kicker: `Trade Report Card · ${fmtDate(t.date)}`, title: t.sides.map((s) => s.name).join(" ↔ "),
+        lines: t.sides.map((s) => {
+          const got = [...s.players.map((p) => p.name), ...s.picks.map((p) => p.label), ...(s.faab ? [`$${s.faab} FAAB`] : [])];
+          return `${s.grade || "–"} · ${s.name} got ${got.join(", ") || "nothing"} (${pts(s.total)} pts)`;
+        }),
+        take: t.take, stamp: null, link: itemLink("trades", t.id) };
+    }
+    if (kind === "rivals") {
+      const [a, b] = item.split("~");
+      const p = rvPair(a, b);
+      const [aw, bw, ti] = rvRecord(p, a);
+      const lead = aw === bw ? null : aw > bw ? a : b;
+      const g = p.blowout;
+      return { kicker: "Das Rivalries", title: `${nm(a)} ${aw} – ${bw} ${nm(b)}${ti ? ` (${ti} tie${ti > 1 ? "s" : ""})` : ""}`,
+        lines: [p.streak ? (p.streak.n > 1 ? `${nm(p.streak.who)} has won the last ${p.streak.n} in a row` : `${nm(p.streak.who)} won the last meeting`) : "",
+          `Points per game: ${nm(a)} ${Math.round(p.a === a ? p.a_ppg : p.b_ppg)} · ${nm(b)} ${Math.round(p.a === b ? p.a_ppg : p.b_ppg)}`,
+          g ? `Biggest blowout: ${nm(g.winner)} by ${Math.round(Math.abs(g.a_pts - g.b_pts))} (${g.season}, wk ${g.week})` : "",
+          p.playoffs.length ? `${p.playoffs.length} playoff meeting${p.playoffs.length > 1 ? "s" : ""}` : ""].filter(Boolean),
+        take: lead ? `${nm(lead)} owns this one.` : "All square.", link: itemLink("rivals", `${a}~${b}`) };
+    }
+    if (kind === "managers") {
+      const m = data.managers.find((x) => x.manager === item);
+      return { kicker: "Manager Profile", title: `${m.team} (${m.name})`,
+        big: m.record, bigLabel: "all-time record",
+        lines: [`${m.titles.length ? `🏆 x${m.titles.length}` : "No titles yet"} · ${m.playoffs} playoff trip${m.playoffs === 1 ? "" : "s"}`,
+          `Trading: #${m.trades.rank} of ${data.managers.length}, ${m.trades.record} in graded trades (${m.trades.count} total)`,
+          `Draft grade ${m.drafts.grade} (#${m.drafts.rank})`],
+        take: m.take, link: itemLink("managers", m.manager) };
+    }
+    if (kind === "odds") {
+      const [w, a, b] = item.split("~");
+      const W = data.odds.weeks.find((x) => String(x.week) === w);
+      const g = W.games.find((x) => x.a === a && x.b === b);
+      const fav = g.favorite ? (g.favorite === g.a ? g.a_name : g.b_name) : null;
+      return { kicker: `Matchup Odds · week ${w}`, title: `${g.a_name} vs ${g.b_name}`,
+        lines: [`${g.a_team}: ${g.a_ml} · proj ${g.a_proj}`, `${g.b_team}: ${g.b_ml} · proj ${g.b_proj}`,
+          fav ? `${fav} -${g.spread} · O/U ${g.total}` : `Pick'em · O/U ${g.total}`,
+          `Win chance: ${g.a_name} ${Math.round(g.a_prob)}% · ${g.b_name} ${Math.round(100 - g.a_prob)}%`],
+        take: "Just for fun. Nobody is taking bets (except maybe Jacobo).", link: itemLink("odds", item) };
+    }
+    if (kind === "picks") {
+      const t = data.ledger.teams.find((x) => x.manager === item);
+      return { kicker: "Future Pick Ledger", title: `${t.team} (${t.name})`, big: String(t.capital), bigLabel: "pick capital",
+        lines: data.ledger.years.map((y) => `${y}: ${(t.picks[y] || []).map((p) => `${["1st", "2nd", "3rd"][p.round - 1] || `R${p.round}`}${p.own ? "" : ` (${nm(p.from)})`}`).join(", ") || "no picks"}`),
+        take: t.own_firsts_gone.length ? `Own 1st traded away: ${t.own_firsts_gone.join(", ")}` : "Still has every one of their own 1sts.",
+        link: itemLink("picks", t.manager) };
+    }
+    return null;
+  }
+
+  function wrapText(ctx, text, maxWidth) {
+    const words = String(text).split(" ");
+    const lines = [];
+    let line = "";
+    for (const w of words) {
+      const test = line ? `${line} ${w}` : w;
+      if (ctx.measureText(test).width > maxWidth && line) { lines.push(line); line = w; } else line = test;
+    }
+    if (line) lines.push(line);
+    return lines;
+  }
+
+  let hostImg = null;
+  async function drawCard(spec) {
+    const S = 1080, P = 70;
+    const c = document.createElement("canvas");
+    c.width = S; c.height = S;
+    const x = c.getContext("2d");
+    try { await Promise.all(['800 80px "Barlow Condensed"', '600 36px Inter', 'italic 500 32px Inter'].map((f) => document.fonts.load(f))); } catch (e) { /* default fonts */ }
+    if (!hostImg) {
+      hostImg = new Image();
+      hostImg.src = "images/host.webp";
+      await new Promise((r) => { hostImg.onload = r; hostImg.onerror = r; });
+    }
+    const bg = x.createLinearGradient(0, 0, S, S);
+    bg.addColorStop(0, "#1d2d6e"); bg.addColorStop(0.55, "#0f1420"); bg.addColorStop(1, "#2a1606");
+    x.fillStyle = bg; x.fillRect(0, 0, S, S);
+    x.strokeStyle = "#f2c14e"; x.lineWidth = 8; x.strokeRect(20, 20, S - 40, S - 40);
+    // header: host face + brand
+    if (hostImg.naturalWidth) {
+      x.save(); x.beginPath(); x.arc(P + 50, P + 50, 50, 0, Math.PI * 2); x.clip();
+      const w = hostImg.naturalWidth, h = hostImg.naturalHeight, side = w * 0.4;   // the host's face sits at about (28%, 22%)
+      x.drawImage(hostImg, w * 0.28 - side / 2, Math.max(0, h * 0.215 - side / 2), side, side, P, P, 100, 100);
+      x.restore();
+      x.strokeStyle = "#f2c14e"; x.lineWidth = 4; x.beginPath(); x.arc(P + 50, P + 50, 50, 0, Math.PI * 2); x.stroke();
+    }
+    x.fillStyle = "#f2c14e"; x.font = '800 44px "Barlow Condensed", Impact, sans-serif'; x.textBaseline = "alphabetic";
+    x.fillText("EQUIPOGPT ANALYTICS", P + 130, P + 46);
+    x.fillStyle = "#9aa6c0"; x.font = "600 30px Inter, sans-serif";
+    x.fillText(spec.kicker, P + 130, P + 88);
+    let y = P + 200;
+    // title
+    x.fillStyle = "#f3f5fa"; x.font = '800 78px "Barlow Condensed", Impact, sans-serif';
+    for (const l of wrapText(x, spec.title.toUpperCase(), S - 2 * P).slice(0, 2)) { x.fillText(l, P, y); y += 80; }
+    // big number
+    if (spec.big) {
+      y += 30;
+      x.fillStyle = "#ff7a1a"; x.font = '800 150px "Barlow Condensed", Impact, sans-serif';
+      x.fillText(spec.big, P, y + 100);
+      const bw = x.measureText(spec.big).width;
+      x.fillStyle = "#9aa6c0"; x.font = "600 32px Inter, sans-serif";
+      x.fillText(spec.bigLabel || "", P + bw + 24, y + 98);
+      y += 150;
+    }
+    // lines
+    y += 30;
+    x.fillStyle = "#d5dbea"; x.font = "600 34px Inter, sans-serif";
+    for (const line of spec.lines) {
+      for (const l of wrapText(x, line, S - 2 * P).slice(0, 2)) { if (y > S - 260) break; x.fillText(l, P, y); y += 46; }
+      y += 8;
+    }
+    // EquipoGPT's take
+    if (spec.take) {
+      x.font = "italic 500 32px Inter, sans-serif";
+      const tl = wrapText(x, `“${spec.take}”`, S - 2 * P - 40).slice(0, 3);
+      const top = Math.min(Math.max(y + 10, S - 250 - tl.length * 42), S - 120 - tl.length * 42 - 40);
+      x.fillStyle = "rgba(242,193,78,.12)"; x.fillRect(P, top, S - 2 * P, tl.length * 42 + 36);
+      x.fillStyle = "#f2c14e"; x.fillRect(P, top, 6, tl.length * 42 + 36);
+      x.fillStyle = "#f3f5fa";
+      tl.forEach((l, i) => x.fillText(l, P + 26, top + 48 + i * 42));
+    }
+    // stamp
+    if (spec.stamp) {
+      const red = spec.stamp === "FRAUD";
+      x.save(); x.translate(S - 250, spec.big ? 470 : 150); x.rotate(red ? -0.2 : 0.14);
+      x.strokeStyle = red ? "#ef4b4b" : "#3987e5"; x.fillStyle = red ? "#ef4b4b" : "#6aa8f0"; x.lineWidth = 10;
+      x.font = '800 92px "Barlow Condensed", Impact, sans-serif';
+      const label = red ? "🚨 FRAUD" : "😤 ROBBED";
+      const w = x.measureText(label).width + 60;
+      x.strokeRect(-w / 2, -70, w, 120); x.textAlign = "center"; x.fillText(label, 0, 22);
+      x.restore();
+    }
+    // footer
+    x.fillStyle = "#9aa6c0"; x.font = "600 26px Inter, sans-serif"; x.textAlign = "left";
+    x.fillText("Das Trivia · Brought to you by EquipoGPT", P, S - 62);
+    x.textAlign = "right"; x.fillStyle = "#ff7a1a";
+    x.fillText(location.host + location.pathname.replace(/\/$/, ""), S - P, S - 62);
+    x.textAlign = "left";
+    return c;
+  }
+
+  let shareBlob = null, shareSpec = null;
+  async function openShare(kind, item) {
+    const spec = cardSpec(kind, item);
+    if (!spec) return;
+    shareSpec = spec;
+    const box = $("share-sheet");
+    box.hidden = false;
+    $("ss-status").textContent = "Drawing the card…";
+    $("ss-img").removeAttribute("src");
+    const canvas = await drawCard(spec);
+    shareBlob = await new Promise((r) => canvas.toBlob(r, "image/png"));
+    $("ss-img").src = URL.createObjectURL(shareBlob);
+    $("ss-status").textContent = "";
+    const file = new File([shareBlob], "equipogpt.png", { type: "image/png" });
+    $("ss-share").hidden = !(navigator.canShare && navigator.canShare({ files: [file] }));
+  }
+  function shareText(spec) {
+    return [`EquipoGPT Analytics · ${spec.kicker}`, spec.title, ...spec.lines, spec.take ? `“${spec.take}”` : "", spec.link].filter(Boolean).join("\n");
+  }
+  function setupShareSheet() {
+    $("ss-close").onclick = () => { $("share-sheet").hidden = true; };
+    $("share-sheet").onclick = (e) => { if (e.target.id === "share-sheet") $("share-sheet").hidden = true; };
+    $("ss-share").onclick = async () => {
+      try {
+        await navigator.share({ files: [new File([shareBlob], "equipogpt.png", { type: "image/png" })], text: shareText(shareSpec) });
+      } catch (e) { /* closed the share menu */ }
+    };
+    $("ss-save").onclick = () => {
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(shareBlob); a.download = "equipogpt.png"; a.click();
+      $("ss-status").textContent = "Image saved.";
+    };
+    const copy = async (text, done) => {
+      try { await navigator.clipboard.writeText(text); $("ss-status").textContent = done; }
+      catch (e) { window.prompt("Copy this:", text); }
+    };
+    $("ss-link").onclick = () => copy(shareSpec.link, "Link copied. Paste it in the chat.");
+    $("ss-text").onclick = () => copy(shareText(shareSpec), "Text copied. Paste it in the chat.");
   }
 
   /* ---------- tabs ---------- */
@@ -572,6 +823,7 @@
     }
     for (const p of document.querySelectorAll("[data-panel]")) p.hidden = p.dataset.panel !== name;
     const url = new URL(location.href);
+    if (url.searchParams.get("tab") !== name) url.searchParams.delete("item");   // a shared link's item belongs to its own tab
     url.searchParams.set("tab", name);
     history.replaceState(null, "", url);
     if (name === "seasons") renderChart();   // needs to be visible to measure its width
@@ -609,7 +861,8 @@
     const share = t.sides.length === 2 && t.sides[0].total + t.sides[1].total > 0
       ? `<div class="tr-share" aria-hidden="true"><span style="width:${(t.sides[0].share * 100).toFixed(1)}%"></span></div>` : "";
     return `<article class="tr-card${t.status === "graded" ? "" : " ungraded"}" id="trade-${t.id}">
-      <header><span>${fmtDate(t.date)} · ${esc(t.season)}</span>${STATUS[t.status] ? `<span class="tr-status">${STATUS[t.status]}</span>` : ""}</header>
+      <header><span>${fmtDate(t.date)} · ${esc(t.season)}</span>${STATUS[t.status] ? `<span class="tr-status">${STATUS[t.status]}</span>` : ""}
+        <button type="button" class="share-btn" data-share="trades|${t.id}" aria-label="Share this trade">📤</button></header>
       <div class="tr-sides">${sides}</div>
       ${share}
       <p class="pr-take"><img src="images/host.webp" alt="EquipoGPT says">${esc(t.take)}</p>
@@ -694,7 +947,8 @@
       <div class="mg-head">
         <div><h3>${esc(m.team)} <span class="pr-mgr">(${esc(m.name)})</span></h3>
           <p class="mg-names">${m.team_names.length > 1 ? `Also known as ${m.team_names.filter((n) => n !== m.team).map(esc).join(", ")}` : `${m.seasons_played} seasons in Das League`}</p></div>
-        <div class="mg-trophies">${m.titles.map((s) => `<span title="Champion ${s}">🏆</span>`).join("")}${m.runner_ups.map((s) => `<span title="Runner-up ${s}">🥈</span>`).join("")}</div>
+        <div class="mg-trophies">${m.titles.map((s) => `<span title="Champion ${s}">🏆</span>`).join("")}${m.runner_ups.map((s) => `<span title="Runner-up ${s}">🥈</span>`).join("")}
+          <button type="button" class="share-btn" data-share="managers|${m.manager}" aria-label="Share ${esc(m.name)}'s profile">📤</button></div>
       </div>
       <p class="pr-take"><img src="images/host.webp" alt="EquipoGPT says">${esc(m.take)}</p>
       <dl class="pr-stats mg-stats">
@@ -771,6 +1025,16 @@
     renderProfile();
     for (const b of $("an-tabs").querySelectorAll("button")) b.onclick = () => openTab(b.dataset.tab);
     openTab(params.get("tab"));
+    renderChanges();
+    setupShareSheet();
+    document.addEventListener("click", (e) => {
+      const b = e.target.closest(".share-btn");
+      if (!b) return;
+      e.preventDefault(); e.stopPropagation();
+      const [kind, item] = b.dataset.share.split("|");
+      openShare(kind, item);
+    });
+    if (params.get("item")) focusItem(params.get("tab"), params.get("item"));
     let wide = window.innerWidth;
     window.addEventListener("resize", () => { if (Math.abs(window.innerWidth - wide) > 30) { wide = window.innerWidth; renderChart(); } });
   }

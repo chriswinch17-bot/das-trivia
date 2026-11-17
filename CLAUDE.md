@@ -197,6 +197,14 @@ The owner has essentially no coding or web development experience.
   (`/league/<id>/matchups/<week>`) when the page opens; share of week played comes from the calendar (week 1 = opening
   night to Sunday, then Monday-Sunday ET). Final weeks show W/L and the margin; falls back to last night's scores.
   Just for fun, the page says nobody takes bets.
+  **What changed since yesterday** banner (`scripts/analytics_changes.py`): every build stores a small `snapshot`; the first
+  build of a new ET day moves the old one to `previous`, so the banner always compares with yesterday's last build (rank
+  moves 2+, playoff odds 5+ points, new FRAUD/ROBBED, new or newly graded trades, picks changing hands, new week).
+  `python scripts/build_analytics.py --previous <old analytics.json>` seeds the comparison by hand.
+  **Links to one item**: `?mode=analytics&tab=<tab>&item=<id>` (rivals `a~b`, odds `week~a~b`, trades = trade id,
+  power/managers/picks = manager id). **Share cards**: 📤 buttons on power cards, trades, rivalries, profiles, odds and
+  pick cards draw a 1080x1080 image in the browser (canvas) with the item's link; Share (phones), Save image, Copy link,
+  Copy text.
   **Ask EquipoGPT** tab (`tab=ask`) is the owner's joke: a blurred fake chat whose every question hits a paywall
   ("EquipoGPT Pro, $99.99/month, reach out to Co-Founder Jacobo at 305-JACOBO"). No AI, nothing sold or collected.
 - **Every game resets at midnight Eastern** (owner's request, 2026-11-14).
