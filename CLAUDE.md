@@ -202,9 +202,11 @@ The owner has essentially no coding or web development experience.
   is subbed out of the lineup; an unlocked starter's last game of the week counts. So team weeks are ~450 (e.g. Jokic
   wk 3 games 67/93/54 -> week 67), and real scores beat Sleeper's projections (managers lock good games).
   Extra games barely change a player's week (2-4 games all ~0.79 of his usual); having 0 games or being hurt matters.
-  Projection = blend x (10 best players with a game this week at their usual weekly score, Out/IR/IR-slot left out)
-  + (1 - blend) x team points per week; blend and spread tuned nightly on every past matchup (329 games: blend 0.3,
-  67% winners picked, 80%+ favourites won 88%). Live lines blend score now and projection by share of week played.
+  Projection = blend x (10 best players with a game this week at their usual weekly score + bench share x next 5,
+  Out/IR/IR-slot left out) + (1 - blend) x team points per week, shifted so the league average matches real scoring;
+  blend, bench share and spread tuned nightly on every past matchup (329 games: blend 0.3, bench 0.6 (owner asked for
+  bench depth, 2026-11-17: swap in a bench player with an early game), ~67% winners picked). Power-ranking roster
+  strength uses the same bench share. Live lines blend score now and projection by share of week played.
   Needs `data/raw/sleeper/<season>/schedule.json` (Sleeper's NBA schedule; `fetch_sleeper.py` saves it).
   WARNING: re-fetching OLD seasons from Sleeper (without --current-only) returned different weekly points than the
   originals on 2026-11-16 and broke build_data; the original files were restored. Only refetch the current season.

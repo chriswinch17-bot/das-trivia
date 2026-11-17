@@ -25,6 +25,8 @@ RAW = Path(__file__).resolve().parent.parent / "data" / "raw" / "sleeper"
 STARTERS_PER_DAY = 10
 PRIOR_GAMES = 8            # early season: last season's per-game average counts like this many games
 BLENDS = [i / 10 for i in range(11)]     # weight on the games model (rest = team's actual points per week)
+BENCH = 5                                 # bench spots counted for depth
+DEPTHS = [0, 0.1, 0.2, 0.3, 0.4, 0.6, 0.8, 1.0, 1.3]   # share of the bench's level that counts (tuned)
 
 
 def load(path):
@@ -98,11 +100,17 @@ class GamesModel:
             return 1
         return self.sched.games.get((season, week), {}).get(self.sched.team(season, pid, day), 0)
 
-    def project_week(self, season, week, roster, values, unavailable=()):
-        """Projected points: the 10 best players who have at least one game this week and aren't injured."""
-        ready = sorted((values.get(pid, 0) for pid in roster
-                        if pid not in unavailable and self.games(season, week, pid) > 0), reverse=True)
-        return sum(max(0.0, v) for v in ready[:STARTERS_PER_DAY])
+    def project_parts(self, season, week, roster, values, unavailable=()):
+        """(10 best players with a game this week, the next 5 = bench depth). week None = ignore the schedule."""
+        ready = sorted((max(0.0, values.get(pid, 0)) for pid in roster
+                        if pid not in unavailable and (week is None or self.games(season, week, pid) > 0)), reverse=True)
+        return sum(ready[:STARTERS_PER_DAY]), sum(ready[STARTERS_PER_DAY:STARTERS_PER_DAY + BENCH])
+
+    def project_week(self, season, week, roster, values, unavailable=(), depth=0.0):
+        """Projected points: the 10 best players who have a game and aren't injured, plus a share of the bench
+        (in a lock-in league a bench player with an early game can be swapped in and locked)."""
+        top, bench = self.project_parts(season, week, roster, values, unavailable)
+        return top + depth * bench
 
 
 def phi(z):
@@ -129,7 +137,7 @@ def backtest(model, matchups, seasons):
             ids = {mid for (wk, mid) in pts if wk == w}
             rosters = {mid: model.lg.roster.get((i, mid), set()) for mid in ids}
             values = model.player_values(label, w - 1, set().union(*rosters.values()), prev)
-            proj = {mid: model.project_week(label, w, rosters[mid], values) for mid in ids}
+            proj = {mid: model.project_parts(label, w, rosters[mid], values) for mid in ids}
             ppw = {mid: sum(pts[(x, mid)] for x in weeks if x < w and (x, mid) in pts) /
                         max(1, sum(1 for x in weeks if x < w and (x, mid) in pts)) for mid in ids}
             for m in games:
@@ -141,36 +149,38 @@ def backtest(model, matchups, seasons):
 
 
 def tune(rows):
-    """Pick the blend and the spread that predicted best (lowest log loss); report how it did."""
-    best = None
-    for k in BLENDS:
-        # the games model and real scoring are on slightly different scales; line them up per season-week
-        diffs = [(k * (ga - gb) + (1 - k) * (pa - pb), won, (aa - ab)) for _, _, _, _, ga, gb, pa, pb, aa, ab, won in rows]
-        resid = [actual - d for d, _, actual in diffs]
+    """Pick the blend, bench share and spread that predicted best (lowest log loss); report how it did.
+    rows hold (top 10, bench) for each team, so the bench share can be tried without re-running the history."""
+    def scored(k, d):
+        diffs = []
+        for _, _, _, _, ga, gb, pa, pb, aa, ab, won in rows:
+            g = (ga[0] + d * ga[1]) - (gb[0] + d * gb[1])
+            diffs.append((k * g + (1 - k) * (pa - pb), won, aa - ab))
+        resid = [actual - x for x, _, actual in diffs]
         sd = max(30.0, math.sqrt(sum(r * r for r in resid) / len(resid)))
         loss = 0.0
-        for d, won, _ in diffs:
-            p = min(max(phi(d / sd), 1e-4), 1 - 1e-4)
+        for x, won, _ in diffs:
+            p = min(max(phi(x / sd), 1e-4), 1 - 1e-4)
             loss -= math.log(p if won else 1 - p)
-        loss /= len(diffs)
-        if best is None or loss < best["loss"]:
-            right = sum(1 for d, won, _ in diffs if d != 0 and (d > 0) == won)
-            picks = sum(1 for d, _, _ in diffs if d != 0)
-            best = {"blend": k, "sd_diff": sd, "loss": loss, "right": right, "picks": picks}
-    # the old model (team points only) for comparison
+        right = sum(1 for x, won, _ in diffs if x != 0 and (x > 0) == won)
+        picks = sum(1 for x, _, _ in diffs if x != 0)
+        return {"blend": k, "depth": d, "sd_diff": sd, "loss": loss / len(diffs), "right": right, "picks": picks, "diffs": diffs}
+
+    results = [scored(k, d) for k in BLENDS for d in DEPTHS]
+    best = min(results, key=lambda r: r["loss"])
+    no_bench = min((r for r in results if r["depth"] == 0), key=lambda r: r["loss"])
+    best["no_bench"] = {"right": no_bench["right"], "picks": no_bench["picks"], "loss": round(no_bench["loss"], 4), "blend": no_bench["blend"]}
     old = [(pa - pb, won) for _, _, _, _, _, _, pa, pb, _, _, won in rows]
     best["old_right"] = sum(1 for d, won in old if d != 0 and (d > 0) == won)
     best["old_picks"] = sum(1 for d, _ in old if d != 0)
-    # calibration: do 70% favourites win about 70% of the time?
     buckets = {}
-    for _, _, _, _, ga, gb, pa, pb, _, _, won in rows:
-        d = best["blend"] * (ga - gb) + (1 - best["blend"]) * (pa - pb)
-        p = phi(abs(d) / best["sd_diff"])
-        fav_won = (d > 0) == won
+    for x, won, _ in best["diffs"]:
+        p = phi(abs(x) / best["sd_diff"])
         key = "50-60" if p < .6 else "60-70" if p < .7 else "70-80" if p < .8 else "80+"
         b = buckets.setdefault(key, [0, 0])
-        b[0] += fav_won
+        b[0] += (x > 0) == won
         b[1] += 1
     best["calibration"] = {k: {"won": v[0], "games": v[1]} for k, v in sorted(buckets.items())}
     best["games"] = len(rows)
+    del best["diffs"]
     return best

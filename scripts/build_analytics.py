@@ -10,7 +10,8 @@ worst = 0, then mixed with these weights:
   record 20%           win percentage
   points 20%           points per week
   all-play 20%         record if you played all 11 other teams every week (takes away schedule luck)
-  roster 25%           points per week of the team's 10 best players right now (catches trades/injuries)
+  roster 25%           usual weekly score of the 10 best healthy players + a tuned share of the next 5 (bench depth:
+                       in a lock-in league a bench player with an early game can be swapped in and locked)
   form 15%             points per week over the last 2 weeks
 Rankings are worked out after every finished week, so the arrows show the move since last week.
 (Lineup efficiency was left out: NBA lineups change daily, so weekly totals can't show a "best lineup".)
@@ -80,6 +81,14 @@ def main():
         info = all_players.get(str(pid)) or {}
         return (info.get("full_name") or f"{info.get('first_name', '')} {info.get('last_name', '')}").replace(" DUPLICATE", "").strip()
 
+    # the matchup model, tuned on every past matchup (analytics_model.py); its bench share is used for roster strength too
+    managers_file = load(ROOT / "data" / "managers.json")["managers"]
+    mlg = analytics_more.League(managers_file, matchups)
+    gm = analytics_model.GamesModel(mlg, all_players)
+    rows = analytics_model.backtest(gm, matchups, seasons)
+    tuned = analytics_model.tune(rows) if rows else None
+    bench_share = tuned["depth"] if tuned else 0.0
+
     games = [m for m in matchups if m["season"] == label]
     weeks = sorted({m["week"] for m in games})
     week_points, week_result = {}, {}     # (week, manager) -> points / "W" "L" "T", opponent
@@ -116,7 +125,9 @@ def main():
                 scores = [p for x, p in player_weeks.get(pid, {}).items() if x <= w and p]
                 if scores:
                     avg[pid] = sum(scores) / len(scores)
-            core = sorted(avg.items(), key=lambda kv: -kv[1])[:ROSTER_CORE]
+            ranked = sorted(avg.items(), key=lambda kv: -kv[1])
+            core = ranked[:ROSTER_CORE]
+            bench = ranked[ROSTER_CORE:ROSTER_CORE + analytics_model.BENCH]
             wins, losses, ties = res.count("W"), res.count("L"), res.count("T")
             n = len(res) or 1
             rows[mid] = {
@@ -126,7 +137,7 @@ def main():
                 "allplay_w": beat, "allplay_l": played_all - beat,
                 "allplay_pct": beat / (played_all or 1),
                 "form": sum(pts[-FORM_WEEKS:]) / (len(pts[-FORM_WEEKS:]) or 1),
-                "roster": sum(v for _, v in core),
+                "roster": sum(v for _, v in core) + bench_share * sum(max(0.0, v) for _, v in bench),
                 "top": [{"name": player_name(pid), "avg": round(v, 1)} for pid, v in core[:3]],
                 "weekly": pts,
                 "luck": (wins + ties / 2) - beat / (played_all or 1) * len(res),
@@ -217,11 +228,6 @@ def main():
     sd = analytics_odds.swing(matchups, prev) or analytics_odds.swing(matchups, label) or 55.0
 
     # model v2 (analytics_model.py): tuned on every past Das League matchup, injured players left out
-    managers_file = load(ROOT / "data" / "managers.json")["managers"]
-    mlg = analytics_more.League(managers_file, matchups)
-    gm = analytics_model.GamesModel(mlg, all_players)
-    rows = analytics_model.backtest(gm, matchups, seasons)
-    tuned = analytics_model.tune(rows) if rows else None
     team_ppw = lambda upto, mid: (lambda pts: sum(pts) / len(pts) if pts else None)(
         [week_points[(x, mid)] for x in weeks if x <= upto and (x, mid) in week_points])
 
@@ -233,13 +239,18 @@ def main():
         for mid in ids:
             roster = rosters.get(mid, ())
             if week is None:      # season-long level (playoff odds): best 10 healthy players, no schedule
-                ready = sorted((values.get(p, 0) for p in roster if p not in unavailable), reverse=True)
-                g = sum(max(0.0, v) for v in ready[:analytics_model.STARTERS_PER_DAY])
+                top, bench = gm.project_parts(label, None, roster, values, unavailable)
+                g = top + bench_share * bench
             else:
-                g = gm.project_week(label, week, roster, values, unavailable)
+                g = gm.project_week(label, week, roster, values, unavailable, depth=bench_share)
             ppw = team_ppw(upto, mid)
-            out[mid] = g if ppw is None else tuned["blend"] * g + (1 - tuned["blend"]) * ppw
-        return out
+            out[mid] = (g, ppw)
+        # the player-based number runs on a bigger scale than real weekly scores (bench depth adds on top); shift every
+        # team by the same amount so the average matches real scoring: who's favoured and by how much stay the same
+        gs = [g for g, _ in out.values()]
+        ps = [p for _, p in out.values() if p is not None]
+        shift = tuned["blend"] * (sum(gs) / len(gs) - sum(ps) / len(ps)) if ps else 0.0
+        return {mid: (g if p is None else tuned["blend"] * g + (1 - tuned["blend"]) * p - shift) for mid, (g, p) in out.items()}
 
     if tuned:
         sd = tuned["sd_diff"] / math.sqrt(2)
@@ -255,7 +266,7 @@ def main():
 
     if tuned:
         odds["model"] = {
-            "version": 2, "blend": tuned["blend"], "games": tuned["games"],
+            "version": 2, "blend": tuned["blend"], "bench_share": tuned["depth"], "games": tuned["games"],
             "right": tuned["right"], "picks": tuned["picks"], "old_right": tuned["old_right"], "old_picks": tuned["old_picks"],
             "calibration": tuned["calibration"],
         }

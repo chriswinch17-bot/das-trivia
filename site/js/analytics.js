@@ -10,7 +10,7 @@
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const SVG = "http://www.w3.org/2000/svg";
-  const PART_NAMES = { record: "Record", points: "Points per week", allplay: "All-play record", roster: "Roster strength (top 10 healthy players; Out / IR left out)", form: "Form (last 2 weeks)" };
+  const PART_NAMES = { record: "Record", points: "Points per week", allplay: "All-play record", roster: "Roster strength (10 best healthy players + bench depth; Out / IR left out)", form: "Form (last 2 weeks)" };
   // up to 3 highlighted teams; these three colours stay apart for colour-blind eyes too
   const HIGHLIGHT = ["#3987e5", "#d95926", "#199e70"];
   const ordinal = (n) => n + (n % 100 >= 11 && n % 100 <= 13 ? "th" : { 1: "st", 2: "nd", 3: "rd" }[n % 10] || "th");

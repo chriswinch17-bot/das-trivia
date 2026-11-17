@@ -23,7 +23,7 @@
    "allplay": "39-5",
    "ppw": 534.0,
    "form": 551.0,
-   "roster": 477.4,
+   "roster": 563.5,
    "luck": 0.5,
    "sos": 447.3,
    "weekly": [
@@ -57,9 +57,9 @@
    "take": "Still unbeaten at 4-0. Scoring 534 a week, the most in Das League.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 98.6,
-   "bye_pct": 81.6,
-   "title_pct": 36.9
+   "playoff_pct": 98.8,
+   "bye_pct": 82.5,
+   "title_pct": 37.6
   },
   {
    "rank": 2,
@@ -67,14 +67,14 @@
    "manager": "libguel",
    "name": "Libguel",
    "team": "Los Chigüires",
-   "score": 79.3,
+   "score": 78.0,
    "tier": "Contenders",
    "tier_icon": "🏆",
    "record": "3-1",
    "allplay": "37-7",
    "ppw": 514.5,
    "form": 506.9,
-   "roster": 433.5,
+   "roster": 498.9,
    "luck": -0.4,
    "sos": 454.9,
    "weekly": [
@@ -87,7 +87,7 @@
     "record": 75,
     "points": 87,
     "allplay": 94,
-    "roster": 73,
+    "roster": 67,
     "form": 66,
     "luck": 49
    },
@@ -108,9 +108,9 @@
    "take": "Would be 37-7 playing everyone every week, 2nd best in the league. Led by Jamal Murray at 62 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 91.5,
-   "bye_pct": 46.2,
-   "title_pct": 21.1
+   "playoff_pct": 91.8,
+   "bye_pct": 46.5,
+   "title_pct": 20.5
   },
   {
    "rank": 3,
@@ -118,14 +118,14 @@
    "manager": "shueiro",
    "name": "Shueiro",
    "team": "2057 Champs",
-   "score": 72.4,
+   "score": 71.3,
    "tier": "Contenders",
    "tier_icon": "🏆",
    "record": "2-2",
    "allplay": "31-13",
    "ppw": 490.8,
    "form": 522.3,
-   "roster": 454.1,
+   "roster": 526.1,
    "luck": -0.8,
    "sos": 487.8,
    "weekly": [
@@ -138,7 +138,7 @@
     "record": 50,
     "points": 72,
     "allplay": 75,
-    "roster": 86,
+    "roster": 81,
     "form": 78,
     "luck": 36
    },
@@ -159,9 +159,9 @@
    "take": "Toughest schedule so far: opponents average 488 a week. Would be 31-13 playing everyone every week, 3rd best in the league.",
    "fraud": false,
    "robbed": true,
-   "playoff_pct": 77.0,
-   "bye_pct": 19.9,
-   "title_pct": 9.9
+   "playoff_pct": 78.0,
+   "bye_pct": 20.6,
+   "title_pct": 10.1
   },
   {
    "rank": 4,
@@ -169,14 +169,14 @@
    "manager": "victor",
    "name": "Victor",
    "team": "I Love Dragić",
-   "score": 65.0,
+   "score": 64.3,
    "tier": "In the Mix",
    "tier_icon": "⚔️",
    "record": "3-1",
    "allplay": "24-20",
    "ppw": 469.0,
    "form": 477.4,
-   "roster": 453.8,
+   "roster": 529.5,
    "luck": 0.8,
    "sos": 430.3,
    "weekly": [
@@ -189,7 +189,7 @@
     "record": 75,
     "points": 57,
     "allplay": 53,
-    "roster": 85,
+    "roster": 83,
     "form": 44,
     "luck": 82
    },
@@ -210,75 +210,24 @@
    "take": "Would be 24-20 playing everyone every week, 4th best in the league. Led by Nikola Jokić at 73 a week.",
    "fraud": true,
    "robbed": false,
-   "playoff_pct": 77.1,
-   "bye_pct": 23.1,
-   "title_pct": 10.4
+   "playoff_pct": 75.8,
+   "bye_pct": 21.5,
+   "title_pct": 9.6
   },
   {
    "rank": 5,
-   "prev_rank": 5,
-   "manager": "ricky",
-   "name": "Ricky",
-   "team": "MoonUnit 🦬",
-   "score": 52.6,
-   "tier": "In the Mix",
-   "tier_icon": "⚔️",
-   "record": "3-1",
-   "allplay": "17-27",
-   "ppw": 432.8,
-   "form": 441.9,
-   "roster": 459.3,
-   "luck": 1.5,
-   "sos": 467.3,
-   "weekly": [
-    468.5,
-    378.6,
-    467.9,
-    416.0
-   ],
-   "parts": {
-    "record": 75,
-    "points": 33,
-    "allplay": 31,
-    "roster": 89,
-    "form": 16,
-    "luck": 100
-   },
-   "top_players": [
-    {
-     "name": "Cade Cunningham",
-     "avg": 74.2
-    },
-    {
-     "name": "Alperen Şengün",
-     "avg": 64.8
-    },
-    {
-     "name": "Davion Mitchell",
-     "avg": 47.5
-    }
-   ],
-   "take": "Luckiest team in the league: about 1.5 more wins than their scoring has earned. Would be 17-27 playing everyone every week, tied 8th best in the league.",
-   "fraud": true,
-   "robbed": false,
-   "playoff_pct": 43.3,
-   "bye_pct": 5.2,
-   "title_pct": 2.0
-  },
-  {
-   "rank": 6,
    "prev_rank": 9,
    "manager": "melo",
    "name": "Melo",
    "team": "LeBong James",
-   "score": 51.7,
+   "score": 52.7,
    "tier": "In the Mix",
    "tier_icon": "⚔️",
    "record": "0-4",
    "allplay": "23-21",
    "ppw": 469.8,
    "form": 479.3,
-   "roster": 466.9,
+   "roster": 559.0,
    "luck": -2.1,
    "sos": 476.8,
    "weekly": [
@@ -291,7 +240,7 @@
     "record": 0,
     "points": 58,
     "allplay": 50,
-    "roster": 94,
+    "roster": 98,
     "form": 45,
     "luck": 0
    },
@@ -312,24 +261,126 @@
    "take": "Still looking for win #1 at 0-4. Most robbed team in the league: 23-21 against everyone, but 0-4 for real.",
    "fraud": false,
    "robbed": true,
-   "playoff_pct": 47.8,
-   "bye_pct": 5.3,
-   "title_pct": 6.8
+   "playoff_pct": 54.1,
+   "bye_pct": 6.6,
+   "title_pct": 8.8
+  },
+  {
+   "rank": 6,
+   "prev_rank": 4,
+   "manager": "ricky",
+   "name": "Ricky",
+   "team": "MoonUnit 🦬",
+   "score": 50.7,
+   "tier": "In the Mix",
+   "tier_icon": "⚔️",
+   "record": "3-1",
+   "allplay": "17-27",
+   "ppw": 432.8,
+   "form": 441.9,
+   "roster": 526.6,
+   "luck": 1.5,
+   "sos": 467.3,
+   "weekly": [
+    468.5,
+    378.6,
+    467.9,
+    416.0
+   ],
+   "parts": {
+    "record": 75,
+    "points": 33,
+    "allplay": 31,
+    "roster": 81,
+    "form": 16,
+    "luck": 100
+   },
+   "top_players": [
+    {
+     "name": "Cade Cunningham",
+     "avg": 74.2
+    },
+    {
+     "name": "Alperen Şengün",
+     "avg": 64.8
+    },
+    {
+     "name": "Davion Mitchell",
+     "avg": 47.5
+    }
+   ],
+   "take": "Luckiest team in the league: about 1.5 more wins than their scoring has earned. Would be 17-27 playing everyone every week, tied 8th best in the league.",
+   "fraud": true,
+   "robbed": false,
+   "playoff_pct": 43.9,
+   "bye_pct": 5.2,
+   "title_pct": 2.1
   },
   {
    "rank": 7,
-   "prev_rank": 4,
+   "prev_rank": 10,
+   "manager": "winch",
+   "name": "Winch",
+   "team": "Equipo Winchenzo",
+   "score": 46.4,
+   "tier": "Fading",
+   "tier_icon": "🫠",
+   "record": "2-2",
+   "allplay": "16-28",
+   "ppw": 426.5,
+   "form": 468.9,
+   "roster": 518.6,
+   "luck": 0.5,
+   "sos": 452.1,
+   "weekly": [
+    373.0,
+    395.3,
+    433.7,
+    504.0
+   ],
+   "parts": {
+    "record": 50,
+    "points": 29,
+    "allplay": 28,
+    "roster": 77,
+    "form": 37,
+    "luck": 74
+   },
+   "top_players": [
+    {
+     "name": "Jayson Tatum",
+     "avg": 64.8
+    },
+    {
+     "name": "Devin Booker",
+     "avg": 47.5
+    },
+    {
+     "name": "LaMelo Ball",
+     "avg": 44.0
+    }
+   ],
+   "take": "Up 3 spots this week. Somebody woke up. Would be 16-28 playing everyone every week, 10th best in the league.",
+   "fraud": false,
+   "robbed": false,
+   "playoff_pct": 26.1,
+   "bye_pct": 2.0,
+   "title_pct": 1.6
+  },
+  {
+   "rank": 8,
+   "prev_rank": 5,
    "manager": "verdeja",
    "name": "Verdeja",
    "team": "Antetokounmpers",
-   "score": 47.6,
+   "score": 45.0,
    "tier": "Fading",
    "tier_icon": "🫠",
    "record": "2-2",
    "allplay": "21-23",
    "ppw": 443.2,
    "form": 466.7,
-   "roster": 415.5,
+   "roster": 467.1,
    "luck": 0.1,
    "sos": 431.4,
    "weekly": [
@@ -342,7 +393,7 @@
     "record": 50,
     "points": 40,
     "allplay": 44,
-    "roster": 62,
+    "roster": 51,
     "form": 35,
     "luck": 62
    },
@@ -363,126 +414,24 @@
    "take": "Down 3 spots this week. EquipoGPT is concerned. Would be 21-23 playing everyone every week, 7th best in the league.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 41.2,
-   "bye_pct": 4.4,
-   "title_pct": 3.2
-  },
-  {
-   "rank": 8,
-   "prev_rank": 7,
-   "manager": "papo",
-   "name": "Papo",
-   "team": "Fear the Brow",
-   "score": 45.5,
-   "tier": "Fading",
-   "tier_icon": "🫠",
-   "record": "2-2",
-   "allplay": "22-22",
-   "ppw": 455.8,
-   "form": 431.4,
-   "roster": 413.8,
-   "luck": 0.0,
-   "sos": 439.6,
-   "weekly": [
-    553.3,
-    407.0,
-    385.7,
-    477.0
-   ],
-   "parts": {
-    "record": 50,
-    "points": 49,
-    "allplay": 47,
-    "roster": 61,
-    "form": 8,
-    "luck": 59
-   },
-   "top_players": [
-    {
-     "name": "Tyrese Proctor",
-     "avg": 73.0
-    },
-    {
-     "name": "Anthony Davis",
-     "avg": 64.2
-    },
-    {
-     "name": "Joel Embiid",
-     "avg": 54.5
-    }
-   ],
-   "take": "Would be 22-22 playing everyone every week, 6th best in the league. Led by Tyrese Proctor at 73 a week.",
-   "fraud": false,
-   "robbed": false,
-   "playoff_pct": 53.9,
-   "bye_pct": 8.0,
-   "title_pct": 5.2
+   "playoff_pct": 34.5,
+   "bye_pct": 2.9,
+   "title_pct": 2.1
   },
   {
    "rank": 9,
-   "prev_rank": 10,
-   "manager": "winch",
-   "name": "Winch",
-   "team": "Equipo Winchenzo",
-   "score": 44.9,
-   "tier": "Fading",
-   "tier_icon": "🫠",
-   "record": "2-2",
-   "allplay": "16-28",
-   "ppw": 426.5,
-   "form": 468.9,
-   "roster": 431.2,
-   "luck": 0.5,
-   "sos": 452.1,
-   "weekly": [
-    373.0,
-    395.3,
-    433.7,
-    504.0
-   ],
-   "parts": {
-    "record": 50,
-    "points": 29,
-    "allplay": 28,
-    "roster": 71,
-    "form": 37,
-    "luck": 74
-   },
-   "top_players": [
-    {
-     "name": "Jayson Tatum",
-     "avg": 64.8
-    },
-    {
-     "name": "Devin Booker",
-     "avg": 47.5
-    },
-    {
-     "name": "LaMelo Ball",
-     "avg": 44.0
-    }
-   ],
-   "take": "Would be 16-28 playing everyone every week, 10th best in the league. Led by Jayson Tatum at 65 a week.",
-   "fraud": false,
-   "robbed": false,
-   "playoff_pct": 25.3,
-   "bye_pct": 1.9,
-   "title_pct": 1.5
-  },
-  {
-   "rank": 10,
-   "prev_rank": 8,
+   "prev_rank": 7,
    "manager": "blandon",
    "name": "Blandon",
    "team": "Rabbi BT69",
-   "score": 43.0,
+   "score": 42.9,
    "tier": "Fading",
    "tier_icon": "🫠",
    "record": "2-2",
    "allplay": "17-27",
    "ppw": 448.5,
    "form": 420.7,
-   "roster": 431.8,
+   "roster": 507.2,
    "luck": 0.5,
    "sos": 456.8,
    "weekly": [
@@ -516,63 +465,63 @@
    "take": "Would be 17-27 playing everyone every week, tied 8th best in the league. Led by Ty Jerome at 56 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 41.9,
-   "bye_pct": 4.6,
-   "title_pct": 3.0
+   "playoff_pct": 43.9,
+   "bye_pct": 5.0,
+   "title_pct": 3.3
   },
   {
-   "rank": 11,
-   "prev_rank": 12,
-   "manager": "chalela",
-   "name": "Chalela",
-   "team": "Lochte & Associates",
-   "score": 9.6,
-   "tier": "Tank Watch",
-   "tier_icon": "🗑️",
-   "record": "0-4",
-   "allplay": "7-37",
-   "ppw": 381.8,
-   "form": 422.9,
-   "roster": 376.1,
-   "luck": -0.6,
-   "sos": 448.6,
+   "rank": 10,
+   "prev_rank": 8,
+   "manager": "papo",
+   "name": "Papo",
+   "team": "Fear the Brow",
+   "score": 41.0,
+   "tier": "Fading",
+   "tier_icon": "🫠",
+   "record": "2-2",
+   "allplay": "22-22",
+   "ppw": 455.8,
+   "form": 431.4,
+   "roster": 450.2,
+   "luck": 0.0,
+   "sos": 439.6,
    "weekly": [
-    363.8,
-    317.5,
-    457.7,
-    388.0
+    553.3,
+    407.0,
+    385.7,
+    477.0
    ],
    "parts": {
-    "record": 0,
-    "points": 0,
-    "allplay": 0,
-    "roster": 37,
-    "form": 2,
-    "luck": 41
+    "record": 50,
+    "points": 49,
+    "allplay": 47,
+    "roster": 43,
+    "form": 8,
+    "luck": 59
    },
    "top_players": [
     {
-     "name": "Shai Gilgeous-Alexander",
-     "avg": 57.2
+     "name": "Tyrese Proctor",
+     "avg": 73.0
     },
     {
-     "name": "Jalen Brunson",
-     "avg": 53.8
+     "name": "Anthony Davis",
+     "avg": 64.2
     },
     {
-     "name": "Klay Thompson",
-     "avg": 48.5
+     "name": "Joel Embiid",
+     "avg": 54.5
     }
    ],
-   "take": "Still looking for win #1 at 0-4. 382 a week is the lowest scoring in the league. Yikes.",
+   "take": "Would be 22-22 playing everyone every week, 6th best in the league. Led by Tyrese Proctor at 73 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 1.4,
-   "bye_pct": 0.0,
-   "title_pct": 0.0
+   "playoff_pct": 51.8,
+   "bye_pct": 7.3,
+   "title_pct": 4.4
   },
   {
-   "rank": 12,
+   "rank": 11,
    "prev_rank": 11,
    "manager": "joey",
    "name": "Joey",
@@ -584,7 +533,7 @@
    "allplay": "10-34",
    "ppw": 394.2,
    "form": 420.9,
-   "roster": 315.3,
+   "roster": 365.5,
    "luck": 0.1,
    "sos": 467.7,
    "weekly": [
@@ -618,7 +567,58 @@
    "take": "Would be 10-34 playing everyone every week, 11th best in the league. Led by Saddiq Bey at 39 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 0.9,
+   "playoff_pct": 0.4,
+   "bye_pct": 0.0,
+   "title_pct": 0.0
+  },
+  {
+   "rank": 12,
+   "prev_rank": 12,
+   "manager": "chalela",
+   "name": "Chalela",
+   "team": "Lochte & Associates",
+   "score": 7.6,
+   "tier": "Tank Watch",
+   "tier_icon": "🗑️",
+   "record": "0-4",
+   "allplay": "7-37",
+   "ppw": 381.8,
+   "form": 422.9,
+   "roster": 423.3,
+   "luck": -0.6,
+   "sos": 448.6,
+   "weekly": [
+    363.8,
+    317.5,
+    457.7,
+    388.0
+   ],
+   "parts": {
+    "record": 0,
+    "points": 0,
+    "allplay": 0,
+    "roster": 29,
+    "form": 2,
+    "luck": 41
+   },
+   "top_players": [
+    {
+     "name": "Shai Gilgeous-Alexander",
+     "avg": 57.2
+    },
+    {
+     "name": "Jalen Brunson",
+     "avg": 53.8
+    },
+    {
+     "name": "Klay Thompson",
+     "avg": 48.5
+    }
+   ],
+   "take": "Still looking for win #1 at 0-4. 382 a week is the lowest scoring in the league. Yikes.",
+   "fraud": false,
+   "robbed": false,
+   "playoff_pct": 1.0,
    "bye_pct": 0.0,
    "title_pct": 0.0
   }
@@ -24784,7 +24784,7 @@
      2027,
      2028
     ],
-    "power_rank": 12,
+    "power_rank": 11,
     "rank": 1
    },
    {
@@ -25015,7 +25015,7 @@
     ],
     "capital": 32,
     "own_firsts_gone": [],
-    "power_rank": 5,
+    "power_rank": 6,
     "rank": 4
    },
    {
@@ -25162,7 +25162,7 @@
      2027,
      2028
     ],
-    "power_rank": 7,
+    "power_rank": 8,
     "rank": 6
    },
    {
@@ -25237,7 +25237,7 @@
      2027,
      2028
     ],
-    "power_rank": 11,
+    "power_rank": 12,
     "rank": 7
    },
    {
@@ -25301,7 +25301,7 @@
      2027,
      2029
     ],
-    "power_rank": 10,
+    "power_rank": 9,
     "rank": 8
    },
    {
@@ -25361,7 +25361,7 @@
      2028,
      2029
     ],
-    "power_rank": 9,
+    "power_rank": 7,
     "rank": 9
    },
    {
@@ -25405,7 +25405,7 @@
      2027,
      2028
     ],
-    "power_rank": 6,
+    "power_rank": 5,
     "rank": 10
    },
    {
@@ -25474,7 +25474,7 @@
      2028,
      2029
     ],
-    "power_rank": 8,
+    "power_rank": 10,
     "rank": 12
    }
   ],
@@ -25485,7 +25485,7 @@
   "traded": 52
  },
  "odds": {
-  "sd": 61.2,
+  "sd": 61.3,
   "weeks": [
    {
     "week": 5,
@@ -25499,13 +25499,13 @@
       "a_team": "Fidel’s Accumulators",
       "b_team": "2057 Champs",
       "a_proj": 373,
-      "b_proj": 469,
-      "a_prob": 13.4,
-      "a_ml": "+535",
-      "b_ml": "-795",
+      "b_proj": 479,
+      "a_prob": 11.3,
+      "a_ml": "+640",
+      "b_ml": "-1010",
       "favorite": "shueiro",
-      "spread": 95.5,
-      "total": 842.5,
+      "spread": 105.5,
+      "total": 851.5,
       "a_live": 383.0,
       "b_live": 285.0
      },
@@ -25516,14 +25516,14 @@
       "b_name": "Victor",
       "a_team": "Los Chigüires",
       "b_team": "I Love Dragić",
-      "a_proj": 489,
-      "b_proj": 468,
-      "a_prob": 59.8,
-      "a_ml": "-165",
-      "b_ml": "+135",
+      "a_proj": 499,
+      "b_proj": 476,
+      "a_prob": 60.6,
+      "a_ml": "-170",
+      "b_ml": "+140",
       "favorite": "libguel",
-      "spread": 21.5,
-      "total": 957.5,
+      "spread": 23.5,
+      "total": 974.5,
       "a_live": 209.0,
       "b_live": 192.0
      },
@@ -25534,14 +25534,14 @@
       "b_name": "Melo",
       "a_team": "Equipo Winchenzo",
       "b_team": "LeBong James",
-      "a_proj": 426,
-      "b_proj": 471,
-      "a_prob": 30.3,
-      "a_ml": "+205",
-      "b_ml": "-255",
+      "a_proj": 437,
+      "b_proj": 486,
+      "a_prob": 28.4,
+      "a_ml": "+225",
+      "b_ml": "-285",
       "favorite": "melo",
-      "spread": 44.5,
-      "total": 896.5,
+      "spread": 49.5,
+      "total": 922.5,
       "a_live": 236.0,
       "b_live": 234.0
      },
@@ -25552,14 +25552,14 @@
       "b_name": "Verdeja",
       "a_team": "Fear the Brow",
       "b_team": "Antetokounmpers",
-      "a_proj": 456,
-      "b_proj": 442,
-      "a_prob": 56.0,
-      "a_ml": "-140",
-      "b_ml": "+115",
+      "a_proj": 463,
+      "b_proj": 445,
+      "a_prob": 58.5,
+      "a_ml": "-155",
+      "b_ml": "+130",
       "favorite": "papo",
-      "spread": 13.5,
-      "total": 898.5,
+      "spread": 18.5,
+      "total": 907.5,
       "a_live": 279.0,
       "b_live": 170.0
      },
@@ -25570,14 +25570,14 @@
       "b_name": "Ricky",
       "a_team": "hotrelish",
       "b_team": "MoonUnit 🦬",
-      "a_proj": 512,
-      "b_proj": 431,
-      "a_prob": 82.4,
-      "a_ml": "-550",
-      "b_ml": "+405",
+      "a_proj": 523,
+      "b_proj": 441,
+      "a_prob": 82.8,
+      "a_ml": "-570",
+      "b_ml": "+415",
       "favorite": "jacobo",
-      "spread": 80.5,
-      "total": 942.5,
+      "spread": 82.5,
+      "total": 963.5,
       "a_live": 175.0,
       "b_live": 269.0
      },
@@ -25588,14 +25588,14 @@
       "b_name": "Blandon",
       "a_team": "Lochte & Associates",
       "b_team": "Rabbi BT69",
-      "a_proj": 389,
-      "b_proj": 438,
-      "a_prob": 28.4,
-      "a_ml": "+225",
-      "b_ml": "-280",
+      "a_proj": 392,
+      "b_proj": 448,
+      "a_prob": 26.3,
+      "a_ml": "+250",
+      "b_ml": "-315",
       "favorite": "blandon",
-      "spread": 49.5,
-      "total": 826.5,
+      "spread": 55.5,
+      "total": 840.5,
       "a_live": 123.0,
       "b_live": 152.0
      }
@@ -25613,13 +25613,13 @@
       "a_team": "Fidel’s Accumulators",
       "b_team": "Los Chigüires",
       "a_proj": 373,
-      "b_proj": 489,
-      "a_prob": 9.0,
-      "a_ml": "+790",
-      "b_ml": "-1385",
+      "b_proj": 499,
+      "a_prob": 7.4,
+      "a_ml": "+940",
+      "b_ml": "-1850",
       "favorite": "libguel",
-      "spread": 116.5,
-      "total": 862.5,
+      "spread": 125.5,
+      "total": 872.5,
       "a_live": null,
       "b_live": null
      },
@@ -25630,14 +25630,14 @@
       "b_name": "Blandon",
       "a_team": "Equipo Winchenzo",
       "b_team": "Rabbi BT69",
-      "a_proj": 426,
-      "b_proj": 438,
-      "a_prob": 44.4,
-      "a_ml": "+115",
+      "a_proj": 437,
+      "b_proj": 448,
+      "a_prob": 44.9,
+      "a_ml": "+110",
       "b_ml": "-135",
       "favorite": "blandon",
-      "spread": 12.5,
-      "total": 864.5,
+      "spread": 11.5,
+      "total": 884.5,
       "a_live": null,
       "b_live": null
      },
@@ -25648,14 +25648,14 @@
       "b_name": "Papo",
       "a_team": "I Love Dragić",
       "b_team": "Fear the Brow",
-      "a_proj": 468,
-      "b_proj": 456,
-      "a_prob": 55.7,
+      "a_proj": 476,
+      "b_proj": 463,
+      "a_prob": 55.8,
       "a_ml": "-140",
       "b_ml": "+115",
       "favorite": "victor",
       "spread": 12.5,
-      "total": 923.5,
+      "total": 938.5,
       "a_live": null,
       "b_live": null
      },
@@ -25666,14 +25666,14 @@
       "b_name": "Chalela",
       "a_team": "2057 Champs",
       "b_team": "Lochte & Associates",
-      "a_proj": 469,
-      "b_proj": 389,
-      "a_prob": 82.3,
-      "a_ml": "-545",
-      "b_ml": "+400",
+      "a_proj": 479,
+      "b_proj": 392,
+      "a_prob": 84.0,
+      "a_ml": "-625",
+      "b_ml": "+445",
       "favorite": "shueiro",
-      "spread": 80.5,
-      "total": 857.5,
+      "spread": 86.5,
+      "total": 870.5,
       "a_live": null,
       "b_live": null
      },
@@ -25684,14 +25684,14 @@
       "b_name": "Jacobo",
       "a_team": "LeBong James",
       "b_team": "hotrelish",
-      "a_proj": 471,
-      "b_proj": 512,
-      "a_prob": 31.7,
-      "a_ml": "+195",
-      "b_ml": "-240",
+      "a_proj": 486,
+      "b_proj": 523,
+      "a_prob": 33.6,
+      "a_ml": "+180",
+      "b_ml": "-220",
       "favorite": "jacobo",
-      "spread": 41.5,
-      "total": 982.5,
+      "spread": 36.5,
+      "total": 1008.5,
       "a_live": null,
       "b_live": null
      },
@@ -25702,14 +25702,14 @@
       "b_name": "Ricky",
       "a_team": "Antetokounmpers",
       "b_team": "MoonUnit 🦬",
-      "a_proj": 442,
-      "b_proj": 431,
-      "a_prob": 55.2,
-      "a_ml": "-135",
-      "b_ml": "+110",
+      "a_proj": 445,
+      "b_proj": 441,
+      "a_prob": 51.8,
+      "a_ml": "-120",
+      "b_ml": "-100",
       "favorite": "verdeja",
-      "spread": 11.5,
-      "total": 873.5,
+      "spread": 3.5,
+      "total": 885.5,
       "a_live": null,
       "b_live": null
      }
@@ -25733,8 +25733,8 @@
    "12": "blandon"
   },
   "record": {
-   "right": 11,
-   "wrong": 7
+   "right": 9,
+   "wrong": 9
   },
   "upsets": [
    {
@@ -25742,7 +25742,7 @@
     "favorite": "papo",
     "underdog": "joey",
     "won": false,
-    "prob": 90,
+    "prob": 92,
     "favorite_name": "Papo",
     "underdog_name": "Joey"
    },
@@ -25751,7 +25751,7 @@
     "favorite": "verdeja",
     "underdog": "winch",
     "won": false,
-    "prob": 87,
+    "prob": 86,
     "favorite_name": "Verdeja",
     "underdog_name": "Winch"
    },
@@ -25760,7 +25760,7 @@
     "favorite": "libguel",
     "underdog": "shueiro",
     "won": false,
-    "prob": 77,
+    "prob": 78,
     "favorite_name": "Libguel",
     "underdog_name": "Shueiro"
    }
@@ -25768,27 +25768,28 @@
   "model": {
    "version": 2,
    "blend": 0.3,
+   "bench_share": 0.6,
    "games": 329,
-   "right": 223,
+   "right": 221,
    "picks": 329,
    "old_right": 221,
    "old_picks": 328,
    "calibration": {
     "50-60": {
-     "won": 55,
-     "games": 94
+     "won": 51,
+     "games": 90
     },
     "60-70": {
-     "won": 67,
+     "won": 65,
      "games": 99
     },
     "70-80": {
      "won": 49,
-     "games": 76
+     "games": 75
     },
     "80+": {
-     "won": 52,
-     "games": 60
+     "won": 56,
+     "games": 65
     }
    }
   },
@@ -25866,84 +25867,84 @@
    "jacobo": {
     "rank": 1,
     "record": "4-0",
-    "playoff": 98.6,
+    "playoff": 98.8,
     "fraud": false,
     "robbed": false
    },
    "libguel": {
     "rank": 2,
     "record": "3-1",
-    "playoff": 91.5,
+    "playoff": 91.8,
     "fraud": false,
     "robbed": false
    },
    "shueiro": {
     "rank": 3,
     "record": "2-2",
-    "playoff": 77.0,
+    "playoff": 78.0,
     "fraud": false,
     "robbed": true
    },
    "victor": {
     "rank": 4,
     "record": "3-1",
-    "playoff": 77.1,
-    "fraud": true,
-    "robbed": false
-   },
-   "ricky": {
-    "rank": 5,
-    "record": "3-1",
-    "playoff": 43.3,
+    "playoff": 75.8,
     "fraud": true,
     "robbed": false
    },
    "melo": {
-    "rank": 6,
+    "rank": 5,
     "record": "0-4",
-    "playoff": 47.8,
+    "playoff": 54.1,
     "fraud": false,
     "robbed": true
    },
-   "verdeja": {
-    "rank": 7,
-    "record": "2-2",
-    "playoff": 41.2,
-    "fraud": false,
-    "robbed": false
-   },
-   "papo": {
-    "rank": 8,
-    "record": "2-2",
-    "playoff": 53.9,
-    "fraud": false,
+   "ricky": {
+    "rank": 6,
+    "record": "3-1",
+    "playoff": 43.9,
+    "fraud": true,
     "robbed": false
    },
    "winch": {
-    "rank": 9,
+    "rank": 7,
     "record": "2-2",
-    "playoff": 25.3,
+    "playoff": 26.1,
+    "fraud": false,
+    "robbed": false
+   },
+   "verdeja": {
+    "rank": 8,
+    "record": "2-2",
+    "playoff": 34.5,
     "fraud": false,
     "robbed": false
    },
    "blandon": {
-    "rank": 10,
+    "rank": 9,
     "record": "2-2",
-    "playoff": 41.9,
+    "playoff": 43.9,
     "fraud": false,
     "robbed": false
    },
-   "chalela": {
-    "rank": 11,
-    "record": "0-4",
-    "playoff": 1.4,
+   "papo": {
+    "rank": 10,
+    "record": "2-2",
+    "playoff": 51.8,
     "fraud": false,
     "robbed": false
    },
    "joey": {
-    "rank": 12,
+    "rank": 11,
     "record": "1-3",
-    "playoff": 0.9,
+    "playoff": 0.4,
+    "fraud": false,
+    "robbed": false
+   },
+   "chalela": {
+    "rank": 12,
+    "record": "0-4",
+    "playoff": 1.0,
     "fraud": false,
     "robbed": false
    }
@@ -26657,29 +26658,29 @@
    "item": "shueiro"
   },
   {
-   "text": "Victor up 5 to #4 in the power rankings, playoff odds +39% to 77%.",
+   "text": "Victor up 5 to #4 in the power rankings, playoff odds +38% to 76%.",
    "tab": "power",
    "item": "victor"
   },
   {
-   "text": "Winch down 5 to #9 in the power rankings, playoff odds −51% to 25%.",
+   "text": "Winch down 3 to #7 in the power rankings, playoff odds −50% to 26%.",
    "tab": "power",
    "item": "winch"
   },
   {
-   "text": "Trade Melo ↔ Verdeja just got graded: Verdeja gets the B.",
-   "tab": "trades",
-   "item": "1401678781776715776"
+   "text": "Melo up 2 to #5 in the power rankings, playoff odds +18% to 54%.",
+   "tab": "power",
+   "item": "melo"
   },
   {
-   "text": "Trade Papo ↔ Jacobo just got graded: Papo gets the A-.",
-   "tab": "trades",
-   "item": "1378480138223628288"
+   "text": "Verdeja down 2 to #8 in the power rankings, playoff odds −13% to 34%.",
+   "tab": "power",
+   "item": "verdeja"
   },
   {
-   "text": "Trade Joey ↔ Papo just got graded: Joey gets the A-.",
-   "tab": "trades",
-   "item": "1374157530204209152"
+   "text": "Blandon up 2 to #9 in the power rankings, playoff odds +30% to 44%.",
+   "tab": "power",
+   "item": "blandon"
   }
  ]
 }
