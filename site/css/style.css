@@ -857,3 +857,7 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .fw-row b { display: block; color: var(--text); font-size: 14px; }
 .fw-row:hover b { text-decoration: underline; }
 .fw-none { margin: 0; font-size: 13px; color: #d5dbea; }
+.pr-odds { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 11px; color: var(--muted); margin-top: 1px; }
+.pr-odds b { color: #d5dbea; font-weight: 800; }
+.po-pill { color: #d5dbea; }
+.po-pill.in b { color: var(--green); }

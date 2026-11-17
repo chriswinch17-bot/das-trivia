@@ -93,6 +93,7 @@ def build_odds(ctx):
     # Sleeper's own "current week" (league.json leg); finished weeks may not be scored yet
     current = max(ctx.get("leg") or 0, (weeks[-1] + 1) if weeks else 1)
     proj = project(weeks[-1], ctx["roster_now"]) if weeks else None
+    out_proj = proj
     for w in (current, current + 1):
         if w > ctx["regular_last"] or w not in ctx["schedule"] or not proj:
             continue
@@ -117,6 +118,7 @@ def build_odds(ctx):
             history.append({"week": w, "favorite": fav, "underdog": dog, "won": won == "W",
                             "prob": round(phi(abs(p[a] - p[b]) / (sd * math.sqrt(2))) * 100)})
     out["record"] = {"right": right, "wrong": wrong}
+    out["proj"] = out_proj
     upsets = sorted((h for h in history if not h["won"]), key=lambda h: -h["prob"])[:3]
     out["upsets"] = [{**u, "favorite_name": ctx["names"][u["favorite"]], "underdog_name": ctx["names"][u["underdog"]]} for u in upsets]
     return out
@@ -151,3 +153,50 @@ def build_ledger(traded_picks, roster_manager, ids, names, teams, years, rounds,
     return {"years": years, "rounds": rounds, "teams": teams_out,
             "headlines": {"hoarder": most["manager"], "sold": fewest["manager"]},
             "traded": sum(1 for (y, r, orig), o in owner.items() if o != orig)}
+
+
+SIMS = 10000
+
+
+def playoff_odds(proj, sd, standings, schedule, first_week, regular_last, playoff_teams, seed, weeks_played=0):
+    """Play out the rest of the regular season and the playoffs SIMS times with the same projections.
+    standings: {manager: [wins, losses, ties, points_for]} from finished weeks. Tiebreak = points for
+    (Sleeper's default). Bracket (6 teams): 3 v 6 and 4 v 5, then 1 plays the 4/5 winner and 2 the 3/6 winner."""
+    import random
+    rnd = random.Random(seed)
+    ids = list(standings)
+    made = {m: 0 for m in ids}
+    bye = {m: 0 for m in ids}
+    title = {m: 0 for m in ids}
+    games = [(w, a, b) for w in range(first_week, regular_last + 1) for a, b in schedule.get(w, [])]
+    gauss = rnd.gauss
+    # nobody knows exactly how good a team really is, least of all early in the season: each simulated
+    # season first draws every team's "true" level around its projection, then plays the weeks
+    strength_sd = 40 / math.sqrt(1 + weeks_played / 5)
+    for _ in range(SIMS):
+        level = {m: proj[m] + gauss(0, strength_sd) for m in ids}
+        rec = {m: list(standings[m]) for m in ids}
+        for _w, a, b in games:
+            pa, pb = gauss(level[a], sd), gauss(level[b], sd)
+            rec[a][3] += pa
+            rec[b][3] += pb
+            if pa > pb:
+                rec[a][0] += 1
+                rec[b][1] += 1
+            else:
+                rec[b][0] += 1
+                rec[a][1] += 1
+        order = sorted(ids, key=lambda m: (-(rec[m][0] + rec[m][2] / 2), -rec[m][3]))
+        seeds = order[:playoff_teams]
+        for m in seeds:
+            made[m] += 1
+        if playoff_teams == 6:
+            bye[seeds[0]] += 1
+            bye[seeds[1]] += 1
+
+            def play(a, b):
+                return a if gauss(level[a], sd) > gauss(level[b], sd) else b
+            w36, w45 = play(seeds[2], seeds[5]), play(seeds[3], seeds[4])
+            title[play(play(seeds[0], w45), play(seeds[1], w36))] += 1
+    pct = lambda d: {m: round(d[m] / SIMS * 100, 1) for m in ids}
+    return {"playoffs": pct(made), "bye": pct(bye), "title": pct(title) if playoff_teams == 6 else None}

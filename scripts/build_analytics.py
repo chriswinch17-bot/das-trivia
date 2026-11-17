@@ -213,6 +213,21 @@ def main():
         "leg": league["settings"].get("leg"),
     })
 
+    # --- playoff odds: play out the rest of the season 10,000 times with the odds model ---
+    proj = odds.pop("proj", None)
+    if proj and rankings:
+        stand = {k: [0, 0, 0, 0.0] for k in ids}
+        for (w, mid), (res, _) in week_result.items():
+            stand[mid][{"W": 0, "L": 1, "T": 2}[res]] += 1
+            stand[mid][3] += week_points[(w, mid)]
+        po = analytics_odds.playoff_odds(proj, sd, stand, schedule, weeks[-1] + 1,
+                                         (league["settings"].get("playoff_week_start") or 99) - 1,
+                                         current["playoff_teams"], seed=f"{label}-{weeks[-1]}", weeks_played=len(weeks))
+        for r in rankings:
+            r["playoff_pct"] = po["playoffs"][r["manager"]]
+            r["bye_pct"] = po["bye"][r["manager"]]
+            r["title_pct"] = po["title"][r["manager"]] if po["title"] else None
+
     names_by_season = {(se["season"], t["manager"]): t["team_name"] for se in seasons for t in se["standings"]}
     trades, traders, profiles, rivalries = analytics_more.build(
         load(ROOT / "data" / "managers.json")["managers"], seasons, matchups, load(SITE / "trades.json"), history,

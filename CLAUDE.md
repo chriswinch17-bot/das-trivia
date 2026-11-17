@@ -163,6 +163,9 @@ The owner has essentially no coding or web development experience.
   Each team gets an EquipoGPT "take" built from true superlatives (`write_takes`). Tap a card: radar + stats.
   **Fraud Watch** (owner, 2026-11-16; no "robbed" stamp): from week 3, a team with luck >= 0.75 wins (real wins minus
   all-play wins) gets a red tilted "FRAUD" stamp on its card and a line in the Fraud Watch strip above the rankings.
+  **Playoff odds** on every card (`playoff_odds` in analytics_odds.py): 10,000 simulated seasons with the Matchup Odds
+  projections, each team's true level drawn with uncertainty 40/sqrt(1 + weeks/5); top 6 in, top 2 bye, ties by points
+  for; bracket 3v6, 4v5, then 1 v 4/5 winner, 2 v 3/6 winner. Seeded by season and week, so a rebuild gives the same numbers.
   Below: "Season by Season" chart (finish / win % / points per week per season, up to 3 teams highlighted in
   colour-blind-safe colours, the rest grey, table view). `python scripts/build_analytics.py` writes
   `site/data/analytics.json` (also in the nightly job). The live season uses finished weeks only (Sleeper's

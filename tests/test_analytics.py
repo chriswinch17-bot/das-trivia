@@ -42,6 +42,16 @@ class PowerRankings(unittest.TestCase):
         for r in A["rankings"]:
             self.assertEqual(r["fraud"], A["through_week"] >= 3 and r["luck"] >= 0.75, r["manager"])
 
+    def test_playoff_odds_add_up(self):
+        if not A["rankings"] or A["rankings"][0].get("playoff_pct") is None:
+            self.skipTest("no playoff odds yet")
+        n = next(s for s in SEASONS if s["season"] == A["season"])["playoff_teams"]
+        self.assertAlmostEqual(sum(r["playoff_pct"] for r in A["rankings"]), n * 100, delta=1)
+        self.assertAlmostEqual(sum(r["title_pct"] for r in A["rankings"]), 100, delta=1)
+        for r in A["rankings"]:
+            self.assertLessEqual(r["title_pct"], r["playoff_pct"] + 0.1)
+            self.assertLessEqual(r["bye_pct"], r["playoff_pct"] + 0.1)
+
     def test_every_team_has_a_take(self):
         for r in A["rankings"]:
             self.assertTrue(r["take"].strip(), r["manager"])

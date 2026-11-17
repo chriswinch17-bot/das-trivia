@@ -64,6 +64,7 @@
     return `<span class="mv same" aria-label="No change">–</span>`;
   }
 
+  const pctText = (p) => (p >= 99.5 ? ">99%" : p > 0 && p < 1 ? "<1%" : `${Math.round(p)}%`);
   function renderRankings() {
     const list = $("pr-list");
     $("pr-empty").hidden = data.rankings.length > 0;
@@ -79,6 +80,8 @@
             <span class="pr-name">${esc(t.team)} <span class="pr-mgr">(${esc(t.name)})</span></span>
             <span class="pr-meta">${move(t)}<span class="tier">${t.tier_icon} ${esc(t.tier)}</span><span>${esc(t.record)}</span></span>
             <span class="pr-bar"><span style="width:${Math.max(2, t.score)}%"></span></span>
+            ${t.playoff_pct != null ? `<span class="pr-odds"><span class="po-pill${t.playoff_pct >= 50 ? " in" : ""}">🎟️ Playoffs <b>${pctText(t.playoff_pct)}</b></span>` +
+              `<span>Bye <b>${pctText(t.bye_pct)}</b></span>${t.title_pct != null ? `<span>🏆 Title <b>${pctText(t.title_pct)}</b></span>` : ""}</span>` : ""}
           </span>
           <span class="pr-right"><b>${Math.round(t.score)}</b>${sparkline(t.weekly)}</span>
         </button>
