@@ -1,0 +1,107 @@
+{
+ "_note": "Sleeper's official season totals per team after each finished week (written by build_data.py; do not edit). Weekly scores are worked out from the differences. See scripts/official_scores.py.",
+ "seasons": {
+  "2026-2027": {
+   "3": {
+    "joey": [
+     1225.0,
+     1405.0
+    ],
+    "libguel": [
+     1518.0,
+     1400.0
+    ],
+    "winch": [
+     1202.0,
+     1288.0
+    ],
+    "victor": [
+     1346.0,
+     1188.0
+    ],
+    "shueiro": [
+     1483.0,
+     1406.0
+    ],
+    "papo": [
+     1346.0,
+     1457.0
+    ],
+    "melo": [
+     1355.0,
+     1517.0
+    ],
+    "verdeja": [
+     1337.0,
+     1184.0
+    ],
+    "jacobo": [
+     1564.0,
+     1148.0
+    ],
+    "chalela": [
+     1139.0,
+     1364.0
+    ],
+    "ricky": [
+     1315.0,
+     1348.0
+    ],
+    "blandon": [
+     1334.0,
+     1459.0
+    ]
+   },
+   "4": {
+    "joey": [
+     1577.0,
+     1821.0
+    ],
+    "libguel": [
+     2058.0,
+     1904.0
+    ],
+    "winch": [
+     1706.0,
+     1828.0
+    ],
+    "victor": [
+     1876.0,
+     1712.0
+    ],
+    "shueiro": [
+     1963.0,
+     1978.0
+    ],
+    "papo": [
+     1823.0,
+     1845.0
+    ],
+    "melo": [
+     1879.0,
+     2047.0
+    ],
+    "verdeja": [
+     1773.0,
+     1644.0
+    ],
+    "jacobo": [
+     2136.0,
+     1628.0
+    ],
+    "chalela": [
+     1527.0,
+     1841.0
+    ],
+    "ricky": [
+     1731.0,
+     1700.0
+    ],
+    "blandon": [
+     1794.0,
+     1895.0
+    ]
+   }
+  }
+ }
+}

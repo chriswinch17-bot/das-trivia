@@ -209,7 +209,12 @@ The owner has essentially no coding or web development experience.
   WARNING: re-fetching OLD seasons from Sleeper (without --current-only) returned different weekly points than the
   originals on 2026-11-16 and broke build_data; the original files were restored. Only refetch the current season.
   The original past-season files match Sleeper's official season points exactly. This season's finished-week scores
-  from the matchups API kept changing between fetches on 2026-11-16 (winners unchanged): asked the owner about it.
+  from the matchups API kept changing between fetches on 2026-11-16 (winners unchanged). FIX (owner chose option 1):
+  `scripts/official_scores.py` + `data/official_scores.json` (written by build_data, never edit): Sleeper's official
+  points for/against per team after each finished week; a week's score = difference (exact). 2026-27 weeks 1-3 are
+  ESTIMATED (`"estimated": true` in matchups.json): Sleeper's numbers adjusted as little as possible so every team's
+  PF and PA match the official totals; shown with ≈, never used for blowout/closest or score questions.
+  If the nightly job misses a finished week, those weeks become estimated the same way.
   Roster strength (power rankings, this week) leaves out Out/IR/IR-slot players. Trades, drafts and waiver pickups
   count only weeks in the starting lineup (owner, 2026-11-16).
   **What changed since yesterday** banner (`scripts/analytics_changes.py`): every build stores a small `snapshot`; the first

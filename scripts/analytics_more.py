@@ -382,7 +382,9 @@ def build_rivalries(matchups, seasons, managers):
         p = pair(m["winner"], m["loser"])
         pts = {m["winner"]: m["winner_points"], m["loser"]: m["loser_points"]}
         p["games"].append({"season": m["season"], "week": m["week"], "a_pts": pts[p["a"]], "b_pts": pts[p["b"]],
-                           "winner": None if m["tie"] else m["winner"], "flagged": m["result_differs_from_score"]})
+                           "winner": None if m["tie"] else m["winner"],
+                           "flagged": m["result_differs_from_score"] or bool(m.get("estimated")),
+                           "estimated": bool(m.get("estimated"))})
     for s in seasons:
         for g in s.get("playoffs") or []:
             if not g.get("winner") or not g.get("loser"):

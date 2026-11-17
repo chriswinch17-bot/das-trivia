@@ -62,6 +62,26 @@ class PowerRankings(unittest.TestCase):
 TRADES = json.loads((SITE / "trades.json").read_text(encoding="utf-8"))
 
 
+class OfficialScores(unittest.TestCase):
+    def test_current_season_adds_up_to_sleepers_official_totals(self):
+        ledger = json.loads((SITE.parent.parent / "data" / "official_scores.json").read_text(encoding="utf-8"))["seasons"]
+        season = A["season"]
+        if season not in ledger:
+            self.skipTest("no official snapshots for this season yet")
+        last = max(int(k) for k in ledger[season])
+        pf, pa = {}, {}
+        for m in MATCHUPS:
+            if m["season"] != season or m["week"] > last:
+                continue
+            for me, them, p, q in ((m["winner"], m["loser"], m["winner_points"], m["loser_points"]),
+                                   (m["loser"], m["winner"], m["loser_points"], m["winner_points"])):
+                pf[me] = pf.get(me, 0) + p
+                pa[me] = pa.get(me, 0) + q
+        for mid, (opf, opa) in ledger[season][str(last)].items():
+            self.assertAlmostEqual(pf[mid], opf, delta=0.5, msg=mid)
+            self.assertAlmostEqual(pa[mid], opa, delta=0.5, msg=mid)
+
+
 class WhatChanged(unittest.TestCase):
     def test_changes_point_at_real_items(self):
         ids = {m["manager"] for m in A["managers"]} | {t["id"] for t in A["trades"]}

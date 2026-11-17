@@ -21,6 +21,9 @@ RAW = ROOT / "data" / "raw" / "sleeper"
 OUT = ROOT / "site" / "data"
 
 
+import official_scores
+
+
 def load(path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
@@ -175,6 +178,27 @@ def main():
 
         # --- regular-season matchups ---
         last_week = start - 1 if finished else min(start - 1, settings.get("last_scored_leg") or 0)
+        # season in progress: Sleeper's per-week scores drift in this lock-in league, so the scores come from its
+        # official season totals (see scripts/official_scores.py); finished seasons keep their original files
+        official_pts = {}
+        if not finished and last_week:
+            ledger = official_scores.load_ledger()
+            totals = {}
+            for roster in load(folder / "rosters.json"):
+                st = roster["settings"]
+                totals[roster_manager[roster["roster_id"]]] = (st.get("fpts", 0) + st.get("fpts_decimal", 0) / 100,
+                                                               st.get("fpts_against", 0) + st.get("fpts_against_decimal", 0) / 100)
+            if official_scores.record_snapshot(ledger, label, last_week, totals):
+                official_scores.save_ledger(ledger)
+            api, pairs = {}, {}
+            for week in range(1, last_week + 1):
+                by_id = {}
+                for entry in week_points.get(week, []):
+                    api[(week, roster_manager[entry["roster_id"]])] = entry["points"] or 0
+                    if entry.get("matchup_id") is not None:
+                        by_id.setdefault(entry["matchup_id"], []).append(roster_manager[entry["roster_id"]])
+                pairs[week] = [tuple(v) for v in by_id.values() if len(v) == 2]
+            official_pts = official_scores.official_weeks(ledger, label, api, pairs)
         for week in range(1, last_week + 1):
             games = {}
             for entry in week_points.get(week, []):
@@ -183,6 +207,10 @@ def main():
             for pair in games.values():
                 if len(pair) != 2:
                     fail(f"{label} week {week}: a matchup doesn't have exactly two teams")
+                for e in pair:
+                    got = official_pts.get((week, roster_manager[e["roster_id"]]))
+                    if got:
+                        e.update(points=got[0], estimated=got[1])
                 a, b = sorted(pair, key=lambda e: -(e["points"] or 0))
                 # Sleeper's official week-by-week result (W/L/T) decides the winner. It can
                 # disagree with the points shown when NBA stats were corrected after the week closed.
@@ -201,6 +229,7 @@ def main():
                     "loser": roster_manager[b["roster_id"]], "loser_points": b["points"],
                     "tie": res_a == "T",
                     "result_differs_from_score": differs,
+                    **({"estimated": True} if a.get("estimated") or b.get("estimated") else {}),
                 })
 
         # --- drafts ---

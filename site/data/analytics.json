@@ -20,17 +20,17 @@
    "tier": "Contenders",
    "tier_icon": "🏆",
    "record": "4-0",
-   "allplay": "37-7",
-   "ppw": 476.0,
-   "form": 486.5,
+   "allplay": "39-5",
+   "ppw": 534.0,
+   "form": 551.0,
    "roster": 477.4,
-   "luck": 0.6,
-   "sos": 388.9,
+   "luck": 0.5,
+   "sos": 447.3,
    "weekly": [
-    470.0,
-    461.0,
-    450.0,
-    523.0
+    532.3,
+    501.8,
+    529.9,
+    572.0
    ],
    "parts": {
     "record": 100,
@@ -38,7 +38,7 @@
     "allplay": 100,
     "roster": 100,
     "form": 100,
-    "luck": 85
+    "luck": 72
    },
    "top_players": [
     {
@@ -54,144 +54,42 @@
      "avg": 54.0
     }
    ],
-   "take": "Still unbeaten at 4-0. Scoring 476 a week, the most in Das League.",
+   "take": "Still unbeaten at 4-0. Scoring 534 a week, the most in Das League.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 96.5,
-   "bye_pct": 71.5,
-   "title_pct": 31.1
+   "playoff_pct": 98.6,
+   "bye_pct": 81.6,
+   "title_pct": 36.9
   },
   {
    "rank": 2,
    "prev_rank": 2,
-   "manager": "shueiro",
-   "name": "Shueiro",
-   "team": "2057 Champs",
-   "score": 78.1,
-   "tier": "Contenders",
-   "tier_icon": "🏆",
-   "record": "2-2",
-   "allplay": "31-13",
-   "ppw": 449.8,
-   "form": 474.5,
-   "roster": 454.1,
-   "luck": -0.8,
-   "sos": 451.7,
-   "weekly": [
-    377.0,
-    473.0,
-    523.0,
-    426.0
-   ],
-   "parts": {
-    "record": 50,
-    "points": 84,
-    "allplay": 80,
-    "roster": 86,
-    "form": 92,
-    "luck": 44
-   },
-   "top_players": [
-    {
-     "name": "Victor Wembanyama",
-     "avg": 96.5
-    },
-    {
-     "name": "Anthony Black",
-     "avg": 52.8
-    },
-    {
-     "name": "Deni Avdija",
-     "avg": 45.5
-    }
-   ],
-   "take": "Toughest schedule so far: opponents average 452 a week. Would be 31-13 playing everyone every week, 3rd best in the league.",
-   "fraud": false,
-   "robbed": true,
-   "playoff_pct": 74.7,
-   "bye_pct": 21.6,
-   "title_pct": 10.8
-  },
-  {
-   "rank": 3,
-   "prev_rank": 4,
-   "manager": "ricky",
-   "name": "Ricky",
-   "team": "MoonUnit 🦬",
-   "score": 76.8,
-   "tier": "Contenders",
-   "tier_icon": "🏆",
-   "record": "3-1",
-   "allplay": "27-17",
-   "ppw": 435.8,
-   "form": 445.5,
-   "roster": 459.3,
-   "luck": 0.5,
-   "sos": 413.6,
-   "weekly": [
-    462.0,
-    390.0,
-    480.0,
-    411.0
-   ],
-   "parts": {
-    "record": 75,
-    "points": 76,
-    "allplay": 67,
-    "roster": 89,
-    "form": 73,
-    "luck": 82
-   },
-   "top_players": [
-    {
-     "name": "Cade Cunningham",
-     "avg": 74.2
-    },
-    {
-     "name": "Alperen Şengün",
-     "avg": 64.8
-    },
-    {
-     "name": "Davion Mitchell",
-     "avg": 47.5
-    }
-   ],
-   "take": "Would be 27-17 playing everyone every week, 4th best in the league. Led by Cade Cunningham at 74 a week.",
-   "fraud": false,
-   "robbed": false,
-   "playoff_pct": 72.5,
-   "bye_pct": 21.7,
-   "title_pct": 9.1
-  },
-  {
-   "rank": 4,
-   "prev_rank": 3,
    "manager": "libguel",
    "name": "Libguel",
    "team": "Los Chigüires",
-   "score": 75.8,
+   "score": 79.3,
    "tier": "Contenders",
    "tier_icon": "🏆",
    "record": "3-1",
-   "allplay": "32-12",
-   "ppw": 451.0,
-   "form": 423.5,
+   "allplay": "37-7",
+   "ppw": 514.5,
+   "form": 506.9,
    "roster": 433.5,
-   "luck": 0.1,
-   "sos": 428.9,
+   "luck": -0.4,
+   "sos": 454.9,
    "weekly": [
-    485.0,
-    472.0,
-    405.0,
-    442.0
+    535.2,
+    508.9,
+    473.9,
+    540.0
    ],
    "parts": {
     "record": 75,
-    "points": 85,
-    "allplay": 84,
+    "points": 87,
+    "allplay": 94,
     "roster": 73,
-    "form": 59,
-    "luck": 69
+    "form": 66,
+    "luck": 49
    },
    "top_players": [
     {
@@ -207,42 +105,93 @@
      "avg": 55.5
     }
    ],
-   "take": "Would be 32-12 playing everyone every week, 2nd best in the league. Led by Jamal Murray at 62 a week.",
+   "take": "Would be 37-7 playing everyone every week, 2nd best in the league. Led by Jamal Murray at 62 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 82.6,
-   "bye_pct": 33.7,
-   "title_pct": 14.7
+   "playoff_pct": 91.5,
+   "bye_pct": 46.2,
+   "title_pct": 21.1
   },
   {
-   "rank": 5,
+   "rank": 3,
+   "prev_rank": 3,
+   "manager": "shueiro",
+   "name": "Shueiro",
+   "team": "2057 Champs",
+   "score": 72.4,
+   "tier": "Contenders",
+   "tier_icon": "🏆",
+   "record": "2-2",
+   "allplay": "31-13",
+   "ppw": 490.8,
+   "form": 522.3,
+   "roster": 454.1,
+   "luck": -0.8,
+   "sos": 487.8,
+   "weekly": [
+    404.5,
+    513.9,
+    564.6,
+    480.0
+   ],
+   "parts": {
+    "record": 50,
+    "points": 72,
+    "allplay": 75,
+    "roster": 86,
+    "form": 78,
+    "luck": 36
+   },
+   "top_players": [
+    {
+     "name": "Victor Wembanyama",
+     "avg": 96.5
+    },
+    {
+     "name": "Anthony Black",
+     "avg": 52.8
+    },
+    {
+     "name": "Deni Avdija",
+     "avg": 45.5
+    }
+   ],
+   "take": "Toughest schedule so far: opponents average 488 a week. Would be 31-13 playing everyone every week, 3rd best in the league.",
+   "fraud": false,
+   "robbed": true,
+   "playoff_pct": 77.0,
+   "bye_pct": 19.9,
+   "title_pct": 9.9
+  },
+  {
+   "rank": 4,
    "prev_rank": 6,
    "manager": "victor",
    "name": "Victor",
    "team": "I Love Dragić",
-   "score": 69.6,
+   "score": 65.0,
    "tier": "In the Mix",
    "tier_icon": "⚔️",
    "record": "3-1",
-   "allplay": "20-24",
-   "ppw": 423.2,
-   "form": 443.0,
+   "allplay": "24-20",
+   "ppw": 469.0,
+   "form": 477.4,
    "roster": 453.8,
-   "luck": 1.2,
-   "sos": 401.8,
+   "luck": 0.8,
+   "sos": 430.3,
    "weekly": [
-    433.0,
-    374.0,
-    398.0,
-    488.0
+    486.8,
+    434.3,
+    424.9,
+    530.0
    ],
    "parts": {
     "record": 75,
-    "points": 68,
-    "allplay": 44,
+    "points": 57,
+    "allplay": 53,
     "roster": 85,
-    "form": 72,
-    "luck": 100
+    "form": 44,
+    "luck": 82
    },
    "top_players": [
     {
@@ -258,41 +207,92 @@
      "avg": 53.5
     }
    ],
-   "take": "Luckiest team in the league: about 1.2 more wins than their scoring has earned. Would be 20-24 playing everyone every week, tied 7th best in the league.",
+   "take": "Would be 24-20 playing everyone every week, 4th best in the league. Led by Nikola Jokić at 73 a week.",
    "fraud": true,
    "robbed": false,
-   "playoff_pct": 71.6,
-   "bye_pct": 22.3,
-   "title_pct": 10.0
+   "playoff_pct": 77.1,
+   "bye_pct": 23.1,
+   "title_pct": 10.4
+  },
+  {
+   "rank": 5,
+   "prev_rank": 5,
+   "manager": "ricky",
+   "name": "Ricky",
+   "team": "MoonUnit 🦬",
+   "score": 52.6,
+   "tier": "In the Mix",
+   "tier_icon": "⚔️",
+   "record": "3-1",
+   "allplay": "17-27",
+   "ppw": 432.8,
+   "form": 441.9,
+   "roster": 459.3,
+   "luck": 1.5,
+   "sos": 467.3,
+   "weekly": [
+    468.5,
+    378.6,
+    467.9,
+    416.0
+   ],
+   "parts": {
+    "record": 75,
+    "points": 33,
+    "allplay": 31,
+    "roster": 89,
+    "form": 16,
+    "luck": 100
+   },
+   "top_players": [
+    {
+     "name": "Cade Cunningham",
+     "avg": 74.2
+    },
+    {
+     "name": "Alperen Şengün",
+     "avg": 64.8
+    },
+    {
+     "name": "Davion Mitchell",
+     "avg": 47.5
+    }
+   ],
+   "take": "Luckiest team in the league: about 1.5 more wins than their scoring has earned. Would be 17-27 playing everyone every week, tied 8th best in the league.",
+   "fraud": true,
+   "robbed": false,
+   "playoff_pct": 43.3,
+   "bye_pct": 5.2,
+   "title_pct": 2.0
   },
   {
    "rank": 6,
-   "prev_rank": 8,
+   "prev_rank": 9,
    "manager": "melo",
    "name": "Melo",
    "team": "LeBong James",
-   "score": 64.9,
+   "score": 51.7,
    "tier": "In the Mix",
    "tier_icon": "⚔️",
    "record": "0-4",
-   "allplay": "26-18",
-   "ppw": 444.0,
-   "form": 461.5,
+   "allplay": "23-21",
+   "ppw": 469.8,
+   "form": 479.3,
    "roster": 466.9,
-   "luck": -2.4,
-   "sos": 439.9,
+   "luck": -2.1,
+   "sos": 476.8,
    "weekly": [
-    432.0,
-    421.0,
-    424.0,
-    499.0
+    456.8,
+    463.6,
+    434.6,
+    524.0
    ],
    "parts": {
     "record": 0,
-    "points": 81,
-    "allplay": 64,
+    "points": 58,
+    "allplay": 50,
     "roster": 94,
-    "form": 84,
+    "form": 45,
     "luck": 0
    },
    "top_players": [
@@ -309,42 +309,42 @@
      "avg": 49.5
     }
    ],
-   "take": "Still looking for win #1 at 0-4. Most robbed team in the league: 26-18 against everyone, but 0-4 for real.",
+   "take": "Still looking for win #1 at 0-4. Most robbed team in the league: 23-21 against everyone, but 0-4 for real.",
    "fraud": false,
    "robbed": true,
-   "playoff_pct": 58.9,
-   "bye_pct": 10.1,
-   "title_pct": 11.6
+   "playoff_pct": 47.8,
+   "bye_pct": 5.3,
+   "title_pct": 6.8
   },
   {
    "rank": 7,
-   "prev_rank": 5,
+   "prev_rank": 4,
    "manager": "verdeja",
    "name": "Verdeja",
    "team": "Antetokounmpers",
-   "score": 60.1,
-   "tier": "In the Mix",
-   "tier_icon": "⚔️",
+   "score": 47.6,
+   "tier": "Fading",
+   "tier_icon": "🫠",
    "record": "2-2",
-   "allplay": "23-21",
-   "ppw": 412.0,
-   "form": 451.0,
+   "allplay": "21-23",
+   "ppw": 443.2,
+   "form": 466.7,
    "roster": 415.5,
-   "luck": -0.1,
-   "sos": 396.8,
+   "luck": 0.1,
+   "sos": 431.4,
    "weekly": [
-    446.0,
-    300.0,
-    470.0,
-    432.0
+    496.0,
+    343.5,
+    497.4,
+    436.0
    ],
    "parts": {
     "record": 50,
-    "points": 62,
-    "allplay": 54,
+    "points": 40,
+    "allplay": 44,
     "roster": 62,
-    "form": 77,
-    "luck": 64
+    "form": 35,
+    "luck": 62
    },
    "top_players": [
     {
@@ -360,41 +360,143 @@
      "avg": 46.5
     }
    ],
-   "take": "Would be 23-21 playing everyone every week, 6th best in the league. Led by Tyrese Maxey at 56 a week.",
+   "take": "Down 3 spots this week. EquipoGPT is concerned. Would be 21-23 playing everyone every week, 7th best in the league.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 47.2,
-   "bye_pct": 7.6,
-   "title_pct": 4.9
+   "playoff_pct": 41.2,
+   "bye_pct": 4.4,
+   "title_pct": 3.2
   },
   {
    "rank": 8,
    "prev_rank": 7,
-   "manager": "blandon",
-   "name": "Blandon",
-   "team": "Rabbi BT69",
-   "score": 53.6,
-   "tier": "In the Mix",
-   "tier_icon": "⚔️",
+   "manager": "papo",
+   "name": "Papo",
+   "team": "Fear the Brow",
+   "score": 45.5,
+   "tier": "Fading",
+   "tier_icon": "🫠",
    "record": "2-2",
-   "allplay": "20-24",
-   "ppw": 412.8,
-   "form": 378.5,
-   "roster": 431.8,
-   "luck": 0.2,
-   "sos": 395.3,
+   "allplay": "22-22",
+   "ppw": 455.8,
+   "form": 431.4,
+   "roster": 413.8,
+   "luck": 0.0,
+   "sos": 439.6,
    "weekly": [
-    447.0,
-    447.0,
-    336.0,
-    421.0
+    553.3,
+    407.0,
+    385.7,
+    477.0
    ],
    "parts": {
     "record": 50,
-    "points": 62,
-    "allplay": 44,
+    "points": 49,
+    "allplay": 47,
+    "roster": 61,
+    "form": 8,
+    "luck": 59
+   },
+   "top_players": [
+    {
+     "name": "Tyrese Proctor",
+     "avg": 73.0
+    },
+    {
+     "name": "Anthony Davis",
+     "avg": 64.2
+    },
+    {
+     "name": "Joel Embiid",
+     "avg": 54.5
+    }
+   ],
+   "take": "Would be 22-22 playing everyone every week, 6th best in the league. Led by Tyrese Proctor at 73 a week.",
+   "fraud": false,
+   "robbed": false,
+   "playoff_pct": 53.9,
+   "bye_pct": 8.0,
+   "title_pct": 5.2
+  },
+  {
+   "rank": 9,
+   "prev_rank": 10,
+   "manager": "winch",
+   "name": "Winch",
+   "team": "Equipo Winchenzo",
+   "score": 44.9,
+   "tier": "Fading",
+   "tier_icon": "🫠",
+   "record": "2-2",
+   "allplay": "16-28",
+   "ppw": 426.5,
+   "form": 468.9,
+   "roster": 431.2,
+   "luck": 0.5,
+   "sos": 452.1,
+   "weekly": [
+    373.0,
+    395.3,
+    433.7,
+    504.0
+   ],
+   "parts": {
+    "record": 50,
+    "points": 29,
+    "allplay": 28,
+    "roster": 71,
+    "form": 37,
+    "luck": 74
+   },
+   "top_players": [
+    {
+     "name": "Jayson Tatum",
+     "avg": 64.8
+    },
+    {
+     "name": "Devin Booker",
+     "avg": 47.5
+    },
+    {
+     "name": "LaMelo Ball",
+     "avg": 44.0
+    }
+   ],
+   "take": "Would be 16-28 playing everyone every week, 10th best in the league. Led by Jayson Tatum at 65 a week.",
+   "fraud": false,
+   "robbed": false,
+   "playoff_pct": 25.3,
+   "bye_pct": 1.9,
+   "title_pct": 1.5
+  },
+  {
+   "rank": 10,
+   "prev_rank": 8,
+   "manager": "blandon",
+   "name": "Blandon",
+   "team": "Rabbi BT69",
+   "score": 43.0,
+   "tier": "Fading",
+   "tier_icon": "🫠",
+   "record": "2-2",
+   "allplay": "17-27",
+   "ppw": 448.5,
+   "form": 420.7,
+   "roster": 431.8,
+   "luck": 0.5,
+   "sos": 456.8,
+   "weekly": [
+    465.5,
+    487.0,
+    381.4,
+    460.0
+   ],
+   "parts": {
+    "record": 50,
+    "points": 44,
+    "allplay": 31,
     "roster": 72,
-    "form": 29,
+    "form": 0,
     "luck": 72
    },
    "top_players": [
@@ -411,144 +513,42 @@
      "avg": 49.2
     }
    ],
-   "take": "Would be 20-24 playing everyone every week, tied 7th best in the league. Led by Ty Jerome at 56 a week.",
+   "take": "Would be 17-27 playing everyone every week, tied 8th best in the league. Led by Ty Jerome at 56 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 42.4,
-   "bye_pct": 6.3,
-   "title_pct": 4.3
-  },
-  {
-   "rank": 9,
-   "prev_rank": 9,
-   "manager": "winch",
-   "name": "Winch",
-   "team": "Equipo Winchenzo",
-   "score": 47.5,
-   "tier": "Fading",
-   "tier_icon": "🫠",
-   "record": "2-2",
-   "allplay": "14-30",
-   "ppw": 386.0,
-   "form": 393.5,
-   "roster": 431.2,
-   "luck": 0.8,
-   "sos": 412.8,
-   "weekly": [
-    362.0,
-    395.0,
-    400.0,
-    387.0
-   ],
-   "parts": {
-    "record": 50,
-    "points": 46,
-    "allplay": 23,
-    "roster": 71,
-    "form": 39,
-    "luck": 88
-   },
-   "top_players": [
-    {
-     "name": "Jayson Tatum",
-     "avg": 64.8
-    },
-    {
-     "name": "Devin Booker",
-     "avg": 47.5
-    },
-    {
-     "name": "LaMelo Ball",
-     "avg": 44.0
-    }
-   ],
-   "take": "Would be 14-30 playing everyone every week, 10th best in the league. Led by Jayson Tatum at 65 a week.",
-   "fraud": true,
-   "robbed": false,
-   "playoff_pct": 21.9,
-   "bye_pct": 2.0,
-   "title_pct": 1.4
-  },
-  {
-   "rank": 10,
-   "prev_rank": 10,
-   "manager": "papo",
-   "name": "Papo",
-   "team": "Fear the Brow",
-   "score": 40.3,
-   "tier": "Fading",
-   "tier_icon": "🫠",
-   "record": "2-2",
-   "allplay": "16-28",
-   "ppw": 383.8,
-   "form": 333.5,
-   "roster": 413.8,
-   "luck": 0.5,
-   "sos": 390.8,
-   "weekly": [
-    501.0,
-    367.0,
-    351.0,
-    316.0
-   ],
-   "parts": {
-    "record": 50,
-    "points": 45,
-    "allplay": 31,
-    "roster": 61,
-    "form": 0,
-    "luck": 82
-   },
-   "top_players": [
-    {
-     "name": "Tyrese Proctor",
-     "avg": 73.0
-    },
-    {
-     "name": "Anthony Davis",
-     "avg": 64.2
-    },
-    {
-     "name": "Joel Embiid",
-     "avg": 54.5
-    }
-   ],
-   "take": "Would be 16-28 playing everyone every week, 9th best in the league. Led by Tyrese Proctor at 73 a week.",
-   "fraud": false,
-   "robbed": false,
-   "playoff_pct": 28.1,
-   "bye_pct": 3.1,
-   "title_pct": 2.0
+   "playoff_pct": 41.9,
+   "bye_pct": 4.6,
+   "title_pct": 3.0
   },
   {
    "rank": 11,
-   "prev_rank": 11,
+   "prev_rank": 12,
    "manager": "chalela",
    "name": "Chalela",
    "team": "Lochte & Associates",
-   "score": 25.8,
+   "score": 9.6,
    "tier": "Tank Watch",
    "tier_icon": "🗑️",
    "record": "0-4",
-   "allplay": "12-32",
-   "ppw": 365.0,
-   "form": 396.5,
+   "allplay": "7-37",
+   "ppw": 381.8,
+   "form": 422.9,
    "roster": 376.1,
-   "luck": -1.1,
-   "sos": 401.2,
+   "luck": -0.6,
+   "sos": 448.6,
    "weekly": [
-    362.0,
-    305.0,
-    429.0,
-    364.0
+    363.8,
+    317.5,
+    457.7,
+    388.0
    ],
    "parts": {
     "record": 0,
-    "points": 33,
-    "allplay": 18,
+    "points": 0,
+    "allplay": 0,
     "roster": 37,
-    "form": 41,
-    "luck": 36
+    "form": 2,
+    "luck": 41
    },
    "top_players": [
     {
@@ -564,42 +564,42 @@
      "avg": 48.5
     }
    ],
-   "take": "Still looking for win #1 at 0-4. Would be 12-32 playing everyone every week, 11th best in the league.",
+   "take": "Still looking for win #1 at 0-4. 382 a week is the lowest scoring in the league. Yikes.",
    "fraud": false,
-   "robbed": true,
-   "playoff_pct": 3.4,
-   "bye_pct": 0.1,
-   "title_pct": 0.1
+   "robbed": false,
+   "playoff_pct": 1.4,
+   "bye_pct": 0.0,
+   "title_pct": 0.0
   },
   {
    "rank": 12,
-   "prev_rank": 12,
+   "prev_rank": 11,
    "manager": "joey",
    "name": "Joey",
    "team": "Fidel’s Accumulators",
-   "score": 6.1,
+   "score": 8.5,
    "tier": "Tank Watch",
    "tier_icon": "🗑️",
    "record": "1-3",
-   "allplay": "6-38",
-   "ppw": 309.5,
-   "form": 345.0,
+   "allplay": "10-34",
+   "ppw": 394.2,
+   "form": 420.9,
    "roster": 315.3,
-   "luck": 0.4,
-   "sos": 427.1,
+   "luck": 0.1,
+   "sos": 467.7,
    "weekly": [
-    272.0,
-    276.0,
-    429.0,
-    261.0
+    359.5,
+    375.8,
+    489.7,
+    352.0
    ],
    "parts": {
     "record": 25,
-    "points": 0,
-    "allplay": 0,
+    "points": 8,
+    "allplay": 9,
     "roster": 0,
-    "form": 8,
-    "luck": 78
+    "form": 0,
+    "luck": 62
    },
    "top_players": [
     {
@@ -615,10 +615,10 @@
      "avg": 33.2
     }
    ],
-   "take": "310 a week is the lowest scoring in the league. Yikes. Would be 6-38 playing everyone every week, last in the league.",
+   "take": "Would be 10-34 playing everyone every week, 11th best in the league. Led by Saddiq Bey at 39 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 0.1,
+   "playoff_pct": 0.9,
    "bye_pct": 0.0,
    "title_pct": 0.0
   }
@@ -676,7 +676,7 @@
       "finish": 7,
       "record": "2-2",
       "win_pct": 50.0,
-      "ppw": 412.8,
+      "ppw": 448.5,
       "playoffs": null,
       "champion": false
      }
@@ -727,7 +727,7 @@
       "finish": 12,
       "record": "0-4",
       "win_pct": 0.0,
-      "ppw": 365.0,
+      "ppw": 381.8,
       "playoffs": null,
       "champion": false
      }
@@ -778,7 +778,7 @@
       "finish": 1,
       "record": "4-0",
       "win_pct": 100.0,
-      "ppw": 476.0,
+      "ppw": 534.0,
       "playoffs": null,
       "champion": false
      }
@@ -829,7 +829,7 @@
       "finish": 10,
       "record": "1-3",
       "win_pct": 25.0,
-      "ppw": 309.5,
+      "ppw": 394.2,
       "playoffs": null,
       "champion": false
      }
@@ -880,7 +880,7 @@
       "finish": 2,
       "record": "3-1",
       "win_pct": 75.0,
-      "ppw": 451.0,
+      "ppw": 514.5,
       "playoffs": null,
       "champion": false
      }
@@ -931,7 +931,7 @@
       "finish": 11,
       "record": "0-4",
       "win_pct": 0.0,
-      "ppw": 444.0,
+      "ppw": 469.8,
       "playoffs": null,
       "champion": false
      }
@@ -982,7 +982,7 @@
       "finish": 6,
       "record": "2-2",
       "win_pct": 50.0,
-      "ppw": 383.8,
+      "ppw": 455.8,
       "playoffs": null,
       "champion": false
      }
@@ -1033,7 +1033,7 @@
       "finish": 4,
       "record": "3-1",
       "win_pct": 75.0,
-      "ppw": 435.8,
+      "ppw": 432.8,
       "playoffs": null,
       "champion": false
      }
@@ -1084,7 +1084,7 @@
       "finish": 5,
       "record": "2-2",
       "win_pct": 50.0,
-      "ppw": 449.8,
+      "ppw": 490.8,
       "playoffs": null,
       "champion": false
      }
@@ -1135,7 +1135,7 @@
       "finish": 8,
       "record": "2-2",
       "win_pct": 50.0,
-      "ppw": 412.0,
+      "ppw": 443.2,
       "playoffs": null,
       "champion": false
      }
@@ -1186,7 +1186,7 @@
       "finish": 3,
       "record": "3-1",
       "win_pct": 75.0,
-      "ppw": 423.2,
+      "ppw": 469.0,
       "playoffs": null,
       "champion": false
      }
@@ -1237,7 +1237,7 @@
       "finish": 9,
       "record": "2-2",
       "win_pct": 50.0,
-      "ppw": 386.0,
+      "ppw": 426.5,
       "playoffs": null,
       "champion": false
      }
@@ -14124,7 +14124,7 @@
      "finish": 9,
      "record": "2-2",
      "win_pct": 50.0,
-     "ppw": 386.0,
+     "ppw": 426.5,
      "playoffs": null,
      "champion": false
     }
@@ -14436,7 +14436,7 @@
      "finish": 2,
      "record": "3-1",
      "win_pct": 75.0,
-     "ppw": 451.0,
+     "ppw": 514.5,
      "playoffs": null,
      "champion": false
     }
@@ -14799,7 +14799,7 @@
      "finish": 10,
      "record": "1-3",
      "win_pct": 25.0,
-     "ppw": 309.5,
+     "ppw": 394.2,
      "playoffs": null,
      "champion": false
     }
@@ -15307,7 +15307,7 @@
      "finish": 4,
      "record": "3-1",
      "win_pct": 75.0,
-     "ppw": 435.8,
+     "ppw": 432.8,
      "playoffs": null,
      "champion": false
     }
@@ -15702,7 +15702,7 @@
      "finish": 3,
      "record": "3-1",
      "win_pct": 75.0,
-     "ppw": 423.2,
+     "ppw": 469.0,
      "playoffs": null,
      "champion": false
     }
@@ -16091,7 +16091,7 @@
      "finish": 11,
      "record": "0-4",
      "win_pct": 0.0,
-     "ppw": 444.0,
+     "ppw": 469.8,
      "playoffs": null,
      "champion": false
     }
@@ -16439,7 +16439,7 @@
      "finish": 5,
      "record": "2-2",
      "win_pct": 50.0,
-     "ppw": 449.8,
+     "ppw": 490.8,
      "playoffs": null,
      "champion": false
     }
@@ -16822,7 +16822,7 @@
      "finish": 1,
      "record": "4-0",
      "win_pct": 100.0,
-     "ppw": 476.0,
+     "ppw": 534.0,
      "playoffs": null,
      "champion": false
     }
@@ -17267,7 +17267,7 @@
      "finish": 6,
      "record": "2-2",
      "win_pct": 50.0,
-     "ppw": 383.8,
+     "ppw": 455.8,
      "playoffs": null,
      "champion": false
     }
@@ -17694,7 +17694,7 @@
      "finish": 12,
      "record": "0-4",
      "win_pct": 0.0,
-     "ppw": 365.0,
+     "ppw": 381.8,
      "playoffs": null,
      "champion": false
     }
@@ -18061,7 +18061,7 @@
      "finish": 7,
      "record": "2-2",
      "win_pct": 50.0,
-     "ppw": 412.8,
+     "ppw": 448.5,
      "playoffs": null,
      "champion": false
     }
@@ -18449,7 +18449,7 @@
      "finish": 8,
      "record": "2-2",
      "win_pct": 50.0,
-     "ppw": 412.0,
+     "ppw": 443.2,
      "playoffs": null,
      "champion": false
     }
@@ -18810,7 +18810,8 @@
      "a_pts": 328.0,
      "b_pts": 438.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -18818,7 +18819,8 @@
      "a_pts": 442.0,
      "b_pts": 456.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -18827,7 +18829,8 @@
       "a_pts": 486.0,
       "b_pts": 408.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -18835,7 +18838,8 @@
       "a_pts": 492.0,
       "b_pts": 526.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -18843,7 +18847,8 @@
       "a_pts": 515.0,
       "b_pts": 569.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -18851,7 +18856,8 @@
       "a_pts": 328.0,
       "b_pts": 438.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -18859,7 +18865,8 @@
       "a_pts": 442.0,
       "b_pts": 456.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": [
@@ -18879,8 +18886,8 @@
     "a_wins": 4,
     "b_wins": 2,
     "ties": 0,
-    "a_ppg": 425.2,
-    "b_ppg": 412.7,
+    "a_ppg": 432.7,
+    "b_ppg": 426.0,
     "streak": {
      "who": "jacobo",
      "n": 2
@@ -18891,7 +18898,8 @@
      "a_pts": 518.0,
      "b_pts": 401.0,
      "winner": "blandon",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -18899,7 +18907,8 @@
      "a_pts": 430.0,
      "b_pts": 416.0,
      "winner": "blandon",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -18908,7 +18917,8 @@
       "a_pts": 403.0,
       "b_pts": 332.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -18916,7 +18926,8 @@
       "a_pts": 518.0,
       "b_pts": 401.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -18924,7 +18935,8 @@
       "a_pts": 466.0,
       "b_pts": 431.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -18932,7 +18944,8 @@
       "a_pts": 430.0,
       "b_pts": 416.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -18940,15 +18953,17 @@
       "a_pts": 398.0,
       "b_pts": 446.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 336.0,
-      "b_pts": 450.0,
+      "a_pts": 381.4,
+      "b_pts": 529.9,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -18960,19 +18975,20 @@
     "a_wins": 6,
     "b_wins": 1,
     "ties": 0,
-    "a_ppg": 453.7,
-    "b_ppg": 395.8,
+    "a_ppg": 460.3,
+    "b_ppg": 412.5,
     "streak": {
      "who": "blandon",
      "n": 6
     },
     "blowout": {
-     "season": "2026-2027",
-     "week": 2,
-     "a_pts": 447.0,
-     "b_pts": 276.0,
+     "season": "2024-2025",
+     "week": 16,
+     "a_pts": 462.0,
+     "b_pts": 348.0,
      "winner": "blandon",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -18980,7 +18996,8 @@
      "a_pts": 430.0,
      "b_pts": 406.0,
      "winner": "blandon",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -18989,7 +19006,8 @@
       "a_pts": 414.0,
       "b_pts": 455.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -18997,7 +19015,8 @@
       "a_pts": 526.0,
       "b_pts": 475.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19005,7 +19024,8 @@
       "a_pts": 462.0,
       "b_pts": 348.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19013,7 +19033,8 @@
       "a_pts": 430.0,
       "b_pts": 406.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19021,15 +19042,17 @@
       "a_pts": 443.0,
       "b_pts": 415.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 447.0,
-      "b_pts": 276.0,
+      "a_pts": 487.0,
+      "b_pts": 375.8,
       "winner": "blandon",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": [
@@ -19061,7 +19084,8 @@
      "a_pts": 436.0,
      "b_pts": 532.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -19069,7 +19093,8 @@
      "a_pts": 539.0,
      "b_pts": 512.0,
      "winner": "blandon",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19078,7 +19103,8 @@
       "a_pts": 449.0,
       "b_pts": 367.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -19086,7 +19112,8 @@
       "a_pts": 556.0,
       "b_pts": 525.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19094,7 +19121,8 @@
       "a_pts": 539.0,
       "b_pts": 512.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19102,7 +19130,8 @@
       "a_pts": 512.0,
       "b_pts": 461.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19110,7 +19139,8 @@
       "a_pts": 436.0,
       "b_pts": 532.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -19134,7 +19164,8 @@
      "a_pts": 336.0,
      "b_pts": 530.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -19142,7 +19173,8 @@
      "a_pts": 494.0,
      "b_pts": 438.0,
      "winner": "blandon",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19151,7 +19183,8 @@
       "a_pts": 570.0,
       "b_pts": 443.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19159,7 +19192,8 @@
       "a_pts": 418.0,
       "b_pts": 554.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19167,7 +19201,8 @@
       "a_pts": 494.0,
       "b_pts": 438.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19175,7 +19210,8 @@
       "a_pts": 336.0,
       "b_pts": 530.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": [
@@ -19202,8 +19238,8 @@
     "a_wins": 4,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 474.6,
-    "b_ppg": 458.9,
+    "a_ppg": 477.2,
+    "b_ppg": 466.3,
     "streak": {
      "who": "papo",
      "n": 3
@@ -19214,7 +19250,8 @@
      "a_pts": 557.0,
      "b_pts": 331.0,
      "winner": "blandon",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -19222,7 +19259,8 @@
      "a_pts": 468.0,
      "b_pts": 479.0,
      "winner": "papo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19231,7 +19269,8 @@
       "a_pts": 498.0,
       "b_pts": 434.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -19239,7 +19278,8 @@
       "a_pts": 533.0,
       "b_pts": 558.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19247,7 +19287,8 @@
       "a_pts": 437.0,
       "b_pts": 405.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19255,7 +19296,8 @@
       "a_pts": 557.0,
       "b_pts": 331.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19263,7 +19305,8 @@
       "a_pts": 382.0,
       "b_pts": 504.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19271,15 +19314,17 @@
       "a_pts": 468.0,
       "b_pts": 479.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 447.0,
-      "b_pts": 501.0,
+      "a_pts": 465.5,
+      "b_pts": 553.3,
       "winner": "papo",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": [
@@ -19311,7 +19356,8 @@
      "a_pts": 539.0,
      "b_pts": 414.0,
      "winner": "blandon",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -19319,7 +19365,8 @@
      "a_pts": 328.0,
      "b_pts": 357.0,
      "winner": "ricky",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19328,7 +19375,8 @@
       "a_pts": 454.0,
       "b_pts": 393.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -19336,7 +19384,8 @@
       "a_pts": 442.0,
       "b_pts": 473.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19344,7 +19393,8 @@
       "a_pts": 539.0,
       "b_pts": 414.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19352,7 +19402,8 @@
       "a_pts": 501.0,
       "b_pts": 383.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19360,7 +19411,8 @@
       "a_pts": 453.0,
       "b_pts": 375.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19368,7 +19420,8 @@
       "a_pts": 328.0,
       "b_pts": 357.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -19392,7 +19445,8 @@
      "a_pts": 418.0,
      "b_pts": 535.0,
      "winner": "shueiro",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -19400,7 +19454,8 @@
      "a_pts": 457.0,
      "b_pts": 438.0,
      "winner": "blandon",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19409,7 +19464,8 @@
       "a_pts": 457.0,
       "b_pts": 438.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -19417,7 +19473,8 @@
       "a_pts": 519.0,
       "b_pts": 416.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19425,7 +19482,8 @@
       "a_pts": 418.0,
       "b_pts": 535.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19433,7 +19491,8 @@
       "a_pts": 515.0,
       "b_pts": 548.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19441,7 +19500,8 @@
       "a_pts": 352.0,
       "b_pts": 429.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -19453,8 +19513,8 @@
     "a_wins": 4,
     "b_wins": 2,
     "ties": 0,
-    "a_ppg": 437.0,
-    "b_ppg": 417.8,
+    "a_ppg": 443.5,
+    "b_ppg": 418.5,
     "streak": {
      "who": "blandon",
      "n": 1
@@ -19465,7 +19525,8 @@
      "a_pts": 251.0,
      "b_pts": 433.0,
      "winner": "verdeja",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -19473,7 +19534,8 @@
      "a_pts": 367.0,
      "b_pts": 380.0,
      "winner": "verdeja",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19482,7 +19544,8 @@
       "a_pts": 486.0,
       "b_pts": 439.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19490,7 +19553,8 @@
       "a_pts": 590.0,
       "b_pts": 435.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19498,7 +19562,8 @@
       "a_pts": 507.0,
       "b_pts": 388.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19506,7 +19571,8 @@
       "a_pts": 251.0,
       "b_pts": 433.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19514,15 +19580,17 @@
       "a_pts": 367.0,
       "b_pts": 380.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 4,
-      "a_pts": 421.0,
-      "b_pts": 432.0,
+      "a_pts": 460.0,
+      "b_pts": 436.0,
       "winner": "blandon",
-      "flagged": true
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -19546,7 +19614,8 @@
      "a_pts": 436.0,
      "b_pts": 580.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -19554,7 +19623,8 @@
      "a_pts": 523.0,
      "b_pts": 477.0,
      "winner": "blandon",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19563,7 +19633,8 @@
       "a_pts": 422.0,
       "b_pts": 513.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -19571,7 +19642,8 @@
       "a_pts": 436.0,
       "b_pts": 580.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19579,7 +19651,8 @@
       "a_pts": 523.0,
       "b_pts": 477.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19587,7 +19660,8 @@
       "a_pts": 391.0,
       "b_pts": 518.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19595,7 +19669,8 @@
       "a_pts": 175.0,
       "b_pts": 280.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": [
@@ -19627,7 +19702,8 @@
      "a_pts": 442.0,
      "b_pts": 474.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -19635,7 +19711,8 @@
      "a_pts": 514.0,
      "b_pts": 510.0,
      "winner": "blandon",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19644,7 +19721,8 @@
       "a_pts": 442.0,
       "b_pts": 474.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -19652,7 +19730,8 @@
       "a_pts": 514.0,
       "b_pts": 510.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19660,7 +19739,8 @@
       "a_pts": 432.0,
       "b_pts": 401.0,
       "winner": "blandon",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19668,7 +19748,8 @@
       "a_pts": 447.0,
       "b_pts": 470.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -19692,7 +19773,8 @@
      "a_pts": 549.0,
      "b_pts": 363.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -19700,7 +19782,8 @@
      "a_pts": 437.0,
      "b_pts": 491.0,
      "winner": "jacobo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19709,7 +19792,8 @@
       "a_pts": 437.0,
       "b_pts": 491.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19717,7 +19801,8 @@
       "a_pts": 549.0,
       "b_pts": 363.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19725,7 +19810,8 @@
       "a_pts": 506.0,
       "b_pts": 421.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19733,7 +19819,8 @@
       "a_pts": 482.0,
       "b_pts": 409.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19741,7 +19828,8 @@
       "a_pts": 481.0,
       "b_pts": 325.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -19765,7 +19853,8 @@
      "a_pts": 533.0,
      "b_pts": 437.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -19773,7 +19862,8 @@
      "a_pts": 528.0,
      "b_pts": 538.0,
      "winner": "joey",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19782,7 +19872,8 @@
       "a_pts": 455.0,
       "b_pts": 545.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -19790,7 +19881,8 @@
       "a_pts": 479.0,
       "b_pts": 435.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19798,7 +19890,8 @@
       "a_pts": 528.0,
       "b_pts": 538.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19806,7 +19899,8 @@
       "a_pts": 533.0,
       "b_pts": 437.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19814,7 +19908,8 @@
       "a_pts": 491.0,
       "b_pts": 411.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -19838,7 +19933,8 @@
      "a_pts": 494.0,
      "b_pts": 342.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -19846,7 +19942,8 @@
      "a_pts": 469.0,
      "b_pts": 470.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19855,7 +19952,8 @@
       "a_pts": 501.0,
       "b_pts": 391.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -19863,7 +19961,8 @@
       "a_pts": 469.0,
       "b_pts": 470.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19871,7 +19970,8 @@
       "a_pts": 494.0,
       "b_pts": 342.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19879,7 +19979,8 @@
       "a_pts": 495.0,
       "b_pts": 575.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": [
@@ -19911,7 +20012,8 @@
      "a_pts": 545.0,
      "b_pts": 496.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -19919,7 +20021,8 @@
      "a_pts": 480.0,
      "b_pts": 484.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -19928,7 +20031,8 @@
       "a_pts": 481.0,
       "b_pts": 456.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -19936,7 +20040,8 @@
       "a_pts": 472.0,
       "b_pts": 462.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19944,7 +20049,8 @@
       "a_pts": 517.0,
       "b_pts": 550.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -19952,7 +20058,8 @@
       "a_pts": 545.0,
       "b_pts": 496.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19960,7 +20067,8 @@
       "a_pts": 480.0,
       "b_pts": 484.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -19968,7 +20076,8 @@
       "a_pts": 468.0,
       "b_pts": 454.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": [
@@ -19988,8 +20097,8 @@
     "a_wins": 2,
     "b_wins": 5,
     "ties": 0,
-    "a_ppg": 418.4,
-    "b_ppg": 449.6,
+    "a_ppg": 421.9,
+    "b_ppg": 472.6,
     "streak": {
      "who": "papo",
      "n": 4
@@ -20000,7 +20109,8 @@
      "a_pts": 333.0,
      "b_pts": 519.0,
      "winner": "papo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -20008,7 +20118,8 @@
      "a_pts": 430.0,
      "b_pts": 460.0,
      "winner": "papo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20017,7 +20128,8 @@
       "a_pts": 487.0,
       "b_pts": 430.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -20025,7 +20137,8 @@
       "a_pts": 448.0,
       "b_pts": 497.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20033,7 +20146,8 @@
       "a_pts": 533.0,
       "b_pts": 419.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20041,7 +20155,8 @@
       "a_pts": 430.0,
       "b_pts": 460.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20049,7 +20164,8 @@
       "a_pts": 334.0,
       "b_pts": 506.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20057,15 +20173,17 @@
       "a_pts": 333.0,
       "b_pts": 519.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 4,
-      "a_pts": 364.0,
-      "b_pts": 316.0,
+      "a_pts": 388.0,
+      "b_pts": 477.0,
       "winner": "papo",
-      "flagged": true
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -20089,7 +20207,8 @@
      "a_pts": 460.0,
      "b_pts": 375.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -20097,7 +20216,8 @@
      "a_pts": 419.0,
      "b_pts": 418.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20106,7 +20226,8 @@
       "a_pts": 419.0,
       "b_pts": 418.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -20114,7 +20235,8 @@
       "a_pts": 499.0,
       "b_pts": 495.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20122,7 +20244,8 @@
       "a_pts": 460.0,
       "b_pts": 375.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20130,7 +20253,8 @@
       "a_pts": 466.0,
       "b_pts": 414.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20138,7 +20262,8 @@
       "a_pts": 445.0,
       "b_pts": 415.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20146,7 +20271,8 @@
       "a_pts": 371.0,
       "b_pts": 320.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -20170,7 +20296,8 @@
      "a_pts": 539.0,
      "b_pts": 400.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -20178,7 +20305,8 @@
      "a_pts": 538.0,
      "b_pts": 512.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20187,7 +20315,8 @@
       "a_pts": 503.0,
       "b_pts": 466.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20195,7 +20324,8 @@
       "a_pts": 539.0,
       "b_pts": 400.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20203,7 +20333,8 @@
       "a_pts": 538.0,
       "b_pts": 512.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20211,7 +20342,8 @@
       "a_pts": 441.0,
       "b_pts": 467.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -20223,8 +20355,8 @@
     "a_wins": 3,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 444.9,
-    "b_ppg": 457.4,
+    "a_ppg": 445.1,
+    "b_ppg": 464.6,
     "streak": {
      "who": "verdeja",
      "n": 2
@@ -20235,7 +20367,8 @@
      "a_pts": 500.0,
      "b_pts": 349.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -20243,7 +20376,8 @@
      "a_pts": 391.0,
      "b_pts": 419.0,
      "winner": "verdeja",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20252,7 +20386,8 @@
       "a_pts": 391.0,
       "b_pts": 419.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -20260,7 +20395,8 @@
       "a_pts": 428.0,
       "b_pts": 518.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20268,7 +20404,8 @@
       "a_pts": 490.0,
       "b_pts": 451.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20276,7 +20413,8 @@
       "a_pts": 500.0,
       "b_pts": 349.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20284,7 +20422,8 @@
       "a_pts": 528.0,
       "b_pts": 488.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20292,15 +20431,17 @@
       "a_pts": 415.0,
       "b_pts": 531.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 362.0,
-      "b_pts": 446.0,
+      "a_pts": 363.8,
+      "b_pts": 496.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -20312,8 +20453,8 @@
     "a_wins": 2,
     "b_wins": 3,
     "ties": 0,
-    "a_ppg": 426.2,
-    "b_ppg": 425.6,
+    "a_ppg": 428.7,
+    "b_ppg": 437.7,
     "streak": {
      "who": "victor",
      "n": 1
@@ -20324,7 +20465,8 @@
      "a_pts": 363.0,
      "b_pts": 288.0,
      "winner": "chalela",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -20332,7 +20474,8 @@
      "a_pts": 502.0,
      "b_pts": 526.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20341,7 +20484,8 @@
       "a_pts": 502.0,
       "b_pts": 526.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20349,7 +20493,8 @@
       "a_pts": 493.0,
       "b_pts": 420.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20357,7 +20502,8 @@
       "a_pts": 468.0,
       "b_pts": 520.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20365,15 +20511,17 @@
       "a_pts": 363.0,
       "b_pts": 288.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 305.0,
-      "b_pts": 374.0,
+      "a_pts": 317.5,
+      "b_pts": 434.3,
       "winner": "victor",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -20385,8 +20533,8 @@
     "a_wins": 2,
     "b_wins": 5,
     "ties": 0,
-    "a_ppg": 458.4,
-    "b_ppg": 489.0,
+    "a_ppg": 464.1,
+    "b_ppg": 495.7,
     "streak": {
      "who": "winch",
      "n": 3
@@ -20397,7 +20545,8 @@
      "a_pts": 415.0,
      "b_pts": 624.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -20405,7 +20554,8 @@
      "a_pts": 508.0,
      "b_pts": 557.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20414,7 +20564,8 @@
       "a_pts": 490.0,
       "b_pts": 353.0,
       "winner": "chalela",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -20422,7 +20573,8 @@
       "a_pts": 415.0,
       "b_pts": 624.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20430,7 +20582,8 @@
       "a_pts": 508.0,
       "b_pts": 557.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20438,15 +20591,17 @@
       "a_pts": 450.0,
       "b_pts": 511.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 429.0,
-      "b_pts": 400.0,
+      "a_pts": 457.7,
+      "b_pts": 433.7,
       "winner": "winch",
-      "flagged": true
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": [
@@ -20473,19 +20628,20 @@
     "a_wins": 3,
     "b_wins": 1,
     "ties": 0,
-    "a_ppg": 448.8,
-    "b_ppg": 390.8,
+    "a_ppg": 464.3,
+    "b_ppg": 412.6,
     "streak": {
      "who": "jacobo",
      "n": 2
     },
     "blowout": {
-     "season": "2026-2027",
-     "week": 1,
-     "a_pts": 470.0,
-     "b_pts": 272.0,
-     "winner": "jacobo",
-     "flagged": false
+     "season": "2024-2025",
+     "week": 8,
+     "a_pts": 399.0,
+     "b_pts": 468.0,
+     "winner": "joey",
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -20493,7 +20649,8 @@
      "a_pts": 453.0,
      "b_pts": 409.0,
      "winner": "jacobo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20502,7 +20659,8 @@
       "a_pts": 453.0,
       "b_pts": 409.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20510,7 +20668,8 @@
       "a_pts": 399.0,
       "b_pts": 468.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20518,15 +20677,17 @@
       "a_pts": 473.0,
       "b_pts": 414.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 470.0,
-      "b_pts": 272.0,
+      "a_pts": 532.3,
+      "b_pts": 359.5,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -20550,7 +20711,8 @@
      "a_pts": 147.0,
      "b_pts": 456.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -20558,7 +20720,8 @@
      "a_pts": 497.0,
      "b_pts": 468.0,
      "winner": "jacobo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20567,7 +20730,8 @@
       "a_pts": 497.0,
       "b_pts": 468.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -20575,7 +20739,8 @@
       "a_pts": 394.0,
       "b_pts": 449.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20583,7 +20748,8 @@
       "a_pts": 301.0,
       "b_pts": 473.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20591,7 +20757,8 @@
       "a_pts": 454.0,
       "b_pts": 499.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20599,7 +20766,8 @@
       "a_pts": 427.0,
       "b_pts": 526.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20607,7 +20775,8 @@
       "a_pts": 147.0,
       "b_pts": 456.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -20631,7 +20800,8 @@
      "a_pts": 417.0,
      "b_pts": 561.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -20639,7 +20809,8 @@
      "a_pts": 432.0,
      "b_pts": 462.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20648,7 +20819,8 @@
       "a_pts": 417.0,
       "b_pts": 561.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20656,7 +20828,8 @@
       "a_pts": 302.0,
       "b_pts": 407.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20664,7 +20837,8 @@
       "a_pts": 451.0,
       "b_pts": 512.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20672,7 +20846,8 @@
       "a_pts": 434.0,
       "b_pts": 489.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20680,7 +20855,8 @@
       "a_pts": 432.0,
       "b_pts": 462.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -20692,8 +20868,8 @@
     "a_wins": 3,
     "b_wins": 2,
     "ties": 0,
-    "a_ppg": 443.4,
-    "b_ppg": 443.8,
+    "a_ppg": 451.6,
+    "b_ppg": 451.8,
     "streak": {
      "who": "jacobo",
      "n": 1
@@ -20704,7 +20880,8 @@
      "a_pts": 366.0,
      "b_pts": 556.0,
      "winner": "papo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -20712,7 +20889,8 @@
      "a_pts": 462.0,
      "b_pts": 401.0,
      "winner": "jacobo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20721,7 +20899,8 @@
       "a_pts": 462.0,
       "b_pts": 401.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -20729,7 +20908,8 @@
       "a_pts": 366.0,
       "b_pts": 556.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20737,7 +20917,8 @@
       "a_pts": 492.0,
       "b_pts": 322.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20745,15 +20926,17 @@
       "a_pts": 436.0,
       "b_pts": 573.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 461.0,
-      "b_pts": 367.0,
+      "a_pts": 501.8,
+      "b_pts": 407.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -20777,7 +20960,8 @@
      "a_pts": 350.0,
      "b_pts": 421.0,
      "winner": "ricky",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -20785,7 +20969,8 @@
      "a_pts": 450.0,
      "b_pts": 441.0,
      "winner": "jacobo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20794,7 +20979,8 @@
       "a_pts": 409.0,
       "b_pts": 359.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -20802,7 +20988,8 @@
       "a_pts": 350.0,
       "b_pts": 421.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20810,7 +20997,8 @@
       "a_pts": 447.0,
       "b_pts": 473.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20818,7 +21006,8 @@
       "a_pts": 454.0,
       "b_pts": 498.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20826,7 +21015,8 @@
       "a_pts": 399.0,
       "b_pts": 441.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20834,7 +21024,8 @@
       "a_pts": 450.0,
       "b_pts": 441.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -20846,8 +21037,8 @@
     "a_wins": 6,
     "b_wins": 1,
     "ties": 0,
-    "a_ppg": 461.7,
-    "b_ppg": 418.6,
+    "a_ppg": 468.7,
+    "b_ppg": 426.3,
     "streak": {
      "who": "jacobo",
      "n": 2
@@ -20855,10 +21046,11 @@
     "blowout": {
      "season": "2026-2027",
      "week": 4,
-     "a_pts": 523.0,
-     "b_pts": 426.0,
+     "a_pts": 572.0,
+     "b_pts": 480.0,
      "winner": "jacobo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -20866,7 +21058,8 @@
      "a_pts": 446.0,
      "b_pts": 441.0,
      "winner": "jacobo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20875,7 +21068,8 @@
       "a_pts": 475.0,
       "b_pts": 398.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -20883,7 +21077,8 @@
       "a_pts": 457.0,
       "b_pts": 380.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20891,7 +21086,8 @@
       "a_pts": 446.0,
       "b_pts": 441.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20899,7 +21095,8 @@
       "a_pts": 463.0,
       "b_pts": 431.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20907,7 +21104,8 @@
       "a_pts": 439.0,
       "b_pts": 475.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20915,15 +21113,17 @@
       "a_pts": 429.0,
       "b_pts": 379.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 4,
-      "a_pts": 523.0,
-      "b_pts": 426.0,
+      "a_pts": 572.0,
+      "b_pts": 480.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -20947,7 +21147,8 @@
      "a_pts": 289.0,
      "b_pts": 505.0,
      "winner": "verdeja",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -20955,7 +21156,8 @@
      "a_pts": 472.0,
      "b_pts": 407.0,
      "winner": "jacobo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -20964,7 +21166,8 @@
       "a_pts": 289.0,
       "b_pts": 505.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -20972,7 +21175,8 @@
       "a_pts": 364.0,
       "b_pts": 451.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20980,7 +21184,8 @@
       "a_pts": 343.0,
       "b_pts": 446.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -20988,7 +21193,8 @@
       "a_pts": 472.0,
       "b_pts": 407.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -21012,7 +21218,8 @@
      "a_pts": 308.0,
      "b_pts": 502.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -21020,7 +21227,8 @@
      "a_pts": 463.0,
      "b_pts": 451.0,
      "winner": "jacobo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21029,7 +21237,8 @@
       "a_pts": 463.0,
       "b_pts": 451.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -21037,7 +21246,8 @@
       "a_pts": 393.0,
       "b_pts": 442.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21045,7 +21255,8 @@
       "a_pts": 308.0,
       "b_pts": 502.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21053,7 +21264,8 @@
       "a_pts": 366.0,
       "b_pts": 479.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21061,7 +21273,8 @@
       "a_pts": 328.0,
       "b_pts": 445.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21069,7 +21282,8 @@
       "a_pts": 341.0,
       "b_pts": 318.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -21093,7 +21307,8 @@
      "a_pts": 327.0,
      "b_pts": 473.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -21101,7 +21316,8 @@
      "a_pts": 464.0,
      "b_pts": 479.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21110,7 +21326,8 @@
       "a_pts": 358.0,
       "b_pts": 437.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -21118,7 +21335,8 @@
       "a_pts": 361.0,
       "b_pts": 387.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21126,7 +21344,8 @@
       "a_pts": 327.0,
       "b_pts": 473.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21134,7 +21353,8 @@
       "a_pts": 464.0,
       "b_pts": 479.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21142,7 +21362,8 @@
       "a_pts": 464.0,
       "b_pts": 416.0,
       "winner": "jacobo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -21166,7 +21387,8 @@
      "a_pts": 467.0,
      "b_pts": 550.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -21174,7 +21396,8 @@
      "a_pts": 405.0,
      "b_pts": 419.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21183,7 +21406,8 @@
       "a_pts": 488.0,
       "b_pts": 462.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -21191,7 +21415,8 @@
       "a_pts": 469.0,
       "b_pts": 403.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21199,7 +21424,8 @@
       "a_pts": 467.0,
       "b_pts": 550.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21207,7 +21433,8 @@
       "a_pts": 405.0,
       "b_pts": 419.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21215,7 +21442,8 @@
       "a_pts": 438.0,
       "b_pts": 503.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -21239,7 +21467,8 @@
      "a_pts": 445.0,
      "b_pts": 601.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -21247,7 +21476,8 @@
      "a_pts": 443.0,
      "b_pts": 446.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21256,7 +21486,8 @@
       "a_pts": 489.0,
       "b_pts": 463.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -21264,7 +21495,8 @@
       "a_pts": 505.0,
       "b_pts": 521.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21272,7 +21504,8 @@
       "a_pts": 445.0,
       "b_pts": 601.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21280,7 +21513,8 @@
       "a_pts": 415.0,
       "b_pts": 557.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21288,7 +21522,8 @@
       "a_pts": 443.0,
       "b_pts": 446.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -21300,8 +21535,8 @@
     "a_wins": 4,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 462.6,
-    "b_ppg": 428.7,
+    "a_ppg": 471.2,
+    "b_ppg": 433.7,
     "streak": {
      "who": "joey",
      "n": 1
@@ -21312,7 +21547,8 @@
      "a_pts": 508.0,
      "b_pts": 341.0,
      "winner": "joey",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -21320,7 +21556,8 @@
      "a_pts": 520.0,
      "b_pts": 515.0,
      "winner": "joey",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21329,7 +21566,8 @@
       "a_pts": 443.0,
       "b_pts": 456.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -21337,7 +21575,8 @@
       "a_pts": 520.0,
       "b_pts": 515.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21345,7 +21584,8 @@
       "a_pts": 536.0,
       "b_pts": 413.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21353,7 +21593,8 @@
       "a_pts": 508.0,
       "b_pts": 341.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21361,7 +21602,8 @@
       "a_pts": 425.0,
       "b_pts": 449.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21369,15 +21611,17 @@
       "a_pts": 377.0,
       "b_pts": 476.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 429.0,
-      "b_pts": 351.0,
+      "a_pts": 489.7,
+      "b_pts": 385.7,
       "winner": "joey",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": [
@@ -21397,8 +21641,8 @@
     "a_wins": 2,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 359.0,
-    "b_ppg": 416.8,
+    "a_ppg": 374.2,
+    "b_ppg": 417.7,
     "streak": {
      "who": "ricky",
      "n": 4
@@ -21409,7 +21653,8 @@
      "a_pts": 235.0,
      "b_pts": 407.0,
      "winner": "ricky",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -21417,7 +21662,8 @@
      "a_pts": 443.0,
      "b_pts": 444.0,
      "winner": "ricky",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21426,7 +21672,8 @@
       "a_pts": 464.0,
       "b_pts": 461.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21434,7 +21681,8 @@
       "a_pts": 518.0,
       "b_pts": 407.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21442,7 +21690,8 @@
       "a_pts": 235.0,
       "b_pts": 407.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21450,7 +21699,8 @@
       "a_pts": 443.0,
       "b_pts": 444.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21458,15 +21708,17 @@
       "a_pts": 233.0,
       "b_pts": 371.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 4,
-      "a_pts": 261.0,
-      "b_pts": 411.0,
+      "a_pts": 352.0,
+      "b_pts": 416.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -21490,7 +21742,8 @@
      "a_pts": 212.0,
      "b_pts": 385.0,
      "winner": "shueiro",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -21498,7 +21751,8 @@
      "a_pts": 416.0,
      "b_pts": 435.0,
      "winner": "shueiro",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21507,7 +21761,8 @@
       "a_pts": 568.0,
       "b_pts": 513.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -21515,7 +21770,8 @@
       "a_pts": 474.0,
       "b_pts": 474.0,
       "winner": null,
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21523,7 +21779,8 @@
       "a_pts": 460.0,
       "b_pts": 346.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21531,7 +21788,8 @@
       "a_pts": 421.0,
       "b_pts": 444.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21539,7 +21797,8 @@
       "a_pts": 416.0,
       "b_pts": 435.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21547,7 +21806,8 @@
       "a_pts": 212.0,
       "b_pts": 385.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -21571,7 +21831,8 @@
      "a_pts": 434.0,
      "b_pts": 559.0,
      "winner": "verdeja",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -21579,7 +21840,8 @@
      "a_pts": 497.0,
      "b_pts": 472.0,
      "winner": "joey",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21588,7 +21850,8 @@
       "a_pts": 497.0,
       "b_pts": 472.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -21596,7 +21859,8 @@
       "a_pts": 510.0,
       "b_pts": 424.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21604,7 +21868,8 @@
       "a_pts": 482.0,
       "b_pts": 531.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21612,7 +21877,8 @@
       "a_pts": 488.0,
       "b_pts": 429.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21620,7 +21886,8 @@
       "a_pts": 434.0,
       "b_pts": 559.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -21644,7 +21911,8 @@
      "a_pts": 467.0,
      "b_pts": 229.0,
      "winner": "joey",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -21652,7 +21920,8 @@
      "a_pts": 469.0,
      "b_pts": 506.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21661,7 +21930,8 @@
       "a_pts": 450.0,
       "b_pts": 406.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -21669,7 +21939,8 @@
       "a_pts": 469.0,
       "b_pts": 506.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21677,7 +21948,8 @@
       "a_pts": 379.0,
       "b_pts": 543.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21685,7 +21957,8 @@
       "a_pts": 438.0,
       "b_pts": 521.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21693,7 +21966,8 @@
       "a_pts": 467.0,
       "b_pts": 229.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": [
@@ -21732,7 +22006,8 @@
      "a_pts": 584.0,
      "b_pts": 485.0,
      "winner": "joey",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -21740,7 +22015,8 @@
      "a_pts": 437.0,
      "b_pts": 435.0,
      "winner": "joey",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21749,7 +22025,8 @@
       "a_pts": 505.0,
       "b_pts": 562.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21757,7 +22034,8 @@
       "a_pts": 437.0,
       "b_pts": 435.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21765,7 +22043,8 @@
       "a_pts": 467.0,
       "b_pts": 507.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21773,7 +22052,8 @@
       "a_pts": 584.0,
       "b_pts": 485.0,
       "winner": "joey",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21781,7 +22061,8 @@
       "a_pts": 405.0,
       "b_pts": 488.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -21793,8 +22074,8 @@
     "a_wins": 4,
     "b_wins": 3,
     "ties": 0,
-    "a_ppg": 487.4,
-    "b_ppg": 496.0,
+    "a_ppg": 494.6,
+    "b_ppg": 499.5,
     "streak": {
      "who": "libguel",
      "n": 4
@@ -21805,7 +22086,8 @@
      "a_pts": 350.0,
      "b_pts": 455.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -21813,7 +22095,8 @@
      "a_pts": 499.0,
      "b_pts": 490.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21822,7 +22105,8 @@
       "a_pts": 350.0,
       "b_pts": 455.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -21830,7 +22114,8 @@
       "a_pts": 514.0,
       "b_pts": 605.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21838,7 +22123,8 @@
       "a_pts": 511.0,
       "b_pts": 538.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21846,7 +22132,8 @@
       "a_pts": 499.0,
       "b_pts": 490.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21854,7 +22141,8 @@
       "a_pts": 551.0,
       "b_pts": 459.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21862,15 +22150,17 @@
       "a_pts": 502.0,
       "b_pts": 493.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 485.0,
-      "b_pts": 432.0,
+      "a_pts": 535.2,
+      "b_pts": 456.8,
       "winner": "libguel",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -21894,7 +22184,8 @@
      "a_pts": 480.0,
      "b_pts": 320.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -21902,7 +22193,8 @@
      "a_pts": 427.0,
      "b_pts": 479.0,
      "winner": "papo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21911,7 +22203,8 @@
       "a_pts": 427.0,
       "b_pts": 479.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -21919,7 +22212,8 @@
       "a_pts": 383.0,
       "b_pts": 472.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -21927,7 +22221,8 @@
       "a_pts": 502.0,
       "b_pts": 378.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21935,7 +22230,8 @@
       "a_pts": 480.0,
       "b_pts": 320.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -21943,7 +22239,8 @@
       "a_pts": 460.0,
       "b_pts": 399.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": [
@@ -21963,8 +22260,8 @@
     "a_wins": 3,
     "b_wins": 2,
     "ties": 0,
-    "a_ppg": 462.6,
-    "b_ppg": 421.6,
+    "a_ppg": 470.0,
+    "b_ppg": 419.3,
     "streak": {
      "who": "libguel",
      "n": 3
@@ -21975,7 +22272,8 @@
      "a_pts": 461.0,
      "b_pts": 348.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -21983,7 +22281,8 @@
      "a_pts": 380.0,
      "b_pts": 383.0,
      "winner": "ricky",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -21992,7 +22291,8 @@
       "a_pts": 467.0,
       "b_pts": 549.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22000,7 +22300,8 @@
       "a_pts": 380.0,
       "b_pts": 383.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22008,7 +22309,8 @@
       "a_pts": 533.0,
       "b_pts": 438.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22016,15 +22318,17 @@
       "a_pts": 461.0,
       "b_pts": 348.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 472.0,
-      "b_pts": 390.0,
+      "a_pts": 508.9,
+      "b_pts": 378.6,
       "winner": "libguel",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -22036,8 +22340,8 @@
     "a_wins": 4,
     "b_wins": 2,
     "ties": 0,
-    "a_ppg": 493.0,
-    "b_ppg": 473.8,
+    "a_ppg": 504.5,
+    "b_ppg": 480.8,
     "streak": {
      "who": "shueiro",
      "n": 1
@@ -22048,7 +22352,8 @@
      "a_pts": 524.0,
      "b_pts": 394.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -22056,7 +22361,8 @@
      "a_pts": 471.0,
      "b_pts": 441.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22065,7 +22371,8 @@
       "a_pts": 447.0,
       "b_pts": 456.0,
       "winner": "libguel",
-      "flagged": true
+      "flagged": true,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22073,7 +22380,8 @@
       "a_pts": 471.0,
       "b_pts": 441.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22081,7 +22389,8 @@
       "a_pts": 548.0,
       "b_pts": 579.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22089,7 +22398,8 @@
       "a_pts": 524.0,
       "b_pts": 394.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22097,15 +22407,17 @@
       "a_pts": 563.0,
       "b_pts": 450.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 405.0,
-      "b_pts": 523.0,
+      "a_pts": 473.9,
+      "b_pts": 564.6,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -22129,7 +22441,8 @@
      "a_pts": 610.0,
      "b_pts": 397.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -22137,7 +22450,8 @@
      "a_pts": 340.0,
      "b_pts": 358.0,
      "winner": "verdeja",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22146,7 +22460,8 @@
       "a_pts": 353.0,
       "b_pts": 420.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -22154,7 +22469,8 @@
       "a_pts": 414.0,
       "b_pts": 299.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22162,7 +22478,8 @@
       "a_pts": 417.0,
       "b_pts": 468.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22170,7 +22487,8 @@
       "a_pts": 610.0,
       "b_pts": 397.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22178,7 +22496,8 @@
       "a_pts": 340.0,
       "b_pts": 358.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -22202,7 +22521,8 @@
      "a_pts": 454.0,
      "b_pts": 251.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -22210,7 +22530,8 @@
      "a_pts": 462.0,
      "b_pts": 487.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22219,7 +22540,8 @@
       "a_pts": 440.0,
       "b_pts": 519.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22227,7 +22549,8 @@
       "a_pts": 491.0,
       "b_pts": 412.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22235,7 +22558,8 @@
       "a_pts": 462.0,
       "b_pts": 487.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22243,7 +22567,8 @@
       "a_pts": 513.0,
       "b_pts": 488.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22251,7 +22576,8 @@
       "a_pts": 454.0,
       "b_pts": 251.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -22263,8 +22589,8 @@
     "a_wins": 2,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 468.7,
-    "b_ppg": 512.2,
+    "a_ppg": 485.0,
+    "b_ppg": 531.7,
     "streak": {
      "who": "libguel",
      "n": 2
@@ -22275,15 +22601,17 @@
      "a_pts": 422.0,
      "b_pts": 536.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
-     "season": "2025-2026",
-     "week": 12,
-     "a_pts": 515.0,
-     "b_pts": 477.0,
+     "season": "2026-2027",
+     "week": 4,
+     "a_pts": 540.0,
+     "b_pts": 504.0,
      "winner": "libguel",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22292,7 +22620,8 @@
       "a_pts": 532.0,
       "b_pts": 572.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22300,7 +22629,8 @@
       "a_pts": 448.0,
       "b_pts": 550.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22308,7 +22638,8 @@
       "a_pts": 453.0,
       "b_pts": 551.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22316,7 +22647,8 @@
       "a_pts": 422.0,
       "b_pts": 536.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22324,15 +22656,17 @@
       "a_pts": 515.0,
       "b_pts": 477.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 4,
-      "a_pts": 442.0,
-      "b_pts": 387.0,
+      "a_pts": 540.0,
+      "b_pts": 504.0,
       "winner": "libguel",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -22356,7 +22690,8 @@
      "a_pts": 549.0,
      "b_pts": 351.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -22364,7 +22699,8 @@
      "a_pts": 508.0,
      "b_pts": 500.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22373,7 +22709,8 @@
       "a_pts": 508.0,
       "b_pts": 500.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -22381,7 +22718,8 @@
       "a_pts": 648.0,
       "b_pts": 525.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22389,7 +22727,8 @@
       "a_pts": 549.0,
       "b_pts": 351.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22397,7 +22736,8 @@
       "a_pts": 496.0,
       "b_pts": 514.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22405,7 +22745,8 @@
       "a_pts": 478.0,
       "b_pts": 408.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -22417,8 +22758,8 @@
     "a_wins": 5,
     "b_wins": 1,
     "ties": 0,
-    "a_ppg": 490.5,
-    "b_ppg": 418.5,
+    "a_ppg": 492.3,
+    "b_ppg": 416.5,
     "streak": {
      "who": "ricky",
      "n": 1
@@ -22429,7 +22770,8 @@
      "a_pts": 557.0,
      "b_pts": 405.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -22437,7 +22779,8 @@
      "a_pts": 500.0,
      "b_pts": 451.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22446,7 +22789,8 @@
       "a_pts": 482.0,
       "b_pts": 429.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22454,7 +22798,8 @@
       "a_pts": 483.0,
       "b_pts": 396.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22462,7 +22807,8 @@
       "a_pts": 557.0,
       "b_pts": 405.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22470,7 +22816,8 @@
       "a_pts": 500.0,
       "b_pts": 451.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22478,15 +22825,17 @@
       "a_pts": 497.0,
       "b_pts": 350.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 424.0,
-      "b_pts": 480.0,
+      "a_pts": 434.6,
+      "b_pts": 467.9,
       "winner": "ricky",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -22498,8 +22847,8 @@
     "a_wins": 3,
     "b_wins": 3,
     "ties": 0,
-    "a_ppg": 442.8,
-    "b_ppg": 454.0,
+    "a_ppg": 451.3,
+    "b_ppg": 462.2,
     "streak": {
      "who": "shueiro",
      "n": 1
@@ -22510,7 +22859,8 @@
      "a_pts": 479.0,
      "b_pts": 419.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -22518,7 +22868,8 @@
      "a_pts": 416.0,
      "b_pts": 404.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22527,7 +22878,8 @@
       "a_pts": 479.0,
       "b_pts": 419.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -22535,7 +22887,8 @@
       "a_pts": 416.0,
       "b_pts": 404.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22543,7 +22896,8 @@
       "a_pts": 441.0,
       "b_pts": 484.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22551,15 +22905,17 @@
       "a_pts": 457.0,
       "b_pts": 490.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 421.0,
-      "b_pts": 473.0,
+      "a_pts": 463.6,
+      "b_pts": 513.9,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": [
@@ -22591,7 +22947,8 @@
      "a_pts": 594.0,
      "b_pts": 394.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -22599,7 +22956,8 @@
      "a_pts": 510.0,
      "b_pts": 522.0,
      "winner": "verdeja",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22608,7 +22966,8 @@
       "a_pts": 594.0,
       "b_pts": 394.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -22616,7 +22975,8 @@
       "a_pts": 510.0,
       "b_pts": 522.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22624,7 +22984,8 @@
       "a_pts": 433.0,
       "b_pts": 339.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22632,7 +22993,8 @@
       "a_pts": 482.0,
       "b_pts": 502.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22640,7 +23002,8 @@
       "a_pts": 556.0,
       "b_pts": 381.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -22652,8 +23015,8 @@
     "a_wins": 4,
     "b_wins": 3,
     "ties": 0,
-    "a_ppg": 515.8,
-    "b_ppg": 483.0,
+    "a_ppg": 520.0,
+    "b_ppg": 490.0,
     "streak": {
      "who": "victor",
      "n": 1
@@ -22664,7 +23027,8 @@
      "a_pts": 585.0,
      "b_pts": 470.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -22672,7 +23036,8 @@
      "a_pts": 549.0,
      "b_pts": 552.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22681,7 +23046,8 @@
       "a_pts": 585.0,
       "b_pts": 470.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -22689,7 +23055,8 @@
       "a_pts": 428.0,
       "b_pts": 379.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22697,7 +23064,8 @@
       "a_pts": 519.0,
       "b_pts": 558.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22705,7 +23073,8 @@
       "a_pts": 549.0,
       "b_pts": 552.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22713,15 +23082,17 @@
       "a_pts": 515.0,
       "b_pts": 451.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 4,
-      "a_pts": 499.0,
-      "b_pts": 488.0,
+      "a_pts": 524.0,
+      "b_pts": 530.0,
       "winner": "victor",
-      "flagged": true
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": [
@@ -22753,7 +23124,8 @@
      "a_pts": 577.0,
      "b_pts": 426.0,
      "winner": "melo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -22761,7 +23133,8 @@
      "a_pts": 523.0,
      "b_pts": 528.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22770,7 +23143,8 @@
       "a_pts": 523.0,
       "b_pts": 528.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22778,7 +23152,8 @@
       "a_pts": 452.0,
       "b_pts": 534.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22786,7 +23161,8 @@
       "a_pts": 581.0,
       "b_pts": 479.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22794,7 +23170,8 @@
       "a_pts": 577.0,
       "b_pts": 426.0,
       "winner": "melo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22802,7 +23179,8 @@
       "a_pts": 481.0,
       "b_pts": 489.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": [
@@ -22841,7 +23219,8 @@
      "a_pts": 518.0,
      "b_pts": 388.0,
      "winner": "papo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -22849,7 +23228,8 @@
      "a_pts": 408.0,
      "b_pts": 443.0,
      "winner": "ricky",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22858,7 +23238,8 @@
       "a_pts": 566.0,
       "b_pts": 451.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22866,7 +23247,8 @@
       "a_pts": 452.0,
       "b_pts": 370.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22874,7 +23256,8 @@
       "a_pts": 480.0,
       "b_pts": 438.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22882,7 +23265,8 @@
       "a_pts": 518.0,
       "b_pts": 388.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22890,7 +23274,8 @@
       "a_pts": 408.0,
       "b_pts": 443.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -22914,7 +23299,8 @@
      "a_pts": 140.0,
      "b_pts": 449.0,
      "winner": "shueiro",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -22922,7 +23308,8 @@
      "a_pts": 532.0,
      "b_pts": 509.0,
      "winner": "papo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22931,7 +23318,8 @@
       "a_pts": 493.0,
       "b_pts": 435.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -22939,7 +23327,8 @@
       "a_pts": 140.0,
       "b_pts": 449.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22947,7 +23336,8 @@
       "a_pts": 458.0,
       "b_pts": 583.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -22955,7 +23345,8 @@
       "a_pts": 532.0,
       "b_pts": 509.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -22979,7 +23370,8 @@
      "a_pts": 558.0,
      "b_pts": 365.0,
      "winner": "papo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -22987,7 +23379,8 @@
      "a_pts": 468.0,
      "b_pts": 431.0,
      "winner": "papo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -22996,7 +23389,8 @@
       "a_pts": 558.0,
       "b_pts": 365.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -23004,7 +23398,8 @@
       "a_pts": 471.0,
       "b_pts": 348.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23012,7 +23407,8 @@
       "a_pts": 468.0,
       "b_pts": 431.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23020,7 +23416,8 @@
       "a_pts": 345.0,
       "b_pts": 392.0,
       "winner": "papo",
-      "flagged": true
+      "flagged": true,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23028,7 +23425,8 @@
       "a_pts": 494.0,
       "b_pts": 389.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -23052,7 +23450,8 @@
      "a_pts": 164.0,
      "b_pts": 485.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -23060,7 +23459,8 @@
      "a_pts": 497.0,
      "b_pts": 485.0,
      "winner": "papo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23069,7 +23469,8 @@
       "a_pts": 626.0,
       "b_pts": 527.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23077,7 +23478,8 @@
       "a_pts": 430.0,
       "b_pts": 507.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23085,7 +23487,8 @@
       "a_pts": 164.0,
       "b_pts": 485.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23093,7 +23496,8 @@
       "a_pts": 497.0,
       "b_pts": 485.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23101,7 +23505,8 @@
       "a_pts": 455.0,
       "b_pts": 404.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -23125,7 +23530,8 @@
      "a_pts": 345.0,
      "b_pts": 465.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -23133,7 +23539,8 @@
      "a_pts": 475.0,
      "b_pts": 459.0,
      "winner": "papo",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23142,7 +23549,8 @@
       "a_pts": 497.0,
       "b_pts": 539.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23150,7 +23558,8 @@
       "a_pts": 345.0,
       "b_pts": 465.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23158,7 +23567,8 @@
       "a_pts": 460.0,
       "b_pts": 442.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23166,7 +23576,8 @@
       "a_pts": 475.0,
       "b_pts": 459.0,
       "winner": "papo",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": [
@@ -23193,8 +23604,8 @@
     "a_wins": 1,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 423.6,
-    "b_ppg": 448.0,
+    "a_ppg": 424.9,
+    "b_ppg": 453.5,
     "streak": {
      "who": "ricky",
      "n": 1
@@ -23205,7 +23616,8 @@
      "a_pts": 386.0,
      "b_pts": 527.0,
      "winner": "shueiro",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -23213,7 +23625,8 @@
      "a_pts": 410.0,
      "b_pts": 414.0,
      "winner": "shueiro",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23222,7 +23635,8 @@
       "a_pts": 423.0,
       "b_pts": 434.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -23230,7 +23644,8 @@
       "a_pts": 437.0,
       "b_pts": 488.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23238,7 +23653,8 @@
       "a_pts": 386.0,
       "b_pts": 527.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23246,15 +23662,17 @@
       "a_pts": 410.0,
       "b_pts": 414.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 462.0,
-      "b_pts": 377.0,
+      "a_pts": 468.5,
+      "b_pts": 404.5,
       "winner": "ricky",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -23278,7 +23696,8 @@
      "a_pts": 370.0,
      "b_pts": 451.0,
      "winner": "verdeja",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -23286,7 +23705,8 @@
      "a_pts": 418.0,
      "b_pts": 426.0,
      "winner": "verdeja",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23295,7 +23715,8 @@
       "a_pts": 379.0,
       "b_pts": 447.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -23303,7 +23724,8 @@
       "a_pts": 390.0,
       "b_pts": 436.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23311,7 +23733,8 @@
       "a_pts": 418.0,
       "b_pts": 426.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23319,7 +23742,8 @@
       "a_pts": 485.0,
       "b_pts": 544.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23327,7 +23751,8 @@
       "a_pts": 370.0,
       "b_pts": 451.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -23351,7 +23776,8 @@
      "a_pts": 243.0,
      "b_pts": 492.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -23359,7 +23785,8 @@
      "a_pts": 322.0,
      "b_pts": 358.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23368,7 +23795,8 @@
       "a_pts": 400.0,
       "b_pts": 527.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -23376,7 +23804,8 @@
       "a_pts": 243.0,
       "b_pts": 492.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23384,7 +23813,8 @@
       "a_pts": 322.0,
       "b_pts": 358.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23392,7 +23822,8 @@
       "a_pts": 362.0,
       "b_pts": 583.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -23416,7 +23847,8 @@
      "a_pts": 410.0,
      "b_pts": 548.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -23424,7 +23856,8 @@
      "a_pts": 414.0,
      "b_pts": 410.0,
      "winner": "ricky",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23433,7 +23866,8 @@
       "a_pts": 446.0,
       "b_pts": 530.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -23441,7 +23875,8 @@
       "a_pts": 410.0,
       "b_pts": 548.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23449,7 +23884,8 @@
       "a_pts": 318.0,
       "b_pts": 422.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23457,7 +23893,8 @@
       "a_pts": 463.0,
       "b_pts": 438.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23465,7 +23902,8 @@
       "a_pts": 414.0,
       "b_pts": 410.0,
       "winner": "ricky",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -23489,7 +23927,8 @@
      "a_pts": 547.0,
      "b_pts": 398.0,
      "winner": "shueiro",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2024-2025",
@@ -23497,7 +23936,8 @@
      "a_pts": 410.0,
      "b_pts": 427.0,
      "winner": "verdeja",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23506,7 +23946,8 @@
       "a_pts": 416.0,
       "b_pts": 487.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23514,7 +23955,8 @@
       "a_pts": 473.0,
       "b_pts": 493.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23522,7 +23964,8 @@
       "a_pts": 410.0,
       "b_pts": 427.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23530,7 +23973,8 @@
       "a_pts": 406.0,
       "b_pts": 334.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23538,7 +23982,8 @@
       "a_pts": 547.0,
       "b_pts": 398.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -23562,7 +24007,8 @@
      "a_pts": 507.0,
      "b_pts": 286.0,
      "winner": "shueiro",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -23570,7 +24016,8 @@
      "a_pts": 406.0,
      "b_pts": 408.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23579,7 +24026,8 @@
       "a_pts": 405.0,
       "b_pts": 400.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -23587,7 +24035,8 @@
       "a_pts": 481.0,
       "b_pts": 467.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23595,7 +24044,8 @@
       "a_pts": 450.0,
       "b_pts": 455.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23603,7 +24053,8 @@
       "a_pts": 489.0,
       "b_pts": 414.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23611,7 +24062,8 @@
       "a_pts": 406.0,
       "b_pts": 408.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23619,7 +24071,8 @@
       "a_pts": 507.0,
       "b_pts": 286.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": []
@@ -23643,7 +24096,8 @@
      "a_pts": 435.0,
      "b_pts": 590.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2023-2024",
@@ -23651,7 +24105,8 @@
      "a_pts": 447.0,
      "b_pts": 437.0,
      "winner": "shueiro",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23660,7 +24115,8 @@
       "a_pts": 447.0,
       "b_pts": 437.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -23668,7 +24124,8 @@
       "a_pts": 435.0,
       "b_pts": 590.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23676,7 +24133,8 @@
       "a_pts": 475.0,
       "b_pts": 512.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23684,7 +24142,8 @@
       "a_pts": 528.0,
       "b_pts": 561.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23692,7 +24151,8 @@
       "a_pts": 468.0,
       "b_pts": 555.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23700,7 +24160,8 @@
       "a_pts": 499.0,
       "b_pts": 455.0,
       "winner": "shueiro",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      }
     ],
     "playoffs": [
@@ -23720,8 +24181,8 @@
     "a_wins": 1,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 429.6,
-    "b_ppg": 467.2,
+    "a_ppg": 435.1,
+    "b_ppg": 472.6,
     "streak": {
      "who": "verdeja",
      "n": 1
@@ -23732,7 +24193,8 @@
      "a_pts": 336.0,
      "b_pts": 458.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -23740,7 +24202,8 @@
      "a_pts": 418.0,
      "b_pts": 437.0,
      "winner": "victor",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23749,7 +24212,8 @@
       "a_pts": 413.0,
       "b_pts": 497.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23757,7 +24221,8 @@
       "a_pts": 336.0,
       "b_pts": 458.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23765,7 +24230,8 @@
       "a_pts": 511.0,
       "b_pts": 546.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23773,15 +24239,17 @@
       "a_pts": 418.0,
       "b_pts": 437.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 470.0,
-      "b_pts": 398.0,
+      "a_pts": 497.4,
+      "b_pts": 424.9,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -23793,7 +24261,7 @@
     "a_wins": 1,
     "b_wins": 6,
     "ties": 0,
-    "a_ppg": 411.1,
+    "a_ppg": 417.4,
     "b_ppg": 477.9,
     "streak": {
      "who": "winch",
@@ -23805,7 +24273,8 @@
      "a_pts": 424.0,
      "b_pts": 564.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -23813,7 +24282,8 @@
      "a_pts": 413.0,
      "b_pts": 407.0,
      "winner": "verdeja",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23822,7 +24292,8 @@
       "a_pts": 424.0,
       "b_pts": 564.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -23830,7 +24301,8 @@
       "a_pts": 466.0,
       "b_pts": 493.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23838,7 +24310,8 @@
       "a_pts": 458.0,
       "b_pts": 551.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23846,7 +24319,8 @@
       "a_pts": 481.0,
       "b_pts": 505.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23854,7 +24328,8 @@
       "a_pts": 413.0,
       "b_pts": 407.0,
       "winner": "verdeja",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23862,15 +24337,17 @@
       "a_pts": 336.0,
       "b_pts": 430.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 300.0,
-      "b_pts": 395.0,
+      "a_pts": 343.5,
+      "b_pts": 395.3,
       "winner": "winch",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -23882,8 +24359,8 @@
     "a_wins": 1,
     "b_wins": 6,
     "ties": 0,
-    "a_ppg": 422.9,
-    "b_ppg": 479.3,
+    "a_ppg": 430.5,
+    "b_ppg": 480.9,
     "streak": {
      "who": "victor",
      "n": 1
@@ -23894,7 +24371,8 @@
      "a_pts": 288.0,
      "b_pts": 427.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "closest": {
      "season": "2025-2026",
@@ -23902,7 +24380,8 @@
      "a_pts": 454.0,
      "b_pts": 476.0,
      "winner": "winch",
-     "flagged": false
+     "flagged": false,
+     "estimated": false
     },
     "games": [
      {
@@ -23911,7 +24390,8 @@
       "a_pts": 413.0,
       "b_pts": 495.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2023-2024",
@@ -23919,7 +24399,8 @@
       "a_pts": 506.0,
       "b_pts": 554.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23927,7 +24408,8 @@
       "a_pts": 448.0,
       "b_pts": 523.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2024-2025",
@@ -23935,7 +24417,8 @@
       "a_pts": 418.0,
       "b_pts": 518.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23943,7 +24426,8 @@
       "a_pts": 454.0,
       "b_pts": 476.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2025-2026",
@@ -23951,15 +24435,17 @@
       "a_pts": 288.0,
       "b_pts": 427.0,
       "winner": "winch",
-      "flagged": false
+      "flagged": false,
+      "estimated": false
      },
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 433.0,
-      "b_pts": 362.0,
+      "a_pts": 486.8,
+      "b_pts": 373.0,
       "winner": "victor",
-      "flagged": false
+      "flagged": true,
+      "estimated": true
      }
     ],
     "playoffs": []
@@ -24377,7 +24863,7 @@
     "own_firsts_gone": [
      2027
     ],
-    "power_rank": 4,
+    "power_rank": 2,
     "rank": 2
    },
    {
@@ -24457,7 +24943,7 @@
      2027,
      2028
     ],
-    "power_rank": 2,
+    "power_rank": 3,
     "rank": 3
    },
    {
@@ -24529,7 +25015,7 @@
     ],
     "capital": 32,
     "own_firsts_gone": [],
-    "power_rank": 3,
+    "power_rank": 5,
     "rank": 4
    },
    {
@@ -24601,7 +25087,7 @@
     ],
     "capital": 30,
     "own_firsts_gone": [],
-    "power_rank": 5,
+    "power_rank": 4,
     "rank": 5
    },
    {
@@ -24815,7 +25301,7 @@
      2027,
      2029
     ],
-    "power_rank": 8,
+    "power_rank": 10,
     "rank": 8
    },
    {
@@ -24988,7 +25474,7 @@
      2028,
      2029
     ],
-    "power_rank": 10,
+    "power_rank": 8,
     "rank": 12
    }
   ],
@@ -24999,7 +25485,7 @@
   "traded": 52
  },
  "odds": {
-  "sd": 61.4,
+  "sd": 61.2,
   "weeks": [
    {
     "week": 5,
@@ -25012,14 +25498,14 @@
       "b_name": "Shueiro",
       "a_team": "Fidel’s Accumulators",
       "b_team": "2057 Champs",
-      "a_proj": 314,
-      "b_proj": 440,
-      "a_prob": 7.3,
-      "a_ml": "+950",
-      "b_ml": "-1890",
+      "a_proj": 373,
+      "b_proj": 469,
+      "a_prob": 13.4,
+      "a_ml": "+535",
+      "b_ml": "-795",
       "favorite": "shueiro",
-      "spread": 126.5,
-      "total": 754.5,
+      "spread": 95.5,
+      "total": 842.5,
       "a_live": 383.0,
       "b_live": 285.0
      },
@@ -25030,14 +25516,14 @@
       "b_name": "Victor",
       "a_team": "Los Chigüires",
       "b_team": "I Love Dragić",
-      "a_proj": 445,
-      "b_proj": 436,
-      "a_prob": 54.1,
-      "a_ml": "-130",
-      "b_ml": "+110",
+      "a_proj": 489,
+      "b_proj": 468,
+      "a_prob": 59.8,
+      "a_ml": "-165",
+      "b_ml": "+135",
       "favorite": "libguel",
-      "spread": 8.5,
-      "total": 880.5,
+      "spread": 21.5,
+      "total": 957.5,
       "a_live": 209.0,
       "b_live": 192.0
      },
@@ -25048,14 +25534,14 @@
       "b_name": "Melo",
       "a_team": "Equipo Winchenzo",
       "b_team": "LeBong James",
-      "a_proj": 398,
-      "b_proj": 453,
-      "a_prob": 26.3,
-      "a_ml": "+250",
-      "b_ml": "-315",
+      "a_proj": 426,
+      "b_proj": 471,
+      "a_prob": 30.3,
+      "a_ml": "+205",
+      "b_ml": "-255",
       "favorite": "melo",
-      "spread": 54.5,
-      "total": 850.5,
+      "spread": 44.5,
+      "total": 896.5,
       "a_live": 236.0,
       "b_live": 234.0
      },
@@ -25066,14 +25552,14 @@
       "b_name": "Verdeja",
       "a_team": "Fear the Brow",
       "b_team": "Antetokounmpers",
-      "a_proj": 405,
-      "b_proj": 421,
-      "a_prob": 43.0,
-      "a_ml": "+120",
-      "b_ml": "-145",
-      "favorite": "verdeja",
-      "spread": 15.5,
-      "total": 825.5,
+      "a_proj": 456,
+      "b_proj": 442,
+      "a_prob": 56.0,
+      "a_ml": "-140",
+      "b_ml": "+115",
+      "favorite": "papo",
+      "spread": 13.5,
+      "total": 898.5,
       "a_live": 279.0,
       "b_live": 170.0
      },
@@ -25084,14 +25570,14 @@
       "b_name": "Ricky",
       "a_team": "hotrelish",
       "b_team": "MoonUnit 🦬",
-      "a_proj": 471,
-      "b_proj": 433,
-      "a_prob": 66.8,
-      "a_ml": "-225",
-      "b_ml": "+180",
+      "a_proj": 512,
+      "b_proj": 431,
+      "a_prob": 82.4,
+      "a_ml": "-550",
+      "b_ml": "+405",
       "favorite": "jacobo",
-      "spread": 37.5,
-      "total": 904.5,
+      "spread": 80.5,
+      "total": 942.5,
       "a_live": 175.0,
       "b_live": 269.0
      },
@@ -25102,14 +25588,14 @@
       "b_name": "Blandon",
       "a_team": "Lochte & Associates",
       "b_team": "Rabbi BT69",
-      "a_proj": 377,
-      "b_proj": 413,
-      "a_prob": 33.9,
-      "a_ml": "+175",
-      "b_ml": "-215",
+      "a_proj": 389,
+      "b_proj": 438,
+      "a_prob": 28.4,
+      "a_ml": "+225",
+      "b_ml": "-280",
       "favorite": "blandon",
-      "spread": 36.5,
-      "total": 790.5,
+      "spread": 49.5,
+      "total": 826.5,
       "a_live": 123.0,
       "b_live": 152.0
      }
@@ -25126,14 +25612,14 @@
       "b_name": "Libguel",
       "a_team": "Fidel’s Accumulators",
       "b_team": "Los Chigüires",
-      "a_proj": 314,
-      "b_proj": 445,
-      "a_prob": 6.6,
-      "a_ml": "+1035",
-      "b_ml": "-2225",
+      "a_proj": 373,
+      "b_proj": 489,
+      "a_prob": 9.0,
+      "a_ml": "+790",
+      "b_ml": "-1385",
       "favorite": "libguel",
-      "spread": 131.5,
-      "total": 758.5,
+      "spread": 116.5,
+      "total": 862.5,
       "a_live": null,
       "b_live": null
      },
@@ -25144,14 +25630,14 @@
       "b_name": "Blandon",
       "a_team": "Equipo Winchenzo",
       "b_team": "Rabbi BT69",
-      "a_proj": 398,
-      "b_proj": 413,
-      "a_prob": 42.9,
-      "a_ml": "+120",
-      "b_ml": "-145",
+      "a_proj": 426,
+      "b_proj": 438,
+      "a_prob": 44.4,
+      "a_ml": "+115",
+      "b_ml": "-135",
       "favorite": "blandon",
-      "spread": 15.5,
-      "total": 810.5,
+      "spread": 12.5,
+      "total": 864.5,
       "a_live": null,
       "b_live": null
      },
@@ -25162,14 +25648,14 @@
       "b_name": "Papo",
       "a_team": "I Love Dragić",
       "b_team": "Fear the Brow",
-      "a_proj": 436,
-      "b_proj": 405,
-      "a_prob": 63.8,
-      "a_ml": "-195",
-      "b_ml": "+160",
+      "a_proj": 468,
+      "b_proj": 456,
+      "a_prob": 55.7,
+      "a_ml": "-140",
+      "b_ml": "+115",
       "favorite": "victor",
-      "spread": 30.5,
-      "total": 841.5,
+      "spread": 12.5,
+      "total": 923.5,
       "a_live": null,
       "b_live": null
      },
@@ -25180,14 +25666,14 @@
       "b_name": "Chalela",
       "a_team": "2057 Champs",
       "b_team": "Lochte & Associates",
-      "a_proj": 440,
-      "b_proj": 377,
-      "a_prob": 76.7,
-      "a_ml": "-375",
-      "b_ml": "+290",
+      "a_proj": 469,
+      "b_proj": 389,
+      "a_prob": 82.3,
+      "a_ml": "-545",
+      "b_ml": "+400",
       "favorite": "shueiro",
-      "spread": 63.5,
-      "total": 817.5,
+      "spread": 80.5,
+      "total": 857.5,
       "a_live": null,
       "b_live": null
      },
@@ -25198,14 +25684,14 @@
       "b_name": "Jacobo",
       "a_team": "LeBong James",
       "b_team": "hotrelish",
-      "a_proj": 453,
-      "b_proj": 471,
-      "a_prob": 41.5,
-      "a_ml": "+130",
-      "b_ml": "-155",
+      "a_proj": 471,
+      "b_proj": 512,
+      "a_prob": 31.7,
+      "a_ml": "+195",
+      "b_ml": "-240",
       "favorite": "jacobo",
-      "spread": 18.5,
-      "total": 923.5,
+      "spread": 41.5,
+      "total": 982.5,
       "a_live": null,
       "b_live": null
      },
@@ -25216,14 +25702,14 @@
       "b_name": "Ricky",
       "a_team": "Antetokounmpers",
       "b_team": "MoonUnit 🦬",
-      "a_proj": 421,
-      "b_proj": 433,
-      "a_prob": 44.2,
-      "a_ml": "+115",
-      "b_ml": "-140",
-      "favorite": "ricky",
-      "spread": 12.5,
-      "total": 853.5,
+      "a_proj": 442,
+      "b_proj": 431,
+      "a_prob": 55.2,
+      "a_ml": "-135",
+      "b_ml": "+110",
+      "favorite": "verdeja",
+      "spread": 11.5,
+      "total": 873.5,
       "a_live": null,
       "b_live": null
      }
@@ -25247,8 +25733,8 @@
    "12": "blandon"
   },
   "record": {
-   "right": 9,
-   "wrong": 9
+   "right": 11,
+   "wrong": 7
   },
   "upsets": [
    {
@@ -25256,7 +25742,7 @@
     "favorite": "papo",
     "underdog": "joey",
     "won": false,
-    "prob": 95,
+    "prob": 90,
     "favorite_name": "Papo",
     "underdog_name": "Joey"
    },
@@ -25265,17 +25751,17 @@
     "favorite": "verdeja",
     "underdog": "winch",
     "won": false,
-    "prob": 79,
+    "prob": 87,
     "favorite_name": "Verdeja",
     "underdog_name": "Winch"
    },
    {
-    "week": 2,
-    "favorite": "melo",
+    "week": 3,
+    "favorite": "libguel",
     "underdog": "shueiro",
     "won": false,
-    "prob": 76,
-    "favorite_name": "Melo",
+    "prob": 77,
+    "favorite_name": "Libguel",
     "underdog_name": "Shueiro"
    }
   ],
@@ -25283,26 +25769,26 @@
    "version": 2,
    "blend": 0.3,
    "games": 329,
-   "right": 221,
+   "right": 223,
    "picks": 329,
-   "old_right": 222,
+   "old_right": 221,
    "old_picks": 328,
    "calibration": {
     "50-60": {
-     "won": 54,
-     "games": 96
+     "won": 55,
+     "games": 94
     },
     "60-70": {
-     "won": 69,
-     "games": 100
+     "won": 67,
+     "games": 99
     },
     "70-80": {
-     "won": 48,
+     "won": 49,
      "games": 76
     },
     "80+": {
-     "won": 50,
-     "games": 57
+     "won": 52,
+     "games": 60
     }
    }
   },
@@ -25380,84 +25866,84 @@
    "jacobo": {
     "rank": 1,
     "record": "4-0",
-    "playoff": 96.5,
-    "fraud": false,
-    "robbed": false
-   },
-   "shueiro": {
-    "rank": 2,
-    "record": "2-2",
-    "playoff": 74.7,
-    "fraud": false,
-    "robbed": true
-   },
-   "ricky": {
-    "rank": 3,
-    "record": "3-1",
-    "playoff": 72.5,
+    "playoff": 98.6,
     "fraud": false,
     "robbed": false
    },
    "libguel": {
-    "rank": 4,
+    "rank": 2,
     "record": "3-1",
-    "playoff": 82.6,
+    "playoff": 91.5,
     "fraud": false,
     "robbed": false
    },
+   "shueiro": {
+    "rank": 3,
+    "record": "2-2",
+    "playoff": 77.0,
+    "fraud": false,
+    "robbed": true
+   },
    "victor": {
+    "rank": 4,
+    "record": "3-1",
+    "playoff": 77.1,
+    "fraud": true,
+    "robbed": false
+   },
+   "ricky": {
     "rank": 5,
     "record": "3-1",
-    "playoff": 71.6,
+    "playoff": 43.3,
     "fraud": true,
     "robbed": false
    },
    "melo": {
     "rank": 6,
     "record": "0-4",
-    "playoff": 58.9,
+    "playoff": 47.8,
     "fraud": false,
     "robbed": true
    },
    "verdeja": {
     "rank": 7,
     "record": "2-2",
-    "playoff": 47.2,
+    "playoff": 41.2,
     "fraud": false,
     "robbed": false
    },
-   "blandon": {
+   "papo": {
     "rank": 8,
     "record": "2-2",
-    "playoff": 42.4,
+    "playoff": 53.9,
     "fraud": false,
     "robbed": false
    },
    "winch": {
     "rank": 9,
     "record": "2-2",
-    "playoff": 21.9,
-    "fraud": true,
+    "playoff": 25.3,
+    "fraud": false,
     "robbed": false
    },
-   "papo": {
+   "blandon": {
     "rank": 10,
     "record": "2-2",
-    "playoff": 28.1,
+    "playoff": 41.9,
     "fraud": false,
     "robbed": false
    },
    "chalela": {
     "rank": 11,
     "record": "0-4",
-    "playoff": 3.4,
+    "playoff": 1.4,
     "fraud": false,
-    "robbed": true
+    "robbed": false
    },
    "joey": {
     "rank": 12,
     "record": "1-3",
-    "playoff": 0.1,
+    "playoff": 0.9,
     "fraud": false,
     "robbed": false
    }
@@ -26161,9 +26647,9 @@
    "item": null
   },
   {
-   "text": "🚨 Winch just got stamped FRAUD (2-2).",
+   "text": "🚨 Ricky just got stamped FRAUD (3-1).",
    "tab": "power",
-   "item": "winch"
+   "item": "ricky"
   },
   {
    "text": "😤 Shueiro is officially ROBBED (2-2).",
@@ -26171,29 +26657,29 @@
    "item": "shueiro"
   },
   {
-   "text": "Winch down 5 to #9 in the power rankings, playoff odds −54% to 22%.",
-   "tab": "power",
-   "item": "winch"
-  },
-  {
-   "text": "Victor up 4 to #5 in the power rankings, playoff odds +34% to 72%.",
+   "text": "Victor up 5 to #4 in the power rankings, playoff odds +39% to 77%.",
    "tab": "power",
    "item": "victor"
   },
   {
-   "text": "Blandon up 3 to #8 in the power rankings, playoff odds +28% to 42%.",
+   "text": "Winch down 5 to #9 in the power rankings, playoff odds −51% to 25%.",
    "tab": "power",
-   "item": "blandon"
+   "item": "winch"
   },
   {
-   "text": "Ricky up 2 to #3 in the power rankings.",
-   "tab": "power",
-   "item": "ricky"
+   "text": "Trade Melo ↔ Verdeja just got graded: Verdeja gets the B.",
+   "tab": "trades",
+   "item": "1401678781776715776"
   },
   {
-   "text": "Libguel down 2 to #4 in the power rankings, playoff odds −7% to 83%.",
-   "tab": "power",
-   "item": "libguel"
+   "text": "Trade Papo ↔ Jacobo just got graded: Papo gets the A-.",
+   "tab": "trades",
+   "item": "1378480138223628288"
+  },
+  {
+   "text": "Trade Joey ↔ Papo just got graded: Joey gets the A-.",
+   "tab": "trades",
+   "item": "1374157530204209152"
   }
  ]
 }

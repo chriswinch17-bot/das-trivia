@@ -345,7 +345,8 @@
     const game = (g, label) => g ? `<div class="mg-pick"><small>${label}</small><b>${esc(rvName(g.winner || A))} ${Math.round(Math.max(g.a_pts, g.b_pts))}–${Math.round(Math.min(g.a_pts, g.b_pts))}</b>
       <span>${esc(g.season)}, week ${g.week} · ${Math.round(Math.abs(g.a_pts - g.b_pts))} point${Math.round(Math.abs(g.a_pts - g.b_pts)) === 1 ? "" : "s"}</span></div>` : "";
     const rows = [
-      ...p.games.map((g) => ({ when: `${shortSeason(g.season)} · wk ${g.week}`, a: ptsOf(g, A), b: ptsOf(g, B), w: g.winner, flag: g.flagged })),
+      ...p.games.map((g) => ({ when: `${shortSeason(g.season)} · wk ${g.week}`, a: ptsOf(g, A), b: ptsOf(g, B), w: g.winner,
+        flag: g.flagged && !g.estimated, est: g.estimated })),
       ...p.playoffs.map((g) => ({ when: `${shortSeason(g.season)} · ${g.round}`, a: g.winner === A ? g.winner_points : g.loser_points,
         b: g.winner === B ? g.winner_points : g.loser_points, w: g.winner, playoff: true })),
     ];
@@ -367,9 +368,10 @@
       <div class="mg-picks rv-games">${game(p.blowout, "Biggest blowout")}${game(p.closest, "Closest game")}</div>
       <table class="hist-table rv-log"><thead><tr><th>When</th><th>${esc(rvShort(A))}</th><th>${esc(rvShort(B))}</th></tr></thead><tbody>
         ${rows.map((r) => `<tr class="${r.playoff ? "po" : ""}"><td>${r.playoff ? "🏆 " : ""}${esc(r.when)}${r.flag ? " *" : ""}</td>
-          <td class="${r.w === A ? "won" : ""}">${Math.round(r.a)}</td><td class="${r.w === B ? "won" : ""}">${Math.round(r.b)}</td></tr>`).join("")}
+          <td class="${r.w === A ? "won" : ""}">${r.est ? "≈" : ""}${Math.round(r.a)}</td><td class="${r.w === B ? "won" : ""}">${r.est ? "≈" : ""}${Math.round(r.b)}</td></tr>`).join("")}
       </tbody></table>
       ${rows.some((r) => r.flag) ? '<p class="an-note small">* Sleeper\'s official result went the other way after a stat correction.</p>' : ""}
+      ${rows.some((r) => r.est) ? '<p class="an-note small">≈ Estimated: 2026-27 weeks 1-3 scores are matched to Sleeper’s official season totals (the exact weekly numbers weren’t saved). Results are official.</p>' : ""}
       ${rows.some((r) => r.playoff) ? '<p class="an-note small">Playoff rounds before 2025-2026 lasted two weeks, so those scores are two-week totals.</p>' : ""}`;
   }
 
