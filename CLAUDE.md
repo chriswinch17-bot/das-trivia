@@ -197,8 +197,10 @@ The owner has essentially no coding or web development experience.
   (`/league/<id>/matchups/<week>`) when the page opens; share of week played comes from the calendar (week 1 = opening
   night to Sunday, then Monday-Sunday ET). Final weeks show W/L and the margin; falls back to last night's scores.
   Just for fun, the page says nobody takes bets.
-  **Model v2** (`scripts/analytics_model.py`, 2026-11-16): IMPORTANT FINDING: in Das League a player's weekly score is ONE of
-  his games (a lock-in style format; e.g. Jokic wk 3 games 67/93/54 -> week 67), so team weeks are ~450, not sums of games.
+  **Model v2** (`scripts/analytics_model.py`, 2026-11-16): Das League is a LOCK-IN league (owner confirmed): each starter
+  counts ONE game a week, the one the manager locks; a game can only be locked until that player's next game starts or he
+  is subbed out of the lineup; an unlocked starter's last game of the week counts. So team weeks are ~450 (e.g. Jokic
+  wk 3 games 67/93/54 -> week 67), and real scores beat Sleeper's projections (managers lock good games).
   Extra games barely change a player's week (2-4 games all ~0.79 of his usual); having 0 games or being hurt matters.
   Projection = blend x (10 best players with a game this week at their usual weekly score, Out/IR/IR-slot left out)
   + (1 - blend) x team points per week; blend and spread tuned nightly on every past matchup (329 games: blend 0.3,
