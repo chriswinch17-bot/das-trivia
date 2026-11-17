@@ -222,7 +222,9 @@ def main():
             stand[mid][3] += week_points[(w, mid)]
         po = analytics_odds.playoff_odds(proj, sd, stand, schedule, weeks[-1] + 1,
                                          (league["settings"].get("playoff_week_start") or 99) - 1,
-                                         current["playoff_teams"], seed=f"{label}-{weeks[-1]}", weeks_played=len(weeks))
+                                         current["playoff_teams"], seed=f"{label}-{weeks[-1]}", weeks_played=len(weeks),
+                                         round_type=league["settings"].get("playoff_round_type") or 0,
+                                         seed_type=league["settings"].get("playoff_seed_type") or 0)
         for r in rankings:
             r["playoff_pct"] = po["playoffs"][r["manager"]]
             r["bye_pct"] = po["bye"][r["manager"]]

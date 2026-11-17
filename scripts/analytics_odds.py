@@ -158,10 +158,14 @@ def build_ledger(traded_picks, roster_manager, ids, names, teams, years, rounds,
 SIMS = 10000
 
 
-def playoff_odds(proj, sd, standings, schedule, first_week, regular_last, playoff_teams, seed, weeks_played=0):
+def playoff_odds(proj, sd, standings, schedule, first_week, regular_last, playoff_teams, seed, weeks_played=0,
+                 round_type=0, seed_type=0):
     """Play out the rest of the regular season and the playoffs SIMS times with the same projections.
     standings: {manager: [wins, losses, ties, points_for]} from finished weeks. Tiebreak = points for
-    (Sleeper's default). Bracket (6 teams): 3 v 6 and 4 v 5, then 1 plays the 4/5 winner and 2 the 3/6 winner."""
+    (Sleeper's default). Bracket (6 teams, checked against every past Das League bracket): 3 v 6 and 4 v 5, then
+    1 plays the 4/5 winner and 2 the 3/6 winner. Follows the league's own playoff settings:
+    round_type 0 = one week per round, 1 = two-week final, 2 = two weeks per round (as in 2023-24 and 2024-25);
+    seed_type 1 = re-seed (top seed plays the lowest seed left)."""
     import random
     rnd = random.Random(seed)
     ids = list(standings)
@@ -194,9 +198,17 @@ def playoff_odds(proj, sd, standings, schedule, first_week, regular_last, playof
             bye[seeds[0]] += 1
             bye[seeds[1]] += 1
 
-            def play(a, b):
-                return a if gauss(level[a], sd) > gauss(level[b], sd) else b
-            w36, w45 = play(seeds[2], seeds[5]), play(seeds[3], seeds[4])
-            title[play(play(seeds[0], w45), play(seeds[1], w36))] += 1
+            def play(a, b, weeks=1):
+                spread = sd * math.sqrt(weeks)
+                return a if gauss(level[a] * weeks, spread) > gauss(level[b] * weeks, spread) else b
+            early = 2 if round_type == 2 else 1
+            final = 2 if round_type in (1, 2) else 1
+            w36, w45 = play(seeds[2], seeds[5], early), play(seeds[3], seeds[4], early)
+            if seed_type == 1:      # re-seed: the top seed meets the lowest seed still alive
+                low, high = sorted((w36, w45), key=seeds.index, reverse=True)
+                semis = (play(seeds[0], low, early), play(seeds[1], high, early))
+            else:
+                semis = (play(seeds[0], w45, early), play(seeds[1], w36, early))
+            title[play(*semis, final)] += 1
     pct = lambda d: {m: round(d[m] / SIMS * 100, 1) for m in ids}
     return {"playoffs": pct(made), "bye": pct(bye), "title": pct(title) if playoff_teams == 6 else None}

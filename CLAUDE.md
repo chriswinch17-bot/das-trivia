@@ -166,6 +166,11 @@ The owner has essentially no coding or web development experience.
   **Playoff odds** on every card (`playoff_odds` in analytics_odds.py): 10,000 simulated seasons with the Matchup Odds
   projections, each team's true level drawn with uncertainty 40/sqrt(1 + weeks/5); top 6 in, top 2 bye, ties by points
   for; bracket 3v6, 4v5, then 1 v 4/5 winner, 2 v 3/6 winner. Seeded by season and week, so a rebuild gives the same numbers.
+  League settings checked 2026-11-16 (owner asked): 6 playoff teams, regular season = weeks before playoff_week_start
+  (20 weeks now), playoff_round_type 0 now (2 = two-week rounds in 2023-24/2024-25), seed_type 0 (fixed bracket, matches
+  every past bracket), no median game (league_average_match 0), standings by win % then points for. All points come
+  from Sleeper's own scoring (custom: fga -1, ftmi -1, to -2, stl/blk 4, dd 5, td 10, 40/50-pt, 20-reb, 15-ast bonuses);
+  Rostered or Waiver applies scoring_settings to Sleeper season stats, which include the bonus counts.
   Below: "Season by Season" chart (finish / win % / points per week per season, up to 3 teams highlighted in
   colour-blind-safe colours, the rest grey, table view). `python scripts/build_analytics.py` writes
   `site/data/analytics.json` (also in the nightly job). The live season uses finished weeks only (Sleeper's
