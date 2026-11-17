@@ -903,3 +903,10 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .ss-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
 .ss-actions .btn { margin: 0; width: 100%; padding: 10px 8px; font-size: 14px; }
 .ss-actions #ss-share { grid-column: 1 / -1; }
+.od-out { display: block; color: #ff9a9a !important; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.od-model { margin-top: 14px; }
+.cal-row { display: grid; grid-template-columns: 112px 1fr 40px 62px; align-items: center; gap: 8px; font-size: 12px; color: #d5dbea; margin: 4px 0; }
+.cal-bar { height: 8px; border-radius: 4px; background: #222b42; overflow: hidden; }
+.cal-bar span { display: block; height: 100%; background: linear-gradient(90deg, #2fbf71, #9fd36a); }
+.cal-row b { text-align: right; }
+.cal-row small { color: var(--muted); }

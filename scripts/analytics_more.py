@@ -355,7 +355,7 @@ def build(managers_file, seasons, matchups, trades, history, team_name):
     drafts = build_drafts(lg, names)
     profiles, board = build_managers(lg, managers_file, seasons, graded, drafts, names, history)
     rivalries = build_rivalries(matchups, seasons, managers_file)
-    return graded, board, profiles, rivalries
+    return graded, board, profiles, rivalries, lg
 
 
 def build_rivalries(matchups, seasons, managers):

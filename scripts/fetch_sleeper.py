@@ -24,7 +24,8 @@ PAUSE_SECONDS = 0.15    # stay far below Sleeper's limit of 1000 requests a minu
 
 def get(path):
     """Fetch one API address. Returns None if Sleeper has nothing there."""
-    request = urllib.request.Request(f"{API}{path}", headers={"User-Agent": "league-history-fetch"})
+    url = path if path.startswith("https://") else f"{API}{path}"
+    request = urllib.request.Request(url, headers={"User-Agent": "league-history-fetch"})
     for attempt in range(4):
         try:
             with urllib.request.urlopen(request, timeout=60) as response:
@@ -56,6 +57,11 @@ def fetch_season(league_id):
     folder = OUT / f"{season}_{league_id}"
     print(f"\nSeason {season}: {league.get('name')}")
     save(folder, "league", league)
+
+    # the NBA schedule for that season (dates, fantasy week, teams, starters); lives on Sleeper's other address
+    schedule = get(f"https://api.sleeper.com/schedule/nba/regular/{season}")
+    if schedule:
+        save(folder, "schedule", schedule)
 
     for name in ("users", "rosters", "winners_bracket", "losers_bracket", "traded_picks"):
         save(folder, name, get(f"/league/{league_id}/{name}"))

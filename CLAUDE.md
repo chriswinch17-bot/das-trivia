@@ -197,6 +197,15 @@ The owner has essentially no coding or web development experience.
   (`/league/<id>/matchups/<week>`) when the page opens; share of week played comes from the calendar (week 1 = opening
   night to Sunday, then Monday-Sunday ET). Final weeks show W/L and the margin; falls back to last night's scores.
   Just for fun, the page says nobody takes bets.
+  **Model v2** (`scripts/analytics_model.py`, 2026-11-16): IMPORTANT FINDING: in Das League a player's weekly score is ONE of
+  his games (a lock-in style format; e.g. Jokic wk 3 games 67/93/54 -> week 67), so team weeks are ~450, not sums of games.
+  Extra games barely change a player's week (2-4 games all ~0.79 of his usual); having 0 games or being hurt matters.
+  Projection = blend x (10 best players with a game this week at their usual weekly score, Out/IR/IR-slot left out)
+  + (1 - blend) x team points per week; blend and spread tuned nightly on every past matchup (329 games: blend 0.3,
+  67% winners picked, 80%+ favourites won 88%). Live lines blend score now and projection by share of week played.
+  Needs `data/raw/sleeper/<season>/schedule.json` (Sleeper's NBA schedule; `fetch_sleeper.py` saves it).
+  WARNING: re-fetching OLD seasons from Sleeper (without --current-only) returned different weekly points than the
+  originals on 2026-11-16 and broke build_data; the original files were restored. Only refetch the current season.
   **What changed since yesterday** banner (`scripts/analytics_changes.py`): every build stores a small `snapshot`; the first
   build of a new ET day moves the old one to `previous`, so the banner always compares with yesterday's last build (rank
   moves 2+, playoff odds 5+ points, new FRAUD/ROBBED, new or newly graded trades, picks changing hands, new week).

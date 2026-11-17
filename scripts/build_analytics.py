@@ -17,9 +17,11 @@ Rankings are worked out after every finished week, so the arrows show the move s
 """
 
 import json
+import math
 import sys
 
 import analytics_changes
+import analytics_model
 import analytics_more
 import analytics_odds
 from daily import eastern_now
@@ -207,14 +209,60 @@ def main():
     results = {(w, mid): r[0] for (w, mid), r in week_result.items()}
     prev = seasons[-2]["season"] if len(seasons) > 1 else label
     sd = analytics_odds.swing(matchups, prev) or analytics_odds.swing(matchups, label) or 55.0
+
+    # model v2 (analytics_model.py): tuned on every past Das League matchup, injured players left out
+    managers_file = load(ROOT / "data" / "managers.json")["managers"]
+    mlg = analytics_more.League(managers_file, matchups)
+    gm = analytics_model.GamesModel(mlg, all_players)
+    rows = analytics_model.backtest(gm, matchups, seasons)
+    tuned = analytics_model.tune(rows) if rows else None
+    rosters_json = load(folder / "rosters.json")
+    injured = {pid for pid, p in all_players.items() if p.get("injury_status") in ("Out", "IR")}
+    injured |= {pid for r in rosters_json for pid in (r.get("reserve") or [])}
+    team_ppw = lambda upto, mid: (lambda pts: sum(pts) / len(pts) if pts else None)(
+        [week_points[(x, mid)] for x in weeks if x <= upto and (x, mid) in week_points])
+
+    def project_v2(week, upto, rosters, unavailable=()):
+        if not tuned:
+            return None
+        values = gm.player_values(label, upto, set().union(*map(set, rosters.values())), prev if prev != label else None)
+        out = {}
+        for mid in ids:
+            roster = rosters.get(mid, ())
+            if week is None:      # season-long level (playoff odds): best 10 healthy players, no schedule
+                ready = sorted((values.get(p, 0) for p in roster if p not in unavailable), reverse=True)
+                g = sum(max(0.0, v) for v in ready[:analytics_model.STARTERS_PER_DAY])
+            else:
+                g = gm.project_week(label, week, roster, values, unavailable)
+            ppw = team_ppw(upto, mid)
+            out[mid] = g if ppw is None else tuned["blend"] * g + (1 - tuned["blend"]) * ppw
+        return out
+
+    if tuned:
+        sd = tuned["sd_diff"] / math.sqrt(2)
     odds = analytics_odds.build_odds({
+        "project_v2": project_v2 if tuned else None, "injured": injured,
         "weeks": weeks, "week_points": week_points, "player_weeks": player_weeks, "lineup": lineup,
-        "roster_now": {roster_manager[r["roster_id"]]: r.get("players") or [] for r in load(folder / "rosters.json")},
+        "roster_now": {roster_manager[r["roster_id"]]: r.get("players") or [] for r in rosters_json},
         "schedule": schedule, "regular_last": (league["settings"].get("playoff_week_start") or 99) - 1,
         "ids": ids, "names": names, "teams": team_now, "sd": sd, "live": live, "results": results,
         "league_id": folder.name.split("_", 1)[1], "roster_manager": roster_manager,
         "leg": league["settings"].get("leg"),
     })
+
+    if tuned:
+        odds["model"] = {
+            "version": 2, "blend": tuned["blend"], "games": tuned["games"],
+            "right": tuned["right"], "picks": tuned["picks"], "old_right": tuned["old_right"], "old_picks": tuned["old_picks"],
+            "calibration": tuned["calibration"],
+        }
+        # rostered players EquipoGPT is leaving out this week (Sleeper: Out, on IR, or in an IR slot)
+        odds["out"] = {roster_manager[r["roster_id"]]: sorted(player_name(p) for p in (r.get("players") or []) if p in injured)
+                       for r in rosters_json}
+        # season-long team levels for the playoff simulation (healthy best 10 + real scoring)
+        level = project_v2(None, weeks[-1], {roster_manager[r["roster_id"]]: r.get("players") or [] for r in rosters_json}, injured)
+        if level:
+            odds["proj"] = level
 
     # --- playoff odds: play out the rest of the season 10,000 times with the odds model ---
     proj = odds.pop("proj", None)
@@ -234,7 +282,7 @@ def main():
             r["title_pct"] = po["title"][r["manager"]] if po["title"] else None
 
     names_by_season = {(se["season"], t["manager"]): t["team_name"] for se in seasons for t in se["standings"]}
-    trades, traders, profiles, rivalries = analytics_more.build(
+    trades, traders, profiles, rivalries, lg = analytics_more.build(
         load(ROOT / "data" / "managers.json")["managers"], seasons, matchups, load(SITE / "trades.json"), history,
         lambda season, mid: names_by_season.get((season, mid), managers[mid]["name"]))
 

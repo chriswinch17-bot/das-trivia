@@ -158,6 +158,14 @@ class PickLedger(unittest.TestCase):
 
 
 class MatchupOdds(unittest.TestCase):
+    def test_model_was_tested_on_history(self):
+        m = A["odds"].get("model")
+        self.assertIsNotNone(m, "model v2 needs data/raw/sleeper/<season>/schedule.json")
+        self.assertGreater(m["games"], 250)
+        self.assertTrue(0 <= m["blend"] <= 1)
+        self.assertEqual(sum(v["games"] for v in m["calibration"].values()), m["games"])
+
+
     def test_probabilities_and_lines_agree(self):
         for w in A["odds"]["weeks"]:
             seen = set()

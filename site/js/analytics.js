@@ -498,13 +498,15 @@
     const lines = {};
     for (const g of W.games) {
       const a = pts[g.a] || 0, b = pts[g.b] || 0;
-      const margin = a - b + (g.a_proj - g.b_proj) * left;       // projected final margin, A minus B
+      // Das League counts one game per player per week, so scores don't pile up: the final is a blend of the
+      // score now and the projection, leaning on the score more as the week runs out
+      const margin = played * (a - b) + left * (g.a_proj - g.b_proj);
       const p = Math.min(0.999, Math.max(0.001, phiN(margin / Math.max(sd, 1))));
       const v = data.odds.vig;
       lines[`${g.a}|${g.b}`] = {
         a, b, p, a_ml: americanOdds(Math.min(p + v, 0.98)), b_ml: americanOdds(Math.min(1 - p + v, 0.98)),
         favorite: Math.abs(margin) >= 0.5 ? (margin > 0 ? g.a : g.b) : null, spread: halfPt(Math.abs(margin)),
-        total: halfPt(a + b + (g.a_proj + g.b_proj) * left),
+        total: halfPt(played * (a + b) + left * (g.a_proj + g.b_proj)),
       };
     }
     return { lines, played };
@@ -515,8 +517,15 @@
     if (!O) return;
     $("od-sd").textContent = Math.round(O.sd);
     const r = O.record;
-    $("od-record").innerHTML = r.right + r.wrong ? `<h3 class="an-sub-title">EquipoGPT's picks this season: ${r.right}-${r.wrong}</h3>
-      ${O.upsets.length ? `<p class="an-note small">Biggest upsets: ${O.upsets.map((u) => `week ${u.week}, ${esc(u.underdog_name)} beat ${esc(u.favorite_name)} (${u.prob}% favourite)`).join(" · ")}</p>` : ""}` : "";
+    const M = O.model;
+    const cal = M ? Object.entries(M.calibration).map(([k, v]) => `<div class="cal-row"><span>${k}% favourites</span>
+        <span class="cal-bar"><span style="width:${(v.won / v.games * 100).toFixed(1)}%"></span></span><b>${Math.round(v.won / v.games * 100)}%</b><small>${v.games} games</small></div>`).join("") : "";
+    $("od-record").innerHTML = (r.right + r.wrong ? `<h3 class="an-sub-title">EquipoGPT's picks this season: ${r.right}-${r.wrong}</h3>
+      ${O.upsets.length ? `<p class="an-note small">Biggest upsets: ${O.upsets.map((u) => `week ${u.week}, ${esc(u.underdog_name)} beat ${esc(u.favorite_name)} (${u.prob}% favourite)`).join(" · ")}</p>` : ""}` : "") +
+      (M ? `<div class="od-model"><h3 class="an-sub-title">Tested on all of Das League history</h3>
+        <p class="an-note small">Re-predicting all ${M.games} past matchups with only what was known before each week, EquipoGPT picked
+          the winner <b>${Math.round(M.right / M.picks * 100)}%</b> of the time. When it calls a team a favourite, here's how often they actually won:</p>
+        ${cal}</div>` : "");
     if (!O.weeks.length) {
       $("od-weeks").hidden = true;
       $("od-list").innerHTML = '<p class="an-note">No regular-season matchups left to set lines for. Back next season.</p>';
@@ -547,8 +556,10 @@
           ? `<span class="od-cell live final"><small>Final</small><b>${won ? "W" : "L"}</b><i>${won ? "+" : "−"}${Math.round(Math.abs(L.a - L.b))}</i></span>`
           : `<span class="od-cell live"><small>Live</small><b>${spreadText(L.favorite, me, L.spread)}</b><i>${L[`${k}_ml`]}</i></span>`;
         const fav = (L ? L.favorite : g.favorite) === me;
+        const out = (O.out && O.out[me]) || [];
         return `<div class="od-row${fav ? " fav" : ""}">
-          <span class="od-team"><b>${esc(g[`${k}_team`])}</b><small>${esc(g[`${k}_name`])} · proj ${g[`${k}_proj`]}</small></span>
+          <span class="od-team"><b>${esc(g[`${k}_team`])}</b><small>${esc(g[`${k}_name`])} · proj ${g[`${k}_proj`]}</small>
+            ${out.length ? `<small class="od-out" title="${esc(out.join(", "))}">🩼 Out: ${esc(out.map((n) => n.split(" ").slice(-1)[0]).join(", "))}</small>` : ""}</span>
           ${L ? `<span class="od-live">${Math.round(L[k])}</span>` : ""}${pre}${now}
         </div>`;
       };

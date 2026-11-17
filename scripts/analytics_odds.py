@@ -71,6 +71,10 @@ def build_odds(ctx):
         scale = (sum(ppw.values()) / len(ppw)) / ((sum(core.values()) / len(core)) or 1)
         return {mid: PPW_WEIGHT * ppw[mid] + ROSTER_WEIGHT * core[mid] * scale for mid in ctx["ids"]}
 
+    if ctx.get("project_v2"):        # model v2 (analytics_model.py): weekly projection per week
+        v2 = ctx["project_v2"]
+        project = lambda upto, rosters, week=None, unavailable=(): v2(week, upto, rosters, unavailable)
+
     def line(a, b, proj, week):
         pa, pb = proj[a], proj[b]
         p = phi((pa - pb) / (sd * math.sqrt(2)))
@@ -97,14 +101,16 @@ def build_odds(ctx):
     for w in (current, current + 1):
         if w > ctx["regular_last"] or w not in ctx["schedule"] or not proj:
             continue
+        wproj = project(weeks[-1], ctx["roster_now"], w, ctx.get("injured", ())) if ctx.get("project_v2") else proj
         out["weeks"].append({"week": w, "in_progress": w == current and bool(ctx["live"].get(w)),
-                             "games": [line(a, b, proj, w) for a, b in ctx["schedule"][w]]})
+                             "games": [line(a, b, wproj, w) for a, b in ctx["schedule"][w]]})
 
     # how the model would have done this season, using only what was known before each week
     right = wrong = 0
     history = []
     for w in weeks[1:]:
-        p = project(w - 1, {mid: ctx["lineup"].get((w, mid), ()) for mid in ctx["ids"]})
+        p = (project(w - 1, {mid: ctx["lineup"].get((w, mid), ()) for mid in ctx["ids"]}, w) if ctx.get("project_v2")
+             else project(w - 1, {mid: ctx["lineup"].get((w, mid), ()) for mid in ctx["ids"]}))
         for a, b in ctx["schedule"].get(w, []):
             if abs(p[a] - p[b]) < 0.5 or (w, a) not in ctx["week_points"]:
                 continue
