@@ -41,6 +41,8 @@ class PowerRankings(unittest.TestCase):
     def test_fraud_stamp_only_for_teams_winning_beyond_their_scoring(self):
         for r in A["rankings"]:
             self.assertEqual(r["fraud"], A["through_week"] >= 3 and r["luck"] >= 0.75, r["manager"])
+            self.assertEqual(r["robbed"], A["through_week"] >= 3 and r["luck"] <= -0.75, r["manager"])
+            self.assertFalse(r["fraud"] and r["robbed"])
 
     def test_playoff_odds_add_up(self):
         if not A["rankings"] or A["rankings"][0].get("playoff_pct") is None:

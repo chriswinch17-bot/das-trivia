@@ -161,8 +161,9 @@ The owner has essentially no coding or web development experience.
   players' points/week, from weekly lineups) + form 15% (last 2 weeks), each scaled best = 100 / worst = 0; worked out
   after every finished week so arrows show the move. Lineup efficiency left out (NBA lineups change daily).
   Each team gets an EquipoGPT "take" built from true superlatives (`write_takes`). Tap a card: radar + stats.
-  **Fraud Watch** (owner, 2026-11-16; no "robbed" stamp): from week 3, a team with luck >= 0.75 wins (real wins minus
-  all-play wins) gets a red tilted "FRAUD" stamp on its card and a line in the Fraud Watch strip above the rankings.
+  **Fraud Watch** (owner, 2026-11-16): from week 3, a team with luck >= 0.75 wins (real wins minus all-play wins) gets a
+  red tilted "FRAUD" stamp on its card and a line in the Fraud Watch strip above the rankings; luck <= -0.75 gets a blue
+  "ROBBED" stamp and a Robbed line (owner added it later the same day).
   **Playoff odds** on every card (`playoff_odds` in analytics_odds.py): 10,000 simulated seasons with the Matchup Odds
   projections, each team's true level drawn with uncertainty 40/sqrt(1 + weeks/5); top 6 in, top 2 bye, ties by points
   for; bracket 3v6, 4v5, then 1 v 4/5 winner, 2 v 3/6 winner. Seeded by season and week, so a rebuild gives the same numbers.

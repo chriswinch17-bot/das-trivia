@@ -55,6 +55,7 @@
    ],
    "take": "Still unbeaten at 3-0. Scoring 460 a week, the most in Das League.",
    "fraud": false,
+   "robbed": false,
    "playoff_pct": 95.7,
    "bye_pct": 65.2,
    "title_pct": 29.2
@@ -104,6 +105,7 @@
    ],
    "take": "Best top 10 in the league: their 10 best players put up 498 a week. Would be 22-11 playing everyone every week, 3rd best in the league.",
    "fraud": false,
+   "robbed": false,
    "playoff_pct": 89.5,
    "bye_pct": 44.3,
    "title_pct": 21.4
@@ -153,6 +155,7 @@
    ],
    "take": "Would be 25-8 playing everyone every week, 2nd best in the league. Led by Victor Wembanyama at 88 a week.",
    "fraud": false,
+   "robbed": false,
    "playoff_pct": 77.3,
    "bye_pct": 26.1,
    "title_pct": 12.5
@@ -202,6 +205,7 @@
    ],
    "take": "Would be 20-13 playing everyone every week, tied 4th best in the league. Led by Jayson Tatum at 68 a week.",
    "fraud": false,
+   "robbed": false,
    "playoff_pct": 76.2,
    "bye_pct": 23.9,
    "title_pct": 12.1
@@ -251,6 +255,7 @@
    ],
    "take": "Would be 19-14 playing everyone every week, 6th best in the league. Led by Alperen Şengün at 67 a week.",
    "fraud": false,
+   "robbed": false,
    "playoff_pct": 69.8,
    "bye_pct": 18.6,
    "title_pct": 9.4
@@ -300,6 +305,7 @@
    ],
    "take": "Up 4 spots this week. Somebody woke up. Would be 20-13 playing everyone every week, tied 4th best in the league.",
    "fraud": false,
+   "robbed": false,
    "playoff_pct": 47.3,
    "bye_pct": 7.2,
    "title_pct": 4.0
@@ -349,6 +355,7 @@
    ],
    "take": "Still looking for win #1 at 0-3. Most robbed team in the league: 15-18 against everyone, but 0-3 for real.",
    "fraud": false,
+   "robbed": true,
    "playoff_pct": 36.2,
    "bye_pct": 3.7,
    "title_pct": 3.8
@@ -398,6 +405,7 @@
    ],
    "take": "Down 3 spots this week. EquipoGPT is concerned. Would be 14-19 playing everyone every week, 8th best in the league.",
    "fraud": false,
+   "robbed": false,
    "playoff_pct": 24.4,
    "bye_pct": 2.5,
    "title_pct": 1.9
@@ -447,6 +455,7 @@
    ],
    "take": "Luckiest team in the league: about 1.1 more wins than their scoring has earned. Would be 10-23 playing everyone every week, 10th best in the league.",
    "fraud": true,
+   "robbed": false,
    "playoff_pct": 38.0,
    "bye_pct": 5.1,
    "title_pct": 2.7
@@ -496,6 +505,7 @@
    ],
    "take": "Still looking for win #1 at 0-3. Would be 12-21 playing everyone every week, 9th best in the league.",
    "fraud": false,
+   "robbed": true,
    "playoff_pct": 21.9,
    "bye_pct": 1.7,
    "title_pct": 1.9
@@ -545,6 +555,7 @@
    ],
    "take": "Would be 6-27 playing everyone every week, last in the league. Led by Ty Jerome at 60 a week.",
    "fraud": false,
+   "robbed": false,
    "playoff_pct": 14.3,
    "bye_pct": 1.1,
    "title_pct": 0.7
@@ -594,6 +605,7 @@
    ],
    "take": "366 a week is the lowest scoring in the league. Yikes. Would be 7-26 playing everyone every week, 11th best in the league.",
    "fraud": false,
+   "robbed": false,
    "playoff_pct": 9.4,
    "bye_pct": 0.5,
    "title_pct": 0.4

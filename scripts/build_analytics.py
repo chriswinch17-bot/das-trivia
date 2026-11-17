@@ -158,6 +158,7 @@ def main():
                 "luck": round(r["luck"], 1), "sos": round(r["sos"], 1),
                 "weekly": r["weekly"], "parts": r["parts"], "top_players": r["top"], "take": takes[k],
                 "fraud": len(weeks) >= FRAUD_MIN_WEEKS and r["luck"] >= FRAUD_LUCK,
+                "robbed": len(weeks) >= FRAUD_MIN_WEEKS and r["luck"] <= -FRAUD_LUCK,
             })
 
     # --- every team, every season: where they finished, win % and points per week ---
