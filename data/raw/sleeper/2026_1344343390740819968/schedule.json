@@ -19155,7 +19155,7 @@
   "status": "pre_game",
   "date": "2026-11-20",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 5,
@@ -20256,17 +20256,29 @@
    "on_court": [
     "2280",
     "1892",
-    "2017",
     "2296",
+    "1970",
     "4930"
    ],
-   "points": 30,
+   "points": 74,
    "record": "12-2",
    "scoring": [
     {
      "number": 1,
      "points": 30,
      "sequence": 1,
+     "type": "quarter"
+    },
+    {
+     "number": 2,
+     "points": 29,
+     "sequence": 2,
+     "type": "quarter"
+    },
+    {
+     "number": 3,
+     "points": 15,
+     "sequence": 3,
      "type": "quarter"
     }
    ],
@@ -20283,19 +20295,31 @@
   "game_id": "1393723891414728704",
   "away": {
    "on_court": [
-    "2061",
-    "4868",
+    "1841",
     "2474",
     "2036",
-    "1998"
+    "1998",
+    "4778"
    ],
-   "points": 34,
+   "points": 87,
    "record": "4-9",
    "scoring": [
     {
      "number": 1,
      "points": 34,
      "sequence": 1,
+     "type": "quarter"
+    },
+    {
+     "number": 2,
+     "points": 32,
+     "sequence": 2,
+     "type": "quarter"
+    },
+    {
+     "number": 3,
+     "points": 21,
+     "sequence": 3,
      "type": "quarter"
     }
    ],
@@ -20310,18 +20334,18 @@
   }
  },
  {
-  "status": "in_game",
+  "status": "complete",
   "date": "2026-11-17",
   "home": {
    "on_court": [
-    "1736",
-    "1691",
-    "2020",
-    "2007",
-    "1178"
+    "4787",
+    "4911",
+    "2578",
+    "2765",
+    "4913"
    ],
-   "points": 62,
-   "record": "4-8",
+   "points": 107,
+   "record": "4-9",
    "scoring": [
     {
      "number": 1,
@@ -20333,6 +20357,18 @@
      "number": 2,
      "points": 33,
      "sequence": 2,
+     "type": "quarter"
+    },
+    {
+     "number": 3,
+     "points": 24,
+     "sequence": 3,
+     "type": "quarter"
+    },
+    {
+     "number": 4,
+     "points": 21,
+     "sequence": 4,
      "type": "quarter"
     }
    ],
@@ -20349,14 +20385,14 @@
   "game_id": "1393723892110983168",
   "away": {
    "on_court": [
-    "2580",
+    "1842",
     "4882",
     "1907",
-    "1994",
+    "4758",
     "2581"
    ],
-   "points": 58,
-   "record": "1-13",
+   "points": 132,
+   "record": "2-13",
    "scoring": [
     {
      "number": 1,
@@ -20368,6 +20404,18 @@
      "number": 2,
      "points": 23,
      "sequence": 2,
+     "type": "quarter"
+    },
+    {
+     "number": 3,
+     "points": 30,
+     "sequence": 3,
+     "type": "quarter"
+    },
+    {
+     "number": 4,
+     "points": 44,
+     "sequence": 4,
      "type": "quarter"
     }
    ],
@@ -20545,7 +20593,7 @@
   "week": 5,
   "game_id": "1393723901925654528",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -20573,7 +20621,7 @@
   "week": 5,
   "game_id": "1393723904136052736",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -20671,7 +20719,7 @@
   "week": 5,
   "game_id": "1393723911593525248",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -20735,7 +20783,7 @@
   "status": "pre_game",
   "date": "2026-11-22",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 5,
@@ -20923,7 +20971,7 @@
   "week": 6,
   "game_id": "1393301052928843776",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -21071,7 +21119,7 @@
   "status": "pre_game",
   "date": "2026-11-27",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 6,
@@ -21085,7 +21133,7 @@
   "status": "pre_game",
   "date": "2026-11-27",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 6,
@@ -21217,7 +21265,7 @@
   "week": 6,
   "game_id": "1393723924411318272",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -21245,7 +21293,7 @@
   "week": 6,
   "game_id": "1393723926030319616",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -21351,7 +21399,7 @@
   "status": "pre_game",
   "date": "2026-11-29",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 6,
@@ -21441,7 +21489,7 @@
   "week": 6,
   "game_id": "1393723939456286720",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -21637,7 +21685,7 @@
   "week": 7,
   "game_id": "1393723951070314496",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -21665,7 +21713,7 @@
   "week": 7,
   "game_id": "1393723952857088000",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -21785,7 +21833,7 @@
   "status": "pre_game",
   "date": "2026-12-02",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 7,
@@ -21861,7 +21909,7 @@
   "week": 7,
   "game_id": "1393723964882157568",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -21953,7 +22001,7 @@
   "status": "pre_game",
   "date": "2026-12-12",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 8,
@@ -22043,7 +22091,7 @@
   "week": 8,
   "game_id": "1393723975263059968",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -22177,7 +22225,7 @@
   "status": "pre_game",
   "date": "2026-12-14",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 9,
@@ -22253,7 +22301,7 @@
   "week": 9,
   "game_id": "1393723989406253056",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -22393,7 +22441,7 @@
   "week": 9,
   "game_id": "1393723998046519297",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -22491,7 +22539,7 @@
   "week": 9,
   "game_id": "1393724002421178368",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -22547,7 +22595,7 @@
   "week": 9,
   "game_id": "1393724006468681728",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -22743,7 +22791,7 @@
   "week": 9,
   "game_id": "1393724019508772864",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -22821,7 +22869,7 @@
   "status": "pre_game",
   "date": "2026-12-20",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 9,
@@ -23031,7 +23079,7 @@
   "status": "pre_game",
   "date": "2026-12-21",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 10,
@@ -23163,7 +23211,7 @@
   "week": 10,
   "game_id": "1393724041457565696",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -23283,7 +23331,7 @@
   "status": "pre_game",
   "date": "2026-12-23",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 10,
@@ -23325,7 +23373,7 @@
   "status": "pre_game",
   "date": "2026-12-26",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 10,
@@ -23395,7 +23443,7 @@
   "status": "pre_game",
   "date": "2026-12-26",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 10,
@@ -23429,7 +23477,7 @@
   "week": 10,
   "game_id": "1393724059186888704",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -23563,7 +23611,7 @@
   "status": "pre_game",
   "date": "2026-12-27",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 10,
@@ -23625,7 +23673,7 @@
   "week": 11,
   "game_id": "1393724070482149376",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -23801,7 +23849,7 @@
   "status": "pre_game",
   "date": "2026-12-30",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 11,
@@ -23863,7 +23911,7 @@
   "week": 11,
   "game_id": "1393724083002146816",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -23989,7 +24037,7 @@
   "week": 11,
   "game_id": "1393724090178600960",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -24053,7 +24101,7 @@
   "status": "pre_game",
   "date": "2027-01-01",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 11,
@@ -24129,7 +24177,7 @@
   "week": 11,
   "game_id": "1393724098005172224",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -24269,7 +24317,7 @@
   "week": 11,
   "game_id": "1393724106649632768",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -24347,7 +24395,7 @@
   "status": "pre_game",
   "date": "2027-01-04",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 12,
@@ -24437,7 +24485,7 @@
   "week": 12,
   "game_id": "1393724116485275648",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -24521,7 +24569,7 @@
   "week": 12,
   "game_id": "1393724121367445504",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -24675,7 +24723,7 @@
   "week": 12,
   "game_id": "1393724130938847232",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -24787,7 +24835,7 @@
   "week": 12,
   "game_id": "1393724138111107072",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -24935,7 +24983,7 @@
   "status": "pre_game",
   "date": "2027-01-09",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 12,
@@ -25039,7 +25087,7 @@
   "week": 12,
   "game_id": "1393724152271077376",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -25159,7 +25207,7 @@
   "status": "pre_game",
   "date": "2027-01-11",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 13,
@@ -25243,7 +25291,7 @@
   "status": "pre_game",
   "date": "2027-01-12",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 13,
@@ -25439,7 +25487,7 @@
   "status": "pre_game",
   "date": "2027-01-14",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 13,
@@ -25487,7 +25535,7 @@
   "week": 13,
   "game_id": "1393724181543124992",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -25557,7 +25605,7 @@
   "week": 13,
   "game_id": "1393724185024397317",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -25607,7 +25655,7 @@
   "status": "pre_game",
   "date": "2027-01-15",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 13,
@@ -25733,7 +25781,7 @@
   "status": "pre_game",
   "date": "2027-01-17",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 13,
@@ -25873,7 +25921,7 @@
   "status": "pre_game",
   "date": "2027-01-18",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 14,
@@ -25977,7 +26025,7 @@
   "week": 14,
   "game_id": "1393724207937880064",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -26069,13 +26117,13 @@
   "status": "pre_game",
   "date": "2027-01-20",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 14,
   "game_id": "1393724213545664512",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -26271,7 +26319,7 @@
   "week": 14,
   "game_id": "1393724226170519552",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -26307,7 +26355,7 @@
   "status": "pre_game",
   "date": "2027-01-22",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 14,
@@ -26439,7 +26487,7 @@
   "week": 14,
   "game_id": "1393724236970852352",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -26495,7 +26543,7 @@
   "week": 14,
   "game_id": "1393724241702027266",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -26523,7 +26571,7 @@
   "week": 15,
   "game_id": "1393724244273135616",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -26685,7 +26733,7 @@
   "status": "pre_game",
   "date": "2027-01-26",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 15,
@@ -26775,7 +26823,7 @@
   "week": 15,
   "game_id": "1393724261805326336",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -26937,7 +26985,7 @@
   "status": "pre_game",
   "date": "2027-01-28",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 15,
@@ -26999,7 +27047,7 @@
   "week": 15,
   "game_id": "1393724276758020096",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -27161,7 +27209,7 @@
   "status": "pre_game",
   "date": "2027-01-30",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 15,
@@ -27343,7 +27391,7 @@
   "status": "pre_game",
   "date": "2027-02-01",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 16,
@@ -27455,7 +27503,7 @@
   "status": "pre_game",
   "date": "2027-02-02",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 16,
@@ -27539,7 +27587,7 @@
   "status": "pre_game",
   "date": "2027-02-03",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 16,
@@ -27559,7 +27607,7 @@
   "week": 16,
   "game_id": "1393724316419358720",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -27769,7 +27817,7 @@
   "week": 16,
   "game_id": "1393724330034069504",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -27797,7 +27845,7 @@
   "week": 16,
   "game_id": "1393724332575817728",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -27951,7 +27999,7 @@
   "week": 16,
   "game_id": "1393724343069966336",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -27979,7 +28027,7 @@
   "week": 16,
   "game_id": "1393724344940625921",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -28239,7 +28287,7 @@
   "status": "pre_game",
   "date": "2027-02-09",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 17,
@@ -28253,7 +28301,7 @@
   "status": "pre_game",
   "date": "2027-02-09",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 17,
@@ -28357,7 +28405,7 @@
   "week": 17,
   "game_id": "1393724371859668992",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -28385,7 +28433,7 @@
   "week": 17,
   "game_id": "1393724373981986816",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -28525,7 +28573,7 @@
   "week": 17,
   "game_id": "1393724382496423936",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -28749,7 +28797,7 @@
   "week": 17,
   "game_id": "1393724396463456256",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -28869,7 +28917,7 @@
   "status": "pre_game",
   "date": "2027-02-15",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 18,
@@ -28953,7 +29001,7 @@
   "status": "pre_game",
   "date": "2027-02-16",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 18,
@@ -29071,7 +29119,7 @@
   "week": 18,
   "game_id": "1393724411655225344",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -29121,7 +29169,7 @@
   "status": "pre_game",
   "date": "2027-02-17",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 18,
@@ -29303,13 +29351,13 @@
   "status": "pre_game",
   "date": "2027-02-25",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 19,
   "game_id": "1393724429527154688",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -29429,7 +29477,7 @@
   "status": "pre_game",
   "date": "2027-02-27",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 19,
@@ -29625,7 +29673,7 @@
   "status": "pre_game",
   "date": "2027-02-28",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 19,
@@ -29673,7 +29721,7 @@
   "week": 20,
   "game_id": "1393724453392744448",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -29841,7 +29889,7 @@
   "week": 20,
   "game_id": "1393724464356655104",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -29897,7 +29945,7 @@
   "week": 20,
   "game_id": "1393724467942785024",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -30045,7 +30093,7 @@
   "status": "pre_game",
   "date": "2027-03-04",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 20,
@@ -30065,7 +30113,7 @@
   "week": 20,
   "game_id": "1393724479468732416",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -30191,7 +30239,7 @@
   "week": 20,
   "game_id": "1393724487974780928",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -30233,7 +30281,7 @@
   "week": 20,
   "game_id": "1393724491783208960",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -30331,7 +30379,7 @@
   "week": 21,
   "game_id": "1393724497772675072",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -30423,7 +30471,7 @@
   "status": "pre_game",
   "date": "2027-03-08",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 21,
@@ -30577,7 +30625,7 @@
   "status": "pre_game",
   "date": "2027-03-10",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 21,
@@ -30619,7 +30667,7 @@
   "status": "pre_game",
   "date": "2027-03-10",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 21,
@@ -30773,7 +30821,7 @@
   "status": "pre_game",
   "date": "2027-03-11",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 21,
@@ -30815,7 +30863,7 @@
   "status": "pre_game",
   "date": "2027-03-12",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 21,
@@ -30961,7 +31009,7 @@
   "week": 21,
   "game_id": "1393724540953034752",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -31263,7 +31311,7 @@
   "status": "pre_game",
   "date": "2027-03-16",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 22,
@@ -31319,7 +31367,7 @@
   "status": "pre_game",
   "date": "2027-03-17",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 22,
@@ -31487,7 +31535,7 @@
   "status": "pre_game",
   "date": "2027-03-18",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 22,
@@ -31501,7 +31549,7 @@
   "status": "pre_game",
   "date": "2027-03-18",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 22,
@@ -31683,7 +31731,7 @@
   "status": "pre_game",
   "date": "2027-03-20",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 22,
@@ -31739,7 +31787,7 @@
   "status": "pre_game",
   "date": "2027-03-21",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 22,
@@ -31893,7 +31941,7 @@
   "status": "pre_game",
   "date": "2027-03-22",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 23,
@@ -31949,7 +31997,7 @@
   "status": "pre_game",
   "date": "2027-03-23",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 23,
@@ -32131,7 +32179,7 @@
   "status": "pre_game",
   "date": "2027-03-24",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 23,
@@ -32193,7 +32241,7 @@
   "week": 23,
   "game_id": "1393724621785661440",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -32277,7 +32325,7 @@
   "week": 23,
   "game_id": "1393724626214846464",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -32347,7 +32395,7 @@
   "week": 23,
   "game_id": "1393724629855502336",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -32375,7 +32423,7 @@
   "week": 23,
   "game_id": "1393724631877156864",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -32487,7 +32535,7 @@
   "week": 23,
   "game_id": "1393724638181195776",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -32571,7 +32619,7 @@
   "week": 24,
   "game_id": "1393724643130474496",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -32719,7 +32767,7 @@
   "status": "pre_game",
   "date": "2027-03-30",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 24,
@@ -32767,7 +32815,7 @@
   "week": 24,
   "game_id": "1393724654438318080",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -33061,7 +33109,7 @@
   "week": 24,
   "game_id": "1393724672897449984",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },
@@ -33097,7 +33145,7 @@
   "status": "pre_game",
   "date": "2027-04-02",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 24,
@@ -33237,7 +33285,7 @@
   "status": "pre_game",
   "date": "2027-04-04",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 24,
@@ -33251,7 +33299,7 @@
   "status": "pre_game",
   "date": "2027-04-04",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 24,
@@ -33447,7 +33495,7 @@
   "status": "pre_game",
   "date": "2027-04-06",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 25,
@@ -33489,7 +33537,7 @@
   "status": "pre_game",
   "date": "2027-04-06",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 25,
@@ -33677,7 +33725,7 @@
   "week": 25,
   "game_id": "1393724713456369664",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -33685,7 +33733,7 @@
   "status": "pre_game",
   "date": "2027-04-08",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 25,
@@ -33853,13 +33901,13 @@
   "status": "pre_game",
   "date": "2027-04-09",
   "home": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   },
   "week": 25,
   "game_id": "1393724722662866944",
   "away": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   }
  },
@@ -34021,7 +34069,7 @@
   "status": "pre_game",
   "date": "2027-04-11",
   "home": {
-   "record": "4-8",
+   "record": "4-9",
    "team": "LAC"
   },
   "week": 25,
@@ -34097,7 +34145,7 @@
   "week": 25,
   "game_id": "1393724737221296128",
   "away": {
-   "record": "1-13",
+   "record": "2-13",
    "team": "UTA"
   }
  },

@@ -14460,6 +14460,477 @@
      "matchups.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "14d590f4",
+    "text": "Who scored the fewest points in the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Jacobo went 8-10 in the 2023-2024 regular season (9th of 12) with 7,458 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "766fb303",
+    "text": "Name one of the first five players Equipito PapoChullo (Chalela) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Desmond Bane",
+      "accept": [
+       "Bane",
+       "Desmond",
+       "Desmond Bane"
+      ],
+      "detail": "Taken 40th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Jabari Smith Jr.",
+      "accept": [
+       "Jabari",
+       "Jabari Smith",
+       "Jabari Smith Jr.",
+       "Smith"
+      ],
+      "detail": "Taken 57th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Traded 4 times in Das League."
+     },
+     {
+      "display": "Jalen Brunson",
+      "accept": [
+       "Brunson",
+       "Jalen",
+       "Jalen Brunson"
+      ],
+      "detail": "Taken 33rd overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Shai Gilgeous-Alexander",
+      "accept": [
+       "Alexander",
+       "Gilgeous",
+       "Gilgeous-Alexander",
+       "SGA",
+       "Shai",
+       "Shai Gilgeous-Alexander"
+      ],
+      "detail": "Taken 9th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Trae Young",
+      "accept": [
+       "Ice Trae",
+       "Trae",
+       "Trae Young",
+       "Young"
+      ],
+      "detail": "Taken 16th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "92148ca1",
+    "text": "Who won the 2023-2024 championship?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Blandon went 12-6 in the 2023-2024 regular season (3rd of 12) with 8,596 points, then won the championship."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "35d43704",
+    "text": "Which manager has traded for Derrick White 5 separate times?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Through 2025-2026, Papo is 31-24 in the regular season with 2 playoff trips and 0 titles. Papo has made 114 trades in all."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "72beee10",
+    "text": "Name one of the first five players MoonUnit (Ricky) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Anfernee Simons",
+      "accept": [
+       "Anfernee",
+       "Anfernee Simons",
+       "Simons"
+      ],
+      "detail": "Taken 51st overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "De'Aaron Fox",
+      "accept": [
+       "De'Aaron",
+       "De'Aaron Fox",
+       "Fox",
+       "Swipa"
+      ],
+      "detail": "Taken 27th overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Jaylen Brown",
+      "accept": [
+       "Brown",
+       "JB",
+       "Jaylen",
+       "Jaylen Brown"
+      ],
+      "detail": "Taken 22nd overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Tyler Herro",
+      "accept": [
+       "Herro",
+       "Tyler",
+       "Tyler Herro"
+      ],
+      "detail": "Taken 46th overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Victor Wembanyama",
+      "accept": [
+       "Alien",
+       "Victor",
+       "Victor Wembanyama",
+       "Wemb",
+       "Wembanyama",
+       "Wemby"
+      ],
+      "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 2 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "2d1ec91f",
+    "text": "Name a top-five pick of the 2026 rookie draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "AJ Dybantsa",
+      "accept": [
+       "AJ",
+       "AJ Dybantsa",
+       "Dybantsa"
+      ],
+      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
+     },
+     {
+      "display": "Caleb Wilson",
+      "accept": [
+       "Caleb",
+       "Caleb Wilson",
+       "Wilson"
+      ],
+      "detail": "Taken 3rd overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
+     },
+     {
+      "display": "Cameron Boozer",
+      "accept": [
+       "Boozer",
+       "Cameron",
+       "Cameron Boozer"
+      ],
+      "detail": "Taken 1st overall by Rabbi BT69 (Blandon) in the 2026 rookie draft. Never traded in Das League."
+     },
+     {
+      "display": "Darius Acuff Jr.",
+      "accept": [
+       "Acuff",
+       "Darius",
+       "Darius Acuff",
+       "Darius Acuff Jr."
+      ],
+      "detail": "Taken 2nd overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
+     },
+     {
+      "display": "Darryn Peterson",
+      "accept": [
+       "Darryn",
+       "Darryn Peterson",
+       "Peterson"
+      ],
+      "detail": "Taken 4th overall by hotrelish (Jacobo) in the 2026 rookie draft. Never traded in Das League."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "0e89ea09",
+    "text": "Name a player Antetokounmpers (Verdeja) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Andrew Wiggins",
+      "accept": [
+       "Andrew",
+       "Andrew Wiggins",
+       "Wiggins",
+       "Wiggs"
+      ],
+      "detail": "Verdeja got Andrew Wiggins in a trade with Papo on April 12, 2024."
+     },
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ],
+      "detail": "Verdeja got Bam Adebayo in a trade with Melo on September 4, 2026."
+     },
+     {
+      "display": "Brook Lopez",
+      "accept": [
+       "Brook",
+       "Brook Lopez",
+       "Lopez"
+      ],
+      "detail": "Verdeja got Brook Lopez in a trade with Papo on July 26, 2024."
+     },
+     {
+      "display": "Cam Whitmore",
+      "accept": [
+       "Cam",
+       "Cam Whitmore",
+       "Whitmore"
+      ],
+      "detail": "Verdeja got Cam Whitmore in a trade with Papo on April 27, 2025."
+     },
+     {
+      "display": "Cameron Johnson",
+      "accept": [
+       "Cameron",
+       "Cameron Johnson",
+       "Johnson"
+      ],
+      "detail": "Verdeja got Cameron Johnson in a trade with Papo on February 5, 2025."
+     },
+     {
+      "display": "Chris Paul",
+      "accept": [
+       "CP3",
+       "Chris",
+       "Chris Paul",
+       "Paul",
+       "Point God"
+      ],
+      "detail": "Verdeja got Chris Paul in a trade with Papo on April 27, 2025."
+     },
+     {
+      "display": "DeMar DeRozan",
+      "accept": [
+       "DeMar",
+       "DeMar DeRozan",
+       "DeRozan"
+      ],
+      "detail": "Verdeja got DeMar DeRozan in a trade with Papo on April 12, 2024."
+     },
+     {
+      "display": "Deandre Ayton",
+      "accept": [
+       "Ayton",
+       "Deandre",
+       "Deandre Ayton"
+      ],
+      "detail": "Verdeja got Deandre Ayton in a trade with Papo on January 4, 2024."
+     },
+     {
+      "display": "Donovan Mitchell",
+      "accept": [
+       "Donovan",
+       "Donovan Mitchell",
+       "Mitchell",
+       "Spida"
+      ],
+      "detail": "Verdeja got Donovan Mitchell in a trade with Melo on September 4, 2026."
+     },
+     {
+      "display": "Donte DiVincenzo",
+      "accept": [
+       "DiVincenzo",
+       "Donte",
+       "Donte DiVincenzo"
+      ],
+      "detail": "Verdeja got Donte DiVincenzo in a trade with Papo on July 26, 2024."
+     },
+     {
+      "display": "Giannis Antetokounmpo",
+      "accept": [
+       "Antetokounmpo",
+       "Giannis",
+       "Giannis Antetokounmpo",
+       "Greek Freak"
+      ],
+      "detail": "Verdeja got Giannis Antetokounmpo in a trade with Papo on June 27, 2025."
+     },
+     {
+      "display": "Jaime Jaquez Jr.",
+      "accept": [
+       "Jaime",
+       "Jaime Jaquez",
+       "Jaime Jaquez Jr.",
+       "Jaquez"
+      ],
+      "detail": "Verdeja got Jaime Jaquez Jr. in a trade with Papo on February 5, 2025."
+     },
+     {
+      "display": "Jalen Duren",
+      "accept": [
+       "Duren",
+       "Jalen",
+       "Jalen Duren"
+      ],
+      "detail": "Verdeja got Jalen Duren in a trade with Papo on January 17, 2025."
+     },
+     {
+      "display": "Jimmy Butler III",
+      "accept": [
+       "Butler",
+       "Jimmy",
+       "Jimmy Buckets",
+       "Jimmy Butler",
+       "Jimmy Butler III"
+      ],
+      "detail": "Verdeja got Jimmy Butler III in a trade with Papo on September 3, 2025."
+     },
+     {
+      "display": "John Collins",
+      "accept": [
+       "Collins",
+       "John",
+       "John Collins"
+      ],
+      "detail": "Verdeja got John Collins in a trade with Papo on January 17, 2025."
+     },
+     {
+      "display": "Jordan Poole",
+      "accept": [
+       "Jordan",
+       "Jordan Poole",
+       "Poole"
+      ],
+      "detail": "Verdeja got Jordan Poole in a trade with Papo on January 4, 2024."
+     },
+     {
+      "display": "Keyonte George",
+      "accept": [
+       "George",
+       "Keyonte",
+       "Keyonte George"
+      ],
+      "detail": "Verdeja got Keyonte George in a trade with Papo on April 27, 2025."
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ],
+      "detail": "Verdeja got Naz Reid in a trade with Jacobo on August 1, 2024."
+     },
+     {
+      "display": "Nickeil Alexander-Walker",
+      "accept": [
+       "Alexander",
+       "Alexander-Walker",
+       "Nickeil",
+       "Nickeil Alexander-Walker",
+       "Walker"
+      ],
+      "detail": "Verdeja got Nickeil Alexander-Walker in a trade with Jacobo on February 2, 2026."
+     },
+     {
+      "display": "Paul George",
+      "accept": [
+       "George",
+       "PG",
+       "PG13",
+       "Paul",
+       "Paul George",
+       "Playoff P"
+      ],
+      "detail": "Verdeja got Paul George in a trade with Papo on January 4, 2024."
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ],
  "players": [

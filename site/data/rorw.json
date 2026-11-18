@@ -1163,6 +1163,240 @@
      "data/raw/sleeper"
     ]
    }
+  ],
+  [
+   {
+    "id": "rw-2026-11-18-1777",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "1777",
+     "name": "Luke Kennard",
+     "pos": "SG",
+     "nba": "PHX",
+     "gp": 12,
+     "fpg": 18.3,
+     "line": "9.4 pts · 1.8 reb · 1.8 ast",
+     "teams": 6
+    },
+    "recap": "Luke Kennard (SG, PHX): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 6 Das League teams. He's averaging 18.3 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-18-1801",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1801",
+     "name": "Alex Caruso",
+     "pos": "PF",
+     "nba": "OKC",
+     "gp": 11,
+     "fpg": 25.1,
+     "line": "7.6 pts · 4.0 reb · 3.0 ast",
+     "teams": 9
+    },
+    "recap": "Alex Caruso (PF, OKC): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by I Love Dragić (Victor)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "I Love Dragić (Victor) has had him since Nov 15. He's averaging 25.1 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-18-2281",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2281",
+     "name": "Santi Aldama",
+     "pos": "PF",
+     "nba": "DAL",
+     "gp": 5,
+     "fpg": 13.8,
+     "line": "8.0 pts · 3.6 reb · 0.8 ast",
+     "teams": 4
+    },
+    "recap": "Santi Aldama (PF, DAL): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Equipo Winchenzo (Winch)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Equipo Winchenzo (Winch) has had him since before this season. He's averaging 13.8 fantasy points a game, the 6th lowest of the 177 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-18-2432",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2432",
+     "name": "Keon Ellis",
+     "pos": "PG",
+     "nba": "BKN",
+     "gp": 12,
+     "fpg": 18.6,
+     "line": "4.8 pts · 1.8 reb · 1.8 ast",
+     "teams": 7
+    },
+    "recap": "Keon Ellis (PG, BKN): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 7 Das League teams. Papo dropped him on Nov 15. He's averaging 18.6 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-18-2028",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2028",
+     "name": "Caleb Martin",
+     "pos": "PF",
+     "nba": "DAL",
+     "gp": 10,
+     "fpg": 18.8,
+     "line": "5.9 pts · 3.1 reb · 2.2 ast",
+     "teams": 7
+    },
+    "recap": "Caleb Martin (PF, DAL): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 7 Das League teams. He's averaging 18.8 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-18-2032",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2032",
+     "name": "Nic Claxton",
+     "pos": "C",
+     "nba": "CHI",
+     "gp": 4,
+     "fpg": 20.2,
+     "line": "7.8 pts · 4.5 reb · 2.0 ast",
+     "teams": 4
+    },
+    "recap": "Nic Claxton (C, CHI): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Los Chigüires (Libguel)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Los Chigüires (Libguel) has had him since before this season. He's averaging 20.2 fantasy points a game, the 22nd lowest of the 177 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-18-2144",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2144",
+     "name": "Aaron Nesmith",
+     "pos": "SF",
+     "nba": "IND",
+     "gp": 12,
+     "fpg": 20.2,
+     "line": "12.2 pts · 2.8 reb · 1.8 ast",
+     "teams": 5
+    },
+    "recap": "Aaron Nesmith (SF, IND): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Antetokounmpers (Verdeja)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Antetokounmpers (Verdeja) has had him since before this season. He's averaging 20.2 fantasy points a game, the 21st lowest of the 177 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   }
   ]
  ],
  "as_of": [
@@ -1170,14 +1404,16 @@
   "Sat Nov 14, 1:19 AM EST",
   "Sun Nov 15, 12:51 AM EST",
   "Mon Nov 16, 12:28 AM EST",
-  "Tue Nov 17, 12:58 AM EST"
+  "Tue Nov 17, 12:58 AM EST",
+  "Wed Nov 18, 1:00 AM EST"
  ],
  "dates": [
   "2026-11-13",
   "2026-11-14",
   "2026-11-15",
   "2026-11-16",
-  "2026-11-17"
+  "2026-11-17",
+  "2026-11-18"
  ],
  "players": [
   {
