@@ -848,7 +848,7 @@
     $("lk-heads").innerHTML = `
       <div class="rv-head"><small>Lock-in wizard 🧙</small><b>${esc(top.team)} (${esc(top.name)})</b><span>${sign(top.per_week)} points a week</span></div>
       <div class="rv-head"><small>Sniper 🎯</small><b>${esc(sharp.team)} (${esc(sharp.name)})</b><span>Best game counted ${Math.round(sharp.best_rate)}% of the time</span></div>
-      <div class="rv-head"><small>Locks like a coin flip 🪙</small><b>${esc(bottom.team)} (${esc(bottom.name)})</b><span>${sign(bottom.per_week)} points a week</span></div>`;
+      <div class="rv-head"><small>Gets the least out of locking 🪙</small><b>${esc(bottom.team)} (${esc(bottom.name)})</b><span>${sign(bottom.per_week)} points a week</span></div>`;
     const max = Math.max(...L.managers.map((m) => Math.abs(m.per_week))) || 1;
     $("lk-list").innerHTML = L.managers.map((m) => `<li class="lk${m.manager === me ? " mine" : ""}" id="lk-${m.manager}">
       <button type="button" class="lk-top" aria-expanded="false"><span class="pr-rank">${m.rank}</span>

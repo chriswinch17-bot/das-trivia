@@ -25869,6 +25869,366 @@
    ]
   }
  },
+ "lockin": {
+  "seasons": [
+   "2023-2024",
+   "2024-2025",
+   "2025-2026"
+  ],
+  "managers": [
+   {
+    "manager": "winch",
+    "name": "Winch",
+    "team": "Equipo Winchenzo",
+    "per_week": 96.0,
+    "best_rate": 69.1,
+    "starter_weeks": 549,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 89.6,
+     "2024-2025": 97.3,
+     "2025-2026": 100.6
+    },
+    "best_lock": {
+     "player": "OG Anunoby",
+     "season": "2024-2025",
+     "week": 6,
+     "locked": 72.0,
+     "avg": 29.2
+    },
+    "worst_miss": {
+     "player": "Kawhi Leonard",
+     "season": "2025-2026",
+     "week": 10,
+     "locked": 71.0,
+     "best": 122.0
+    },
+    "rank": 1
+   },
+   {
+    "manager": "melo",
+    "name": "Melo",
+    "team": "LeBong James",
+    "per_week": 94.6,
+    "best_rate": 70.8,
+    "starter_weeks": 549,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 89.4,
+     "2024-2025": 96.0,
+     "2025-2026": 98.2
+    },
+    "best_lock": {
+     "player": "Jarrett Allen",
+     "season": "2025-2026",
+     "week": 15,
+     "locked": 104.0,
+     "avg": 46.8
+    },
+    "worst_miss": {
+     "player": "Al Horford",
+     "season": "2023-2024",
+     "week": 16,
+     "locked": 18.0,
+     "best": 62.0
+    },
+    "rank": 2
+   },
+   {
+    "manager": "shueiro",
+    "name": "Shueiro",
+    "team": "2057 Champs",
+    "per_week": 92.9,
+    "best_rate": 70.2,
+    "starter_weeks": 549,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 93.2,
+     "2024-2025": 98.2,
+     "2025-2026": 88.0
+    },
+    "best_lock": {
+     "player": "Bobby Portis Jr.",
+     "season": "2024-2025",
+     "week": 9,
+     "locked": 90.0,
+     "avg": 39.3
+    },
+    "worst_miss": {
+     "player": "Alperen Şengün",
+     "season": "2025-2026",
+     "week": 19,
+     "locked": 51.0,
+     "best": 97.0
+    },
+    "rank": 3
+   },
+   {
+    "manager": "libguel",
+    "name": "Libguel",
+    "team": "Los Chigüires",
+    "per_week": 90.3,
+    "best_rate": 69.3,
+    "starter_weeks": 548,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 70.4,
+     "2024-2025": 92.6,
+     "2025-2026": 106.2
+    },
+    "best_lock": {
+     "player": "Scottie Barnes",
+     "season": "2025-2026",
+     "week": 10,
+     "locked": 103.0,
+     "avg": 56.3
+    },
+    "worst_miss": {
+     "player": "Jamal Murray",
+     "season": "2024-2025",
+     "week": 17,
+     "locked": 47.0,
+     "best": 92.0
+    },
+    "rank": 4
+   },
+   {
+    "manager": "jacobo",
+    "name": "Jacobo",
+    "team": "hotrelish",
+    "per_week": 87.0,
+    "best_rate": 69.6,
+    "starter_weeks": 541,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 80.8,
+     "2024-2025": 84.4,
+     "2025-2026": 94.8
+    },
+    "best_lock": {
+     "player": "LaMelo Ball",
+     "season": "2023-2024",
+     "week": 2,
+     "locked": 87.0,
+     "avg": 42.5
+    },
+    "worst_miss": {
+     "player": "Zion Williamson",
+     "season": "2023-2024",
+     "week": 11,
+     "locked": 0.0,
+     "best": 53.0
+    },
+    "rank": 5
+   },
+   {
+    "manager": "blandon",
+    "name": "Blandon",
+    "team": "Rabbi BT69",
+    "per_week": 85.9,
+    "best_rate": 68.5,
+    "starter_weeks": 543,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 97.7,
+     "2024-2025": 100.7,
+     "2025-2026": 62.6
+    },
+    "best_lock": {
+     "player": "Giannis Antetokounmpo",
+     "season": "2023-2024",
+     "week": 8,
+     "locked": 115.0,
+     "avg": 65.5
+    },
+    "worst_miss": {
+     "player": "Jaren Jackson Jr.",
+     "season": "2025-2026",
+     "week": 17,
+     "locked": 0.0,
+     "best": 38.0
+    },
+    "rank": 6
+   },
+   {
+    "manager": "chalela",
+    "name": "Chalela",
+    "team": "Lochte & Associates",
+    "per_week": 82.9,
+    "best_rate": 62.8,
+    "starter_weeks": 549,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 65.8,
+     "2024-2025": 96.5,
+     "2025-2026": 86.8
+    },
+    "best_lock": {
+     "player": "Myles Turner",
+     "season": "2023-2024",
+     "week": 13,
+     "locked": 75.0,
+     "avg": 32.8
+    },
+    "worst_miss": {
+     "player": "Jalen Brunson",
+     "season": "2023-2024",
+     "week": 8,
+     "locked": 36.0,
+     "best": 117.0
+    },
+    "rank": 7
+   },
+   {
+    "manager": "victor",
+    "name": "Victor",
+    "team": "I Love Dragić",
+    "per_week": 82.6,
+    "best_rate": 62.1,
+    "starter_weeks": 546,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 91.9,
+     "2024-2025": 90.3,
+     "2025-2026": 67.6
+    },
+    "best_lock": {
+     "player": "Daniel Gafford",
+     "season": "2024-2025",
+     "week": 14,
+     "locked": 98.0,
+     "avg": 57.0
+    },
+    "worst_miss": {
+     "player": "Kyrie Irving",
+     "season": "2023-2024",
+     "week": 6,
+     "locked": 0.0,
+     "best": 43.0
+    },
+    "rank": 8
+   },
+   {
+    "manager": "joey",
+    "name": "Joey",
+    "team": "Fidel’s Accumulators",
+    "per_week": 79.4,
+    "best_rate": 68.0,
+    "starter_weeks": 544,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 91.9,
+     "2024-2025": 76.1,
+     "2025-2026": 71.0
+    },
+    "best_lock": {
+     "player": "Luka Dončić",
+     "season": "2025-2026",
+     "week": 9,
+     "locked": 122.0,
+     "avg": 65.0
+    },
+    "worst_miss": {
+     "player": "Jimmy Butler III",
+     "season": "2024-2025",
+     "week": 9,
+     "locked": 0.0,
+     "best": 111.0
+    },
+    "rank": 9
+   },
+   {
+    "manager": "papo",
+    "name": "Papo",
+    "team": "Fear the Brow",
+    "per_week": 75.6,
+    "best_rate": 67.0,
+    "starter_weeks": 545,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 88.8,
+     "2024-2025": 54.8,
+     "2025-2026": 81.4
+    },
+    "best_lock": {
+     "player": "Luka Dončić",
+     "season": "2023-2024",
+     "week": 10,
+     "locked": 138.0,
+     "avg": 92.3
+    },
+    "worst_miss": {
+     "player": "Lauri Markkanen",
+     "season": "2024-2025",
+     "week": 12,
+     "locked": 0.0,
+     "best": 55.0
+    },
+    "rank": 10
+   },
+   {
+    "manager": "verdeja",
+    "name": "Verdeja",
+    "team": "Antetokounmpers",
+    "per_week": 73.7,
+    "best_rate": 63.8,
+    "starter_weeks": 547,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 79.3,
+     "2024-2025": 70.9,
+     "2025-2026": 71.0
+    },
+    "best_lock": {
+     "player": "Zach LaVine",
+     "season": "2023-2024",
+     "week": 1,
+     "locked": 71.0,
+     "avg": 29.3
+    },
+    "worst_miss": {
+     "player": "Kyshawn George",
+     "season": "2025-2026",
+     "week": 1,
+     "locked": 17.0,
+     "best": 82.0
+    },
+    "rank": 11
+   },
+   {
+    "manager": "ricky",
+    "name": "Ricky",
+    "team": "MoonUnit 🦬",
+    "per_week": 61.0,
+    "best_rate": 59.3,
+    "starter_weeks": 545,
+    "weeks": 55,
+    "by_season": {
+     "2023-2024": 70.1,
+     "2024-2025": 49.7,
+     "2025-2026": 62.4
+    },
+    "best_lock": {
+     "player": "Anfernee Simons",
+     "season": "2023-2024",
+     "week": 11,
+     "locked": 70.0,
+     "avg": 32.3
+    },
+    "worst_miss": {
+     "player": "Jaylen Brown",
+     "season": "2023-2024",
+     "week": 17,
+     "locked": 0.0,
+     "best": 65.0
+    },
+    "rank": 12
+   }
+  ],
+  "league_per_week": 83.5,
+  "league_best_rate": 66.7,
+  "matched_share": 98.9
+ },
  "sources": [
   "site/data/matchups.json",
   "site/data/seasons.json",
