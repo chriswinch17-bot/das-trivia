@@ -8,7 +8,7 @@
   const TIME_ZONE = "America/New_York";
   const GAMES = [
     { mode: "trivia", name: "Das Trivia", icon: "🏀" },
-    { mode: "papo", name: "Papo Trade or NOT", icon: "🔄" },
+    // { mode: "papo", name: "Papo Trade or NOT", icon: "🔄" },   hidden for now (owner, 2026-11-19)
     { mode: "team", name: "What team am I?", icon: "🕵️" },
     { mode: "rorw", name: "Rostered or Waiver", icon: "🗑️" },
     { mode: "feud", name: "Das Feud", icon: "📋" },

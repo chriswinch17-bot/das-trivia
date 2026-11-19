@@ -102,6 +102,8 @@ The owner has essentially no coding or web development experience.
   table `scores` (`docs/leaderboard_setup.sql`); the connection values go in `site/js/config.js`.
   While those are empty the name screen and leaderboard are switched off entirely; preview them with `?test&board`. Practice mode never saves a score.
   It is an honor system: anyone can pick any name, and the first score per name per day counts.
+- **Papo Trade or NOT is HIDDEN for now** (owner, 2026-11-19): home card has `hidden`, it's out of DasCommon.GAMES and the
+  archive, and `?mode=papo` redirects home. `build_papo.py` still runs nightly so it can come back by undoing those.
 - **Papo Trade or NOT** (bonus mode, `?mode=papo`): 5 yes-or-no questions a day.
   Its theme picture is `site/images/papo-mode.webp` ("Mr. Trade Man"), on its start screen and the bonus banner. Each shows a real
   trade with the teams hidden ("Team A got / Team B got"); the player says whether Papo was in it.

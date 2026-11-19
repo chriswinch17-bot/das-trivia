@@ -790,8 +790,8 @@
     const right = state.answers.filter((a) => a.result === "correct").length;
     $("final-score").textContent = score;
     $("final-sub").textContent = `${right} of ${questions.length} correct · ${M.label} #${gameNumber}`;
-    $("other-mode").href = keepTest(mode === "trivia" ? "?mode=papo" : "?mode=trivia");
-    $("other-mode").textContent = mode === "trivia" ? "Play today's Papo Trade or NOT" : "Play today's Das Trivia";
+    $("other-mode").href = keepTest(mode === "trivia" ? "?mode=team" : "?mode=trivia");
+    $("other-mode").textContent = mode === "trivia" ? "Play today's What team am I?" : "Play today's Das Trivia";
 
     const grid = $("final-grid");
     grid.replaceChildren();
@@ -865,7 +865,7 @@
     show("archive");
     document.title = "Past results · Das Trivia";
     $("game-tag").textContent = "Past results" + (testMode ? " · test" : "");
-    const kinds = ["trivia", "papo", "team", "rorw"];
+    const kinds = ["trivia", "team", "rorw"];      // Papo Trade or NOT hidden for now (owner, 2026-11-19)
     const files = {};
     try {
       await Promise.all(kinds.map(async (k) => { files[k] = await (await fetch(MODES[k].file, { cache: "no-cache" })).json(); }));
@@ -990,6 +990,8 @@
   }
 
   async function start() {
+    // Papo Trade or NOT is hidden for now (owner, 2026-11-19): old links go to the home page
+    if (params.get("mode") === "papo") { location.replace(keepTest("./")); return; }
     // the Home button on every game screen; every link back home keeps practice mode on
     for (const a of document.querySelectorAll('a[href="./"]')) a.href = keepTest("./");
     $("home-link").hidden = home;
