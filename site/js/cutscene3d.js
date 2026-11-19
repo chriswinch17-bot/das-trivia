@@ -152,20 +152,83 @@
       net.scale.y = 1 + Math.sin(d * Math.PI) * 0.4;
     };
     const RIM_IN = { x: RIM.x, y: RIM.y + 0.06, z: 0 };
+    const mix = (a, b, k) => ({ x: lerp(a.x, b.x, k), y: lerp(a.y, b.y, k), z: lerp(a.z, b.z, k) });
+    const handOf = (o, i) => { o.arms[i].end.getWorldPosition(v); return { x: v.x + 0.05, y: v.y - 0.04, z: v.z }; };
+    const SLAM_AT = { x: 6.6, y: 1.12 };             // where his hips are when the ball goes down through the rim
+    // the dunker: run, take off, fly a curve that ends with his hand over the rim, hang on the rim, drop
+    const dunkHero = (s, P) => {
+      const run = smooth(s, P.run[0], P.run[1]), u = seg(s, P.fly[0], P.fly[1]);
+      let x, y;
+      if (s < P.fly[0]) { x = lerp(P.start, P.takeoff, run); y = 0; }
+      else if (s < P.fly[1]) {
+        const e = 1 - Math.pow(1 - u, 1.6);                        // fast off the floor, floating into the rim
+        x = (1 - e) * (1 - e) * P.takeoff + 2 * (1 - e) * e * P.ctrl.x + e * e * SLAM_AT.x;
+        y = 2 * (1 - e) * e * P.ctrl.y + e * e * SLAM_AT.y;
+      } else if (s < P.hang) { const h = seg(s, P.fly[1], P.hang); x = SLAM_AT.x - h * 0.04; y = SLAM_AT.y - h * 0.2; }
+      else { const d = seg(s, P.hang, P.land); x = SLAM_AT.x - 0.04 - d * 0.25; y = (SLAM_AT.y - 0.2) * (1 - d * d); }
+      at(hero, x, Math.max(0, y), 0);
+      const flying = s >= P.fly[0] && s < P.land;
+      if (s < P.fly[0]) pose(hero, { run: 13, armL: 0.15 + run * 0.1, crouch: seg(s, P.fly[0] - 0.15, P.fly[0]) * 0.3 });
+      else if (flying) pose(hero, { armL: 1, armR: s > P.fly[1] - 0.25 ? 1 : 0.55, kick: s < P.fly[1] ? 0.9 : 0.3, lean: -0.15 });
+      else pose(hero, { crouch: 0.35 * (1 - seg(s, P.land, P.land + 0.35)), armL: 0.3, armR: 0.3 });
+      // the rim bends down while he hangs on it, then shakes back
+      if (s >= P.fly[1] && s < P.hang) rim.rotation.z = 0.13 * smooth(s, P.fly[1], P.fly[1] + 0.12);
+      else if (s >= P.hang) { const wv = seg(s, P.hang, P.hang + 0.8); rim.rotation.z = Math.cos(wv * Math.PI * 5) * 0.13 * (1 - wv); }
+      else rim.rotation.z = 0;
+    };
+    // the ball: in his hand, then pushed down through the rim from above, through the net, onto the floor
+    const dunkBall = (s, P) => {
+      const top = { x: RIM.x, y: RIM.y + 0.14, z: 0 };
+      const push = P.fly[1] - 0.08;
+      if (s < push) { const h = handOf(hero, 0); ball.position.set(h.x, h.y + 0.06, h.z); return; }
+      if (s < P.fly[1]) { const h = handOf(hero, 0); const k = seg(s, push, P.fly[1]); const p = mix({ x: h.x, y: h.y + 0.06, z: h.z }, top, k); ball.position.set(p.x, p.y, p.z); return; }
+      const d = seg(s, P.fly[1], P.fly[1] + 0.5);
+      ball.position.set(RIM.x + d * 0.1, lerp(top.y, 0.12, d * d), 0);
+      net.scale.y = 1 + Math.sin(clamp(d * 2) * Math.PI) * 0.45;
+      if (d >= 1) ball.position.y = 0.12 + Math.abs(Math.sin(seg(s, P.fly[1] + 0.5, P.fly[1] + 1.4) * Math.PI * 2)) * 0.5 * (1 - seg(s, P.fly[1] + 0.5, P.fly[1] + 1.4));
+    };
     const camAt = (x, y, z, lx, ly, lz) => w.camGoal(x, y, z, lx, ly, lz);
     const face = (o, deg) => o.root.rotation.y;
     return {
-      1: { len: 3.0, update(t) {                     // crossover: the defender hits the floor
-        const go = smooth(t, 1.4, 2.3), fall = smooth(t, 1.55, 2.3);
-        at(hero, lerp(0, 2.8, go), 0, lerp(0, -0.55, go));
-        pose(hero, { run: t > 1.4 ? 13 : 0, crouch: 0.28, armL: 0.08, lean: go * 0.22 });
-        dribble(hero, t, t < 1.4 ? Math.sin(t * 4.2) : -1);
-        at(def, 1.45, fall * 0.04, 0.1);
-        def.root.rotation.x = -fall * 1.45;
-        pose(def, { crouch: 0.4 * (1 - fall), armL: 0.3 + fall * 0.4, armR: 0.3, turn: Math.PI });
-        camAt(0.8, 1.25, 3.7, 1.3, 0.85, 0);
-        if (t > 2.05) boom("ANKLES!");
-      } },
+      1: {                                          // a real crossover: hesitation, ball crossed low hand to hand, ankles
+        len: 3.3,
+        segs: [[0, 0.42, 1, 1], [0.42, 0.84, 1, 1], [0.84, 1.12, 1, 0], [1.12, 1.44, 0, 0], [1.44, 1.8, 0, 0],
+               [1.8, 2.16, 0, 0], [2.16, 2.52, 0, 0], [2.52, 2.88, 0, 0], [2.88, 3.3, 0, 0]],
+        update(t) {
+          const go = smooth(t, 1.1, 3.0), sell = smooth(t, 0.45, 0.8), cross = smooth(t, 0.9, 1.5), fall = smooth(t, 1.25, 1.9);
+          at(hero, go * 3.1, 0, 0.12 * sell - 0.62 * cross);
+          const d = this.dribbling(t);
+          const pump = d ? Math.sin(d.u * Math.PI * 2) * 0.1 : 0;
+          pose(hero, {
+            run: t > 1.15 ? 12 : 0, crouch: t < 1.1 ? 0.4 : 0.22, lean: go * 0.18,
+            side: t < 0.84 ? 0.15 * sell : lerp(0.15, -0.2, cross) * (1 - go * 0.5),
+            armR: d && d.hand === 1 ? 0.2 + pump : 0.38, armL: d && d.hand === 0 ? 0.2 + pump : 0.38,
+          });
+          // the defender bites on the hesitation, then his feet get crossed up and he goes down
+          at(def, 1.65 + fall * 0.25, fall * 0.05, 0.3 * sell);
+          def.root.rotation.z = -fall * 1.3;         // feet go out from under him: flat on his back
+          def.root.rotation.x = fall * 0.25;
+          pose(def, { crouch: 0.45 * (1 - fall), armL: 0.3 + fall * 0.5, armR: 0.35, turn: Math.PI,
+            kick: fall * 0.6, kickR: -fall * 0.3, side: 0.2 * sell });
+          const f = smooth(t, 1.3, 2.8);
+          camAt(lerp(2.7, 3.9, f), 1.15, lerp(2.7, 2.3, f), lerp(0.7, 2.6, f), 0.72, lerp(0, -0.35, f));
+          if (t > 1.7) boom("ANKLES!");
+        },
+        // which hand the ball is going to and how far through the bounce it is
+        dribbling(t) {
+          const s = this.segs.find(([a, b]) => t >= a && t < b) || this.segs[this.segs.length - 1];
+          return { from: s[2], hand: s[3], u: clamp((t - s[0]) / (s[1] - s[0])) };
+        },
+        after(t) {
+          const d = this.dribbling(t);
+          const P0 = handOf(hero, d.from), P2 = handOf(hero, d.hand);
+          hero.hips.getWorldPosition(v);
+          const F = { x: v.x + 0.42, y: 0.12, z: d.from !== d.hand ? (P0.z + P2.z) / 2 : P0.z * 0.9 + v.z * 0.1 };
+          const p = d.u < 0.45 ? mix(P0, F, Math.pow(d.u / 0.45, 2)) : mix(F, P2, 1 - Math.pow(1 - (d.u - 0.45) / 0.55, 2));
+          ball.position.set(p.x, p.y, p.z);
+          ball.rotation.z -= 0.3;
+        },
+      },
       2: { len: 3.1, update(t) {                     // layup
         const run = smooth(t, 0, 1.45), jump = seg(t, 1.4, 2.25), lay = seg(t, 1.75, 2.15);
         at(def, 4.2, 0, 1.15); pose(def, { crouch: 0.3, armL: 0.6, turn: Math.PI * 0.8 });
@@ -204,65 +267,63 @@
         camAt(lerp(-1.6, 1.6, f), lerp(1.8, 2.8, f), lerp(5.0, 7.2, f), lerp(1.0, ball.position.x, f * 0.8), lerp(1.5, ball.position.y * 0.75 + 0.4, f), 0);
         if (t > 2.75) boom("SPLASH 💦");
       } },
-      6: { len: 4.3, update(t) {                     // dunk with slow motion at the top
-        const s = t < 1.6 ? t : t < 2.6 ? 1.6 + (t - 1.6) * 0.35 : 1.95 + (t - 2.6);
-        const run = smooth(s, 0, 1.2), jump = seg(s, 1.2, 2.25), slam = seg(s, 1.95, 2.15), knocked = smooth(s, 2.1, 2.6);
-        at(def, 6.0, Math.sin(seg(s, 1.25, 2.0) * Math.PI) * 0.45, 0.45);
-        def.root.rotation.x = knocked * 1.5;
-        pose(def, { armL: 1 - knocked, armR: 0.8 - knocked * 0.5, turn: Math.PI });
-        at(hero, lerp(1.6, 5.3, run) + ease(jump) * 1.35, Math.sin(clamp(jump * 1.15) * Math.PI) * 1.75, 0);
-        pose(hero, { run: run < 1 ? 13 : 0, armL: jump > 0 ? 1 : 0.15, kick: jump > 0 ? 0.8 : 0, lean: -jump * 0.2 });
-        if (slam < 1) holdBall(hero); else sink(seg(s, 2.15, 2.5));
-        const wobble = seg(s, 2.15, 2.9);
-        rim.rotation.z = slam >= 1 ? Math.sin(wobble * Math.PI * 4) * 0.12 * (1 - wobble) : 0;
-        const k = smooth(t, 0, 2.6);
-        w.shake = slam >= 1 && s < 2.45 ? 0.08 : 0;
-        camAt(lerp(3.0, 5.0, k), lerp(1.6, 3.1, k), lerp(5.0, 3.0, k), lerp(4.5, RIM.x - 0.3, k), lerp(1.2, 2.8, k), 0);
-        if (s > 2.15) boom("SLAM!", true);
-      } },
-      7: { len: 7.2, update(t) {                     // POSTERIZER over two defenders, then the celebration
-        const s = t < 1.5 ? t : t < 2.9 ? 1.5 + (t - 1.5) * 0.3 : 1.92 + (t - 2.9);
-        const run = smooth(s, 0, 1.15), jump = seg(s, 1.1, 2.3), slam = seg(s, 1.9, 2.1);
-        const knocked = smooth(s, 2.05, 2.55), party = seg(s, 2.6, 6.0);
-        // both defenders jump to contest, then go flying
-        at(def, 5.55, Math.sin(seg(s, 1.15, 1.95) * Math.PI) * 0.5, 0.42);
-        at(def2, 6.05, Math.sin(seg(s, 1.25, 2.0) * Math.PI) * 0.55, -0.42);
-        def.root.rotation.x = knocked * 1.55; def2.root.rotation.x = -knocked * 1.55;
-        pose(def, { armL: 1 - knocked, armR: 0.7, turn: Math.PI });
-        pose(def2, { armL: 0.9 - knocked * 0.6, armR: 1 - knocked, turn: Math.PI });
-        // the leap from the free-throw line, right over both of them
-        const landed = s > 2.3;
-        const hx = landed ? lerp(6.55, 4.8, smooth(s, 2.6, 3.4)) : lerp(1.3, 4.1, run) + ease(jump) * 2.45;
-        const hy = landed ? 0 : Math.sin(clamp(jump * 1.08) * Math.PI) * 2.05;
-        at(hero, hx, hy, landed ? lerp(0, 0.6, smooth(s, 2.6, 3.4)) : 0);
-        if (!landed) {
-          pose(hero, { run: run < 1 ? 14 : 0, armL: jump > 0 ? 1 : 0.15, kick: jump > 0 ? 0.9 : 0, lean: -jump * 0.25 });
-        } else if (s < 3.4) {
-          pose(hero, { run: 9, turn: -Math.PI / 2 * smooth(s, 2.7, 3.3), armL: 0.6, armR: 0.6 });    // turns to the crowd
-        } else {
-          // the dance: hips bounce, heels kick in turn, arms pump, a little side to side
-          const b = (s - 3.4) * 7.5;
-          pose(hero, { turn: -Math.PI / 2, bounce: Math.abs(Math.sin(b)) * 0.06, kick: Math.max(0, Math.sin(b)) * 0.55,
-            kickR: Math.max(0, -Math.sin(b)) * 0.55, armL: 0.55 + Math.sin(b) * 0.4, armR: 0.55 - Math.sin(b) * 0.4,
-            side: Math.sin(b / 2) * 0.12, crouch: 0.15 });
-          if (s > 5.6) pose(hero, { turn: -Math.PI / 2, armL: 1, armR: 1, bounce: Math.abs(Math.sin((s - 5.6) * 6)) * 0.35 });
-        }
-        if (slam < 1) holdBall(hero); else sink(seg(s, 2.1, 2.5));
-        const wobble = seg(s, 2.1, 2.9);
-        rim.rotation.z = slam >= 1 ? Math.sin(wobble * Math.PI * 5) * 0.16 * (1 - wobble) : 0;
-        w.shake = slam >= 1 && s < 2.5 ? 0.12 : 0;
-        w.hype = slam >= 1 ? Math.min(1, (s - 2.1) * 3) : 0;
-        if (slam >= 1 && !w.confettiOn) { w.confettiOn = true; w.roar(); }
-        // camera: chase the leap, then swing round to face the celebration
-        if (s < 2.6) {
-          const k = smooth(t, 0, 2.9);
-          camAt(lerp(3.0, 5.2, k), lerp(1.6, 3.2, k), lerp(5.2, 3.3, k), lerp(4.2, RIM.x - 0.4, k), lerp(1.2, 2.8, k), 0);
-        } else {
-          camAt(lerp(5.2, 4.4, party), 1.9, 5.6, hx, 1.25, 0.3);
-        }
-        if (s > 2.1 && s < 3.4) boom("POSTERIZED!", true);
-        if (s >= 3.4) boom("CROWD GOES WILD!", true);
-      } },
+      6: {                                          // dunk: up, hand over the rim, slammed through, hangs on the rim
+        len: 4.7,
+        time(t) { return t < 1.5 ? t : t < 2.7 ? 1.5 + (t - 1.5) * 0.4 : 1.98 + (t - 2.7); },
+        plan: { start: 2.2, takeoff: 4.85, run: [0, 1.15], fly: [1.15, 1.95], ctrl: { x: 6.0, y: 2.3 }, hang: 2.35, land: 2.65 },
+        update(t) {
+          const s = this.time(t);
+          dunkHero(s, this.plan);
+          const jumpD = seg(s, 1.2, 1.9), knocked = smooth(s, 2.0, 2.5);
+          at(def, 6.05, Math.sin(jumpD * Math.PI) * 0.5, 0.5);
+          def.root.rotation.x = knocked * 1.45;
+          pose(def, { armL: Math.min(1, jumpD * 2) * (1 - knocked), armR: 0.8 - knocked * 0.5, turn: Math.PI });
+          const k = smooth(s, 0.6, 1.95);
+          camAt(lerp(3.4, 5.3, k), lerp(1.5, 2.9, k), lerp(4.6, 3.4, k), lerp(4.8, RIM.x - 0.2, k), lerp(1.3, 2.7, k), 0);
+          w.shake = s > 1.95 && s < 2.3 ? 0.07 : 0;
+          if (s > 1.95) boom("SLAM!", true);
+        },
+        after(t) { dunkBall(this.time(t), this.plan); },
+      },
+      7: {                                          // POSTERIZER over two defenders, hang on the rim, then the celebration
+        len: 7.4,
+        time(t) { return t < 1.4 ? t : t < 2.9 ? 1.4 + (t - 1.4) * 0.35 : 1.925 + (t - 2.9); },
+        plan: { start: 1.0, takeoff: 3.9, run: [0, 1.0], fly: [1.0, 1.95], ctrl: { x: 5.25, y: 3.4 }, hang: 2.35, land: 2.65 },
+        update(t) {
+          const s = this.time(t), P = this.plan;
+          const knocked = smooth(s, 1.9, 2.4), party = seg(s, 2.7, 6.2);
+          at(def, 5.15, Math.sin(seg(s, 1.0, 1.75) * Math.PI) * 0.5, 0.4);
+          at(def2, 5.7, Math.sin(seg(s, 1.08, 1.85) * Math.PI) * 0.55, -0.4);
+          def.root.rotation.x = knocked * 1.55; def2.root.rotation.x = -knocked * 1.55;
+          pose(def, { armL: (1 - knocked), armR: 0.7, turn: Math.PI });
+          pose(def2, { armL: 0.9 - knocked * 0.6, armR: 1 - knocked, turn: Math.PI });
+          if (s < 2.85) dunkHero(s, P);
+          else {
+            // he walks out toward the crowd, turns and dances
+            const hx = lerp(6.35, 4.8, smooth(s, 2.85, 3.5));
+            at(hero, hx, 0, lerp(0, 0.6, smooth(s, 2.85, 3.5)));
+            if (s < 3.5) pose(hero, { run: 9, turn: -Math.PI / 2 * smooth(s, 2.9, 3.4), armL: 0.6, armR: 0.6 });
+            else if (s < 5.8) {
+              const b = (s - 3.5) * 7.5;
+              pose(hero, { turn: -Math.PI / 2, bounce: Math.abs(Math.sin(b)) * 0.06, kick: Math.max(0, Math.sin(b)) * 0.55,
+                kickR: Math.max(0, -Math.sin(b)) * 0.55, armL: 0.55 + Math.sin(b) * 0.4, armR: 0.55 - Math.sin(b) * 0.4,
+                side: Math.sin(b / 2) * 0.12, crouch: 0.15 });
+            } else pose(hero, { turn: -Math.PI / 2, armL: 1, armR: 1, bounce: Math.abs(Math.sin((s - 5.8) * 6)) * 0.35 });
+          }
+          w.shake = s > 1.95 && s < 2.35 ? 0.11 : 0;
+          w.hype = s > 1.95 ? Math.min(1, (s - 1.95) * 3) : 0;
+          if (s > 1.95 && !w.confettiOn) { w.confettiOn = true; w.roar(); }
+          if (s < 2.75) {
+            const k = smooth(s, 0.5, 1.95);
+            camAt(lerp(3.0, 5.2, k), lerp(1.6, 3.1, k), lerp(5.2, 3.6, k), lerp(4.2, RIM.x - 0.3, k), lerp(1.2, 2.6, k), 0);
+          } else {
+            camAt(lerp(5.2, 4.4, party), 1.9, 5.6, hero.root.position.x, 1.25, 0.3);
+          }
+          if (s > 1.95 && s < 3.5) boom("POSTERIZED!", true);
+          if (s >= 3.5) boom("CROWD GOES WILD!", true);
+        },
+        after(t) { dunkBall(this.time(t), this.plan); },
+      },
     };
   }
 
@@ -447,13 +508,15 @@
         if (shown === text) return;
         shown = text;
         label.textContent = text;
-        label.className = "boom3d" + (big ? " big" : "");
+        label.className = "boom3d" + (big ? " big" : "") + (text.length > 12 ? " long" : "");
         void label.offsetWidth;
         label.className += " on";
       },
       camGoal(x, y, z, lx, ly, lz) { goalPos.set(x, y, z); goalLook.set(lx, ly, lz); },
     };
-    const S = scenes(w)[step];
+    const all = scenes(w);
+    const S = all[step];
+    for (const k of Object.keys(all)) { if (all[k].dribbling) all[k].dribbling = all[k].dribbling.bind(all[k]); }
 
     let start = null, last = null, raf = null, finished = false, first = true;
     const end = () => {
@@ -472,6 +535,7 @@
       const snap = first || freeze > 0;
       S.update(Math.min(t, S.len));
       for (const p of [hero, def, def2]) apply(p, dt, snap);
+      if (S.after) S.after(Math.min(t, S.len));
       // the camera eases toward where the scene wants it (snaps on the first frame)
       const k = snap ? 1 : 1 - Math.exp(-dt * 5);
       camPos.lerp(goalPos, k); camLook.lerp(goalLook, k);
