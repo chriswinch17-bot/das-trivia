@@ -4,7 +4,9 @@
 (() => {
   "use strict";
 
-  const BASE_POINTS = 100;        // prototype scoring; replaced by rarity scoring later
+  const BASE_POINTS = 100;        // then x difficulty, x hint, and on the leaderboard x rarity (Das Trivia)
+  const DIFFICULTY = { easy: { label: "Easy", x: 1 }, medium: { label: "Medium", x: 1.25 }, hard: { label: "Hard", x: 1.5 } };
+  const HINT_SHARE = 0.6;         // a hint keeps this share of the points
   const SPEED_BONUS_PER_SECOND = 2;
   const CLOSE_NUMBER_RANGE = 2;   // number questions: this near the answer counts as "close"
   const CLOSE_SHARE = 0.5;        // a close answer earns this share of the points
@@ -68,8 +70,25 @@
     });
   }
 
+  // "Jaren Jackson Jr." -> also try "Jaren Jackson"; "J. Williams" / "J Williams" -> also try "Williams"
+  function inputVariants(typed) {
+    const words = String(typed).trim().split(/\s+/).filter(Boolean);
+    const out = [words.join(" ")];
+    const bare = words.filter((w, i) => !(i > 0 && /^(jr|sr|ii|iii|iv)\.?$/i.test(w)));
+    if (bare.length !== words.length) out.push(bare.join(" "));
+    if (bare.length >= 2 && /^[a-z]\.?$/i.test(bare[0])) out.push(bare.slice(1).join(" "));
+    return [...new Set(out.map(normalize))].filter(Boolean);
+  }
+
   function findAnswer(question, typed) {
-    const input = normalize(typed);
+    for (const input of inputVariants(typed)) {
+      const hit = findAnswerFor(question, input);
+      if (hit) return hit;
+    }
+    return null;
+  }
+
+  function findAnswerFor(question, input) {
     if (!input) return null;
     for (const answer of question.answers) {
       if (answer.accept.some((a) => normalize(a) === input)) return answer;
@@ -92,6 +111,15 @@
         if (target.length < 4) continue;
         const d = editDistance(input, target);
         if (d < bestDistance) { best = answer; bestDistance = d; }
+      }
+    }
+    // a typo that is even closer to some OTHER name the game knows is that other name, so it's wrong
+    // (ties still count: the owner wants matching to be generous)
+    if (best && bestDistance > 0) {
+      const mine = new Set(question.answers.flatMap((a) => a.accept.map(normalize)));
+      for (const other of known) {
+        if (!mine.has(other) && other.length >= 4 && Math.abs(other.length - input.length) < bestDistance
+            && editDistance(input, other) < bestDistance) return null;
       }
     }
     return best;
@@ -174,6 +202,18 @@
       : `Question ${index + 1} of ${questions.length}`;
     $("q-text").textContent = question.text;
     drawProgress(index);
+    // Das Trivia: difficulty tag and the hint button
+    const level = DIFFICULTY[question.difficulty];
+    $("q-level").hidden = !level;
+    if (level) {
+      $("q-level").textContent = `${level.label} · ×${level.x}`;
+      $("q-level").className = `q-level ${question.difficulty}`;
+    }
+    const canHint = mode === "trivia" && ["manager", "player", "number"].includes(question.kind);
+    $("hint-row").hidden = !canHint;
+    $("hint-text").hidden = !state.hint;
+    $("btn-hint").hidden = Boolean(state.hint);
+    if (state.hint) $("hint-text").textContent = hintFor(question);
 
     const input = $("answer");
     input.value = "";
@@ -199,6 +239,35 @@
     clearInterval(timerId);
     timerId = setInterval(tick, 100);
     tick();
+  }
+
+  // A hint costs part of the points. It narrows things down without giving the answer away.
+  function hintFor(question) {
+    const answers = question.answers;
+    const count = answers.length > 1 ? ` (${answers.length} answers accepted)` : "";
+    if (question.kind === "number") {
+      const v = Number(answers[0].display);
+      const low = Math.max(0, Math.floor(v * 0.6) - 1), high = Math.ceil(v * 1.4) + 1;
+      return `Somewhere between ${low} and ${high}.`;
+    }
+    const first = answers[0];
+    if (question.kind === "manager") {
+      const name = (first.accept.find((a) => a && a[0] === a[0].toUpperCase() && !a.includes(" ")) || first.display);
+      const pick = (first.display.match(/\(([^)]+)\)$/) || [])[1] || name;
+      return `One answer's manager starts with "${pick[0].toUpperCase()}"${count}.`;
+    }
+    const initials = first.display.split(/\s+/).filter((w) => !/^(jr|sr|ii|iii|iv)\.?$/i.test(w)).map((w) => w[0].toUpperCase() + ".").join(" ");
+    return `One answer's initials: ${initials}${count}.`;
+  }
+
+  function useHint() {
+    if (state.hint || !state.startedAt) return;
+    state.hint = true;
+    saveState();
+    $("btn-hint").hidden = true;
+    $("hint-text").textContent = hintFor(questions[state.answers.length]);
+    $("hint-text").hidden = false;
+    $("answer").focus();
   }
 
   // Papo Trade or NOT: the trade, with the teams hidden as Team A and Team B.
@@ -328,7 +397,10 @@
     const index = state.answers.length;
     const question = questions[index];
     const secondsLeft = Math.max(0, M.seconds - (Date.now() - state.startedAt) / 1000);
-    const full = question.kind === "clues" ? question.points[state.clue] : BASE_POINTS + Math.round(secondsLeft * SPEED_BONUS_PER_SECOND);
+    const level = DIFFICULTY[question.difficulty];
+    const hinted = Boolean(state.hint);
+    const raw = question.kind === "clues" ? question.points[state.clue] : BASE_POINTS + Math.round(secondsLeft * SPEED_BONUS_PER_SECOND);
+    const full = Math.round(raw * (level ? level.x : 1) * (hinted ? HINT_SHARE : 1));
     const points = result === "correct" ? full : result === "close" ? Math.round(full * CLOSE_SHARE) : 0;
 
     // the question is saved with the answer, so the recap stays right even if the question list changes later
@@ -338,8 +410,11 @@
       question: question.recap || question.text,
       answer: question.answers.length === 1 ? question.answers[0].display : null,
       clue: question.kind === "clues" ? state.clue + 1 : undefined,
+      hint: hinted || undefined,
+      level: question.difficulty,
     });
     state.startedAt = null;
+    state.hint = false;
     saveState();
 
     // reaction (customise in js/effects.js)
@@ -378,8 +453,9 @@
     document.querySelector(".timer").classList.add("stopped");
     drawProgress(-1);
 
-    $("points").textContent = result === "correct" ? `+${points} points`
-      : result === "close" ? `+${points} points for being close` : "No points";
+    const extras = [level && level.x !== 1 ? `${level.label.toLowerCase()} ×${level.x}` : "", hinted ? "hint used" : ""].filter(Boolean).join(", ");
+    $("points").textContent = (result === "correct" ? `+${points} points`
+      : result === "close" ? `+${points} points for being close` : "No points") + (extras && points ? ` (${extras})` : "");
     const said = $("you-said");
     said.replaceChildren();
     if (result === "timeout") said.textContent = "You didn't answer in time.";
@@ -418,6 +494,7 @@
     $("btn-next").textContent = index + 1 < questions.length ? "Next question" : "See my score";
     $("answer-form").hidden = true;
     $("yesno").hidden = true;
+    $("hint-row").hidden = true;
     $("feedback").hidden = false;
     // the trade stays on screen above the answer, so bring the answer into view on phones
     if (["yesno", "clues", "rw"].includes(question.kind)) $("feedback").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -433,9 +510,10 @@
   // What gets pasted into the group chat: title, the boxes, then the score.
   function shareText() {
     const score = state.answers.reduce((sum, a) => sum + a.points, 0);
+    const hints = state.answers.filter((a) => a.hint).length;
     const lines = [
       `${M.icon} ${game.title} #${gameNumber}`,
-      marks(),
+      marks() + (hints ? `  💡×${hints}` : ""),
       `Score: ${score}`,
     ];
     if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) lines.push(location.origin + location.pathname + `?mode=${mode}`);
@@ -512,7 +590,7 @@
       item.className = "tap";
       if (row.player === me) item.classList.add("me");
       const add = (cls, text) => { const s = document.createElement("span"); s.className = cls; s.textContent = text; item.append(s); };
-      add("lr", i + 1); add("ln", row.player); add("lb", row.boxes || ""); add("ls", row.score);
+      add("lr", i + 1); add("ln", row.player); add("lb", row.boxes || ""); add("ls", row.rarity ?? row.score);
       const details = document.createElement("ol");
       details.className = "lans";
       details.hidden = true;
@@ -552,8 +630,33 @@
   // Each answer, saved with the score so others can see it on the leaderboard.
   const answersForBoard = () => state.answers.map((a) => ({
     q: a.question, t: a.typed, r: a.result, p: a.points,
-    a: a.result === "correct" ? a.matched : a.answer, c: a.clue,
+    a: a.result === "correct" ? a.matched : a.answer, c: a.clue, h: a.hint ? 1 : undefined,
   }));
+
+  // RARITY (Das Trivia): each question's points count more the fewer people got it.
+  // Factor = 1 + share of today's players who missed it, so a question everybody got counts x1 and one only
+  // you got counts nearly x2. Worked out from everyone's saved answers, so it updates as more people play.
+  function withRarity(rows) {
+    const playable = rows.filter((r) => Array.isArray(r.answers) && r.answers.length);
+    if (playable.length < 2) return rows.map((r) => ({ ...r, rarity: null }));
+    const tally = {};
+    for (const r of playable) {
+      for (const a of r.answers) {
+        const t = tally[a.q] || (tally[a.q] = { right: 0, all: 0 });
+        t.all += 1;
+        if (a.r === "correct") t.right += 1;
+      }
+    }
+    return rows.map((r) => {
+      if (!Array.isArray(r.answers) || !r.answers.length) return { ...r, rarity: null };
+      const total = r.answers.reduce((sum, a) => {
+        const t = tally[a.q];
+        const factor = t && t.all ? 1 + (1 - t.right / t.all) : 1;
+        return sum + Math.round((a.p || 0) * factor);
+      }, 0);
+      return { ...r, rarity: total };
+    }).sort((x, y) => (y.rarity ?? y.score) - (x.rarity ?? x.score));
+  }
 
   // Read a leaderboard, with answers if the database keeps them (older setups don't).
   async function boardRows(game) {
@@ -590,9 +693,19 @@
         saveState();
       }
       const rows = await boardRows(M.board + gameNumber);
-      const everyone = testMode && !rows.some((r) => r.player === mine.player) ? [...rows, mine].sort((a, b) => b.score - a.score) : rows;
-      draw(everyone, testMode ? "Practice mode: your score isn't saved to the leaderboard. Tap a name to see their answers."
-        : "Tap a name to see their answers. First score counts, one game per player per day.");
+      let everyone = testMode && !rows.some((r) => r.player === mine.player) ? [...rows, mine].sort((a, b) => b.score - a.score) : rows;
+      if (mode === "trivia") {
+        everyone = withRarity(everyone);
+        const me = everyone.find((r) => r.player === mine.player);
+        if (me && me.rarity != null) {
+          $("final-score").textContent = me.rarity;
+          $("final-rarity").textContent = `Rarity score: your ${score} points, boosted for the questions others missed. It updates as more people play.`;
+          $("final-rarity").hidden = false;
+        }
+      }
+      draw(everyone, (testMode ? "Practice mode: your score isn't saved to the leaderboard. " : "")
+        + (mode === "trivia" ? "Scores are rarity scores: answers fewer people got count more. " : "")
+        + "Tap a name to see their answers." + (testMode ? "" : " First score counts, one game per player per day."));
     } catch (error) {
       draw([mine], "Couldn't reach the leaderboard right now, so only your score shows here.");
     }
@@ -703,7 +816,7 @@
       $("arc-status").textContent = "Loading…";
       try {
         const rows = await boardRows(MODES[current].board + n);
-        renderBoard($("arc-leaders"), rows, getPlayer());
+        renderBoard($("arc-leaders"), current === "trivia" ? withRarity(rows) : rows, getPlayer());
         $("arc-status").textContent = rows.length ? "Tap a name to see their answers." : "Nobody played this one.";
       } catch (e) {
         $("arc-status").textContent = "Couldn't load that day right now.";
@@ -805,6 +918,7 @@
     $("other-form").addEventListener("submit", (event) => { event.preventDefault(); chooseName($("other-name").value); });
     drawPlayer();
     $("btn-next").addEventListener("click", nextStep);
+    $("btn-hint").addEventListener("click", useHint);
     $("btn-share").addEventListener("click", copyShare);
     $("video-close").addEventListener("click", closeShareVideo);
     $("share-video-player").addEventListener("ended", closeShareVideo);

@@ -19,7 +19,7 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from daily import extend_schedule, fill_missing  # noqa: E402
+from daily import fill_missing, today_number  # noqa: E402
 from nicknames import load_nicknames  # noqa: E402
 
 DATA = Path(__file__).resolve().parent.parent / "site" / "data"
@@ -27,6 +27,39 @@ START_DATE = "2026-11-09"      # the day Game #1 falls on. Moved back a day on 2
                                # request, and a second time later the same day, so 2026-11-11 ended on Game #3.
 QUESTIONS_PER_DAY = 7
 NAME_SUFFIXES = {"jr", "jr.", "sr", "sr.", "ii", "iii", "iv"}
+
+
+AHEAD_DAYS = 21                 # days scheduled after today
+MIN_PLAYS_FOR_DIFFICULTY = 4    # answers needed before real results decide a question's difficulty
+
+
+def played_difficulty():
+    """{question text: (right, attempts)} from the shared leaderboard's saved answers (Das Trivia only).
+    Uses the public read key in site/js/config.js; returns {} if the leaderboard can't be reached."""
+    import re
+    import urllib.request
+    cfg = (DATA.parent / "js" / "config.js").read_text(encoding="utf-8")
+    url = re.search(r'supabaseUrl:\s*"([^"]+)"', cfg)
+    key = re.search(r'supabaseKey:\s*"([^"]+)"', cfg)
+    if not url or not key:
+        return {}
+    rates = {}
+    try:
+        req = urllib.request.Request(f"{url.group(1)}/rest/v1/scores?game=lt.50000&select=answers&limit=5000",
+                                     headers={"apikey": key.group(1), "Authorization": f"Bearer {key.group(1)}"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            rows = json.loads(r.read().decode("utf-8"))
+    except Exception as error:      # offline: keep the guesses
+        print(f"  (difficulty: leaderboard not reachable, using guesses: {error})")
+        return {}
+    for row in rows:
+        for a in row.get("answers") or []:
+            q = a.get("q")
+            if not q:
+                continue
+            right, total = rates.get(q, (0, 0))
+            rates[q] = (right + (a.get("r") == "correct"), total + 1)
+    return rates
 
 
 def load(name):
@@ -124,6 +157,17 @@ def main():
 
     groups = defaultdict(list)
 
+    def guess_difficulty(group, kind, answers):
+        """A first guess from the question's shape; replaced by how league members actually did once enough
+        people have played it (see played_difficulty)."""
+        if kind == "number":
+            return "hard" if group == "trades" else "medium"
+        if kind == "manager":                       # 12 managers: always a fair shot
+            return "easy" if len(answers) >= 3 else "medium"
+        if len(answers) >= 5:
+            return "easy"
+        return "medium" if len(answers) >= 2 else "hard"
+
     def ask(group, text, kind, answers, sources, note=None):
         answers = list(answers)
         if not answers:
@@ -134,6 +178,7 @@ def main():
         groups[group].append({
             "id": hashlib.md5(text.encode("utf-8")).hexdigest()[:8],
             "text": text, "kind": kind, "answers": answers, "note": note, "about": about, "sources": sources,
+            "group": group, "difficulty": guess_difficulty(group, kind, answers),
         })
 
     def managers_q(group, text, ids, sources, season=None, note=None):
@@ -364,34 +409,163 @@ def main():
         for name, mids in sorted(by_player.items())[:3]:
             managers_q("fun", f"Which manager has traded for {name} {top} separate times?", mids, TR)
 
+    # ---------- more questions (owner asked for many more, 2026-11-19) ----------
+    # drafts: who drafted whom, and where
+    startup_d = next(d for d in drafts if d["kind"] == "startup")
+    sy = startup_d["season"]
+    for p in startup_d["picks"][:48]:
+        managers_q("startup", f"Which manager drafted {p['player']} in the {sy[:4]} startup draft?", [p["manager"]], DR, sy,
+                   note=f"Round {p['round']}, pick {p['pick']} overall.")
+    # rounds for players the league knows best (traded the most), from round 2 on
+    familiar = sorted((p for p in startup_d["picks"] if p["round"] >= 2 and traded[p["player"]] >= 2),
+                      key=lambda p: (-traded[p["player"]], p["pick"]))[:20]
+    for p in familiar:
+        ask("drafts", f"In which round of the {sy[:4]} startup draft was {p['player']} taken?", "number",
+            [{"display": str(p["round"]), "accept": [str(p["round"])],
+              "detail": f"Pick {p['pick']} overall, by {show(p['manager'], sy)}."}], DR)
+    for d in drafts:
+        if d["kind"] != "rookie":
+            continue
+        y, picks = d["season"], d["picks"]
+        title = f"{y[:4]} rookie draft"
+        for p in picks[1:6]:
+            players_q("drafts", f"Who was pick {p['pick']} of the {title}?", [p["player"]], DR,
+                      note=f"Taken by {show(p['manager'], y)}.")
+        for p in picks[:12]:
+            managers_q("drafts", f"Which manager drafted {p['player']} in the {title}?", [p["manager"]], DR, y,
+                       note=f"Pick {p['pick']} overall.")
+        players_q("drafts", f"Name a second-round pick of the {title}.", [p["player"] for p in picks if p["round"] == 2], DR)
+
+    # standings: every team's wins, 2nd and 3rd place, 3rd place in the playoffs, points against
+    for s in done:
+        y, rows = s["season"], s["standings"]
+        for r in rows:
+            ask("standings", f"How many regular-season wins did {show(r['manager'], y)} have in {y}?", "number",
+                [{"display": str(r["wins"]), "accept": [str(r["wins"])], "manager": r["manager"],
+                  "detail": season_fact(r["manager"], y)}], S)
+        for place, word in ((2, "second"), (3, "third")):
+            managers_q("standings", f"Who finished {word} in the {y} regular season?",
+                       [r["manager"] for r in rows if r["regular_season_rank"] == place], S, y)
+        if s.get("third_place"):
+            managers_q("titles", f"Who finished third in the {y} playoffs?", [s["third_place"]], S, y)
+        most_against = max(r["points_against"] for r in rows)
+        managers_q("fun", f"Which team had the most points scored against it in the {y} regular season?",
+                   [r["manager"] for r in rows if r["points_against"] == most_against], S, y,
+                   note=f"{most_against:,.0f} points against. Brutal schedule.")
+        least_against = min(r["points_against"] for r in rows)
+        managers_q("fun", f"Which team had the fewest points scored against it in the {y} regular season?",
+                   [r["manager"] for r in rows if r["points_against"] == least_against], S, y,
+                   note=f"Just {least_against:,.0f} points against. Cushy schedule.")
+
+    # head to head, completed regular seasons only (so the answers never change)
+    done_labels = {s["season"] for s in done}
+    span = f"{done[0]['season']} through {done[-1]['season']}"
+    h2h = defaultdict(Counter)       # h2h[loser][winner] = wins
+    for g in matchups:
+        if g["season"] in done_labels and not g["tie"]:
+            h2h[g["loser"]][g["winner"]] += 1
+    for mid in managers:
+        beaten_by = h2h[mid]
+        if beaten_by:
+            top = max(beaten_by.values())
+            managers_q("rivals", f"Which manager has beaten {show(mid)} the most times in the regular season ({span})?",
+                       [m for m, c in beaten_by.items() if c == top], M,
+                       note=f"{plural(top, 'win')} against {managers[mid]['name']}.")
+        beat = Counter({w: h2h[w][mid] for w in managers if h2h[w][mid]})
+        if beat:
+            top = max(beat.values())
+            managers_q("rivals", f"Which manager has {show(mid)} beaten the most times in the regular season ({span})?",
+                       [m for m, c in beat.items() if c == top], M,
+                       note=f"{managers[mid]['name']} has {plural(top, 'win')} against them.")
+
+    # trades: who sent a well-known player where
+    stars = {p["player"] for p in startup_d["picks"] if p["round"] <= 3}
+    stars |= {p["player"] for d in drafts if d["kind"] == "rookie" for p in d["picks"] if p["round"] == 1}
+    asked = set()
+    for t in trades:
+        if len(t["managers"]) != 2:
+            continue
+        for side in t["sides"]:
+            other = next(m for m in t["managers"] if m != side["manager"])
+            for name in side["receives_players"]:
+                if name in stars and name not in asked:
+                    asked.add(name)
+                    managers_q("trades", f"Who traded {name} to {show(side['manager'], t['season'])} on {nice_date(t['date'])}?",
+                               [other], TR, t["season"])
+    for s in done:
+        y = s["season"]
+        per = Counter(m for t in trades if t["season"] == y for m in t["managers"])
+        for mid, c in per.items():
+            if c >= 3:
+                ask("trades", f"How many trades did {show(mid, y)} make during the {y} season?", "number",
+                    [{"display": str(c), "accept": [str(c)], "manager": mid, "detail": career_fact(mid)}], TR)
+
+    # all-time records (completed seasons; games whose result disagrees with the score are left out)
+    clean_games = [g for g in matchups if g["season"] in done_labels
+                   and not g["result_differs_from_score"] and not g.get("estimated")]
+    scores_all = [(g[f"{side}_points"], g[side], g["season"], g["week"]) for g in clean_games for side in ("winner", "loser")]
+    hi = max(scores_all)
+    managers_q("fun", "Which team holds the record for the highest single-week score in Das League history (regular season)?",
+               sorted({m for p, m, _, _ in scores_all if p == hi[0]}), M, hi[2], note=f"{hi[0]:g} points in week {hi[3]} of {hi[2]}.")
+    lo = min(scores_all)
+    managers_q("fun", "Which team holds the record for the lowest single-week score in Das League history (regular season)?",
+               sorted({m for p, m, _, _ in scores_all if p == lo[0]}), M, lo[2], note=f"{lo[0]:g} points in week {lo[3]} of {lo[2]}.")
+    blow = max(clean_games, key=lambda g: g["winner_points"] - g["loser_points"])
+    managers_q("fun", "Which team suffered the biggest blowout loss in Das League history (regular season)?", [blow["loser"]], M,
+               blow["season"], note=f"Lost {blow['loser_points']:g}-{blow['winner_points']:g} to {show(blow['winner'], blow['season'])} in week {blow['week']} of {blow['season']}.")
+
     # ---------- arrange into daily games ----------
     rng = random.Random(2023)
     for items in groups.values():
         rng.shuffle(items)
     order = []
     while any(groups.values()):
-        for name in ("titles", "drafts", "fun", "standings", "trades", "startup"):
+        for name in ("titles", "drafts", "fun", "standings", "trades", "startup", "rivals"):
             if groups[name]:
                 order.append(groups[name].pop())
 
-    # Games already scheduled keep their questions and order, so a day's game never changes after
-    # people may have played it. New questions only fill gaps and add new days at the end.
+    # real difficulty from the leaderboard: how often league members got each question right
+    rates = played_difficulty()
+    for q in order:
+        r = rates.get(q["text"])
+        if r and r[1] >= MIN_PLAYS_FOR_DIFFICULTY:
+            share = r[0] / r[1]
+            q["difficulty"] = "easy" if share >= 0.7 else "medium" if share >= 0.35 else "hard"
+            q["played"] = {"right": r[0], "of": r[1]}
+
+    # Days up to and including today keep their questions forever (people may have played them).
+    # Days after today are rebuilt every night: questions never asked come first, repeats only once those
+    # run out, and every day gets at least one hard question.
     game_file = DATA / "game.json"
     scheduled = [[q["id"] for q in day] for day in json.loads(game_file.read_text(encoding="utf-8"))["days"]] if game_file.exists() else []
     by_id = {q["id"]: q for q in order}
-    kept = {qid for day in scheduled for qid in day if qid in by_id}
-    spare = [q for q in order if q["id"] not in kept]
+    today_index = today_number(START_DATE) - 1
     days = []
-    for ids in scheduled:
-        day = [by_id[qid] for qid in ids if qid in by_id]
-        while len(day) < QUESTIONS_PER_DAY and spare:      # a question was reworded or removed
-            day.append(spare.pop(0))
-        days.append(day)                                    # never dropped, so game numbers never shift
-    while len(spare) >= QUESTIONS_PER_DAY:
-        days.append([spare.pop(0) for _ in range(QUESTIONS_PER_DAY)])
-    # every night: keep 3 weeks of games ahead, reusing the questions not asked for the longest time
+    for ids in scheduled[:today_index + 1]:
+        days.append([by_id[qid] for qid in ids if qid in by_id])
     fill_missing(days, order, QUESTIONS_PER_DAY)
-    extend_schedule(days, order, QUESTIONS_PER_DAY, START_DATE, "trivia")
+    asked = {q["id"] for day in days for q in day}
+    fresh = [q for q in order if q["id"] not in asked]
+    while len(days) < today_index + 1 + AHEAD_DAYS:
+        if len(fresh) < QUESTIONS_PER_DAY:
+            # out of new questions: reuse the ones asked longest ago
+            last = {}
+            for i, day in enumerate(days):
+                for q in day:
+                    last[q["id"]] = i
+            pool_ids = {q["id"] for q in fresh}
+            fresh += sorted((q for q in order if q["id"] not in pool_ids), key=lambda q: last.get(q["id"], -1))
+        day = fresh[:QUESTIONS_PER_DAY]
+        fresh = fresh[QUESTIONS_PER_DAY:]
+        if not any(q["difficulty"] == "hard" for q in day):
+            swap = next((i for i, q in enumerate(fresh) if q["difficulty"] == "hard"), None)
+            if swap is not None:
+                hard = fresh.pop(swap)
+                fresh.insert(0, day.pop())
+                day.append(hard)
+        random.Random(f"day-{len(days)}").shuffle(day)
+        days.append(day)
+    spare = fresh
 
     # every name the game knows, so a near-miss that is really a different person isn't accepted as a typo
     entities = set()
