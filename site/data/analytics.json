@@ -20,16 +20,16 @@
    "tier": "Contenders",
    "tier_icon": "🏆",
    "record": "4-0",
-   "allplay": "41-3",
+   "allplay": "39-5",
    "ppw": 534.0,
-   "form": 546.7,
-   "roster": 616.2,
-   "luck": 0.3,
+   "form": 563.6,
+   "roster": 556.2,
+   "luck": 0.5,
    "sos": 447.3,
    "weekly": [
-    493.7,
-    548.9,
-    521.4,
+    463.2,
+    545.6,
+    555.2,
     572.0
    ],
    "parts": {
@@ -38,12 +38,12 @@
     "allplay": 100,
     "roster": 100,
     "form": 100,
-    "luck": 65
+    "luck": 71
    },
    "top_players": [
     {
      "name": "Luka Dončić",
-     "avg": 85.2
+     "avg": 89.2
     },
     {
      "name": "Cooper Flagg",
@@ -51,15 +51,15 @@
     },
     {
      "name": "Paul George",
-     "avg": 52.8
+     "avg": 48.0
     }
    ],
    "take": "Still unbeaten at 4-0. Scoring 534 a week, the most in Das League.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 99.5,
-   "bye_pct": 86.3,
-   "title_pct": 41.6
+   "playoff_pct": 99.0,
+   "bye_pct": 81.0,
+   "title_pct": 35.4
   },
   {
    "rank": 2,
@@ -67,29 +67,29 @@
    "manager": "libguel",
    "name": "Libguel",
    "team": "Los Chigüires",
-   "score": 74.9,
+   "score": 71.5,
    "tier": "Contenders",
    "tier_icon": "🏆",
    "record": "3-1",
    "allplay": "37-7",
    "ppw": 514.5,
-   "form": 508.6,
-   "roster": 534.2,
+   "form": 505.1,
+   "roster": 449.1,
    "luck": -0.4,
-   "sos": 454.9,
+   "sos": 455.0,
    "weekly": [
-    553.2,
-    487.5,
-    477.3,
+    486.2,
+    561.7,
+    470.1,
     540.0
    ],
    "parts": {
     "record": 75,
     "points": 87,
-    "allplay": 88,
-    "roster": 56,
-    "form": 72,
-    "luck": 48
+    "allplay": 93,
+    "roster": 43,
+    "form": 64,
+    "luck": 47
    },
    "top_players": [
     {
@@ -97,20 +97,20 @@
      "avg": 64.5
     },
     {
-     "name": "Scottie Barnes",
-     "avg": 57.5
+     "name": "Franz Wagner",
+     "avg": 52.0
     },
     {
-     "name": "Franz Wagner",
-     "avg": 50.5
+     "name": "Domantas Sabonis",
+     "avg": 44.2
     }
    ],
    "take": "Would be 37-7 playing everyone every week, 2nd best in the league. Led by Jamal Murray at 64 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 95.1,
-   "bye_pct": 53.7,
-   "title_pct": 23.5
+   "playoff_pct": 91.3,
+   "bye_pct": 39.4,
+   "title_pct": 17.7
   },
   {
    "rank": 3,
@@ -118,50 +118,50 @@
    "manager": "shueiro",
    "name": "Shueiro",
    "team": "2057 Champs",
-   "score": 65.2,
+   "score": 65.8,
    "tier": "In the Mix",
    "tier_icon": "⚔️",
    "record": "2-2",
-   "allplay": "31-13",
-   "ppw": 490.7,
-   "form": 508.2,
-   "roster": 548.6,
-   "luck": -0.8,
+   "allplay": "29-15",
+   "ppw": 490.8,
+   "form": 524.8,
+   "roster": 493.2,
+   "luck": -0.6,
    "sos": 487.8,
    "weekly": [
-    441.4,
-    505.0,
-    536.5,
+    368.5,
+    545.0,
+    569.6,
     480.0
    ],
    "parts": {
     "record": 50,
     "points": 72,
-    "allplay": 71,
-    "roster": 64,
-    "form": 72,
-    "luck": 35
+    "allplay": 67,
+    "roster": 67,
+    "form": 76,
+    "luck": 39
    },
    "top_players": [
     {
      "name": "Victor Wembanyama",
-     "avg": 94.2
+     "avg": 96.5
     },
     {
      "name": "Anthony Black",
-     "avg": 48.8
+     "avg": 52.8
     },
     {
-     "name": "Brandin Podziemski",
-     "avg": 44.0
+     "name": "Christian Braun",
+     "avg": 42.0
     }
    ],
-   "take": "Toughest schedule so far: opponents average 488 a week. Would be 31-13 playing everyone every week, 3rd best in the league.",
+   "take": "Toughest schedule so far: opponents average 488 a week. Would be 29-15 playing everyone every week, 3rd best in the league.",
    "fraud": false,
-   "robbed": true,
-   "playoff_pct": 80.6,
-   "bye_pct": 19.9,
-   "title_pct": 9.5
+   "robbed": false,
+   "playoff_pct": 82.5,
+   "bye_pct": 22.5,
+   "title_pct": 11.4
   },
   {
    "rank": 4,
@@ -169,50 +169,50 @@
    "manager": "victor",
    "name": "Victor",
    "team": "I Love Dragić",
-   "score": 62.2,
+   "score": 62.1,
    "tier": "In the Mix",
    "tier_icon": "⚔️",
    "record": "3-1",
    "allplay": "26-18",
    "ppw": 469.0,
-   "form": 478.9,
-   "roster": 556.8,
+   "form": 474.4,
+   "roster": 499.7,
    "luck": 0.6,
    "sos": 430.3,
    "weekly": [
-    488.5,
-    429.6,
-    427.9,
+    493.2,
+    434.0,
+    418.8,
     530.0
    ],
    "parts": {
     "record": 75,
     "points": 57,
-    "allplay": 56,
-    "roster": 68,
-    "form": 50,
-    "luck": 75
+    "allplay": 57,
+    "roster": 70,
+    "form": 45,
+    "luck": 76
    },
    "top_players": [
     {
      "name": "Nikola Jokić",
-     "avg": 71.8
+     "avg": 72.8
     },
     {
-     "name": "Josh Giddey",
-     "avg": 55.2
+     "name": "Kyrie Irving",
+     "avg": 57.0
     },
     {
      "name": "Jalen Johnson",
      "avg": 53.5
     }
    ],
-   "take": "Would be 26-18 playing everyone every week, 4th best in the league. Led by Nikola Jokić at 72 a week.",
+   "take": "Would be 26-18 playing everyone every week, 4th best in the league. Led by Nikola Jokić at 73 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 77.5,
-   "bye_pct": 19.4,
-   "title_pct": 8.5
+   "playoff_pct": 89.8,
+   "bye_pct": 36.5,
+   "title_pct": 15.9
   },
   {
    "rank": 5,
@@ -220,28 +220,28 @@
    "manager": "melo",
    "name": "Melo",
    "team": "LeBong James",
-   "score": 52.0,
+   "score": 50.4,
    "tier": "In the Mix",
    "tier_icon": "⚔️",
    "record": "0-4",
-   "allplay": "23-21",
+   "allplay": "22-22",
    "ppw": 469.8,
-   "form": 471.5,
-   "roster": 610.5,
-   "luck": -2.1,
-   "sos": 476.7,
+   "form": 470.9,
+   "roster": 546.4,
+   "luck": -2.0,
+   "sos": 476.8,
    "weekly": [
-    472.2,
-    463.8,
-    419.0,
+    458.0,
+    479.2,
+    417.8,
     524.0
    ],
    "parts": {
     "record": 0,
     "points": 58,
-    "allplay": 47,
-    "roster": 97,
-    "form": 45,
+    "allplay": 43,
+    "roster": 95,
+    "form": 43,
     "luck": 0
    },
    "top_players": [
@@ -251,19 +251,19 @@
     },
     {
      "name": "Karl-Anthony Towns",
-     "avg": 54.5
+     "avg": 53.5
     },
     {
      "name": "Kevin Huerter",
      "avg": 53.0
     }
    ],
-   "take": "Still looking for win #1 at 0-4. Most robbed team in the league: 23-21 against everyone, but 0-4 for real.",
+   "take": "Still looking for win #1 at 0-4. Most robbed team in the league: 22-22 against everyone, but 0-4 for real.",
    "fraud": false,
    "robbed": true,
-   "playoff_pct": 54.4,
-   "bye_pct": 5.4,
-   "title_pct": 7.1
+   "playoff_pct": 62.6,
+   "bye_pct": 7.6,
+   "title_pct": 10.6
   },
   {
    "rank": 6,
@@ -271,50 +271,50 @@
    "manager": "winch",
    "name": "Winch",
    "team": "Equipo Winchenzo",
-   "score": 50.3,
-   "tier": "In the Mix",
-   "tier_icon": "⚔️",
+   "score": 48.7,
+   "tier": "Fading",
+   "tier_icon": "🫠",
    "record": "2-2",
-   "allplay": "15-29",
+   "allplay": "14-30",
    "ppw": 426.5,
-   "form": 475.8,
-   "roster": 597.5,
-   "luck": 0.6,
+   "form": 472.3,
+   "roster": 540.7,
+   "luck": 0.7,
    "sos": 452.1,
    "weekly": [
-    385.5,
-    368.9,
-    447.6,
+    358.0,
+    403.5,
+    440.6,
     504.0
    ],
    "parts": {
     "record": 50,
     "points": 29,
-    "allplay": 24,
-    "roster": 90,
-    "form": 48,
-    "luck": 75
+    "allplay": 17,
+    "roster": 92,
+    "form": 44,
+    "luck": 79
    },
    "top_players": [
     {
      "name": "Jayson Tatum",
-     "avg": 64.8
+     "avg": 61.8
     },
     {
      "name": "Devin Booker",
-     "avg": 53.5
+     "avg": 56.0
     },
     {
      "name": "Ayo Dosunmu",
      "avg": 49.2
     }
    ],
-   "take": "Would be 15-29 playing everyone every week, 10th best in the league. Led by Jayson Tatum at 65 a week.",
+   "take": "Would be 14-30 playing everyone every week, 10th best in the league. Led by Jayson Tatum at 62 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 31.2,
-   "bye_pct": 2.2,
-   "title_pct": 1.4
+   "playoff_pct": 41.0,
+   "bye_pct": 3.9,
+   "title_pct": 2.5
   },
   {
    "rank": 7,
@@ -322,50 +322,50 @@
    "manager": "ricky",
    "name": "Ricky",
    "team": "MoonUnit 🦬",
-   "score": 47.6,
+   "score": 40.2,
    "tier": "Fading",
    "tier_icon": "🫠",
    "record": "3-1",
-   "allplay": "16-28",
+   "allplay": "17-27",
    "ppw": 432.8,
-   "form": 437.4,
-   "roster": 561.2,
+   "form": 450.9,
+   "roster": 431.5,
    "luck": 1.5,
    "sos": 467.3,
    "weekly": [
-    464.9,
-    391.3,
-    458.8,
+    456.7,
+    372.5,
+    485.8,
     416.0
    ],
    "parts": {
     "record": 75,
     "points": 33,
-    "allplay": 26,
-    "roster": 71,
-    "form": 20,
+    "allplay": 27,
+    "roster": 34,
+    "form": 31,
     "luck": 100
    },
    "top_players": [
     {
-     "name": "Cade Cunningham",
-     "avg": 74.2
-    },
-    {
      "name": "Alperen Şengün",
-     "avg": 72.0
+     "avg": 64.5
     },
     {
-     "name": "Tyler Herro",
-     "avg": 49.5
+     "name": "Davion Mitchell",
+     "avg": 46.8
+    },
+    {
+     "name": "De'Anthony Melton",
+     "avg": 40.3
     }
    ],
    "take": "Luckiest team in the league: about 1.5 more wins than their scoring has earned. Down 3 spots this week. EquipoGPT is concerned.",
    "fraud": true,
    "robbed": false,
-   "playoff_pct": 38.0,
-   "bye_pct": 3.0,
-   "title_pct": 1.2
+   "playoff_pct": 27.3,
+   "bye_pct": 1.7,
+   "title_pct": 0.8
   },
   {
    "rank": 8,
@@ -373,80 +373,131 @@
    "manager": "verdeja",
    "name": "Verdeja",
    "team": "Antetokounmpers",
-   "score": 40.4,
+   "score": 36.3,
    "tier": "Fading",
    "tier_icon": "🫠",
    "record": "2-2",
-   "allplay": "20-24",
+   "allplay": "23-21",
    "ppw": 443.2,
-   "form": 459.3,
-   "roster": 498.5,
-   "luck": 0.2,
+   "form": 474.4,
+   "roster": 383.0,
+   "luck": -0.1,
    "sos": 431.4,
    "weekly": [
-    486.8,
-    367.6,
-    482.6,
+    489.5,
+    334.7,
+    512.8,
     436.0
    ],
    "parts": {
     "record": 50,
     "points": 40,
-    "allplay": 38,
-    "roster": 37,
-    "form": 36,
-    "luck": 62
+    "allplay": 47,
+    "roster": 8,
+    "form": 45,
+    "luck": 55
    },
    "top_players": [
-    {
-     "name": "Tyrese Maxey",
-     "avg": 61.8
-    },
     {
      "name": "Bam Adebayo",
      "avg": 49.0
     },
     {
-     "name": "Nickeil Alexander-Walker",
-     "avg": 48.0
+     "name": "Donovan Mitchell",
+     "avg": 42.7
+    },
+    {
+     "name": "Keyonte George",
+     "avg": 39.2
     }
    ],
-   "take": "Would be 20-24 playing everyone every week, 7th best in the league. Led by Tyrese Maxey at 62 a week.",
+   "take": "Would be 23-21 playing everyone every week, 5th best in the league. Led by Bam Adebayo at 49 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 35.4,
-   "bye_pct": 2.5,
-   "title_pct": 1.9
+   "playoff_pct": 29.0,
+   "bye_pct": 1.6,
+   "title_pct": 1.4
   },
   {
    "rank": 9,
+   "prev_rank": 7,
+   "manager": "blandon",
+   "name": "Blandon",
+   "team": "Rabbi BT69",
+   "score": 32.5,
+   "tier": "Fading",
+   "tier_icon": "🫠",
+   "record": "2-2",
+   "allplay": "19-25",
+   "ppw": 448.5,
+   "form": 421.0,
+   "roster": 406.8,
+   "luck": 0.3,
+   "sos": 456.8,
+   "weekly": [
+    461.2,
+    490.8,
+    382.0,
+    460.0
+   ],
+   "parts": {
+    "record": 50,
+    "points": 44,
+    "allplay": 33,
+    "roster": 21,
+    "form": 12,
+    "luck": 66
+   },
+   "top_players": [
+    {
+     "name": "Cameron Boozer",
+     "avg": 45.8
+    },
+    {
+     "name": "Stephon Castle",
+     "avg": 45.0
+    },
+    {
+     "name": "Amen Thompson",
+     "avg": 43.2
+    }
+   ],
+   "take": "Would be 19-25 playing everyone every week, tied 7th best in the league. Led by Cameron Boozer at 46 a week.",
+   "fraud": false,
+   "robbed": false,
+   "playoff_pct": 38.0,
+   "bye_pct": 3.1,
+   "title_pct": 2.3
+  },
+  {
+   "rank": 10,
    "prev_rank": 10,
    "manager": "papo",
    "name": "Papo",
    "team": "Fear the Brow",
-   "score": 38.9,
+   "score": 32.2,
    "tier": "Fading",
    "tier_icon": "🫠",
    "record": "2-2",
-   "allplay": "21-23",
+   "allplay": "19-25",
    "ppw": 455.8,
-   "form": 442.4,
-   "roster": 484.6,
-   "luck": 0.1,
+   "form": 464.0,
+   "roster": 367.1,
+   "luck": 0.3,
    "sos": 439.6,
    "weekly": [
-    508.7,
-    429.4,
-    407.9,
+    450.0,
+    445.1,
+    451.0,
     477.0
    ],
    "parts": {
     "record": 50,
     "points": 49,
-    "allplay": 41,
-    "roster": 29,
-    "form": 24,
-    "luck": 60
+    "allplay": 33,
+    "roster": 0,
+    "form": 39,
+    "luck": 66
    },
    "top_players": [
     {
@@ -455,70 +506,19 @@
     },
     {
      "name": "Anthony Davis",
-     "avg": 64.2
+     "avg": 44.5
     },
     {
-     "name": "RJ Barrett",
-     "avg": 47.5
+     "name": "Miles Bridges",
+     "avg": 43.5
     }
    ],
-   "take": "Would be 21-23 playing everyone every week, 6th best in the league. Led by Tyrese Proctor at 73 a week.",
+   "take": "Would be 19-25 playing everyone every week, tied 7th best in the league. Led by Tyrese Proctor at 73 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 48.5,
-   "bye_pct": 4.8,
-   "title_pct": 3.3
-  },
-  {
-   "rank": 10,
-   "prev_rank": 7,
-   "manager": "blandon",
-   "name": "Blandon",
-   "team": "Rabbi BT69",
-   "score": 27.1,
-   "tier": "Tank Watch",
-   "tier_icon": "🗑️",
-   "record": "2-2",
-   "allplay": "16-28",
-   "ppw": 448.5,
-   "form": 427.4,
-   "roster": 437.8,
-   "luck": 0.5,
-   "sos": 456.8,
-   "weekly": [
-    435.7,
-    503.4,
-    394.9,
-    460.0
-   ],
-   "parts": {
-    "record": 50,
-    "points": 44,
-    "allplay": 26,
-    "roster": 4,
-    "form": 13,
-    "luck": 72
-   },
-   "top_players": [
-    {
-     "name": "Amen Thompson",
-     "avg": 50.0
-    },
-    {
-     "name": "Cameron Boozer",
-     "avg": 45.8
-    },
-    {
-     "name": "Dylan Harper",
-     "avg": 44.8
-    }
-   ],
-   "take": "Down 3 spots this week. EquipoGPT is concerned. Would be 16-28 playing everyone every week, tied 8th best in the league.",
-   "fraud": false,
-   "robbed": false,
-   "playoff_pct": 37.9,
-   "bye_pct": 2.9,
-   "title_pct": 1.9
+   "playoff_pct": 36.8,
+   "bye_pct": 2.7,
+   "title_pct": 2.1
   },
   {
    "rank": 11,
@@ -526,48 +526,48 @@
    "manager": "joey",
    "name": "Joey",
    "team": "Fidel’s Accumulators",
-   "score": 9.2,
+   "score": 9.9,
    "tier": "Tank Watch",
    "tier_icon": "🗑️",
    "record": "1-3",
-   "allplay": "11-33",
+   "allplay": "10-34",
    "ppw": 394.2,
-   "form": 412.2,
-   "roster": 429.6,
-   "luck": 0.0,
+   "form": 401.1,
+   "roster": 386.8,
+   "luck": 0.1,
    "sos": 467.8,
    "weekly": [
-    323.7,
-    428.9,
-    472.4,
+    321.0,
+    453.8,
+    450.2,
     352.0
    ],
    "parts": {
     "record": 25,
     "points": 8,
-    "allplay": 12,
-    "roster": 0,
-    "form": 2,
-    "luck": 57
+    "allplay": 3,
+    "roster": 10,
+    "form": 0,
+    "luck": 61
    },
    "top_players": [
     {
-     "name": "Yaxel Lendeborg",
-     "avg": 48.8
-    },
-    {
-     "name": "Jeremiah Fears",
-     "avg": 43.0
-    },
-    {
      "name": "Jalen Smith",
-     "avg": 39.5
+     "avg": 42.8
+    },
+    {
+     "name": "Jaden McDaniels",
+     "avg": 41.2
+    },
+    {
+     "name": "Jabari Smith Jr.",
+     "avg": 41.0
     }
    ],
-   "take": "Would be 11-33 playing everyone every week, 11th best in the league. Led by Yaxel Lendeborg at 49 a week.",
+   "take": "Would be 10-34 playing everyone every week, 11th best in the league. Led by Jalen Smith at 43 a week.",
    "fraud": false,
    "robbed": false,
-   "playoff_pct": 1.1,
+   "playoff_pct": 0.8,
    "bye_pct": 0.0,
    "title_pct": 0.0
   },
@@ -577,38 +577,38 @@
    "manager": "chalela",
    "name": "Chalela",
    "team": "Lochte & Associates",
-   "score": 1.6,
+   "score": 9.6,
    "tier": "Tank Watch",
    "tier_icon": "🗑️",
    "record": "0-4",
-   "allplay": "7-37",
+   "allplay": "9-35",
    "ppw": 381.8,
-   "form": 409.9,
-   "roster": 441.7,
-   "luck": -0.6,
+   "form": 424.1,
+   "roster": 423.5,
+   "luck": -0.8,
    "sos": 448.6,
    "weekly": [
-    387.2,
-    319.9,
-    431.9,
+    361.7,
+    317.2,
+    460.1,
     388.0
    ],
    "parts": {
     "record": 0,
     "points": 0,
     "allplay": 0,
-    "roster": 6,
-    "form": 0,
-    "luck": 40
+    "roster": 30,
+    "form": 14,
+    "luck": 34
    },
    "top_players": [
     {
      "name": "Shai Gilgeous-Alexander",
-     "avg": 58.5
+     "avg": 57.2
     },
     {
      "name": "Jalen Brunson",
-     "avg": 49.0
+     "avg": 53.8
     },
     {
      "name": "Klay Thompson",
@@ -617,10 +617,10 @@
    ],
    "take": "Still looking for win #1 at 0-4. 382 a week is the lowest scoring in the league. Yikes.",
    "fraud": false,
-   "robbed": false,
-   "playoff_pct": 0.9,
+   "robbed": true,
+   "playoff_pct": 2.0,
    "bye_pct": 0.0,
-   "title_pct": 0.0
+   "title_pct": 0.1
   }
  ],
  "history": {
@@ -1084,7 +1084,7 @@
       "finish": 5,
       "record": "2-2",
       "win_pct": 50.0,
-      "ppw": 490.7,
+      "ppw": 490.8,
       "playoffs": null,
       "champion": false
      }
@@ -1286,23 +1286,23 @@
      "players": [
       {
        "name": "Paul George",
-       "pts": 53.0,
+       "pts": 26.0,
        "weeks": 2,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 53.0,
+     "total": 26.0,
      "pending": false,
      "share": 1.0,
      "edge": 0.5,
      "grade": null
     }
    ],
-   "margin": 53,
+   "margin": 26,
    "edge": 0.5,
-   "take": "Waiting on future picks. So far Jacobo leads by 53 points.",
+   "take": "Waiting on future picks. So far Jacobo leads by 26 points.",
    "still_open": true
   },
   {
@@ -1327,8 +1327,8 @@
      "faab": 0,
      "total": 297.0,
      "pending": false,
-     "share": 0.451,
-     "edge": -0.049,
+     "share": 0.478,
+     "edge": -0.022,
      "grade": "B"
     },
     {
@@ -1344,22 +1344,22 @@
       },
       {
        "name": "Donovan Mitchell",
-       "pts": 165.0,
+       "pts": 128.0,
        "weeks": 4,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 361.0,
+     "total": 324.0,
      "pending": false,
-     "share": 0.549,
-     "edge": 0.049,
+     "share": 0.522,
+     "edge": 0.022,
      "grade": "B"
     }
    ],
-   "margin": 64,
-   "edge": 0.049,
+   "margin": 27,
+   "edge": 0.022,
    "take": "Dead even. Everybody wins, nobody brags.",
    "still_open": true
   },
@@ -1448,23 +1448,23 @@
      "players": [
       {
        "name": "Victor Wembanyama",
-       "pts": 377.0,
+       "pts": 386.0,
        "weeks": 4,
        "kept": true
       },
       {
        "name": "P.J. Washington",
-       "pts": 61.0,
+       "pts": 66.0,
        "weeks": 4,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 438.0,
+     "total": 452.0,
      "pending": false,
-     "share": 0.407,
-     "edge": -0.093,
+     "share": 0.45,
+     "edge": -0.05,
      "grade": null
     },
     {
@@ -1473,14 +1473,14 @@
      "team": "MoonUnit 🦬",
      "players": [
       {
-       "name": "Cade Cunningham",
-       "pts": 297.0,
+       "name": "Alperen Şengün",
+       "pts": 258.0,
        "weeks": 4,
        "kept": true
       },
       {
-       "name": "Alperen Şengün",
-       "pts": 288.0,
+       "name": "Cade Cunningham",
+       "pts": 242.0,
        "weeks": 4,
        "kept": true
       },
@@ -1506,16 +1506,16 @@
       }
      ],
      "faab": 0,
-     "total": 638.0,
+     "total": 553.0,
      "pending": true,
-     "share": 0.593,
-     "edge": 0.093,
+     "share": 0.55,
+     "edge": 0.05,
      "grade": null
     }
    ],
-   "margin": 200,
-   "edge": 0.093,
-   "take": "Waiting on future picks. So far Ricky leads by 200 points.",
+   "margin": 101,
+   "edge": 0.05,
+   "take": "Waiting on future picks. So far Ricky leads by 101 points.",
    "still_open": true
   },
   {
@@ -1665,7 +1665,7 @@
      "players": [
       {
        "name": "Paul George",
-       "pts": 158.0,
+       "pts": 166.0,
        "weeks": 3,
        "kept": false
       },
@@ -1690,10 +1690,10 @@
      ],
      "picks": [],
      "faab": 22,
-     "total": 158.0,
+     "total": 166.0,
      "pending": false,
-     "share": 0.69,
-     "edge": 0.19,
+     "share": 0.741,
+     "edge": 0.241,
      "grade": "A-"
     },
     {
@@ -1703,7 +1703,7 @@
      "players": [
       {
        "name": "OG Anunoby",
-       "pts": 71.0,
+       "pts": 58.0,
        "weeks": 4,
        "kept": true
       },
@@ -1716,16 +1716,16 @@
      ],
      "picks": [],
      "faab": 0,
-     "total": 71.0,
+     "total": 58.0,
      "pending": false,
-     "share": 0.31,
-     "edge": -0.19,
+     "share": 0.259,
+     "edge": -0.241,
      "grade": "C"
     }
    ],
-   "margin": 87,
-   "edge": 0.19,
-   "take": "Clear win for Papo: 87 points better.",
+   "margin": 108,
+   "edge": 0.241,
+   "take": "Clear win for Papo: 108 points better.",
    "still_open": true
   },
   {
@@ -2193,7 +2193,7 @@
      "players": [
       {
        "name": "Michael Porter Jr.",
-       "pts": 133.0,
+       "pts": 99.0,
        "weeks": 4,
        "kept": true
       }
@@ -2208,16 +2208,16 @@
       }
      ],
      "faab": 0,
-     "total": 133.0,
+     "total": 99.0,
      "pending": false,
      "share": 1.0,
      "edge": 0.5,
      "grade": null
     }
    ],
-   "margin": 133,
+   "margin": 99,
    "edge": 0.5,
-   "take": "Small potatoes: only 133 points changed hands.",
+   "take": "Small potatoes: only 99 points changed hands.",
    "still_open": true
   },
   {
@@ -2233,7 +2233,7 @@
      "players": [
       {
        "name": "Jaden McDaniels",
-       "pts": 109.0,
+       "pts": 119.0,
        "weeks": 4,
        "kept": true
       }
@@ -2241,7 +2241,7 @@
      "picks": [
       {
        "label": "2026 1st (Winch)",
-       "pts": 195.0,
+       "pts": 150.0,
        "status": "drafted",
        "player": "Yaxel Lendeborg",
        "kept": true
@@ -2254,11 +2254,11 @@
       }
      ],
      "faab": 0,
-     "total": 304.0,
+     "total": 269.0,
      "pending": false,
-     "share": 0.776,
-     "edge": 0.276,
-     "grade": "A"
+     "share": 0.749,
+     "edge": 0.249,
+     "grade": "A-"
     },
     {
      "manager": "papo",
@@ -2267,7 +2267,7 @@
      "players": [
       {
        "name": "Kel'el Ware",
-       "pts": 88.0,
+       "pts": 90.0,
        "weeks": 4,
        "kept": true
       },
@@ -2293,16 +2293,16 @@
       }
      ],
      "faab": 0,
-     "total": 88.0,
+     "total": 90.0,
      "pending": false,
-     "share": 0.224,
-     "edge": -0.276,
-     "grade": "D"
+     "share": 0.251,
+     "edge": -0.249,
+     "grade": "C"
     }
    ],
-   "margin": 216,
-   "edge": 0.276,
-   "take": "Clear win for Joey: 216 points better.",
+   "margin": 179,
+   "edge": 0.249,
+   "take": "Clear win for Joey: 179 points better.",
    "still_open": true
   },
   {
@@ -2318,7 +2318,7 @@
      "players": [
       {
        "name": "Miles Bridges",
-       "pts": 141.0,
+       "pts": 174.0,
        "weeks": 4,
        "kept": true
       }
@@ -2333,11 +2333,11 @@
       }
      ],
      "faab": 0,
-     "total": 141.0,
+     "total": 174.0,
      "pending": false,
-     "share": 0.588,
-     "edge": 0.088,
-     "grade": "B"
+     "share": 0.674,
+     "edge": 0.174,
+     "grade": "B+"
     },
     {
      "manager": "melo",
@@ -2346,7 +2346,7 @@
      "players": [
       {
        "name": "Derrick White",
-       "pts": 99.0,
+       "pts": 84.0,
        "weeks": 4,
        "kept": true
       }
@@ -2361,16 +2361,16 @@
       }
      ],
      "faab": 0,
-     "total": 99.0,
+     "total": 84.0,
      "pending": false,
-     "share": 0.412,
-     "edge": -0.088,
-     "grade": "B-"
+     "share": 0.326,
+     "edge": -0.174,
+     "grade": "C+"
     }
    ],
-   "margin": 42,
-   "edge": 0.088,
-   "take": "Slight edge Papo, by 42 points.",
+   "margin": 90,
+   "edge": 0.174,
+   "take": "Slight edge Papo, by 90 points.",
    "still_open": true
   },
   {
@@ -2489,7 +2489,7 @@
      "players": [
       {
        "name": "Zion Williamson",
-       "pts": 177.0,
+       "pts": 170.0,
        "weeks": 4,
        "kept": true
       },
@@ -2502,10 +2502,10 @@
      ],
      "picks": [],
      "faab": 0,
-     "total": 177.0,
+     "total": 170.0,
      "pending": false,
-     "share": 0.482,
-     "edge": -0.018,
+     "share": 0.54,
+     "edge": 0.04,
      "grade": null
     },
     {
@@ -2515,7 +2515,7 @@
      "players": [
       {
        "name": "RJ Barrett",
-       "pts": 190.0,
+       "pts": 145.0,
        "weeks": 4,
        "kept": true
       },
@@ -2553,16 +2553,16 @@
       }
      ],
      "faab": 0,
-     "total": 190.0,
+     "total": 145.0,
      "pending": true,
-     "share": 0.518,
-     "edge": 0.018,
+     "share": 0.46,
+     "edge": -0.04,
      "grade": null
     }
    ],
-   "margin": 13,
-   "edge": 0.018,
-   "take": "Waiting on future picks. So far Papo leads by 13 points.",
+   "margin": 25,
+   "edge": 0.04,
+   "take": "Waiting on future picks. So far Winch leads by 25 points.",
    "still_open": true
   },
   {
@@ -2600,8 +2600,8 @@
      "faab": 0,
      "total": 100.0,
      "pending": false,
-     "share": 0.376,
-     "edge": -0.124,
+     "share": 0.375,
+     "edge": -0.125,
      "grade": "C+"
     },
     {
@@ -2611,7 +2611,7 @@
      "players": [
       {
        "name": "Julius Randle",
-       "pts": 166.0,
+       "pts": 167.0,
        "weeks": 4,
        "kept": true
       },
@@ -2624,16 +2624,16 @@
      ],
      "picks": [],
      "faab": 0,
-     "total": 166.0,
+     "total": 167.0,
      "pending": false,
-     "share": 0.624,
-     "edge": 0.124,
+     "share": 0.625,
+     "edge": 0.125,
      "grade": "B+"
     }
    ],
-   "margin": 66,
-   "edge": 0.124,
-   "take": "Slight edge Melo, by 66 points.",
+   "margin": 67,
+   "edge": 0.125,
+   "take": "Slight edge Melo, by 67 points.",
    "still_open": true
   },
   {
@@ -2720,7 +2720,7 @@
       },
       {
        "label": "2026 1st (Winch)",
-       "pts": 195.0,
+       "pts": 150.0,
        "status": "drafted",
        "player": "Yaxel Lendeborg",
        "kept": true
@@ -2808,10 +2808,10 @@
       }
      ],
      "faab": 0,
-     "total": 351.0,
+     "total": 306.0,
      "pending": true,
-     "share": 0.507,
-     "edge": 0.007,
+     "share": 0.462,
+     "edge": -0.038,
      "grade": null
     },
     {
@@ -2821,23 +2821,23 @@
      "players": [
       {
        "name": "Luka Dončić",
-       "pts": 341.0,
+       "pts": 357.0,
        "weeks": 4,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 341.0,
+     "total": 357.0,
      "pending": false,
-     "share": 0.493,
-     "edge": -0.007,
+     "share": 0.538,
+     "edge": 0.038,
      "grade": null
     }
    ],
-   "margin": 10,
-   "edge": 0.007,
-   "take": "Waiting on future picks. So far Joey leads by 10 points.",
+   "margin": 51,
+   "edge": 0.038,
+   "take": "Waiting on future picks. So far Jacobo leads by 51 points.",
    "still_open": true
   },
   {
@@ -3090,8 +3090,8 @@
      "faab": 0,
      "total": 237.0,
      "pending": false,
-     "share": 0.203,
-     "edge": -0.297,
+     "share": 0.207,
+     "edge": -0.293,
      "grade": "D"
     },
     {
@@ -3101,7 +3101,7 @@
      "players": [
       {
        "name": "Derrick White",
-       "pts": 413.0,
+       "pts": 398.0,
        "weeks": 14,
        "kept": true
       },
@@ -3113,23 +3113,23 @@
       },
       {
        "name": "Lauri Markkanen",
-       "pts": 124.0,
+       "pts": 118.0,
        "weeks": 14,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 928.0,
+     "total": 907.0,
      "pending": false,
-     "share": 0.797,
-     "edge": 0.297,
+     "share": 0.793,
+     "edge": 0.293,
      "grade": "A"
     }
    ],
-   "margin": 691,
-   "edge": 0.297,
-   "take": "Clear win for Melo: 691 points better.",
+   "margin": 670,
+   "edge": 0.293,
+   "take": "Clear win for Melo: 670 points better.",
    "still_open": true
   },
   {
@@ -3412,14 +3412,14 @@
      "players": [
       {
        "name": "Nickeil Alexander-Walker",
-       "pts": 602.0,
+       "pts": 565.0,
        "weeks": 14,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 602.0,
+     "total": 565.0,
      "pending": false,
      "share": 1.0,
      "edge": 0.5,
@@ -3452,9 +3452,9 @@
      "grade": null
     }
    ],
-   "margin": 602,
+   "margin": 565,
    "edge": 0.5,
-   "take": "Waiting on future picks. So far Verdeja leads by 602 points.",
+   "take": "Waiting on future picks. So far Verdeja leads by 565 points.",
    "still_open": true
   },
   {
@@ -3515,13 +3515,13 @@
      "players": [
       {
        "name": "Andrew Nembhard",
-       "pts": 540.0,
+       "pts": 537.0,
        "weeks": 18,
        "kept": true
       },
       {
        "name": "Jeremiah Fears",
-       "pts": 339.0,
+       "pts": 318.0,
        "weeks": 18,
        "kept": true
       }
@@ -3535,10 +3535,10 @@
       }
      ],
      "faab": 0,
-     "total": 879.0,
+     "total": 855.0,
      "pending": true,
-     "share": 0.845,
-     "edge": 0.345,
+     "share": 0.842,
+     "edge": 0.342,
      "grade": null
     },
     {
@@ -3557,14 +3557,14 @@
      "faab": 0,
      "total": 161.0,
      "pending": false,
-     "share": 0.155,
-     "edge": -0.345,
+     "share": 0.158,
+     "edge": -0.342,
      "grade": null
     }
    ],
-   "margin": 718,
-   "edge": 0.345,
-   "take": "Waiting on future picks. So far Joey leads by 718 points.",
+   "margin": 694,
+   "edge": 0.342,
+   "take": "Waiting on future picks. So far Joey leads by 694 points.",
    "still_open": true
   },
   {
@@ -4092,8 +4092,8 @@
      "faab": 0,
      "total": 219.0,
      "pending": false,
-     "share": 0.102,
-     "edge": -0.398,
+     "share": 0.103,
+     "edge": -0.397,
      "grade": "F"
     },
     {
@@ -4103,29 +4103,29 @@
      "players": [
       {
        "name": "Mikal Bridges",
-       "pts": 1013.0,
+       "pts": 1024.0,
        "weeks": 29,
        "kept": true
       },
       {
        "name": "Naz Reid",
-       "pts": 915.0,
+       "pts": 875.0,
        "weeks": 29,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 1928.0,
+     "total": 1899.0,
      "pending": false,
-     "share": 0.898,
-     "edge": 0.398,
+     "share": 0.897,
+     "edge": 0.397,
      "grade": "A+"
     }
    ],
-   "margin": 1709,
-   "edge": 0.398,
-   "take": "Ricky fleeced Papo by 1,709 points.",
+   "margin": 1680,
+   "edge": 0.397,
+   "take": "Ricky fleeced Papo by 1,680 points.",
    "still_open": true
   },
   {
@@ -4141,7 +4141,7 @@
      "players": [
       {
        "name": "Jabari Smith Jr.",
-       "pts": 1012.0,
+       "pts": 1033.0,
        "weeks": 29,
        "kept": true
       }
@@ -4167,10 +4167,10 @@
       }
      ],
      "faab": 0,
-     "total": 1012.0,
+     "total": 1033.0,
      "pending": true,
-     "share": 0.569,
-     "edge": 0.069,
+     "share": 0.574,
+     "edge": 0.074,
      "grade": null
     },
     {
@@ -4195,14 +4195,14 @@
      "faab": 0,
      "total": 768.0,
      "pending": false,
-     "share": 0.431,
-     "edge": -0.069,
+     "share": 0.426,
+     "edge": -0.074,
      "grade": null
     }
    ],
-   "margin": 244,
-   "edge": 0.069,
-   "take": "Waiting on future picks. So far Joey leads by 244 points.",
+   "margin": 265,
+   "edge": 0.074,
+   "take": "Waiting on future picks. So far Joey leads by 265 points.",
    "still_open": true
   },
   {
@@ -4495,17 +4495,17 @@
      "players": [
       {
        "name": "Domantas Sabonis",
-       "pts": 342.0,
+       "pts": 331.0,
        "weeks": 29,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 342.0,
+     "total": 331.0,
      "pending": false,
-     "share": 0.407,
-     "edge": -0.093,
+     "share": 0.399,
+     "edge": -0.101,
      "grade": "B-"
     },
     {
@@ -4536,14 +4536,14 @@
      "faab": 0,
      "total": 499.0,
      "pending": false,
-     "share": 0.593,
-     "edge": 0.093,
+     "share": 0.601,
+     "edge": 0.101,
      "grade": "B"
     }
    ],
-   "margin": 157,
-   "edge": 0.093,
-   "take": "Slight edge Papo, by 157 points.",
+   "margin": 168,
+   "edge": 0.101,
+   "take": "Slight edge Papo, by 168 points.",
    "still_open": true
   },
   {
@@ -4901,7 +4901,7 @@
      "picks": [
       {
        "label": "2025 2nd (Ricky)",
-       "pts": 840.0,
+       "pts": 828.0,
        "status": "drafted",
        "player": "Derik Queen",
        "kept": true
@@ -4914,7 +4914,7 @@
       }
      ],
      "faab": 0,
-     "total": 840.0,
+     "total": 828.0,
      "pending": false,
      "share": 1.0,
      "edge": 0.5,
@@ -4941,9 +4941,9 @@
      "grade": "F"
     }
    ],
-   "margin": 840,
+   "margin": 828,
    "edge": 0.5,
-   "take": "Joey fleeced Papo by 840 points.",
+   "take": "Joey fleeced Papo by 828 points.",
    "still_open": true
   },
   {
@@ -5304,8 +5304,8 @@
      "faab": 0,
      "total": 332.0,
      "pending": false,
-     "share": 0.444,
-     "edge": -0.056,
+     "share": 0.431,
+     "edge": -0.069,
      "grade": null
     },
     {
@@ -5334,7 +5334,7 @@
       },
       {
        "label": "2025 1st (Verdeja)",
-       "pts": 416.0,
+       "pts": 438.0,
        "status": "drafted",
        "player": "Ace Bailey",
        "kept": true
@@ -5348,16 +5348,16 @@
       }
      ],
      "faab": 0,
-     "total": 416.0,
+     "total": 438.0,
      "pending": true,
-     "share": 0.556,
-     "edge": 0.056,
+     "share": 0.569,
+     "edge": 0.069,
      "grade": null
     }
    ],
-   "margin": 84,
-   "edge": 0.056,
-   "take": "Waiting on future picks. So far Jacobo leads by 84 points.",
+   "margin": 106,
+   "edge": 0.069,
+   "take": "Waiting on future picks. So far Jacobo leads by 106 points.",
    "still_open": true
   },
   {
@@ -5559,7 +5559,7 @@
       },
       {
        "label": "2026 1st (Verdeja)",
-       "pts": 74.0,
+       "pts": 82.0,
        "status": "drafted",
        "player": "Darryn Peterson",
        "kept": true
@@ -5578,16 +5578,16 @@
       }
      ],
      "faab": 0,
-     "total": 74.0,
+     "total": 82.0,
      "pending": true,
      "share": 1.0,
      "edge": 0.5,
      "grade": null
     }
    ],
-   "margin": 74,
+   "margin": 82,
    "edge": 0.5,
-   "take": "Waiting on future picks. So far Jacobo leads by 74 points.",
+   "take": "Waiting on future picks. So far Jacobo leads by 82 points.",
    "still_open": true
   },
   {
@@ -5700,8 +5700,8 @@
      "faab": 0,
      "total": 805.0,
      "pending": false,
-     "share": 0.415,
-     "edge": -0.085,
+     "share": 0.419,
+     "edge": -0.081,
      "grade": "B-"
     },
     {
@@ -5711,7 +5711,7 @@
      "players": [
       {
        "name": "Keyonte George",
-       "pts": 1098.0,
+       "pts": 1077.0,
        "weeks": 29,
        "kept": true
       },
@@ -5730,16 +5730,16 @@
      ],
      "picks": [],
      "faab": 0,
-     "total": 1136.0,
+     "total": 1115.0,
      "pending": false,
-     "share": 0.585,
-     "edge": 0.085,
+     "share": 0.581,
+     "edge": 0.081,
      "grade": "B"
     }
    ],
-   "margin": 331,
-   "edge": 0.085,
-   "take": "Slight edge Verdeja, by 331 points.",
+   "margin": 310,
+   "edge": 0.081,
+   "take": "Slight edge Verdeja, by 310 points.",
    "still_open": true
   },
   {
@@ -5755,7 +5755,7 @@
      "players": [
       {
        "name": "Isaiah Hartenstein",
-       "pts": 654.0,
+       "pts": 669.0,
        "weeks": 29,
        "kept": true
       },
@@ -5775,7 +5775,7 @@
       }
      ],
      "faab": 0,
-     "total": 654.0,
+     "total": 669.0,
      "pending": false,
      "share": 1.0,
      "edge": 0.5,
@@ -5815,9 +5815,9 @@
      "grade": "F"
     }
    ],
-   "margin": 654,
+   "margin": 669,
    "edge": 0.5,
-   "take": "Libguel fleeced Papo by 654 points.",
+   "take": "Libguel fleeced Papo by 669 points.",
    "still_open": true
   },
   {
@@ -5922,7 +5922,7 @@
      "players": [
       {
        "name": "Payton Pritchard",
-       "pts": 1055.0,
+       "pts": 1077.0,
        "weeks": 29,
        "kept": true
       },
@@ -5942,10 +5942,10 @@
       }
      ],
      "faab": 0,
-     "total": 1157.0,
+     "total": 1179.0,
      "pending": false,
-     "share": 0.699,
-     "edge": 0.199,
+     "share": 0.703,
+     "edge": 0.203,
      "grade": "A-"
     },
     {
@@ -5970,14 +5970,14 @@
      "faab": 0,
      "total": 499.0,
      "pending": false,
-     "share": 0.301,
-     "edge": -0.199,
+     "share": 0.297,
+     "edge": -0.203,
      "grade": "C"
     }
    ],
-   "margin": 658,
-   "edge": 0.199,
-   "take": "Clear win for Shueiro: 658 points better.",
+   "margin": 680,
+   "edge": 0.203,
+   "take": "Clear win for Shueiro: 680 points better.",
    "still_open": true
   },
   {
@@ -6079,7 +6079,7 @@
      "players": [
       {
        "name": "CJ McCollum",
-       "pts": 940.0,
+       "pts": 928.0,
        "weeks": 29,
        "kept": true
       },
@@ -6092,16 +6092,16 @@
      ],
      "picks": [],
      "faab": 0,
-     "total": 940.0,
+     "total": 928.0,
      "pending": false,
      "share": 1.0,
      "edge": 0.5,
      "grade": "A+"
     }
    ],
-   "margin": 940,
+   "margin": 928,
    "edge": 0.5,
-   "take": "Papo fleeced Joey by 940 points.",
+   "take": "Papo fleeced Joey by 928 points.",
    "still_open": true
   },
   {
@@ -6220,7 +6220,7 @@
      "players": [
       {
        "name": "Joel Embiid",
-       "pts": 674.0,
+       "pts": 627.0,
        "weeks": 29,
        "kept": true
       },
@@ -6246,10 +6246,10 @@
       }
      ],
      "faab": 0,
-     "total": 674.0,
+     "total": 627.0,
      "pending": false,
-     "share": 0.34,
-     "edge": -0.16,
+     "share": 0.324,
+     "edge": -0.176,
      "grade": "C+"
     },
     {
@@ -6287,14 +6287,14 @@
      "faab": 0,
      "total": 1309.0,
      "pending": false,
-     "share": 0.66,
-     "edge": 0.16,
+     "share": 0.676,
+     "edge": 0.176,
      "grade": "B+"
     }
    ],
-   "margin": 635,
-   "edge": 0.16,
-   "take": "Slight edge Melo, by 635 points.",
+   "margin": 682,
+   "edge": 0.176,
+   "take": "Slight edge Melo, by 682 points.",
    "still_open": true
   },
   {
@@ -6416,7 +6416,7 @@
      "picks": [
       {
        "label": "2025 1st (Blandon)",
-       "pts": 567.0,
+       "pts": 568.0,
        "status": "drafted",
        "player": "Cedric Coward",
        "kept": true
@@ -6430,23 +6430,23 @@
       },
       {
        "label": "2025 1st (Papo)",
-       "pts": 476.0,
+       "pts": 494.0,
        "status": "drafted",
        "player": "Dylan Harper",
        "kept": true
       }
      ],
      "faab": 0,
-     "total": 1245.0,
+     "total": 1264.0,
      "pending": false,
      "share": 1.0,
      "edge": 0.5,
      "grade": "A+"
     }
    ],
-   "margin": 1245,
+   "margin": 1264,
    "edge": 0.5,
-   "take": "Blandon fleeced Papo by 1,245 points.",
+   "take": "Blandon fleeced Papo by 1,264 points.",
    "still_open": true
   },
   {
@@ -6520,7 +6520,7 @@
      "players": [
       {
        "name": "James Harden",
-       "pts": 1988.0,
+       "pts": 1927.0,
        "weeks": 38,
        "kept": true
       }
@@ -6540,16 +6540,16 @@
       }
      ],
      "faab": 0,
-     "total": 1988.0,
+     "total": 1927.0,
      "pending": false,
      "share": 1.0,
      "edge": 0.5,
      "grade": "A+"
     }
    ],
-   "margin": 1988,
+   "margin": 1927,
    "edge": 0.5,
-   "take": "Melo fleeced Papo by 1,988 points.",
+   "take": "Melo fleeced Papo by 1,927 points.",
    "still_open": true
   },
   {
@@ -6565,7 +6565,7 @@
      "players": [
       {
        "name": "Draymond Green",
-       "pts": 952.0,
+       "pts": 976.0,
        "weeks": 38,
        "kept": true
       },
@@ -6592,10 +6592,10 @@
       }
      ],
      "faab": 0,
-     "total": 1204.0,
+     "total": 1228.0,
      "pending": true,
-     "share": 0.825,
-     "edge": 0.325,
+     "share": 0.827,
+     "edge": 0.327,
      "grade": null
     },
     {
@@ -6627,14 +6627,14 @@
      "faab": 0,
      "total": 256.0,
      "pending": false,
-     "share": 0.175,
-     "edge": -0.325,
+     "share": 0.173,
+     "edge": -0.327,
      "grade": null
     }
    ],
-   "margin": 948,
-   "edge": 0.325,
-   "take": "Waiting on future picks. So far Victor leads by 948 points.",
+   "margin": 972,
+   "edge": 0.327,
+   "take": "Waiting on future picks. So far Victor leads by 972 points.",
    "still_open": true
   },
   {
@@ -6717,14 +6717,14 @@
      "picks": [
       {
        "label": "2025 1st (Ricky)",
-       "pts": 879.0,
+       "pts": 848.0,
        "status": "drafted",
        "player": "VJ Edgecombe",
        "kept": true
       }
      ],
      "faab": 0,
-     "total": 879.0,
+     "total": 848.0,
      "pending": false,
      "share": 1.0,
      "edge": 0.5,
@@ -6751,9 +6751,9 @@
      "grade": "F"
     }
    ],
-   "margin": 879,
+   "margin": 848,
    "edge": 0.5,
-   "take": "Libguel fleeced Papo by 879 points.",
+   "take": "Libguel fleeced Papo by 848 points.",
    "still_open": true
   },
   {
@@ -6787,7 +6787,7 @@
       },
       {
        "name": "Jared McCain",
-       "pts": 286.0,
+       "pts": 304.0,
        "weeks": 39,
        "kept": true
       }
@@ -6808,11 +6808,11 @@
       }
      ],
      "faab": 0,
-     "total": 2613.0,
+     "total": 2631.0,
      "pending": false,
-     "share": 0.605,
-     "edge": 0.105,
-     "grade": "B"
+     "share": 0.618,
+     "edge": 0.118,
+     "grade": "B+"
     },
     {
      "manager": "papo",
@@ -6821,7 +6821,7 @@
      "players": [
       {
        "name": "Anthony Davis",
-       "pts": 767.0,
+       "pts": 688.0,
        "weeks": 39,
        "kept": true
       },
@@ -6859,16 +6859,16 @@
       }
      ],
      "faab": 0,
-     "total": 1706.0,
+     "total": 1627.0,
      "pending": false,
-     "share": 0.395,
-     "edge": -0.105,
-     "grade": "B-"
+     "share": 0.382,
+     "edge": -0.118,
+     "grade": "C+"
     }
    ],
-   "margin": 907,
-   "edge": 0.105,
-   "take": "Slight edge Joey, by 907 points.",
+   "margin": 1004,
+   "edge": 0.118,
+   "take": "Slight edge Joey, by 1,004 points.",
    "still_open": true
   },
   {
@@ -7489,7 +7489,7 @@
      "picks": [
       {
        "label": "2025 1st (Chalela)",
-       "pts": 323.0,
+       "pts": 341.0,
        "status": "drafted",
        "player": "Collin Murray-Boyles",
        "kept": true
@@ -7515,10 +7515,10 @@
       }
      ],
      "faab": 0,
-     "total": 2233.0,
+     "total": 2251.0,
      "pending": false,
-     "share": 0.841,
-     "edge": 0.341,
+     "share": 0.842,
+     "edge": 0.342,
      "grade": null
     },
     {
@@ -7568,14 +7568,14 @@
      "faab": 0,
      "total": 421.0,
      "pending": true,
-     "share": 0.159,
-     "edge": -0.341,
+     "share": 0.158,
+     "edge": -0.342,
      "grade": null
     }
    ],
-   "margin": 1812,
-   "edge": 0.341,
-   "take": "Waiting on future picks. So far Shueiro leads by 1,812 points.",
+   "margin": 1830,
+   "edge": 0.342,
+   "take": "Waiting on future picks. So far Shueiro leads by 1,830 points.",
    "still_open": true
   },
   {
@@ -7955,7 +7955,7 @@
       },
       {
        "name": "Jalen Green",
-       "pts": 679.0,
+       "pts": 688.0,
        "weeks": 42,
        "kept": true
       },
@@ -7968,16 +7968,16 @@
      ],
      "picks": [],
      "faab": 0,
-     "total": 1588.0,
+     "total": 1597.0,
      "pending": false,
      "share": 0.957,
      "edge": 0.457,
      "grade": "A+"
     }
    ],
-   "margin": 1516,
+   "margin": 1525,
    "edge": 0.457,
-   "take": "Ricky fleeced Papo by 1,516 points.",
+   "take": "Ricky fleeced Papo by 1,525 points.",
    "still_open": true
   },
   {
@@ -8645,7 +8645,7 @@
       },
       {
        "name": "Fred VanVleet",
-       "pts": 865.0,
+       "pts": 826.0,
        "weeks": 54,
        "kept": true
       },
@@ -8671,7 +8671,7 @@
       }
      ],
      "faab": 67,
-     "total": 2226.0,
+     "total": 2187.0,
      "pending": true,
      "share": 0.982,
      "edge": 0.482,
@@ -8704,9 +8704,9 @@
      "grade": null
     }
    ],
-   "margin": 2186,
+   "margin": 2147,
    "edge": 0.482,
-   "take": "Waiting on future picks. So far Victor leads by 2,186 points.",
+   "take": "Waiting on future picks. So far Victor leads by 2,147 points.",
    "still_open": true
   },
   {
@@ -8722,23 +8722,23 @@
      "players": [
       {
        "name": "LaMelo Ball",
-       "pts": 2159.0,
+       "pts": 2194.0,
        "weeks": 54,
        "kept": true
       },
       {
        "name": "Zach LaVine",
-       "pts": 1218.0,
+       "pts": 1252.0,
        "weeks": 54,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 3377.0,
+     "total": 3446.0,
      "pending": false,
-     "share": 0.861,
-     "edge": 0.361,
+     "share": 0.864,
+     "edge": 0.364,
      "grade": null
     },
     {
@@ -8788,14 +8788,14 @@
      "faab": 0,
      "total": 544.0,
      "pending": true,
-     "share": 0.139,
-     "edge": -0.361,
+     "share": 0.136,
+     "edge": -0.364,
      "grade": null
     }
    ],
-   "margin": 2833,
-   "edge": 0.361,
-   "take": "Waiting on future picks. So far Winch leads by 2,833 points.",
+   "margin": 2902,
+   "edge": 0.364,
+   "take": "Waiting on future picks. So far Winch leads by 2,902 points.",
    "still_open": true
   },
   {
@@ -9004,14 +9004,14 @@
      "players": [
       {
        "name": "Pascal Siakam",
-       "pts": 2131.0,
+       "pts": 2117.0,
        "weeks": 54,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 2131.0,
+     "total": 2117.0,
      "pending": false,
      "share": 0.925,
      "edge": 0.425,
@@ -9051,9 +9051,9 @@
      "grade": null
     }
    ],
-   "margin": 1959,
+   "margin": 1945,
    "edge": 0.425,
-   "take": "Waiting on future picks. So far Winch leads by 1,959 points.",
+   "take": "Waiting on future picks. So far Winch leads by 1,945 points.",
    "still_open": true
   },
   {
@@ -9101,7 +9101,7 @@
      "players": [
       {
        "name": "Karl-Anthony Towns",
-       "pts": 2773.0,
+       "pts": 2769.0,
        "weeks": 54,
        "kept": true
       },
@@ -9114,16 +9114,16 @@
      ],
      "picks": [],
      "faab": 0,
-     "total": 4105.0,
+     "total": 4101.0,
      "pending": false,
      "share": 0.977,
      "edge": 0.477,
      "grade": "A+"
     }
    ],
-   "margin": 4007,
+   "margin": 4003,
    "edge": 0.477,
-   "take": "Melo fleeced Papo by 4,007 points.",
+   "take": "Melo fleeced Papo by 4,003 points.",
    "still_open": true
   },
   {
@@ -9139,17 +9139,17 @@
      "players": [
       {
        "name": "Deni Avdija",
-       "pts": 1895.0,
+       "pts": 1869.0,
        "weeks": 54,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 1895.0,
+     "total": 1869.0,
      "pending": false,
-     "share": 0.659,
-     "edge": 0.159,
+     "share": 0.656,
+     "edge": 0.156,
      "grade": "B+"
     },
     {
@@ -9175,14 +9175,14 @@
      "faab": 0,
      "total": 980.0,
      "pending": false,
-     "share": 0.341,
-     "edge": -0.159,
+     "share": 0.344,
+     "edge": -0.156,
      "grade": "C+"
     }
    ],
-   "margin": 915,
-   "edge": 0.159,
-   "take": "Slight edge Shueiro, by 915 points.",
+   "margin": 889,
+   "edge": 0.156,
+   "take": "Slight edge Shueiro, by 889 points.",
    "still_open": true
   },
   {
@@ -9702,8 +9702,8 @@
      "faab": 0,
      "total": 145.0,
      "pending": false,
-     "share": 0.098,
-     "edge": -0.402,
+     "share": 0.099,
+     "edge": -0.401,
      "grade": "F"
     },
     {
@@ -9713,7 +9713,7 @@
      "players": [
       {
        "name": "Immanuel Quickley",
-       "pts": 1330.0,
+       "pts": 1316.0,
        "weeks": 54,
        "kept": true
       }
@@ -9728,16 +9728,16 @@
       }
      ],
      "faab": 0,
-     "total": 1330.0,
+     "total": 1316.0,
      "pending": false,
-     "share": 0.902,
-     "edge": 0.402,
+     "share": 0.901,
+     "edge": 0.401,
      "grade": "A+"
     }
    ],
-   "margin": 1185,
-   "edge": 0.402,
-   "take": "Blandon fleeced Shueiro by 1,185 points.",
+   "margin": 1171,
+   "edge": 0.401,
+   "take": "Blandon fleeced Shueiro by 1,171 points.",
    "still_open": true
   },
   {
@@ -9753,13 +9753,13 @@
      "players": [
       {
        "name": "Darius Garland",
-       "pts": 1763.0,
+       "pts": 1768.0,
        "weeks": 54,
        "kept": true
       },
       {
        "name": "Devin Vassell",
-       "pts": 1164.0,
+       "pts": 1171.0,
        "weeks": 54,
        "kept": true
       }
@@ -9773,10 +9773,10 @@
       }
      ],
      "faab": 0,
-     "total": 2927.0,
+     "total": 2939.0,
      "pending": true,
-     "share": 0.76,
-     "edge": 0.26,
+     "share": 0.767,
+     "edge": 0.267,
      "grade": null
     },
     {
@@ -9786,7 +9786,7 @@
      "players": [
       {
        "name": "Brandin Podziemski",
-       "pts": 922.0,
+       "pts": 892.0,
        "weeks": 54,
        "kept": true
       },
@@ -9807,16 +9807,16 @@
       }
      ],
      "faab": 0,
-     "total": 922.0,
+     "total": 892.0,
      "pending": false,
-     "share": 0.24,
-     "edge": -0.26,
+     "share": 0.233,
+     "edge": -0.267,
      "grade": null
     }
    ],
-   "margin": 2005,
-   "edge": 0.26,
-   "take": "Waiting on future picks. So far Libguel leads by 2,005 points.",
+   "margin": 2047,
+   "edge": 0.267,
+   "take": "Waiting on future picks. So far Libguel leads by 2,047 points.",
    "still_open": true
   },
   {
@@ -10835,23 +10835,23 @@
      "picks": [
       {
        "label": "2024 2nd (Melo)",
-       "pts": 24.0,
+       "pts": 22.0,
        "status": "drafted",
        "player": "Ja'Kobe Walter",
        "kept": true
       }
      ],
      "faab": 0,
-     "total": 250.0,
+     "total": 248.0,
      "pending": false,
      "share": 1.0,
      "edge": 0.5,
      "grade": "A+"
     }
    ],
-   "margin": 250,
+   "margin": 248,
    "edge": 0.5,
-   "take": "Melo fleeced Papo by 250 points.",
+   "take": "Melo fleeced Papo by 248 points.",
    "still_open": true
   },
   {
@@ -11108,23 +11108,23 @@
      "players": [
       {
        "name": "Kevin Durant",
-       "pts": 2406.0,
+       "pts": 2393.0,
        "weeks": 54,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 2406.0,
+     "total": 2393.0,
      "pending": false,
      "share": 0.984,
      "edge": 0.484,
      "grade": "A+"
     }
    ],
-   "margin": 2367,
+   "margin": 2354,
    "edge": 0.484,
-   "take": "Melo fleeced Papo by 2,367 points.",
+   "take": "Melo fleeced Papo by 2,354 points.",
    "still_open": true
   },
   {
@@ -11218,17 +11218,17 @@
       },
       {
        "label": "2024 2nd (Blandon)",
-       "pts": 1000.0,
+       "pts": 975.0,
        "status": "drafted",
        "player": "Kyshawn George",
        "kept": true
       }
      ],
      "faab": 0,
-     "total": 1000.0,
+     "total": 975.0,
      "pending": false,
-     "share": 0.653,
-     "edge": 0.153,
+     "share": 0.647,
+     "edge": 0.147,
      "grade": "B+"
     },
     {
@@ -11247,14 +11247,14 @@
      "faab": 0,
      "total": 531.0,
      "pending": false,
-     "share": 0.347,
-     "edge": -0.153,
+     "share": 0.353,
+     "edge": -0.147,
      "grade": "C+"
     }
    ],
-   "margin": 469,
-   "edge": 0.153,
-   "take": "Slight edge Verdeja, by 469 points.",
+   "margin": 444,
+   "edge": 0.147,
+   "take": "Slight edge Verdeja, by 444 points.",
    "still_open": true
   },
   {
@@ -11686,23 +11686,23 @@
      "players": [
       {
        "name": "Onyeka Okongwu",
-       "pts": 2178.0,
+       "pts": 2170.0,
        "weeks": 65,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 1,
-     "total": 2178.0,
+     "total": 2170.0,
      "pending": false,
      "share": 1.0,
      "edge": 0.5,
      "grade": "A+"
     }
    ],
-   "margin": 2178,
+   "margin": 2170,
    "edge": 0.5,
-   "take": "Blandon fleeced Shueiro by 2,178 points.",
+   "take": "Blandon fleeced Shueiro by 2,170 points.",
    "still_open": true
   },
   {
@@ -11727,8 +11727,8 @@
      "faab": 0,
      "total": 2714.0,
      "pending": false,
-     "share": 0.22,
-     "edge": -0.28,
+     "share": 0.219,
+     "edge": -0.281,
      "grade": "D"
     },
     {
@@ -11762,13 +11762,13 @@
       },
       {
        "name": "Tari Eason",
-       "pts": 868.0,
+       "pts": 877.0,
        "weeks": 65,
        "kept": true
       },
       {
        "name": "Jonathan Kuminga",
-       "pts": 583.0,
+       "pts": 628.0,
        "weeks": 65,
        "kept": true
       },
@@ -11787,16 +11787,16 @@
      ],
      "picks": [],
      "faab": 0,
-     "total": 9605.0,
+     "total": 9659.0,
      "pending": false,
-     "share": 0.78,
-     "edge": 0.28,
+     "share": 0.781,
+     "edge": 0.281,
      "grade": "A"
     }
    ],
-   "margin": 6891,
-   "edge": 0.28,
-   "take": "Clear win for Blandon: 6,891 points better.",
+   "margin": 6945,
+   "edge": 0.281,
+   "take": "Clear win for Blandon: 6,945 points better.",
    "still_open": true
   },
   {
@@ -12356,8 +12356,8 @@
      "faab": 0,
      "total": 536.0,
      "pending": false,
-     "share": 0.179,
-     "edge": -0.321,
+     "share": 0.176,
+     "edge": -0.324,
      "grade": "D"
     },
     {
@@ -12367,7 +12367,7 @@
      "players": [
       {
        "name": "Jarrett Allen",
-       "pts": 2451.0,
+       "pts": 2510.0,
        "weeks": 69,
        "kept": true
       }
@@ -12381,16 +12381,16 @@
       }
      ],
      "faab": 0,
-     "total": 2451.0,
+     "total": 2510.0,
      "pending": false,
-     "share": 0.821,
-     "edge": 0.321,
+     "share": 0.824,
+     "edge": 0.324,
      "grade": "A"
     }
    ],
-   "margin": 1915,
-   "edge": 0.321,
-   "take": "Clear win for Melo: 1,915 points better.",
+   "margin": 1974,
+   "edge": 0.324,
+   "take": "Clear win for Melo: 1,974 points better.",
    "still_open": true
   },
   {
@@ -12543,8 +12543,8 @@
      "faab": 0,
      "total": 4476.0,
      "pending": false,
-     "share": 0.682,
-     "edge": 0.182,
+     "share": 0.68,
+     "edge": 0.18,
      "grade": "A-"
     },
     {
@@ -12554,7 +12554,7 @@
      "players": [
       {
        "name": "Tyrese Haliburton",
-       "pts": 2089.0,
+       "pts": 2109.0,
        "weeks": 69,
        "kept": true
       },
@@ -12567,16 +12567,16 @@
      ],
      "picks": [],
      "faab": 0,
-     "total": 2089.0,
+     "total": 2109.0,
      "pending": false,
-     "share": 0.318,
-     "edge": -0.182,
-     "grade": "C"
+     "share": 0.32,
+     "edge": -0.18,
+     "grade": "C+"
     }
    ],
-   "margin": 2387,
-   "edge": 0.182,
-   "take": "Clear win for Joey: 2,387 points better.",
+   "margin": 2367,
+   "edge": 0.18,
+   "take": "Clear win for Joey: 2,367 points better.",
    "still_open": true
   },
   {
@@ -12756,8 +12756,8 @@
      "faab": 0,
      "total": 333.0,
      "pending": false,
-     "share": 0.255,
-     "edge": -0.245,
+     "share": 0.252,
+     "edge": -0.248,
      "grade": "C"
     },
     {
@@ -12767,23 +12767,23 @@
      "players": [
       {
        "name": "Anthony Black",
-       "pts": 972.0,
+       "pts": 988.0,
        "weeks": 70,
        "kept": true
       }
      ],
      "picks": [],
      "faab": 0,
-     "total": 972.0,
+     "total": 988.0,
      "pending": false,
-     "share": 0.745,
-     "edge": 0.245,
+     "share": 0.748,
+     "edge": 0.248,
      "grade": "A-"
     }
    ],
-   "margin": 639,
-   "edge": 0.245,
-   "take": "Clear win for Shueiro: 639 points better.",
+   "margin": 655,
+   "edge": 0.248,
+   "take": "Clear win for Shueiro: 655 points better.",
    "still_open": true
   },
   {
@@ -13954,7 +13954,7 @@
    "name": "Melo",
    "trades": 21,
    "record": "11-2-1",
-   "net": 7184,
+   "net": 7181,
    "rank": 1
   },
   {
@@ -13962,7 +13962,7 @@
    "name": "Blandon",
    "trades": 28,
    "record": "9-4",
-   "net": 6226,
+   "net": 6264,
    "rank": 2
   },
   {
@@ -13970,7 +13970,7 @@
    "name": "Verdeja",
    "trades": 16,
    "record": "7-0-1",
-   "net": 3768,
+   "net": 3726,
    "rank": 3
   },
   {
@@ -13978,7 +13978,7 @@
    "name": "Joey",
    "trades": 34,
    "record": "13-4-1",
-   "net": 3699,
+   "net": 3719,
    "rank": 4
   },
   {
@@ -13986,7 +13986,7 @@
    "name": "Ricky",
    "trades": 10,
    "record": "2-0-1",
-   "net": 1614,
+   "net": 1604,
    "rank": 5
   },
   {
@@ -13994,7 +13994,7 @@
    "name": "Libguel",
    "trades": 22,
    "record": "6-5",
-   "net": 1096,
+   "net": 1074,
    "rank": 6
   },
   {
@@ -14010,7 +14010,7 @@
    "name": "Winch",
    "trades": 33,
    "record": "3-5",
-   "net": 274,
+   "net": 244,
    "rank": 8
   },
   {
@@ -14026,7 +14026,7 @@
    "name": "Jacobo",
    "trades": 60,
    "record": "7-13-1",
-   "net": -469,
+   "net": -456,
    "rank": 10
   },
   {
@@ -14034,7 +14034,7 @@
    "name": "Shueiro",
    "trades": 23,
    "record": "6-4",
-   "net": -2220,
+   "net": -2230,
    "rank": 11
   },
   {
@@ -14042,7 +14042,7 @@
    "name": "Papo",
    "trades": 114,
    "record": "13-46-1",
-   "net": -22013,
+   "net": -21969,
    "rank": 12
   }
  ],
@@ -14132,7 +14132,7 @@
    "trades": {
     "count": 33,
     "record": "3-5",
-    "net": 274,
+    "net": 244,
     "rank": 8,
     "partner": {
      "name": "Jacobo",
@@ -14172,7 +14172,7 @@
    "drafts": {
     "grade": "A-",
     "rank": 3,
-    "voe": 4075,
+    "voe": 4022,
     "steal": {
      "draft": "2023 startup draft",
      "year": 2023,
@@ -14180,10 +14180,10 @@
      "pick": "7.10",
      "overall": 82,
      "player": "Rudy Gobert",
-     "pts": 3061.0,
+     "pts": 3035.0,
      "kept": true,
-     "expected": 957.3,
-     "voe": 2103.7
+     "expected": 956.4,
+     "voe": 2078.6
     },
     "bust": {
      "draft": "2023 startup draft",
@@ -14194,28 +14194,28 @@
      "player": "Stephen Curry",
      "pts": 1172.0,
      "kept": false,
-     "expected": 1619.2,
-     "voe": -447.2
+     "expected": 1621.3,
+     "voe": -449.3
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": 4173,
+      "voe": 4120,
       "picks": [
        {
         "pick": "1.10",
         "overall": 10,
         "player": "Jayson Tatum",
-        "pts": 3198.0,
-        "voe": 538.9,
+        "pts": 3186.0,
+        "voe": 530.3,
         "kept": true
        },
        {
         "pick": "2.10",
         "overall": 15,
         "player": "Devin Booker",
-        "pts": 3566.0,
-        "voe": 1277.9,
+        "pts": 3576.0,
+        "voe": 1293.2,
         "kept": true
        },
        {
@@ -14223,7 +14223,7 @@
         "overall": 34,
         "player": "Stephen Curry",
         "pts": 1172.0,
-        "voe": -447.2,
+        "voe": -449.3,
         "kept": false
        },
        {
@@ -14231,15 +14231,15 @@
         "overall": 39,
         "player": "James Harden",
         "pts": 1180.0,
-        "voe": -588.8,
+        "voe": -589.7,
         "kept": false
        },
        {
         "pick": "5.10",
         "overall": 58,
         "player": "Kawhi Leonard",
-        "pts": 2782.0,
-        "voe": 1628.2,
+        "pts": 2734.0,
+        "voe": 1580.5,
         "kept": true
        },
        {
@@ -14247,15 +14247,15 @@
         "overall": 63,
         "player": "Fred VanVleet",
         "pts": 1264.0,
-        "voe": -240.9,
+        "voe": -237.3,
         "kept": false
        },
        {
         "pick": "7.10",
         "overall": 82,
         "player": "Rudy Gobert",
-        "pts": 3061.0,
-        "voe": 2103.7,
+        "pts": 3035.0,
+        "voe": 2078.6,
         "kept": true
        },
        {
@@ -14263,15 +14263,15 @@
         "overall": 87,
         "player": "CJ McCollum",
         "pts": 116.0,
-        "voe": -1033.5,
+        "voe": -1028.2,
         "kept": false
        },
        {
         "pick": "9.10",
         "overall": 106,
         "player": "Aaron Gordon",
-        "pts": 1002.0,
-        "voe": 606.6,
+        "pts": 1016.0,
+        "voe": 620.6,
         "kept": true
        },
        {
@@ -14279,7 +14279,7 @@
         "overall": 111,
         "player": "Jonas Valančiūnas",
         "pts": 700.0,
-        "voe": 342.6,
+        "voe": 341.4,
         "kept": false
        },
        {
@@ -14287,7 +14287,7 @@
         "overall": 130,
         "player": "Bobby Portis Jr.",
         "pts": 519.0,
-        "voe": 148.3,
+        "voe": 147.6,
         "kept": false
        },
        {
@@ -14295,7 +14295,7 @@
         "overall": 135,
         "player": "Ivica Zubac",
         "pts": 54.0,
-        "voe": -418.9,
+        "voe": -422.7,
         "kept": false
        },
        {
@@ -14327,7 +14327,7 @@
         "overall": 202,
         "player": "Kris Murray",
         "pts": 0,
-        "voe": -117.5,
+        "voe": -118.3,
         "kept": false
        },
        {
@@ -14335,21 +14335,21 @@
         "overall": 207,
         "player": "Jordan Walsh",
         "pts": 0,
-        "voe": -78.7,
+        "voe": -79.5,
         "kept": false
        }
       ]
      },
      {
       "draft": "2025 rookie draft",
-      "voe": -98,
+      "voe": -97,
       "picks": [
        {
         "pick": "2.09",
         "overall": 21,
         "player": "Nolan Traore",
         "pts": 47.0,
-        "voe": -98.4,
+        "voe": -97.4,
         "kept": true
        }
       ]
@@ -14444,7 +14444,7 @@
    "trades": {
     "count": 22,
     "record": "6-5",
-    "net": 1096,
+    "net": 1074,
     "rank": 6,
     "partner": {
      "name": "Papo",
@@ -14459,7 +14459,7 @@
       "Tidjane Salaün",
       "2025 1st (Ricky)"
      ],
-     "pts": 879.0
+     "pts": 848.0
     },
     "worst": {
      "id": "1052021754341785600",
@@ -14485,7 +14485,7 @@
    "drafts": {
     "grade": "B+",
     "rank": 4,
-    "voe": 2812,
+    "voe": 2834,
     "steal": {
      "draft": "2023 startup draft",
      "year": 2023,
@@ -14495,8 +14495,8 @@
      "player": "Scottie Barnes",
      "pts": 3608.0,
      "kept": true,
-     "expected": 1132.8,
-     "voe": 2475.2
+     "expected": 1128.4,
+     "voe": 2479.6
     },
     "bust": {
      "draft": "2023 startup draft",
@@ -14507,20 +14507,20 @@
      "player": "Ja Morant",
      "pts": 955.0,
      "kept": false,
-     "expected": 2393.3,
-     "voe": -1438.3
+     "expected": 2390.3,
+     "voe": -1435.3
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": 1257,
+      "voe": 1272,
       "picks": [
        {
         "pick": "1.08",
         "overall": 8,
         "player": "Anthony Edwards",
         "pts": 3871.0,
-        "voe": 1296.2,
+        "voe": 1297.7,
         "kept": true
        },
        {
@@ -14528,7 +14528,7 @@
         "overall": 17,
         "player": "Ja Morant",
         "pts": 955.0,
-        "voe": -1438.3,
+        "voe": -1435.3,
         "kept": false
        },
        {
@@ -14536,7 +14536,7 @@
         "overall": 36,
         "player": "Jamal Murray",
         "pts": 3380.0,
-        "voe": 1765.8,
+        "voe": 1764.9,
         "kept": true
        },
        {
@@ -14544,7 +14544,7 @@
         "overall": 37,
         "player": "Lauri Markkanen",
         "pts": 331.0,
-        "voe": -1548.2,
+        "voe": -1549.0,
         "kept": false
        },
        {
@@ -14552,15 +14552,15 @@
         "overall": 60,
         "player": "Scottie Barnes",
         "pts": 3608.0,
-        "voe": 2475.2,
+        "voe": 2479.6,
         "kept": true
        },
        {
         "pick": "6.12",
         "overall": 61,
         "player": "Franz Wagner",
-        "pts": 1956.0,
-        "voe": 514.8,
+        "pts": 1962.0,
+        "voe": 525.6,
         "kept": true
        },
        {
@@ -14568,7 +14568,7 @@
         "overall": 84,
         "player": "Jrue Holiday",
         "pts": 297.0,
-        "voe": -849.0,
+        "voe": -845.9,
         "kept": false
        },
        {
@@ -14576,7 +14576,7 @@
         "overall": 85,
         "player": "Jalen Duren",
         "pts": 994.0,
-        "voe": -164.3,
+        "voe": -160.6,
         "kept": false
        },
        {
@@ -14584,7 +14584,7 @@
         "overall": 108,
         "player": "Klay Thompson",
         "pts": 318.0,
-        "voe": -74.8,
+        "voe": -76.0,
         "kept": false
        },
        {
@@ -14592,7 +14592,7 @@
         "overall": 109,
         "player": "Anthony Black",
         "pts": 0,
-        "voe": -338.9,
+        "voe": -340.1,
         "kept": false
        },
        {
@@ -14600,7 +14600,7 @@
         "overall": 132,
         "player": "Jaden McDaniels",
         "pts": 20.0,
-        "voe": -460.6,
+        "voe": -461.3,
         "kept": false
        },
        {
@@ -14608,7 +14608,7 @@
         "overall": 133,
         "player": "Taylor Hendricks",
         "pts": 145.0,
-        "voe": -304.5,
+        "voe": -308.2,
         "kept": false
        },
        {
@@ -14616,7 +14616,7 @@
         "overall": 149,
         "player": "Immanuel Quickley",
         "pts": 637.0,
-        "voe": 370.0,
+        "voe": 368.7,
         "kept": false
        },
        {
@@ -14632,7 +14632,7 @@
         "overall": 204,
         "player": "Zach Collins",
         "pts": 272.0,
-        "voe": 177.2,
+        "voe": 176.3,
         "kept": false
        },
        {
@@ -14640,21 +14640,21 @@
         "overall": 205,
         "player": "Al Horford",
         "pts": 0,
-        "voe": -118.5,
+        "voe": -119.3,
         "kept": false
        }
       ]
      },
      {
       "draft": "2024 rookie draft",
-      "voe": 1058,
+      "voe": 1094,
       "picks": [
        {
         "pick": "1.01",
         "overall": 1,
         "player": "Alex Sarr",
-        "pts": 976.0,
-        "voe": 814.3,
+        "pts": 1012.0,
+        "voe": 850.3,
         "kept": true
        },
        {
@@ -14669,14 +14669,14 @@
      },
      {
       "draft": "2025 rookie draft",
-      "voe": 552,
+      "voe": 516,
       "picks": [
        {
         "pick": "1.03",
         "overall": 3,
         "player": "VJ Edgecombe",
-        "pts": 879.0,
-        "voe": 471.8,
+        "pts": 848.0,
+        "voe": 435.8,
         "kept": true
        },
        {
@@ -14691,14 +14691,14 @@
      },
      {
       "draft": "2026 rookie draft",
-      "voe": -55,
+      "voe": -48,
       "picks": [
        {
         "pick": "1.09",
         "overall": 9,
         "player": "Mikel Brown Jr.",
         "pts": 0,
-        "voe": -51.6,
+        "voe": -48.5,
         "kept": true
        },
        {
@@ -14706,7 +14706,7 @@
         "overall": 12,
         "player": "Brayden Burries",
         "pts": 31.0,
-        "voe": -0.8,
+        "voe": 2.9,
         "kept": true
        },
        {
@@ -14807,7 +14807,7 @@
    "trades": {
     "count": 34,
     "record": "13-4-1",
-    "net": 3699,
+    "net": 3719,
     "rank": 4,
     "partner": {
      "name": "Papo",
@@ -14840,7 +14840,7 @@
     "count": 58,
     "best": {
      "player": "Saddiq Bey",
-     "pts": 813.0,
+     "pts": 833.0,
      "weeks": 24,
      "season": "2025-2026"
     }
@@ -14848,7 +14848,7 @@
    "drafts": {
     "grade": "D",
     "rank": 11,
-    "voe": -9312,
+    "voe": -9327,
     "steal": {
      "draft": "2023 startup draft",
      "year": 2023,
@@ -14858,8 +14858,8 @@
      "player": "Anthony Davis",
      "pts": 2815.0,
      "kept": false,
-     "expected": 1802.7,
-     "voe": 1012.3
+     "expected": 1793.4,
+     "voe": 1021.6
     },
     "bust": {
      "draft": "2023 startup draft",
@@ -14870,20 +14870,20 @@
      "player": "Tyrese Haliburton",
      "pts": 874.0,
      "kept": false,
-     "expected": 3188.2,
-     "voe": -2314.2
+     "expected": 3186.8,
+     "voe": -2312.8
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": -9366,
+      "voe": -9332,
       "picks": [
        {
         "pick": "1.04",
         "overall": 4,
         "player": "Tyrese Haliburton",
         "pts": 874.0,
-        "voe": -2314.2,
+        "voe": -2312.8,
         "kept": false
        },
        {
@@ -14891,7 +14891,7 @@
         "overall": 21,
         "player": "Evan Mobley",
         "pts": 355.0,
-        "voe": -1832.9,
+        "voe": -1819.1,
         "kept": false
        },
        {
@@ -14899,7 +14899,7 @@
         "overall": 29,
         "player": "Anthony Davis",
         "pts": 2815.0,
-        "voe": 1012.3,
+        "voe": 1021.6,
         "kept": false
        },
        {
@@ -14907,7 +14907,7 @@
         "overall": 44,
         "player": "Julius Randle",
         "pts": 853.0,
-        "voe": -667.0,
+        "voe": -665.2,
         "kept": false
        },
        {
@@ -14915,7 +14915,7 @@
         "overall": 53,
         "player": "Jarrett Allen",
         "pts": 132.0,
-        "voe": -959.1,
+        "voe": -958.0,
         "kept": false
        },
        {
@@ -14923,7 +14923,7 @@
         "overall": 68,
         "player": "Ben Simmons",
         "pts": 168.0,
-        "voe": -915.9,
+        "voe": -912.9,
         "kept": false
        },
        {
@@ -14931,7 +14931,7 @@
         "overall": 77,
         "player": "John Collins",
         "pts": 349.0,
-        "voe": -936.8,
+        "voe": -933.2,
         "kept": false
        },
        {
@@ -14939,7 +14939,7 @@
         "overall": 92,
         "player": "P.J. Washington",
         "pts": 589.0,
-        "voe": -172.5,
+        "voe": -169.4,
         "kept": false
        },
        {
@@ -14947,7 +14947,7 @@
         "overall": 101,
         "player": "Keldon Johnson",
         "pts": 434.0,
-        "voe": -186.1,
+        "voe": -187.2,
         "kept": false
        },
        {
@@ -14963,7 +14963,7 @@
         "overall": 125,
         "player": "Mitchell Robinson",
         "pts": 120.0,
-        "voe": -386.7,
+        "voe": -387.4,
         "kept": false
        },
        {
@@ -14971,7 +14971,7 @@
         "overall": 140,
         "player": "Kevin Huerter",
         "pts": 87.0,
-        "voe": -320.2,
+        "voe": -325.2,
         "kept": false
        },
        {
@@ -14987,7 +14987,7 @@
         "overall": 164,
         "player": "Marvin Bagley III",
         "pts": 0,
-        "voe": -798.2,
+        "voe": -795.8,
         "kept": false
        },
        {
@@ -14995,7 +14995,7 @@
         "overall": 173,
         "player": "Nikola Jović",
         "pts": 0,
-        "voe": -535.2,
+        "voe": -532.8,
         "kept": false
        },
        {
@@ -15027,14 +15027,14 @@
         "overall": 212,
         "player": "Jordan Miller",
         "pts": 0.0,
-        "voe": -64.2,
+        "voe": -65.2,
         "kept": false
        }
       ]
      },
      {
       "draft": "2024 rookie draft",
-      "voe": -200,
+      "voe": -198,
       "picks": [
        {
         "pick": "2.02",
@@ -15049,7 +15049,7 @@
         "overall": 17,
         "player": "Bronny James",
         "pts": 0,
-        "voe": -197.1,
+        "voe": -194.8,
         "kept": false
        },
        {
@@ -15072,14 +15072,14 @@
      },
      {
       "draft": "2025 rookie draft",
-      "voe": 84,
+      "voe": 68,
       "picks": [
        {
         "pick": "1.05",
         "overall": 5,
         "player": "Tre Johnson",
         "pts": 162.0,
-        "voe": -324.5,
+        "voe": -327.3,
         "kept": true
        },
        {
@@ -15087,15 +15087,15 @@
         "overall": 13,
         "player": "Yang Hansen",
         "pts": 0,
-        "voe": -231.9,
+        "voe": -232.5,
         "kept": false
        },
        {
         "pick": "2.03",
         "overall": 15,
         "player": "Derik Queen",
-        "pts": 840.0,
-        "voe": 748.5,
+        "pts": 828.0,
+        "voe": 734.9,
         "kept": true
        },
        {
@@ -15103,7 +15103,7 @@
         "overall": 18,
         "player": "Noa Essengue",
         "pts": 0,
-        "voe": -118.2,
+        "voe": -117.2,
         "kept": false
        },
        {
@@ -15126,14 +15126,14 @@
      },
      {
       "draft": "2026 rookie draft",
-      "voe": 171,
+      "voe": 135,
       "picks": [
        {
         "pick": "1.07",
         "overall": 7,
         "player": "Kingston Flemings",
         "pts": 38.0,
-        "voe": -38.4,
+        "voe": -35.3,
         "kept": true
        },
        {
@@ -15141,15 +15141,15 @@
         "overall": 8,
         "player": "Aday Mara",
         "pts": 118.0,
-        "voe": 62.3,
+        "voe": 65.4,
         "kept": true
        },
        {
         "pick": "1.10",
         "overall": 10,
         "player": "Yaxel Lendeborg",
-        "pts": 195.0,
-        "voe": 170.7,
+        "pts": 150.0,
+        "voe": 125.0,
         "kept": true
        },
        {
@@ -15157,7 +15157,7 @@
         "overall": 14,
         "player": "Dailyn Swain",
         "pts": 0,
-        "voe": -28.7,
+        "voe": -24.9,
         "kept": true
        },
        {
@@ -15315,7 +15315,7 @@
    "trades": {
     "count": 10,
     "record": "2-0-1",
-    "net": 1614,
+    "net": 1604,
     "rank": 5,
     "partner": {
      "name": "Jacobo",
@@ -15330,7 +15330,7 @@
       "P.J. Washington",
       "Jalen Green"
      ],
-     "pts": 1588.0
+     "pts": 1597.0
     },
     "worst": {
      "id": "1035784292657520640",
@@ -15356,18 +15356,18 @@
    "drafts": {
     "grade": "B",
     "rank": 5,
-    "voe": 2451,
+    "voe": 2367,
     "steal": {
      "draft": "2023 startup draft",
      "year": 2023,
      "manager": "ricky",
-     "pick": "3.03",
-     "overall": 27,
-     "player": "De'Aaron Fox",
-     "pts": 3205.0,
-     "kept": true,
-     "expected": 1833.9,
-     "voe": 1371.1
+     "pick": "1.03",
+     "overall": 3,
+     "player": "Victor Wembanyama",
+     "pts": 4133.0,
+     "kept": false,
+     "expected": 2779.5,
+     "voe": 1353.5
     },
     "bust": {
      "draft": "2024 rookie draft",
@@ -15378,20 +15378,20 @@
      "player": "Ron Holland",
      "pts": 0.0,
      "kept": false,
-     "expected": 278.0,
-     "voe": -278.0
+     "expected": 283.1,
+     "voe": -283.1
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": 3339,
+      "voe": 3254,
       "picks": [
        {
         "pick": "1.03",
         "overall": 3,
         "player": "Victor Wembanyama",
         "pts": 4133.0,
-        "voe": 1353.4,
+        "voe": 1353.5,
         "kept": false
        },
        {
@@ -15399,23 +15399,23 @@
         "overall": 22,
         "player": "Jaylen Brown",
         "pts": 2962.0,
-        "voe": 1250.6,
+        "voe": 1265.2,
         "kept": true
        },
        {
         "pick": "3.03",
         "overall": 27,
         "player": "De'Aaron Fox",
-        "pts": 3205.0,
-        "voe": 1371.1,
+        "pts": 3147.0,
+        "voe": 1317.5,
         "kept": true
        },
        {
         "pick": "4.03",
         "overall": 46,
         "player": "Tyler Herro",
-        "pts": 2099.0,
-        "voe": 576.7,
+        "pts": 2051.0,
+        "voe": 526.5,
         "kept": true
        },
        {
@@ -15423,7 +15423,7 @@
         "overall": 51,
         "player": "Anfernee Simons",
         "pts": 1807.0,
-        "voe": 976.9,
+        "voe": 978.0,
         "kept": false
        },
        {
@@ -15431,7 +15431,7 @@
         "overall": 70,
         "player": "DeMar DeRozan",
         "pts": 215.0,
-        "voe": -932.8,
+        "voe": -929.8,
         "kept": false
        },
        {
@@ -15439,7 +15439,7 @@
         "overall": 75,
         "player": "Bennedict Mathurin",
         "pts": 1549.0,
-        "voe": 500.2,
+        "voe": 500.8,
         "kept": true
        },
        {
@@ -15447,7 +15447,7 @@
         "overall": 94,
         "player": "Cameron Johnson",
         "pts": 570.0,
-        "voe": -370.2,
+        "voe": -367.2,
         "kept": false
        },
        {
@@ -15471,7 +15471,7 @@
         "overall": 123,
         "player": "James Wiseman",
         "pts": 0,
-        "voe": -472.5,
+        "voe": -473.2,
         "kept": false
        },
        {
@@ -15479,7 +15479,7 @@
         "overall": 142,
         "player": "Jordan Clarkson",
         "pts": 721.0,
-        "voe": 333.3,
+        "voe": 328.2,
         "kept": false
        },
        {
@@ -15487,7 +15487,7 @@
         "overall": 147,
         "player": "Emoni Bates",
         "pts": 0,
-        "voe": -334.2,
+        "voe": -335.5,
         "kept": false
        },
        {
@@ -15495,7 +15495,7 @@
         "overall": 166,
         "player": "Bones Hyland",
         "pts": 0,
-        "voe": -823.8,
+        "voe": -821.3,
         "kept": false
        },
        {
@@ -15503,7 +15503,7 @@
         "overall": 171,
         "player": "Christian Braun",
         "pts": 306.0,
-        "voe": -227.8,
+        "voe": -225.4,
         "kept": false
        },
        {
@@ -15527,21 +15527,21 @@
         "overall": 214,
         "player": "Cam Reddish",
         "pts": 0.0,
-        "voe": -80.2,
+        "voe": -81.5,
         "kept": false
        }
       ]
      },
      {
       "draft": "2024 rookie draft",
-      "voe": -822,
+      "voe": -824,
       "picks": [
        {
         "pick": "1.02",
         "overall": 2,
         "player": "Ron Holland",
         "pts": 0.0,
-        "voe": -278.0,
+        "voe": -283.1,
         "kept": false
        },
        {
@@ -15573,7 +15573,7 @@
         "overall": 25,
         "player": "Nikola Đurišić",
         "pts": 0.0,
-        "voe": -107.7,
+        "voe": -105.4,
         "kept": false
        },
        {
@@ -15602,14 +15602,14 @@
      },
      {
       "draft": "2026 rookie draft",
-      "voe": -19,
+      "voe": -15,
       "picks": [
        {
         "pick": "2.04",
         "overall": 16,
         "player": "Cameron Carr",
         "pts": 0,
-        "voe": -18.8,
+        "voe": -15.1,
         "kept": true
        },
        {
@@ -15740,7 +15740,7 @@
    "drafts": {
     "grade": "A",
     "rank": 2,
-    "voe": 9477,
+    "voe": 9448,
     "steal": {
      "draft": "2023 startup draft",
      "year": 2023,
@@ -15748,10 +15748,10 @@
      "pick": "1.01",
      "overall": 1,
      "player": "Nikola Jokić",
-     "pts": 5844.0,
+     "pts": 5848.0,
      "kept": true,
      "expected": 2009.8,
-     "voe": 3834.2
+     "voe": 3838.2
     },
     "bust": {
      "draft": "2023 startup draft",
@@ -15762,20 +15762,20 @@
      "player": "Jaren Jackson Jr.",
      "pts": 912.0,
      "kept": false,
-     "expected": 1988.4,
-     "voe": -1076.4
+     "expected": 1977.6,
+     "voe": -1065.6
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": 9271,
+      "voe": 9237,
       "picks": [
        {
         "pick": "1.01",
         "overall": 1,
         "player": "Nikola Jokić",
-        "pts": 5844.0,
-        "voe": 3834.2,
+        "pts": 5848.0,
+        "voe": 3838.2,
         "kept": true
        },
        {
@@ -15783,39 +15783,39 @@
         "overall": 24,
         "player": "Jaren Jackson Jr.",
         "pts": 912.0,
-        "voe": -1076.4,
+        "voe": -1065.6,
         "kept": false
        },
        {
         "pick": "3.01",
         "overall": 25,
         "player": "Josh Giddey",
-        "pts": 3186.0,
-        "voe": 1592.1,
+        "pts": 3114.0,
+        "voe": 1524.9,
         "kept": true
        },
        {
         "pick": "4.01",
         "overall": 48,
         "player": "Kyrie Irving",
-        "pts": 1875.0,
-        "voe": 808.8,
+        "pts": 1899.0,
+        "voe": 835.8,
         "kept": true
        },
        {
         "pick": "5.01",
         "overall": 49,
         "player": "Walker Kessler",
-        "pts": 1720.0,
-        "voe": 705.1,
+        "pts": 1731.0,
+        "voe": 718.1,
         "kept": true
        },
        {
         "pick": "6.01",
         "overall": 72,
         "player": "Keegan Murray",
-        "pts": 1565.0,
-        "voe": 658.4,
+        "pts": 1530.0,
+        "voe": 622.7,
         "kept": true
        },
        {
@@ -15823,7 +15823,7 @@
         "overall": 73,
         "player": "Kyle Kuzma",
         "pts": 1013.0,
-        "voe": 84.1,
+        "voe": 86.2,
         "kept": false
        },
        {
@@ -15831,7 +15831,7 @@
         "overall": 96,
         "player": "Spencer Dinwiddie",
         "pts": 374.0,
-        "voe": -471.0,
+        "voe": -470.3,
         "kept": false
        },
        {
@@ -15839,7 +15839,7 @@
         "overall": 97,
         "player": "Terry Rozier",
         "pts": 908.0,
-        "voe": 145.7,
+        "voe": 146.3,
         "kept": false
        },
        {
@@ -15847,7 +15847,7 @@
         "overall": 120,
         "player": "Dereck Lively II",
         "pts": 609.0,
-        "voe": 222.3,
+        "voe": 221.6,
         "kept": true
        },
        {
@@ -15855,7 +15855,7 @@
         "overall": 121,
         "player": "Marcus Smart",
         "pts": 225.0,
-        "voe": -201.6,
+        "voe": -202.3,
         "kept": false
        },
        {
@@ -15863,15 +15863,15 @@
         "overall": 144,
         "player": "Gary Trent Jr.",
         "pts": 0,
-        "voe": -393.2,
+        "voe": -398.3,
         "kept": false
        },
        {
         "pick": "13.01",
         "overall": 145,
         "player": "Cason Wallace",
-        "pts": 515.0,
-        "voe": 214.8,
+        "pts": 531.0,
+        "voe": 227.0,
         "kept": true
        },
        {
@@ -15879,7 +15879,7 @@
         "overall": 168,
         "player": "Malcolm Brogdon",
         "pts": 532.0,
-        "voe": 30.5,
+        "voe": 32.9,
         "kept": false
        },
        {
@@ -15887,7 +15887,7 @@
         "overall": 169,
         "player": "Jalen Johnson",
         "pts": 2967.0,
-        "voe": 2671.5,
+        "voe": 2673.9,
         "kept": true
        },
        {
@@ -15925,7 +15925,7 @@
         "overall": 7,
         "player": "Reed Sheppard",
         "pts": 890.0,
-        "voe": 779.8,
+        "voe": 776.8,
         "kept": true
        },
        {
@@ -15933,7 +15933,7 @@
         "overall": 16,
         "player": "Devin Carter",
         "pts": 0,
-        "voe": -195.1,
+        "voe": -193.0,
         "kept": false
        },
        {
@@ -15948,14 +15948,14 @@
      },
      {
       "draft": "2025 rookie draft",
-      "voe": -314,
+      "voe": -312,
       "picks": [
        {
         "pick": "2.07",
         "overall": 19,
         "player": "Carter Bryant",
         "pts": 0,
-        "voe": -156.5,
+        "voe": -155.5,
         "kept": true
        },
        {
@@ -15963,7 +15963,7 @@
         "overall": 20,
         "player": "Joan Beringer",
         "pts": 0,
-        "voe": -156.5,
+        "voe": -155.5,
         "kept": true
        },
        {
@@ -15978,14 +15978,14 @@
      },
      {
       "draft": "2026 rookie draft",
-      "voe": -62,
+      "voe": -59,
       "picks": [
        {
         "pick": "1.06",
         "overall": 6,
         "player": "Keaton Wagler",
         "pts": 31.0,
-        "voe": -53.0,
+        "voe": -49.6,
         "kept": true
        },
        {
@@ -16099,7 +16099,7 @@
    "trades": {
     "count": 21,
     "record": "11-2-1",
-    "net": 7184,
+    "net": 7181,
     "rank": 1,
     "partner": {
      "name": "Papo",
@@ -16114,7 +16114,7 @@
       "James Harden",
       "2026 2nd (Victor)"
      ],
-     "pts": 1988.0
+     "pts": 1927.0
     },
     "worst": {
      "id": "1059638949829828608",
@@ -16131,7 +16131,7 @@
     "count": 205,
     "best": {
      "player": "Norman Powell",
-     "pts": 1369.0,
+     "pts": 1380.0,
      "weeks": 54,
      "season": "2024-2025"
     }
@@ -16139,7 +16139,7 @@
    "drafts": {
     "grade": "C",
     "rank": 9,
-    "voe": -5082,
+    "voe": -5057,
     "steal": {
      "draft": "2023 startup draft",
      "year": 2023,
@@ -16149,8 +16149,8 @@
      "player": "Donovan Mitchell",
      "pts": 3442.0,
      "kept": false,
-     "expected": 2141.4,
-     "voe": 1300.6
+     "expected": 2138.4,
+     "voe": 1303.6
     },
     "bust": {
      "draft": "2023 startup draft",
@@ -16161,20 +16161,20 @@
      "player": "Joel Embiid",
      "pts": 1401.0,
      "kept": false,
-     "expected": 2967.2,
-     "voe": -1566.2
+     "expected": 2966.2,
+     "voe": -1565.2
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": -4867,
+      "voe": -4848,
       "picks": [
        {
         "pick": "1.07",
         "overall": 7,
         "player": "Joel Embiid",
         "pts": 1401.0,
-        "voe": -1566.2,
+        "voe": -1565.2,
         "kept": false
        },
        {
@@ -16182,7 +16182,7 @@
         "overall": 18,
         "player": "Donovan Mitchell",
         "pts": 3442.0,
-        "voe": 1300.6,
+        "voe": 1303.6,
         "kept": false
        },
        {
@@ -16190,7 +16190,7 @@
         "overall": 31,
         "player": "Brandon Ingram",
         "pts": 982.0,
-        "voe": -916.3,
+        "voe": -907.1,
         "kept": false
        },
        {
@@ -16198,7 +16198,7 @@
         "overall": 42,
         "player": "Dejounte Murray",
         "pts": 1851.0,
-        "voe": 287.2,
+        "voe": 289.9,
         "kept": false
        },
        {
@@ -16206,7 +16206,7 @@
         "overall": 55,
         "player": "Pascal Siakam",
         "pts": 1080.0,
-        "voe": -217.4,
+        "voe": -214.8,
         "kept": false
        },
        {
@@ -16214,7 +16214,7 @@
         "overall": 66,
         "player": "Jimmy Butler III",
         "pts": 284.0,
-        "voe": -1093.0,
+        "voe": -1090.5,
         "kept": false
        },
        {
@@ -16222,7 +16222,7 @@
         "overall": 79,
         "player": "Andrew Wiggins",
         "pts": 0.0,
-        "voe": -1274.8,
+        "voe": -1274.2,
         "kept": false
        },
        {
@@ -16230,7 +16230,7 @@
         "overall": 90,
         "player": "Michael Porter Jr.",
         "pts": 458.0,
-        "voe": -264.4,
+        "voe": -261.3,
         "kept": false
        },
        {
@@ -16238,7 +16238,7 @@
         "overall": 103,
         "player": "Khris Middleton",
         "pts": 0.0,
-        "voe": -625.2,
+        "voe": -626.3,
         "kept": false
        },
        {
@@ -16254,7 +16254,7 @@
         "overall": 127,
         "player": "Brook Lopez",
         "pts": 811.0,
-        "voe": 454.0,
+        "voe": 453.2,
         "kept": false
        },
        {
@@ -16262,7 +16262,7 @@
         "overall": 138,
         "player": "Tre Jones",
         "pts": 601.0,
-        "voe": 276.4,
+        "voe": 272.7,
         "kept": false
        },
        {
@@ -16270,7 +16270,7 @@
         "overall": 151,
         "player": "Robert Williams III",
         "pts": 0,
-        "voe": -328.5,
+        "voe": -329.8,
         "kept": false
        },
        {
@@ -16278,7 +16278,7 @@
         "overall": 162,
         "player": "Talen Horton-Tucker",
         "pts": 37.0,
-        "voe": -519.3,
+        "voe": -516.9,
         "kept": false
        },
        {
@@ -16310,21 +16310,21 @@
         "overall": 210,
         "player": "Noah Clowney",
         "pts": 0,
-        "voe": -76.2,
+        "voe": -77.0,
         "kept": false
        }
       ]
      },
      {
       "draft": "2024 rookie draft",
-      "voe": -181,
+      "voe": -178,
       "picks": [
        {
         "pick": "2.11",
         "overall": 23,
         "player": "Ja'Kobe Walter",
-        "pts": 24.0,
-        "voe": -119.4,
+        "pts": 22.0,
+        "voe": -119.3,
         "kept": true
        },
        {
@@ -16332,7 +16332,7 @@
         "overall": 26,
         "player": "Tristan da Silva",
         "pts": 24.0,
-        "voe": -61.3,
+        "voe": -59.1,
         "kept": false
        },
        {
@@ -16347,14 +16347,14 @@
      },
      {
       "draft": "2026 rookie draft",
-      "voe": -34,
+      "voe": -31,
       "picks": [
        {
         "pick": "1.11",
         "overall": 11,
         "player": "Nate Ament",
         "pts": 0,
-        "voe": -34.4,
+        "voe": -30.7,
         "kept": true
        }
       ]
@@ -16439,7 +16439,7 @@
      "finish": 5,
      "record": "2-2",
      "win_pct": 50.0,
-     "ppw": 490.7,
+     "ppw": 490.8,
      "playoffs": null,
      "champion": false
     }
@@ -16447,7 +16447,7 @@
    "trades": {
     "count": 23,
     "record": "6-4",
-    "net": -2220,
+    "net": -2230,
     "rank": 11,
     "partner": {
      "name": "Papo",
@@ -16484,7 +16484,7 @@
    "drafts": {
     "grade": "C+",
     "rank": 8,
-    "voe": 548,
+    "voe": 574,
     "steal": {
      "draft": "2023 startup draft",
      "year": 2023,
@@ -16494,8 +16494,8 @@
      "player": "Alperen Şengün",
      "pts": 3484.0,
      "kept": false,
-     "expected": 1668.8,
-     "voe": 1815.2
+     "expected": 1658.0,
+     "voe": 1826.0
     },
     "bust": {
      "draft": "2023 startup draft",
@@ -16506,20 +16506,20 @@
      "player": "Chet Holmgren",
      "pts": 1448.0,
      "kept": false,
-     "expected": 2811.7,
-     "voe": -1363.7
+     "expected": 2807.2,
+     "voe": -1359.2
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": 942,
+      "voe": 944,
       "picks": [
        {
         "pick": "1.11",
         "overall": 11,
         "player": "Chet Holmgren",
         "pts": 1448.0,
-        "voe": -1363.7,
+        "voe": -1359.2,
         "kept": false
        },
        {
@@ -16527,7 +16527,7 @@
         "overall": 14,
         "player": "Cade Cunningham",
         "pts": 3604.0,
-        "voe": 1026.1,
+        "voe": 1030.5,
         "kept": false
        },
        {
@@ -16535,7 +16535,7 @@
         "overall": 23,
         "player": "Alperen Şengün",
         "pts": 3484.0,
-        "voe": 1815.2,
+        "voe": 1826.0,
         "kept": false
        },
        {
@@ -16543,7 +16543,7 @@
         "overall": 26,
         "player": "Darius Garland",
         "pts": 676.0,
-        "voe": -1132.6,
+        "voe": -1121.8,
         "kept": false
        },
        {
@@ -16551,7 +16551,7 @@
         "overall": 50,
         "player": "Jalen Green",
         "pts": 467.0,
-        "voe": -478.8,
+        "voe": -477.7,
         "kept": false
        },
        {
@@ -16559,7 +16559,7 @@
         "overall": 71,
         "player": "Bradley Beal",
         "pts": 206.0,
-        "voe": -786.4,
+        "voe": -784.2,
         "kept": false
        },
        {
@@ -16567,7 +16567,7 @@
         "overall": 74,
         "player": "Devin Vassell",
         "pts": 918.0,
-        "voe": 47.3,
+        "voe": 48.0,
         "kept": false
        },
        {
@@ -16575,7 +16575,7 @@
         "overall": 95,
         "player": "Shaedon Sharpe",
         "pts": 317.0,
-        "voe": -483.1,
+        "voe": -482.4,
         "kept": false
        },
        {
@@ -16599,7 +16599,7 @@
         "overall": 122,
         "player": "Keyonte George",
         "pts": 909.0,
-        "voe": 542.5,
+        "voe": 541.8,
         "kept": false
        },
        {
@@ -16607,7 +16607,7 @@
         "overall": 143,
         "player": "AJ Griffin",
         "pts": 0.0,
-        "voe": -421.5,
+        "voe": -426.6,
         "kept": false
        },
        {
@@ -16615,15 +16615,15 @@
         "overall": 146,
         "player": "Isaiah Stewart",
         "pts": 127.0,
-        "voe": -183.2,
+        "voe": -184.5,
         "kept": false
        },
        {
         "pick": "14.02",
         "overall": 167,
         "player": "Dyson Daniels",
-        "pts": 2121.0,
-        "voe": 1703.8,
+        "pts": 2092.0,
+        "voe": 1674.8,
         "kept": true
        },
        {
@@ -16631,7 +16631,7 @@
         "overall": 170,
         "player": "Paul Reed",
         "pts": 0,
-        "voe": -559.3,
+        "voe": -556.9,
         "kept": false
        },
        {
@@ -16662,7 +16662,7 @@
      },
      {
       "draft": "2024 rookie draft",
-      "voe": -194,
+      "voe": -190,
       "picks": [
        {
         "pick": "1.10",
@@ -16677,7 +16677,7 @@
         "overall": 19,
         "player": "Isaiah Collier",
         "pts": 244.0,
-        "voe": 84.2,
+        "voe": 86.5,
         "kept": false
        },
        {
@@ -16685,21 +16685,21 @@
         "overall": 24,
         "player": "Kyle Filipowski",
         "pts": 0.0,
-        "voe": -145.4,
+        "voe": -143.2,
         "kept": false
        }
       ]
      },
      {
       "draft": "2025 rookie draft",
-      "voe": -162,
+      "voe": -146,
       "picks": [
        {
         "pick": "1.10",
         "overall": 10,
         "player": "Collin Murray-Boyles",
-        "pts": 323.0,
-        "voe": 67.6,
+        "pts": 341.0,
+        "voe": 84.7,
         "kept": true
        },
        {
@@ -16707,7 +16707,7 @@
         "overall": 12,
         "player": "Kasparas Jakučionis",
         "pts": 56.0,
-        "voe": -173.5,
+        "voe": -174.1,
         "kept": true
        },
        {
@@ -16722,14 +16722,14 @@
      },
      {
       "draft": "2026 rookie draft",
-      "voe": -38,
+      "voe": -34,
       "picks": [
        {
         "pick": "2.01",
         "overall": 13,
         "player": "Hannes Steinbach",
         "pts": 0.0,
-        "voe": -31.8,
+        "voe": -28.1,
         "kept": false
        },
        {
@@ -16830,7 +16830,7 @@
    "trades": {
     "count": 60,
     "record": "7-13-1",
-    "net": -469,
+    "net": -456,
     "rank": 10,
     "partner": {
      "name": "Papo",
@@ -16857,10 +16857,10 @@
     }
    },
    "waivers": {
-    "count": 313,
+    "count": 314,
     "best": {
      "player": "Quentin Grimes",
-     "pts": 918.0,
+     "pts": 880.0,
      "weeks": 38,
      "season": "2024-2025"
     }
@@ -16868,7 +16868,7 @@
    "drafts": {
     "grade": "C-",
     "rank": 10,
-    "voe": -7618,
+    "voe": -7542,
     "steal": {
      "draft": "2025 rookie draft",
      "year": 2025,
@@ -16878,8 +16878,8 @@
      "player": "Cooper Flagg",
      "pts": 1266.0,
      "kept": true,
-     "expected": 441.7,
-     "voe": 824.3
+     "expected": 443.2,
+     "voe": 822.8
     },
     "bust": {
      "draft": "2023 startup draft",
@@ -16890,20 +16890,20 @@
      "player": "LaMelo Ball",
      "pts": 473.0,
      "kept": false,
-     "expected": 3054.3,
-     "voe": -2581.3
+     "expected": 3053.0,
+     "voe": -2580.0
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": -8787,
+      "voe": -8746,
       "picks": [
        {
         "pick": "1.05",
         "overall": 5,
         "player": "LaMelo Ball",
         "pts": 473.0,
-        "voe": -2581.3,
+        "voe": -2580.0,
         "kept": false
        },
        {
@@ -16911,7 +16911,7 @@
         "overall": 20,
         "player": "Scoot Henderson",
         "pts": 643.0,
-        "voe": -1554.2,
+        "voe": -1545.2,
         "kept": false
        },
        {
@@ -16919,7 +16919,7 @@
         "overall": 28,
         "player": "Zion Williamson",
         "pts": 455.0,
-        "voe": -1676.2,
+        "voe": -1666.9,
         "kept": false
        },
        {
@@ -16927,7 +16927,7 @@
         "overall": 45,
         "player": "Jordan Poole",
         "pts": 140.0,
-        "voe": -1590.0,
+        "voe": -1588.2,
         "kept": false
        },
        {
@@ -16935,15 +16935,15 @@
         "overall": 52,
         "player": "LeBron James",
         "pts": 647.0,
-        "voe": -499.9,
+        "voe": -494.8,
         "kept": false
        },
        {
         "pick": "6.04",
         "overall": 69,
         "player": "Ausar Thompson",
-        "pts": 1249.0,
-        "voe": 166.7,
+        "pts": 1258.0,
+        "voe": 179.4,
         "kept": true
        },
        {
@@ -16951,7 +16951,7 @@
         "overall": 76,
         "player": "Nic Claxton",
         "pts": 1015.0,
-        "voe": -229.3,
+        "voe": -225.8,
         "kept": false
        },
        {
@@ -16959,7 +16959,7 @@
         "overall": 93,
         "player": "Jarace Walker",
         "pts": 149.0,
-        "voe": -744.1,
+        "voe": -741.0,
         "kept": false
        },
        {
@@ -16967,7 +16967,7 @@
         "overall": 100,
         "player": "Mark Williams",
         "pts": 1103.0,
-        "voe": 508.3,
+        "voe": 507.2,
         "kept": false
        },
        {
@@ -16983,7 +16983,7 @@
         "overall": 124,
         "player": "Saddiq Bey",
         "pts": 0.0,
-        "voe": -437.8,
+        "voe": -438.6,
         "kept": false
        },
        {
@@ -16991,7 +16991,7 @@
         "overall": 141,
         "player": "Deni Avdija",
         "pts": 914.0,
-        "voe": 575.8,
+        "voe": 570.7,
         "kept": false
        },
        {
@@ -16999,7 +16999,7 @@
         "overall": 148,
         "player": "Jaime Jaquez Jr.",
         "pts": 454.0,
-        "voe": 111.7,
+        "voe": 110.3,
         "kept": false
        },
        {
@@ -17007,7 +17007,7 @@
         "overall": 165,
         "player": "De'Anthony Melton",
         "pts": 289.0,
-        "voe": -510.7,
+        "voe": -508.2,
         "kept": false
        },
        {
@@ -17015,7 +17015,7 @@
         "overall": 172,
         "player": "Brandin Podziemski",
         "pts": 0.0,
-        "voe": -535.2,
+        "voe": -532.8,
         "kept": false
        },
        {
@@ -17039,21 +17039,21 @@
         "overall": 213,
         "player": "Peyton Watson",
         "pts": 194.0,
-        "voe": 144.2,
+        "voe": 143.1,
         "kept": false
        }
       ]
      },
      {
       "draft": "2024 rookie draft",
-      "voe": 112,
+      "voe": 116,
       "picks": [
        {
         "pick": "2.06",
         "overall": 18,
         "player": "Yves Missi",
         "pts": 453.0,
-        "voe": 293.7,
+        "voe": 295.9,
         "kept": false
        },
        {
@@ -17061,29 +17061,29 @@
         "overall": 20,
         "player": "DaRon Holmes II",
         "pts": 0,
-        "voe": -182.1,
+        "voe": -179.8,
         "kept": false
        }
       ]
      },
      {
       "draft": "2025 rookie draft",
-      "voe": 1003,
+      "voe": 1018,
       "picks": [
        {
         "pick": "1.01",
         "overall": 1,
         "player": "Cooper Flagg",
         "pts": 1266.0,
-        "voe": 824.3,
+        "voe": 822.8,
         "kept": true
        },
        {
         "pick": "1.04",
         "overall": 4,
         "player": "Ace Bailey",
-        "pts": 416.0,
-        "voe": -33.3,
+        "pts": 438.0,
+        "voe": -11.9,
         "kept": true
        },
        {
@@ -17091,7 +17091,7 @@
         "overall": 6,
         "player": "Khaman Maluach",
         "pts": 27.0,
-        "voe": -432.6,
+        "voe": -435.2,
         "kept": true
        },
        {
@@ -17099,7 +17099,7 @@
         "overall": 7,
         "player": "Kon Knueppel",
         "pts": 690.0,
-        "voe": 323.9,
+        "voe": 321.6,
         "kept": true
        },
        {
@@ -17130,14 +17130,14 @@
      },
      {
       "draft": "2026 rookie draft",
-      "voe": 54,
+      "voe": 69,
       "picks": [
        {
         "pick": "1.02",
         "overall": 2,
         "player": "Darius Acuff Jr.",
         "pts": 167.0,
-        "voe": 86.7,
+        "voe": 85.6,
         "kept": true
        },
        {
@@ -17145,15 +17145,15 @@
         "overall": 3,
         "player": "Caleb Wilson",
         "pts": 132.0,
-        "voe": 57.4,
+        "voe": 56.4,
         "kept": true
        },
        {
         "pick": "1.04",
         "overall": 4,
         "player": "Darryn Peterson",
-        "pts": 74.0,
-        "voe": -20.4,
+        "pts": 82.0,
+        "voe": -7.4,
         "kept": true
        },
        {
@@ -17161,7 +17161,7 @@
         "overall": 5,
         "player": "AJ Dybantsa",
         "pts": 0,
-        "voe": -92.4,
+        "voe": -88.7,
         "kept": true
        },
        {
@@ -17275,7 +17275,7 @@
    "trades": {
     "count": 114,
     "record": "13-46-1",
-    "net": -22013,
+    "net": -21969,
     "rank": 12,
     "partner": {
      "name": "Joey",
@@ -17290,7 +17290,7 @@
       "CJ McCollum",
       "Jimmy Butler III"
      ],
-     "pts": 940.0
+     "pts": 928.0
     },
     "worst": {
      "id": "1245814242230149120",
@@ -17304,7 +17304,7 @@
     }
    },
    "waivers": {
-    "count": 430,
+    "count": 432,
     "best": {
      "player": "Precious Achiuwa",
      "pts": 252.0,
@@ -17315,7 +17315,7 @@
    "drafts": {
     "grade": "F",
     "rank": 12,
-    "voe": -11069,
+    "voe": -11070,
     "steal": {
      "draft": "2023 startup draft",
      "year": 2023,
@@ -17325,8 +17325,8 @@
      "player": "Derrick White",
      "pts": 1072.0,
      "kept": false,
-     "expected": 352.8,
-     "voe": 719.2
+     "expected": 353.6,
+     "voe": 718.4
     },
     "bust": {
      "draft": "2023 startup draft",
@@ -17337,20 +17337,20 @@
      "player": "Luka Dončić",
      "pts": 1898.0,
      "kept": false,
-     "expected": 2839.4,
-     "voe": -941.4
+     "expected": 2840.0,
+     "voe": -942.0
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": -9385,
+      "voe": -9378,
       "picks": [
        {
         "pick": "1.02",
         "overall": 2,
         "player": "Luka Dončić",
         "pts": 1898.0,
-        "voe": -941.4,
+        "voe": -942.0,
         "kept": false
        },
        {
@@ -17358,7 +17358,7 @@
         "overall": 35,
         "player": "Kevin Durant",
         "pts": 1380.0,
-        "voe": -481.2,
+        "voe": -482.1,
         "kept": false
        },
        {
@@ -17366,7 +17366,7 @@
         "overall": 38,
         "player": "Damian Lillard",
         "pts": 0.0,
-        "voe": -1896.0,
+        "voe": -1896.8,
         "kept": false
        },
        {
@@ -17374,7 +17374,7 @@
         "overall": 47,
         "player": "Deandre Ayton",
         "pts": 265.0,
-        "voe": -1193.9,
+        "voe": -1191.5,
         "kept": false
        },
        {
@@ -17382,7 +17382,7 @@
         "overall": 59,
         "player": "Kristaps Porziņģis",
         "pts": 914.0,
-        "voe": -430.6,
+        "voe": -426.2,
         "kept": false
        },
        {
@@ -17390,7 +17390,7 @@
         "overall": 62,
         "player": "Paul George",
         "pts": 487.0,
-        "voe": -1000.7,
+        "voe": -996.3,
         "kept": false
        },
        {
@@ -17398,7 +17398,7 @@
         "overall": 83,
         "player": "RJ Barrett",
         "pts": 46.0,
-        "voe": -1111.8,
+        "voe": -1108.8,
         "kept": false
        },
        {
@@ -17406,7 +17406,7 @@
         "overall": 86,
         "player": "Jerami Grant",
         "pts": 246.0,
-        "voe": -1023.8,
+        "voe": -1020.0,
         "kept": false
        },
        {
@@ -17414,7 +17414,7 @@
         "overall": 107,
         "player": "Clint Capela",
         "pts": 206.0,
-        "voe": -172.7,
+        "voe": -173.8,
         "kept": false
        },
        {
@@ -17422,7 +17422,7 @@
         "overall": 110,
         "player": "Russell Westbrook",
         "pts": 270.0,
-        "voe": -46.4,
+        "voe": -47.6,
         "kept": false
        },
        {
@@ -17430,7 +17430,7 @@
         "overall": 131,
         "player": "Derrick White",
         "pts": 1072.0,
-        "voe": 719.2,
+        "voe": 718.4,
         "kept": false
        },
        {
@@ -17438,7 +17438,7 @@
         "overall": 134,
         "player": "Lonzo Ball",
         "pts": 0.0,
-        "voe": -401.2,
+        "voe": -405.0,
         "kept": false
        },
        {
@@ -17486,7 +17486,7 @@
         "overall": 203,
         "player": "James Nnaji",
         "pts": 0,
-        "voe": -117.5,
+        "voe": -118.3,
         "kept": false
        },
        {
@@ -17494,21 +17494,21 @@
         "overall": 206,
         "player": "Sidy Cissoko",
         "pts": 0,
-        "voe": -118.5,
+        "voe": -119.3,
         "kept": false
        }
       ]
      },
      {
       "draft": "2024 rookie draft",
-      "voe": -1069,
+      "voe": -1080,
       "picks": [
        {
         "pick": "1.03",
         "overall": 3,
         "player": "Stephon Castle",
         "pts": 80.0,
-        "voe": -161.0,
+        "voe": -165.5,
         "kept": false
        },
        {
@@ -17516,7 +17516,7 @@
         "overall": 4,
         "player": "Zaccharie Risacher",
         "pts": 0.0,
-        "voe": -223.1,
+        "voe": -227.1,
         "kept": false
        },
        {
@@ -17524,7 +17524,7 @@
         "overall": 5,
         "player": "Donovan Clingan",
         "pts": 0.0,
-        "voe": -200.8,
+        "voe": -204.4,
         "kept": false
        },
        {
@@ -17532,7 +17532,7 @@
         "overall": 6,
         "player": "Matas Buzelis",
         "pts": 0.0,
-        "voe": -201.1,
+        "voe": -204.4,
         "kept": false
        },
        {
@@ -17556,7 +17556,7 @@
         "overall": 21,
         "player": "Dalton Knecht",
         "pts": 0.0,
-        "voe": -173.2,
+        "voe": -170.9,
         "kept": false
        },
        {
@@ -17564,21 +17564,21 @@
         "overall": 27,
         "player": "Jaylon Tyson",
         "pts": 0.0,
-        "voe": -87.3,
+        "voe": -85.1,
         "kept": false
        }
       ]
      },
      {
       "draft": "2025 rookie draft",
-      "voe": -596,
+      "voe": -597,
       "picks": [
        {
         "pick": "1.09",
         "overall": 9,
         "player": "Jeremiah Fears",
         "pts": 19.0,
-        "voe": -335.0,
+        "voe": -334.8,
         "kept": false
        },
        {
@@ -17586,7 +17586,7 @@
         "overall": 14,
         "player": "Danny Wolf",
         "pts": 86.0,
-        "voe": -81.2,
+        "voe": -81.8,
         "kept": false
        },
        {
@@ -17594,21 +17594,21 @@
         "overall": 16,
         "player": "Walter Clayton Jr.",
         "pts": 0.0,
-        "voe": -180.1,
+        "voe": -180.7,
         "kept": false
        }
       ]
      },
      {
       "draft": "2026 rookie draft",
-      "voe": -19,
+      "voe": -15,
       "picks": [
        {
         "pick": "2.03",
         "overall": 15,
         "player": "Labaron Philon Jr.",
         "pts": 0.0,
-        "voe": -18.8,
+        "voe": -15.1,
         "kept": false
        }
       ]
@@ -17742,7 +17742,7 @@
    "drafts": {
     "grade": "A+",
     "rank": 1,
-    "voe": 12612,
+    "voe": 12573,
     "steal": {
      "draft": "2023 startup draft",
      "year": 2023,
@@ -17764,44 +17764,44 @@
      "player": "Ryan Dunn",
      "pts": 0,
      "kept": true,
-     "expected": 87.3,
-     "voe": -87.3
+     "expected": 85.1,
+     "voe": -85.1
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": 12761,
+      "voe": 12720,
       "picks": [
        {
         "pick": "1.09",
         "overall": 9,
         "player": "Shai Gilgeous-Alexander",
-        "pts": 4596.0,
-        "voe": 1942.7,
+        "pts": 4591.0,
+        "voe": 1937.8,
         "kept": true
        },
        {
         "pick": "2.09",
         "overall": 16,
         "player": "Trae Young",
-        "pts": 2804.0,
-        "voe": 588.6,
+        "pts": 2758.0,
+        "voe": 542.8,
         "kept": true
        },
        {
         "pick": "3.09",
         "overall": 33,
         "player": "Jalen Brunson",
-        "pts": 3476.0,
-        "voe": 2009.0,
+        "pts": 3495.0,
+        "voe": 2032.8,
         "kept": true
        },
        {
         "pick": "4.09",
         "overall": 40,
         "player": "Desmond Bane",
-        "pts": 2727.0,
-        "voe": 1201.8,
+        "pts": 2734.0,
+        "voe": 1214.2,
         "kept": true
        },
        {
@@ -17809,15 +17809,15 @@
         "overall": 57,
         "player": "Jabari Smith Jr.",
         "pts": 805.0,
-        "voe": -479.0,
+        "voe": -475.5,
         "kept": false
        },
        {
         "pick": "6.09",
         "overall": 64,
         "player": "Myles Turner",
-        "pts": 2222.0,
-        "voe": 846.1,
+        "pts": 2212.0,
+        "voe": 838.8,
         "kept": true
        },
        {
@@ -17825,15 +17825,15 @@
         "overall": 81,
         "player": "Nikola Vučević",
         "pts": 2937.0,
-        "voe": 2037.7,
+        "voe": 2038.3,
         "kept": true
        },
        {
         "pick": "8.09",
         "overall": 88,
         "player": "Austin Reaves",
-        "pts": 2369.0,
-        "voe": 1604.5,
+        "pts": 2340.0,
+        "voe": 1578.3,
         "kept": true
        },
        {
@@ -17841,7 +17841,7 @@
         "overall": 105,
         "player": "Gradey Dick",
         "pts": 148.0,
-        "voe": -388.1,
+        "voe": -389.2,
         "kept": true
        },
        {
@@ -17849,7 +17849,7 @@
         "overall": 112,
         "player": "Draymond Green",
         "pts": 551.0,
-        "voe": 183.0,
+        "voe": 181.8,
         "kept": false
        },
        {
@@ -17857,7 +17857,7 @@
         "overall": 129,
         "player": "Chris Paul",
         "pts": 363.0,
-        "voe": 58.7,
+        "voe": 57.9,
         "kept": false
        },
        {
@@ -17865,7 +17865,7 @@
         "overall": 136,
         "player": "Tyus Jones",
         "pts": 952.0,
-        "voe": 524.1,
+        "voe": 520.3,
         "kept": false
        },
        {
@@ -17912,22 +17912,22 @@
         "pick": "18.09",
         "overall": 208,
         "player": "Brice Sensabaugh",
-        "pts": 377.0,
-        "voe": 332.2,
+        "pts": 387.0,
+        "voe": 342.2,
         "kept": true
        }
       ]
      },
      {
       "draft": "2024 rookie draft",
-      "voe": -89,
+      "voe": -87,
       "picks": [
        {
         "pick": "3.04",
         "overall": 28,
         "player": "Ryan Dunn",
         "pts": 0,
-        "voe": -87.3,
+        "voe": -85.1,
         "kept": true
        },
        {
@@ -18069,7 +18069,7 @@
    "trades": {
     "count": 28,
     "record": "9-4",
-    "net": 6226,
+    "net": 6264,
     "rank": 2,
     "partner": {
      "name": "Papo",
@@ -18083,7 +18083,7 @@
      "got": [
       "Onyeka Okongwu"
      ],
-     "pts": 2178.0
+     "pts": 2170.0
     },
     "worst": {
      "id": "1193295707066417152",
@@ -18108,7 +18108,7 @@
    "drafts": {
     "grade": "B",
     "rank": 6,
-    "voe": 2023,
+    "voe": 2114,
     "steal": {
      "draft": "2023 startup draft",
      "year": 2023,
@@ -18116,10 +18116,10 @@
      "pick": "8.06",
      "overall": 91,
      "player": "Onyeka Okongwu",
-     "pts": 2242.0,
+     "pts": 2234.0,
      "kept": true,
-     "expected": 624.7,
-     "voe": 1617.3
+     "expected": 622.2,
+     "voe": 1611.8
     },
     "bust": {
      "draft": "2023 startup draft",
@@ -18130,20 +18130,20 @@
      "player": "Karl-Anthony Towns",
      "pts": 420.0,
      "kept": false,
-     "expected": 2406.7,
-     "voe": -1986.7
+     "expected": 2397.7,
+     "voe": -1977.7
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": 1693,
+      "voe": 1767,
       "picks": [
        {
         "pick": "1.06",
         "overall": 6,
         "player": "Giannis Antetokounmpo",
         "pts": 3280.0,
-        "voe": 483.5,
+        "voe": 484.7,
         "kept": false
        },
        {
@@ -18151,7 +18151,7 @@
         "overall": 19,
         "player": "Karl-Anthony Towns",
         "pts": 420.0,
-        "voe": -1986.7,
+        "voe": -1977.7,
         "kept": false
        },
        {
@@ -18159,7 +18159,7 @@
         "overall": 30,
         "player": "Bam Adebayo",
         "pts": 2218.0,
-        "voe": 374.2,
+        "voe": 383.5,
         "kept": false
        },
        {
@@ -18167,7 +18167,7 @@
         "overall": 43,
         "player": "Jalen Williams",
         "pts": 2348.0,
-        "voe": 963.9,
+        "voe": 965.8,
         "kept": true
        },
        {
@@ -18175,7 +18175,7 @@
         "overall": 54,
         "player": "OG Anunoby",
         "pts": 466.0,
-        "voe": -875.8,
+        "voe": -874.8,
         "kept": false
        },
        {
@@ -18183,7 +18183,7 @@
         "overall": 67,
         "player": "Amen Thompson",
         "pts": 2516.0,
-        "voe": 1541.2,
+        "voe": 1543.8,
         "kept": true
        },
        {
@@ -18191,15 +18191,15 @@
         "overall": 78,
         "player": "Brandon Miller",
         "pts": 1397.0,
-        "voe": 191.0,
+        "voe": 194.6,
         "kept": true
        },
        {
         "pick": "8.06",
         "overall": 91,
         "player": "Onyeka Okongwu",
-        "pts": 2242.0,
-        "voe": 1617.3,
+        "pts": 2234.0,
+        "voe": 1611.8,
         "kept": true
        },
        {
@@ -18207,7 +18207,7 @@
         "overall": 102,
         "player": "Miles Bridges",
         "pts": 1002.0,
-        "voe": 429.2,
+        "voe": 428.0,
         "kept": false
        },
        {
@@ -18222,16 +18222,16 @@
         "pick": "11.06",
         "overall": 126,
         "player": "Tari Eason",
-        "pts": 911.0,
-        "voe": 523.7,
+        "pts": 920.0,
+        "voe": 532.7,
         "kept": true
        },
        {
         "pick": "12.06",
         "overall": 139,
         "player": "Jonathan Kuminga",
-        "pts": 663.0,
-        "voe": 302.3,
+        "pts": 708.0,
+        "voe": 346.0,
         "kept": true
        },
        {
@@ -18239,7 +18239,7 @@
         "overall": 150,
         "player": "Rui Hachimura",
         "pts": 0.0,
-        "voe": -328.5,
+        "voe": -329.8,
         "kept": false
        },
        {
@@ -18247,7 +18247,7 @@
         "overall": 163,
         "player": "Collin Sexton",
         "pts": 0.0,
-        "voe": -798.2,
+        "voe": -795.8,
         "kept": false
        },
        {
@@ -18279,21 +18279,21 @@
         "overall": 211,
         "player": "Kevon Looney",
         "pts": 71.0,
-        "voe": 19.1,
+        "voe": 18.2,
         "kept": false
        }
       ]
      },
      {
       "draft": "2025 rookie draft",
-      "voe": 244,
+      "voe": 262,
       "picks": [
        {
         "pick": "1.02",
         "overall": 2,
         "player": "Dylan Harper",
-        "pts": 476.0,
-        "voe": -44.3,
+        "pts": 494.0,
+        "voe": -25.0,
         "kept": true
        },
        {
@@ -18301,15 +18301,15 @@
         "overall": 8,
         "player": "Egor Dëmin",
         "pts": 202.0,
-        "voe": -106.4,
+        "voe": -108.8,
         "kept": true
        },
        {
         "pick": "1.11",
         "overall": 11,
         "player": "Cedric Coward",
-        "pts": 567.0,
-        "voe": 366.6,
+        "pts": 568.0,
+        "voe": 367.1,
         "kept": true
        },
        {
@@ -18317,7 +18317,7 @@
         "overall": 17,
         "player": "Thomas Sorber",
         "pts": 0,
-        "voe": -153.2,
+        "voe": -152.2,
         "kept": true
        },
        {
@@ -18340,14 +18340,14 @@
      },
      {
       "draft": "2026 rookie draft",
-      "voe": 86,
+      "voe": 85,
       "picks": [
        {
         "pick": "1.01",
         "overall": 1,
         "player": "Cameron Boozer",
         "pts": 169.0,
-        "voe": 95.3,
+        "voe": 94.0,
         "kept": true
        },
        {
@@ -18457,7 +18457,7 @@
    "trades": {
     "count": 16,
     "record": "7-0-1",
-    "net": 3768,
+    "net": 3726,
     "rank": 3,
     "partner": {
      "name": "Papo",
@@ -18483,7 +18483,7 @@
       "Bam Adebayo",
       "Donovan Mitchell"
      ],
-     "pts": 361.0
+     "pts": 324.0
     }
    },
    "waivers": {
@@ -18498,7 +18498,7 @@
    "drafts": {
     "grade": "B-",
     "rank": 7,
-    "voe": 709,
+    "voe": 706,
     "steal": {
      "draft": "2023 startup draft",
      "year": 2023,
@@ -18506,10 +18506,10 @@
      "pick": "4.08",
      "overall": 41,
      "player": "Tyrese Maxey",
-     "pts": 3568.0,
+     "pts": 3552.0,
      "kept": true,
-     "expected": 1379.5,
-     "voe": 2188.5
+     "expected": 1376.1,
+     "voe": 2175.9
     },
     "bust": {
      "draft": "2023 startup draft",
@@ -18520,20 +18520,20 @@
      "player": "Mikal Bridges",
      "pts": 486.0,
      "kept": false,
-     "expected": 1674.2,
-     "voe": -1188.2
+     "expected": 1670.9,
+     "voe": -1184.9
     },
     "by_draft": [
      {
       "draft": "2023 startup draft",
-      "voe": -62,
+      "voe": -40,
       "picks": [
        {
         "pick": "1.12",
         "overall": 12,
         "player": "Domantas Sabonis",
         "pts": 3025.0,
-        "voe": 97.3,
+        "voe": 101.8,
         "kept": false
        },
        {
@@ -18541,7 +18541,7 @@
         "overall": 13,
         "player": "Paolo Banchero",
         "pts": 2967.0,
-        "voe": 272.8,
+        "voe": 277.2,
         "kept": true
        },
        {
@@ -18549,15 +18549,15 @@
         "overall": 32,
         "player": "Mikal Bridges",
         "pts": 486.0,
-        "voe": -1188.2,
+        "voe": -1184.9,
         "kept": false
        },
        {
         "pick": "4.08",
         "overall": 41,
         "player": "Tyrese Maxey",
-        "pts": 3568.0,
-        "voe": 2188.5,
+        "pts": 3552.0,
+        "voe": 2175.9,
         "kept": true
        },
        {
@@ -18565,7 +18565,7 @@
         "overall": 56,
         "player": "Zach LaVine",
         "pts": 265.0,
-        "voe": -997.6,
+        "voe": -994.1,
         "kept": false
        },
        {
@@ -18573,15 +18573,15 @@
         "overall": 65,
         "player": "Jaden Ivey",
         "pts": 1068.0,
-        "voe": -189.4,
+        "voe": -189.8,
         "kept": false
        },
        {
         "pick": "7.08",
         "overall": 80,
         "player": "Wendell Carter Jr.",
-        "pts": 1722.0,
-        "voe": 654.6,
+        "pts": 1740.0,
+        "voe": 674.8,
         "kept": true
        },
        {
@@ -18589,7 +18589,7 @@
         "overall": 89,
         "player": "Jakob Poeltl",
         "pts": 406.0,
-        "voe": -293.4,
+        "voe": -290.3,
         "kept": false
        },
        {
@@ -18597,7 +18597,7 @@
         "overall": 104,
         "player": "Bilal Coulibaly",
         "pts": 13.0,
-        "voe": -557.9,
+        "voe": -559.1,
         "kept": false
        },
        {
@@ -18613,7 +18613,7 @@
         "overall": 128,
         "player": "Christian Wood",
         "pts": 0.0,
-        "voe": -405.8,
+        "voe": -406.6,
         "kept": false
        },
        {
@@ -18621,7 +18621,7 @@
         "overall": 137,
         "player": "Bruce Brown",
         "pts": 339.0,
-        "voe": -96.8,
+        "voe": -100.5,
         "kept": false
        },
        {
@@ -18645,7 +18645,7 @@
         "overall": 161,
         "player": "Cam Thomas",
         "pts": 875.0,
-        "voe": 432.8,
+        "voe": 435.2,
         "kept": false
        },
        {
@@ -18677,21 +18677,21 @@
         "overall": 209,
         "player": "Moritz Wagner",
         "pts": 0.0,
-        "voe": -76.2,
+        "voe": -77.0,
         "kept": false
        }
       ]
      },
      {
       "draft": "2024 rookie draft",
-      "voe": 934,
+      "voe": 909,
       "picks": [
        {
         "pick": "2.10",
         "overall": 22,
         "player": "Kyshawn George",
-        "pts": 1000.0,
-        "voe": 937.9,
+        "pts": 975.0,
+        "voe": 913.1,
         "kept": true
        },
        {
@@ -18699,7 +18699,7 @@
         "overall": 29,
         "player": "Jonathan Mogbo",
         "pts": 0.0,
-        "voe": -4.0,
+        "voe": -3.8,
         "kept": false
        }
       ]
@@ -18886,8 +18886,8 @@
     "a_wins": 4,
     "b_wins": 2,
     "ties": 0,
-    "a_ppg": 435.0,
-    "b_ppg": 424.6,
+    "a_ppg": 432.8,
+    "b_ppg": 430.2,
     "streak": {
      "who": "jacobo",
      "n": 2
@@ -18959,8 +18959,8 @@
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 394.9,
-      "b_pts": 521.4,
+      "a_pts": 382.0,
+      "b_pts": 555.2,
       "winner": "jacobo",
       "flagged": true,
       "estimated": true
@@ -18975,8 +18975,8 @@
     "a_wins": 6,
     "b_wins": 1,
     "ties": 0,
-    "a_ppg": 463.1,
-    "b_ppg": 421.3,
+    "a_ppg": 461.0,
+    "b_ppg": 425.5,
     "streak": {
      "who": "blandon",
      "n": 6
@@ -19048,8 +19048,8 @@
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 503.4,
-      "b_pts": 428.9,
+      "a_pts": 490.8,
+      "b_pts": 453.8,
       "winner": "blandon",
       "flagged": true,
       "estimated": true
@@ -19238,8 +19238,8 @@
     "a_wins": 4,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 473.0,
-    "b_ppg": 460.0,
+    "a_ppg": 476.6,
+    "b_ppg": 451.6,
     "streak": {
      "who": "papo",
      "n": 3
@@ -19320,8 +19320,8 @@
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 435.7,
-      "b_pts": 508.7,
+      "a_pts": 461.2,
+      "b_pts": 450.0,
       "winner": "papo",
       "flagged": true,
       "estimated": true
@@ -20355,8 +20355,8 @@
     "a_wins": 3,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 448.5,
-    "b_ppg": 463.3,
+    "a_ppg": 444.8,
+    "b_ppg": 463.6,
     "streak": {
      "who": "verdeja",
      "n": 2
@@ -20437,8 +20437,8 @@
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 387.2,
-      "b_pts": 486.8,
+      "a_pts": 361.7,
+      "b_pts": 489.5,
       "winner": "verdeja",
       "flagged": true,
       "estimated": true
@@ -20453,8 +20453,8 @@
     "a_wins": 2,
     "b_wins": 3,
     "ties": 0,
-    "a_ppg": 429.2,
-    "b_ppg": 436.7,
+    "a_ppg": 428.6,
+    "b_ppg": 437.6,
     "streak": {
      "who": "victor",
      "n": 1
@@ -20517,8 +20517,8 @@
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 319.9,
-      "b_pts": 429.6,
+      "a_pts": 317.2,
+      "b_pts": 434.0,
       "winner": "victor",
       "flagged": true,
       "estimated": true
@@ -20533,8 +20533,8 @@
     "a_wins": 2,
     "b_wins": 5,
     "ties": 0,
-    "a_ppg": 459.0,
-    "b_ppg": 498.5,
+    "a_ppg": 464.6,
+    "b_ppg": 497.1,
     "streak": {
      "who": "winch",
      "n": 3
@@ -20597,8 +20597,8 @@
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 431.9,
-      "b_pts": 447.6,
+      "a_pts": 460.1,
+      "b_pts": 440.6,
       "winner": "winch",
       "flagged": true,
       "estimated": true
@@ -20628,8 +20628,8 @@
     "a_wins": 3,
     "b_wins": 1,
     "ties": 0,
-    "a_ppg": 454.7,
-    "b_ppg": 403.7,
+    "a_ppg": 447.1,
+    "b_ppg": 403.0,
     "streak": {
      "who": "jacobo",
      "n": 2
@@ -20683,8 +20683,8 @@
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 493.7,
-      "b_pts": 323.7,
+      "a_pts": 463.2,
+      "b_pts": 321.0,
       "winner": "jacobo",
       "flagged": true,
       "estimated": true
@@ -20868,8 +20868,8 @@
     "a_wins": 3,
     "b_wins": 2,
     "ties": 0,
-    "a_ppg": 461.0,
-    "b_ppg": 456.3,
+    "a_ppg": 460.3,
+    "b_ppg": 459.4,
     "streak": {
      "who": "jacobo",
      "n": 1
@@ -20932,8 +20932,8 @@
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 548.9,
-      "b_pts": 429.4,
+      "a_pts": 545.6,
+      "b_pts": 445.1,
       "winner": "jacobo",
       "flagged": true,
       "estimated": true
@@ -21535,8 +21535,8 @@
     "a_wins": 4,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 468.8,
-    "b_ppg": 436.8,
+    "a_ppg": 465.6,
+    "b_ppg": 443.0,
     "streak": {
      "who": "joey",
      "n": 1
@@ -21617,8 +21617,8 @@
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 472.4,
-      "b_pts": 407.9,
+      "a_pts": 450.2,
+      "b_pts": 451.0,
       "winner": "joey",
       "flagged": true,
       "estimated": true
@@ -22074,8 +22074,8 @@
     "a_wins": 4,
     "b_wins": 3,
     "ties": 0,
-    "a_ppg": 497.2,
-    "b_ppg": 501.7,
+    "a_ppg": 487.6,
+    "b_ppg": 499.7,
     "streak": {
      "who": "libguel",
      "n": 4
@@ -22156,8 +22156,8 @@
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 553.2,
-      "b_pts": 472.2,
+      "a_pts": 486.2,
+      "b_pts": 458.0,
       "winner": "libguel",
       "flagged": true,
       "estimated": true
@@ -22260,8 +22260,8 @@
     "a_wins": 3,
     "b_wins": 2,
     "ties": 0,
-    "a_ppg": 465.7,
-    "b_ppg": 421.9,
+    "a_ppg": 480.5,
+    "b_ppg": 418.1,
     "streak": {
      "who": "libguel",
      "n": 3
@@ -22324,8 +22324,8 @@
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 487.5,
-      "b_pts": 391.3,
+      "a_pts": 561.7,
+      "b_pts": 372.5,
       "winner": "libguel",
       "flagged": true,
       "estimated": true
@@ -22340,8 +22340,8 @@
     "a_wins": 4,
     "b_wins": 2,
     "ties": 0,
-    "a_ppg": 505.1,
-    "b_ppg": 476.1,
+    "a_ppg": 503.8,
+    "b_ppg": 481.6,
     "streak": {
      "who": "shueiro",
      "n": 1
@@ -22413,8 +22413,8 @@
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 477.3,
-      "b_pts": 536.5,
+      "a_pts": 470.1,
+      "b_pts": 569.6,
       "winner": "shueiro",
       "flagged": true,
       "estimated": true
@@ -22758,8 +22758,8 @@
     "a_wins": 5,
     "b_wins": 1,
     "ties": 0,
-    "a_ppg": 489.7,
-    "b_ppg": 415.0,
+    "a_ppg": 489.5,
+    "b_ppg": 419.5,
     "streak": {
      "who": "ricky",
      "n": 1
@@ -22831,8 +22831,8 @@
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 419.0,
-      "b_pts": 458.8,
+      "a_pts": 417.8,
+      "b_pts": 485.8,
       "winner": "ricky",
       "flagged": true,
       "estimated": true
@@ -22847,8 +22847,8 @@
     "a_wins": 3,
     "b_wins": 3,
     "ties": 0,
-    "a_ppg": 451.4,
-    "b_ppg": 460.4,
+    "a_ppg": 454.4,
+    "b_ppg": 468.4,
     "streak": {
      "who": "shueiro",
      "n": 1
@@ -22911,8 +22911,8 @@
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 463.8,
-      "b_pts": 505.0,
+      "a_pts": 479.2,
+      "b_pts": 545.0,
       "winner": "shueiro",
       "flagged": true,
       "estimated": true
@@ -23604,8 +23604,8 @@
     "a_wins": 1,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 424.2,
-    "b_ppg": 460.9,
+    "a_ppg": 422.5,
+    "b_ppg": 446.3,
     "streak": {
      "who": "ricky",
      "n": 1
@@ -23668,8 +23668,8 @@
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 464.9,
-      "b_pts": 441.4,
+      "a_pts": 456.7,
+      "b_pts": 368.5,
       "winner": "ricky",
       "flagged": true,
       "estimated": true
@@ -24181,8 +24181,8 @@
     "a_wins": 1,
     "b_wins": 4,
     "ties": 0,
-    "a_ppg": 432.1,
-    "b_ppg": 473.2,
+    "a_ppg": 438.2,
+    "b_ppg": 471.4,
     "streak": {
      "who": "verdeja",
      "n": 1
@@ -24245,8 +24245,8 @@
      {
       "season": "2026-2027",
       "week": 3,
-      "a_pts": 482.6,
-      "b_pts": 427.9,
+      "a_pts": 512.8,
+      "b_pts": 418.8,
       "winner": "verdeja",
       "flagged": true,
       "estimated": true
@@ -24261,8 +24261,8 @@
     "a_wins": 1,
     "b_wins": 6,
     "ties": 0,
-    "a_ppg": 420.8,
-    "b_ppg": 474.1,
+    "a_ppg": 416.1,
+    "b_ppg": 479.1,
     "streak": {
      "who": "winch",
      "n": 2
@@ -24343,8 +24343,8 @@
      {
       "season": "2026-2027",
       "week": 2,
-      "a_pts": 367.6,
-      "b_pts": 368.9,
+      "a_pts": 334.7,
+      "b_pts": 403.5,
       "winner": "winch",
       "flagged": true,
       "estimated": true
@@ -24359,8 +24359,8 @@
     "a_wins": 1,
     "b_wins": 6,
     "ties": 0,
-    "a_ppg": 430.8,
-    "b_ppg": 482.6,
+    "a_ppg": 431.5,
+    "b_ppg": 478.7,
     "streak": {
      "who": "victor",
      "n": 1
@@ -24441,8 +24441,8 @@
      {
       "season": "2026-2027",
       "week": 1,
-      "a_pts": 488.5,
-      "b_pts": 385.5,
+      "a_pts": 493.2,
+      "b_pts": 358.0,
       "winner": "victor",
       "flagged": true,
       "estimated": true
@@ -25301,7 +25301,7 @@
      2027,
      2029
     ],
-    "power_rank": 10,
+    "power_rank": 9,
     "rank": 8
    },
    {
@@ -25474,7 +25474,7 @@
      2028,
      2029
     ],
-    "power_rank": 9,
+    "power_rank": 10,
     "rank": 12
    }
   ],
@@ -25485,7 +25485,7 @@
   "traded": 52
  },
  "odds": {
-  "sd": 60.5,
+  "sd": 61.6,
   "weeks": [
    {
     "week": 5,
@@ -25498,16 +25498,16 @@
       "b_name": "Shueiro",
       "a_team": "Fidel’s Accumulators",
       "b_team": "2057 Champs",
-      "a_proj": 384,
-      "b_proj": 481,
-      "a_prob": 12.9,
-      "a_ml": "+560",
-      "b_ml": "-840",
+      "a_proj": 379,
+      "b_proj": 485,
+      "a_prob": 11.2,
+      "a_ml": "+645",
+      "b_ml": "-1020",
       "favorite": "shueiro",
-      "spread": 96.5,
+      "spread": 106.5,
       "total": 864.5,
-      "a_live": 400.0,
-      "b_live": 305.0
+      "a_live": 375.0,
+      "b_live": 274.0
      },
      {
       "a": "libguel",
@@ -25516,16 +25516,16 @@
       "b_name": "Victor",
       "a_team": "Los Chigüires",
       "b_team": "I Love Dragić",
-      "a_proj": 507,
-      "b_proj": 475,
-      "a_prob": 64.4,
-      "a_ml": "-200",
-      "b_ml": "+165",
+      "a_proj": 496,
+      "b_proj": 494,
+      "a_prob": 50.8,
+      "a_ml": "-115",
+      "b_ml": "-105",
       "favorite": "libguel",
-      "spread": 31.5,
-      "total": 982.5,
-      "a_live": 225.0,
-      "b_live": 204.0
+      "spread": 1.5,
+      "total": 989.5,
+      "a_live": 378.0,
+      "b_live": 304.0
      },
      {
       "a": "winch",
@@ -25534,16 +25534,16 @@
       "b_name": "Melo",
       "a_team": "Equipo Winchenzo",
       "b_team": "LeBong James",
-      "a_proj": 439,
-      "b_proj": 484,
-      "a_prob": 30.1,
-      "a_ml": "+210",
-      "b_ml": "-260",
+      "a_proj": 449,
+      "b_proj": 492,
+      "a_prob": 31.1,
+      "a_ml": "+200",
+      "b_ml": "-245",
       "favorite": "melo",
-      "spread": 44.5,
-      "total": 923.5,
-      "a_live": 220.0,
-      "b_live": 380.0
+      "spread": 42.5,
+      "total": 941.5,
+      "a_live": 290.0,
+      "b_live": 391.0
      },
      {
       "a": "papo",
@@ -25552,16 +25552,16 @@
       "b_name": "Verdeja",
       "a_team": "Fear the Brow",
       "b_team": "Antetokounmpers",
-      "a_proj": 458,
-      "b_proj": 444,
-      "a_prob": 56.6,
-      "a_ml": "-145",
-      "b_ml": "+120",
+      "a_proj": 448,
+      "b_proj": 435,
+      "a_prob": 55.6,
+      "a_ml": "-135",
+      "b_ml": "+115",
       "favorite": "papo",
-      "spread": 14.5,
-      "total": 901.5,
-      "a_live": 339.0,
-      "b_live": 294.0
+      "spread": 12.5,
+      "total": 883.5,
+      "a_live": 294.0,
+      "b_live": 372.0
      },
      {
       "a": "jacobo",
@@ -25570,16 +25570,16 @@
       "b_name": "Ricky",
       "a_team": "hotrelish",
       "b_team": "MoonUnit 🦬",
-      "a_proj": 531,
-      "b_proj": 433,
+      "a_proj": 522,
+      "b_proj": 423,
       "a_prob": 87.3,
       "a_ml": "-855",
       "b_ml": "+570",
       "favorite": "jacobo",
-      "spread": 97.5,
-      "total": 964.5,
-      "a_live": 318.0,
-      "b_live": 355.0
+      "spread": 99.5,
+      "total": 944.5,
+      "a_live": 347.0,
+      "b_live": 331.0
      },
      {
       "a": "chalela",
@@ -25588,16 +25588,16 @@
       "b_name": "Blandon",
       "a_team": "Lochte & Associates",
       "b_team": "Rabbi BT69",
-      "a_proj": 389,
-      "b_proj": 436,
-      "a_prob": 28.9,
-      "a_ml": "+220",
-      "b_ml": "-275",
+      "a_proj": 400,
+      "b_proj": 437,
+      "a_prob": 33.9,
+      "a_ml": "+175",
+      "b_ml": "-215",
       "favorite": "blandon",
-      "spread": 47.5,
-      "total": 824.5,
-      "a_live": 362.0,
-      "b_live": 244.0
+      "spread": 36.5,
+      "total": 837.5,
+      "a_live": 310.0,
+      "b_live": 321.0
      }
     ]
    },
@@ -25612,14 +25612,14 @@
       "b_name": "Libguel",
       "a_team": "Fidel’s Accumulators",
       "b_team": "Los Chigüires",
-      "a_proj": 384,
-      "b_proj": 507,
-      "a_prob": 7.5,
-      "a_ml": "+930",
-      "b_ml": "-1810",
+      "a_proj": 379,
+      "b_proj": 496,
+      "a_prob": 9.0,
+      "a_ml": "+785",
+      "b_ml": "-1375",
       "favorite": "libguel",
-      "spread": 123.5,
-      "total": 890.5,
+      "spread": 116.5,
+      "total": 874.5,
       "a_live": null,
       "b_live": null
      },
@@ -25630,14 +25630,14 @@
       "b_name": "Blandon",
       "a_team": "Equipo Winchenzo",
       "b_team": "Rabbi BT69",
-      "a_proj": 439,
-      "b_proj": 436,
-      "a_prob": 51.6,
-      "a_ml": "-115",
-      "b_ml": "-105",
+      "a_proj": 449,
+      "b_proj": 437,
+      "a_prob": 55.8,
+      "a_ml": "-140",
+      "b_ml": "+115",
       "favorite": "winch",
-      "spread": 3.5,
-      "total": 875.5,
+      "spread": 12.5,
+      "total": 886.5,
       "a_live": null,
       "b_live": null
      },
@@ -25648,14 +25648,14 @@
       "b_name": "Papo",
       "a_team": "I Love Dragić",
       "b_team": "Fear the Brow",
-      "a_proj": 475,
-      "b_proj": 458,
-      "a_prob": 58.0,
-      "a_ml": "-150",
-      "b_ml": "+125",
+      "a_proj": 494,
+      "b_proj": 448,
+      "a_prob": 70.2,
+      "a_ml": "-265",
+      "b_ml": "+210",
       "favorite": "victor",
-      "spread": 17.5,
-      "total": 933.5,
+      "spread": 46.5,
+      "total": 941.5,
       "a_live": null,
       "b_live": null
      },
@@ -25666,14 +25666,14 @@
       "b_name": "Chalela",
       "a_team": "2057 Champs",
       "b_team": "Lochte & Associates",
-      "a_proj": 481,
-      "b_proj": 389,
-      "a_prob": 85.9,
-      "a_ml": "-745",
-      "b_ml": "+510",
+      "a_proj": 485,
+      "b_proj": 400,
+      "a_prob": 83.4,
+      "a_ml": "-600",
+      "b_ml": "+430",
       "favorite": "shueiro",
-      "spread": 92.5,
-      "total": 869.5,
+      "spread": 84.5,
+      "total": 885.5,
       "a_live": null,
       "b_live": null
      },
@@ -25684,13 +25684,13 @@
       "b_name": "Jacobo",
       "a_team": "LeBong James",
       "b_team": "hotrelish",
-      "a_proj": 484,
-      "b_proj": 531,
-      "a_prob": 29.2,
-      "a_ml": "+220",
-      "b_ml": "-270",
+      "a_proj": 492,
+      "b_proj": 522,
+      "a_prob": 36.6,
+      "a_ml": "+155",
+      "b_ml": "-190",
       "favorite": "jacobo",
-      "spread": 46.5,
+      "spread": 29.5,
       "total": 1014.5,
       "a_live": null,
       "b_live": null
@@ -25702,14 +25702,14 @@
       "b_name": "Ricky",
       "a_team": "Antetokounmpers",
       "b_team": "MoonUnit 🦬",
-      "a_proj": 444,
-      "b_proj": 433,
-      "a_prob": 54.8,
-      "a_ml": "-135",
-      "b_ml": "+110",
+      "a_proj": 435,
+      "b_proj": 423,
+      "a_prob": 55.8,
+      "a_ml": "-140",
+      "b_ml": "+115",
       "favorite": "verdeja",
-      "spread": 10.5,
-      "total": 877.5,
+      "spread": 12.5,
+      "total": 858.5,
       "a_live": null,
       "b_live": null
      }
@@ -25733,68 +25733,69 @@
    "12": "blandon"
   },
   "record": {
-   "right": 9,
-   "wrong": 9
+   "right": 10,
+   "wrong": 8
   },
   "upsets": [
-   {
-    "week": 3,
-    "favorite": "papo",
-    "underdog": "joey",
-    "won": false,
-    "prob": 88,
-    "favorite_name": "Papo",
-    "underdog_name": "Joey"
-   },
    {
     "week": 2,
     "favorite": "verdeja",
     "underdog": "winch",
     "won": false,
-    "prob": 84,
+    "prob": 87,
     "favorite_name": "Verdeja",
     "underdog_name": "Winch"
    },
    {
-    "week": 3,
-    "favorite": "libguel",
+    "week": 2,
+    "favorite": "melo",
     "underdog": "shueiro",
     "won": false,
-    "prob": 73,
-    "favorite_name": "Libguel",
+    "prob": 85,
+    "favorite_name": "Melo",
     "underdog_name": "Shueiro"
+   },
+   {
+    "week": 3,
+    "favorite": "papo",
+    "underdog": "joey",
+    "won": false,
+    "prob": 79,
+    "favorite_name": "Papo",
+    "underdog_name": "Joey"
    }
   ],
   "model": {
    "version": 2,
-   "blend": 0.2,
-   "bench_share": 1.0,
+   "blend": 0.3,
+   "bench_share": 0.6,
    "games": 329,
-   "right": 223,
+   "right": 222,
    "picks": 329,
-   "old_right": 221,
+   "old_right": 222,
    "old_picks": 328,
    "calibration": {
     "50-60": {
-     "won": 56,
-     "games": 98
+     "won": 52,
+     "games": 90
     },
     "60-70": {
-     "won": 57,
-     "games": 80
+     "won": 68,
+     "games": 100
     },
     "70-80": {
-     "won": 49,
-     "games": 79
+     "won": 46,
+     "games": 74
     },
     "80+": {
-     "won": 61,
-     "games": 72
+     "won": 56,
+     "games": 65
     }
    }
   },
   "out": {
    "joey": [
+    "Andrew Nembhard",
     "Jayden Quaintance",
     "Jusuf Nurkić",
     "Kingston Flemings",
@@ -25803,19 +25804,18 @@
    "libguel": [
     "Anthony Edwards",
     "Evan Mobley",
-    "Yanic Konan Niederhäuser"
+    "Scottie Barnes"
    ],
    "winch": [
     "Brandon Ingram",
     "Kawhi Leonard"
    ],
    "victor": [
+    "Alex Caruso",
     "Cason Wallace",
-    "Dereck Lively II",
-    "Walker Kessler"
+    "Dereck Lively II"
    ],
    "shueiro": [
-    "Deni Avdija",
     "Peyton Watson",
     "Ronald Holland II"
    ],
@@ -25823,42 +25823,46 @@
     "Adem Bona",
     "CJ McCollum",
     "Dejounte Murray",
-    "Ja Morant"
+    "Ja Morant",
+    "RJ Barrett"
    ],
    "melo": [
     "Duncan Robinson",
-    "Grayson Allen",
+    "Jaylon Tyson",
     "Lauri Markkanen"
    ],
    "verdeja": [
     "Donte DiVincenzo",
     "Jalen Duren",
     "Jimmy Butler III",
-    "Paolo Banchero"
+    "Paolo Banchero",
+    "Tyrese Maxey"
    ],
    "jacobo": [
     "Caleb Wilson",
     "Kon Knueppel",
+    "Maxime Raynaud",
+    "Ryan Rollins",
     "Sergio De Larrea",
     "Tyrese Haliburton"
    ],
    "chalela": [
     "Austin Reaves",
-    "Jaxson Hayes",
     "Stephen Curry",
     "Tobias Harris"
    ],
    "ricky": [
     "Bennedict Mathurin",
+    "Cade Cunningham",
     "Chet Holmgren",
     "Henri Veesaar",
     "Jaylen Brown",
     "Mark Williams"
    ],
    "blandon": [
+    "Dylan Harper",
     "Jalen Williams",
     "Jaren Jackson Jr.",
-    "Jonathan Kuminga",
     "Thomas Sorber",
     "Trey Murphy III",
     "Ty Jerome"
@@ -25876,86 +25880,86 @@
    "jacobo": {
     "rank": 1,
     "record": "4-0",
-    "playoff": 99.5,
+    "playoff": 99.0,
     "fraud": false,
     "robbed": false
    },
    "libguel": {
     "rank": 2,
     "record": "3-1",
-    "playoff": 95.1,
+    "playoff": 91.3,
     "fraud": false,
     "robbed": false
    },
    "shueiro": {
     "rank": 3,
     "record": "2-2",
-    "playoff": 80.6,
+    "playoff": 82.5,
     "fraud": false,
-    "robbed": true
+    "robbed": false
    },
    "victor": {
     "rank": 4,
     "record": "3-1",
-    "playoff": 77.5,
+    "playoff": 89.8,
     "fraud": false,
     "robbed": false
    },
    "melo": {
     "rank": 5,
     "record": "0-4",
-    "playoff": 54.4,
+    "playoff": 62.6,
     "fraud": false,
     "robbed": true
    },
    "winch": {
     "rank": 6,
     "record": "2-2",
-    "playoff": 31.2,
+    "playoff": 41.0,
     "fraud": false,
     "robbed": false
    },
    "ricky": {
     "rank": 7,
     "record": "3-1",
-    "playoff": 38.0,
+    "playoff": 27.3,
     "fraud": true,
     "robbed": false
    },
    "verdeja": {
     "rank": 8,
     "record": "2-2",
-    "playoff": 35.4,
-    "fraud": false,
-    "robbed": false
-   },
-   "papo": {
-    "rank": 9,
-    "record": "2-2",
-    "playoff": 48.5,
+    "playoff": 29.0,
     "fraud": false,
     "robbed": false
    },
    "blandon": {
+    "rank": 9,
+    "record": "2-2",
+    "playoff": 38.0,
+    "fraud": false,
+    "robbed": false
+   },
+   "papo": {
     "rank": 10,
     "record": "2-2",
-    "playoff": 37.9,
+    "playoff": 36.8,
     "fraud": false,
     "robbed": false
    },
    "joey": {
     "rank": 11,
     "record": "1-3",
-    "playoff": 1.1,
+    "playoff": 0.8,
     "fraud": false,
     "robbed": false
    },
    "chalela": {
     "rank": 12,
     "record": "0-4",
-    "playoff": 0.9,
+    "playoff": 2.0,
     "fraud": false,
-    "robbed": false
+    "robbed": true
    }
   },
   "trades": {
@@ -26652,14 +26656,44 @@
  "previous_on": "2026-11-17",
  "changes": [
   {
+   "text": "😤 Chalela is officially ROBBED (0-4).",
+   "tab": "power",
+   "item": "chalela"
+  },
+  {
+   "text": "Papo down 2 to #10 in the power rankings, playoff odds −14% to 37%.",
+   "tab": "power",
+   "item": "papo"
+  },
+  {
    "text": "Trade Papo ↔ Jacobo just got graded: Papo gets the A-.",
    "tab": "trades",
    "item": "1378480138223628288"
   },
   {
+   "text": "Ricky's playoff odds −11% to 27%.",
+   "tab": "power",
+   "item": "ricky"
+  },
+  {
+   "text": "Verdeja's playoff odds −9% to 29%.",
+   "tab": "power",
+   "item": "verdeja"
+  },
+  {
    "text": "Blandon's playoff odds +9% to 38%.",
    "tab": "power",
    "item": "blandon"
+  },
+  {
+   "text": "Victor's playoff odds +9% to 90%.",
+   "tab": "power",
+   "item": "victor"
+  },
+  {
+   "text": "Shueiro's playoff odds +6% to 82%.",
+   "tab": "power",
+   "item": "shueiro"
   }
  ]
 }
