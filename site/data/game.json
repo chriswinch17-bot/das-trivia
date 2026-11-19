@@ -14931,6 +14931,442 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "93792bfd",
+    "text": "Name one of the first five players Equipo Winchenzo (Winch) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Devin Booker",
+      "accept": [
+       "Book",
+       "Booker",
+       "Devin",
+       "Devin Booker"
+      ],
+      "detail": "Taken 15th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "James Harden",
+      "accept": [
+       "Beard",
+       "Harden",
+       "James",
+       "James Harden",
+       "The Beard"
+      ],
+      "detail": "Taken 39th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Traded 4 times in Das League."
+     },
+     {
+      "display": "Jayson Tatum",
+      "accept": [
+       "JT",
+       "Jayson",
+       "Jayson Tatum",
+       "Tatum"
+      ],
+      "detail": "Taken 10th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Kawhi Leonard",
+      "accept": [
+       "Kawhi",
+       "Kawhi Leonard",
+       "Klaw",
+       "Leonard",
+       "The Klaw"
+      ],
+      "detail": "Taken 58th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Stephen Curry",
+      "accept": [
+       "Chef Curry",
+       "Curry",
+       "Steph",
+       "Stephen",
+       "Stephen Curry"
+      ],
+      "detail": "Taken 34th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Traded 4 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "d7971039",
+    "text": "Who made the first overall pick of the 2024 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel",
+      "detail": "Libguel went 7-10 in the 2024-2025 regular season (7th of 12) with 8,019 points and missed the playoffs."
+     }
+    ],
+    "note": "The pick was Alex Sarr.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "712f859a",
+    "text": "Name a player Lochte & Associates (Chalela) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Caris LeVert",
+      "accept": [
+       "Caris",
+       "Caris LeVert",
+       "LeVert"
+      ],
+      "detail": "Chalela got Caris LeVert in a trade with Papo on February 6, 2024."
+     },
+     {
+      "display": "Dennis Schröder",
+      "accept": [
+       "Dennis",
+       "Dennis Schröder",
+       "Schroder",
+       "Schröder"
+      ],
+      "detail": "Chalela got Dennis Schröder in a trade with Papo on November 3, 2024. Chalela has traded for Dennis Schröder 2 times in all."
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "D White",
+       "Derrick",
+       "Derrick White",
+       "White"
+      ],
+      "detail": "Chalela got Derrick White in a trade with Papo on May 14, 2024."
+     },
+     {
+      "display": "Goga Bitadze",
+      "accept": [
+       "Bitadze",
+       "Goga",
+       "Goga Bitadze"
+      ],
+      "detail": "Chalela got Goga Bitadze in a trade with Papo on January 21, 2025."
+     },
+     {
+      "display": "Kyle Kuzma",
+      "accept": [
+       "Kuz",
+       "Kuzma",
+       "Kyle",
+       "Kyle Kuzma"
+      ],
+      "detail": "Chalela got Kyle Kuzma in a trade with Jacobo on November 26, 2025."
+     },
+     {
+      "display": "Max Christie",
+      "accept": [
+       "Christie",
+       "Max",
+       "Max Christie"
+      ],
+      "detail": "Chalela got Max Christie in a trade with Libguel on July 2, 2025."
+     },
+     {
+      "display": "Neemias Queta",
+      "accept": [
+       "Neemias",
+       "Neemias Queta",
+       "Queta"
+      ],
+      "detail": "Chalela got Neemias Queta in a trade with Jacobo on February 3, 2026."
+     },
+     {
+      "display": "Rui Hachimura",
+      "accept": [
+       "Hachimura",
+       "Rui",
+       "Rui Hachimura"
+      ],
+      "detail": "Chalela got Rui Hachimura in a trade with Jacobo on July 2, 2025."
+     },
+     {
+      "display": "Scotty Pippen Jr.",
+      "accept": [
+       "Pippen",
+       "Scotty",
+       "Scotty Pippen",
+       "Scotty Pippen Jr."
+      ],
+      "detail": "Chalela got Scotty Pippen Jr. in a trade with Papo on February 6, 2024."
+     },
+     {
+      "display": "Stephen Curry",
+      "accept": [
+       "Chef Curry",
+       "Curry",
+       "Steph",
+       "Stephen",
+       "Stephen Curry"
+      ],
+      "detail": "Chalela got Stephen Curry in a trade with Papo on January 21, 2025."
+     },
+     {
+      "display": "Tobias Harris",
+      "accept": [
+       "Harris",
+       "Tobias",
+       "Tobias Harris"
+      ],
+      "detail": "Chalela got Tobias Harris in a trade with Papo on November 3, 2024."
+     },
+     {
+      "display": "Tre Jones",
+      "accept": [
+       "Jones",
+       "Tre",
+       "Tre Jones"
+      ],
+      "detail": "Chalela got Tre Jones in a trade with Papo on May 14, 2024."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "79214879",
+    "text": "Name one of the first five players Fidel’s Accumulators (Joey) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Anthony Davis",
+      "accept": [
+       "AD",
+       "Anthony",
+       "Anthony Davis",
+       "Davis",
+       "The Brow"
+      ],
+      "detail": "Taken 29th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 1 time in Das League."
+     },
+     {
+      "display": "Evan Mobley",
+      "accept": [
+       "Evan",
+       "Evan Mobley",
+       "Mobley"
+      ],
+      "detail": "Taken 21st overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 1 time in Das League."
+     },
+     {
+      "display": "Jarrett Allen",
+      "accept": [
+       "Allen",
+       "Jarrett",
+       "Jarrett Allen"
+      ],
+      "detail": "Taken 53rd overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 2 times in Das League."
+     },
+     {
+      "display": "Julius Randle",
+      "accept": [
+       "Julius",
+       "Julius Randle",
+       "Randle"
+      ],
+      "detail": "Taken 44th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 6 times in Das League."
+     },
+     {
+      "display": "Tyrese Haliburton",
+      "accept": [
+       "Hali",
+       "Haliburton",
+       "Tyrese",
+       "Tyrese Haliburton"
+      ],
+      "detail": "Taken 4th overall by Fidel’s Accumulators (Joey) in the 2023 startup draft. Traded 2 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "drafts.json"
+    ]
+   },
+   {
+    "id": "988c603d",
+    "text": "Which team was on the wrong end of the biggest blowout of the 2024-2025 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "The Edey and Matas Show (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 5-12 in the 2024-2025 regular season (10th of 12) with 6,352 points and missed the playoffs."
+     }
+    ],
+    "note": "Lost 164-485 to I Love Dragić (Victor) in week 17.",
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "matchups.json"
+    ]
+   },
+   {
+    "id": "a37510d7",
+    "text": "Name a team that made the 2024-2025 playoffs.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo 2X (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch",
+      "detail": "Winch went 14-3 in the 2024-2025 regular season (1st of 12) with 8,544 points, then finished fourth."
+     },
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela",
+      "detail": "Chalela went 13-4 in the 2024-2025 regular season (2nd of 12) with 8,653 points, then finished third."
+     },
+     {
+      "display": "Rabbi Repeat BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Blandon went 13-4 in the 2024-2025 regular season (3rd of 12) with 8,434 points, then lost in the final."
+     },
+     {
+      "display": "Joel Embong? 😓 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo",
+      "detail": "Melo went 11-6 in the 2024-2025 regular season (4th of 12) with 8,722 points, then won the championship."
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor",
+      "detail": "Victor went 11-6 in the 2024-2025 regular season (5th of 12) with 7,973 points, then lost in the first round of the playoffs."
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey",
+      "detail": "Joey went 8-9 in the 2024-2025 regular season (6th of 12) with 7,672 points, then lost in the first round of the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ]
+   },
+   {
+    "id": "c57775d0",
+    "text": "Which team scored the most points in a loss during the 2024-2025 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Joel Embong? 😓 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo",
+      "detail": "Melo went 11-6 in the 2024-2025 regular season (4th of 12) with 8,722 points, then won the championship."
+     }
+    ],
+    "note": "549 points in week 14, and still lost to I Love Dragić (Victor).",
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "matchups.json"
+    ]
+   }
   ]
  ],
  "players": [

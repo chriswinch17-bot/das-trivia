@@ -56,10 +56,10 @@
  "avatar": "7ce9f97322fa539a3dff86b3a900c509",
  "company_id": null,
  "league_id": "1344343390740819968",
- "sport": "nba",
- "season_type": "regular",
- "season": "2026",
  "shard": 358,
+ "season": "2026",
+ "season_type": "regular",
+ "sport": "nba",
  "scoring_settings": {
   "ast": 2.0,
   "blk": 4.0,
@@ -109,9 +109,9 @@
   "BN",
   "BN"
  ],
- "group_id": null,
  "bracket_id": null,
  "bracket_overrides_id": null,
+ "group_id": null,
  "loser_bracket_id": null,
  "loser_bracket_overrides_id": null,
  "total_rosters": 12
