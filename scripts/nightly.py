@@ -30,6 +30,7 @@ def main():
                  and run("scripts/build_questions.py")
                  and run("scripts/build_papo.py")
                  and run("scripts/build_team.py")
+                 and run("scripts/build_feud.py")
                  and run("scripts/build_analytics.py")
                  and run("-m", "unittest", "discover", "tests"))
     if not refreshed:

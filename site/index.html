@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=72">
+  <link rel="stylesheet" href="css/style.css?v=73">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -113,6 +113,14 @@
           <small>Daily · 7 players · fresh rosters every morning</small>
           <b>Rostered <i>or Waiver</i></b>
           <em>Is somebody actually rostering this guy?</em>
+        </span>
+      </a>
+      <a class="bonus feud" id="to-feud" href="?mode=feud">
+        <span class="feud-thumb" aria-hidden="true"><i>1</i><i>2</i><i>3</i></span>
+        <span class="bonus-text">
+          <small>New · 1 survey a day · 60 seconds</small>
+          <b>Das <i>Feud</i></b>
+          <em>Name the top answers on the board. Three strikes and you're out.</em>
         </span>
       </a>
       <a class="bonus grids" id="to-grids" href="?mode=grids">
@@ -406,6 +414,38 @@
       <p class="fine center"><a href="./">← Back to all games</a></p>
     </section>
 
+    <!-- Das Feud (js/feud.js) -->
+    <section class="screen card" id="screen-feud-start" hidden>
+      <p class="eyebrow" id="fd-day">Das Feud</p>
+      <h1>Das <i class="o">Feud</i></h1>
+      <p id="fd-intro">One survey a day from Das League history. The board hides the top 6 answers: #1 is worth 40 points,
+        then 25, 15, 10, 6 and 4. Clear the whole board for a 20-point bonus. You have 60 seconds and 3 strikes.</p>
+      <button class="btn primary" id="fd-play" type="button">Tip off</button>
+      <p class="fine center"><a href="./">← Back to all games</a></p>
+    </section>
+    <section class="screen card" id="screen-feud-play" hidden>
+      <div class="fd-top"><span class="fd-timer" id="fd-timer">60</span><span class="fd-strikes" id="fd-strikes"></span>
+        <span class="fd-scorebox"><small>Score</small><b id="fd-score">0</b></span></div>
+      <h2 class="question" id="fd-prompt"></h2>
+      <ol class="fd-board" id="fd-board"></ol>
+      <form id="fd-form" autocomplete="off">
+        <input id="fd-input" type="text" placeholder="Type an answer" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="60" aria-label="Your answer">
+        <button class="btn primary" type="submit">Guess</button>
+      </form>
+      <p class="fd-msg" id="fd-msg" aria-live="polite"></p>
+      <div id="fd-after" hidden>
+        <p class="verdict" id="fd-why"></p>
+        <p class="score-sub" id="fd-final"></p>
+        <button class="btn primary" id="fd-share" type="button">Share result</button>
+        <h3>The answers</h3>
+        <ol class="recap" id="fd-details"></ol>
+        <h3>Today's leaderboard</h3>
+        <ol class="leaders" id="fd-leaders"></ol>
+        <p class="fine" id="fd-board-note"></p>
+        <a class="btn ghost other-mode" href="./">⌂ Back to all games</a>
+      </div>
+    </section>
+
     <!-- Leaderboards: every game added up (js/boards.js) -->
     <section class="screen card" id="screen-boards" hidden>
       <h1>Leader<i class="o">boards</i></h1>
@@ -595,13 +635,14 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=72"></script>
-  <script src="js/common.js?v=72"></script>
-  <script src="js/effects.js?v=72"></script>
-  <script src="js/cutscene.js?v=72"></script>
-  <script src="js/game.js?v=72"></script>
-  <script src="js/grids.js?v=72"></script>
-  <script src="js/analytics.js?v=72"></script>
-  <script src="js/boards.js?v=72"></script>
+  <script src="js/config.js?v=73"></script>
+  <script src="js/common.js?v=73"></script>
+  <script src="js/effects.js?v=73"></script>
+  <script src="js/cutscene.js?v=73"></script>
+  <script src="js/game.js?v=73"></script>
+  <script src="js/grids.js?v=73"></script>
+  <script src="js/analytics.js?v=73"></script>
+  <script src="js/boards.js?v=73"></script>
+  <script src="js/feud.js?v=73"></script>
 </body>
 </html>

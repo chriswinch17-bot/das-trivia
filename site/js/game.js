@@ -380,6 +380,12 @@
     big.append(Object.assign(document.createElement("b"), { textContent: p.fpg.toFixed(1) }),
       Object.assign(document.createElement("span"), { textContent: "fantasy points a game" }));
     add("p", "rw-line", p.line);
+    if (p.recent != null) {
+      const diff = p.recent - p.fpg;
+      const trend = Math.abs(diff) < 2 ? "steady" : diff > 0 ? `up ${diff.toFixed(1)} 🔥` : `down ${(-diff).toFixed(1)} 🧊`;
+      add("p", "rw-form", `Last ${p.recent_n} games: ${p.recent.toFixed(1)} a game (${trend})`);
+    }
+    if (p.injury) add("p", "rw-injury", `🩼 ${p.injury}`);
     add("p", "rw-teams", `Has been on ${p.teams} Das League ${p.teams === 1 ? "team" : "teams"}`);
   }
 
@@ -983,12 +989,13 @@
     if (params.get("mode") === "grids") return;   // DAS GRIDS runs from js/grids.js
     if (params.get("mode") === "analytics") return;   // EquipoGPT Analytics runs from js/analytics.js
     if (params.get("mode") === "boards") return;      // Leaderboards run from js/boards.js
+    if (params.get("mode") === "feud") return;        // Das Feud runs from js/feud.js
     if (params.get("mode") === "archive") return openArchive();
     if (home) {
       $("to-archive").href = keepTest("?mode=archive");
       $("home-date").textContent = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
       $("to-trivia-game").href = keepTest("?mode=trivia");
-      for (const [id, m] of [["to-papo", "papo"], ["to-team", "team"], ["to-rorw", "rorw"], ["to-grids", "grids"], ["to-analytics", "analytics"]]) $(id).href = keepTest(`?mode=${m}`);
+      for (const [id, m] of [["to-papo", "papo"], ["to-team", "team"], ["to-rorw", "rorw"], ["to-feud", "feud"], ["to-grids", "grids"], ["to-analytics", "analytics"]]) $(id).href = keepTest(`?mode=${m}`);
       drawHome();
       return show("home");
     }

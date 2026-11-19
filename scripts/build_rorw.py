@@ -48,6 +48,25 @@ def get(path):
             time.sleep(3 * (attempt + 1))
 
 
+def recent_form(pid, season, scoring, games=5):
+    """(fantasy points a game over his last few games, how many games) from Sleeper's game log, with this
+    league's scoring. (None, 0) if Sleeper has no log for him."""
+    url = f"https://api.sleeper.com/stats/nba/player/{pid}?season_type=regular&season={season}&grouping=week"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "league-history-fetch"})
+        with urllib.request.urlopen(req, timeout=30) as response:
+            log = json.loads(response.read().decode("utf-8")) or {}
+    except Exception:
+        return None, 0
+    played = [g for week in log.values() for g in (week or []) if g and (g.get("stats") or {}).get("sp")]
+    played.sort(key=lambda g: g.get("date") or "")
+    last = played[-games:]
+    if not last:
+        return None, 0
+    pts = [sum((g["stats"].get(k, 0) or 0) * w for k, w in scoring.items()) for g in last]
+    return round(sum(pts) / len(pts), 1), len(pts)
+
+
 def eastern_now():
     """The time in New York (no time-zone database needed): EDT -4 from the 2nd Sunday of March, else EST -5."""
     utc = datetime.now(timezone.utc)
@@ -215,6 +234,8 @@ def main():
             detail = (f"Nobody has him. He's been on {plural(others, 'Das League team')}.{dropped} "
                       f"He's averaging {points:.1f} fantasy points a game.")
             display = "WAIVER: he's a free agent"
+        form, form_n = recent_form(pid, league["season"], scoring)
+        injury = (players.get(pid) or {}).get("injury_status")
         questions.append({
             "id": f"rw-{today}-{pid}",
             "text": "Rostered or waiver?",
@@ -224,6 +245,7 @@ def main():
                 "id": pid, "name": name, "pos": pos, "nba": nba, "gp": gp, "fpg": round(points, 1),
                 "line": f"{per('pts'):.1f} pts · {per('reb'):.1f} reb · {per('ast'):.1f} ast",
                 "teams": others,
+                "recent": form, "recent_n": form_n, "injury": injury,
             },
             "recap": f"{name} ({pos}, {nba}): rostered or waiver?",
             "answers": [{"display": display, "accept": ["rostered" if mid else "waiver"], "detail": detail}],

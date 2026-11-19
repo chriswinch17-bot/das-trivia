@@ -1,0 +1,2070 @@
+{
+ "title": "Das Feud",
+ "start_date": "2026-11-19",
+ "points": [
+  40,
+  25,
+  15,
+  10,
+  6,
+  4
+ ],
+ "seconds": 60,
+ "strikes": 3,
+ "days": [
+  [
+   {
+    "id": "2947399b",
+    "prompt": "Name a manager with the most regular-season wins (2023-2024 to 2025-2026).",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "detail": "39 wins.",
+      "manager": "winch",
+      "points": 40
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "35 wins.",
+      "manager": "melo",
+      "points": 25
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "34 wins.",
+      "manager": "chalela",
+      "points": 15
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "detail": "31 wins.",
+      "manager": "papo",
+      "points": 10
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "30 wins.",
+      "manager": "blandon",
+      "points": 6
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "detail": "29 wins.",
+      "manager": "libguel",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "seasons.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "b678fb12",
+    "prompt": "Name a player hotrelish (Jacobo) has traded for.",
+    "answers": [
+     {
+      "display": "Paul George",
+      "accept": [
+       "George",
+       "PG",
+       "PG13",
+       "Paul",
+       "Paul George",
+       "Playoff P"
+      ],
+      "detail": "Traded for 2 times by Jacobo (traded 7 times in all).",
+      "points": 40
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "D White",
+       "Derrick",
+       "Derrick White",
+       "White"
+      ],
+      "detail": "Traded for 1 time by Jacobo (traded 11 times in all).",
+      "points": 25
+     },
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "BI",
+       "Brandon",
+       "Brandon Ingram",
+       "Ingram"
+      ],
+      "detail": "Traded for 1 time by Jacobo (traded 8 times in all).",
+      "points": 15
+     },
+     {
+      "display": "Michael Porter Jr.",
+      "accept": [
+       "MPJ",
+       "Michael",
+       "Michael Porter",
+       "Michael Porter Jr.",
+       "Porter"
+      ],
+      "detail": "Traded for 1 time by Jacobo (traded 7 times in all).",
+      "points": 10
+     },
+     {
+      "display": "Julius Randle",
+      "accept": [
+       "Julius",
+       "Julius Randle",
+       "Randle"
+      ],
+      "detail": "Traded for 1 time by Jacobo (traded 6 times in all).",
+      "points": 6
+     },
+     {
+      "display": "Dalton Knecht",
+      "accept": [
+       "Dalton",
+       "Dalton Knecht",
+       "Knecht"
+      ],
+      "detail": "Traded for 1 time by Jacobo (traded 5 times in all).",
+      "points": 4
+     }
+    ],
+    "note": "Ranked by how often they traded for him, then how often he's been traded in the league.",
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "88d4ef8d",
+    "prompt": "Name one of the first six picks of the 2025 rookie draft.",
+    "answers": [
+     {
+      "display": "Cooper Flagg",
+      "accept": [
+       "Cooper",
+       "Cooper Flagg",
+       "Flagg"
+      ],
+      "detail": "Pick 1, by hotrelish (Jacobo).",
+      "points": 40
+     },
+     {
+      "display": "Dylan Harper",
+      "accept": [
+       "Dylan",
+       "Dylan Harper",
+       "Harper"
+      ],
+      "detail": "Pick 2, by Rabbi BT69 (Blandon).",
+      "points": 25
+     },
+     {
+      "display": "VJ Edgecombe",
+      "accept": [
+       "Edgecombe",
+       "VJ",
+       "VJ Edgecombe"
+      ],
+      "detail": "Pick 3, by Los Chigüires (Libguel).",
+      "points": 15
+     },
+     {
+      "display": "Ace Bailey",
+      "accept": [
+       "Ace",
+       "Ace Bailey",
+       "Bailey"
+      ],
+      "detail": "Pick 4, by hotrelish (Jacobo).",
+      "points": 10
+     },
+     {
+      "display": "Tre Johnson",
+      "accept": [
+       "Johnson",
+       "Tre",
+       "Tre Johnson"
+      ],
+      "detail": "Pick 5, by Fidel’s Accumulators (Joey).",
+      "points": 6
+     },
+     {
+      "display": "Khaman Maluach",
+      "accept": [
+       "Khaman",
+       "Khaman Maluach",
+       "Maluach"
+      ],
+      "detail": "Pick 6, by hotrelish (Jacobo).",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "drafts.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "838de425",
+    "prompt": "Name a manager who has beaten LeBong James (Melo) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "4 wins against Melo.",
+      "manager": "chalela",
+      "points": 40
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "detail": "3 wins against Melo.",
+      "manager": "libguel",
+      "points": 25
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "detail": "3 wins against Melo.",
+      "manager": "winch",
+      "points": 15
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "2 wins against Melo.",
+      "manager": "blandon",
+      "points": 10
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "detail": "2 wins against Melo.",
+      "manager": "shueiro",
+      "points": 6
+     },
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "detail": "2 wins against Melo.",
+      "manager": "verdeja",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "29f88219",
+    "prompt": "Name a manager who has beaten I Love Dragić (Victor) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "detail": "6 wins against Victor.",
+      "manager": "winch",
+      "points": 40
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "detail": "4 wins against Victor.",
+      "manager": "shueiro",
+      "points": 25
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "detail": "3 wins against Victor.",
+      "manager": "libguel",
+      "points": 15
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "3 wins against Victor.",
+      "manager": "melo",
+      "points": 10
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "detail": "3 wins against Victor.",
+      "manager": "papo",
+      "points": 6
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "2 wins against Victor.",
+      "manager": "chalela",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "a26a5471",
+    "prompt": "Name a player Los Chigüires (Libguel) has traded for.",
+    "answers": [
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "BI",
+       "Brandon",
+       "Brandon Ingram",
+       "Ingram"
+      ],
+      "detail": "Traded for 1 time by Libguel (traded 8 times in all).",
+      "points": 40
+     },
+     {
+      "display": "Jalen Suggs",
+      "accept": [
+       "Jalen",
+       "Jalen Suggs",
+       "Suggs"
+      ],
+      "detail": "Traded for 1 time by Libguel (traded 7 times in all).",
+      "points": 25
+     },
+     {
+      "display": "Michael Porter Jr.",
+      "accept": [
+       "MPJ",
+       "Michael",
+       "Michael Porter",
+       "Michael Porter Jr.",
+       "Porter"
+      ],
+      "detail": "Traded for 1 time by Libguel (traded 7 times in all).",
+      "points": 15
+     },
+     {
+      "display": "Dalton Knecht",
+      "accept": [
+       "Dalton",
+       "Dalton Knecht",
+       "Knecht"
+      ],
+      "detail": "Traded for 1 time by Libguel (traded 5 times in all).",
+      "points": 10
+     },
+     {
+      "display": "Isaiah Hartenstein",
+      "accept": [
+       "Hartenstein",
+       "Isaiah",
+       "Isaiah Hartenstein"
+      ],
+      "detail": "Traded for 1 time by Libguel (traded 5 times in all).",
+      "points": 6
+     },
+     {
+      "display": "Jabari Smith Jr.",
+      "accept": [
+       "Jabari",
+       "Jabari Smith",
+       "Jabari Smith Jr.",
+       "Smith"
+      ],
+      "detail": "Traded for 1 time by Libguel (traded 4 times in all).",
+      "points": 4
+     }
+    ],
+    "note": "Ranked by how often they traded for him, then how often he's been traded in the league.",
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "7c412199",
+    "prompt": "Name a manager who has beaten hotrelish (Jacobo) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "detail": "5 wins against Jacobo.",
+      "manager": "libguel",
+      "points": 40
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "5 wins against Jacobo.",
+      "manager": "melo",
+      "points": 25
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "4 wins against Jacobo.",
+      "manager": "blandon",
+      "points": 15
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "4 wins against Jacobo.",
+      "manager": "chalela",
+      "points": 10
+     },
+     {
+      "display": "MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "detail": "4 wins against Jacobo.",
+      "manager": "ricky",
+      "points": 6
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "detail": "4 wins against Jacobo.",
+      "manager": "victor",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "f10f54d4",
+    "prompt": "Name a player Rabbi BT69 (Blandon) has traded for.",
+    "answers": [
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ],
+      "detail": "Traded for 2 times by Blandon (traded 10 times in all).",
+      "points": 40
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "D White",
+       "Derrick",
+       "Derrick White",
+       "White"
+      ],
+      "detail": "Traded for 1 time by Blandon (traded 11 times in all).",
+      "points": 25
+     },
+     {
+      "display": "Miles Bridges",
+      "accept": [
+       "Bridges",
+       "Miles",
+       "Miles Bridges"
+      ],
+      "detail": "Traded for 1 time by Blandon (traded 6 times in all).",
+      "points": 15
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ],
+      "detail": "Traded for 1 time by Blandon (traded 6 times in all).",
+      "points": 10
+     },
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ],
+      "detail": "Traded for 1 time by Blandon (traded 5 times in all).",
+      "points": 6
+     },
+     {
+      "display": "Jaime Jaquez Jr.",
+      "accept": [
+       "Jaime",
+       "Jaime Jaquez",
+       "Jaime Jaquez Jr.",
+       "Jaquez"
+      ],
+      "detail": "Traded for 1 time by Blandon (traded 5 times in all).",
+      "points": 4
+     }
+    ],
+    "note": "Ranked by how often they traded for him, then how often he's been traded in the league.",
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "bf025a20",
+    "prompt": "Name a player I Love Dragić (Victor) has traded for.",
+    "answers": [
+     {
+      "display": "Nikola Jović",
+      "accept": [
+       "Jović",
+       "Nikola",
+       "Nikola Jović"
+      ],
+      "detail": "Traded for 1 time by Victor (traded 4 times in all).",
+      "points": 40
+     },
+     {
+      "display": "Daniel Gafford",
+      "accept": [
+       "Daniel",
+       "Daniel Gafford",
+       "Gafford"
+      ],
+      "detail": "Traded for 1 time by Victor (traded 2 times in all).",
+      "points": 25
+     },
+     {
+      "display": "Draymond Green",
+      "accept": [
+       "Dray",
+       "Draymond",
+       "Draymond Green",
+       "Green"
+      ],
+      "detail": "Traded for 1 time by Victor (traded 2 times in all).",
+      "points": 15
+     },
+     {
+      "display": "Fred VanVleet",
+      "accept": [
+       "FVV",
+       "Fred",
+       "Fred VanVleet",
+       "Steady Freddy",
+       "VanVleet"
+      ],
+      "detail": "Traded for 1 time by Victor (traded 2 times in all).",
+      "points": 10
+     },
+     {
+      "display": "Jonas Valančiūnas",
+      "accept": [
+       "JV",
+       "Jonas",
+       "Jonas Valančiūnas",
+       "Valančiūnas"
+      ],
+      "detail": "Traded for 1 time by Victor (traded 2 times in all).",
+      "points": 6
+     },
+     {
+      "display": "Jaylen Wells",
+      "accept": [
+       "Jaylen",
+       "Jaylen Wells",
+       "Wells"
+      ],
+      "detail": "Traded for 1 time by Victor (traded 1 time in all).",
+      "points": 4
+     }
+    ],
+    "note": "Ranked by how often they traded for him, then how often he's been traded in the league.",
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "e4acd764",
+    "prompt": "Name a manager who has beaten Los Chigüires (Libguel) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "4 wins against Libguel.",
+      "manager": "blandon",
+      "points": 40
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "detail": "4 wins against Libguel.",
+      "manager": "winch",
+      "points": 25
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "3 wins against Libguel.",
+      "manager": "melo",
+      "points": 15
+     },
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "detail": "3 wins against Libguel.",
+      "manager": "verdeja",
+      "points": 10
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "2 wins against Libguel.",
+      "manager": "chalela",
+      "points": 6
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "detail": "2 wins against Libguel.",
+      "manager": "joey",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "f1d63fbc",
+    "prompt": "Name a player Equipo Winchenzo (Winch) has traded for.",
+    "answers": [
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "BI",
+       "Brandon",
+       "Brandon Ingram",
+       "Ingram"
+      ],
+      "detail": "Traded for 1 time by Winch (traded 8 times in all).",
+      "points": 40
+     },
+     {
+      "display": "Chris Paul",
+      "accept": [
+       "CP3",
+       "Chris",
+       "Chris Paul",
+       "Paul",
+       "Point God"
+      ],
+      "detail": "Traded for 1 time by Winch (traded 7 times in all).",
+      "points": 25
+     },
+     {
+      "display": "Paul George",
+      "accept": [
+       "George",
+       "PG",
+       "PG13",
+       "Paul",
+       "Paul George",
+       "Playoff P"
+      ],
+      "detail": "Traded for 1 time by Winch (traded 7 times in all).",
+      "points": 15
+     },
+     {
+      "display": "Jimmy Butler III",
+      "accept": [
+       "Butler",
+       "Jimmy",
+       "Jimmy Buckets",
+       "Jimmy Butler",
+       "Jimmy Butler III"
+      ],
+      "detail": "Traded for 1 time by Winch (traded 6 times in all).",
+      "points": 10
+     },
+     {
+      "display": "Jaime Jaquez Jr.",
+      "accept": [
+       "Jaime",
+       "Jaime Jaquez",
+       "Jaime Jaquez Jr.",
+       "Jaquez"
+      ],
+      "detail": "Traded for 1 time by Winch (traded 5 times in all).",
+      "points": 6
+     },
+     {
+      "display": "Jakob Poeltl",
+      "accept": [
+       "Jakob",
+       "Jakob Poeltl",
+       "Poeltl"
+      ],
+      "detail": "Traded for 1 time by Winch (traded 5 times in all).",
+      "points": 4
+     }
+    ],
+    "note": "Ranked by how often they traded for him, then how often he's been traded in the league.",
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "85317b12",
+    "prompt": "Name a manager who has beaten Fear the Brow (Papo) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "4 wins against Papo.",
+      "manager": "melo",
+      "points": 40
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "3 wins against Papo.",
+      "manager": "blandon",
+      "points": 25
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "detail": "3 wins against Papo.",
+      "manager": "joey",
+      "points": 15
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "detail": "3 wins against Papo.",
+      "manager": "libguel",
+      "points": 10
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "2 wins against Papo.",
+      "manager": "chalela",
+      "points": 6
+     },
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "detail": "2 wins against Papo.",
+      "manager": "jacobo",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "fe02ee16",
+    "prompt": "Name a manager who has beaten Fidel’s Accumulators (Joey) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "4 wins against Joey.",
+      "manager": "blandon",
+      "points": 40
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "4 wins against Joey.",
+      "manager": "melo",
+      "points": 25
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "3 wins against Joey.",
+      "manager": "chalela",
+      "points": 15
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "detail": "3 wins against Joey.",
+      "manager": "libguel",
+      "points": 10
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "detail": "3 wins against Joey.",
+      "manager": "papo",
+      "points": 6
+     },
+     {
+      "display": "MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "detail": "3 wins against Joey.",
+      "manager": "ricky",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "623e6ed4",
+    "prompt": "Name a manager who has beaten 2057 Champs (Shueiro) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "detail": "5 wins against Shueiro.",
+      "manager": "jacobo",
+      "points": 40
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "detail": "4 wins against Shueiro.",
+      "manager": "libguel",
+      "points": 25
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "detail": "4 wins against Shueiro.",
+      "manager": "winch",
+      "points": 15
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "3 wins against Shueiro.",
+      "manager": "chalela",
+      "points": 10
+     },
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "detail": "3 wins against Shueiro.",
+      "manager": "verdeja",
+      "points": 6
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "2 wins against Shueiro.",
+      "manager": "blandon",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "812fbca2",
+    "prompt": "Name a manager who has beaten Rabbi BT69 (Blandon) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "4 wins against Blandon.",
+      "manager": "chalela",
+      "points": 40
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "detail": "4 wins against Blandon.",
+      "manager": "victor",
+      "points": 25
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "detail": "3 wins against Blandon.",
+      "manager": "papo",
+      "points": 15
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "detail": "3 wins against Blandon.",
+      "manager": "shueiro",
+      "points": 10
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "2 wins against Blandon.",
+      "manager": "melo",
+      "points": 6
+     },
+     {
+      "display": "MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "detail": "2 wins against Blandon.",
+      "manager": "ricky",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "7b450a97",
+    "prompt": "Name one of the managers who has made the most trades.",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "detail": "114 trades.",
+      "manager": "papo",
+      "points": 40
+     },
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "detail": "60 trades.",
+      "manager": "jacobo",
+      "points": 25
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "detail": "34 trades.",
+      "manager": "joey",
+      "points": 15
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "detail": "33 trades.",
+      "manager": "winch",
+      "points": 10
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "28 trades.",
+      "manager": "blandon",
+      "points": 6
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "detail": "23 trades.",
+      "manager": "shueiro",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "7ffd6661",
+    "prompt": "Name a manager who has beaten Equipo Winchenzo (Winch) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "2 wins against Winch.",
+      "manager": "blandon",
+      "points": 40
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "detail": "2 wins against Winch.",
+      "manager": "joey",
+      "points": 25
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "2 wins against Winch.",
+      "manager": "melo",
+      "points": 15
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "detail": "2 wins against Winch.",
+      "manager": "papo",
+      "points": 10
+     },
+     {
+      "display": "MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "detail": "2 wins against Winch.",
+      "manager": "ricky",
+      "points": 6
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "detail": "2 wins against Winch.",
+      "manager": "shueiro",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "09ec9c48",
+    "prompt": "Name a player Fear the Brow (Papo) has traded for.",
+    "answers": [
+     {
+      "display": "Derrick White",
+      "accept": [
+       "D White",
+       "Derrick",
+       "Derrick White",
+       "White"
+      ],
+      "detail": "Traded for 5 times by Papo (traded 11 times in all).",
+      "points": 40
+     },
+     {
+      "display": "Jalen Suggs",
+      "accept": [
+       "Jalen",
+       "Jalen Suggs",
+       "Suggs"
+      ],
+      "detail": "Traded for 4 times by Papo (traded 7 times in all).",
+      "points": 25
+     },
+     {
+      "display": "Michael Porter Jr.",
+      "accept": [
+       "MPJ",
+       "Michael",
+       "Michael Porter",
+       "Michael Porter Jr.",
+       "Porter"
+      ],
+      "detail": "Traded for 4 times by Papo (traded 7 times in all).",
+      "points": 15
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ],
+      "detail": "Traded for 3 times by Papo (traded 10 times in all).",
+      "points": 10
+     },
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "BI",
+       "Brandon",
+       "Brandon Ingram",
+       "Ingram"
+      ],
+      "detail": "Traded for 3 times by Papo (traded 8 times in all).",
+      "points": 6
+     },
+     {
+      "display": "Chris Paul",
+      "accept": [
+       "CP3",
+       "Chris",
+       "Chris Paul",
+       "Paul",
+       "Point God"
+      ],
+      "detail": "Traded for 3 times by Papo (traded 7 times in all).",
+      "points": 4
+     }
+    ],
+    "note": "Ranked by how often they traded for him, then how often he's been traded in the league.",
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "4168346a",
+    "prompt": "Name a team that has had the most points scored against it (2023-2024 to 2025-2026).",
+    "answers": [
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "detail": "25,445 points against.",
+      "manager": "joey",
+      "points": 40
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "detail": "25,337 points against.",
+      "manager": "papo",
+      "points": 25
+     },
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "detail": "25,220 points against.",
+      "manager": "verdeja",
+      "points": 15
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "25,171 points against.",
+      "manager": "melo",
+      "points": 10
+     },
+     {
+      "display": "MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "De Aguiar",
+       "MoonUnit",
+       "MoonUnit 🦬",
+       "MoonUnit11",
+       "Rick",
+       "Ricky"
+      ],
+      "detail": "25,048 points against.",
+      "manager": "ricky",
+      "points": 6
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "24,986 points against.",
+      "manager": "chalela",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "seasons.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "3759373c",
+    "prompt": "Name a manager who has beaten MoonUnit 🦬 (Ricky) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "6 wins against Ricky.",
+      "manager": "chalela",
+      "points": 40
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "5 wins against Ricky.",
+      "manager": "melo",
+      "points": 25
+     },
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "detail": "5 wins against Ricky.",
+      "manager": "verdeja",
+      "points": 15
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "4 wins against Ricky.",
+      "manager": "blandon",
+      "points": 10
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "detail": "4 wins against Ricky.",
+      "manager": "papo",
+      "points": 6
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "detail": "4 wins against Ricky.",
+      "manager": "shueiro",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "caf116e1",
+    "prompt": "Name one of the top-scoring teams of the 2023-2024 regular season.",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "detail": "9,197 points.",
+      "manager": "winch",
+      "points": 40
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "9,139 points.",
+      "manager": "melo",
+      "points": 25
+     },
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "detail": "9,052 points.",
+      "manager": "papo",
+      "points": 15
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "detail": "8,695 points.",
+      "manager": "joey",
+      "points": 10
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "detail": "8,621 points.",
+      "manager": "victor",
+      "points": 6
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "8,596 points.",
+      "manager": "blandon",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "seasons.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "583c04bd",
+    "prompt": "Name one of Papo's favourite trade partners.",
+    "answers": [
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "detail": "21 trades with Papo.",
+      "manager": "joey",
+      "points": 40
+     },
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "detail": "19 trades with Papo.",
+      "manager": "jacobo",
+      "points": 25
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "14 trades with Papo.",
+      "manager": "melo",
+      "points": 15
+     },
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "detail": "13 trades with Papo.",
+      "manager": "shueiro",
+      "points": 10
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "detail": "13 trades with Papo.",
+      "manager": "winch",
+      "points": 6
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "9 trades with Papo.",
+      "manager": "blandon",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ]
+ ]
+}
