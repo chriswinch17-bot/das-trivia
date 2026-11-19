@@ -836,8 +836,40 @@
     $("ss-text").onclick = () => copy(shareText(shareSpec), "Text copied. Paste it in the chat.");
   }
 
+  /* ---------- lock-in report ---------- */
+  function setupLockin() {
+    const L = data.lockin;
+    if (!L) { $("lk-note").textContent = "The lock-in report needs game logs (scripts/fetch_gamelogs.py)."; return; }
+    const sign = (v) => `${v >= 0 ? "+" : "−"}${Math.abs(v).toFixed(1)}`;
+    $("lk-note").textContent = `Who locks in the best games? ${L.seasons.join(", ")} regular seasons. League average: ${sign(L.league_per_week)} points a week from locking, `
+      + `and the best game counted ${Math.round(L.league_best_rate)}% of the time.`;
+    const top = L.managers[0], bottom = L.managers[L.managers.length - 1];
+    const sharp = L.managers.slice().sort((a, b) => (b.best_rate || 0) - (a.best_rate || 0))[0];
+    $("lk-heads").innerHTML = `
+      <div class="rv-head"><small>Lock-in wizard 🧙</small><b>${esc(top.team)} (${esc(top.name)})</b><span>${sign(top.per_week)} points a week</span></div>
+      <div class="rv-head"><small>Sniper 🎯</small><b>${esc(sharp.team)} (${esc(sharp.name)})</b><span>Best game counted ${Math.round(sharp.best_rate)}% of the time</span></div>
+      <div class="rv-head"><small>Locks like a coin flip 🪙</small><b>${esc(bottom.team)} (${esc(bottom.name)})</b><span>${sign(bottom.per_week)} points a week</span></div>`;
+    const max = Math.max(...L.managers.map((m) => Math.abs(m.per_week))) || 1;
+    $("lk-list").innerHTML = L.managers.map((m) => `<li class="lk${m.manager === me ? " mine" : ""}" id="lk-${m.manager}">
+      <button type="button" class="lk-top" aria-expanded="false"><span class="pr-rank">${m.rank}</span>
+        <span class="pr-main"><span class="pr-name">${esc(m.team)} <span class="pr-mgr">(${esc(m.name)})</span></span>
+          <span class="lk-bar ${m.per_week >= 0 ? "pos" : "neg"}"><span style="width:${(Math.abs(m.per_week) / max * 100).toFixed(1)}%"></span></span>
+          <span class="pr-meta">Best game counted ${m.best_rate == null ? "–" : Math.round(m.best_rate) + "%"} · ${m.weeks} weeks</span></span>
+        <span class="pr-right"><b class="${m.per_week >= 0 ? "pos" : "neg"}">${sign(m.per_week)}</b><small>a week</small></span></button>
+      <div class="pr-more" hidden>
+        <p class="mg-line">🔒 Best lock ever: <b>${esc(m.best_lock.player)}</b>, ${esc(m.best_lock.season)} week ${m.best_lock.week}: counted ${Math.round(m.best_lock.locked)} when his average game was ${Math.round(m.best_lock.avg)}.</p>
+        <p class="mg-line">😬 Biggest miss: <b>${esc(m.worst_miss.player)}</b>, ${esc(m.worst_miss.season)} week ${m.worst_miss.week}: counted ${Math.round(m.worst_miss.locked)} with a ${Math.round(m.worst_miss.best)} on the table.</p>
+        <p class="mg-line">By season: ${Object.entries(m.by_season).map(([s, v]) => `${s.slice(2, 4)}-${s.slice(7, 9)} ${sign(v)}`).join(" · ")}</p>
+      </div></li>`).join("");
+    for (const b of $("lk-list").querySelectorAll(".lk-top")) b.onclick = () => {
+      const more = b.parentElement.querySelector(".pr-more");
+      more.hidden = !more.hidden;
+      b.setAttribute("aria-expanded", String(!more.hidden));
+    };
+  }
+
   /* ---------- tabs ---------- */
-  const TABS = ["power", "seasons", "trades", "managers", "rivals", "picks", "odds", "ask"];
+  const TABS = ["power", "seasons", "trades", "managers", "rivals", "picks", "odds", "lockin", "ask"];
   function openTab(name) {
     if (!TABS.includes(name)) name = "power";
     for (const b of $("an-tabs").querySelectorAll("button")) {
@@ -1039,6 +1071,7 @@
     setupRivalries();
     setupLedger();
     setupOdds();
+    setupLockin();
     $("ask-form").onsubmit = (event) => {   // the owner's joke: every question hits the paywall
       event.preventDefault();
       openTab("ask");

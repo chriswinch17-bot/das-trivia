@@ -22,6 +22,7 @@ import math
 import sys
 
 import analytics_changes
+import analytics_lockin
 import analytics_model
 import analytics_more
 import analytics_odds
@@ -306,7 +307,7 @@ def main():
         "rankings": rankings,
         "history": {"seasons": [s["season"] for s in seasons], "teams": history},
         "trades": trades, "traders": traders, "managers": profiles, "rivalries": rivalries,
-        "ledger": ledger, "odds": odds,
+        "ledger": ledger, "odds": odds, "lockin": analytics_lockin.build(managers_file, team_now),
         "sources": ["site/data/matchups.json", "site/data/seasons.json", f"data/raw/sleeper/{folder.name}/matchups"],
     }
     # --- what changed since yesterday's last build ---

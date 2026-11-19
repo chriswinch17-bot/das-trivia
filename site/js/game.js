@@ -963,6 +963,12 @@
       $("you-status").hidden = false;
     };
     $("you-boards").href = keepTest("?mode=boards");
+    // last night's data check (scripts/nightly.py): a banner if anything looked off
+    fetch("data/health.json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).then((h) => {
+      if (!h || !h.warnings || !h.warnings.length) return;
+      $("health").hidden = false;
+      $("health").textContent = "⚠️ " + h.warnings.join(" ");
+    }).catch(() => {});
     $("you-change").onclick = (event) => {
       event.preventDefault();
       const box = $("you-names");
