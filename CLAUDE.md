@@ -268,8 +268,11 @@ The owner has essentially no coding or web development experience.
   failed, Rostered or Waiver failed, Das Grids failed, or a week became estimated.
 - **Das Grids nightly**: `scripts/push_grids_sql.py` sends `data/private/grids_setup.sql` to Supabase's management API
   when the GitHub secret SUPABASE_ACCESS_TOKEN exists (owner must create it); otherwise paste by hand as before.
-- **3D cutscenes** (`site/js/cutscene3d.js`): Three.js r128 from cdnjs, loaded only on the trivia page; the same 7 moves
-  with a bobblehead EquipoGPT player. Falls back to the flat `cutscene.js` (no WebGL, library not loaded, reduced
+- **3D cutscenes** (`site/js/cutscene3d.js`): Three.js r128 from cdnjs, loaded only on the trivia page; bobblehead
+  EquipoGPT player, crowd in the stands. Steps (owner, 2026-11-19, "Grab the ball" dropped): 1 crossover, 2 layup,
+  3 floater, 4 free throw, 5 three, 6 dunk, 7 (perfect game) POSTERIZER over two defenders + dance, confetti, crowd
+  going wild and a synthesized crowd roar. Poses glide toward targets and the camera eases (smoothness), sRGB + ACES
+  lighting and soft shadows (crispness). The flat version maps the same steps (7 reuses its dunk). Falls back to the flat `cutscene.js` (no WebGL, library not loaded, reduced
   motion, or `?flat`). Test: `?mode=trivia&test&scene=7`, freeze a moment with `&freeze=2.2`.
 - **Speed / accessibility / design**: analytics.json written compact (~44 KB gzipped); lazy-loaded home pictures;
   skip link, labels, 44px tap targets, focus outlines, reduced-motion respected; header never wraps.

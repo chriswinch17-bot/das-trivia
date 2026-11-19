@@ -6,7 +6,10 @@
 (() => {
   "use strict";
 
-  const NAMES = ["Grab the ball", "Crossover", "Layup", "Floater", "Free throw", "Three-pointer", "SLAM DUNK!"];
+  // The 7 steps (owner, 2026-11-19: "Grab the ball" dropped; a perfect game ends with a posterizer over two defenders).
+  // SCENE_OF maps a step to the drawing below; the flat version has no two-defender scene, so 7 reuses the dunk.
+  const NAMES = ["Crossover", "Layup", "Floater", "Free throw", "Three-pointer", "SLAM DUNK!", "POSTERIZED! 🎉"];
+  const SCENE_OF = [null, 2, 3, 4, 5, 6, 7, 7];
   const GROUND = 170, RIM_X = 309, RIM_Y = 84;
   const FT_X = 213, THREE_X = 100;      // where the player stands for a free throw and a three
   const HOLD = GROUND - 31;             // height of the ball when it is held at the hip
@@ -253,7 +256,7 @@
     onDone = done;
     $("cut-step").textContent = `Step ${step} of 7`;
     $("cut-title").textContent = NAMES[step - 1];
-    $("screen-cutscene").classList.toggle("is-dunk", step === 7);
+    $("screen-cutscene").classList.toggle("is-dunk", step >= 6);
 
     const pips = $("cut-steps");
     pips.replaceChildren();
@@ -274,7 +277,7 @@
       timer = setTimeout(finish, 1400);
       return;
     }
-    const total = SCENES[step]();
+    const total = SCENES[SCENE_OF[step]]();
     timer = setTimeout(finish, total + 450);
   }
 

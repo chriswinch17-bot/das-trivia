@@ -1,9 +1,12 @@
 /* Das Trivia: the 3D cutscenes (owner's request, 2026-11-19).
-   The same 7 moves as js/cutscene.js (grab the ball, crossover, layup, floater, free throw, three, poster dunk),
-   drawn in real 3D with Three.js (a free 3D library, loaded from cdnjs only on the trivia page). The player is a
-   bobblehead with the EquipoGPT host's face; the defender wears red.
-   If 3D can't run (old phone, no WebGL, the library didn't load, reduced motion) the flat cutscene plays instead.
-   Add ?flat to the address to force the flat version. */
+   Seven moves, one per correct answer: 1 crossover, 2 layup, 3 floater, 4 free throw, 5 three-pointer, 6 dunk,
+   7 (a perfect game) a POSTERIZER over two defenders, then a celebration dance, confetti and the crowd going wild.
+   Drawn in real 3D with Three.js (free; loaded from cdnjs only on the trivia page). The player is a bobblehead with
+   the EquipoGPT host's face; defenders wear red; a crowd fills the stands.
+   Smooth by design: poses glide toward their targets instead of snapping, shots leave from the player's real hand,
+   and the camera eases between positions.
+   If 3D can't run (no WebGL, the library didn't load, reduced motion) the flat cutscene plays instead; ?flat forces it.
+   Testing: ?mode=trivia&test&scene=7 plays one scene; add &freeze=2.2 to hold that moment. */
 (() => {
   "use strict";
 
@@ -14,9 +17,8 @@
   if (!flat || params.has("flat") || params.get("mode") !== "trivia") return;
 
   let ready = false, faceCanvas = null;
-  const RIM = { x: 6.85, y: 3.05, z: 0 };
+  const RIM = { x: 6.85, y: 3.05 };
 
-  // load the library and the face picture as soon as the trivia page opens, so the first cutscene is instant
   function preload() {
     const test = document.createElement("canvas");
     if (!(test.getContext("webgl") || test.getContext("experimental-webgl"))) return;
@@ -28,200 +30,332 @@
     const img = new Image();
     img.onload = () => {
       const c = document.createElement("canvas");
-      c.width = c.height = 256;
+      c.width = c.height = 512;
       const x = c.getContext("2d");
-      x.beginPath(); x.arc(128, 128, 124, 0, Math.PI * 2); x.closePath(); x.clip();
+      x.beginPath(); x.arc(256, 256, 248, 0, Math.PI * 2); x.closePath(); x.clip();
       const scale = FACE.size / img.naturalWidth;
-      x.drawImage(img, (FACE.centerX - FACE.width / 2) / scale, (FACE.centerY - FACE.width / 2) / scale, FACE.width / scale, FACE.width / scale, 0, 0, 256, 256);
-      x.lineWidth = 8; x.strokeStyle = "#1d3a8a"; x.stroke();
+      x.drawImage(img, (FACE.centerX - FACE.width / 2) / scale, (FACE.centerY - FACE.width / 2) / scale, FACE.width / scale, FACE.width / scale, 0, 0, 512, 512);
+      x.lineWidth = 14; x.strokeStyle = "#1d3a8a"; x.stroke();
       faceCanvas = c;
     };
     img.src = FACE.image;
   }
 
-  /* ---------- little helpers ---------- */
+  /* ---------- helpers ---------- */
   const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
   const lerp = (a, b, t) => a + (b - a) * t;
-  const ease = (t) => (t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2);
+  const ease = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);      // smooth start and stop
   const seg = (t, a, b) => clamp((t - a) / (b - a));
-  // a ball flight from p to q with an arc this high above the higher end
+  const smooth = (t, a, b) => ease(seg(t, a, b));
   function arc(p, q, h, t) {
-    const y = lerp(p.y, q.y, t) + h * 4 * t * (1 - t);
-    return { x: lerp(p.x, q.x, t), y, z: lerp(p.z, q.z, t) };
+    return { x: lerp(p.x, q.x, t), y: lerp(p.y, q.y, t) + h * 4 * t * (1 - t), z: lerp(p.z || 0, q.z || 0, t) };
   }
 
-  /* ---------- building the court and the players ---------- */
+  /* ---------- the court ---------- */
   function courtTexture() {
     const c = document.createElement("canvas");
-    c.width = 1024; c.height = 512;
+    c.width = 2048; c.height = 1024;
     const x = c.getContext("2d");
-    for (let i = 0; i < 32; i++) { x.fillStyle = i % 2 ? "#c98d55" : "#d29a62"; x.fillRect(0, i * 16, 1024, 16); }
-    x.strokeStyle = "rgba(255,255,255,.9)"; x.lineWidth = 6;
-    const u = 1024 / 20, cx = (v) => (v + 6) * u, cz = (v) => 256 + v * u;   // world x -6..14, z -5..5
-    x.strokeRect(cx(4.9), cz(-2.45), cx(7.6) - cx(4.9) + 300, 4.9 * u);       // the key
+    for (let i = 0; i < 64; i++) { x.fillStyle = i % 2 ? "#c98d55" : "#d39b63"; x.fillRect(0, i * 16, 2048, 16); }
+    for (let i = 0; i < 400; i++) { x.fillStyle = "rgba(90,50,20,.05)"; x.fillRect(Math.random() * 2048, Math.random() * 1024, 60 + Math.random() * 120, 2); }
+    x.strokeStyle = "rgba(255,255,255,.92)"; x.lineWidth = 10;
+    const u = 2048 / 20, cx = (v) => (v + 6) * u, cz = (v) => 512 + v * u;
+    x.fillStyle = "rgba(29,58,138,.6)"; x.fillRect(cx(4.9), cz(-2.45), 600, 4.9 * u);
+    x.strokeRect(cx(4.9), cz(-2.45), 600, 4.9 * u);
     x.beginPath(); x.arc(cx(4.9), cz(0), 1.8 * u, Math.PI / 2, -Math.PI / 2); x.stroke();
-    x.beginPath(); x.arc(cx(RIM.x), cz(0), 6.75 * u, Math.PI * 0.62, Math.PI * 1.38); x.stroke();   // three-point line
-    x.fillStyle = "rgba(29,58,138,.55)"; x.fillRect(cx(4.9), cz(-2.45), 300, 4.9 * u);
+    x.beginPath(); x.arc(cx(RIM.x), cz(0), 6.75 * u, Math.PI * 0.62, Math.PI * 1.38); x.stroke();
+    x.beginPath(); x.arc(cx(-2.2), cz(0), 1.8 * u, 0, Math.PI * 2); x.stroke();
     return c;
   }
 
-  function makePlayer(THREE, hero) {
-    const skin = new THREE.MeshStandardMaterial({ color: hero ? 0xe8b990 : 0x9c6b47, roughness: 0.7 });
-    const jersey = new THREE.MeshStandardMaterial({ color: hero ? 0x1d3a8a : 0xc93636, roughness: 0.6 });
-    const shorts = new THREE.MeshStandardMaterial({ color: hero ? 0x16295f : 0x8f2424, roughness: 0.6 });
-    const shoe = new THREE.MeshStandardMaterial({ color: hero ? 0xff7a1a : 0xffffff, roughness: 0.5 });
-    const cyl = (r1, r2, h, m) => { const g = new THREE.Mesh(new THREE.CylinderGeometry(r1, r2, h, 12), m); g.castShadow = true; return g; };
-    const root = new THREE.Group();            // feet at y = 0
+  /* ---------- players: a rig whose pose glides toward a target ---------- */
+  function makePlayer(THREE, look) {
+    const mat = (color, rough = 0.6) => new THREE.MeshStandardMaterial({ color, roughness: rough });
+    const skin = mat(look.skin, 0.7), jersey = mat(look.jersey), shorts = mat(look.shorts), shoe = mat(look.shoe, 0.4);
+    const cyl = (r1, r2, h, m) => { const g = new THREE.Mesh(new THREE.CylinderGeometry(r1, r2, h, 20), m); g.castShadow = true; return g; };
+    const ball = (r, m) => { const g = new THREE.Mesh(new THREE.SphereGeometry(r, 20, 16), m); g.castShadow = true; return g; };
+    const root = new THREE.Group();
     const hips = new THREE.Group(); hips.position.y = 0.95; root.add(hips);
-    const torso = cyl(0.2, 0.17, 0.62, jersey); torso.position.y = 0.33; hips.add(torso);
-    const short = cyl(0.19, 0.2, 0.24, shorts); short.position.y = 0.02; hips.add(short);
+    const torso = cyl(0.21, 0.17, 0.62, jersey); torso.position.y = 0.33; hips.add(torso);
+    const chest = ball(0.21, jersey); chest.scale.set(1, 0.45, 1); chest.position.y = 0.63; hips.add(chest);
+    const short = cyl(0.19, 0.21, 0.26, shorts); short.position.y = 0.01; hips.add(short);
     const neck = new THREE.Group(); neck.position.y = 0.72; hips.add(neck);
-    const head = new THREE.Mesh(new THREE.SphereGeometry(0.15, 16, 12), skin); head.position.y = 0.12; head.castShadow = true; neck.add(head);
-    const limb = (side, upperLen, lowerLen, mat, endMat, y, x) => {
-      const top = new THREE.Group(); top.position.set(x, y, side * 0.12);
-      const up = cyl(0.065, 0.055, upperLen, mat); up.position.y = -upperLen / 2; top.add(up);
+    const head = ball(0.15, skin); head.position.y = 0.13; neck.add(head);
+    const limb = (z, y, upperLen, lowerLen, m, endMat, endR) => {
+      const top = new THREE.Group(); top.position.set(0, y, z);
+      const up = cyl(0.068, 0.056, upperLen, m); up.position.y = -upperLen / 2; top.add(up);
       const joint = new THREE.Group(); joint.position.y = -upperLen; top.add(joint);
-      const low = cyl(0.055, 0.045, lowerLen, mat); low.position.y = -lowerLen / 2; joint.add(low);
-      const end = new THREE.Mesh(new THREE.SphereGeometry(0.06, 8, 6), endMat); end.position.y = -lowerLen; end.castShadow = true; joint.add(end);
+      const knee = ball(0.058, m); joint.add(knee);
+      const low = cyl(0.056, 0.046, lowerLen, m); low.position.y = -lowerLen / 2; joint.add(low);
+      const end = ball(endR, endMat); end.position.y = -lowerLen; joint.add(end);
       return { top, joint, end };
     };
-    const legs = [-1, 1].map((s) => { const l = limb(s, 0.48, 0.47, skin, shoe, 0, 0); hips.add(l.top); return l; });
-    const arms = [-1, 1].map((s) => { const a = limb(s * 1.75, 0.3, 0.28, skin, skin, 0.58, 0); a.top.position.z = s * 0.25; hips.add(a.top); return a; });
-    let face = null;
-    if (hero && faceCanvas) {
+    const legs = [-1, 1].map((s) => { const l = limb(s * 0.11, 0, 0.48, 0.47, skin, shoe, 0.07); l.end.scale.set(1.6, 0.7, 1); hips.add(l.top); return l; });
+    const arms = [-1, 1].map((s) => { const a = limb(s * 0.27, 0.58, 0.3, 0.28, skin, skin, 0.055); hips.add(a.top); return a; });
+    if (look.face && faceCanvas) {
       const tex = new THREE.CanvasTexture(faceCanvas);
-      face = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, depthTest: true }));
-      face.scale.set(0.5, 0.5, 1);                // bobblehead
-      face.position.y = 0.16;
-      neck.add(face);
+      const face = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex }));
+      face.scale.set(0.52, 0.52, 1); face.position.y = 0.17; neck.add(face);
       head.visible = false;
-    } else if (!hero) {
-      const hair = new THREE.Mesh(new THREE.SphereGeometry(0.155, 12, 8, 0, Math.PI * 2, 0, Math.PI / 2), new THREE.MeshStandardMaterial({ color: 0x1a120c }));
-      hair.position.y = 0.13; neck.add(hair);
+    } else {
+      const hair = new THREE.Mesh(new THREE.SphereGeometry(0.155, 16, 10, 0, Math.PI * 2, 0, Math.PI / 2), mat(0x1a120c));
+      hair.position.y = 0.14; neck.add(hair);
     }
-    return { root, hips, legs, arms, neck, hand: arms[0].end };
+    const p = { root, hips, legs, arms, neck, hand: arms[0].end, phase: 0, now: null, goal: null };
+    return p;
   }
 
-  // pose a player: running phase, crouch (0..1), arm raise (0..1 each), lean
-  function pose(p, { run = null, crouch = 0, armL = 0, armR = 0, lean = 0, kick = 0 } = {}) {
-    p.hips.position.y = 0.95 - crouch * 0.28;
-    p.hips.rotation.z = -lean;
-    const swing = run == null ? 0 : Math.sin(run) * 0.75;
-    p.legs[0].top.rotation.z = swing + crouch * 0.6 + kick;
-    p.legs[1].top.rotation.z = -swing + crouch * 0.6 - kick * 0.4;
-    p.legs[0].joint.rotation.z = -Math.max(0, -Math.sin(run || 0)) * 0.9 - crouch * 1.1 - kick * 1.2;
-    p.legs[1].joint.rotation.z = -Math.max(0, Math.sin(run || 0)) * 0.9 - crouch * 1.1;
-    p.arms[0].top.rotation.z = -swing * 0.8 + armL * 2.9;
-    p.arms[1].top.rotation.z = swing * 0.8 + armR * 2.9;
-    p.arms[0].joint.rotation.z = armL > 0.5 ? 0.2 : 0.6;
-    p.arms[1].joint.rotation.z = armR > 0.5 ? 0.2 : 0.6;
+  const POSE_KEYS = ["run", "crouch", "armL", "armR", "lean", "kick", "kickR", "side", "turn", "bounce"];
+  function pose(p, goal) { p.goal = Object.fromEntries(POSE_KEYS.map((k) => [k, goal[k] || 0])); }
+  // glide the pose toward its goal (dt in seconds); "snap" jumps straight there (first frame, frozen test frames)
+  function apply(p, dt, snap) {
+    if (!p.goal) pose(p, {});
+    if (!p.now || snap) p.now = { ...p.goal };
+    const k = 1 - Math.exp(-dt * 16);
+    for (const key of POSE_KEYS) p.now[key] += (p.goal[key] - p.now[key]) * k;
+    const n = p.now;
+    p.phase += dt * n.run;                                    // running speed in steps per second, never jumps
+    const stride = clamp(n.run / 10) * 0.8;
+    const swing = Math.sin(p.phase) * stride;
+    p.hips.position.y = 0.95 - n.crouch * 0.28 + Math.abs(Math.sin(p.phase)) * stride * 0.06 + n.bounce;
+    p.hips.rotation.z = -n.lean;
+    p.hips.rotation.x = n.side;
+    p.root.rotation.y = n.turn;
+    p.legs[0].top.rotation.z = swing + n.crouch * 0.6 + n.kick;
+    p.legs[1].top.rotation.z = -swing + n.crouch * 0.6 + n.kickR;
+    p.legs[0].joint.rotation.z = -Math.max(0, -Math.sin(p.phase)) * stride * 1.2 - n.crouch * 1.1 - n.kick * 1.3;
+    p.legs[1].joint.rotation.z = -Math.max(0, Math.sin(p.phase)) * stride * 1.2 - n.crouch * 1.1 - n.kickR * 1.3;
+    p.arms[0].top.rotation.z = -swing * 0.8 + n.armL * 2.9;
+    p.arms[1].top.rotation.z = swing * 0.8 + n.armR * 2.9;
+    p.arms[0].joint.rotation.z = lerp(0.65, 0.15, clamp(n.armL));
+    p.arms[1].joint.rotation.z = lerp(0.65, 0.15, clamp(n.armR));
   }
 
-  /* ---------- the scenes: each returns its length in seconds and an update(t) ---------- */
+  /* ---------- the scenes ---------- */
   function scenes(w) {
-    const { hero, def, ball, cam, look, rim, net, boom } = w;
+    const { THREE, hero, def, def2, ball, rim, net, boom } = w;
+    const v = new THREE.Vector3();
     const at = (o, x, y = 0, z = 0) => o.root.position.set(x, y, z);
-    const holdBall = (o) => { const p = new w.THREE.Vector3(); o.hand.getWorldPosition(p); ball.position.set(p.x + 0.06, p.y, p.z); };
-    const dribble = (o, t, side = 1) => { const p = new w.THREE.Vector3(); o.hips.getWorldPosition(p); const h = Math.abs(Math.sin(t * 9)); ball.position.set(p.x + 0.35, 0.12 + h * 0.85, side * 0.32); };
-    const sink = (t, from) => {                   // through the net and down to the floor
-      const drop = clamp(t);
-      ball.position.set(RIM.x + 0.02, lerp(RIM.y - 0.05, 0.12, drop * drop), 0);
-      net.scale.y = 1 + Math.sin(drop * Math.PI) * 0.35;
-      if (from) ball.position.x = lerp(from, RIM.x + 0.25, drop);
+    const handPos = (o) => { o.hand.getWorldPosition(v); return { x: v.x + 0.07, y: v.y, z: v.z }; };
+    const holdBall = (o) => { const h = handPos(o); ball.position.set(h.x, h.y, h.z); w.release = null; };
+    // the shot leaves from wherever the hand actually was at release
+    const shoot = (o, target, h, t) => {
+      if (!w.release) w.release = handPos(o);
+      const p = arc(w.release, target, h, t);
+      ball.position.set(p.x, p.y, p.z);
+      ball.rotation.z -= 0.25;
     };
-    const camAt = (x, y, z, lx, ly, lz) => { cam.position.set(x, y, z); look.set(lx, ly, lz); };
+    const dribble = (o, t, side) => { o.hips.getWorldPosition(v); const h = Math.abs(Math.sin(t * 8)); ball.position.set(v.x + 0.36, 0.12 + h * 0.85, v.z + side * 0.3); };
+    const sink = (t) => {
+      const d = clamp(t);
+      ball.position.set(RIM.x + 0.02 + d * 0.15, lerp(RIM.y - 0.05, 0.12, d * d), 0);
+      net.scale.y = 1 + Math.sin(d * Math.PI) * 0.4;
+    };
+    const RIM_IN = { x: RIM.x, y: RIM.y + 0.06, z: 0 };
+    const camAt = (x, y, z, lx, ly, lz) => w.camGoal(x, y, z, lx, ly, lz);
+    const face = (o, deg) => o.root.rotation.y;
     return {
-      1: { len: 2.6, update(t) {                  // grab the ball
-        const roll = seg(t, 0, 1.3), pick = seg(t, 1.2, 1.7), lift = seg(t, 1.7, 2.3);
-        at(hero, 0, 0, 0); at(def, 2.6, 0, 0.4); def.root.rotation.y = Math.PI;
-        pose(def, { crouch: 0.35, armL: 0.25, armR: 0.25 });
-        if (pick < 1) { ball.position.set(lerp(-2.5, 0.45, ease(roll)), 0.12, 0); ball.rotation.z = -roll * 12; }
-        pose(hero, { crouch: Math.sin(pick * Math.PI) * 0.8, armL: lift * 0.9 + pick * 0.1 });
-        if (pick >= 1) holdBall(hero);
-        hero.root.rotation.y = 0;
-        camAt(lerp(-1.2, 0.8, t / 2.6), 1.6, 4.4, 0.4, 0.9, 0);
-        if (t > 1.9) boom("GOT IT");
+      1: { len: 3.0, update(t) {                     // crossover: the defender hits the floor
+        const go = smooth(t, 1.4, 2.3), fall = smooth(t, 1.55, 2.3);
+        at(hero, lerp(0, 2.8, go), 0, lerp(0, -0.55, go));
+        pose(hero, { run: t > 1.4 ? 13 : 0, crouch: 0.28, armL: 0.08, lean: go * 0.22 });
+        dribble(hero, t, t < 1.4 ? Math.sin(t * 4.2) : -1);
+        at(def, 1.45, fall * 0.04, 0.1);
+        def.root.rotation.x = -fall * 1.45;
+        pose(def, { crouch: 0.4 * (1 - fall), armL: 0.3 + fall * 0.4, armR: 0.3, turn: Math.PI });
+        camAt(0.8, 1.25, 3.7, 1.3, 0.85, 0);
+        if (t > 2.05) boom("ANKLES!");
       } },
-      2: { len: 2.9, update(t) {                  // crossover, defender falls
-        const go = seg(t, 1.5, 2.3), fall = seg(t, 1.6, 2.4);
-        at(hero, lerp(0, 2.6, ease(go)), 0, lerp(0, -0.5, go));
-        pose(hero, { run: go > 0 ? t * 14 : null, crouch: 0.25, armL: 0.1, lean: go * 0.25 });
-        dribble(hero, t, t < 1.5 ? (Math.sin(t * 4.5) > 0 ? 1 : -1) : -1);
-        at(def, 1.4, 0, 0.1); def.root.rotation.y = Math.PI;
-        def.root.rotation.x = -fall * 1.45; def.root.position.y = fall * 0.05;
-        pose(def, { crouch: 0.4 * (1 - fall), armL: 0.3 + fall * 0.4, armR: 0.3 });
-        camAt(0.7, 1.2, 3.6, 1.2, 0.8, 0);
-        if (t > 2.0) boom("ANKLES!");
+      2: { len: 3.1, update(t) {                     // layup
+        const run = smooth(t, 0, 1.45), jump = seg(t, 1.4, 2.25), lay = seg(t, 1.75, 2.15);
+        at(def, 4.2, 0, 1.15); pose(def, { crouch: 0.3, armL: 0.6, turn: Math.PI * 0.8 });
+        at(hero, lerp(1.8, 5.85, run) + ease(jump) * 0.5, Math.sin(jump * Math.PI) * 0.95, 0);
+        pose(hero, { run: run < 1 ? 13 : 0, armL: jump > 0 ? 0.95 : 0.1, kick: jump > 0 ? 0.55 : 0 });
+        if (lay <= 0) holdBall(hero); else if (lay < 1) shoot(hero, RIM_IN, 0.25, lay); else sink(seg(t, 2.15, 2.65));
+        camAt(4.0, 1.9, 4.8, 5.6, 2.0, 0);
+        if (t > 2.25) boom("BUCKET");
       } },
-      3: { len: 3.0, update(t) {                  // layup
-        const runT = seg(t, 0, 1.4), jump = seg(t, 1.4, 2.2), lay = seg(t, 1.7, 2.1);
-        at(def, 4.2, 0, 1.1); def.root.rotation.y = Math.PI * 0.8; pose(def, { crouch: 0.3, armL: 0.6 });
-        const x = lerp(2, 5.9, ease(runT)) + jump * 0.5;
-        at(hero, x, Math.sin(jump * Math.PI) * 0.95, 0);
-        pose(hero, { run: runT < 1 ? t * 13 : null, armL: jump > 0 ? 0.95 : 0.1, kick: jump > 0 ? 0.5 : 0 });
-        if (lay <= 0) holdBall(hero);
-        else if (lay < 1) { const s = new w.THREE.Vector3(); hero.hand.getWorldPosition(s); const p = arc(s, { x: RIM.x, y: RIM.y + 0.1, z: 0 }, 0.25, lay); ball.position.set(p.x, p.y, p.z); }
-        else sink(seg(t, 2.1, 2.6));
-        camAt(4.2, 1.9, 4.6, 5.6, 2.0, 0);
-        if (t > 2.2) boom("BUCKET");
-      } },
-      4: { len: 3.0, update(t) {                  // floater over the defender
-        const runT = seg(t, 0, 1.1), jump = seg(t, 1.1, 1.9), fly = seg(t, 1.45, 2.35);
-        at(def, 5.6, 0, 0.4); def.root.rotation.y = Math.PI; pose(def, { crouch: 0.2, armL: Math.sin(jump * Math.PI), armR: 0.4 });
-        def.root.position.y = Math.sin(jump * Math.PI) * 0.4;
-        at(hero, lerp(1.6, 4.6, ease(runT)), Math.sin(jump * Math.PI) * 0.6, 0);
-        pose(hero, { run: runT < 1 ? t * 13 : null, armL: jump > 0 ? 0.9 : 0.1 });
-        if (fly <= 0) holdBall(hero);
-        else if (fly < 1) { const p = arc({ x: 4.7, y: 2.5, z: 0 }, { x: RIM.x, y: RIM.y + 0.05, z: 0 }, 1.5, fly); ball.position.set(p.x, p.y, p.z); }
-        else sink(seg(t, 2.35, 2.8));
+      3: { len: 3.1, update(t) {                     // floater over the defender
+        const run = smooth(t, 0, 1.15), jump = seg(t, 1.15, 1.95), fly = seg(t, 1.5, 2.4);
+        at(def, 5.6, Math.sin(jump * Math.PI) * 0.4, 0.4); pose(def, { crouch: 0.2, armL: Math.sin(jump * Math.PI), armR: 0.4, turn: Math.PI });
+        at(hero, lerp(1.6, 4.6, run), Math.sin(jump * Math.PI) * 0.6, 0);
+        pose(hero, { run: run < 1 ? 13 : 0, armL: jump > 0 ? 0.92 : 0.1 });
+        if (fly <= 0) holdBall(hero); else if (fly < 1) shoot(hero, RIM_IN, 1.5, fly); else sink(seg(t, 2.4, 2.85));
         camAt(3.2, 2.2, 5.0, 5.2, 2.2, 0);
-        if (t > 2.4) boom("TEARDROP");
+        if (t > 2.45) boom("TEARDROP");
       } },
-      5: { len: 3.2, update(t) {                  // free throw
-        const shoot = seg(t, 1.3, 1.6), fly = seg(t, 1.55, 2.6);
-        at(hero, 2.4, Math.sin(shoot * Math.PI) * 0.15, 0); at(def, 4.4, 0, 1.6); def.root.rotation.y = -Math.PI / 2; pose(def, {});
-        pose(hero, { crouch: t < 1.3 ? 0.2 + Math.abs(Math.sin(t * 6)) * 0.1 : 0.1, armL: shoot > 0 ? 1 : 0.2 });
-        if (t < 1.3) dribble(hero, t, 1);
-        else if (fly <= 0) holdBall(hero);
-        else if (fly < 1) { const p = arc({ x: 2.55, y: 2.45, z: 0 }, { x: RIM.x, y: RIM.y + 0.05, z: 0 }, 1.3, fly); ball.position.set(p.x, p.y, p.z); }
-        else sink(seg(t, 2.6, 3.0));
+      4: { len: 3.3, update(t) {                     // free throw
+        const set = smooth(t, 1.2, 1.5), fly = seg(t, 1.55, 2.6);
+        at(hero, 2.4, Math.sin(seg(t, 1.35, 1.75) * Math.PI) * 0.16, 0);
+        at(def, 4.4, 0, 1.6); pose(def, { turn: -Math.PI / 2 });
+        pose(hero, { crouch: t < 1.2 ? 0.22 : 0.1 * (1 - set), armL: set });
+        if (t < 1.2) dribble(hero, t, 1); else if (fly <= 0) holdBall(hero); else if (fly < 1) shoot(hero, RIM_IN, 1.3, fly); else sink(seg(t, 2.6, 3.0));
         camAt(1.0, 2.0, 3.8, 4.4, 2.2, 0);
         if (t > 2.7) boom("SWISH");
       } },
-      6: { len: 3.4, update(t) {                  // three-pointer
-        const shoot = seg(t, 0.8, 1.15), fly = seg(t, 1.1, 2.6);
-        at(hero, 0.1, Math.sin(shoot * Math.PI) * 0.45, 0);
-        at(def, 1.3, Math.sin(seg(t, 0.9, 1.4) * Math.PI) * 0.35, 0.1); def.root.rotation.y = Math.PI;
-        pose(def, { armL: seg(t, 0.8, 1.2), armR: seg(t, 0.8, 1.2) });
-        pose(hero, { crouch: t < 0.8 ? 0.3 : 0, armL: shoot > 0 ? 1 : 0.3 });
-        if (fly <= 0) holdBall(hero);
-        else if (fly < 1) { const p = arc({ x: 0.3, y: 2.6, z: 0 }, { x: RIM.x, y: RIM.y + 0.05, z: 0 }, 2.3, fly); ball.position.set(p.x, p.y, p.z); }
-        else sink(seg(t, 2.6, 3.0));
-        const follow = clamp((t - 1.1) / 1.5);
-        // the camera pulls back and tracks the ball through the air
-        camAt(lerp(-1.6, 1.6, ease(follow)), lerp(1.8, 2.8, follow), lerp(5.0, 7.2, follow),
-          lerp(1.0, ball.position.x, follow * 0.8), lerp(1.5, ball.position.y * 0.75 + 0.4, follow), 0);
-        if (t > 2.7) boom("SPLASH 💦");
+      5: { len: 3.5, update(t) {                     // three-pointer, the camera follows the ball
+        const set = smooth(t, 0.55, 0.95), fly = seg(t, 1.1, 2.65);
+        at(hero, 0.1, Math.sin(seg(t, 0.8, 1.25) * Math.PI) * 0.45, 0);
+        at(def, 1.3, Math.sin(seg(t, 0.9, 1.4) * Math.PI) * 0.35, 0.1);
+        pose(def, { armL: smooth(t, 0.7, 1.1), armR: smooth(t, 0.7, 1.1), turn: Math.PI });
+        pose(hero, { crouch: 0.3 * (1 - set), armL: set });
+        if (fly <= 0) holdBall(hero); else if (fly < 1) shoot(hero, RIM_IN, 2.3, fly); else sink(seg(t, 2.65, 3.05));
+        const f = smooth(t, 1.0, 2.6);
+        camAt(lerp(-1.6, 1.6, f), lerp(1.8, 2.8, f), lerp(5.0, 7.2, f), lerp(1.0, ball.position.x, f * 0.8), lerp(1.5, ball.position.y * 0.75 + 0.4, f), 0);
+        if (t > 2.75) boom("SPLASH 💦");
       } },
-      7: { len: 4.2, update(t) {                  // poster dunk, slow motion at the top
-        const slow = t < 1.6 ? t : t < 2.6 ? 1.6 + (t - 1.6) * 0.35 : 1.95 + (t - 2.6);   // game time
-        const runT = seg(slow, 0, 1.2), jump = seg(slow, 1.2, 2.25), slam = seg(slow, 1.95, 2.15);
-        at(def, 6.0, Math.sin(seg(slow, 1.25, 2.0) * Math.PI) * 0.45, 0.45);   // a step to the side, so the dunk goes over his shoulder
-        def.root.rotation.y = Math.PI;
-        const knocked = seg(slow, 2.1, 2.6);
+      6: { len: 4.3, update(t) {                     // dunk with slow motion at the top
+        const s = t < 1.6 ? t : t < 2.6 ? 1.6 + (t - 1.6) * 0.35 : 1.95 + (t - 2.6);
+        const run = smooth(s, 0, 1.2), jump = seg(s, 1.2, 2.25), slam = seg(s, 1.95, 2.15), knocked = smooth(s, 2.1, 2.6);
+        at(def, 6.0, Math.sin(seg(s, 1.25, 2.0) * Math.PI) * 0.45, 0.45);
         def.root.rotation.x = knocked * 1.5;
-        pose(def, { armL: 1 - knocked, armR: 0.8 - knocked * 0.5 });
-        const x = lerp(1.6, 5.3, ease(runT)) + jump * 1.35;
-        at(hero, x, Math.sin(clamp(jump * 1.15) * Math.PI) * 1.75, 0);
-        pose(hero, { run: runT < 1 ? slow * 13 : null, armL: jump > 0 ? 1 : 0.15, kick: jump > 0 ? 0.8 : 0, lean: -jump * 0.2 });
-        if (slam < 1) holdBall(hero);
-        else sink(seg(slow, 2.15, 2.5));
-        rim.rotation.z = slam > 0 && slam < 1 ? 0 : Math.sin(seg(slow, 2.15, 2.9) * Math.PI * 4) * 0.12 * (1 - seg(slow, 2.15, 2.9));
-        const shake = slam >= 1 && slow < 2.5 ? (Math.random() - 0.5) * 0.12 : 0;
-        camAt(lerp(3.0, 5.0, ease(seg(t, 0, 2.6))) + shake, lerp(1.6, 3.1, seg(t, 0, 2.6)) + shake, lerp(5.0, 3.0, seg(t, 0, 2.6)), lerp(4.5, RIM.x - 0.3, seg(t, 0, 2.6)), lerp(1.2, 2.8, seg(t, 0, 2.6)), 0);
-        if (slow > 2.15) boom("POSTERIZED!", true);
+        pose(def, { armL: 1 - knocked, armR: 0.8 - knocked * 0.5, turn: Math.PI });
+        at(hero, lerp(1.6, 5.3, run) + ease(jump) * 1.35, Math.sin(clamp(jump * 1.15) * Math.PI) * 1.75, 0);
+        pose(hero, { run: run < 1 ? 13 : 0, armL: jump > 0 ? 1 : 0.15, kick: jump > 0 ? 0.8 : 0, lean: -jump * 0.2 });
+        if (slam < 1) holdBall(hero); else sink(seg(s, 2.15, 2.5));
+        const wobble = seg(s, 2.15, 2.9);
+        rim.rotation.z = slam >= 1 ? Math.sin(wobble * Math.PI * 4) * 0.12 * (1 - wobble) : 0;
+        const k = smooth(t, 0, 2.6);
+        w.shake = slam >= 1 && s < 2.45 ? 0.08 : 0;
+        camAt(lerp(3.0, 5.0, k), lerp(1.6, 3.1, k), lerp(5.0, 3.0, k), lerp(4.5, RIM.x - 0.3, k), lerp(1.2, 2.8, k), 0);
+        if (s > 2.15) boom("SLAM!", true);
+      } },
+      7: { len: 7.2, update(t) {                     // POSTERIZER over two defenders, then the celebration
+        const s = t < 1.5 ? t : t < 2.9 ? 1.5 + (t - 1.5) * 0.3 : 1.92 + (t - 2.9);
+        const run = smooth(s, 0, 1.15), jump = seg(s, 1.1, 2.3), slam = seg(s, 1.9, 2.1);
+        const knocked = smooth(s, 2.05, 2.55), party = seg(s, 2.6, 6.0);
+        // both defenders jump to contest, then go flying
+        at(def, 5.55, Math.sin(seg(s, 1.15, 1.95) * Math.PI) * 0.5, 0.42);
+        at(def2, 6.05, Math.sin(seg(s, 1.25, 2.0) * Math.PI) * 0.55, -0.42);
+        def.root.rotation.x = knocked * 1.55; def2.root.rotation.x = -knocked * 1.55;
+        pose(def, { armL: 1 - knocked, armR: 0.7, turn: Math.PI });
+        pose(def2, { armL: 0.9 - knocked * 0.6, armR: 1 - knocked, turn: Math.PI });
+        // the leap from the free-throw line, right over both of them
+        const landed = s > 2.3;
+        const hx = landed ? lerp(6.55, 4.8, smooth(s, 2.6, 3.4)) : lerp(1.3, 4.1, run) + ease(jump) * 2.45;
+        const hy = landed ? 0 : Math.sin(clamp(jump * 1.08) * Math.PI) * 2.05;
+        at(hero, hx, hy, landed ? lerp(0, 0.6, smooth(s, 2.6, 3.4)) : 0);
+        if (!landed) {
+          pose(hero, { run: run < 1 ? 14 : 0, armL: jump > 0 ? 1 : 0.15, kick: jump > 0 ? 0.9 : 0, lean: -jump * 0.25 });
+        } else if (s < 3.4) {
+          pose(hero, { run: 9, turn: -Math.PI / 2 * smooth(s, 2.7, 3.3), armL: 0.6, armR: 0.6 });    // turns to the crowd
+        } else {
+          // the dance: hips bounce, heels kick in turn, arms pump, a little side to side
+          const b = (s - 3.4) * 7.5;
+          pose(hero, { turn: -Math.PI / 2, bounce: Math.abs(Math.sin(b)) * 0.06, kick: Math.max(0, Math.sin(b)) * 0.55,
+            kickR: Math.max(0, -Math.sin(b)) * 0.55, armL: 0.55 + Math.sin(b) * 0.4, armR: 0.55 - Math.sin(b) * 0.4,
+            side: Math.sin(b / 2) * 0.12, crouch: 0.15 });
+          if (s > 5.6) pose(hero, { turn: -Math.PI / 2, armL: 1, armR: 1, bounce: Math.abs(Math.sin((s - 5.6) * 6)) * 0.35 });
+        }
+        if (slam < 1) holdBall(hero); else sink(seg(s, 2.1, 2.5));
+        const wobble = seg(s, 2.1, 2.9);
+        rim.rotation.z = slam >= 1 ? Math.sin(wobble * Math.PI * 5) * 0.16 * (1 - wobble) : 0;
+        w.shake = slam >= 1 && s < 2.5 ? 0.12 : 0;
+        w.hype = slam >= 1 ? Math.min(1, (s - 2.1) * 3) : 0;
+        if (slam >= 1 && !w.confettiOn) { w.confettiOn = true; w.roar(); }
+        // camera: chase the leap, then swing round to face the celebration
+        if (s < 2.6) {
+          const k = smooth(t, 0, 2.9);
+          camAt(lerp(3.0, 5.2, k), lerp(1.6, 3.2, k), lerp(5.2, 3.3, k), lerp(4.2, RIM.x - 0.4, k), lerp(1.2, 2.8, k), 0);
+        } else {
+          camAt(lerp(5.2, 4.4, party), 1.9, 5.6, hx, 1.25, 0.3);
+        }
+        if (s > 2.1 && s < 3.4) boom("POSTERIZED!", true);
+        if (s >= 3.4) boom("CROWD GOES WILD!", true);
       } },
     };
+  }
+
+  /* ---------- the stands, the confetti and the roar ---------- */
+  function makeCrowd(THREE, scene) {
+    const rows = [], perRow = 40;
+    const stand = new THREE.Mesh(new THREE.BoxGeometry(22, 1.8, 3.2), new THREE.MeshStandardMaterial({ color: 0x1a2238, roughness: 0.9 }));
+    stand.position.set(3, 0.5, -6.6); stand.rotation.x = 0.0; scene.add(stand);
+    const bodies = new THREE.InstancedMesh(new THREE.CylinderGeometry(0.17, 0.2, 0.55, 10), new THREE.MeshStandardMaterial({ roughness: 0.8 }), perRow * 3);
+    const heads = new THREE.InstancedMesh(new THREE.SphereGeometry(0.12, 10, 8), new THREE.MeshStandardMaterial({ roughness: 0.8 }), perRow * 3);
+    const shirts = [0x1d3a8a, 0xff7a1a, 0xc93636, 0xf2c14e, 0x2fbf71, 0xffffff, 0x6250d6];
+    const skins = [0xe8b990, 0xc8956b, 0x9c6b47, 0x6e4a32];
+    const color = new THREE.Color(), m = new THREE.Matrix4();
+    for (let r = 0; r < 3; r++) {
+      for (let i = 0; i < perRow; i++) {
+        const n = r * perRow + i;
+        const seat = { x: -6 + i * 0.5 + (r % 2) * 0.25, y: 1.7 + r * 0.42, z: -5.4 - r * 0.55, phase: Math.random() * 6.28, speed: 7 + Math.random() * 5 };
+        rows.push(seat);
+        bodies.setColorAt(n, color.set(shirts[(i * 7 + r * 3) % shirts.length]));
+        heads.setColorAt(n, color.set(skins[(i * 5 + r) % skins.length]));
+        m.makeTranslation(seat.x, seat.y, seat.z); bodies.setMatrixAt(n, m);
+        m.makeTranslation(seat.x, seat.y + 0.4, seat.z); heads.setMatrixAt(n, m);
+      }
+    }
+    scene.add(bodies, heads);
+    // camera flashes in the stands
+    const flashes = Array.from({ length: 10 }, () => {
+      const f = new THREE.Mesh(new THREE.SphereGeometry(0.06, 6, 4), new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0 }));
+      scene.add(f); return f;
+    });
+    return {
+      update(time, hype) {
+        rows.forEach((seat, n) => {
+          const jump = Math.abs(Math.sin(time * seat.speed + seat.phase)) * (0.03 + hype * 0.3);
+          m.makeTranslation(seat.x, seat.y + jump, seat.z); bodies.setMatrixAt(n, m);
+          m.makeTranslation(seat.x, seat.y + 0.4 + jump, seat.z); heads.setMatrixAt(n, m);
+        });
+        bodies.instanceMatrix.needsUpdate = true; heads.instanceMatrix.needsUpdate = true;
+        for (const f of flashes) {
+          if (hype > 0.2 && Math.random() < 0.06) { const seat = rows[Math.floor(Math.random() * rows.length)]; f.position.set(seat.x, seat.y + 0.55, seat.z + 0.2); f.material.opacity = 1; }
+          f.material.opacity *= 0.82;
+        }
+      },
+    };
+  }
+
+  function makeConfetti(THREE, scene) {
+    const count = 260;
+    const mesh = new THREE.InstancedMesh(new THREE.PlaneGeometry(0.07, 0.045), new THREE.MeshBasicMaterial({ side: THREE.DoubleSide }), count);
+    const colors = [0xff7a1a, 0xf2c14e, 0x3987e5, 0x2fbf71, 0xef4b4b, 0xffffff, 0xc77dff];
+    const bits = [], color = new THREE.Color(), m = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), one = new THREE.Vector3(1, 1, 1);
+    for (let i = 0; i < count; i++) {
+      bits.push({ x: 2.5 + Math.random() * 6, z: -1.5 + Math.random() * 4, y: 4 + Math.random() * 4, fall: 0.6 + Math.random() * 0.7,
+        drift: Math.random() * 6.28, spin: 2 + Math.random() * 6 });
+      mesh.setColorAt(i, color.set(colors[i % colors.length]));
+    }
+    mesh.visible = false;
+    scene.add(mesh);
+    return {
+      update(time, on, dt) {
+        mesh.visible = on;
+        if (!on) return;
+        bits.forEach((b, i) => {
+          b.y -= b.fall * dt;
+          if (b.y < 0.03) b.y = 0.03;
+          const x = b.x + Math.sin(time * 1.6 + b.drift) * 0.25;
+          e.set(time * b.spin, time * b.spin * 0.7, b.drift);
+          m.compose(new THREE.Vector3(x, b.y, b.z), q.setFromEuler(e), one);
+          mesh.setMatrixAt(i, m);
+        });
+        mesh.instanceMatrix.needsUpdate = true;
+      },
+    };
+  }
+
+  // the crowd roar: shaped noise made in the browser, no sound file needed
+  function roar() {
+    try {
+      const A = window.AudioContext || window.webkitAudioContext;
+      if (!A) return;
+      const ctx = new A();
+      const len = ctx.sampleRate * 3.2, buf = ctx.createBuffer(1, len, ctx.sampleRate), d = buf.getChannelData(0);
+      for (let i = 0; i < len; i++) d[i] = (Math.random() * 2 - 1) * (1 + 0.3 * Math.sin(i / 900));
+      const src = ctx.createBufferSource(); src.buffer = buf;
+      const band = ctx.createBiquadFilter(); band.type = "bandpass"; band.frequency.value = 850; band.Q.value = 0.5;
+      const gain = ctx.createGain();
+      gain.gain.setValueAtTime(0.0001, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.45, ctx.currentTime + 0.35);
+      gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 3.1);
+      src.connect(band).connect(gain).connect(ctx.destination);
+      src.start();
+      setTimeout(() => ctx.close().catch(() => {}), 3500);
+    } catch (e) { /* sound is optional */ }
   }
 
   function play3D(step, done) {
@@ -229,10 +363,14 @@
     const host = document.getElementById("scene");
     host.innerHTML = "";
     const width = host.clientWidth || 340, height = Math.round(width * 0.66);
-    const renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2.5));
     renderer.setSize(width, height);
+    renderer.outputEncoding = THREE.sRGBEncoding;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.05;
     renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     renderer.domElement.className = "scene3d";
     host.append(renderer.domElement);
     const label = document.createElement("div");
@@ -240,53 +378,84 @@
     host.append(label);
 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x0f1420);
-    scene.fog = new THREE.Fog(0x0f1420, 9, 22);
-    scene.add(new THREE.HemisphereLight(0xdfe8ff, 0x3a2410, 0.75));
-    const sun = new THREE.DirectionalLight(0xffffff, 0.9);
-    sun.position.set(3, 8, 5); sun.castShadow = true; sun.shadow.mapSize.set(1024, 1024);
-    Object.assign(sun.shadow.camera, { left: -8, right: 10, top: 6, bottom: -6 });
+    scene.background = new THREE.Color(0x0c1120);
+    scene.fog = new THREE.Fog(0x0c1120, 10, 24);
+    scene.add(new THREE.HemisphereLight(0xdfe8ff, 0x3a2410, 0.65));
+    const sun = new THREE.DirectionalLight(0xffffff, 1.0);
+    sun.position.set(3, 9, 6); sun.castShadow = true;
+    sun.shadow.mapSize.set(2048, 2048); sun.shadow.bias = -0.0005; sun.shadow.radius = 3;
+    Object.assign(sun.shadow.camera, { left: -6, right: 11, top: 7, bottom: -5 });
     scene.add(sun);
-    const spot = new THREE.PointLight(0xff9a3d, 0.6, 12); spot.position.set(RIM.x, 5, 2); scene.add(spot);
+    const rimLight = new THREE.PointLight(0xff9a3d, 0.7, 12); rimLight.position.set(RIM.x, 5, 2); scene.add(rimLight);
+    const fill = new THREE.DirectionalLight(0x9cc8ff, 0.35); fill.position.set(-4, 3, -5); scene.add(fill);
 
-    const floorTex = new THREE.CanvasTexture(courtTexture());
-    const floor = new THREE.Mesh(new THREE.PlaneGeometry(20, 10), new THREE.MeshStandardMaterial({ map: floorTex, roughness: 0.55 }));
+    const tex = new THREE.CanvasTexture(courtTexture());
+    tex.anisotropy = renderer.capabilities.getMaxAnisotropy();
+    tex.encoding = THREE.sRGBEncoding;
+    const floor = new THREE.Mesh(new THREE.PlaneGeometry(20, 10), new THREE.MeshStandardMaterial({ map: tex, roughness: 0.42, metalness: 0.05 }));
     floor.rotation.x = -Math.PI / 2; floor.position.x = 4; floor.receiveShadow = true; scene.add(floor);
     // the hoop
-    const metal = new THREE.MeshStandardMaterial({ color: 0x9aa6c0, metalness: 0.6, roughness: 0.4 });
-    const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.07, 0.07, 3.6, 10), metal); pole.position.set(7.95, 1.8, 0); scene.add(pole);
+    const metal = new THREE.MeshStandardMaterial({ color: 0x9aa6c0, metalness: 0.7, roughness: 0.35 });
+    const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.07, 0.07, 3.6, 16), metal); pole.position.set(7.95, 1.8, 0); pole.castShadow = true; scene.add(pole);
     const arm = new THREE.Mesh(new THREE.BoxGeometry(0.6, 0.08, 0.08), metal); arm.position.set(7.65, 3.4, 0); scene.add(arm);
-    const board = new THREE.Mesh(new THREE.BoxGeometry(0.05, 1.05, 1.8), new THREE.MeshStandardMaterial({ color: 0xffffff, transparent: true, opacity: 0.8 }));
+    const board = new THREE.Mesh(new THREE.BoxGeometry(0.05, 1.05, 1.8), new THREE.MeshStandardMaterial({ color: 0xffffff, transparent: true, opacity: 0.75, roughness: 0.1 }));
     board.position.set(7.3, 3.45, 0); board.castShadow = true; scene.add(board);
-    const square = new THREE.Mesh(new THREE.PlaneGeometry(0.59, 0.45), new THREE.MeshBasicMaterial({ color: 0xff7a1a, wireframe: true }));
+    const square = new THREE.Mesh(new THREE.EdgesGeometry(new THREE.PlaneGeometry(0.59, 0.45)), new THREE.LineBasicMaterial({ color: 0xff7a1a }));
     square.rotation.y = -Math.PI / 2; square.position.set(7.27, 3.3, 0); scene.add(square);
-    const rim = new THREE.Group(); rim.position.set(7.3, RIM.y, 0); scene.add(rim);     // pivots at the board, shakes on the dunk
-    const ring = new THREE.Mesh(new THREE.TorusGeometry(0.23, 0.02, 8, 24), new THREE.MeshStandardMaterial({ color: 0xff5a1a, metalness: 0.4 }));
-    ring.rotation.x = Math.PI / 2; ring.position.x = RIM.x - 7.3; rim.add(ring);
-    const net = new THREE.Mesh(new THREE.CylinderGeometry(0.23, 0.14, 0.45, 12, 3, true), new THREE.MeshBasicMaterial({ color: 0xffffff, wireframe: true }));
+    const rim = new THREE.Group(); rim.position.set(7.3, RIM.y, 0); scene.add(rim);
+    const ring = new THREE.Mesh(new THREE.TorusGeometry(0.23, 0.02, 12, 40), new THREE.MeshStandardMaterial({ color: 0xff5a1a, metalness: 0.5, roughness: 0.3 }));
+    ring.rotation.x = Math.PI / 2; ring.position.x = RIM.x - 7.3; ring.castShadow = true; rim.add(ring);
+    const net = new THREE.Mesh(new THREE.CylinderGeometry(0.23, 0.14, 0.45, 16, 4, true), new THREE.MeshBasicMaterial({ color: 0xffffff, wireframe: true }));
     net.geometry.translate(0, -0.225, 0); net.position.x = RIM.x - 7.3; rim.add(net);
-    // the ball: orange with seams
-    const bc = document.createElement("canvas"); bc.width = 128; bc.height = 64;
-    const bx = bc.getContext("2d"); bx.fillStyle = "#e8742a"; bx.fillRect(0, 0, 128, 64);
-    bx.strokeStyle = "#2a1608"; bx.lineWidth = 3; bx.beginPath(); bx.moveTo(0, 32); bx.lineTo(128, 32); bx.moveTo(64, 0); bx.lineTo(64, 64);
-    bx.moveTo(32, 0); bx.quadraticCurveTo(10, 32, 32, 64); bx.moveTo(96, 0); bx.quadraticCurveTo(118, 32, 96, 64); bx.stroke();
-    const ball = new THREE.Mesh(new THREE.SphereGeometry(0.12, 20, 14), new THREE.MeshStandardMaterial({ map: new THREE.CanvasTexture(bc), roughness: 0.6 }));
+    // the ball
+    const bc = document.createElement("canvas"); bc.width = 256; bc.height = 128;
+    const bx = bc.getContext("2d"); bx.fillStyle = "#e8742a"; bx.fillRect(0, 0, 256, 128);
+    bx.strokeStyle = "#2a1608"; bx.lineWidth = 5; bx.beginPath(); bx.moveTo(0, 64); bx.lineTo(256, 64); bx.moveTo(128, 0); bx.lineTo(128, 128);
+    bx.moveTo(64, 0); bx.quadraticCurveTo(20, 64, 64, 128); bx.moveTo(192, 0); bx.quadraticCurveTo(236, 64, 192, 128); bx.stroke();
+    const btex = new THREE.CanvasTexture(bc); btex.encoding = THREE.sRGBEncoding;
+    const ball = new THREE.Mesh(new THREE.SphereGeometry(0.12, 32, 24), new THREE.MeshStandardMaterial({ map: btex, roughness: 0.55 }));
     ball.castShadow = true; scene.add(ball);
 
-    const hero = makePlayer(THREE, true), def = makePlayer(THREE, false);
-    scene.add(hero.root, def.root);
-    const cam = new THREE.PerspectiveCamera(45, width / height, 0.1, 60);
-    const look = new THREE.Vector3();
-    let shown = "";
-    const boom = (text, big) => {
-      if (shown === text) return;
-      shown = text;
-      label.textContent = text;
-      label.className = "boom3d on" + (big ? " big" : "");
-    };
-    const S = scenes({ THREE, hero, def, ball, cam, look, rim, net, boom })[step];
+    const hero = makePlayer(THREE, { face: true, skin: 0xe8b990, jersey: 0x1d3a8a, shorts: 0x16295f, shoe: 0xff7a1a });
+    const red = { skin: 0x9c6b47, jersey: 0xc93636, shorts: 0x8f2424, shoe: 0xffffff };
+    const def = makePlayer(THREE, red), def2 = makePlayer(THREE, { ...red, skin: 0xc8956b });
+    scene.add(hero.root, def.root, def2.root);
+    def2.root.visible = step === 7;
+    if (step !== 7) def2.root.position.set(-20, 0, 0);
+    const crowd = makeCrowd(THREE, scene);
+    const confetti = makeConfetti(THREE, scene);
 
-    let start = null, raf = null, finished = false;
+    // colours were picked as on-screen colours: convert them once so the sRGB output shows them as intended
+    const fixed = new Set();
+    scene.traverse((o) => {
+      const mats = o.material ? (Array.isArray(o.material) ? o.material : [o.material]) : [];
+      for (const mt of mats) if (mt.color && !fixed.has(mt)) { fixed.add(mt); mt.color.convertSRGBToLinear(); }
+      if (o.isInstancedMesh && o.instanceColor) {
+        const c = new THREE.Color();
+        for (let i = 0; i < o.count; i++) { o.getColorAt(i, c); o.setColorAt(i, c.convertSRGBToLinear()); }
+        o.instanceColor.needsUpdate = true;
+      }
+    });
+    scene.background.convertSRGBToLinear(); scene.fog.color.convertSRGBToLinear();
+
+    const cam = new THREE.PerspectiveCamera(45, width / height, 0.1, 60);
+    const camPos = new THREE.Vector3(), camLook = new THREE.Vector3(), goalPos = new THREE.Vector3(), goalLook = new THREE.Vector3();
+    let shown = "";
+    const w = {
+      THREE, hero, def, def2, ball, rim, net, shake: 0, hype: 0, release: null, confettiOn: false, roar,
+      boom(text, big) {
+        if (shown === text) return;
+        shown = text;
+        label.textContent = text;
+        label.className = "boom3d" + (big ? " big" : "");
+        void label.offsetWidth;
+        label.className += " on";
+      },
+      camGoal(x, y, z, lx, ly, lz) { goalPos.set(x, y, z); goalLook.set(lx, ly, lz); },
+    };
+    const S = scenes(w)[step];
+
+    let start = null, last = null, raf = null, finished = false, first = true;
     const end = () => {
       if (finished) return;
       finished = true;
@@ -294,25 +463,34 @@
       renderer.dispose();
       done();
     };
-    const freeze = params.has("test") ? Number(params.get("freeze")) : 0;   // testing: hold one moment, e.g. &freeze=1.7
+    const freeze = params.has("test") ? Number(params.get("freeze")) : 0;
     const frame = (now) => {
-      if (start == null) start = now;
+      if (start == null) { start = now; last = now; }
+      const dt = Math.min(0.05, (now - last) / 1000);
+      last = now;
       const t = freeze > 0 ? freeze : (now - start) / 1000;
-      if (freeze > 0) { S.update(t); cam.lookAt(look); renderer.render(scene, cam); raf = requestAnimationFrame(frame); return; }
+      const snap = first || freeze > 0;
       S.update(Math.min(t, S.len));
-      cam.lookAt(look);
+      for (const p of [hero, def, def2]) apply(p, dt, snap);
+      // the camera eases toward where the scene wants it (snaps on the first frame)
+      const k = snap ? 1 : 1 - Math.exp(-dt * 5);
+      camPos.lerp(goalPos, k); camLook.lerp(goalLook, k);
+      cam.position.copy(camPos);
+      if (w.shake) cam.position.add(new THREE.Vector3((Math.random() - 0.5) * w.shake, (Math.random() - 0.5) * w.shake, 0));
+      cam.lookAt(camLook);
+      crowd.update(t, w.hype);
+      confetti.update(t, w.confettiOn, freeze > 0 ? 0.6 : dt);
       renderer.render(scene, cam);
-      if (t < S.len + 0.6) raf = requestAnimationFrame(frame);
+      first = false;
+      if (freeze > 0 || t < S.len + 0.5) raf = requestAnimationFrame(frame);
       else end();
     };
     raf = requestAnimationFrame(frame);
     document.getElementById("btn-skip").onclick = end;
   }
 
-  // Take over Cutscene.play: 3D when possible, otherwise the flat version
   window.Cutscene = {
     ...flat,
-    // testing (?test&scene=7): wait up to 6 seconds for the 3D library before the first scene
     whenReady(cb) {
       const t0 = Date.now();
       const check = () => (ready && faceCanvas) || Date.now() - t0 > 6000 ? cb() : setTimeout(check, 100);
@@ -323,10 +501,9 @@
       const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       if (!ready || reduce) return flat.play(step, done);
       try {
-        // the header (step x of 7, the move's name, the progress pips) is drawn by the flat version's code
         document.getElementById("cut-step").textContent = `Step ${step} of 7`;
         document.getElementById("cut-title").textContent = flat.names[step - 1];
-        document.getElementById("screen-cutscene").classList.toggle("is-dunk", step === 7);
+        document.getElementById("screen-cutscene").classList.toggle("is-dunk", step >= 6);
         const pips = document.getElementById("cut-steps");
         pips.replaceChildren();
         for (let i = 1; i <= 7; i++) {
