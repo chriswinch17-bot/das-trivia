@@ -303,6 +303,7 @@
   async function finishGrid() {
     if (state.finished) return;
     const seconds = Math.round((Date.now() - (state.startedAt || Date.now())) / 1000);
+    if (!testMode && kind === "daily" && window.DasCommon && !closed()) window.DasCommon.record("grids", 0, "");
     if (testMode || !online) return draw();
     try {
       const row = await rpc("grid_finish", { p_puzzle: puzzle.id, p_player: playerName, p_seconds: seconds, p_boxes: boxes().replace(/\n/g, " ") });

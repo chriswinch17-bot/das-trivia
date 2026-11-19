@@ -17,6 +17,13 @@
   const shortSeason = (s) => `${s.slice(2, 4)}-${s.slice(7, 9)}`;
 
   let data;
+  // "My team": the name picked in any game (js/common.js) matched to a manager, highlighted everywhere
+  let me = null;
+  function findMe() {
+    const name = (window.DasCommon && window.DasCommon.player() || "").toLowerCase();
+    const m = name && data.managers.find((x) => x.name.toLowerCase() === name);
+    me = m ? m.manager : null;
+  }
 
   function show() {
     for (const el of document.querySelectorAll(".screen")) el.hidden = el.id !== "screen-analytics";
@@ -72,7 +79,7 @@
     const n = data.rankings.length;
     list.innerHTML = data.rankings.map((t, i) => {
       const luck = t.luck > 0.25 ? `+${t.luck} 🍀` : t.luck < -0.25 ? `${t.luck} 😤` : `${t.luck}`;
-      return `<li class="pr rank-${t.rank} tier-${t.tier.split(" ")[0].toLowerCase()}${t.fraud ? " is-fraud" : ""}${t.robbed ? " is-robbed" : ""}" id="pr-${t.manager}" style="animation-delay:${(n - 1 - i) * 70}ms">
+      return `<li class="pr rank-${t.rank} tier-${t.tier.split(" ")[0].toLowerCase()}${t.fraud ? " is-fraud" : ""}${t.robbed ? " is-robbed" : ""}${t.manager === me ? " mine" : ""}" id="pr-${t.manager}" style="animation-delay:${(n - 1 - i) * 70}ms">
         ${t.fraud ? '<span class="fraud-stamp" aria-label="Fraud alert">🚨 FRAUD</span>' : ""}
         ${t.robbed ? '<span class="fraud-stamp robbed-stamp" aria-label="Robbed">😤 ROBBED</span>' : ""}
         <button type="button" class="pr-top" aria-expanded="false">
@@ -393,6 +400,8 @@
     $("rv-b").onchange = () => pickRivalry($("rv-a").value, $("rv-b").value);
     renderRivalHeads();
     renderRivalPeople();
+    const mine = me && data.rivalries.people.find((p) => p.manager === me);
+    if (mine) return pickRivalry(me, mine.nemesis.vs);       // your rivalry with your nemesis first
     const h = data.rivalries.pairs.find((x) => x.key === data.rivalries.headlines.lopsided);
     pickRivalry(h.a, h.b);
   }
@@ -415,7 +424,7 @@
     const maxCap = Math.max(...L.teams.map((t) => t.capital));
     $("pk-list").innerHTML = L.teams.map((t) => {
       const gone = t.own_firsts_gone.map((y) => `${y} to ${esc(nm(holder[`${y}|1|${t.manager}`]))}`);
-      return `<article class="pk-team" id="pk-${t.manager}">
+      return `<article class="pk-team${t.manager === me ? " mine" : ""}" id="pk-${t.manager}">
         <header><span class="pr-rank">${t.rank}</span>
           <span class="pk-name"><b>${esc(t.team)}</b> <span class="pr-mgr">(${esc(t.name)})</span>
             <small>${t.count.map((c, i) => `${c} ${["1st", "2nd", "3rd"][i] || `R${i + 1}`}${c === 1 ? "" : "s"}`).join(" · ")}${t.power_rank ? ` · #${t.power_rank} in power rankings` : ""}</small></span>
@@ -548,7 +557,8 @@
       : live ? `<span class="od-dot"></span> Live: about ${Math.round(live.played * 100)}% of the week played. ${src}`
       : state === "live" ? "This week has just started: no points yet, so the live lines match the opening lines."
       : "Opening lines for next week. Live lines appear once it starts.";
-    $("od-list").innerHTML = W.games.map((g) => {
+    const games = me ? [...W.games].sort((x, y) => (y.a === me || y.b === me) - (x.a === me || x.b === me)) : W.games;
+    $("od-list").innerHTML = games.map((g) => {
       const L = live && live.lines[`${g.a}|${g.b}`];
       const side = (k) => {
         const me = g[k];
@@ -566,7 +576,7 @@
         </div>`;
       };
       const pA = L ? L.p * 100 : g.a_prob;
-      return `<article class="od-game" id="od-${g.a}-${g.b}">
+      return `<article class="od-game${g.a === me || g.b === me ? " mine" : ""}" id="od-${g.a}-${g.b}">
         ${side("a")}${side("b")}
         <div class="od-foot"><div class="tr-share od-bar" aria-hidden="true"><span style="width:${pA.toFixed(1)}%"></span></div>
           ${state === "final" && L ? `<span>Final: ${esc(L.a > L.b ? g.a_name : g.b_name)} by ${Math.round(Math.abs(L.a - L.b))} · ${(g.favorite === (L.a > L.b ? g.a : g.b)) ? "favourite won" : "upset!"}</span>
@@ -1004,6 +1014,7 @@
       const response = await fetch("data/analytics.json", { cache: "no-cache" });
       if (!response.ok) throw new Error(response.status);
       data = await response.json();
+      findMe();
     } catch (error) {
       $("an-sub").textContent = "The analytics file didn't load. Try refreshing.";
       return;
@@ -1033,7 +1044,7 @@
       openTab("ask");
       $("paywall").scrollIntoView({ block: "center", behavior: "smooth" });
     };
-    manager = (data.rankings[0] || data.managers[0]).manager;
+    manager = me || (data.rankings[0] || data.managers[0]).manager;
     renderManagerChips();
     renderProfile();
     for (const b of $("an-tabs").querySelectorAll("button")) b.onclick = () => openTab(b.dataset.tab);

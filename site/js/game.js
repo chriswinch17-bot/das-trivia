@@ -703,6 +703,7 @@
           $("final-rarity").hidden = false;
         }
       }
+      annotateRecap(everyone);
       draw(everyone, (testMode ? "Practice mode: your score isn't saved to the leaderboard. " : "")
         + (mode === "trivia" ? "Scores are rarity scores: answers fewer people got count more. " : "")
         + "Tap a name to see their answers." + (testMode ? "" : " First score counts, one game per player per day."));
@@ -711,10 +712,74 @@
     }
   }
 
+  // Under each of your answers: how many of today's players got that question.
+  function annotateRecap(rows) {
+    const tally = {};
+    for (const r of rows) for (const a of r.answers || []) {
+      const t = tally[a.q] || (tally[a.q] = { right: 0, all: 0 });
+      t.all += 1; if (a.r === "correct") t.right += 1;
+    }
+    [...$("recap").children].forEach((item, i) => {
+      const t = tally[(state.answers[i] || {}).question];
+      if (!t || t.all < 2) return;
+      let tag = item.querySelector(".rshare");
+      if (!tag) { tag = document.createElement("div"); tag.className = "rshare"; item.append(tag); }
+      const pct = Math.round(t.right / t.all * 100);
+      tag.textContent = `${t.right} of ${t.all} players got this (${pct}%)` + (pct <= 25 && state.answers[i].result === "correct" ? " · rare get! 💎" : "");
+    });
+  }
+
+  // A picture of your result for the group chat: the boxes, the score and the game.
+  async function shareImage() {
+    const S = 1080, c = document.createElement("canvas");
+    c.width = S; c.height = S;
+    const x = c.getContext("2d");
+    try { await Promise.all(['800 90px "Barlow Condensed"', '600 34px Inter'].map((f) => document.fonts.load(f))); } catch (e) { /* default fonts */ }
+    const bg = x.createLinearGradient(0, 0, S, S);
+    bg.addColorStop(0, "#1d2d6e"); bg.addColorStop(0.6, "#0f1420"); bg.addColorStop(1, "#3a1d06");
+    x.fillStyle = bg; x.fillRect(0, 0, S, S);
+    x.strokeStyle = "#ff7a1a"; x.lineWidth = 8; x.strokeRect(20, 20, S - 40, S - 40);
+    x.textAlign = "center";
+    x.fillStyle = "#ff7a1a"; x.font = '800 54px "Barlow Condensed", Impact, sans-serif';
+    x.fillText("DAS TRIVIA", S / 2, 130);
+    x.fillStyle = "#f3f5fa"; x.font = '800 86px "Barlow Condensed", Impact, sans-serif';
+    x.fillText(`${M.icon} ${game.title.toUpperCase()} #${gameNumber}`, S / 2, 240);
+    const n = state.answers.length, size = Math.min(110, (S - 200) / n - 14), gap = 14;
+    const left = (S - (n * size + (n - 1) * gap)) / 2;
+    const colors = { correct: "#2fbf71", close: "#ffa51f", wrong: "#ef4b4b", timeout: "#5b6788" };
+    state.answers.forEach((a, i) => {
+      x.fillStyle = colors[a.result] || "#5b6788";
+      const bx = left + i * (size + gap);
+      x.beginPath(); x.roundRect ? x.roundRect(bx, 320, size, size, 18) : x.rect(bx, 320, size, size); x.fill();
+      if (a.hint) { x.font = `${Math.round(size * 0.45)}px sans-serif`; x.fillText("💡", bx + size / 2, 320 + size * 0.68); }
+    });
+    const score = $("final-score").textContent;
+    x.fillStyle = "#ff7a1a"; x.font = '800 220px "Barlow Condensed", Impact, sans-serif';
+    x.fillText(score, S / 2, 700);
+    x.fillStyle = "#d5dbea"; x.font = "600 40px Inter, sans-serif";
+    x.fillText($("final-sub").textContent, S / 2, 780);
+    const streak = window.DasCommon ? window.DasCommon.streak() : 0;
+    if (streak > 1) { x.fillStyle = "#ffb36b"; x.fillText(`🔥 ${streak}-day streak`, S / 2, 850); }
+    x.fillStyle = "#9aa6c0"; x.font = "600 30px Inter, sans-serif";
+    x.fillText(location.host + location.pathname.replace(/\/$/, ""), S / 2, S - 70);
+    const blob = await new Promise((r) => c.toBlob(r, "image/png"));
+    const file = new File([blob], "das-trivia.png", { type: "image/png" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try { await navigator.share({ files: [file], text: shareText() }); return; } catch (e) { /* closed */ return; }
+    }
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = "das-trivia.png"; a.click();
+    $("share-status").textContent = "Image saved. Send it to the group chat.";
+  }
+
   function showResults() {
     stopSong();
     show("results");
     const score = state.answers.reduce((sum, a) => sum + a.points, 0);
+    // today's real game (not practice, not an old day): remembered for the home page, streak and scorecard
+    if (!testMode && window.DasCommon && gameNumber === Math.max(0, daysBetween(game.start_date, today())) + 1) {
+      window.DasCommon.record(mode, score, marks());
+    }
     const right = state.answers.filter((a) => a.result === "correct").length;
     $("final-score").textContent = score;
     $("final-sub").textContent = `${right} of ${questions.length} correct · ${M.label} #${gameNumber}`;
@@ -857,18 +922,74 @@
     showGame(current);
   }
 
+  // Home: your name, streak, today's progress and a ✅ on every game you've played today.
+  function drawHome() {
+    const C = window.DasCommon;
+    if (!C) return;
+    const done = C.playedToday();
+    const cards = { trivia: "to-trivia-game", papo: "to-papo", team: "to-team", rorw: "to-rorw", feud: "to-feud", grids: "to-grids" };
+    let played = 0, total = 0;
+    for (const g of C.GAMES) {
+      const card = $(cards[g.mode]);
+      if (!card) continue;
+      const r = done[g.mode];
+      card.classList.toggle("played", Boolean(r));
+      let badge = card.querySelector(".played-badge");
+      if (r) {
+        played += 1;
+        if (g.mode !== "grids") total += r.score;
+        if (!badge) { badge = document.createElement("span"); badge.className = "played-badge"; card.append(badge); }
+        badge.textContent = g.mode === "grids" ? "✅ Done" : `✅ ${r.score}`;
+      } else if (badge) badge.remove();
+    }
+    const count = C.GAMES.filter((g) => $(cards[g.mode])).length;
+    $("you-name").textContent = C.player() || "Pick your name";
+    $("you-meter-fill").style.width = `${(played / count) * 100}%`;
+    $("you-progress").textContent = played === count ? `All ${count} games played today 🎉 · ${total} points`
+      : played ? `${played} of ${count} games played today · ${total} points` : `${count} games today. Tip off whenever you're ready.`;
+    const streak = C.streak();
+    $("you-streak").hidden = streak < 1;
+    $("you-streak").textContent = `🔥 ${streak}-day streak`;
+    $("you-copy").hidden = !played;
+    $("you-copy").onclick = async () => {
+      try { await navigator.clipboard.writeText(C.scorecard()); $("you-status").textContent = "Copied! Paste it into the group chat."; }
+      catch (e) { $("you-status").textContent = C.scorecard(); }
+      $("you-status").hidden = false;
+    };
+    $("you-boards").href = keepTest("?mode=boards");
+    $("you-change").onclick = (event) => {
+      event.preventDefault();
+      const box = $("you-names");
+      box.hidden = !box.hidden;
+      if (box.hidden) return;
+      box.replaceChildren();
+      fetch("data/managers.json").then((r) => r.json()).then((list) => {
+        for (const m of list) {
+          const b = document.createElement("button");
+          b.type = "button";
+          b.className = "name-btn" + (m.name === C.player() ? " picked" : "");
+          b.textContent = m.name;
+          b.onclick = () => { setPlayer(m.name); box.hidden = true; drawHome(); };
+          box.append(b);
+        }
+      }).catch(() => { box.textContent = "Couldn't load the names."; });
+    };
+  }
+
   async function start() {
     // the Home button on every game screen; every link back home keeps practice mode on
     for (const a of document.querySelectorAll('a[href="./"]')) a.href = keepTest("./");
     $("home-link").hidden = home;
     if (params.get("mode") === "grids") return;   // DAS GRIDS runs from js/grids.js
     if (params.get("mode") === "analytics") return;   // EquipoGPT Analytics runs from js/analytics.js
+    if (params.get("mode") === "boards") return;      // Leaderboards run from js/boards.js
     if (params.get("mode") === "archive") return openArchive();
     if (home) {
       $("to-archive").href = keepTest("?mode=archive");
       $("home-date").textContent = new Intl.DateTimeFormat("en-US", { timeZone: TIME_ZONE, weekday: "long", month: "long", day: "numeric" }).format(new Date());
       $("to-trivia-game").href = keepTest("?mode=trivia");
       for (const [id, m] of [["to-papo", "papo"], ["to-team", "team"], ["to-rorw", "rorw"], ["to-grids", "grids"], ["to-analytics", "analytics"]]) $(id).href = keepTest(`?mode=${m}`);
+      drawHome();
       return show("home");
     }
     try {
@@ -920,6 +1041,7 @@
     $("btn-next").addEventListener("click", nextStep);
     $("btn-hint").addEventListener("click", useHint);
     $("btn-share").addEventListener("click", copyShare);
+    $("btn-share-img").addEventListener("click", shareImage);
     $("video-close").addEventListener("click", closeShareVideo);
     $("share-video-player").addEventListener("ended", closeShareVideo);
     $("share-video").addEventListener("click", (event) => { if (event.target === $("share-video")) closeShareVideo(); });

@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=71">
+  <link rel="stylesheet" href="css/style.css?v=72">
 </head>
 <body>
   <div class="court" aria-hidden="true"></div>
@@ -47,6 +47,24 @@
     <section class="screen card" id="screen-home" hidden>
       <p class="eyebrow" id="home-date"></p>
       <h1>Today's games</h1>
+      <!-- You: name, streak and today's scorecard (js/common.js keeps this in the browser) -->
+      <div class="you-panel" id="you-panel">
+        <div class="you-row">
+          <span class="you-name">👤 <b id="you-name">Pick your name</b> <a href="#" id="you-change">change</a></span>
+          <span class="you-streak" id="you-streak" hidden></span>
+        </div>
+        <div class="you-today">
+          <div class="you-meter" aria-hidden="true"><span id="you-meter-fill"></span></div>
+          <span id="you-progress"></span>
+        </div>
+        <div class="you-actions">
+          <button type="button" class="btn ghost" id="you-copy" hidden>📋 Copy today's scorecard</button>
+          <a class="btn ghost" id="you-boards" href="?mode=boards">🏆 Leaderboards</a>
+        </div>
+        <p class="fine" id="you-status" hidden></p>
+      </div>
+      <!-- picking a name from home -->
+      <div class="you-names" id="you-names" hidden></div>
       <!-- The game-show stage: the host in front of a survey board. The board is a running joke. -->
       <div class="stage">
         <figure class="stage-host">
@@ -388,6 +406,21 @@
       <p class="fine center"><a href="./">← Back to all games</a></p>
     </section>
 
+    <!-- Leaderboards: every game added up (js/boards.js) -->
+    <section class="screen card" id="screen-boards" hidden>
+      <h1>Leader<i class="o">boards</i></h1>
+      <nav class="seg bd-tabs" id="bd-tabs">
+        <button type="button" data-tab="week">This week</button>
+        <button type="button" data-tab="month">This month</button>
+        <button type="button" data-tab="all">All time</button>
+        <button type="button" data-tab="streaks">🔥 Streaks</button>
+      </nav>
+      <p class="fine" id="bd-note"></p>
+      <p class="bd-champ" id="bd-champ" hidden></p>
+      <ol class="leaders bd-list" id="bd-list"></ol>
+      <p class="fine center"><a href="./">← Back to all games</a></p>
+    </section>
+
     <!-- Share card sheet for EquipoGPT Analytics (js/analytics.js) -->
     <div class="share-sheet" id="share-sheet" hidden>
       <div class="ss-box" role="dialog" aria-label="Share card">
@@ -517,7 +550,10 @@
       <p class="score-sub" id="final-sub"></p>
       <p class="fine" id="final-rarity" hidden></p>
       <div class="grid" id="final-grid"></div>
-      <button class="btn primary" id="btn-share">Share result</button>
+      <div class="share-btns">
+        <button class="btn primary" id="btn-share">Share result</button>
+        <button class="btn ghost" id="btn-share-img" type="button">🖼️ Share as image</button>
+      </div>
       <p class="fine" id="share-status">Copies your boxes and score so you can paste them into the group chat.</p>
       <h3 id="leaders-title">Today's leaderboard</h3>
       <ol class="leaders" id="leaders"></ol>
@@ -559,11 +595,13 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=71"></script>
-  <script src="js/effects.js?v=71"></script>
-  <script src="js/cutscene.js?v=71"></script>
-  <script src="js/game.js?v=71"></script>
-  <script src="js/grids.js?v=71"></script>
-  <script src="js/analytics.js?v=71"></script>
+  <script src="js/config.js?v=72"></script>
+  <script src="js/common.js?v=72"></script>
+  <script src="js/effects.js?v=72"></script>
+  <script src="js/cutscene.js?v=72"></script>
+  <script src="js/game.js?v=72"></script>
+  <script src="js/grids.js?v=72"></script>
+  <script src="js/analytics.js?v=72"></script>
+  <script src="js/boards.js?v=72"></script>
 </body>
 </html>

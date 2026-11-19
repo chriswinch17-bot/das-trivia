@@ -920,3 +920,54 @@ h3 { font-size: 22px; margin: 28px 0 10px; color: var(--muted); }
 .hint-row { margin: -4px 0 12px; }
 .hint-btn { width: auto; margin: 0; padding: 7px 12px; font-size: 13px; }
 .hint-text { margin: 0; padding: 8px 12px; border-radius: 10px; background: rgba(242, 193, 78, .12); border: 1px solid #5b4a1c; color: #ffe08a; font-weight: 600; }
+
+/* Home: you panel, played badges */
+.you-panel { margin: 0 0 16px; padding: 12px 14px; border-radius: 16px; background: linear-gradient(135deg, rgba(57, 135, 229, .14), rgba(255, 122, 26, .1)), #10172a;
+  border: 1px solid var(--card-edge); display: grid; gap: 8px; }
+.you-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px; }
+.you-name { font-size: 15px; }
+.you-name a { color: var(--orange); font-size: 13px; margin-left: 4px; }
+.you-streak { font-weight: 800; color: #ffb36b; }
+.you-today { display: grid; gap: 4px; font-size: 13px; color: #d5dbea; }
+.you-meter { height: 8px; border-radius: 4px; background: #222b42; overflow: hidden; }
+.you-meter span { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #2fbf71, #9fd36a); transition: width .4s; }
+.you-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.you-actions .btn { width: auto; margin: 0; padding: 8px 12px; font-size: 13px; flex: 1 1 auto; text-align: center; }
+.you-names { display: flex; flex-wrap: wrap; gap: 6px; margin: -6px 0 14px; }
+.bonus { position: relative; }
+.played-badge { position: absolute; top: 8px; right: 10px; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 800;
+  background: rgba(47, 191, 113, .9); color: #06210f; }
+.bonus.played { opacity: .82; }
+
+/* Leaderboards page */
+.bd-tabs { display: flex; flex-wrap: wrap; }
+.bd-champ { margin: 4px 0 10px; padding: 8px 12px; border-radius: 12px; background: rgba(242, 193, 78, .12); border: 1px solid #5b4a1c; color: #ffe08a; font-weight: 700; }
+.bd-list li { display: grid; grid-template-columns: 32px 1fr auto; grid-template-areas: "r n s" "r b s"; align-items: center; column-gap: 8px; }
+.bd-list .lr { grid-area: r; }
+.bd-list .ln { grid-area: n; }
+.bd-list .bd-sub { grid-area: b; font-size: 11px; color: var(--muted); }
+.bd-list .ls { grid-area: s; }
+h1 .o { font-style: normal; color: var(--orange); }
+
+/* Phone menu bar */
+.bottom-nav { display: none; }
+@media (max-width: 640px) {
+  .bottom-nav { position: fixed; z-index: 30; left: 0; right: 0; bottom: 0; display: grid; grid-template-columns: repeat(5, 1fr);
+    padding: 6px 4px calc(6px + env(safe-area-inset-bottom)); background: rgba(11, 17, 32, .96); border-top: 1px solid var(--card-edge);
+    backdrop-filter: blur(8px); }
+  .bottom-nav a { display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 4px 0; border-radius: 10px; text-decoration: none;
+    color: var(--muted); font-size: 11px; }
+  .bottom-nav a span { font-size: 20px; line-height: 1.1; }
+  .bottom-nav a b { font-weight: 600; }
+  .bottom-nav a.on { color: #fff; background: rgba(255, 122, 26, .16); }
+  body.has-bottom-nav main { padding-bottom: 86px; }
+}
+
+/* My team (Analytics) */
+.mine { box-shadow: 0 0 0 2px #3987e5 !important; }
+.pr.mine .pr-name::after, .pk-team.mine .pk-name b::after { content: " · YOU"; font-size: 11px; font-weight: 800; color: #6aa8f0; letter-spacing: .5px; }
+
+/* Results */
+.share-btns { display: grid; gap: 8px; }
+.share-btns .btn { margin: 0; }
+.rshare { margin-top: 3px; font-size: 12px; color: #9fd36a; }
