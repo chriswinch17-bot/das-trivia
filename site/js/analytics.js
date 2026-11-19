@@ -445,6 +445,8 @@
      shrinks as the week runs out. The share left is estimated from league-wide points scored vs projected. */
   let oddsWeek = null;
   const liveScores = {};   // week -> {manager: points}
+  const liveStarters = {}; // week -> {manager: [[player id, current points], ...]}
+  const liveBench = {};    // week -> {manager: [player ids not starting]}
   const liveFetched = {};  // week -> "sleeper" | "nightly"
   const erf = (x) => {     // Abramowitz-Stegun approximation, plenty for odds
     const s = Math.sign(x); x = Math.abs(x);
@@ -488,6 +490,10 @@
       if (!r.ok) throw new Error(r.status);
       const rows = await r.json();
       liveScores[W.week] = Object.fromEntries(rows.map((e) => [O.roster_manager[String(e.roster_id)], e.points || 0]));
+      liveStarters[W.week] = Object.fromEntries(rows.map((e) => [O.roster_manager[String(e.roster_id)],
+        (e.starters || []).map((pid, i) => [pid, (e.starters_points || [])[i] || 0])]));
+      liveBench[W.week] = Object.fromEntries(rows.map((e) => [O.roster_manager[String(e.roster_id)],
+        (e.players || []).filter((pid) => !(e.starters || []).includes(pid))]));
       liveFetched[W.week] = "sleeper";
     } catch (e) {
       const nightly = {};
@@ -497,10 +503,61 @@
     }
   }
 
+  // LOCK-IN: Sleeper doesn't say which games are locked, so a starter's current number can still change while his
+  // NBA team has games left. His final is projected as the better of his current game and his usual weekly score
+  // (a manager won't lock a bad game with more chances coming); with no games left, the current number is final.
+  function projectTeam(W, mid) {
+    const LM = data.odds.live_model;
+    const starters = (liveStarters[W.week] || {})[mid];
+    if (!LM || !starters) return null;
+    const today = window.DasCommon ? window.DasCommon.today() : new Date().toISOString().slice(0, 10);
+    const lateTonight = Number(new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", hour: "numeric", hourCycle: "h23" }).format(new Date())) >= 23;
+    const games = LM.games[String(W.week)] || {};
+    const gamesLeft = (pid) => LM.injured.includes(pid) ? 0
+      : (games[(LM.players[pid] || [])[1]] || []).filter((d) => d > today || (d === today && !lateTonight)).length;
+    // bench players who still have games, best first: they can be swapped into an empty (hurt / done, 0-point) spot
+    const bench = ((liveBench[W.week] || {})[mid] || []).filter((pid) => gamesLeft(pid) > 0)
+      .sort((x, y) => (LM.players[y] || [0])[0] - (LM.players[x] || [0])[0]);
+    let final = 0, variance = 0, left = 0;
+    for (const [pid, now] of starters) {
+      const usual = (LM.players[pid] || [0])[0];
+      let remaining = gamesLeft(pid);
+      let level = usual;
+      if (!remaining && now <= 0 && bench.length) {           // swap in the best bench player with games left
+        const sub = bench.shift();
+        remaining = gamesLeft(sub);
+        level = (LM.players[sub] || [0])[0];
+      }
+      left += remaining;
+      if (!remaining) { final += now; continue; }
+      final += Math.max(now, level * 0.92);
+      variance += Math.pow(level * 0.4, 2);
+    }
+    return { final, sd: Math.sqrt(variance), left };
+  }
+
   function liveLines(W) {
     const pts = liveScores[W.week] || {};
     const scored = Object.values(pts).reduce((a, b) => a + b, 0);
     if (!scored) return null;
+    if (data.odds.live_model && liveStarters[W.week]) {
+      const lines = {}, v = data.odds.vig;
+      let played = weekPlayed(W.week);
+      for (const g of W.games) {
+        const A = projectTeam(W, g.a), B = projectTeam(W, g.b);
+        if (!A || !B) return null;
+        const margin = A.final - B.final;
+        const sd = Math.max(4, Math.sqrt(A.sd * A.sd + B.sd * B.sd));
+        const p = Math.min(0.999, Math.max(0.001, phiN(margin / sd)));
+        lines[`${g.a}|${g.b}`] = {
+          a: pts[g.a] || 0, b: pts[g.b] || 0, p, a_proj: A.final, b_proj: B.final, a_left: A.left, b_left: B.left,
+          a_ml: americanOdds(Math.min(p + v, 0.98)), b_ml: americanOdds(Math.min(1 - p + v, 0.98)),
+          favorite: Math.abs(margin) >= 0.5 ? (margin > 0 ? g.a : g.b) : null, spread: halfPt(Math.abs(margin)),
+          total: halfPt(A.final + B.final),
+        };
+      }
+      return { lines, played: played == null ? 0.5 : played, byStarters: true };
+    }
     const projected = W.games.reduce((a, g) => a + g.a_proj + g.b_proj, 0);
     const byDate = weekPlayed(W.week);
     const played = byDate != null ? byDate : Math.min(0.99, scored / projected);
@@ -554,6 +611,8 @@
     const live = state !== "next" ? liveLines(W) : null;
     const src = liveFetched[W.week] === "sleeper" ? "Scores straight from Sleeper, refresh the page for the latest." : "Scores as of last night's refresh (Sleeper didn't answer).";
     $("od-live").innerHTML = state === "final" ? `Final scores. ${src}`
+      : live && live.byStarters ? `<span class="od-dot"></span> Live. The big number is each team's score right now, but Sleeper doesn't say which games are locked, so starters with games left can still change it. `
+        + `"Final ~" is EquipoGPT's projection: each starter with games left counts as the better of his current game and his usual one. ${src}`
       : live ? `<span class="od-dot"></span> Live: about ${Math.round(live.played * 100)}% of the week played. ${src}`
       : state === "live" ? "This week has just started: no points yet, so the live lines match the opening lines."
       : "Opening lines for next week. Live lines appear once it starts.";
@@ -570,8 +629,9 @@
         const fav = (L ? L.favorite : g.favorite) === me;
         const out = (O.out && O.out[me]) || [];
         return `<div class="od-row${fav ? " fav" : ""}">
-          <span class="od-team"><b>${esc(g[`${k}_team`])}</b><small>${esc(g[`${k}_name`])} · proj ${g[`${k}_proj`]}</small>
-            ${out.length ? `<small class="od-out" title="${esc(out.join(", "))}">🩼 Out: ${esc(out.map((n) => n.split(" ").slice(-1)[0]).join(", "))}</small>` : ""}</span>
+          <span class="od-team"><b>${esc(g[`${k}_team`])}</b><small>${esc(g[`${k}_name`])} · ${L && L[`${k}_proj`] != null && state !== "final"
+            ? `final ~${Math.round(L[`${k}_proj`])} · ${L[`${k}_left`]} game${L[`${k}_left`] === 1 ? "" : "s"} left` : `proj ${g[`${k}_proj`]}`}</small>
+            ${out.length ? `<small class="od-out" title="${esc(out.join(", "))}">🩼 Out: ${esc(out.map((n) => n.split(" ").filter((w) => !/^(jr|sr|ii|iii|iv)\.?$/i.test(w)).slice(-1)[0]).join(", "))}</small>` : ""}</span>
           ${L ? `<span class="od-live">${Math.round(L[k])}</span>` : ""}${pre}${now}
         </div>`;
       };

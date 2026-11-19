@@ -274,6 +274,30 @@ def main():
         # rostered players EquipoGPT is leaving out this week (Sleeper: Out, on IR, or in an IR slot)
         odds["out"] = {roster_manager[r["roster_id"]]: sorted(player_name(p) for p in (r.get("players") or []) if p in injured)
                        for r in rosters_json}
+        # live odds (worked out in the browser): Sleeper doesn't say which games are locked, so each starter's
+        # current number may still change. The page projects his final from his usual weekly score and the games
+        # his NBA team has left this week (Out / IR = none left).
+        roster_pids = {p for r in rosters_json for p in (r.get("players") or [])}
+        usual = gm.player_values(label, weeks[-1], roster_pids, prev if prev != label else None) if weeks else {}
+        # Sleeper's per-player weekly numbers run low against the official lock-in totals: scale them so a full
+        # lineup of usual scores adds up to what teams really score a week this season
+        lineups = []
+        for r in rosters_json:
+            vals = sorted((usual.get(p, 0) for p in (r.get("players") or []) if p not in injured), reverse=True)[:10]
+            lineups.append(sum(vals))
+        real = [week_points[k] for k in week_points]
+        usual_scale = (sum(real) / len(real)) / (sum(lineups) / len(lineups)) if real and sum(lineups) else 1.0
+        usual_scale = min(1.4, max(0.8, usual_scale))
+        usual = {p: v * usual_scale for p, v in usual.items()}
+        odds["live_model"] = {
+            "players": {p: [round(usual.get(p, 0), 1), (all_players.get(p) or {}).get("team")] for p in roster_pids},
+            "injured": sorted(roster_pids & injured),
+            "games": {str(wk["week"]): {} for wk in odds["weeks"]},
+        }
+        for wk in odds["weeks"]:
+            for date, teams in sorted(gm.sched.days.get((label, wk["week"]), {}).items()):
+                for team in teams:
+                    odds["live_model"]["games"][str(wk["week"])].setdefault(team, []).append(date)
         # season-long team levels for the playoff simulation (healthy best 10 + real scoring)
         level = project_v2(None, weeks[-1], {roster_manager[r["roster_id"]]: r.get("players") or [] for r in rosters_json}, injured)
         if level:

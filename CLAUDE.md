@@ -209,6 +209,11 @@ The owner has essentially no coding or web development experience.
   blend, bench share and spread tuned nightly on every past matchup (329 games: blend 0.3, bench 0.6 (owner asked for
   bench depth, 2026-11-17: swap in a bench player with an early game), ~67% winners picked). Power-ranking roster
   strength uses the same bench share. Live lines blend score now and projection by share of week played.
+ LIVE LINES (2026-11-19, owner): Sleeper's public matchup data does NOT say which games are locked (only points,
+  starters, starters_points, players_points), so the current score includes provisional games. The page projects each
+  starter's final: no games left -> current number; games left -> max(current, 0.92 x usual weekly score); a hurt / done
+  0-point starter is replaced by the best bench player with games left. Usual scores are scaled so a full lineup matches
+  this season's real weekly scores (`odds.live_model`: players [usual, NBA team], injured, each team's game dates).
   Needs `data/raw/sleeper/<season>/schedule.json` (Sleeper's NBA schedule; `fetch_sleeper.py` saves it).
   WARNING: re-fetching OLD seasons from Sleeper (without --current-only) returned different weekly points than the
   originals on 2026-11-16 and broke build_data; the original files were restored. Only refetch the current season.
