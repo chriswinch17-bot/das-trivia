@@ -1084,7 +1084,7 @@
         show("cutscene");
         window.Cutscene.play(wanted.shift(), playNext);
       };
-      return playNext();
+      return window.Cutscene.whenReady ? window.Cutscene.whenReady(playNext) : playNext();
     }
 
     if (state.answers.length >= questions.length) showResults();

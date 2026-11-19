@@ -1025,3 +1025,13 @@ h1 .o { font-style: normal; color: var(--orange); }
 
 .health-banner { margin: 0 0 12px; padding: 10px 12px; border-radius: 12px; background: rgba(255, 165, 31, .12); border: 1px solid #b06b0d;
   color: #ffd08a; font-size: 13px; line-height: 1.4; }
+
+/* 3D cutscenes */
+.scene { position: relative; }
+.scene3d { display: block; width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--card-edge); }
+.boom3d { position: absolute; left: 0; right: 0; top: 18%; text-align: center; pointer-events: none; opacity: 0;
+  font-family: var(--head); font-weight: 800; font-size: 40px; letter-spacing: 2px; color: #fff; text-transform: uppercase;
+  text-shadow: 0 3px 0 #e25f00, 0 0 18px rgba(255, 122, 26, .8); }
+.boom3d.on { animation: boom3d .5s cubic-bezier(.2, 1.6, .4, 1) forwards; }
+.boom3d.big { font-size: 54px; color: #f2c14e; }
+@keyframes boom3d { from { opacity: 0; transform: scale(2.2); } to { opacity: 1; transform: scale(1); } }
