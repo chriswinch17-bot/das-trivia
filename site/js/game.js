@@ -7,6 +7,7 @@
   const BASE_POINTS = 100;        // then x difficulty, x hint, and on the leaderboard x rarity (Das Trivia)
   const DIFFICULTY = { easy: { label: "Easy", x: 1 }, medium: { label: "Medium", x: 1.25 }, hard: { label: "Hard", x: 1.5 } };
   const HINT_SHARE = 0.6;         // a hint keeps this share of the points
+  const NEW_SCORING_FROM = 12;    // difficulty points and hints start with Das Trivia #12 (#11 was half played before)
   const SPEED_BONUS_PER_SECOND = 2;
   const CLOSE_NUMBER_RANGE = 2;   // number questions: this near the answer counts as "close"
   const CLOSE_SHARE = 0.5;        // a close answer earns this share of the points
@@ -203,13 +204,13 @@
     $("q-text").textContent = question.text;
     drawProgress(index);
     // Das Trivia: difficulty tag and the hint button
-    const level = DIFFICULTY[question.difficulty];
+    const level = gameNumber >= NEW_SCORING_FROM ? DIFFICULTY[question.difficulty] : null;
     $("q-level").hidden = !level;
     if (level) {
       $("q-level").textContent = `${level.label} · ×${level.x}`;
       $("q-level").className = `q-level ${question.difficulty}`;
     }
-    const canHint = mode === "trivia" && ["manager", "player", "number"].includes(question.kind);
+    const canHint = mode === "trivia" && gameNumber >= NEW_SCORING_FROM && ["manager", "player", "number"].includes(question.kind);
     $("hint-row").hidden = !canHint;
     $("hint-text").hidden = !state.hint;
     $("btn-hint").hidden = Boolean(state.hint);
@@ -403,7 +404,7 @@
     const index = state.answers.length;
     const question = questions[index];
     const secondsLeft = Math.max(0, M.seconds - (Date.now() - state.startedAt) / 1000);
-    const level = DIFFICULTY[question.difficulty];
+    const level = gameNumber >= NEW_SCORING_FROM ? DIFFICULTY[question.difficulty] : null;
     const hinted = Boolean(state.hint);
     const raw = question.kind === "clues" ? question.points[state.clue] : BASE_POINTS + Math.round(secondsLeft * SPEED_BONUS_PER_SECOND);
     const full = Math.round(raw * (level ? level.x : 1) * (hinted ? HINT_SHARE : 1));
