@@ -322,7 +322,8 @@ def main():
     out["built_on"], out["previous"], out["previous_on"] = today, previous, previous_on
     out["changes"] = analytics_changes.changes(previous, out["snapshot"], out)
 
-    target.write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
+    # compact: about a third smaller to download (the site never needs the indentation)
+    target.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"Wrote analytics: {label} power rankings through week {out['through_week']}, {len(history)} team histories, "
           f"{len(trades)} graded trades, {len(profiles)} manager profiles.")
 

@@ -238,7 +238,41 @@ The owner has essentially no coding or web development experience.
   its roster history lives in Supabase and needs the SQL file pasted after `build_grids.py`).
 - Testing: open the site with `?test` on the address to replay without saving; `?test&day=3` plays Game #3.
 - Local preview: `python -m http.server 8123 --bind 127.0.0.1 --directory site`, then http://localhost:8123.
-- Scoring is a stand-in (100 + 2 per second left) until rarity scoring arrives in Phase 4.
+- Scoring (Das Trivia, 2026-11-19): 100 + 2 per second left, x difficulty (Easy 1, Medium 1.25, Hard 1.5), x 0.6 if
+  the 💡 hint was used; the leaderboard then applies RARITY: each question's points x (1 + share of today's players who
+  missed it), worked out live from everyone's saved answers (`withRarity` in game.js; also in the archive and boards).
+
+## Added 2026-11-19 (owner asked for ideas 1-12, 15, 17, 25-29, 32, 34, 36)
+
+- **Trivia questions**: 389 (was 124). Days up to today are frozen; days after today are rebuilt every night with
+  never-asked questions first and at least one Hard question a day (`build_questions.py`). Difficulty = a guess from
+  the question's shape until 4+ league members answered it, then from their real results (read from the leaderboard
+  with the public key). `scripts/check_questions.py` (run by the tests, so nightly) blocks broken questions.
+  Matching also accepts "Jr./III" dropped or added, "J. Williams", and rejects a typo that is closer to another known name.
+- **Identity, streaks, scorecard** (`site/js/common.js`): the name picked anywhere is used everywhere (Analytics
+  highlights "my team": power card, rivalry with my nemesis first, my profile, my odds game first). Finished daily games
+  are remembered in the browser (`das-trivia:played`) for the home page (✅ per game, "x of 6 played", 🔥 streak,
+  Copy today's scorecard). Phone menu bar (Home, Trivia, Analytics, Boards, Results).
+- **Leaderboards** (`?mode=boards`, `site/js/boards.js`): this week (Mon-Sun ET) / month / all time / streaks, every
+  game's daily score added up (trivia = rarity score; Das Grids excluded, its score is lower-is-better); last month's 👑.
+- **Results**: "x of y players got this" under each answer, "Share as image" (canvas picture of the boxes and score).
+- **Das Feud** (`?mode=feud`, `scripts/build_feud.py` -> `site/data/feud.json`, `site/js/feud.js`, nightly):
+  Family-Feud style, one survey a day, top 6 answers from league data worth 40/25/15/10/6/4 (+20 clearing the board),
+  60 s, 3 strikes. Leaderboard game = 80000 + day. Game #1 = 2026-11-19.
+- **Rostered or Waiver** cards also show the last 5 games (Sleeper game log, league scoring) and injury status.
+- **Lock-in Report** (Analytics `tab=lockin`, `scripts/analytics_lockin.py`): per manager, points a week gained by
+  locking good games (locked score minus the player's average game that week, over the 10 starters) and best-game rate.
+  Finished seasons only; needs `data/raw/sleeper/<season>/gamelogs.json` from `scripts/fetch_gamelogs.py` (run once per
+  finished season). 98.9% of saved locked scores match one of that player's games (confirms the lock-in rules).
+- **Nightly health** (`scripts/nightly.py` writes `site/data/health.json`): a home-page banner if the Sleeper refresh
+  failed, Rostered or Waiver failed, Das Grids failed, or a week became estimated.
+- **Das Grids nightly**: `scripts/push_grids_sql.py` sends `data/private/grids_setup.sql` to Supabase's management API
+  when the GitHub secret SUPABASE_ACCESS_TOKEN exists (owner must create it); otherwise paste by hand as before.
+- **3D cutscenes** (`site/js/cutscene3d.js`): Three.js r128 from cdnjs, loaded only on the trivia page; the same 7 moves
+  with a bobblehead EquipoGPT player. Falls back to the flat `cutscene.js` (no WebGL, library not loaded, reduced
+  motion, or `?flat`). Test: `?mode=trivia&test&scene=7`, freeze a moment with `&freeze=2.2`.
+- **Speed / accessibility / design**: analytics.json written compact (~44 KB gzipped); lazy-loaded home pictures;
+  skip link, labels, 44px tap targets, focus outlines, reduced-motion respected; header never wraps.
 
 ## Technical decisions
 

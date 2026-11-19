@@ -1035,3 +1035,29 @@ h1 .o { font-style: normal; color: var(--orange); }
 .boom3d.on { animation: boom3d .5s cubic-bezier(.2, 1.6, .4, 1) forwards; }
 .boom3d.big { font-size: 54px; color: #f2c14e; }
 @keyframes boom3d { from { opacity: 0; transform: scale(2.2); } to { opacity: 1; transform: scale(1); } }
+
+/* ---------- Consistency and accessibility pass (2026-11-19) ---------- */
+/* header: the site name never wraps; a long page name shortens with "..." instead */
+.brand-name { white-space: nowrap; }
+.topbar { gap: 10px; }
+.topbar-right { min-width: 0; }
+.game-tag { max-width: 42vw; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 400px) { .brand-name { font-size: 26px; } }
+
+/* every button and tappable thing: at least 44px tall, and a clear outline when reached with a keyboard */
+.btn, .name-btn, .tab, .seg button, .an-tabs button, .chip[role="button"], .bd-tabs button { min-height: 44px; }
+.btn:focus-visible, .name-btn:focus-visible, .tab:focus-visible, .seg button:focus-visible, a:focus-visible,
+.bonus:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible, button:focus-visible {
+  outline: 3px solid #f2c14e; outline-offset: 2px; }
+.skip-link { position: absolute; left: -999px; top: 8px; z-index: 100; padding: 10px 14px; border-radius: 10px; background: #f2c14e; color: #1d1503; font-weight: 800; }
+.skip-link:focus { left: 8px; }
+
+/* the same card spacing and headings on every page */
+.screen.card h1 { margin-bottom: 12px; }
+.screen.card > .fine.center { margin-top: 18px; }
+.recap li, .leaders li { line-height: 1.35; }
+
+/* calmer for people who ask their phone for less motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}

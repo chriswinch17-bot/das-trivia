@@ -23,9 +23,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=76">
+  <link rel="stylesheet" href="css/style.css?v=77">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to the game</a>
   <div class="court" aria-hidden="true"></div>
 
   <header class="topbar">
@@ -42,7 +43,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <!-- Home screen: the host and the list of games -->
     <section class="screen card" id="screen-home" hidden>
       <p class="eyebrow" id="home-date"></p>
@@ -93,7 +94,7 @@
         </span>
       </a>
       <a class="bonus" id="to-papo" href="?mode=papo">
-        <img src="images/papo-mode.webp" alt="">
+        <img src="images/papo-mode.webp" alt="" loading="lazy" decoding="async" width="64" height="64">
         <span class="bonus-text">
           <small>Bonus game · 5 a day</small>
           <b>Papo Trade <i>or NOT</i></b>
@@ -101,7 +102,7 @@
         </span>
       </a>
       <a class="bonus team" id="to-team" href="?mode=team">
-        <img src="images/team-mode.webp" alt="">
+        <img src="images/team-mode.webp" alt="" loading="lazy" decoding="async" width="64" height="64">
         <span class="bonus-text">
           <small>Bonus game · 2 a day</small>
           <b>What team <i>am I?</i></b>
@@ -552,8 +553,8 @@
 
     <!-- Question screen -->
     <section class="screen card" id="screen-question" hidden>
-      <div class="progress" id="progress"></div>
-      <div class="timer">
+      <div class="progress" id="progress" aria-hidden="true"></div>
+      <div class="timer" role="timer" aria-label="Time left">
         <div class="timer-track"><div class="timer-fill" id="timer-fill"></div></div>
         <div class="timer-num" id="timer-num">25</div>
       </div>
@@ -572,7 +573,7 @@
       </div>
 
       <form id="answer-form" autocomplete="off">
-        <input id="answer" type="text" inputmode="text" enterkeyhint="go" placeholder="Type your answer"
+        <input id="answer" aria-label="Your answer" type="text" inputmode="text" enterkeyhint="go" placeholder="Type your answer"
                autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="60">
         <button class="btn primary" type="submit">Shoot</button>
       </form>
@@ -652,15 +653,15 @@
     </div>
   </div>
 
-  <script src="js/config.js?v=76"></script>
-  <script src="js/common.js?v=76"></script>
-  <script src="js/effects.js?v=76"></script>
-  <script src="js/cutscene.js?v=76"></script>
-  <script src="js/cutscene3d.js?v=2"></script>
-  <script src="js/game.js?v=76"></script>
-  <script src="js/grids.js?v=76"></script>
-  <script src="js/analytics.js?v=76"></script>
-  <script src="js/boards.js?v=76"></script>
-  <script src="js/feud.js?v=76"></script>
+  <script src="js/config.js?v=77"></script>
+  <script src="js/common.js?v=77"></script>
+  <script src="js/effects.js?v=77"></script>
+  <script src="js/cutscene.js?v=77"></script>
+  <script src="js/cutscene3d.js?v=3"></script>
+  <script src="js/game.js?v=77"></script>
+  <script src="js/grids.js?v=77"></script>
+  <script src="js/analytics.js?v=77"></script>
+  <script src="js/boards.js?v=77"></script>
+  <script src="js/feud.js?v=77"></script>
 </body>
 </html>
