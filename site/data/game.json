@@ -10589,6 +10589,288 @@
     "group": "standings",
     "difficulty": "medium"
    }
+  ],
+  [
+   {
+    "id": "3339238e",
+    "text": "Which manager drafted Trae Young in the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela",
+      "detail": "Chalela went 9-9 in the 2023-2024 regular season (7th of 12) with 8,286 points and missed the playoffs."
+     }
+    ],
+    "note": "Round 2, pick 16 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "medium"
+   },
+   {
+    "id": "330b32a1",
+    "text": "Who traded Zion Williamson to Fidel’s Accumulators (Joey) on January 6, 2024?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Jacobo went 8-10 in the 2023-2024 regular season (9th of 12) with 7,458 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "medium"
+   },
+   {
+    "id": "cb7136c2",
+    "text": "Which team posted the highest single-week score of the 2024-2025 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Joel Embong? 😓 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo",
+      "detail": "Melo went 11-6 in the 2024-2025 regular season (4th of 12) with 8,722 points, then won the championship."
+     }
+    ],
+    "note": "601 points in week 9.",
+    "about": [],
+    "sources": [
+     "matchups.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "345eaa5c",
+    "text": "Name one of the first five players hotrelish (Jacobo) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Jordan Poole",
+      "accept": [
+       "Jordan",
+       "Jordan Poole",
+       "Poole"
+      ],
+      "detail": "Taken 45th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 4 times in Das League."
+     },
+     {
+      "display": "LaMelo Ball",
+      "accept": [
+       "Ball",
+       "LaMelo",
+       "LaMelo Ball",
+       "Melo Ball"
+      ],
+      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 2 times in Das League."
+     },
+     {
+      "display": "LeBron James",
+      "accept": [
+       "Bron",
+       "James",
+       "King James",
+       "LBJ",
+       "LeBron",
+       "LeBron James",
+       "The King"
+      ],
+      "detail": "Taken 52nd overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 3 times in Das League."
+     },
+     {
+      "display": "Scoot Henderson",
+      "accept": [
+       "Henderson",
+       "Scoot",
+       "Scoot Henderson"
+      ],
+      "detail": "Taken 20th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 1 time in Das League."
+     },
+     {
+      "display": "Zion Williamson",
+      "accept": [
+       "Williamson",
+       "Zion",
+       "Zion Williamson"
+      ],
+      "detail": "Taken 28th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 5 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "easy"
+   },
+   {
+    "id": "62e82b5a",
+    "text": "Name a team that finished the 2024-2025 regular season with a winning record.",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo 2X (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch",
+      "detail": "Winch went 14-3 in the 2024-2025 regular season (1st of 12) with 8,544 points, then finished fourth."
+     },
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela",
+      "detail": "Chalela went 13-4 in the 2024-2025 regular season (2nd of 12) with 8,653 points, then finished third."
+     },
+     {
+      "display": "Rabbi Repeat BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Blandon went 13-4 in the 2024-2025 regular season (3rd of 12) with 8,434 points, then lost in the final."
+     },
+     {
+      "display": "Joel Embong? 😓 (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo",
+      "detail": "Melo went 11-6 in the 2024-2025 regular season (4th of 12) with 8,722 points, then won the championship."
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor",
+      "detail": "Victor went 11-6 in the 2024-2025 regular season (5th of 12) with 7,973 points, then lost in the first round of the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "easy"
+   },
+   {
+    "id": "8738e42f",
+    "text": "In which round of the 2023 startup draft was Andrew Wiggins taken?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "7",
+      "accept": [
+       "7"
+      ],
+      "detail": "Pick 79 overall, by Kareem Abdul-Jabong (Melo)."
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   },
+   {
+    "id": "6e5069c3",
+    "text": "Who was pick 3 of the 2024 rookie draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Stephon Castle",
+      "accept": [
+       "Castle",
+       "Stephon",
+       "Stephon Castle"
+      ],
+      "detail": "Taken 3rd overall by The Edey and Matas Show (Papo) in the 2024 rookie draft. Traded 3 times in Das League."
+     }
+    ],
+    "note": "Taken by The Edey and Matas Show (Papo).",
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "hard"
+   }
   ]
  ],
  "players": [

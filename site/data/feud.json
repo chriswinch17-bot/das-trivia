@@ -2065,6 +2065,107 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "c5319741",
+    "prompt": "Name one of the top-scoring teams of the 2024-2025 regular season.",
+    "answers": [
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "8,722 points.",
+      "manager": "melo",
+      "points": 40
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "8,653 points.",
+      "manager": "chalela",
+      "points": 25
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "detail": "8,544 points.",
+      "manager": "winch",
+      "points": 15
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "8,434 points.",
+      "manager": "blandon",
+      "points": 10
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "detail": "8,019 points.",
+      "manager": "libguel",
+      "points": 6
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "detail": "7,973 points.",
+      "manager": "victor",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "seasons.json"
+    ]
+   }
   ]
  ]
 }

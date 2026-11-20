@@ -5072,6 +5072,180 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "1271614104229937152",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "September 10, 2025",
+    "sides": [
+     [
+      "Jabari Smith Jr.",
+      "2026 2nd-round pick",
+      "2027 2nd-round pick",
+      "2028 2nd-round pick"
+     ],
+     [
+      "Andrew Wiggins",
+      "Jrue Holiday"
+     ]
+    ],
+    "recap": "September 10, 2025: Jabari Smith Jr., 2026 2nd-round pick, 2027 2nd-round pick and 2028 2nd-round pick for Andrew Wiggins and Jrue Holiday",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fidel’s Accumulators (Joey) got Jabari Smith Jr., 2026 2nd-round pick, 2027 2nd-round pick and 2028 2nd-round pick. Fear the Brow (Papo) got Andrew Wiggins and Jrue Holiday."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1355927274460831744",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "May 1, 2026",
+    "sides": [
+     [
+      "2028 1st-round pick",
+      "2028 1st-round pick"
+     ],
+     [
+      "2026 1st-round pick"
+     ]
+    ],
+    "recap": "May 1, 2026: 2028 1st-round pick and 2028 1st-round pick for 2026 1st-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fidel’s Accumulators (Joey) got 2028 1st-round pick and 2028 1st-round pick. Fear the Brow (Papo) got 2026 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1220199847894724608",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "April 22, 2025",
+    "sides": [
+     [
+      "Isaiah Hartenstein",
+      "Jalen Suggs",
+      "2025 3rd-round pick"
+     ],
+     [
+      "Brandon Ingram",
+      "Cam Whitmore",
+      "2025 2nd-round pick"
+     ]
+    ],
+    "recap": "April 22, 2025: Isaiah Hartenstein, Jalen Suggs and 2025 3rd-round pick for Brandon Ingram, Cam Whitmore and 2025 2nd-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Los Chigüires (Libguel) got Isaiah Hartenstein, Jalen Suggs and 2025 3rd-round pick. Fear the Brow (Papo) got Brandon Ingram, Cam Whitmore and 2025 2nd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1245429693222502400",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "June 30, 2025",
+    "sides": [
+     [
+      "Clint Capela",
+      "Karlo Matković"
+     ],
+     [
+      "2025 3rd-round pick"
+     ]
+    ],
+    "recap": "June 30, 2025: Clint Capela and Karlo Matković for 2025 3rd-round pick",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "Equipo Winchenzo (Winch) got Clint Capela and Karlo Matković. hotrelish (Jacobo) got 2025 3rd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch",
+     "jacobo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1378423584166277120",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "July 2, 2026",
+    "sides": [
+     [
+      "Bennett Stirtz"
+     ],
+     [
+      "$20 FAAB"
+     ]
+    ],
+    "recap": "July 2, 2026: Bennett Stirtz for $20 FAAB",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "MoonUnit 🦬 (Ricky) got Bennett Stirtz. Rabbi BT69 (Blandon) got $20 FAAB."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky",
+     "blandon"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ],
  "players": [
