@@ -1884,6 +1884,263 @@
      "data/raw/sleeper"
     ]
    }
+  ],
+  [
+   {
+    "id": "rw-2026-11-21-1830",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1830",
+     "name": "Derrick White",
+     "pos": "SG",
+     "nba": "BOS",
+     "gp": 15,
+     "fpg": 30.5,
+     "line": "12.7 pts · 3.0 reb · 5.0 ast",
+     "teams": 6,
+     "recent": 27.8,
+     "recent_n": 5,
+     "injury": "DTD"
+    },
+    "recap": "Derrick White (SG, BOS): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by LeBong James (Melo)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "LeBong James (Melo) has had him since May 8. He's averaging 30.5 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-21-1512",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "1512",
+     "name": "Jerami Grant",
+     "pos": "PF",
+     "nba": "MEM",
+     "gp": 15,
+     "fpg": 20.9,
+     "line": "10.6 pts · 1.7 reb · 1.8 ast",
+     "teams": 4,
+     "recent": 19.2,
+     "recent_n": 5,
+     "injury": "DTD"
+    },
+    "recap": "Jerami Grant (PF, MEM): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 4 Das League teams. Papo dropped him on Nov 17. He's averaging 20.9 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-21-1546",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1546",
+     "name": "Marcus Smart",
+     "pos": "SG",
+     "nba": "HOU",
+     "gp": 10,
+     "fpg": 18.9,
+     "line": "7.9 pts · 2.5 reb · 2.2 ast",
+     "teams": 7,
+     "recent": 12.0,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Marcus Smart (SG, HOU): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Antetokounmpers (Verdeja)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Antetokounmpers (Verdeja) has had him since Jul 10. He's averaging 18.9 fantasy points a game, the 13th lowest of the 175 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-21-2574",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2574",
+     "name": "Amen Thompson",
+     "pos": "SG",
+     "nba": "HOU",
+     "gp": 15,
+     "fpg": 35.7,
+     "line": "15.7 pts · 7.1 reb · 3.3 ast",
+     "teams": 2,
+     "recent": 39.8,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Amen Thompson (SG, HOU): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Rabbi BT69 (Blandon)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Rabbi BT69 (Blandon) has had him since before this season. He's averaging 35.7 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "blandon"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-21-4866",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "4866",
+     "name": "AJ Dybantsa",
+     "pos": "PF",
+     "nba": "WAS",
+     "gp": 12,
+     "fpg": 28.3,
+     "line": "16.2 pts · 6.6 reb · 2.2 ast",
+     "teams": 1,
+     "recent": 34.6,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "AJ Dybantsa (PF, WAS): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by hotrelish (Jacobo)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "hotrelish (Jacobo) has had him since before this season. He's averaging 28.3 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-21-1998",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1998",
+     "name": "Coby White",
+     "pos": "PG",
+     "nba": "CHA",
+     "gp": 7,
+     "fpg": 18.0,
+     "line": "12.7 pts · 2.0 reb · 3.3 ast",
+     "teams": 2,
+     "recent": 25.0,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Coby White (PG, CHA): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Los Chigüires (Libguel)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Los Chigüires (Libguel) has had him since before this season. He's averaging 18.0 fantasy points a game, the 12th lowest of the 175 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-21-1598",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "1598",
+     "name": "Kevon Looney",
+     "pos": "C",
+     "nba": "LAL",
+     "gp": 7,
+     "fpg": 4.7,
+     "line": "1.7 pts · 2.6 reb · 0.1 ast",
+     "teams": 4,
+     "recent": 3.6,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Kevon Looney (C, LAL): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 4 Das League teams. He's averaging 4.7 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   }
   ]
  ],
  "as_of": [
@@ -1894,7 +2151,8 @@
   "Tue Nov 17, 12:58 AM EST",
   "Wed Nov 18, 1:00 AM EST",
   "Thu Nov 19, 1:00 AM EST",
-  "Fri Nov 20, 1:00 AM EST"
+  "Fri Nov 20, 1:00 AM EST",
+  "Sat Nov 21, 12:54 AM EST"
  ],
  "dates": [
   "2026-11-13",
@@ -1904,7 +2162,8 @@
   "2026-11-17",
   "2026-11-18",
   "2026-11-19",
-  "2026-11-20"
+  "2026-11-20",
+  "2026-11-21"
  ],
  "players": [
   {

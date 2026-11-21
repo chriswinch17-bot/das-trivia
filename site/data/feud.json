@@ -2166,6 +2166,86 @@
      "seasons.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "4d7bd32a",
+    "prompt": "Name a player Antetokounmpers (Verdeja) has traded for.",
+    "answers": [
+     {
+      "display": "Chris Paul",
+      "accept": [
+       "CP3",
+       "Chris",
+       "Chris Paul",
+       "Paul",
+       "Point God"
+      ],
+      "detail": "Traded for 1 time by Verdeja (traded 7 times in all).",
+      "points": 40
+     },
+     {
+      "display": "Paul George",
+      "accept": [
+       "George",
+       "PG",
+       "PG13",
+       "Paul",
+       "Paul George",
+       "Playoff P"
+      ],
+      "detail": "Traded for 1 time by Verdeja (traded 7 times in all).",
+      "points": 25
+     },
+     {
+      "display": "Jimmy Butler III",
+      "accept": [
+       "Butler",
+       "Jimmy",
+       "Jimmy Buckets",
+       "Jimmy Butler",
+       "Jimmy Butler III"
+      ],
+      "detail": "Traded for 1 time by Verdeja (traded 6 times in all).",
+      "points": 15
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ],
+      "detail": "Traded for 1 time by Verdeja (traded 6 times in all).",
+      "points": 10
+     },
+     {
+      "display": "Andrew Wiggins",
+      "accept": [
+       "Andrew",
+       "Andrew Wiggins",
+       "Wiggins",
+       "Wiggs"
+      ],
+      "detail": "Traded for 1 time by Verdeja (traded 5 times in all).",
+      "points": 6
+     },
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ],
+      "detail": "Traded for 1 time by Verdeja (traded 5 times in all).",
+      "points": 4
+     }
+    ],
+    "note": "Ranked by how often they traded for him, then how often he's been traded in the league.",
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ]
 }

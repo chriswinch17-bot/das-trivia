@@ -5246,6 +5246,179 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "1062433690833223680",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "February 11, 2024",
+    "sides": [
+     [
+      "Donte DiVincenzo"
+     ],
+     [
+      "Klay Thompson",
+      "2024 2nd-round pick"
+     ]
+    ],
+    "recap": "February 11, 2024: Donte DiVincenzo for Klay Thompson and 2024 2nd-round pick",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "Fidel’s Accumulators (Joey) got Donte DiVincenzo. hotrelish (Jacobo) got Klay Thompson and 2024 2nd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey",
+     "jacobo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1098727207012253696",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "May 21, 2024",
+    "sides": [
+     [
+      "Ivica Zubac",
+      "2024 2nd-round pick",
+      "$50 FAAB"
+     ],
+     [
+      "John Collins",
+      "2024 2nd-round pick"
+     ]
+    ],
+    "recap": "May 21, 2024: Ivica Zubac, 2024 2nd-round pick and $50 FAAB for John Collins and 2024 2nd-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "The Edey and Matas Show (Papo) got Ivica Zubac, 2024 2nd-round pick and $50 FAAB. Joel Embong? 😓 (Melo) got John Collins and 2024 2nd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1347688687617466368",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "April 8, 2026",
+    "sides": [
+     [
+      "2026 3rd-round pick"
+     ],
+     [
+      "$10 FAAB"
+     ]
+    ],
+    "recap": "April 8, 2026: 2026 3rd-round pick for $10 FAAB",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "MoonUnit 🦬 (Ricky) got 2026 3rd-round pick. Rabbi BT69 (Blandon) got $10 FAAB."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky",
+     "blandon"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1130634491694911488",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "August 17, 2024",
+    "sides": [
+     [
+      "Mitchell Robinson",
+      "Zaccharie Risacher"
+     ],
+     [
+      "Nic Claxton"
+     ],
+     [
+      "Deni Avdija",
+      "Nikola Jović",
+      "2025 2nd-round pick",
+      "2026 1st-round pick"
+     ]
+    ],
+    "recap": "August 17, 2024: Mitchell Robinson and Zaccharie Risacher for Nic Claxton for Deni Avdija, Nikola Jović, 2025 2nd-round pick and 2026 1st-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fidel’s Accumulators (Joey) got Mitchell Robinson and Zaccharie Risacher. The Edey and Matas Show (Papo) got Nic Claxton. hotrelish (Jacobo) got Deni Avdija, Nikola Jović, 2025 2nd-round pick and 2026 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1377439693876002816",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "June 30, 2026",
+    "sides": [
+     [],
+     [
+      "2029 1st-round pick"
+     ]
+    ],
+    "recap": "June 30, 2026: nothing for 2029 1st-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fear the Brow (Papo) got nothing. hotrelish (Jacobo) got 2029 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ],
  "players": [

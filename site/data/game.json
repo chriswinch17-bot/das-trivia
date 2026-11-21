@@ -10871,6 +10871,240 @@
     "group": "drafts",
     "difficulty": "hard"
    }
+  ],
+  [
+   {
+    "id": "f743f5f4",
+    "text": "Which manager drafted Collin Murray-Boyles in the 2025 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro",
+      "detail": "Shueiro went 13-7 in the 2025-2026 regular season (3rd of 12) with 9,303 points, then lost in the first round of the playoffs."
+     }
+    ],
+    "note": "Pick 10 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   },
+   {
+    "id": "5b37faa8",
+    "text": "How many regular-season wins did Fidel’s Accumulators (Joey) have in 2024-2025?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "8",
+      "accept": [
+       "8"
+      ],
+      "manager": "joey",
+      "detail": "Joey went 8-9 in the 2024-2025 regular season (6th of 12) with 7,672 points, then lost in the first round of the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "4806c674",
+    "text": "Who traded Kel'el Ware to Fidel’s Accumulators (Joey) on February 10, 2025?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "The Edey and Matas Show (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 5-12 in the 2024-2025 regular season (10th of 12) with 6,352 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "medium"
+   },
+   {
+    "id": "72beee10",
+    "text": "Name one of the first five players MoonUnit (Ricky) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Anfernee Simons",
+      "accept": [
+       "Anfernee",
+       "Anfernee Simons",
+       "Simons"
+      ],
+      "detail": "Taken 51st overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "De'Aaron Fox",
+      "accept": [
+       "De'Aaron",
+       "De'Aaron Fox",
+       "Fox",
+       "Swipa"
+      ],
+      "detail": "Taken 27th overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Jaylen Brown",
+      "accept": [
+       "Brown",
+       "JB",
+       "Jaylen",
+       "Jaylen Brown"
+      ],
+      "detail": "Taken 22nd overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Tyler Herro",
+      "accept": [
+       "Herro",
+       "Tyler",
+       "Tyler Herro"
+      ],
+      "detail": "Taken 46th overall by MoonUnit (Ricky) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Victor Wembanyama",
+      "accept": [
+       "Alien",
+       "Victor",
+       "Victor Wembanyama",
+       "Wemb",
+       "Wembanyama",
+       "Wemby"
+      ],
+      "detail": "Taken 3rd overall by MoonUnit (Ricky) in the 2023 startup draft. Traded 2 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "easy"
+   },
+   {
+    "id": "f2508f9d",
+    "text": "Who traded Domantas Sabonis to Fear the Brow (Papo) on June 27, 2025?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "manager": "verdeja",
+      "detail": "Verdeja went 10-10 in the 2025-2026 regular season (7th of 12) with 8,676 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "medium"
+   },
+   {
+    "id": "e2021266",
+    "text": "Which manager drafted Dylan Harper in the 2025 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Blandon went 5-15 in the 2025-2026 regular season (11th of 12) with 7,866 points and missed the playoffs."
+     }
+    ],
+    "note": "Pick 2 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   },
+   {
+    "id": "89e1a228",
+    "text": "How many trades did Equipo Winchenzo (Winch) make during the 2023-2024 season?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "7",
+      "accept": [
+       "7"
+      ],
+      "manager": "winch",
+      "detail": "Through 2025-2026, Winch is 39-16 in the regular season with 3 playoff trips and 0 titles. Winch has made 33 trades in all."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "hard"
+   }
   ]
  ],
  "players": [
