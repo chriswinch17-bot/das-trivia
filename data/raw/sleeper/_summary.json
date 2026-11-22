@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-21 05:54:51",
+ "fetched_at": "2026-11-22 04:53:39",
  "seasons": [
   {
    "season": "2023",
@@ -30,7 +30,7 @@
    "league_id": "1344343390740819968",
    "name": "Das League",
    "weeks_with_matchups": 25,
-   "transactions": 458,
+   "transactions": 468,
    "drafts": 2
   }
  ]
