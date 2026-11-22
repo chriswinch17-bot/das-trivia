@@ -2246,6 +2246,105 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "94a32fba",
+    "prompt": "Name a manager who has beaten Antetokounmpers (Verdeja) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "detail": "5 wins against Verdeja.",
+      "manager": "papo",
+      "points": 40
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "detail": "5 wins against Verdeja.",
+      "manager": "winch",
+      "points": 25
+     },
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "detail": "4 wins against Verdeja.",
+      "manager": "victor",
+      "points": 15
+     },
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "detail": "3 wins against Verdeja.",
+      "manager": "blandon",
+      "points": 10
+     },
+     {
+      "display": "Lochte & Associates (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "detail": "3 wins against Verdeja.",
+      "manager": "chalela",
+      "points": 6
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "detail": "3 wins against Verdeja.",
+      "manager": "joey",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
   ]
  ]
 }

@@ -5419,6 +5419,177 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "1271927717104738304",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "September 11, 2025",
+    "sides": [
+     [
+      "Lauri Markkanen",
+      "2026 3rd-round pick"
+     ],
+     [
+      "Mikal Bridges",
+      "Naz Reid"
+     ]
+    ],
+    "recap": "September 11, 2025: Lauri Markkanen and 2026 3rd-round pick for Mikal Bridges and Naz Reid",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fear the Brow (Papo) got Lauri Markkanen and 2026 3rd-round pick. MoonUnit 🦬 (Ricky) got Mikal Bridges and Naz Reid."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1030641429615370240",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "November 15, 2023",
+    "sides": [
+     [
+      "2024 1st-round pick"
+     ],
+     [
+      "2026 1st-round pick"
+     ]
+    ],
+    "recap": "November 15, 2023: 2024 1st-round pick for 2026 1st-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "2057 Champs (Shueiro) got 2024 1st-round pick. Luka Deez Nuts (Papo) got 2026 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1246566063752101888",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "July 3, 2025",
+    "sides": [
+     [
+      "Domantas Sabonis"
+     ],
+     [
+      "Ja Morant",
+      "Jabari Smith Jr.",
+      "Jalen Suggs"
+     ]
+    ],
+    "recap": "July 3, 2025: Domantas Sabonis for Ja Morant, Jabari Smith Jr. and Jalen Suggs",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Los Chigüires (Libguel) got Domantas Sabonis. Fear the Brow (Papo) got Ja Morant, Jabari Smith Jr. and Jalen Suggs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1049407179607908352",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "January 6, 2024",
+    "sides": [
+     [
+      "Karl-Anthony Towns"
+     ],
+     [
+      "Keldon Johnson",
+      "Lauri Markkanen",
+      "2026 1st-round pick"
+     ]
+    ],
+    "recap": "January 6, 2024: Karl-Anthony Towns for Keldon Johnson, Lauri Markkanen and 2026 1st-round pick",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "Fidel’s Accumulators (Joey) got Karl-Anthony Towns. Rabbi BT69 (Blandon) got Keldon Johnson, Lauri Markkanen and 2026 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey",
+     "blandon"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1376712793939521536",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "June 27, 2026",
+    "sides": [
+     [
+      "2026 2nd-round pick",
+      "2028 2nd-round pick"
+     ],
+     [
+      "2027 1st-round pick"
+     ]
+    ],
+    "recap": "June 27, 2026: 2026 2nd-round pick and 2028 2nd-round pick for 2027 1st-round pick",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "Los Chigüires (Libguel) got 2026 2nd-round pick and 2028 2nd-round pick. 2057 Champs (Shueiro) got 2027 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel",
+     "shueiro"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ],
  "players": [

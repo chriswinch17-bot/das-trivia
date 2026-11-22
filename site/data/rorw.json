@@ -2141,6 +2141,261 @@
      "data/raw/sleeper"
     ]
    }
+  ],
+  [
+   {
+    "id": "rw-2026-11-22-1941",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1941",
+     "name": "Kevin Huerter",
+     "pos": "SG",
+     "nba": "DET",
+     "gp": 15,
+     "fpg": 24.8,
+     "line": "10.6 pts · 2.7 reb · 2.7 ast",
+     "teams": 10,
+     "recent": 26.2,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Kevin Huerter (SG, DET): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by LeBong James (Melo)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "LeBong James (Melo) has had him since Nov 10. He's averaging 24.8 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-22-4830",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "4830",
+     "name": "Chris Youngblood",
+     "pos": "SG",
+     "nba": "POR",
+     "gp": 6,
+     "fpg": 10.2,
+     "line": "6.0 pts · 1.3 reb · 1.0 ast",
+     "teams": 1,
+     "recent": 11.8,
+     "recent_n": 5,
+     "injury": "Out"
+    },
+    "recap": "Chris Youngblood (SG, POR): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 1 Das League team. He's averaging 10.2 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-22-2280",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2280",
+     "name": "Ziaire Williams",
+     "pos": "SF",
+     "nba": "LAL",
+     "gp": 14,
+     "fpg": 23.1,
+     "line": "9.1 pts · 2.2 reb · 1.8 ast",
+     "teams": 6,
+     "recent": 14.6,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Ziaire Williams (SF, LAL): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 6 Das League teams. Libguel dropped him on Nov 9. He's averaging 23.1 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-22-1240",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1240",
+     "name": "James Harden",
+     "pos": "PG",
+     "nba": "CLE",
+     "gp": 16,
+     "fpg": 37.0,
+     "line": "18.4 pts · 4.8 reb · 6.2 ast",
+     "teams": 4,
+     "recent": 52.4,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "James Harden (PG, CLE): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by LeBong James (Melo)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "LeBong James (Melo) has had him since before this season. He's averaging 37.0 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-22-2435",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2435",
+     "name": "Bennedict Mathurin",
+     "pos": "SF",
+     "nba": "NOP",
+     "gp": 12,
+     "fpg": 9.1,
+     "line": "5.5 pts · 1.8 reb · 1.2 ast",
+     "teams": 1,
+     "recent": 2.8,
+     "recent_n": 5,
+     "injury": "Out"
+    },
+    "recap": "Bennedict Mathurin (SF, NOP): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "MoonUnit 🦬 (Ricky) has had him since before this season. He's averaging 9.1 fantasy points a game, the 1st lowest of the 177 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-22-1648",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1648",
+     "name": "Devin Booker",
+     "pos": "SG",
+     "nba": "PHX",
+     "gp": 15,
+     "fpg": 40.6,
+     "line": "24.7 pts · 2.7 reb · 5.3 ast",
+     "teams": 1,
+     "recent": 40.4,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Devin Booker (SG, PHX): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Equipo Winchenzo (Winch)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Equipo Winchenzo (Winch) has had him since before this season. He's averaging 40.6 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-22-1982",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "1982",
+     "name": "Gary Trent Jr.",
+     "pos": "SG",
+     "nba": "MIL",
+     "gp": 8,
+     "fpg": 8.0,
+     "line": "4.6 pts · 0.8 reb · 0.2 ast",
+     "teams": 6,
+     "recent": 9.2,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Gary Trent Jr. (SG, MIL): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 6 Das League teams. He's averaging 8.0 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   }
   ]
  ],
  "as_of": [
@@ -2152,7 +2407,8 @@
   "Wed Nov 18, 1:00 AM EST",
   "Thu Nov 19, 1:00 AM EST",
   "Fri Nov 20, 1:00 AM EST",
-  "Sat Nov 21, 12:54 AM EST"
+  "Sat Nov 21, 12:54 AM EST",
+  "Sun Nov 22, 12:56 AM EST"
  ],
  "dates": [
   "2026-11-13",
@@ -2163,7 +2419,8 @@
   "2026-11-18",
   "2026-11-19",
   "2026-11-20",
-  "2026-11-21"
+  "2026-11-21",
+  "2026-11-22"
  ],
  "players": [
   {

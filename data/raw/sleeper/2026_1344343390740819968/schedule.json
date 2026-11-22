@@ -23222,18 +23222,18 @@
   }
  },
  {
-  "status": "in_game",
+  "status": "complete",
   "date": "2026-11-21",
   "home": {
    "on_court": [
-    "1739",
     "2152",
+    "2456",
     "2050",
-    "1526",
-    "4891"
+    "2644",
+    "1526"
    ],
-   "points": 66,
-   "record": "1-14",
+   "points": 97,
+   "record": "2-14",
    "scoring": [
     {
      "number": 1,
@@ -23249,8 +23249,14 @@
     },
     {
      "number": 3,
-     "points": 25,
+     "points": 35,
      "sequence": 3,
+     "type": "quarter"
+    },
+    {
+     "number": 4,
+     "points": 21,
+     "sequence": 4,
      "type": "quarter"
     }
    ],
@@ -23268,13 +23274,13 @@
   "away": {
    "on_court": [
     "2142",
-    "2412",
+    "1200",
     "2302",
-    "2721",
+    "1074",
     "2329"
    ],
-   "points": 63,
-   "record": "11-4",
+   "points": 96,
+   "record": "11-5",
    "scoring": [
     {
      "number": 1,
@@ -23290,8 +23296,14 @@
     },
     {
      "number": 3,
-     "points": 9,
+     "points": 13,
      "sequence": 3,
+     "type": "quarter"
+    },
+    {
+     "number": 4,
+     "points": 29,
+     "sequence": 4,
      "type": "quarter"
     }
    ],
@@ -23385,7 +23397,7 @@
   "week": 5,
   "game_id": "1393723918396686336",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -23441,7 +23453,7 @@
   "week": 6,
   "game_id": "1393301048076034048",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -23567,7 +23579,7 @@
   "week": 6,
   "game_id": "1393301055957131264",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -23631,7 +23643,7 @@
   "status": "pre_game",
   "date": "2026-11-27",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 6,
@@ -23827,7 +23839,7 @@
   "status": "pre_game",
   "date": "2026-11-23",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 6,
@@ -23945,7 +23957,7 @@
   "week": 6,
   "game_id": "1393723933617815552",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -24051,7 +24063,7 @@
   "status": "pre_game",
   "date": "2026-11-29",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 6,
@@ -24127,7 +24139,7 @@
   "week": 7,
   "game_id": "1393723944221016064",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -24149,7 +24161,7 @@
   "status": "pre_game",
   "date": "2026-11-30",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 7,
@@ -24303,7 +24315,7 @@
   "status": "pre_game",
   "date": "2026-12-02",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 7,
@@ -24379,7 +24391,7 @@
   "week": 7,
   "game_id": "1393723959777689600",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -24589,7 +24601,7 @@
   "week": 8,
   "game_id": "1393723972192829440",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -24653,7 +24665,7 @@
   "status": "pre_game",
   "date": "2026-12-13",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 8,
@@ -24709,7 +24721,7 @@
   "status": "pre_game",
   "date": "2026-12-14",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 9,
@@ -24905,7 +24917,7 @@
   "status": "pre_game",
   "date": "2026-12-16",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 9,
@@ -24967,7 +24979,7 @@
   "week": 9,
   "game_id": "1393723996213608448",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -25143,7 +25155,7 @@
   "status": "pre_game",
   "date": "2026-12-18",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 9,
@@ -25177,7 +25189,7 @@
   "week": 9,
   "game_id": "1393724008863629312",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -25359,7 +25371,7 @@
   "week": 9,
   "game_id": "1393724020649623552",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -25409,7 +25421,7 @@
   "status": "pre_game",
   "date": "2026-12-20",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 9,
@@ -25465,7 +25477,7 @@
   "status": "pre_game",
   "date": "2026-12-25",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 10,
@@ -25527,7 +25539,7 @@
   "week": 10,
   "game_id": "1393724025850560512",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -25773,7 +25785,7 @@
   "status": "pre_game",
   "date": "2026-12-23",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 10,
@@ -25871,7 +25883,7 @@
   "status": "pre_game",
   "date": "2026-12-23",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 10,
@@ -26025,7 +26037,7 @@
   "status": "pre_game",
   "date": "2026-12-27",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 10,
@@ -26193,7 +26205,7 @@
   "status": "pre_game",
   "date": "2026-12-28",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 11,
@@ -26319,7 +26331,7 @@
   "status": "pre_game",
   "date": "2026-12-29",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 11,
@@ -26395,7 +26407,7 @@
   "week": 11,
   "game_id": "1393724080082911232",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -26501,7 +26513,7 @@
   "status": "pre_game",
   "date": "2026-12-31",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 11,
@@ -26661,7 +26673,7 @@
   "week": 11,
   "game_id": "1393724093374660608",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -26773,7 +26785,7 @@
   "week": 11,
   "game_id": "1393724100421091328",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -26801,7 +26813,7 @@
   "week": 11,
   "game_id": "1393724101972983808",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -26899,7 +26911,7 @@
   "week": 11,
   "game_id": "1393724108730007552",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -26969,7 +26981,7 @@
   "week": 12,
   "game_id": "1393724111754100736",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -27089,7 +27101,7 @@
   "status": "pre_game",
   "date": "2027-01-05",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 12,
@@ -27327,7 +27339,7 @@
   "status": "pre_game",
   "date": "2027-01-07",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 12,
@@ -27347,7 +27359,7 @@
   "week": 12,
   "game_id": "1393724136148172800",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -27425,7 +27437,7 @@
   "status": "pre_game",
   "date": "2027-01-08",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 12,
@@ -27543,7 +27555,7 @@
   "week": 12,
   "game_id": "1393724147011420160",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -27649,7 +27661,7 @@
   "status": "pre_game",
   "date": "2027-01-10",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 12,
@@ -27719,7 +27731,7 @@
   "status": "pre_game",
   "date": "2027-01-11",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 13,
@@ -27879,7 +27891,7 @@
   "week": 13,
   "game_id": "1393724167605452800",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -27915,7 +27927,7 @@
   "status": "pre_game",
   "date": "2027-01-13",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 13,
@@ -28083,7 +28095,7 @@
   "status": "pre_game",
   "date": "2027-01-14",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 13,
@@ -28187,7 +28199,7 @@
   "week": 13,
   "game_id": "1393724187197046784",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -28223,7 +28235,7 @@
   "status": "pre_game",
   "date": "2027-01-16",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 13,
@@ -28341,7 +28353,7 @@
   "week": 13,
   "game_id": "1393724196177051648",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -28453,7 +28465,7 @@
   "week": 14,
   "game_id": "1393724199847067648",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -28559,7 +28571,7 @@
   "status": "pre_game",
   "date": "2027-01-19",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 14,
@@ -28601,7 +28613,7 @@
   "status": "pre_game",
   "date": "2027-01-20",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 14,
@@ -28713,7 +28725,7 @@
   "status": "pre_game",
   "date": "2027-01-20",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 14,
@@ -28741,7 +28753,7 @@
   "status": "pre_game",
   "date": "2027-01-21",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 14,
@@ -28901,7 +28913,7 @@
   "week": 14,
   "game_id": "1393724228326391808",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -28965,7 +28977,7 @@
   "status": "pre_game",
   "date": "2027-01-23",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 14,
@@ -29133,7 +29145,7 @@
   "status": "pre_game",
   "date": "2027-01-25",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 15,
@@ -29223,7 +29235,7 @@
   "week": 15,
   "game_id": "1393724252003237888",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -29335,7 +29347,7 @@
   "week": 15,
   "game_id": "1393724259083223040",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -29371,7 +29383,7 @@
   "status": "pre_game",
   "date": "2027-01-27",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 15,
@@ -29489,7 +29501,7 @@
   "week": 15,
   "game_id": "1393724269283770368",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -29581,7 +29593,7 @@
   "status": "pre_game",
   "date": "2027-01-29",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 15,
@@ -29755,7 +29767,7 @@
   "week": 15,
   "game_id": "1393724288590151680",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -29797,7 +29809,7 @@
   "week": 15,
   "game_id": "1393724290628583424",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -30043,7 +30055,7 @@
   "status": "pre_game",
   "date": "2027-02-02",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 16,
@@ -30189,7 +30201,7 @@
   "week": 16,
   "game_id": "1393724318139023360",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -30267,7 +30279,7 @@
   "status": "pre_game",
   "date": "2027-02-04",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 16,
@@ -30329,7 +30341,7 @@
   "week": 16,
   "game_id": "1393724326858981376",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -30505,7 +30517,7 @@
   "status": "pre_game",
   "date": "2027-02-06",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 16,
@@ -30609,7 +30621,7 @@
   "week": 16,
   "game_id": "1393724347083915264",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -30617,7 +30629,7 @@
   "status": "pre_game",
   "date": "2027-02-07",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 16,
@@ -30757,7 +30769,7 @@
   "status": "pre_game",
   "date": "2027-02-09",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 17,
@@ -30833,7 +30845,7 @@
   "week": 17,
   "game_id": "1393724363022270464",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -30911,7 +30923,7 @@
   "status": "pre_game",
   "date": "2027-02-10",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 17,
@@ -31029,7 +31041,7 @@
   "week": 17,
   "game_id": "1393724375751983104",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -31135,7 +31147,7 @@
   "status": "pre_game",
   "date": "2027-02-12",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 17,
@@ -31183,7 +31195,7 @@
   "week": 17,
   "game_id": "1393724385935753216",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -31267,7 +31279,7 @@
   "week": 17,
   "game_id": "1393724391182827523",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -31289,7 +31301,7 @@
   "status": "pre_game",
   "date": "2027-02-14",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 17,
@@ -31687,7 +31699,7 @@
   "week": 18,
   "game_id": "1393724413513302016",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -31709,7 +31721,7 @@
   "status": "pre_game",
   "date": "2027-02-17",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 18,
@@ -31757,7 +31769,7 @@
   "week": 18,
   "game_id": "1393724417766326272",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -31813,7 +31825,7 @@
   "week": 19,
   "game_id": "1393724421767692288",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -31947,7 +31959,7 @@
   "status": "pre_game",
   "date": "2027-02-26",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 19,
@@ -32065,7 +32077,7 @@
   "week": 19,
   "game_id": "1393724438263889920",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -32177,7 +32189,7 @@
   "week": 19,
   "game_id": "1393724446405033984",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -32191,7 +32203,7 @@
   "week": 19,
   "game_id": "1393724447801737216",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -32345,7 +32357,7 @@
   "week": 20,
   "game_id": "1393724457058566144",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -32409,7 +32421,7 @@
   "status": "pre_game",
   "date": "2027-03-02",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 20,
@@ -32619,7 +32631,7 @@
   "status": "pre_game",
   "date": "2027-03-04",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 20,
@@ -32681,7 +32693,7 @@
   "week": 20,
   "game_id": "1393724479493898240",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -32829,7 +32841,7 @@
   "status": "pre_game",
   "date": "2027-03-06",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 20,
@@ -32843,7 +32855,7 @@
   "status": "pre_game",
   "date": "2027-03-07",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 20,
@@ -33011,7 +33023,7 @@
   "status": "pre_game",
   "date": "2027-03-08",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 21,
@@ -33073,7 +33085,7 @@
   "week": 21,
   "game_id": "1393724507075641344",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -33207,7 +33219,7 @@
   "status": "pre_game",
   "date": "2027-03-10",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 21,
@@ -33277,7 +33289,7 @@
   "status": "pre_game",
   "date": "2027-03-11",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 21,
@@ -33361,7 +33373,7 @@
   "status": "pre_game",
   "date": "2027-03-12",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 21,
@@ -33423,7 +33435,7 @@
   "week": 21,
   "game_id": "1393724531708788736",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -33577,7 +33589,7 @@
   "week": 21,
   "game_id": "1393724541007560704",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -33613,7 +33625,7 @@
   "status": "pre_game",
   "date": "2027-03-14",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 21,
@@ -33753,13 +33765,13 @@
   "status": "pre_game",
   "date": "2027-03-16",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 22,
   "game_id": "1393724554651631616",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -33899,7 +33911,7 @@
   "week": 22,
   "game_id": "1393724564134952960",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -34019,7 +34031,7 @@
   "status": "pre_game",
   "date": "2027-03-18",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 22,
@@ -34123,7 +34135,7 @@
   "week": 22,
   "game_id": "1393724578982789120",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -34299,7 +34311,7 @@
   "status": "pre_game",
   "date": "2027-03-21",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 22,
@@ -34319,7 +34331,7 @@
   "week": 22,
   "game_id": "1393724592912072704",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -34459,7 +34471,7 @@
   "week": 23,
   "game_id": "1393724601879494656",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -34529,7 +34541,7 @@
   "week": 23,
   "game_id": "1393724605507567616",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -34649,7 +34661,7 @@
   "status": "pre_game",
   "date": "2027-03-24",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 23,
@@ -34705,7 +34717,7 @@
   "status": "pre_game",
   "date": "2027-03-24",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 23,
@@ -34991,7 +35003,7 @@
   "week": 23,
   "game_id": "1393724633068339200",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -35013,7 +35025,7 @@
   "status": "pre_game",
   "date": "2027-03-27",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 23,
@@ -35103,7 +35115,7 @@
   "week": 23,
   "game_id": "1393724639523373056",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -35251,7 +35263,7 @@
   "status": "pre_game",
   "date": "2027-03-29",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 24,
@@ -35313,7 +35325,7 @@
   "week": 24,
   "game_id": "1393724651208704000",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -35439,7 +35451,7 @@
   "week": 24,
   "game_id": "1393724659286933504",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -35495,7 +35507,7 @@
   "week": 24,
   "game_id": "1393724662784983040",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -35559,7 +35571,7 @@
   "status": "pre_game",
   "date": "2027-04-02",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 24,
@@ -35635,7 +35647,7 @@
   "week": 24,
   "game_id": "1393724670661885952",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -35881,7 +35893,7 @@
   "status": "pre_game",
   "date": "2027-04-04",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 24,
@@ -35901,7 +35913,7 @@
   "week": 24,
   "game_id": "1393724687602679808",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -36013,7 +36025,7 @@
   "week": 25,
   "game_id": "1393724694674276352",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -36139,7 +36151,7 @@
   "week": 25,
   "game_id": "1393724703507480576",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -36209,7 +36221,7 @@
   "week": 25,
   "game_id": "1393724707265576960",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },
@@ -36335,7 +36347,7 @@
   "week": 25,
   "game_id": "1393724716589514752",
   "away": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   }
  },
@@ -36483,7 +36495,7 @@
   "status": "pre_game",
   "date": "2027-04-09",
   "home": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   },
   "week": 25,
@@ -36553,7 +36565,7 @@
   "status": "pre_game",
   "date": "2027-04-11",
   "home": {
-   "record": "11-4",
+   "record": "11-5",
    "team": "BOS"
   },
   "week": 25,
@@ -36629,7 +36641,7 @@
   "week": 25,
   "game_id": "1393724733014409216",
   "away": {
-   "record": "1-14",
+   "record": "2-14",
    "team": "SAC"
   }
  },

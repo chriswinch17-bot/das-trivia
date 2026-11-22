@@ -11105,6 +11105,370 @@
     "group": "trades",
     "difficulty": "hard"
    }
+  ],
+  [
+   {
+    "id": "b5d031b1",
+    "text": "How many trades did Los Chigüires (Libguel) make during the 2025-2026 season?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "5",
+      "accept": [
+       "5"
+      ],
+      "manager": "libguel",
+      "detail": "Through 2025-2026, Libguel is 29-26 in the regular season with 1 playoff trip and 1 title. Libguel has made 22 trades in all."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "hard"
+   },
+   {
+    "id": "0e89ea09",
+    "text": "Name a player Antetokounmpers (Verdeja) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Andrew Wiggins",
+      "accept": [
+       "Andrew",
+       "Andrew Wiggins",
+       "Wiggins",
+       "Wiggs"
+      ],
+      "detail": "Verdeja got Andrew Wiggins in a trade with Papo on April 12, 2024."
+     },
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ],
+      "detail": "Verdeja got Bam Adebayo in a trade with Melo on September 4, 2026."
+     },
+     {
+      "display": "Brook Lopez",
+      "accept": [
+       "Brook",
+       "Brook Lopez",
+       "Lopez"
+      ],
+      "detail": "Verdeja got Brook Lopez in a trade with Papo on July 26, 2024."
+     },
+     {
+      "display": "Cam Whitmore",
+      "accept": [
+       "Cam",
+       "Cam Whitmore",
+       "Whitmore"
+      ],
+      "detail": "Verdeja got Cam Whitmore in a trade with Papo on April 27, 2025."
+     },
+     {
+      "display": "Cameron Johnson",
+      "accept": [
+       "Cameron",
+       "Cameron Johnson",
+       "Johnson"
+      ],
+      "detail": "Verdeja got Cameron Johnson in a trade with Papo on February 5, 2025."
+     },
+     {
+      "display": "Chris Paul",
+      "accept": [
+       "CP3",
+       "Chris",
+       "Chris Paul",
+       "Paul",
+       "Point God"
+      ],
+      "detail": "Verdeja got Chris Paul in a trade with Papo on April 27, 2025."
+     },
+     {
+      "display": "DeMar DeRozan",
+      "accept": [
+       "DeMar",
+       "DeMar DeRozan",
+       "DeRozan"
+      ],
+      "detail": "Verdeja got DeMar DeRozan in a trade with Papo on April 12, 2024."
+     },
+     {
+      "display": "Deandre Ayton",
+      "accept": [
+       "Ayton",
+       "Deandre",
+       "Deandre Ayton"
+      ],
+      "detail": "Verdeja got Deandre Ayton in a trade with Papo on January 4, 2024."
+     },
+     {
+      "display": "Donovan Mitchell",
+      "accept": [
+       "Donovan",
+       "Donovan Mitchell",
+       "Mitchell",
+       "Spida"
+      ],
+      "detail": "Verdeja got Donovan Mitchell in a trade with Melo on September 4, 2026."
+     },
+     {
+      "display": "Donte DiVincenzo",
+      "accept": [
+       "DiVincenzo",
+       "Donte",
+       "Donte DiVincenzo"
+      ],
+      "detail": "Verdeja got Donte DiVincenzo in a trade with Papo on July 26, 2024."
+     },
+     {
+      "display": "Giannis Antetokounmpo",
+      "accept": [
+       "Antetokounmpo",
+       "Giannis",
+       "Giannis Antetokounmpo",
+       "Greek Freak"
+      ],
+      "detail": "Verdeja got Giannis Antetokounmpo in a trade with Papo on June 27, 2025."
+     },
+     {
+      "display": "Jaime Jaquez Jr.",
+      "accept": [
+       "Jaime",
+       "Jaime Jaquez",
+       "Jaime Jaquez Jr.",
+       "Jaquez"
+      ],
+      "detail": "Verdeja got Jaime Jaquez Jr. in a trade with Papo on February 5, 2025."
+     },
+     {
+      "display": "Jalen Duren",
+      "accept": [
+       "Duren",
+       "Jalen",
+       "Jalen Duren"
+      ],
+      "detail": "Verdeja got Jalen Duren in a trade with Papo on January 17, 2025."
+     },
+     {
+      "display": "Jimmy Butler III",
+      "accept": [
+       "Butler",
+       "Jimmy",
+       "Jimmy Buckets",
+       "Jimmy Butler",
+       "Jimmy Butler III"
+      ],
+      "detail": "Verdeja got Jimmy Butler III in a trade with Papo on September 3, 2025."
+     },
+     {
+      "display": "John Collins",
+      "accept": [
+       "Collins",
+       "John",
+       "John Collins"
+      ],
+      "detail": "Verdeja got John Collins in a trade with Papo on January 17, 2025."
+     },
+     {
+      "display": "Jordan Poole",
+      "accept": [
+       "Jordan",
+       "Jordan Poole",
+       "Poole"
+      ],
+      "detail": "Verdeja got Jordan Poole in a trade with Papo on January 4, 2024."
+     },
+     {
+      "display": "Keyonte George",
+      "accept": [
+       "George",
+       "Keyonte",
+       "Keyonte George"
+      ],
+      "detail": "Verdeja got Keyonte George in a trade with Papo on April 27, 2025."
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ],
+      "detail": "Verdeja got Naz Reid in a trade with Jacobo on August 1, 2024."
+     },
+     {
+      "display": "Nickeil Alexander-Walker",
+      "accept": [
+       "Alexander",
+       "Alexander-Walker",
+       "Nickeil",
+       "Nickeil Alexander-Walker",
+       "Walker"
+      ],
+      "detail": "Verdeja got Nickeil Alexander-Walker in a trade with Jacobo on February 2, 2026."
+     },
+     {
+      "display": "Paul George",
+      "accept": [
+       "George",
+       "PG",
+       "PG13",
+       "Paul",
+       "Paul George",
+       "Playoff P"
+      ],
+      "detail": "Verdeja got Paul George in a trade with Papo on January 4, 2024."
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "easy"
+   },
+   {
+    "id": "4da0f4b1",
+    "text": "How many regular-season wins did Antetokounmpers (Verdeja) have in 2025-2026?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "10",
+      "accept": [
+       "10"
+      ],
+      "manager": "verdeja",
+      "detail": "Verdeja went 10-10 in the 2025-2026 regular season (7th of 12) with 8,676 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "c72eb99d",
+    "text": "Which manager drafted Zion Williamson in the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Jacobo went 8-10 in the 2023-2024 regular season (9th of 12) with 7,458 points and missed the playoffs."
+     }
+    ],
+    "note": "Round 3, pick 28 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "medium"
+   },
+   {
+    "id": "a536d833",
+    "text": "Which manager drafted Shai Gilgeous-Alexander in the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipito PapoChullo (Chalela)",
+      "accept": [
+       "Achalela",
+       "Andres",
+       "Chab",
+       "Chalela",
+       "Equipito PapoChullo",
+       "Lochte & Associates"
+      ],
+      "manager": "chalela",
+      "detail": "Chalela went 9-9 in the 2023-2024 regular season (7th of 12) with 8,286 points and missed the playoffs."
+     }
+    ],
+    "note": "Round 1, pick 9 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "medium"
+   },
+   {
+    "id": "3226368d",
+    "text": "Which manager drafted Cameron Boozer in the 2026 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Blandon went 2-2 in the 2026-2027 regular season (7th of 12) with 1,794 points so far."
+     }
+    ],
+    "note": "Pick 1 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   },
+   {
+    "id": "c8fb8f77",
+    "text": "How many regular-season wins did Lochte & Associates (Chalela) have in 2025-2026?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "12",
+      "accept": [
+       "12"
+      ],
+      "manager": "chalela",
+      "detail": "Chalela went 12-8 in the 2025-2026 regular season (5th of 12) with 9,010 points, then finished fourth."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   }
   ]
  ],
  "players": [
