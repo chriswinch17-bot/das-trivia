@@ -2345,6 +2345,156 @@
      "matchups.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "2204d011",
+    "prompt": "Name one of the first six picks of the 2026 rookie draft.",
+    "answers": [
+     {
+      "display": "Cameron Boozer",
+      "accept": [
+       "Boozer",
+       "Cameron",
+       "Cameron Boozer"
+      ],
+      "detail": "Pick 1, by Rabbi BT69 (Blandon).",
+      "points": 40
+     },
+     {
+      "display": "Darius Acuff Jr.",
+      "accept": [
+       "Acuff",
+       "Darius",
+       "Darius Acuff",
+       "Darius Acuff Jr."
+      ],
+      "detail": "Pick 2, by hotrelish (Jacobo).",
+      "points": 25
+     },
+     {
+      "display": "Caleb Wilson",
+      "accept": [
+       "Caleb",
+       "Caleb Wilson",
+       "Wilson"
+      ],
+      "detail": "Pick 3, by hotrelish (Jacobo).",
+      "points": 15
+     },
+     {
+      "display": "Darryn Peterson",
+      "accept": [
+       "Darryn",
+       "Darryn Peterson",
+       "Peterson"
+      ],
+      "detail": "Pick 4, by hotrelish (Jacobo).",
+      "points": 10
+     },
+     {
+      "display": "AJ Dybantsa",
+      "accept": [
+       "AJ",
+       "AJ Dybantsa",
+       "Dybantsa"
+      ],
+      "detail": "Pick 5, by hotrelish (Jacobo).",
+      "points": 6
+     },
+     {
+      "display": "Keaton Wagler",
+      "accept": [
+       "Keaton",
+       "Keaton Wagler",
+       "Wagler"
+      ],
+      "detail": "Pick 6, by I Love Dragić (Victor).",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "drafts.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "e2f03faa",
+    "prompt": "Name a player Fidel’s Accumulators (Joey) has traded for.",
+    "answers": [
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ],
+      "detail": "Traded for 2 times by Joey (traded 10 times in all).",
+      "points": 40
+     },
+     {
+      "display": "Jusuf Nurkić",
+      "accept": [
+       "Bosnian Beast",
+       "Jusuf",
+       "Jusuf Nurkić",
+       "Nurkić"
+      ],
+      "detail": "Traded for 2 times by Joey (traded 5 times in all).",
+      "points": 25
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "D White",
+       "Derrick",
+       "Derrick White",
+       "White"
+      ],
+      "detail": "Traded for 1 time by Joey (traded 11 times in all).",
+      "points": 15
+     },
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "BI",
+       "Brandon",
+       "Brandon Ingram",
+       "Ingram"
+      ],
+      "detail": "Traded for 1 time by Joey (traded 8 times in all).",
+      "points": 10
+     },
+     {
+      "display": "Jalen Suggs",
+      "accept": [
+       "Jalen",
+       "Jalen Suggs",
+       "Suggs"
+      ],
+      "detail": "Traded for 1 time by Joey (traded 7 times in all).",
+      "points": 6
+     },
+     {
+      "display": "Michael Porter Jr.",
+      "accept": [
+       "MPJ",
+       "Michael",
+       "Michael Porter",
+       "Michael Porter Jr.",
+       "Porter"
+      ],
+      "detail": "Traded for 1 time by Joey (traded 7 times in all).",
+      "points": 4
+     }
+    ],
+    "note": "Ranked by how often they traded for him, then how often he's been traded in the league.",
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ]
 }

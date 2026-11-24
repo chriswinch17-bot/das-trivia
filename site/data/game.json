@@ -2373,7 +2373,7 @@
        "RabbiBT69"
       ],
       "manager": "blandon",
-      "detail": "Blandon went 2-2 in the 2026-2027 regular season (7th of 12) with 1,794 points so far."
+      "detail": "Blandon went 2-3 in the 2026-2027 regular season (7th of 12) with 2,200 points so far."
      }
     ],
     "note": "The pick was Cameron Boozer.",
@@ -7057,7 +7057,7 @@
        "victorprieto"
       ],
       "manager": "victor",
-      "detail": "Victor went 3-1 in the 2026-2027 regular season (3rd of 12) with 1,876 points so far."
+      "detail": "Victor went 3-2 in the 2026-2027 regular season (4th of 12) with 2,362 points so far."
      }
     ],
     "note": "Pick 6 overall.",
@@ -7986,7 +7986,7 @@
        "Melo"
       ],
       "manager": "melo",
-      "detail": "Melo went 0-4 in the 2026-2027 regular season (11th of 12) with 1,879 points so far."
+      "detail": "Melo went 1-4 in the 2026-2027 regular season (10th of 12) with 2,389 points so far."
      }
     ],
     "note": "Pick 11 overall.",
@@ -8904,7 +8904,7 @@
        "hughjasnuts"
       ],
       "manager": "joey",
-      "detail": "Joey went 1-3 in the 2026-2027 regular season (10th of 12) with 1,577 points so far."
+      "detail": "Joey went 1-4 in the 2026-2027 regular season (11th of 12) with 2,016 points so far."
      }
     ],
     "note": "Pick 10 overall.",
@@ -11434,7 +11434,7 @@
        "RabbiBT69"
       ],
       "manager": "blandon",
-      "detail": "Blandon went 2-2 in the 2026-2027 regular season (7th of 12) with 1,794 points so far."
+      "detail": "Blandon went 2-3 in the 2026-2027 regular season (7th of 12) with 2,200 points so far."
      }
     ],
     "note": "Pick 1 overall.",
@@ -11468,6 +11468,367 @@
     ],
     "group": "standings",
     "difficulty": "medium"
+   }
+  ],
+  [
+   {
+    "id": "86720017",
+    "text": "Which manager drafted Kingston Flemings in the 2026 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey",
+      "detail": "Joey went 1-4 in the 2026-2027 regular season (11th of 12) with 2,016 points so far."
+     }
+    ],
+    "note": "Pick 7 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   },
+   {
+    "id": "20731d60",
+    "text": "Who traded Donovan Mitchell to Antetokounmpers (Verdeja) on September 4, 2026?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo",
+      "detail": "Melo went 1-4 in the 2026-2027 regular season (10th of 12) with 2,389 points so far."
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "medium"
+   },
+   {
+    "id": "b9102b7f",
+    "text": "In which round of the 2023 startup draft was Julius Randle taken?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "4",
+      "accept": [
+       "4"
+      ],
+      "detail": "Pick 44 overall, by Fidel’s Accumulators (Joey)."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   },
+   {
+    "id": "a3b5c0f9",
+    "text": "Which manager drafted Anthony Davis in the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "manager": "joey",
+      "detail": "Joey went 11-6-1 in the 2023-2024 regular season (4th of 12) with 8,695 points, then lost in the first round of the playoffs."
+     }
+    ],
+    "note": "Round 3, pick 29 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "medium"
+   },
+   {
+    "id": "72093eb3",
+    "text": "How many regular-season wins did Equipo Winchenzo 2X (Winch) have in 2024-2025?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "14",
+      "accept": [
+       "14"
+      ],
+      "manager": "winch",
+      "detail": "Winch went 14-3 in the 2024-2025 regular season (1st of 12) with 8,544 points, then finished fourth."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "fa7b45b0",
+    "text": "How many trades did Lochte & Associates (Chalela) make during the 2025-2026 season?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "6",
+      "accept": [
+       "6"
+      ],
+      "manager": "chalela",
+      "detail": "Through 2025-2026, Chalela is 34-21 in the regular season with 2 playoff trips and 0 titles. Chalela has made 11 trades in all."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "hard"
+   },
+   {
+    "id": "03411d45",
+    "text": "Which manager drafted Nikola Jokić in the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "I Love Dragić (Victor)",
+      "accept": [
+       "I Love Dragić",
+       "Prieto",
+       "Vic",
+       "Victor",
+       "victorprieto"
+      ],
+      "manager": "victor",
+      "detail": "Victor went 9-9 in the 2023-2024 regular season (6th of 12) with 8,621 points, then lost in the first round of the playoffs."
+     }
+    ],
+    "note": "Round 1, pick 1 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "medium"
+   }
+  ],
+  [
+   {
+    "id": "d0abf14c",
+    "text": "Which manager drafted LaMelo Ball in the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Jacobo went 8-10 in the 2023-2024 regular season (9th of 12) with 7,458 points and missed the playoffs."
+     }
+    ],
+    "note": "Round 1, pick 5 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "medium"
+   },
+   {
+    "id": "883464ce",
+    "text": "How many regular-season wins did Kareem Abdul-Jabong (Melo) have in 2023-2024?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "12",
+      "accept": [
+       "12"
+      ],
+      "manager": "melo",
+      "detail": "Melo went 12-6 in the 2023-2024 regular season (2nd of 12) with 9,139 points, then finished fourth."
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "c1570c06",
+    "text": "How many trades did 2057 Champs (Shueiro) make during the 2024-2025 season?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "9",
+      "accept": [
+       "9"
+      ],
+      "manager": "shueiro",
+      "detail": "Through 2025-2026, Shueiro is 25-29 in the regular season with 1 playoff trip and 0 titles. Shueiro has made 23 trades in all."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "hard"
+   },
+   {
+    "id": "db99f6d9",
+    "text": "In which round of the 2023 startup draft was Naz Reid taken?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "17",
+      "accept": [
+       "17"
+      ],
+      "detail": "Pick 196 overall, by hotrelish (Jacobo)."
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   },
+   {
+    "id": "14d590f4",
+    "text": "Who scored the fewest points in the 2023-2024 regular season?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Jacobo went 8-10 in the 2023-2024 regular season (9th of 12) with 7,458 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "7fea8100",
+    "text": "Which manager drafted Mikal Bridges in the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Saboners (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "manager": "verdeja",
+      "detail": "Verdeja went 8-10 in the 2023-2024 regular season (8th of 12) with 7,802 points and missed the playoffs."
+     }
+    ],
+    "note": "Round 3, pick 32 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "medium"
+   },
+   {
+    "id": "c58900db",
+    "text": "Who was pick 4 of the 2024 rookie draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Zaccharie Risacher",
+      "accept": [
+       "Risacher",
+       "Zaccharie",
+       "Zaccharie Risacher"
+      ],
+      "detail": "Taken 4th overall by The Edey and Matas Show (Papo) in the 2024 rookie draft. Traded 3 times in Das League."
+     }
+    ],
+    "note": "Taken by The Edey and Matas Show (Papo).",
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "hard"
    }
   ]
  ],

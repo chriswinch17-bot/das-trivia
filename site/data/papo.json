@@ -5590,6 +5590,345 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "1106802766049173504",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "June 13, 2024",
+    "sides": [
+     [
+      "Michael Porter Jr."
+     ],
+     [
+      "Keldon Johnson",
+      "2024 1st-round pick"
+     ]
+    ],
+    "recap": "June 13, 2024: Michael Porter Jr. for Keldon Johnson and 2024 1st-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Los Chigüires (Libguel) got Michael Porter Jr.. The Edey and Matas Show (Papo) got Keldon Johnson and 2024 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1114031429014466560",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "July 3, 2024",
+    "sides": [
+     [
+      "2024 1st-round pick",
+      "2024 2nd-round pick"
+     ],
+     [
+      "2024 1st-round pick",
+      "2024 3rd-round pick"
+     ]
+    ],
+    "recap": "July 3, 2024: 2024 1st-round pick and 2024 2nd-round pick for 2024 1st-round pick and 2024 3rd-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "2057 Champs (Shueiro) got 2024 1st-round pick and 2024 2nd-round pick. The Edey and Matas Show (Papo) got 2024 1st-round pick and 2024 3rd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1049935152358739968",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "January 8, 2024",
+    "sides": [
+     [
+      "Jimmy Butler III"
+     ],
+     [
+      "Jarrett Allen",
+      "2024 3rd-round pick"
+     ]
+    ],
+    "recap": "January 8, 2024: Jimmy Butler III for Jarrett Allen and 2024 3rd-round pick",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "Equipo Winchenzo (Winch) got Jimmy Butler III. Kareem Abdul-Jabong (Melo) got Jarrett Allen and 2024 3rd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch",
+     "melo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1381452713744678912",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "July 10, 2026",
+    "sides": [
+     [
+      "2029 1st-round pick"
+     ],
+     [
+      "2029 1st-round pick"
+     ]
+    ],
+    "recap": "July 10, 2026: 2029 1st-round pick for 2029 1st-round pick",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "Equipo Winchenzo (Winch) got 2029 1st-round pick. Rabbi BT69 (Blandon) got 2029 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch",
+     "blandon"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1035784292657520640",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "November 30, 2023",
+    "sides": [
+     [
+      "DeMar DeRozan"
+     ],
+     [
+      "Clint Capela",
+      "2024 1st-round pick",
+      "2024 1st-round pick",
+      "2024 3rd-round pick"
+     ]
+    ],
+    "recap": "November 30, 2023: DeMar DeRozan for Clint Capela, 2024 1st-round pick, 2024 1st-round pick and 2024 3rd-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Luka Deez Nuts (Papo) got DeMar DeRozan. MoonUnit (Ricky) got Clint Capela, 2024 1st-round pick, 2024 1st-round pick and 2024 3rd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
+  ],
+  [
+   {
+    "id": "1158118592295251968",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "November 1, 2024",
+    "sides": [
+     [
+      "Lauri Markkanen",
+      "2025 1st-round pick"
+     ],
+     [
+      "Jaren Jackson Jr."
+     ]
+    ],
+    "recap": "November 1, 2024: Lauri Markkanen and 2025 1st-round pick for Jaren Jackson Jr.",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "The Edey and Matas Show (Papo) got Lauri Markkanen and 2025 1st-round pick. Rabbi Repeat BT69 (Blandon) got Jaren Jackson Jr.."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1324252883373268992",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "February 3, 2026",
+    "sides": [
+     [
+      "2028 3rd-round pick"
+     ],
+     [
+      "2026 3rd-round pick"
+     ]
+    ],
+    "recap": "February 3, 2026: 2028 3rd-round pick for 2026 3rd-round pick",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "hotrelish (Jacobo) got 2028 3rd-round pick. Rabbi BT69 (Blandon) got 2026 3rd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo",
+     "blandon"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1274780537386459136",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "September 19, 2025",
+    "sides": [
+     [
+      "2026 2nd-round pick"
+     ],
+     [
+      "Jeremy Sochan"
+     ]
+    ],
+    "recap": "September 19, 2025: 2026 2nd-round pick for Jeremy Sochan",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "hotrelish (Jacobo) got 2026 2nd-round pick. Rabbi BT69 (Blandon) got Jeremy Sochan."
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo",
+     "blandon"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1325670946626891776",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "February 7, 2026",
+    "sides": [
+     [
+      "Zion Williamson"
+     ],
+     [
+      "Derrick White",
+      "Jrue Holiday",
+      "Lauri Markkanen"
+     ]
+    ],
+    "recap": "February 7, 2026: Zion Williamson for Derrick White, Jrue Holiday and Lauri Markkanen",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fear the Brow (Papo) got Zion Williamson. LeBong James 👑 (Melo) got Derrick White, Jrue Holiday and Lauri Markkanen."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1019484690241437696",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "October 16, 2023",
+    "sides": [
+     [
+      "2023 13th-round pick"
+     ],
+     [
+      "2023 14th-round pick",
+      "2023 15th-round pick"
+     ]
+    ],
+    "recap": "October 16, 2023: 2023 13th-round pick for 2023 14th-round pick and 2023 15th-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Equipo Winchenzo (Winch) got 2023 13th-round pick. Luka Deez Nuts (Papo) got 2023 14th-round pick and 2023 15th-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ],
  "players": [
