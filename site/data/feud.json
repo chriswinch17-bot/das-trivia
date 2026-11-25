@@ -2495,6 +2495,109 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "8864e3c7",
+    "prompt": "Name a manager who has beaten Lochte & Associates (Chalela) the most (2023-2024 to 2025-2026, regular season).",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "detail": "4 wins against Chalela.",
+      "manager": "papo",
+      "points": 40
+     },
+     {
+      "display": "Antetokounmpers (Verdeja)",
+      "accept": [
+       "Antetokounmpers",
+       "Dan",
+       "Daniel",
+       "Saboners",
+       "Verd",
+       "Verdeja",
+       "Verdy",
+       "Verdy11"
+      ],
+      "detail": "3 wins against Chalela.",
+      "manager": "verdeja",
+      "points": 25
+     },
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "detail": "3 wins against Chalela.",
+      "manager": "winch",
+      "points": 15
+     },
+     {
+      "display": "Fidel’s Accumulators (Joey)",
+      "accept": [
+       "Doctor",
+       "Fidel’s Accumulators",
+       "Joe",
+       "Joey",
+       "Joseph",
+       "hughjasnuts"
+      ],
+      "detail": "2 wins against Chalela.",
+      "manager": "joey",
+      "points": 10
+     },
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "detail": "2 wins against Chalela.",
+      "manager": "libguel",
+      "points": 6
+     },
+     {
+      "display": "LeBong James (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "detail": "2 wins against Chalela.",
+      "manager": "melo",
+      "points": 4
+     }
+    ],
+    "note": null,
+    "sources": [
+     "matchups.json"
+    ]
+   }
   ]
  ]
 }

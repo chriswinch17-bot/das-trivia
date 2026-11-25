@@ -11830,6 +11830,196 @@
     "group": "drafts",
     "difficulty": "hard"
    }
+  ],
+  [
+   {
+    "id": "d9156a0d",
+    "text": "Who traded Luka Dončić to Fidel’s Accumulators (Joey) on July 22, 2024?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "The Edey and Matas Show (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 5-12 in the 2024-2025 regular season (10th of 12) with 6,352 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "medium"
+   },
+   {
+    "id": "df4f8f3f",
+    "text": "How many regular-season wins did The Edey and Matas Show (Papo) have in 2024-2025?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "5",
+      "accept": [
+       "5"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 5-12 in the 2024-2025 regular season (10th of 12) with 6,352 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "41bf2c04",
+    "text": "Which manager drafted Khaman Maluach in the 2025 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Jacobo went 7-13 in the 2025-2026 regular season (10th of 12) with 8,074 points and missed the playoffs."
+     }
+    ],
+    "note": "Pick 6 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   },
+   {
+    "id": "0102c891",
+    "text": "How many trades did 2057 Champs (Shueiro) make during the 2025-2026 season?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "4",
+      "accept": [
+       "4"
+      ],
+      "manager": "shueiro",
+      "detail": "Through 2025-2026, Shueiro is 25-29 in the regular season with 1 playoff trip and 0 titles. Shueiro has made 23 trades in all."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "hard"
+   },
+   {
+    "id": "8ba1369c",
+    "text": "Which manager drafted Jeremiah Fears in the 2025 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
+     }
+    ],
+    "note": "Pick 9 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   },
+   {
+    "id": "6191a690",
+    "text": "Which manager drafted Jayson Tatum in the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Equipo Winchenzo (Winch)",
+      "accept": [
+       "Chris",
+       "ElWinchenzo",
+       "Equipo",
+       "Equipo Winchenzo",
+       "Equipo Winchenzo 2X",
+       "Winch",
+       "Winchenzo"
+      ],
+      "manager": "winch",
+      "detail": "Winch went 15-3 in the 2023-2024 regular season (1st of 12) with 9,197 points, then finished third."
+     }
+    ],
+    "note": "Round 1, pick 10 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "medium"
+   },
+   {
+    "id": "91da1af6",
+    "text": "Which manager drafted Bam Adebayo in the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Blandon went 12-6 in the 2023-2024 regular season (3rd of 12) with 8,596 points, then won the championship."
+     }
+    ],
+    "note": "Round 3, pick 30 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "medium"
+   }
   ]
  ],
  "players": [

@@ -5929,6 +5929,181 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "1157878383255465984",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "November 1, 2024",
+    "sides": [
+     [
+      "Nikola Jović"
+     ],
+     [
+      "Jamal Shead",
+      "Kyle Filipowski",
+      "$50 FAAB"
+     ]
+    ],
+    "recap": "November 1, 2024: Nikola Jović for Jamal Shead, Kyle Filipowski and $50 FAAB",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "Equipo Winchenzo 2X (Winch) got Nikola Jović. hotrelish (Jacobo) got Jamal Shead, Kyle Filipowski and $50 FAAB."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch",
+     "jacobo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1083201336281313280",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "April 8, 2024",
+    "sides": [
+     [
+      "2024 1st-round pick",
+      "2024 2nd-round pick"
+     ],
+     [
+      "Bilal Coulibaly"
+     ]
+    ],
+    "recap": "April 8, 2024: 2024 1st-round pick and 2024 2nd-round pick for Bilal Coulibaly",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "Saboners (Verdeja) got 2024 1st-round pick and 2024 2nd-round pick. Rabbi Repeat BT69 (Blandon) got Bilal Coulibaly."
+     }
+    ],
+    "note": null,
+    "about": [
+     "verdeja",
+     "blandon"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1227695330854703104",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "May 12, 2025",
+    "sides": [
+     [
+      "Michael Porter Jr.",
+      "2025 2nd-round pick",
+      "2025 3rd-round pick",
+      "2026 2nd-round pick"
+     ],
+     [
+      "Brandon Ingram",
+      "2025 3rd-round pick"
+     ]
+    ],
+    "recap": "May 12, 2025: Michael Porter Jr., 2025 2nd-round pick, 2025 3rd-round pick and 2026 2nd-round pick for Brandon Ingram and 2025 3rd-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fear the Brow (Papo) got Michael Porter Jr., 2025 2nd-round pick, 2025 3rd-round pick and 2026 2nd-round pick. hotrelish (Jacobo) got Brandon Ingram and 2025 3rd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1166205987876089856",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "November 24, 2024",
+    "sides": [
+     [
+      "Chris Paul",
+      "John Collins",
+      "2027 1st-round pick"
+     ],
+     [
+      "Stephen Curry"
+     ]
+    ],
+    "recap": "November 24, 2024: Chris Paul, John Collins and 2027 1st-round pick for Stephen Curry",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "The Edey and Matas Show (Papo) got Chris Paul, John Collins and 2027 1st-round pick. Joel Embong? 😓 (Melo) got Stephen Curry."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1191129513525297152",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "February 5, 2025",
+    "sides": [
+     [
+      "Paul George"
+     ],
+     [
+      "Cameron Johnson",
+      "Jaime Jaquez Jr.",
+      "2025 2nd-round pick"
+     ]
+    ],
+    "recap": "February 5, 2025: Paul George for Cameron Johnson, Jaime Jaquez Jr. and 2025 2nd-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "The Edey and Matas Show (Papo) got Paul George. Saboners (Verdeja) got Cameron Johnson, Jaime Jaquez Jr. and 2025 2nd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ],
  "players": [
