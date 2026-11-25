@@ -24208,18 +24208,18 @@
   }
  },
  {
-  "status": "in_game",
+  "status": "complete",
   "date": "2026-11-24",
   "home": {
    "on_court": [
     "4922",
-    "1321",
+    "2164",
+    "4934",
     "1614",
-    "2833",
-    "1658"
+    "2730"
    ],
-   "points": 77,
-   "record": "10-5",
+   "points": 101,
+   "record": "10-6",
    "scoring": [
     {
      "number": 1,
@@ -24238,6 +24238,12 @@
      "points": 38,
      "sequence": 3,
      "type": "quarter"
+    },
+    {
+     "number": 4,
+     "points": 24,
+     "sequence": 4,
+     "type": "quarter"
     }
    ],
    "starters": [
@@ -24254,13 +24260,13 @@
   "away": {
    "on_court": [
     "4885",
-    "2029",
-    "2233",
+    "2281",
+    "4818",
     "4757",
-    "1054"
+    "2468"
    ],
-   "points": 82,
-   "record": "10-7",
+   "points": 120,
+   "record": "11-7",
    "scoring": [
     {
      "number": 1,
@@ -24276,8 +24282,14 @@
     },
     {
      "number": 3,
-     "points": 24,
+     "points": 26,
      "sequence": 3,
+     "type": "quarter"
+    },
+    {
+     "number": 4,
+     "points": 36,
+     "sequence": 4,
      "type": "quarter"
     }
    ],
@@ -24497,7 +24509,7 @@
   "week": 6,
   "game_id": "1393301062210838528",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -24511,7 +24523,7 @@
   "week": 6,
   "game_id": "1393301062949036032",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -25665,7 +25677,7 @@
   "week": 6,
   "game_id": "1393723936331530240",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -25749,7 +25761,7 @@
   "week": 7,
   "game_id": "1393723941205311488",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -25785,7 +25797,7 @@
   "status": "pre_game",
   "date": "2026-11-30",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 7,
@@ -25945,7 +25957,7 @@
   "week": 7,
   "game_id": "1393723952857088001",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -25995,7 +26007,7 @@
   "status": "pre_game",
   "date": "2026-12-02",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 7,
@@ -26225,7 +26237,7 @@
   "week": 8,
   "game_id": "1393723970607382528",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -26387,7 +26399,7 @@
   "status": "pre_game",
   "date": "2026-12-14",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 9,
@@ -26505,7 +26517,7 @@
   "week": 9,
   "game_id": "1393723987464290304",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -26589,7 +26601,7 @@
   "week": 9,
   "game_id": "1393723992866553856",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -26715,7 +26727,7 @@
   "week": 9,
   "game_id": "1393724000810565632",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -26723,7 +26735,7 @@
   "status": "pre_game",
   "date": "2026-12-17",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 9,
@@ -26933,7 +26945,7 @@
   "status": "pre_game",
   "date": "2026-12-19",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 9,
@@ -26947,7 +26959,7 @@
   "status": "pre_game",
   "date": "2026-12-19",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 9,
@@ -27163,7 +27175,7 @@
   "week": 10,
   "game_id": "1392938582234107904",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -27303,7 +27315,7 @@
   "week": 10,
   "game_id": "1393724031907135488",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -27345,7 +27357,7 @@
   "week": 10,
   "game_id": "1393724035421962240",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -27527,7 +27539,7 @@
   "week": 10,
   "game_id": "1393724046423621632",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -27541,7 +27553,7 @@
   "week": 10,
   "game_id": "1393724048134897664",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -27633,7 +27645,7 @@
   "status": "pre_game",
   "date": "2026-12-26",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 10,
@@ -27787,7 +27799,7 @@
   "status": "pre_game",
   "date": "2026-12-27",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 10,
@@ -27899,7 +27911,7 @@
   "status": "pre_game",
   "date": "2026-12-28",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 11,
@@ -27941,7 +27953,7 @@
   "status": "pre_game",
   "date": "2026-12-29",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 11,
@@ -28185,7 +28197,7 @@
   "week": 11,
   "game_id": "1393724085761998848",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -28297,7 +28309,7 @@
   "week": 11,
   "game_id": "1393724091919237120",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -28333,7 +28345,7 @@
   "status": "pre_game",
   "date": "2027-01-02",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 11,
@@ -28381,7 +28393,7 @@
   "week": 11,
   "game_id": "1393724096654606336",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -28445,7 +28457,7 @@
   "status": "pre_game",
   "date": "2027-01-03",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 11,
@@ -28605,7 +28617,7 @@
   "week": 12,
   "game_id": "1393724110273511424",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -28767,7 +28779,7 @@
   "status": "pre_game",
   "date": "2027-01-05",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 12,
@@ -28857,7 +28869,7 @@
   "week": 12,
   "game_id": "1393724125880516608",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -28949,7 +28961,7 @@
   "status": "pre_game",
   "date": "2027-01-07",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 12,
@@ -29103,7 +29115,7 @@
   "status": "pre_game",
   "date": "2027-01-08",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 12,
@@ -29137,7 +29149,7 @@
   "week": 12,
   "game_id": "1393724142921973760",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -29263,7 +29275,7 @@
   "week": 12,
   "game_id": "1393724149825798144",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -29403,7 +29415,7 @@
   "week": 13,
   "game_id": "1393724158893883392",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -29459,7 +29471,7 @@
   "week": 13,
   "game_id": "1393724163188850688",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -29501,7 +29513,7 @@
   "week": 13,
   "game_id": "1393724164887543808",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -29655,7 +29667,7 @@
   "week": 13,
   "game_id": "1393724174538637312",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -29733,7 +29745,7 @@
   "status": "pre_game",
   "date": "2027-01-14",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 13,
@@ -29907,7 +29919,7 @@
   "week": 13,
   "game_id": "1393724189931732992",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -29943,7 +29955,7 @@
   "status": "pre_game",
   "date": "2027-01-16",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 13,
@@ -30027,7 +30039,7 @@
   "status": "pre_game",
   "date": "2027-01-17",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 13,
@@ -30125,7 +30137,7 @@
   "status": "pre_game",
   "date": "2027-01-18",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 14,
@@ -30209,7 +30221,7 @@
   "status": "pre_game",
   "date": "2027-01-19",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 14,
@@ -30237,7 +30249,7 @@
   "status": "pre_game",
   "date": "2027-01-19",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 14,
@@ -30419,7 +30431,7 @@
   "status": "pre_game",
   "date": "2027-01-21",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 14,
@@ -30523,7 +30535,7 @@
   "week": 14,
   "game_id": "1393724225633648640",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -30643,7 +30655,7 @@
   "status": "pre_game",
   "date": "2027-01-23",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 14,
@@ -30671,7 +30683,7 @@
   "status": "pre_game",
   "date": "2027-01-23",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 14,
@@ -30873,7 +30885,7 @@
   "week": 15,
   "game_id": "1393724250308739072",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -30881,7 +30893,7 @@
   "status": "pre_game",
   "date": "2027-01-25",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 15,
@@ -31027,7 +31039,7 @@
   "week": 15,
   "game_id": "1393724261113266176",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -31097,7 +31109,7 @@
   "week": 15,
   "game_id": "1393724265286598656",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -31273,7 +31285,7 @@
   "status": "pre_game",
   "date": "2027-01-29",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 15,
@@ -31335,7 +31347,7 @@
   "week": 15,
   "game_id": "1393724282814595072",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -31511,7 +31523,7 @@
   "status": "pre_game",
   "date": "2027-01-31",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 15,
@@ -31525,7 +31537,7 @@
   "status": "pre_game",
   "date": "2027-01-31",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 15,
@@ -31679,7 +31691,7 @@
   "status": "pre_game",
   "date": "2027-02-02",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 16,
@@ -31693,7 +31705,7 @@
   "status": "pre_game",
   "date": "2027-02-02",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 16,
@@ -31959,13 +31971,13 @@
   "status": "pre_game",
   "date": "2027-02-04",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 16,
   "game_id": "1393724325047042048",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -32029,7 +32041,7 @@
   "status": "pre_game",
   "date": "2027-02-05",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 16,
@@ -32057,7 +32069,7 @@
   "status": "pre_game",
   "date": "2027-02-06",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 16,
@@ -32203,7 +32215,7 @@
   "week": 16,
   "game_id": "1393724342864445440",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -32239,7 +32251,7 @@
   "status": "pre_game",
   "date": "2027-02-07",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 16,
@@ -32427,7 +32439,7 @@
   "week": 17,
   "game_id": "1393724358718914560",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -32463,7 +32475,7 @@
   "status": "pre_game",
   "date": "2027-02-09",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 17,
@@ -32673,7 +32685,7 @@
   "status": "pre_game",
   "date": "2027-02-11",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 17,
@@ -32701,7 +32713,7 @@
   "status": "pre_game",
   "date": "2027-02-11",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 17,
@@ -32833,7 +32845,7 @@
   "week": 17,
   "game_id": "1393724384711016448",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -32861,7 +32873,7 @@
   "week": 17,
   "game_id": "1393724386367766528",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -33001,7 +33013,7 @@
   "week": 17,
   "game_id": "1393724395003838464",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -33037,7 +33049,7 @@
   "status": "pre_game",
   "date": "2027-02-15",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 18,
@@ -33281,7 +33293,7 @@
   "week": 18,
   "game_id": "1393724408270422018",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -33331,7 +33343,7 @@
   "status": "pre_game",
   "date": "2027-02-17",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 18,
@@ -33589,7 +33601,7 @@
   "week": 19,
   "game_id": "1393724429543931904",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -33667,7 +33679,7 @@
   "status": "pre_game",
   "date": "2027-02-26",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 19,
@@ -33687,7 +33699,7 @@
   "week": 19,
   "game_id": "1393724436305149952",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -33771,7 +33783,7 @@
   "week": 19,
   "game_id": "1393724442634354688",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -33793,7 +33805,7 @@
   "status": "pre_game",
   "date": "2027-02-28",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 19,
@@ -33961,7 +33973,7 @@
   "status": "pre_game",
   "date": "2027-03-01",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 20,
@@ -34045,7 +34057,7 @@
   "status": "pre_game",
   "date": "2027-03-02",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 20,
@@ -34185,7 +34197,7 @@
   "status": "pre_game",
   "date": "2027-03-03",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 20,
@@ -34269,7 +34281,7 @@
   "status": "pre_game",
   "date": "2027-03-04",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 20,
@@ -34521,7 +34533,7 @@
   "status": "pre_game",
   "date": "2027-03-07",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 20,
@@ -34667,7 +34679,7 @@
   "week": 21,
   "game_id": "1393724503263019008",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -34681,7 +34693,7 @@
   "week": 21,
   "game_id": "1393724503468539904",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -34759,7 +34771,7 @@
   "status": "pre_game",
   "date": "2027-03-09",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 21,
@@ -34905,7 +34917,7 @@
   "week": 21,
   "game_id": "1393724518849052672",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -34969,7 +34981,7 @@
   "status": "pre_game",
   "date": "2027-03-11",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 21,
@@ -35095,7 +35107,7 @@
   "status": "pre_game",
   "date": "2027-03-12",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 21,
@@ -35193,7 +35205,7 @@
   "status": "pre_game",
   "date": "2027-03-13",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 21,
@@ -35291,7 +35303,7 @@
   "status": "pre_game",
   "date": "2027-03-14",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 21,
@@ -35389,7 +35401,7 @@
   "status": "pre_game",
   "date": "2027-03-15",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 22,
@@ -35535,7 +35547,7 @@
   "week": 22,
   "game_id": "1393724562381733888",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -35577,7 +35589,7 @@
   "week": 22,
   "game_id": "1393724564436942848",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -35725,7 +35737,7 @@
   "status": "pre_game",
   "date": "2027-03-18",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 22,
@@ -35815,7 +35827,7 @@
   "week": 22,
   "game_id": "1393724581113495552",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -35885,7 +35897,7 @@
   "week": 22,
   "game_id": "1393724586008248320",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -36025,7 +36037,7 @@
   "week": 22,
   "game_id": "1393724595357351936",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -36053,7 +36065,7 @@
   "week": 22,
   "game_id": "1393724597324480512",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -36165,7 +36177,7 @@
   "week": 23,
   "game_id": "1393724603980840960",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -36277,7 +36289,7 @@
   "week": 23,
   "game_id": "1393724609869643776",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -36333,7 +36345,7 @@
   "week": 23,
   "game_id": "1393724613610962944",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -36473,7 +36485,7 @@
   "week": 23,
   "game_id": "1393724621882130432",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -36551,7 +36563,7 @@
   "status": "pre_game",
   "date": "2027-03-26",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 23,
@@ -36739,7 +36751,7 @@
   "week": 23,
   "game_id": "1393724638017617920",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -36803,7 +36815,7 @@
   "status": "pre_game",
   "date": "2027-03-28",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 23,
@@ -36893,7 +36905,7 @@
   "week": 24,
   "game_id": "1393724646464946176",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -36921,7 +36933,7 @@
   "week": 24,
   "game_id": "1393724648021032960",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -37125,13 +37137,13 @@
   "status": "pre_game",
   "date": "2027-03-31",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 24,
   "game_id": "1393724661505720320",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -37293,7 +37305,7 @@
   "status": "pre_game",
   "date": "2027-04-02",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 24,
@@ -37355,7 +37367,7 @@
   "week": 24,
   "game_id": "1393724674126381056",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -37461,7 +37473,7 @@
   "status": "pre_game",
   "date": "2027-04-04",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 24,
@@ -37531,7 +37543,7 @@
   "status": "pre_game",
   "date": "2027-04-04",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 24,
@@ -37727,7 +37739,7 @@
   "status": "pre_game",
   "date": "2027-04-06",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 25,
@@ -37747,7 +37759,7 @@
   "week": 25,
   "game_id": "1393724700919595008",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -37887,7 +37899,7 @@
   "week": 25,
   "game_id": "1393724709434032128",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -37937,7 +37949,7 @@
   "status": "pre_game",
   "date": "2027-04-08",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 25,
@@ -38111,7 +38123,7 @@
   "week": 25,
   "game_id": "1393724722637701120",
   "away": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   }
  },
@@ -38153,7 +38165,7 @@
   "week": 25,
   "game_id": "1393724724168622080",
   "away": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   }
  },
@@ -38301,7 +38313,7 @@
   "status": "pre_game",
   "date": "2027-04-11",
   "home": {
-   "record": "10-5",
+   "record": "10-6",
    "team": "DEN"
   },
   "week": 25,
@@ -38315,7 +38327,7 @@
   "status": "pre_game",
   "date": "2027-04-11",
   "home": {
-   "record": "10-7",
+   "record": "11-7",
    "team": "DAL"
   },
   "week": 25,
