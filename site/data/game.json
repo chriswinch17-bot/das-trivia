@@ -12020,6 +12020,233 @@
     "group": "startup",
     "difficulty": "medium"
    }
+  ],
+  [
+   {
+    "id": "bd86c300",
+    "text": "How many regular-season wins did Los Chigüires (Libguel) have in 2024-2025?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "7",
+      "accept": [
+       "7"
+      ],
+      "manager": "libguel",
+      "detail": "Libguel went 7-10 in the 2024-2025 regular season (7th of 12) with 8,019 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "a2b36df5",
+    "text": "Which manager drafted Dejounte Murray in the 2023 startup draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Kareem Abdul-Jabong (Melo)",
+      "accept": [
+       "DasMelo",
+       "Francisco",
+       "Frank",
+       "Joel Embong? 😓",
+       "Kareem Abdul-Jabong",
+       "LeBong James",
+       "LeBong James 👑",
+       "Melo"
+      ],
+      "manager": "melo",
+      "detail": "Melo went 12-6 in the 2023-2024 regular season (2nd of 12) with 9,139 points, then finished fourth."
+     }
+    ],
+    "note": "Round 4, pick 42 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "medium"
+   },
+   {
+    "id": "12594275",
+    "text": "How many trades did Los Chigüires (Libguel) make during the 2023-2024 season?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "6",
+      "accept": [
+       "6"
+      ],
+      "manager": "libguel",
+      "detail": "Through 2025-2026, Libguel is 29-26 in the regular season with 1 playoff trip and 1 title. Libguel has made 22 trades in all."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "hard"
+   },
+   {
+    "id": "e76ed361",
+    "text": "Which manager drafted Kasparas Jakučionis in the 2025 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "2057 Champs (Shueiro)",
+      "accept": [
+       "2057 Champs",
+       "Michael",
+       "Mike",
+       "Shueiro",
+       "Sueiro",
+       "Sway",
+       "msway21"
+      ],
+      "manager": "shueiro",
+      "detail": "Shueiro went 13-7 in the 2025-2026 regular season (3rd of 12) with 9,303 points, then lost in the first round of the playoffs."
+     }
+    ],
+    "note": "Pick 12 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   },
+   {
+    "id": "17a83a21",
+    "text": "Who traded Bam Adebayo to 2057 Champs (Shueiro) on January 30, 2024?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Rabbi BT69 (Blandon)",
+      "accept": [
+       "BT",
+       "BT69",
+       "Blandon",
+       "Brandon",
+       "Rabbi",
+       "Rabbi BT69",
+       "Rabbi Repeat BT69",
+       "RabbiBT69"
+      ],
+      "manager": "blandon",
+      "detail": "Blandon went 12-6 in the 2023-2024 regular season (3rd of 12) with 8,596 points, then won the championship."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "medium"
+   },
+   {
+    "id": "a5f813f4",
+    "text": "Name one of the first five players Los Chigüires (Libguel) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Anthony Edwards",
+      "accept": [
+       "Ant",
+       "Ant Man",
+       "Ant-Man",
+       "Anthony",
+       "Anthony Edwards",
+       "Edwards"
+      ],
+      "detail": "Taken 8th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 2 times in Das League."
+     },
+     {
+      "display": "Ja Morant",
+      "accept": [
+       "Ja",
+       "Ja Morant",
+       "Morant"
+      ],
+      "detail": "Taken 17th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 3 times in Das League."
+     },
+     {
+      "display": "Jamal Murray",
+      "accept": [
+       "Blue Arrow",
+       "Jamal",
+       "Jamal Murray",
+       "Murray"
+      ],
+      "detail": "Taken 36th overall by Los Chigüires (Libguel) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ],
+      "detail": "Taken 37th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 10 times in Das League."
+     },
+     {
+      "display": "Scottie Barnes",
+      "accept": [
+       "Barnes",
+       "Scottie",
+       "Scottie Barnes"
+      ],
+      "detail": "Taken 60th overall by Los Chigüires (Libguel) in the 2023 startup draft. Traded 2 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "libguel"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "easy"
+   },
+   {
+    "id": "fe8b37ef",
+    "text": "How many regular-season wins did Fidel’s Accumulators (Joey) have in 2025-2026?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "2",
+      "accept": [
+       "2"
+      ],
+      "manager": "joey",
+      "detail": "Joey went 2-18 in the 2025-2026 regular season (12th of 12) with 8,218 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   }
   ]
  ],
  "players": [

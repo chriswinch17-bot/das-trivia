@@ -2598,6 +2598,83 @@
      "matchups.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "2437d477",
+    "prompt": "Name a player Lochte & Associates (Chalela) has traded for.",
+    "answers": [
+     {
+      "display": "Dennis Schröder",
+      "accept": [
+       "Dennis",
+       "Dennis Schröder",
+       "Schroder",
+       "Schröder"
+      ],
+      "detail": "Traded for 2 times by Chalela (traded 5 times in all).",
+      "points": 40
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "D White",
+       "Derrick",
+       "Derrick White",
+       "White"
+      ],
+      "detail": "Traded for 1 time by Chalela (traded 11 times in all).",
+      "points": 25
+     },
+     {
+      "display": "Stephen Curry",
+      "accept": [
+       "Chef Curry",
+       "Curry",
+       "Steph",
+       "Stephen",
+       "Stephen Curry"
+      ],
+      "detail": "Traded for 1 time by Chalela (traded 4 times in all).",
+      "points": 15
+     },
+     {
+      "display": "Caris LeVert",
+      "accept": [
+       "Caris",
+       "Caris LeVert",
+       "LeVert"
+      ],
+      "detail": "Traded for 1 time by Chalela (traded 2 times in all).",
+      "points": 10
+     },
+     {
+      "display": "Goga Bitadze",
+      "accept": [
+       "Bitadze",
+       "Goga",
+       "Goga Bitadze"
+      ],
+      "detail": "Traded for 1 time by Chalela (traded 2 times in all).",
+      "points": 6
+     },
+     {
+      "display": "Kyle Kuzma",
+      "accept": [
+       "Kuz",
+       "Kuzma",
+       "Kyle",
+       "Kyle Kuzma"
+      ],
+      "detail": "Traded for 1 time by Chalela (traded 2 times in all).",
+      "points": 4
+     }
+    ],
+    "note": "Ranked by how often they traded for him, then how often he's been traded in the league.",
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ]
 }

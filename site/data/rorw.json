@@ -2905,6 +2905,257 @@
      "data/raw/sleeper"
     ]
    }
+  ],
+  [
+   {
+    "id": "rw-2026-11-26-2521",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2521",
+     "name": "Quenton Jackson",
+     "pos": "PG",
+     "nba": "IND",
+     "gp": 18,
+     "fpg": 22.9,
+     "line": "8.9 pts · 3.4 reb · 2.8 ast",
+     "teams": 5,
+     "recent": 21.4,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Quenton Jackson (PG, IND): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 5 Das League teams. Victor dropped him on Nov 23. He's averaging 22.9 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-26-2139",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2139",
+     "name": "Sam Merrill",
+     "pos": "SG",
+     "nba": "CLE",
+     "gp": 12,
+     "fpg": 20.7,
+     "line": "7.8 pts · 3.1 reb · 1.9 ast",
+     "teams": 5,
+     "recent": 13.2,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Sam Merrill (SG, CLE): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 5 Das League teams. Shueiro dropped him on Oct 30. He's averaging 20.7 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-26-2444",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2444",
+     "name": "Jake LaRavia",
+     "pos": "SF",
+     "nba": "LAL",
+     "gp": 17,
+     "fpg": 21.8,
+     "line": "6.4 pts · 4.4 reb · 2.0 ast",
+     "teams": 8,
+     "recent": 25.2,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Jake LaRavia (SF, LAL): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 8 Das League teams. Melo dropped him on Nov 19. He's averaging 21.8 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-26-1932",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "1932",
+     "name": "Moritz Wagner",
+     "pos": "C",
+     "nba": "BKN",
+     "gp": 16,
+     "fpg": 20.2,
+     "line": "9.9 pts · 3.3 reb · 1.6 ast",
+     "teams": 7,
+     "recent": 13.4,
+     "recent_n": 5,
+     "injury": "Out"
+    },
+    "recap": "Moritz Wagner (C, BKN): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 7 Das League teams. Papo dropped him on Nov 9. He's averaging 20.2 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-26-2329",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2329",
+     "name": "Sam Hauser",
+     "pos": "PF",
+     "nba": "BOS",
+     "gp": 18,
+     "fpg": 18.6,
+     "line": "8.2 pts · 3.1 reb · 1.2 ast",
+     "teams": 7,
+     "recent": 18.6,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Sam Hauser (PF, BOS): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 7 Das League teams. He's averaging 18.6 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-26-4880",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "4880",
+     "name": "Allen Graves",
+     "pos": "PF",
+     "nba": "TOR",
+     "gp": 17,
+     "fpg": 15.4,
+     "line": "5.6 pts · 3.2 reb · 0.8 ast",
+     "teams": 1,
+     "recent": 22.6,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Allen Graves (PF, TOR): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Fidel’s Accumulators (Joey)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Fidel’s Accumulators (Joey) has had him since before this season. He's averaging 15.4 fantasy points a game, the 10th lowest of the 176 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-26-1975",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1975",
+     "name": "Mikal Bridges",
+     "pos": "SF",
+     "nba": "NYK",
+     "gp": 17,
+     "fpg": 19.7,
+     "line": "7.8 pts · 3.4 reb · 2.2 ast",
+     "teams": 5,
+     "recent": 24.0,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Mikal Bridges (SF, NYK): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by MoonUnit 🦬 (Ricky)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "MoonUnit 🦬 (Ricky) has had him since before this season. He's averaging 19.7 fantasy points a game, the 20th lowest of the 176 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   }
   ]
  ],
  "as_of": [
@@ -2920,7 +3171,8 @@
   "Sun Nov 22, 12:56 AM EST",
   null,
   "Tue Nov 24, 12:59 AM EST",
-  "Wed Nov 25, 12:01 AM EST"
+  "Wed Nov 25, 12:01 AM EST",
+  "Thu Nov 26, 12:59 AM EST"
  ],
  "dates": [
   "2026-11-13",
@@ -2935,7 +3187,8 @@
   "2026-11-22",
   null,
   "2026-11-24",
-  "2026-11-25"
+  "2026-11-25",
+  "2026-11-26"
  ],
  "players": [
   {

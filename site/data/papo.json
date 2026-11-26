@@ -6104,6 +6104,180 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "1018407198701457408",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "October 13, 2023",
+    "sides": [
+     [
+      "2023 1st-round pick",
+      "2023 2nd-round pick"
+     ],
+     [
+      "2023 1st-round pick",
+      "2023 4th-round pick"
+     ]
+    ],
+    "recap": "October 13, 2023: 2023 1st-round pick and 2023 2nd-round pick for 2023 1st-round pick and 2023 4th-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "2057 Champs (Shueiro) got 2023 1st-round pick and 2023 2nd-round pick. Luka Deez Nuts (Papo) got 2023 1st-round pick and 2023 4th-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1332768947811946496",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "February 26, 2026",
+    "sides": [
+     [
+      "Pelle Larsson"
+     ],
+     [
+      "Jakob Poeltl"
+     ],
+     [
+      "Jusuf Nurkić",
+      "2028 3rd-round pick"
+     ]
+    ],
+    "recap": "February 26, 2026: Pelle Larsson for Jakob Poeltl for Jusuf Nurkić and 2028 3rd-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Equipo Winchenzo (Winch) got Pelle Larsson. Fear the Brow (Papo) got Jakob Poeltl. Rabbi BT69 (Blandon) got Jusuf Nurkić and 2028 3rd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1019432934841323520",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "October 15, 2023",
+    "sides": [
+     [
+      "2023 1st-round pick",
+      "2023 2nd-round pick"
+     ],
+     [
+      "2023 1st-round pick",
+      "2023 2nd-round pick"
+     ]
+    ],
+    "recap": "October 15, 2023: 2023 1st-round pick and 2023 2nd-round pick for 2023 1st-round pick and 2023 2nd-round pick",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "Fidel’s Accumulators (Joey) got 2023 1st-round pick and 2023 2nd-round pick. hotrelish (Jacobo) got 2023 1st-round pick and 2023 2nd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey",
+     "jacobo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1324169098019475456",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "February 2, 2026",
+    "sides": [
+     [
+      "2026 1st-round pick"
+     ],
+     [
+      "2026 2nd-round pick",
+      "2028 1st-round pick"
+     ]
+    ],
+    "recap": "February 2, 2026: 2026 1st-round pick for 2026 2nd-round pick and 2028 1st-round pick",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "LeBong James 👑 (Melo) got 2026 1st-round pick. hotrelish (Jacobo) got 2026 2nd-round pick and 2028 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo",
+     "jacobo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1062440375329091584",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "February 11, 2024",
+    "sides": [
+     [
+      "Klay Thompson"
+     ],
+     [
+      "2024 2nd-round pick",
+      "2026 3rd-round pick"
+     ]
+    ],
+    "recap": "February 11, 2024: Klay Thompson for 2024 2nd-round pick and 2026 3rd-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Luka Deez Nuts (Papo) got Klay Thompson. hotrelish (Jacobo) got 2024 2nd-round pick and 2026 3rd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ],
  "players": [
