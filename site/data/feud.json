@@ -2675,6 +2675,81 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "1773f25b",
+    "prompt": "Name a player 2057 Champs (Shueiro) has traded for.",
+    "answers": [
+     {
+      "display": "Miles Bridges",
+      "accept": [
+       "Bridges",
+       "Miles",
+       "Miles Bridges"
+      ],
+      "detail": "Traded for 2 times by Shueiro (traded 6 times in all).",
+      "points": 40
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ],
+      "detail": "Traded for 1 time by Shueiro (traded 10 times in all).",
+      "points": 25
+     },
+     {
+      "display": "Brandon Ingram",
+      "accept": [
+       "BI",
+       "Brandon",
+       "Brandon Ingram",
+       "Ingram"
+      ],
+      "detail": "Traded for 1 time by Shueiro (traded 8 times in all).",
+      "points": 15
+     },
+     {
+      "display": "Jalen Suggs",
+      "accept": [
+       "Jalen",
+       "Jalen Suggs",
+       "Suggs"
+      ],
+      "detail": "Traded for 1 time by Shueiro (traded 7 times in all).",
+      "points": 10
+     },
+     {
+      "display": "Jimmy Butler III",
+      "accept": [
+       "Butler",
+       "Jimmy",
+       "Jimmy Buckets",
+       "Jimmy Butler",
+       "Jimmy Butler III"
+      ],
+      "detail": "Traded for 1 time by Shueiro (traded 6 times in all).",
+      "points": 6
+     },
+     {
+      "display": "Mikal Bridges",
+      "accept": [
+       "Bridges",
+       "Mikal",
+       "Mikal Bridges"
+      ],
+      "detail": "Traded for 1 time by Shueiro (traded 6 times in all).",
+      "points": 4
+     }
+    ],
+    "note": "Ranked by how often they traded for him, then how often he's been traded in the league.",
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ]
 }

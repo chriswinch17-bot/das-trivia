@@ -3156,6 +3156,261 @@
      "data/raw/sleeper"
     ]
    }
+  ],
+  [
+   {
+    "id": "rw-2026-11-27-1081",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1081",
+     "name": "Klay Thompson",
+     "pos": "SF",
+     "nba": "MIA",
+     "gp": 16,
+     "fpg": 25.9,
+     "line": "14.4 pts · 1.6 reb · 2.1 ast",
+     "teams": 9,
+     "recent": 27.8,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Klay Thompson (SF, MIA): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Lochte & Associates (Chalela)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Lochte & Associates (Chalela) has had him since Nov 5. He's averaging 25.9 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-27-1707",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "1707",
+     "name": "Buddy Hield",
+     "pos": "SG",
+     "nba": "CHI",
+     "gp": 16,
+     "fpg": 21.6,
+     "line": "10.2 pts · 2.9 reb · 2.0 ast",
+     "teams": 7,
+     "recent": 32.0,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Buddy Hield (SG, CHI): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 7 Das League teams. Papo dropped him on Nov 24. He's averaging 21.6 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-27-2578",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2578",
+     "name": "Gradey Dick",
+     "pos": "SF",
+     "nba": "LAC",
+     "gp": 16,
+     "fpg": 13.5,
+     "line": "6.8 pts · 2.8 reb · 0.7 ast",
+     "teams": 1,
+     "recent": 7.8,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Gradey Dick (SF, LAC): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Lochte & Associates (Chalela)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Lochte & Associates (Chalela) has had him since before this season. He's averaging 13.5 fantasy points a game, the 5th lowest of the 175 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-27-2492",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2492",
+     "name": "Dominick Barlow",
+     "pos": "PF",
+     "nba": "PHI",
+     "gp": 3,
+     "fpg": 20.3,
+     "line": "9.0 pts · 4.7 reb · 0.3 ast",
+     "teams": 8,
+     "recent": 20.3,
+     "recent_n": 3,
+     "injury": null
+    },
+    "recap": "Dominick Barlow (PF, PHI): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 8 Das League teams. He's averaging 20.3 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-27-2488",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2488",
+     "name": "Gui Santos",
+     "pos": "SF",
+     "nba": "GSW",
+     "gp": 15,
+     "fpg": 17.2,
+     "line": "7.8 pts · 4.2 reb · 1.7 ast",
+     "teams": 5,
+     "recent": 22.8,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Gui Santos (SF, GSW): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by hotrelish (Jacobo)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "hotrelish (Jacobo) has had him since Nov 26. He's averaging 17.2 fantasy points a game, the 10th lowest of the 175 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-27-1946",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1946",
+     "name": "Kenrich Williams",
+     "pos": "PF",
+     "nba": "OKC",
+     "gp": 19,
+     "fpg": 21.4,
+     "line": "8.5 pts · 4.0 reb · 1.6 ast",
+     "teams": 4,
+     "recent": 32.6,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Kenrich Williams (PF, OKC): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Fear the Brow (Papo)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Fear the Brow (Papo) has had him since Nov 24. He's averaging 21.4 fantasy points a game, the 27th lowest of the 175 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-27-1254",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "1254",
+     "name": "Dennis Schröder",
+     "pos": "PG",
+     "nba": "CHA",
+     "gp": 9,
+     "fpg": 20.6,
+     "line": "10.2 pts · 3.6 reb · 4.9 ast",
+     "teams": 8,
+     "recent": 15.6,
+     "recent_n": 5,
+     "injury": "Out"
+    },
+    "recap": "Dennis Schröder (PG, CHA): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 8 Das League teams. Melo dropped him on Nov 1. He's averaging 20.6 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   }
   ]
  ],
  "as_of": [
@@ -3172,7 +3427,8 @@
   null,
   "Tue Nov 24, 12:59 AM EST",
   "Wed Nov 25, 12:01 AM EST",
-  "Thu Nov 26, 12:59 AM EST"
+  "Thu Nov 26, 12:59 AM EST",
+  "Fri Nov 27, 12:00 AM EST"
  ],
  "dates": [
   "2026-11-13",
@@ -3188,7 +3444,8 @@
   null,
   "2026-11-24",
   "2026-11-25",
-  "2026-11-26"
+  "2026-11-26",
+  "2026-11-27"
  ],
  "players": [
   {

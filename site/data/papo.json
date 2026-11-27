@@ -6278,6 +6278,196 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "1228888725140803584",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "May 15, 2025",
+    "sides": [
+     [
+      "Clint Capela",
+      "Dillon Brooks",
+      "Jusuf Nurkić",
+      "2026 1st-round pick",
+      "2026 3rd-round pick",
+      "2027 3rd-round pick"
+     ],
+     [
+      "Jordan Poole",
+      "Mark Williams",
+      "Tristan Vukcevic",
+      "2027 2nd-round pick"
+     ]
+    ],
+    "recap": "May 15, 2025: Clint Capela, Dillon Brooks, Jusuf Nurkić, 2026 1st-round pick, 2026 3rd-round pick and 2027 3rd-round pick for Jordan Poole, Mark Williams, Tristan Vukcevic and 2027 2nd-round pick",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "hotrelish (Jacobo) got Clint Capela, Dillon Brooks, Jusuf Nurkić, 2026 1st-round pick, 2026 3rd-round pick and 2027 3rd-round pick. MoonUnit 🦬 (Ricky) got Jordan Poole, Mark Williams, Tristan Vukcevic and 2027 2nd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo",
+     "ricky"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1228082770656370688",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "May 13, 2025",
+    "sides": [
+     [
+      "$1 FAAB"
+     ],
+     [
+      "$2 FAAB"
+     ]
+    ],
+    "recap": "May 13, 2025: $1 FAAB for $2 FAAB",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "Equipo Winchenzo (Winch) got $1 FAAB. hotrelish (Jacobo) got $2 FAAB."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch",
+     "jacobo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1297631690394468352",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "November 21, 2025",
+    "sides": [
+     [
+      "Lauri Markkanen",
+      "Michael Porter Jr.",
+      "2026 2nd-round pick",
+      "2026 3rd-round pick"
+     ],
+     [
+      "Andrew Nembhard",
+      "Brandon Ingram",
+      "Ja Morant",
+      "Jusuf Nurkić",
+      "2028 2nd-round pick"
+     ]
+    ],
+    "recap": "November 21, 2025: Lauri Markkanen, Michael Porter Jr., 2026 2nd-round pick and 2026 3rd-round pick for Andrew Nembhard, Brandon Ingram, Ja Morant, Jusuf Nurkić and 2028 2nd-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fidel’s Accumulators (Joey) got Lauri Markkanen, Michael Porter Jr., 2026 2nd-round pick and 2026 3rd-round pick. Fear the Brow (Papo) got Andrew Nembhard, Brandon Ingram, Ja Morant, Jusuf Nurkić and 2028 2nd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1281464730044628992",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "October 8, 2025",
+    "sides": [
+     [
+      "Cody Williams",
+      "Ja Morant"
+     ],
+     [
+      "Derrick White",
+      "Julius Randle",
+      "2026 2nd-round pick",
+      "2026 2nd-round pick",
+      "2027 2nd-round pick",
+      "2028 1st-round pick"
+     ]
+    ],
+    "recap": "October 8, 2025: Cody Williams and Ja Morant for Derrick White, Julius Randle, 2026 2nd-round pick, 2026 2nd-round pick, 2027 2nd-round pick and 2028 1st-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fidel’s Accumulators (Joey) got Cody Williams and Ja Morant. Fear the Brow (Papo) got Derrick White, Julius Randle, 2026 2nd-round pick, 2026 2nd-round pick, 2027 2nd-round pick and 2028 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1166184894842712064",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "November 23, 2024",
+    "sides": [
+     [
+      "James Harden",
+      "Jimmy Butler III",
+      "2026 2nd-round pick"
+     ],
+     [
+      "Jared McCain",
+      "Julius Randle",
+      "P.J. Washington",
+      "Zaccharie Risacher"
+     ]
+    ],
+    "recap": "November 23, 2024: James Harden, Jimmy Butler III and 2026 2nd-round pick for Jared McCain, Julius Randle, P.J. Washington and Zaccharie Risacher",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fidel’s Accumulators (Joey) got James Harden, Jimmy Butler III and 2026 2nd-round pick. The Edey and Matas Show (Papo) got Jared McCain, Julius Randle, P.J. Washington and Zaccharie Risacher."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ],
  "players": [

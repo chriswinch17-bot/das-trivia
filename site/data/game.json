@@ -12247,6 +12247,417 @@
     "group": "standings",
     "difficulty": "medium"
    }
+  ],
+  [
+   {
+    "id": "dc989ba0",
+    "text": "Who traded Ja Morant to Fear the Brow (Papo) on July 3, 2025?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Los Chigüires (Libguel)",
+      "accept": [
+       "Libguel",
+       "Los Chigüires",
+       "Mich",
+       "Mig",
+       "Migue",
+       "Miguel",
+       "miguelhern99"
+      ],
+      "manager": "libguel",
+      "detail": "Libguel went 18-2 in the 2025-2026 regular season (1st of 12) with 9,939 points, then won the championship."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "medium"
+   },
+   {
+    "id": "50910040",
+    "text": "How many regular-season wins did 2057 Champs (Shueiro) have in 2024-2025?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "7",
+      "accept": [
+       "7"
+      ],
+      "manager": "shueiro",
+      "detail": "Shueiro went 7-10 in the 2024-2025 regular season (8th of 12) with 7,902 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "de1f3143",
+    "text": "Which manager drafted Caleb Wilson in the 2026 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Jacobo went 5-0 in the 2026-2027 regular season (1st of 12) with 2,668 points so far."
+     }
+    ],
+    "note": "Pick 3 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   },
+   {
+    "id": "60de6894",
+    "text": "How many regular-season wins did Equipito PapoChullo (Chalela) have in 2023-2024?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "9",
+      "accept": [
+       "9"
+      ],
+      "manager": "chalela",
+      "detail": "Chalela went 9-9 in the 2023-2024 regular season (7th of 12) with 8,286 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "81d7ea0b",
+    "text": "Name a player Rabbi BT69 (Blandon) has acquired in a trade.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Alperen Şengün",
+      "accept": [
+       "Alperen",
+       "Alperen Şengün",
+       "Baby Jokic",
+       "Şengün"
+      ],
+      "detail": "Blandon got Alperen Şengün in a trade with Shueiro on January 30, 2024."
+     },
+     {
+      "display": "Amen Thompson",
+      "accept": [
+       "Amen",
+       "Amen Thompson",
+       "Thompson"
+      ],
+      "detail": "Blandon got Amen Thompson in a trade with Shueiro on January 30, 2024."
+     },
+     {
+      "display": "Bam Adebayo",
+      "accept": [
+       "Adebayo",
+       "Bam",
+       "Bam Adebayo"
+      ],
+      "detail": "Blandon got Bam Adebayo in a trade with Shueiro on January 30, 2024."
+     },
+     {
+      "display": "Bilal Coulibaly",
+      "accept": [
+       "Bilal",
+       "Bilal Coulibaly",
+       "Coulibaly"
+      ],
+      "detail": "Blandon got Bilal Coulibaly in a trade with Verdeja on April 8, 2024."
+     },
+     {
+      "display": "Brandon Miller",
+      "accept": [
+       "Brandon",
+       "Brandon Miller",
+       "Miller"
+      ],
+      "detail": "Blandon got Brandon Miller in a trade with Shueiro on January 30, 2024."
+     },
+     {
+      "display": "D'Angelo Russell",
+      "accept": [
+       "D'Angelo",
+       "D'Angelo Russell",
+       "D-Lo",
+       "DLo",
+       "Russell"
+      ],
+      "detail": "Blandon got D'Angelo Russell in a trade with Papo on January 28, 2025."
+     },
+     {
+      "display": "Derrick White",
+      "accept": [
+       "D White",
+       "Derrick",
+       "Derrick White",
+       "White"
+      ],
+      "detail": "Blandon got Derrick White in a trade with Papo on January 28, 2025."
+     },
+     {
+      "display": "Immanuel Quickley",
+      "accept": [
+       "IQ",
+       "Immanuel",
+       "Immanuel Quickley",
+       "Quickley"
+      ],
+      "detail": "Blandon got Immanuel Quickley in a trade with Shueiro on July 26, 2024."
+     },
+     {
+      "display": "Jaime Jaquez Jr.",
+      "accept": [
+       "Jaime",
+       "Jaime Jaquez",
+       "Jaime Jaquez Jr.",
+       "Jaquez"
+      ],
+      "detail": "Blandon got Jaime Jaquez Jr. in a trade with Winch on July 22, 2024."
+     },
+     {
+      "display": "Jakob Poeltl",
+      "accept": [
+       "Jakob",
+       "Jakob Poeltl",
+       "Poeltl"
+      ],
+      "detail": "Blandon got Jakob Poeltl in a trade with Papo on January 25, 2024."
+     },
+     {
+      "display": "Jalen Williams",
+      "accept": [
+       "J-Dub",
+       "JDub",
+       "JWill",
+       "Jalen",
+       "Jalen Williams",
+       "Williams"
+      ],
+      "detail": "Blandon got Jalen Williams in a trade with Shueiro on January 30, 2024."
+     },
+     {
+      "display": "Jaren Jackson Jr.",
+      "accept": [
+       "JJJ",
+       "Jackson",
+       "Jaren",
+       "Jaren Jackson",
+       "Jaren Jackson Jr.",
+       "Triple J"
+      ],
+      "detail": "Blandon got Jaren Jackson Jr. in a trade with Papo on November 1, 2024."
+     },
+     {
+      "display": "Jeremy Sochan",
+      "accept": [
+       "Jeremy",
+       "Jeremy Sochan",
+       "Sochan"
+      ],
+      "detail": "Blandon got Jeremy Sochan in a trade with Jacobo on September 19, 2025."
+     },
+     {
+      "display": "Jonathan Kuminga",
+      "accept": [
+       "Jonathan",
+       "Jonathan Kuminga",
+       "Kuminga"
+      ],
+      "detail": "Blandon got Jonathan Kuminga in a trade with Shueiro on January 30, 2024."
+     },
+     {
+      "display": "Jusuf Nurkić",
+      "accept": [
+       "Bosnian Beast",
+       "Jusuf",
+       "Jusuf Nurkić",
+       "Nurkić"
+      ],
+      "detail": "Blandon got Jusuf Nurkić in a trade with Winch and Papo on February 26, 2026."
+     },
+     {
+      "display": "Keldon Johnson",
+      "accept": [
+       "Johnson",
+       "Keldon",
+       "Keldon Johnson"
+      ],
+      "detail": "Blandon got Keldon Johnson in a trade with Joey on January 6, 2024."
+     },
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ],
+      "detail": "Blandon got Lauri Markkanen in a trade with Joey on January 6, 2024. Blandon has traded for Lauri Markkanen 2 times in all."
+     },
+     {
+      "display": "Miles Bridges",
+      "accept": [
+       "Bridges",
+       "Miles",
+       "Miles Bridges"
+      ],
+      "detail": "Blandon got Miles Bridges in a trade with Shueiro on January 30, 2024."
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ],
+      "detail": "Blandon got Naz Reid in a trade with Jacobo on December 1, 2023."
+     },
+     {
+      "display": "Nic Claxton",
+      "accept": [
+       "Claxton",
+       "Nic",
+       "Nic Claxton"
+      ],
+      "detail": "Blandon got Nic Claxton in a trade with Papo on August 24, 2024."
+     },
+     {
+      "display": "Onyeka Okongwu",
+      "accept": [
+       "Okongwu",
+       "Onyeka",
+       "Onyeka Okongwu"
+      ],
+      "detail": "Blandon got Onyeka Okongwu in a trade with Shueiro on January 30, 2024."
+     },
+     {
+      "display": "Ryan Kalkbrenner",
+      "accept": [
+       "Kalkbrenner",
+       "Ryan",
+       "Ryan Kalkbrenner"
+      ],
+      "detail": "Blandon got Ryan Kalkbrenner in a trade with Papo on February 24, 2026."
+     },
+     {
+      "display": "Stephon Castle",
+      "accept": [
+       "Castle",
+       "Stephon",
+       "Stephon Castle"
+      ],
+      "detail": "Blandon got Stephon Castle in a trade with Papo on March 31, 2025."
+     },
+     {
+      "display": "Tari Eason",
+      "accept": [
+       "Eason",
+       "Tari",
+       "Tari Eason"
+      ],
+      "detail": "Blandon got Tari Eason in a trade with Shueiro on January 30, 2024."
+     },
+     {
+      "display": "Trey Murphy III",
+      "accept": [
+       "Murphy",
+       "Trey",
+       "Trey Murphy",
+       "Trey Murphy III"
+      ],
+      "detail": "Blandon got Trey Murphy III in a trade with Papo on September 10, 2025."
+     }
+    ],
+    "note": null,
+    "about": [
+     "blandon"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "easy"
+   },
+   {
+    "id": "15c18426",
+    "text": "Who did hotrelish (Jacobo) take with their first pick of the 2023 startup draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "LaMelo Ball",
+      "accept": [
+       "Ball",
+       "LaMelo",
+       "LaMelo Ball",
+       "Melo Ball"
+      ],
+      "detail": "Taken 5th overall by hotrelish (Jacobo) in the 2023 startup draft. Traded 2 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "hard"
+   },
+   {
+    "id": "99694384",
+    "text": "Which manager drafted AJ Dybantsa in the 2026 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "hotrelish (Jacobo)",
+      "accept": [
+       "Jacob",
+       "Jacobo",
+       "Jake",
+       "hotrelish"
+      ],
+      "manager": "jacobo",
+      "detail": "Jacobo went 5-0 in the 2026-2027 regular season (1st of 12) with 2,668 points so far."
+     }
+    ],
+    "note": "Pick 5 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   }
   ]
  ],
  "players": [
