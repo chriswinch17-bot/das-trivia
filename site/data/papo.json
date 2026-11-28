@@ -6468,6 +6468,191 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "1213226998235680768",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "April 2, 2025",
+    "sides": [
+     [
+      "Chris Paul",
+      "Joel Embiid",
+      "2025 3rd-round pick",
+      "2026 2nd-round pick"
+     ],
+     [
+      "Dejounte Murray",
+      "LeBron James",
+      "Yves Missi",
+      "2025 2nd-round pick"
+     ]
+    ],
+    "recap": "April 2, 2025: Chris Paul, Joel Embiid, 2025 3rd-round pick and 2026 2nd-round pick for Dejounte Murray, LeBron James, Yves Missi and 2025 2nd-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fear the Brow (Papo) got Chris Paul, Joel Embiid, 2025 3rd-round pick and 2026 2nd-round pick. LeBong James 👑 (Melo) got Dejounte Murray, LeBron James, Yves Missi and 2025 2nd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1167606875010048000",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "November 27, 2024",
+    "sides": [
+     [
+      "Dalton Knecht",
+      "Jalen Green"
+     ],
+     [
+      "Zach Edey",
+      "2025 1st-round pick",
+      "2027 1st-round pick",
+      "2027 1st-round pick"
+     ]
+    ],
+    "recap": "November 27, 2024: Dalton Knecht and Jalen Green for Zach Edey, 2025 1st-round pick, 2027 1st-round pick and 2027 1st-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "The Edey and Matas Show (Papo) got Dalton Knecht and Jalen Green. hotrelish (Jacobo) got Zach Edey, 2025 1st-round pick, 2027 1st-round pick and 2027 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1122586022098984960",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "July 26, 2024",
+    "sides": [
+     [
+      "Jaime Jaquez Jr."
+     ],
+     [
+      "Immanuel Quickley",
+      "2026 2nd-round pick"
+     ]
+    ],
+    "recap": "July 26, 2024: Jaime Jaquez Jr. for Immanuel Quickley and 2026 2nd-round pick",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "2057 Champs (Shueiro) got Jaime Jaquez Jr.. Rabbi Repeat BT69 (Blandon) got Immanuel Quickley and 2026 2nd-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro",
+     "blandon"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1058187370442395648",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": false,
+    "date": "January 30, 2024",
+    "sides": [
+     [
+      "Alperen Şengün"
+     ],
+     [
+      "Amen Thompson",
+      "Bam Adebayo",
+      "Brandon Miller",
+      "Jalen Williams",
+      "Jonathan Kuminga",
+      "Lauri Markkanen",
+      "Miles Bridges",
+      "Tari Eason"
+     ]
+    ],
+    "recap": "January 30, 2024: Alperen Şengün for Amen Thompson, Bam Adebayo, Brandon Miller, Jalen Williams, Jonathan Kuminga, Lauri Markkanen, Miles Bridges and Tari Eason",
+    "answers": [
+     {
+      "display": "NO, Papo wasn't in it",
+      "accept": [
+       "no"
+      ],
+      "detail": "2057 Champs (Shueiro) got Alperen Şengün. Rabbi BT69 (Blandon) got Amen Thompson, Bam Adebayo, Brandon Miller, Jalen Williams, Jonathan Kuminga, Lauri Markkanen, Miles Bridges and Tari Eason."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro",
+     "blandon"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   },
+   {
+    "id": "1271559413286584320",
+    "text": "Was Papo in this trade?",
+    "kind": "yesno",
+    "yes": true,
+    "date": "September 10, 2025",
+    "sides": [
+     [
+      "Bam Adebayo",
+      "2026 2nd-round pick"
+     ],
+     [
+      "Trey Murphy III",
+      "2027 1st-round pick",
+      "2027 1st-round pick"
+     ]
+    ],
+    "recap": "September 10, 2025: Bam Adebayo and 2026 2nd-round pick for Trey Murphy III, 2027 1st-round pick and 2027 1st-round pick",
+    "answers": [
+     {
+      "display": "YES, Papo was in it",
+      "accept": [
+       "yes"
+      ],
+      "detail": "Fear the Brow (Papo) got Bam Adebayo and 2026 2nd-round pick. Rabbi BT69 (Blandon) got Trey Murphy III, 2027 1st-round pick and 2027 1st-round pick."
+     }
+    ],
+    "note": null,
+    "about": [
+     "papo"
+    ],
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ],
  "players": [

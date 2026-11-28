@@ -12658,6 +12658,274 @@
     "group": "drafts",
     "difficulty": "medium"
    }
+  ],
+  [
+   {
+    "id": "43b232b1",
+    "text": "How many regular-season wins did I Love Dragić (Victor) have in 2025-2026?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "9",
+      "accept": [
+       "9"
+      ],
+      "manager": "victor",
+      "detail": "Victor went 9-11 in the 2025-2026 regular season (8th of 12) with 8,200 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "victor"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "766fb303",
+    "text": "Name one of the first five players Equipito PapoChullo (Chalela) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Desmond Bane",
+      "accept": [
+       "Bane",
+       "Desmond",
+       "Desmond Bane"
+      ],
+      "detail": "Taken 40th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Jabari Smith Jr.",
+      "accept": [
+       "Jabari",
+       "Jabari Smith",
+       "Jabari Smith Jr.",
+       "Smith"
+      ],
+      "detail": "Taken 57th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Traded 4 times in Das League."
+     },
+     {
+      "display": "Jalen Brunson",
+      "accept": [
+       "Brunson",
+       "Jalen",
+       "Jalen Brunson"
+      ],
+      "detail": "Taken 33rd overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Shai Gilgeous-Alexander",
+      "accept": [
+       "Alexander",
+       "Gilgeous",
+       "Gilgeous-Alexander",
+       "SGA",
+       "Shai",
+       "Shai Gilgeous-Alexander"
+      ],
+      "detail": "Taken 9th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Trae Young",
+      "accept": [
+       "Ice Trae",
+       "Trae",
+       "Trae Young",
+       "Young"
+      ],
+      "detail": "Taken 16th overall by Equipito PapoChullo (Chalela) in the 2023 startup draft. Never traded in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "chalela"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "easy"
+   },
+   {
+    "id": "ce59a10f",
+    "text": "Who traded Cody Williams to Fidel’s Accumulators (Joey) on October 8, 2025?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "Fear the Brow (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 15-5 in the 2025-2026 regular season (2nd of 12) with 9,460 points, then lost in the final."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "trades.json"
+    ],
+    "group": "trades",
+    "difficulty": "medium"
+   },
+   {
+    "id": "5199ab99",
+    "text": "How many regular-season wins did MoonUnit 🦬 (Ricky) have in 2025-2026?",
+    "kind": "number",
+    "answers": [
+     {
+      "display": "7",
+      "accept": [
+       "7"
+      ],
+      "manager": "ricky",
+      "detail": "Ricky went 7-13 in the 2025-2026 regular season (9th of 12) with 8,086 points and missed the playoffs."
+     }
+    ],
+    "note": null,
+    "about": [
+     "ricky"
+    ],
+    "sources": [
+     "seasons.json"
+    ],
+    "group": "standings",
+    "difficulty": "medium"
+   },
+   {
+    "id": "56e511dc",
+    "text": "Who was pick 4 of the 2025 rookie draft?",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Ace Bailey",
+      "accept": [
+       "Ace",
+       "Ace Bailey",
+       "Bailey"
+      ],
+      "detail": "Taken 4th overall by hotrelish (Jacobo) in the 2025 rookie draft. Never traded in Das League."
+     }
+    ],
+    "note": "Taken by hotrelish (Jacobo).",
+    "about": [
+     "jacobo"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "hard"
+   },
+   {
+    "id": "93792bfd",
+    "text": "Name one of the first five players Equipo Winchenzo (Winch) took in the 2023 startup draft.",
+    "kind": "player",
+    "answers": [
+     {
+      "display": "Devin Booker",
+      "accept": [
+       "Book",
+       "Booker",
+       "Devin",
+       "Devin Booker"
+      ],
+      "detail": "Taken 15th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "James Harden",
+      "accept": [
+       "Beard",
+       "Harden",
+       "James",
+       "James Harden",
+       "The Beard"
+      ],
+      "detail": "Taken 39th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Traded 4 times in Das League."
+     },
+     {
+      "display": "Jayson Tatum",
+      "accept": [
+       "JT",
+       "Jayson",
+       "Jayson Tatum",
+       "Tatum"
+      ],
+      "detail": "Taken 10th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Kawhi Leonard",
+      "accept": [
+       "Kawhi",
+       "Kawhi Leonard",
+       "Klaw",
+       "Leonard",
+       "The Klaw"
+      ],
+      "detail": "Taken 58th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Never traded in Das League."
+     },
+     {
+      "display": "Stephen Curry",
+      "accept": [
+       "Chef Curry",
+       "Curry",
+       "Steph",
+       "Stephen",
+       "Stephen Curry"
+      ],
+      "detail": "Taken 34th overall by Equipo Winchenzo (Winch) in the 2023 startup draft. Traded 4 times in Das League."
+     }
+    ],
+    "note": null,
+    "about": [
+     "winch"
+    ],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "startup",
+    "difficulty": "easy"
+   },
+   {
+    "id": "46f150c8",
+    "text": "Which manager drafted Matas Buzelis in the 2024 rookie draft?",
+    "kind": "manager",
+    "answers": [
+     {
+      "display": "The Edey and Matas Show (Papo)",
+      "accept": [
+       "Fear the Brow",
+       "Luka Deez Nuts",
+       "Papo",
+       "Papochullo6969",
+       "Pedro",
+       "The Edey and Matas Show",
+       "papochullo7979"
+      ],
+      "manager": "papo",
+      "detail": "Papo went 5-12 in the 2024-2025 regular season (10th of 12) with 6,352 points and missed the playoffs."
+     }
+    ],
+    "note": "Pick 6 overall.",
+    "about": [],
+    "sources": [
+     "drafts.json"
+    ],
+    "group": "drafts",
+    "difficulty": "medium"
+   }
   ]
  ],
  "players": [

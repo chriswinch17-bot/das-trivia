@@ -3411,6 +3411,259 @@
      "data/raw/sleeper"
     ]
    }
+  ],
+  [
+   {
+    "id": "rw-2026-11-28-2050",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "2050",
+     "name": "De'Andre Hunter",
+     "pos": "PF",
+     "nba": "SAC",
+     "gp": 16,
+     "fpg": 26.3,
+     "line": "15.2 pts · 4.8 reb · 2.1 ast",
+     "teams": 8,
+     "recent": 35.2,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "De'Andre Hunter (PF, SAC): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by LeBong James (Melo)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "LeBong James (Melo) has had him since Nov 21. He's averaging 26.3 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "melo"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-28-1792",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "1792",
+     "name": "Dillon Brooks",
+     "pos": "SF",
+     "nba": "PHX",
+     "gp": 17,
+     "fpg": 25.4,
+     "line": "15.0 pts · 3.8 reb · 2.7 ast",
+     "teams": 9,
+     "recent": 30.4,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Dillon Brooks (SF, PHX): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by 2057 Champs (Shueiro)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "2057 Champs (Shueiro) has had him since before this season. He's averaging 25.4 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [
+     "shueiro"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-28-2119",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2119",
+     "name": "Obi Toppin",
+     "pos": "PF",
+     "nba": "IND",
+     "gp": 15,
+     "fpg": 20.5,
+     "line": "11.9 pts · 4.2 reb · 1.6 ast",
+     "teams": 6,
+     "recent": 14.2,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Obi Toppin (PF, IND): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 6 Das League teams. Papo dropped him on Nov 23. He's averaging 20.5 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-28-2095",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2095",
+     "name": "Luguentz Dort",
+     "pos": "SF",
+     "nba": "ATL",
+     "gp": 17,
+     "fpg": 19.8,
+     "line": "9.4 pts · 3.2 reb · 1.4 ast",
+     "teams": 9,
+     "recent": 16.8,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Luguentz Dort (SF, ATL): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 9 Das League teams. Victor dropped him on Nov 27. He's averaging 19.8 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-28-4915",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": true,
+    "player": {
+     "id": "4915",
+     "name": "Ryan Conwell",
+     "pos": "SG",
+     "nba": "MIA",
+     "gp": 15,
+     "fpg": 14.7,
+     "line": "7.4 pts · 1.8 reb · 1.3 ast",
+     "teams": 3,
+     "recent": 18.4,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Ryan Conwell (SG, MIA): rostered or waiver?",
+    "answers": [
+     {
+      "display": "ROSTERED by Fidel’s Accumulators (Joey)",
+      "accept": [
+       "rostered"
+      ],
+      "detail": "Fidel’s Accumulators (Joey) has had him since Jul 14. He's averaging 14.7 fantasy points a game, the 7th lowest of the 175 rostered players who've played."
+     }
+    ],
+    "note": null,
+    "about": [
+     "joey"
+    ],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-28-2296",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2296",
+     "name": "Sandro Mamukelashvili",
+     "pos": "C",
+     "nba": "LAL",
+     "gp": 18,
+     "fpg": 21.0,
+     "line": "9.2 pts · 4.4 reb · 1.7 ast",
+     "teams": 8,
+     "recent": 11.4,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Sandro Mamukelashvili (C, LAL): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 8 Das League teams. Papo dropped him on Nov 21. He's averaging 21.0 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   },
+   {
+    "id": "rw-2026-11-28-2397",
+    "text": "Rostered or waiver?",
+    "kind": "rw",
+    "yes": false,
+    "player": {
+     "id": "2397",
+     "name": "Brandon Williams",
+     "pos": "PG",
+     "nba": "GSW",
+     "gp": 11,
+     "fpg": 20.3,
+     "line": "10.7 pts · 2.1 reb · 2.4 ast",
+     "teams": 5,
+     "recent": 14.6,
+     "recent_n": 5,
+     "injury": null
+    },
+    "recap": "Brandon Williams (PG, GSW): rostered or waiver?",
+    "answers": [
+     {
+      "display": "WAIVER: he's a free agent",
+      "accept": [
+       "waiver"
+      ],
+      "detail": "Nobody has him. He's been on 5 Das League teams. Ricky dropped him on Jul 9. He's averaging 20.3 fantasy points a game."
+     }
+    ],
+    "note": null,
+    "about": [],
+    "sources": [
+     "Sleeper live rosters, transactions and season stats",
+     "data/raw/sleeper"
+    ]
+   }
   ]
  ],
  "as_of": [
@@ -3428,7 +3681,8 @@
   "Tue Nov 24, 12:59 AM EST",
   "Wed Nov 25, 12:01 AM EST",
   "Thu Nov 26, 12:59 AM EST",
-  "Fri Nov 27, 12:00 AM EST"
+  "Fri Nov 27, 12:00 AM EST",
+  "Sat Nov 28, 12:56 AM EST"
  ],
  "dates": [
   "2026-11-13",
@@ -3445,7 +3699,8 @@
   "2026-11-24",
   "2026-11-25",
   "2026-11-26",
-  "2026-11-27"
+  "2026-11-27",
+  "2026-11-28"
  ],
  "players": [
   {

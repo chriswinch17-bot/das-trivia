@@ -2750,6 +2750,79 @@
      "trades.json"
     ]
    }
+  ],
+  [
+   {
+    "id": "2717637a",
+    "prompt": "Name a player MoonUnit 🦬 (Ricky) has traded for.",
+    "answers": [
+     {
+      "display": "Lauri Markkanen",
+      "accept": [
+       "Lauri",
+       "Lauri Markkanen",
+       "Markkanen"
+      ],
+      "detail": "Traded for 1 time by Ricky (traded 10 times in all).",
+      "points": 40
+     },
+     {
+      "display": "Mikal Bridges",
+      "accept": [
+       "Bridges",
+       "Mikal",
+       "Mikal Bridges"
+      ],
+      "detail": "Traded for 1 time by Ricky (traded 6 times in all).",
+      "points": 25
+     },
+     {
+      "display": "Naz Reid",
+      "accept": [
+       "Naz",
+       "Naz Reid",
+       "Reid"
+      ],
+      "detail": "Traded for 1 time by Ricky (traded 6 times in all).",
+      "points": 15
+     },
+     {
+      "display": "Jalen Green",
+      "accept": [
+       "Green",
+       "Jalen",
+       "Jalen Green"
+      ],
+      "detail": "Traded for 1 time by Ricky (traded 4 times in all).",
+      "points": 10
+     },
+     {
+      "display": "Jordan Poole",
+      "accept": [
+       "Jordan",
+       "Jordan Poole",
+       "Poole"
+      ],
+      "detail": "Traded for 1 time by Ricky (traded 4 times in all).",
+      "points": 6
+     },
+     {
+      "display": "Alperen Şengün",
+      "accept": [
+       "Alperen",
+       "Alperen Şengün",
+       "Baby Jokic",
+       "Şengün"
+      ],
+      "detail": "Traded for 1 time by Ricky (traded 3 times in all).",
+      "points": 4
+     }
+    ],
+    "note": "Ranked by how often they traded for him, then how often he's been traded in the league.",
+    "sources": [
+     "trades.json"
+    ]
+   }
   ]
  ]
 }
